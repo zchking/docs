@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: Manuals
-      url: /katalon-studio/docs/welcome_to_katalon_products.html
+      url: /katalon-studio/docs/welcome-to-katalon-products.html
       parenturl: /katalon-studio/docs
     - title: Tutorials
       url: /katalon-studio/tutorials/quick_start.html

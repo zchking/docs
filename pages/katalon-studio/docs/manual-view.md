@@ -1,0 +1,95 @@
+---
+title: "Manual View" 
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/manual-view.html 
+description: 
+---
+KatalonStudio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the applications under test. 
+
+Given a sample test case with the steps as below:
+
+*   _Open the browser_
+*   _Navigate to a website_
+*   _Click on certain control_
+*   _Validate if a control exists on the page_
+*   _Close the browser_
+
+Follow these steps to automate the above test scenario in **Manual view**:
+
+1.  Select **File > New > Test Case** from the main menu. The **New Test Case** dialog will be displayed. Provide the name for the new test case, then click **OK** button.  
+    ![](../../images/katalon-studio/docs/manual-view/image2017-2-15 9_59_10.png)  
+      
+    
+2.  Once a new test case is created, it is opened in **Manual view**. This view allows users to create automation tests easily with little programming skills required.  
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 13_53_45.png)  
+      
+    
+3.  Select **Add > Web UI Keyword** from the command toolbar.
+    
+    **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
+    
+      
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 13_54_48.png)  
+      
+    
+      
+    
+4.  Select the **[Open Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)  
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_1_24.png)  
+      
+    
+5.  Add the **[Navigate To Url](https://docs.katalon.com/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.   
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_36_31.png)  
+      
+    
+6.  The **Input** dialog is displayed.   
+    ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_6_59.png)  
+    Where:
+    
+    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">No</td><td class="xtd-1-1 confluenceTd">The number of parameter for the selected keyword.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Param Name</td><td class="xtd-2-1 confluenceTd">The name of the parameter.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Param Type</td><td class="xtd-3-1 confluenceTd">The required data type for the parameter.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd">Value Type</td><td class="xtd-4-1 confluenceTd">The type of your input value (e.g. strings, <a href="https://docs.katalon.com/display/KD/Variable+Types" rel="nofollow">variables</a>, <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow">data sources</a>...)</td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd">Value</td><td class="xtd-5-1 confluenceTd"><div class="content-wrapper"><p>The input value for this parameter.</p><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p><span>Input value can be varied based on&nbsp;</span><strong>Value Type</strong><span>. Refer to&nbsp;</span><a href="https://docs.katalon.com/display/KD/Value+Types" rel="nofollow">Value Types in Katalon</a><span>&nbsp;for more details.</span></p></div></div></div></td></tr></tbody></table>
+    
+      
+    For now, enter the URL of Katalon demo AUT ([http://demoaut.katalon.com](http://demoaut.katalon.com)) into the **Value** column then click **OK**.   
+      
+    
+7.  Add the **[Click](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.   
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_51_0.png)  
+      
+    
+8.  All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog (Refer to [Spy Object](/display/KD/Spy+Object) for details regarding how to capture objects). Select your object then click **OK**.  
+    ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_14_44.png)  
+      
+    
+9.  Add the **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_54_15.png)  
+      
+    
+10.  Add the **[Close Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_56_32.png)  
+      
+    
+11.  Click on **Run** in the main toolbar to execute the test case.   
+    ![](../../images/katalon-studio/docs/manual-view/image2017-8-11 10_57_37.png)  
+      
+    Katalon Studio should be able to execute all the steps of the sample test case.
+
+Recent Keywords
+---------------
+
+**Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list. For example, let's take test case above. To add another **_Verify Element Present_** after _Step 4_, **recent keywords** feature wouldaccomplished this in seconds.
+
+Highlight _Step 4_. Click on **Recent Keywords** and select **_Verify Element Present_**. An extra step is added after _Step 4_ as illustrated below:
+
+![](../../images/katalon-studio/docs/manual-view/image2017-8-21 12_9_39.png)   ![](../../images/katalon-studio/docs/manual-view/image2017-8-21 12_13_31.png)
+
+Recent Objects and Object Folders
+---------------------------------
+
+KatalonStudio allows users to quickly select recently used **Object** or jump directly to recent used **Object Folder** in Object Repository.
+
+Recent list will have two sections: **Object Folder** and **Test Object**
+
+*   **Test Object:** Display the names of the last 5 selected objects
+*   **Object Folder:** Display the names of 5 folders that contain anyrecent used objects
+
+![](../../images/katalon-studio/docs/manual-view/image2017-8-25 17_29_39.png)
