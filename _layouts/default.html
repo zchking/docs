@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript">
+        !function(){var analytics=window.analytics=window.analytics||[];if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.0";
+            window.analytics.load("CKtkuhHutrLD5L4bAWNj16wwaCmP2Oxw");
+        window.analytics.page();
+          }}();
+    </script>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="{{site.site_icon}}" sizes="129x128">
+    <meta name="msapplication-TileImage" content="{{site.site_icon}}">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{{site.site_icon}}" sizes="129x128">
+    <meta property="og:image" content="{{site.site_icon}}"/>
+    <!-- metadata -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:updated_time" itemprop="dateUpdated" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"/>
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="{{site.site_icon}}"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:domain" content="{{site.site_domain}}"/>
+    <meta name="twitter:site" content="@{{site.site_twitter_mention}}"/>
+    <meta name="twitter:url" content="{{site.site_twitter}}"/>
+    <meta name="twitter:title" itemprop="title name" content="{{ page.title }}"/>
+    <meta name="twitter:description" property="og:description" itemprop="description" content="{{ content | strip_html | truncatewords: 30}}" />
+    <meta name="twitter:image:src" content="{{site.site_icon}}"/>
+    <meta name="twitter:image:alt" content="{{site.site_title}}"/>
+    <meta property="article:published_time" itemprop="datePublished" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/pygments/perldoc.css">
+    <link rel="stylesheet" href="/css/customstyles.css">
+    <link rel="stylesheet" href="/css/github.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <title>{{page.title}} | {{site.site_title}}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <link rel="canonical" href="{{ page.url }}" />
+    <meta property="og:url" content="{{site.site_url}}{{ page.url }}" />
+    <meta property="og:site_name" content="{{site.site_url}}" />
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"{{site.site_url}}{{page.url}}"}</script>
+</head>
+<body class="colums">
+    <header>
+        <nav class="nav-secondary navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html">
+                        <img class="logo" src="/images/katalon/template/logo_katalon_docs@2x.png" alt="{{site.site_title}}">
+                    </a>
+                </div>
+                <div class="navbar-collapse" style="height: 1px;">
+                    <div class="search-form" id="search-div">
+                        <form class="search-form form-inline ng-pristine ng-valid" id="searchForm" action="/search/">
+                            <input class="search-field form-control ds-input" id="st-search-input" value="" name="q" placeholder="{{site.data.strings.search_placeholder_text}}" type="search" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top;">
+                            <div id="autocompleteContainer">
+                                <div id="autocompleteResults">
+                                    <div id="autoContainer">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="sidebar-toggle">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">{{site.data.strings.button_toggle_navigation}}</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    {% assign topnav = site.data[page.topnav] %}
+                    <div class="nav-container">
+                        <div id="tabs">
+                            <ul class="tabs" id="jsTOCHorizontal">
+                                {% for entry in topnav.topnav %}
+                                    {% for item in entry.items %}
+                                        {% if item.external_url %}
+                                            <li>
+                                                <a href="{{item.external_url}}" target="_blank">{{item.title}}</a>
+                                            </li>
+                                        {% elsif page.url contains item.parenturl or page.url == item.url %}
+                                            <li class="active">
+                                                <a href="{{item.url}}">{{item.title}}</a>
+                                            </li>
+                                        {% else %}
+                                            <li>
+                                                <a href="{{item.url}}">{{item.title}}</a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div id="gta" class="ctrl-right hidden-xs hidden-sm">
+                            <ul class="tabs">
+                                <li>
+                                    <a href="https://www.katalon.com" target="_blank">katalon.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper right-open">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-body">
+                    <main class="col-content content">
+                        <section class="section">
+                            {{content}}
+                        </section>
+                    </main>
+                    <nav class="col-nav">
+                        <div id="sidebar-nav" class="sidebar hidden-sm hidden-xs">
+                            <div id="navbar" class="nav-sidebar">
+                                {% assign sidebar = site.data.sidebars[page.sidebar].entries %}
+                                <ul class="nav" id="jsTOCLeftNav">
+                                    {% for entry in sidebar %}
+                                        {% for folder in entry.folders %}
+                                            <li>
+                                                <a href="#">
+                                                    {{ folder.title }}
+                                                    <span class="caret arrow"></span>
+                                                </a>
+                                                <ul class="nav collapse">
+                                                    {% for folderitem in folder.folderitems %}
+                                                        {% if folderitem.external_url %}
+                                                            <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
+                                                        {% elsif page.url == folderitem.url %}
+                                                            <li class="active"><a href="{{folderitem.url}}">{{folderitem.title}}</a></li>
+                                                        {% elsif folderitem.type == "empty" %}
+                                                            <li><a href="{{folderitem.url}}">{{folderitem.title}}</a></li>
+                                                        {% else %}
+                                                            <li><a href="{{folderitem.url}}">{{folderitem.title}}</a></li>
+                                                        {% endif %}
+                                                        {% for subfolders in folderitem.subfolders %}
+                                                            <li class="subfolders">
+                                                                <a href="#">{{subfolders.title}}</a>
+                                                                <ul>
+                                                                    {% for subfolderitem in subfolders.subfolderitems %}
+                                                                        {% if subfolderitem.external_url %}
+                                                                            <li><a href="{{subfolderitem.external_url}}" target="_blank">{{subfolderitem.title}}</a></li>
+                                                                        {% elsif page.url == subfolderitem.url %}
+                                                                            <li class="active"><a href="{{subfolderitem.url}}">{{subfolderitem.title}}</a></li>
+                                                                        {% else %}
+                                                                            <li><a href="{{subfolderitem.url}}">{{subfolderitem.title}}</a></li>
+                                                                        {% endif %}
+                                                                    {% endfor %}
+                                                                </ul>
+                                                            </li>
+                                                        {% endfor %}
+                                                    {% endfor %}
+                                                </ul>
+                                            </li>
+                                        {% endfor %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <nav class="col-toc">
+                        <div class="sidebar hidden-xs hidden-sm">
+                            <div class="toc-nav">
+                                {% unless page.toc == false %}
+                                    <div class="feedback-links">
+                                        <ul>
+                                            <li>
+                                                <a href="https://github.com/{{site.github_editme_path}}/pages/{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}">
+                                                    <i class="fa fa-pencil-square-o"></i> {{site.data.strings.link_edit_this_page}}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/{{site.github_editme_path}}/issues/new?body=File: {{page.url | remove: ".html" | append: ".md"}}" class="nomunge">
+                                                    <i class="fa fa-check"></i> {{site.data.strings.link_request_docs_changes}}</a>
+                                                </li>
+                                            <li>
+                                                <a href="https://www.katalon.com/support-service-options/">
+                                                    <i class="fa fa-question"></i> {{site.data.strings.link_get_support}}
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <div class="toggle-mode">
+                                                    <div class="icon">
+                                                        <i class="fa fa-sun-o"></i>
+                                                    </div>
+                                                    <div class="toggle-switch">
+                                                        <label class="switch">
+                                                            <input type="checkbox" id="switch-style">
+                                                            <div class="slider round"></div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="icon">
+                                                        <i class="fa fa-moon-o"></i>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="side-toc-title">{{site.data.strings.section_on_this_page}}:</div>
+                                        <ul id="my_toc" class="inline_toc"></ul>
+                                    </div>
+                                {% endunless %}
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="bottom_footer">
+                <div class="footer-copyright col-xs-12 col-md-8">
+                    <p class="copyright">{{site.data.strings.copyright}}</p>
+                </div>
+                <div class="footer_social_nav">
+                    <ul class="nav-social">
+                        <li class="fa fa-twitter"><a href="{{site.site_twitter}}">Twitter</a></li>
+                        <li class="fa fa-youtube"><a href="https://www.youtube.com/channel/UC0g8oLvxnX0i3Ul98uSOrPA">Youtube</a></li>
+                        <li class="fa fa-github"><a href="https://github.com/katalon-studio">Github</a></li>
+                        <li class="fa fa-linkedin"><a href="https://www.linkedin.com/company/katalon-automation-testing-tool">LinkedIn</a></li>
+                        <li class="fa fa-facebook"><a href="https://www.facebook.com/katalonstudio.kms">Facebook</a></li>
+                        <li class="fa fa-slideshare"><a href="https://www.slideshare.net/Katalon_Studio">SlideShare</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/stickyfill.min.js"></script>
+    <script src="/js/jquery.cookie.min.js"></script>
+    <script src="/js/jquery.navgoco.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/customscripts.js"></script>
+</body>
+</html>

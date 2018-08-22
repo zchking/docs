@@ -1,0 +1,129 @@
+entries:
+- title: Sidebar
+  folders:
+  - title: Getting Started
+    folderitems:
+    - title: "Data-driven testing approach with Katalon Studio"
+      url: /katalon-studio/tutorials/data_driven_testing.html
+    - title: "Katalon Studio integration with Git overview"
+      url: /katalon-studio/tutorials/git_integration_introduction.html
+    - title: "How to import external library into your automation project"
+      url: /katalon-studio/tutorials/import_java_library.html
+    - title: "How to perform Database Testing using Katalon Studio"
+      url: /katalon-studio/tutorials/connect_db_gui_testing.html
+    - title: "How to create a custom keyword"
+      url: /katalon-studio/tutorials/create_custom_keyword.html
+    - title: "Quick Start"
+      url: /katalon-studio/tutorials/quick_start.html
+    - title: "A Sample Web Automation Test Project"
+      url: /katalon-studio/tutorials/sample_web_automation_test_project.html
+    - title: "Handling drag and drop testing for web applications with Katalon Studio"
+      url: /katalon-studio/tutorials/drag_drop_web_applications_katalon_studio.html
+    - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
+      url: /katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
+    - title: "Installing and Setting up Katalon Studio"
+      url: /katalon-studio/tutorials/install_setup_katalon_studio.html
+    - title: "Katalon Studio GUI Overview"
+      url: /katalon-studio/tutorials/gui_overview.html
+    - title: "Common Condition and Control statements with Katalon Studio"
+      url: /katalon-studio/tutorials/common_condition_control_statements.html
+    - title: "Setting up Mobile automation project in macOS"
+      url: /katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
+    - title: "Creating test case using Record & Playback"
+      url: /katalon-studio/tutorials/create_test_case_using_record_playback.html
+    - title: "Creating test case using manual mode"
+      url: /katalon-studio/tutorials/create_test_case_using_manual_mode.html
+    - title: "Common validation statements with Katalon Studio"
+      url: /katalon-studio/tutorials/common_validation_statements_katalon_studio.html
+    - title: "Creating test case using script mode"
+      url: /katalon-studio/tutorials/create_test_case_using_script_mode.html
+    - title: "Configuring Katalon Studio for the Web automation test project"
+      url: /katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project.html
+    - title: "Executing test case"
+      url: /katalon-studio/tutorials/executing_test_case.html
+    - title: "Debugging test case"
+      url: /katalon-studio/tutorials/debugging_test_case.html
+    - title: "How to execute/debug certain steps of a test case"
+      url: /katalon-studio/tutorials/execute_debug_certain_steps.html
+    - title: "Executing in console mode"
+      url: /katalon-studio/tutorials/executing_console_mode.html
+    - title: "Viewing execution logs"
+      url: /katalon-studio/tutorials/viewing_execution_logs.html
+    - title: "Viewing test suite reports"
+      url: /katalon-studio/tutorials/viewing_test_suite_reports.html
+    - title: "Solving Wait-time issue with Katalon Studio"
+      url: /katalon-studio/tutorials/solving_common_issue_wait_time.html
+    - title: "Handling iFrame issue with Katalon Studio"
+      url: /katalon-studio/tutorials/handling_iframe_issue.html
+    - title: "Detecting elements with Xpath in Katalon Studio"
+      url: /katalon-studio/tutorials/detect_elements_xpath.html
+    - title: "Solving Pop-up dialog issue with Katalon Studio"
+      url: /katalon-studio/tutorials/pop_up_dialog_issue.html
+    - title: "Katalon Studio Integration with Jira Overview"
+      url: /katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html
+    - title: "Automation testing of Shadow DOM elements with Katalon Studio"
+      url: /katalon-studio/tutorials/shadow_dom_elements_testing.html
+    - title: "How to integrate with Kobiton"
+      url: /katalon-studio/tutorials/integrate_with_kobiton.html
+    - title: "Uploading test execution reports to Katalon Analytics"
+      url: /katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics.html
+    - title: "Viewing test execution reports in Katalon Analytics"
+      url: /katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics.html
+    - title: "How to use synchronization commands while recording"
+      url: /katalon-studio/tutorials/synchronization_commands_recording.html
+    - title: "How to handle Web Tables"
+      url: /katalon-studio/tutorials/handle_web_tables.html
+    - title: "How to handle Drop-down menu"
+      url: /katalon-studio/tutorials/how_handle_drop_down_menu.html
+    - title: "How to Handle File Uploads"
+      url: /katalon-studio/tutorials/handle_file_uploads.html
+    - title: "Resolve Git conflicts using Katalon Studio"
+      url: /katalon-studio/tutorials/git_conflict_resolve.html
+    - title: "Generating reliable object selector using Spy Web utility"
+      url: /katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility.html
+    - title: "Headless Browsers Execution in Katalon Studio"
+      url: /katalon-studio/tutorials/headless_browsers_execution.html
+    - title: "How to Handle Alerts"
+      url: /katalon-studio/tutorials/handle_alerts.html
+    - title: "How to Handle Textbox, Checkbox and Radio Button"
+      url: /katalon-studio/tutorials/handle_textbox_checkbox_radio_button.html
+    - title: "Create your first API test with Katalon Studio"
+      url: /katalon-studio/tutorials/create_first_api_test_katalon_studio.html
+    - title: "Introduction to API Testing"
+      url: /katalon-studio/tutorials/introduction_api_testing.html
+    - title: "An Introduction to Katalon Mobile Recorder"
+      url: /katalon-studio/tutorials/katalon_mobile_recorder_introduction.html
+    - title: "Setting up for Mobile Application Automation"
+      url: /katalon-studio/tutorials/setting_mobile_application_automation.html
+    - title: "Locators and Object Identification"
+      url: /katalon-studio/tutorials/locators_object_identification.html
+    - title: "Handling Scroll to Element in Mobile Automation"
+      url: /katalon-studio/tutorials/scroll_element_mobile_automation.html
+    - title: "Handling Horizontal Swipe in Mobile Automation"
+      url: /katalon-studio/tutorials/horizontal_swipe_mobile_automation.html
+    - title: "Handling Vertical Swipe in Mobile Automation"
+      url: /katalon-studio/tutorials/vertical_swipe_in_mobile_automation.html
+    - title: "Desired Capabilities in Katalon Studio"
+      url: /katalon-studio/tutorials/desired_capabilities_in_katalon.html
+    - title: "Handling Spinner in Mobile Automation Testing"
+      url: /katalon-studio/tutorials/handle_spinner_mobile_automation_testing.html
+    - title: "Using List to Store the Mobile Elements to Validate Data"
+      url: /katalon-studio/tutorials/store_mobile_elements_to_validate_data.html
+    - title: "Handling Images in Mobile Applications"
+      url: /katalon-studio/tutorials/handle_images_mobile_app.html
+    - title: "Handling Drag and Drop in Mobile App"
+      url: /katalon-studio/tutorials/handle_drag_drop_mobile_app.html
+    - title: "Handling Alert Dialog in Mobile App"
+      url: /katalon-studio/tutorials/handle_alert_dialog_mobile_app.html
+    - title: "Running an Application on Mobile Browsers"
+      url: /katalon-studio/tutorials/running_application_mobile_browsers.html
+    - title: "Executing Tests on Multiple Devices in Parallel"
+      url: /katalon-studio/tutorials/execute_tests_parallelly_multiple_devices.html
+    - title: "Running tests from Command Line"
+      url: /katalon-studio/tutorials/generate_command_line.html
+    - title: "How to Perform Multi-touch Actions in Mobile App"
+      url: /katalon-studio/tutorials/handle_multi_touch_action.html
+    - title: "Performing Pinch to Zoom In Action"
+      url: /katalon-studio/tutorials/pinch_zoom_action_mobile_app.html
+    - title: "How to setup the integration with Jenkins and other CI tools"
+      url: /katalon-studio/tutorials/jenskins_ci_integration.html

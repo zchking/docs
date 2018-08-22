@@ -1,0 +1,7 @@
+---
+title: "System Requirements" 
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/system_requirements.html 
+description: 
+---
+<table class="relative-table wrapped confluenceTable" style="width: 62.5474%;"><colgroup><col style="width: 22.9369%;"><col style="width: 77.0631%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">&nbsp;</th><th class="xtd-0-1 confluenceTh">Requirement</th></tr><tr class="xtr-1"><th class="xtd-1-0 confluenceTh">Operating System</th><td class="xtd-1-1 confluenceTd">Windows 7, Windows 8, Windows 10, macOS 10.11+, Linux (Ubuntu based)</td></tr><tr class="xtr-2"><th class="xtd-2-0 confluenceTh">CPU</th><td class="xtd-2-1 confluenceTd">1 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr class="xtr-3"><th class="xtd-3-0 confluenceTh">Memory</th><td class="xtd-3-1 confluenceTd"><p><em>Minimum</em>: 1 GB RAM (32-bit) or 4 GB RAM (64-bit)</p><p><em>Recommended</em>: 4<span> GB RAM (32-bit) or 8 GB RAM (64-bit)</span></p></td></tr><tr class="xtr-4"><th class="xtd-4-0 confluenceTh" colspan="1">Hard Drive</th><td class="xtd-4-1 confluenceTd" colspan="1">At least 1 GB available hard disk space. Extra disk space is required depends on project source code and generated execution reports.</td></tr></tbody></table>

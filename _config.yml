@@ -1,0 +1,39 @@
+site_title: Katalon Docs
+site_domain: docs.katalon.com
+site_url: https://docs.katalon.com
+site_icon: /images/katalon/template/favicon.png
+site_twitter: https://twitter.com/katalon_studio
+site_twitter_mention: katalon_studio
+github_editme_path: katalon-studio/katalon-studio.github.io
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  toc_levels: 2..3
+
+incremental: true
+
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      search: true
+      topnav: topnav
+
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      search: true
+      topnav: topnav
