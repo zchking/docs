@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/webui-get-element-width.html
 description: 
 ---
 Description  
--------------
+=============
 
 Get the width of web element.
 
 Parameters  
-------------
+============
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td>Represent a web element.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>int</td><td><span>width of web element.</span></td></tr></tbody></table>
 
 Example 
---------
+========
 
 You want to get the width of object "txt_UserName" , then store it into "width" variable.
 

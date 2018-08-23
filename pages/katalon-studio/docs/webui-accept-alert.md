@@ -5,17 +5,17 @@ permalink: katalon-studio/docs/webui-accept-alert.html
 description: 
 ---
 Description
------------
+===========
 
 Simulate users clicking on “OK” button of an alert popup (alert, confirmation popup, prompt popup).
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to click on 'OK' button (accept) of an alert
 

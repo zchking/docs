@@ -5,24 +5,24 @@ permalink: katalon-studio/docs/webui-verify-option-selected-by-label.html
 description: 
 ---
 Description
------------
+===========
 
 Verify if the options with the given displayed text are selected.
 
 ![](../../images/katalon-studio/docs/webui-verify-option-selected-by-label/label.jpg)
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>label</td><td>String</td><td>Required</td><td>Displayed texts of the options to be verified if existing.</td></tr><tr><td>isRegex</td><td>boolean</td><td>Required</td><td>True if the label is a regular expression, false by default.</td></tr><tr><td>timeout</td><td>int</td><td>Required</td><td>System will wait at most timeout (seconds) to return the result.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong>&nbsp;if options with given displayed text are selected.</li><li><strong>false:</strong>&nbsp;if options with given displayed text are NOT present.</li></ul></td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to verify if 'HongKong Cura Health Center' is selected in the list.
 

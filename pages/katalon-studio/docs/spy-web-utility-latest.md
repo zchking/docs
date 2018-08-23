@@ -13,7 +13,7 @@ Enhanced Spy Web Utility is more compact and more intelligent for capturing obje
 The guide bellow will show step by step using Spy Web Utility.
 
 Capture objects using Web Object Spy
-------------------------------------
+====================================
 
 1.  Click on **Spy Web** from the main toolbar.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-2-23 13_20_14.png)  
@@ -56,7 +56,7 @@ Capture objects using Web Object Spy
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2016-12-29 17_22_57.png)
 
 Define additional objects manually
-----------------------------------
+==================================
 
 1.  **Add a Page element**: Web objects need a web page to hold it. Click on **New page** from toolbar to add a new Page element manually.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-16 10_44_25.png)
@@ -98,7 +98,7 @@ Define additional objects manually
     
 
 How to get web objects XPath or CSS Locator
--------------------------------------------
+===========================================
 
 1.  In active opened spying browser, **Right** click on target web element. Select **Inspect**  
     **![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-16 13_26_34.png)**  

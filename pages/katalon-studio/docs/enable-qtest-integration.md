@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/enable-qtest-integration.html
 description: 
 ---
 Enable qTest Integration
-------------------------
+========================
 
 1.  Open qTest integration settings at **Project > Settings > Integration > qTest.**  
     ![](../../images/katalon-studio/docs/enable-qtest-integration/image2017-8-1 17_0_21.png)  
@@ -15,7 +15,7 @@ Enable qTest Integration
     
 
 Manual Setup
-------------
+============
 
 1.  **qTest Version**: On Authentication form, select the version of your qTest. (_The **7 or higher** option is recommended because APIs of earlier versions might be deprecated soon_).  
     ![](../../images/katalon-studio/docs/enable-qtest-integration/image2016-11-15 14_49_1.png)  
@@ -53,7 +53,7 @@ Manual Setup
     
 
 Wizard Setup
-------------
+============
 
 Click on the **Quick Setup...** link to open the Wizard.
 

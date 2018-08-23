@@ -4,7 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-web-service-in-test-case.html 
 description: 
 ---
-### In Manual View
+In Manual View
+--------------
 
 Follow the steps below in order to use web service object in **Manual** view:
 
@@ -24,7 +25,8 @@ Follow the steps below in order to use web service object in **Manual** view:
 4.  The output of **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword could be validated if needed using different **[Verify...](https://docs.katalon.com/display/KD/Web+Service)** keywords depending on your situation.  
     ![](../../images/katalon-studio/docs/using-web-service-in-test-case/image2017-6-30 20_50_56.png)
 
-### In Scripting View
+In Scripting View
+-----------------
 
 You can use the **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword for Web Service object and the **[Verify...](https://docs.katalon.com/display/KD/Web+Service)** keywords to verify the web service response. You may want to refer to [Handle Response messages](#UsingWebServiceinTestCase-HandleResponsemessages) for more details regarding **Element Locator**:
 

@@ -7,7 +7,7 @@ description:
 Binary Statements represent expressions consist of two **operand**s (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !...).
 
 Binary statement in Manual view
--------------------------------
+===============================
 
 1.  Open a test case in **Manual** view, then navigate to **Binary Statements** from command toolbar.  
     ![](../../images/katalon-studio/docs/binary-statements/image2017-6-30 20_43_7.png)  
@@ -27,7 +27,7 @@ Binary statement in Manual view
     
 
 Binary statement in Scripting view
-----------------------------------
+==================================
 
 The **Script** view of test cases allows you to programmatically define and handle binary expression easily using either Groovy or Java language. Refer to [http://groovy-lang.org/operators.html](http://groovy-lang.org/operators.html) for more details about using operators in Groovy.
 

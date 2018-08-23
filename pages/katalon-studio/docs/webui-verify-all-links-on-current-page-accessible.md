@@ -5,17 +5,17 @@ permalink: katalon-studio/docs/webui-verify-all-links-on-current-page-accessible
 description: 
 ---
 Description
------------
+===========
 
 Verify if all links (URLs) on the current page are accessible.
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>isIncludedExternalLinks</td><td>boolean</td><td>Required</td><td>If false, only target to links on the same HOST. Otherwise, target to all links.</td></tr><tr><td>excludedLinks</td><td>List</td><td>Required</td><td>A list of excluded links (URLs).</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to verify if all links on '[http://demoaut.katalon.com](http://demoaut.katalon.com)' are accessible.
 

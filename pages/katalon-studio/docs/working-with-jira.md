@@ -7,7 +7,7 @@ description:
 JIRA icon will be available in Menu Bar after JIRA Integration setup is done.
 
 Integrate Test Case
--------------------
+===================
 
 Follow these steps to **Integrate Test** **Case** from JIRA to Katalon Studio:
 
@@ -47,14 +47,14 @@ Follow these steps to **Integrate Test** **Case** from JIRA to Katalon Studio:
     
 
 Test Results
-------------
+============
 
 Katalon Studio test results will be synced to associated JIRA Issues automatically. You can review the **status** and **attachments** of Katalon Studio test cases right inside JIRA.
 
 ![](../../images/katalon-studio/docs/working-with-jira/image2017-8-2 17_56_40.png)
 
 Submit an issue to JIRA
------------------------
+=======================
 
 Submit options will be available in Test Reports after JIRA Integration setup is done.
 

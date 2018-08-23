@@ -9,7 +9,7 @@ Katalon Studio version 5.4 has finally arrived! introducing all-new UI and feat
 New features & improvements of Katalon Studio 5.4:
 
 New API Testing
----------------
+===============
 
 Fully support **SOAP** and **REST API** automation, the enhanced API component empowers automation engineer to combine, manipulate and validate the functional scenario test cases easily and effectively by using the same IDE interface.
 
@@ -18,9 +18,10 @@ Katalon Studio users will have more capabilities to improve the API automation a
 ![](../../images/katalon-studio/docs/version-54/image2018-4-9 17_1_52.png)
 
 Test Design 
-------------
+============
 
-### Sensitive Text Encryption
+Sensitive Text Encryption
+-------------------------
 
 Privacy and Security are crucial than ever to the software industry. **Text encryption** feature is introduced via the built-in "**[setEncryptedText](https://docs.katalon.com/x/6AHR)**" keyword. It allows users to encrypt any sensitive text right in the test case and capable to decrypt on-the-fly at runtime. Thus, the project team can collaborate and share test artifacts among members and stakeholder without any security concerns.
 
@@ -29,9 +30,10 @@ Privacy and Security are crucial than ever to the software industry. **Text encr
   
 
 Test Execution
---------------
+==============
 
-### Execution Profile
+Execution Profile
+-----------------
 
 **Global Variables** interface is moved to be a **default profile,** so please check **'default' profile** for any existing **Global Variables** 
 
@@ -40,20 +42,21 @@ Test execution is more versatile in Katalon Studio v5.4. Automation tests can be
 ![](../../images/katalon-studio/docs/version-54/image2018-4-9 16_43_45.png)
 
 Keywords
---------
+========
 
-### Templates for Custom Keywords
+Templates for Custom Keywords
+-----------------------------
 
 Adding the options to generate sample template when users create new custom keywords, the output can be selected as web, mobile or API custom keyword.
 
 ![](../../images/katalon-studio/docs/version-54/image2018-4-9 17_15_40.png)
 
 Auto-update
------------
+===========
 
 Katalon Studio will deliver the newest version directly while letting users continue to work uninterrupted. The update process is configurable with options of **Download** Now, **Remind Me Later**, or **Ignore** **This Update**. 
 
 Enhancements
-------------
+============
 
 *   Captured images in execution reports can be viewed in "**Fit to view**" or "**Full-size**".

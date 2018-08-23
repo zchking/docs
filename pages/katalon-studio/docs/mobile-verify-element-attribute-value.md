@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/mobile-verify-element-attribute-value.html
 description: 
 ---
 Description
------------
+===========
 
 Verify if the element has an attribute with the specified name and value  
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject&nbsp;</td><td>Required</td><td>Represent a mobile element.</td></tr><tr><td>attributeName&nbsp;</td><td>String&nbsp;</td><td>Required</td><td>The value of the attribute to verify.</td></tr><tr><td>attributeValue&nbsp;</td><td>String&nbsp;</td><td>Required</td><td>The value of the attribute to verify.</td></tr><tr><td>timeout&nbsp;</td><td>int</td><td>Required</td><td>System will wait at most timeout (seconds) to return a result.</td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
--------
+=======
 
 **true** if the element has the attribute with the specified name and value; otherwise, **false**
 
 Example
--------
+=======
 
 You want to verify if 'App' control has an attribute with name = 'class' and value is 'android.widget.TextView'
 

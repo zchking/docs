@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/ws-contains-string.html
 description: 
 ---
 Description
------------
+===========
 
 Verify that an expected text appeared in the returned data from a web service call.
 
 Parameters 
------------
+===========
 
 <table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>response&nbsp;</span></td><td><span>ResponseObject&nbsp;</span></td><td><span>required</span></td><td><span>the object represents for a HTTP Response, user can get responded content type, data, header properties (sometime user may want to get cookie from response header)</span></td></tr><tr><td><span>string&nbsp;</span></td><td><span>String&nbsp;</span></td><td><span>required</span></td><td><span>the text you want to look for</span></td></tr><tr><td><span>useRegex</span></td><td><span>Boolean&nbsp;</span></td><td><span>required</span></td><td><span>indicate whether the text is a regular expression</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling&nbsp;</span></td><td><span>optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
--------
+=======
 
 *   **true**, if your text is found; otherwise, **false**.
 
 Example
--------
+=======
 
 You want to verify if the text "email@katalon.com" is in the data returned from "resObj".
 

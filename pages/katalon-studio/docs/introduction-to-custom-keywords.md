@@ -7,7 +7,7 @@ description:
 In addition to built-in keywords, users can define custom keywords to extend the capability of Katalon Studio. Once created, custom keywords can be used when implementing test cases just like other built-in keywords. 
 
 Create a Package
-----------------
+================
 
 A _package_ is a namespace that organizes a set of related classes and interfaces. Because software written in the Java programming language or similar languages can be composed of hundreds or _thousands _of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages.
 
@@ -19,7 +19,7 @@ A _package_ is a namespace that organizes a set of related classes and interf
     ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 15_36_13.png)
 
 Create a Custom Keyword
------------------------
+=======================
 
 1.  Select **File > New > Keyword** from the main menu. The **New Keyword** dialog will be displayed. Enter the name for your keyword and specify a **package** for the keyword. Click **OK**.
     
@@ -63,7 +63,7 @@ Create a Custom Keyword
     
 
 Custom keywords in Manual view
-------------------------------
+==============================
 
 Follow the steps below in order to use your defined custom keywords in **Manual view** of a Test Case:
 
@@ -75,7 +75,7 @@ Follow the steps below in order to use your defined custom keywords in **Manual
     ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 16_44_46.png)
 
 Custom keywords in Scripting view
----------------------------------
+=================================
 
 Follow the steps below in order to use your defined custom keywords in **Scripting view** of a test case:
 

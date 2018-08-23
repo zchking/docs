@@ -5,9 +5,10 @@ permalink: katalon-studio/docs/record-web-utility-latest.html
 description: 
 ---
 Record
-------
+======
 
-### Record a New Test Case
+Record a New Test Case
+----------------------
 
 *   Without opening any test case, click on Web Record ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 09.41.37.png) icon to open Web Recorder
 *   Katalon Studio default browser is Chrome, whose icon is displayed in the top right corner, but you can change this default browser in **Preferences → Katalon → Recorder → Default browser**. You can also click on the drop-down button to select the browser you want to use:
@@ -23,7 +24,8 @@ Record
     ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 10.05.19.png)
     
 
-### Record Using Existing Test Case
+Record Using Existing Test Case
+-------------------------------
 
 With the new Web Recorder, instead of having to create a brand new test case whenever there are changes to the UI, the users can be more productive and efficient in modifying existing test cases, minimizing the risks of overlooking how new changes might affect existing features. 
 
@@ -34,14 +36,14 @@ With the new Web Recorder, instead of having to create a brand new test case whe
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.23.30.png)
 
 Modify Recorded Actions
------------------------
+=======================
 
 Unlike previous Web Recorder's version , the list of available actions is the same with Katalon Studio [built-in keywords](https://docs.katalon.com/display/KD/Built-in+Keywords), so you can add whatever actions you want depending on your need. You can call another test case and use Custom Keyword as well.
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.30.37.png)
 
 Modify Recorded Objects
------------------------
+=======================
 
 After you finish your recording, **Web Recorder** will export a list of test objects used in the test case. For more information on WebUI test objects, go [here](https://docs.katalon.com/x/tQTR). 
 
@@ -50,12 +52,12 @@ When you are satisfied that your test case has been created correctly, click on�
 ![](../../images/katalon-studio/docs/record-web-utility-latest/image2018-6-26 14_18_9.png)
 
 Variables
----------
+=========
 
 In the new Web Recorder interface, you can directly manage the [variables](https://docs.katalon.com/x/RoIw) directly related to your recording.
 
 Execute
--------
+=======
 
 Two new things have been introduced:
 

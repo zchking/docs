@@ -4,9 +4,10 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/getting-started.html 
 description: 
 ---
-### Installation
+Installation
+------------
 
-#### Download 
+### Download 
 
 Go to [Katalon Download page](https://www.katalon.com/download/) to get Katalon Studio. A suitable version to your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
 
@@ -26,7 +27,7 @@ Where x.x.x is the Katalon Studio version. For example, you want to download Kat
 *   macOS: [https://download.katalon.com/**5.4.2**/Katalon_Studio.dmg](https://download.katalon.com/5.4.2/Katalon_Studio.dmg)
 *   Linux 64: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Linux_64-**5.4.2**.tar.gz](https://download.katalon.com/5.4.2/Katalon_Studio_Linux_64-5.4.2.tar.gz)
 
-#### Environment Requirement
+### Environment Requirement
 
 *   If you do** Web Testing**, make sure to install your preferred web browsers. Refer to the list of [supported browsers](/display/KD/Supported+Environments) for more details.
     *   **Katalon Automation Recorder** extension is required for capturing objects in **Active Browser** (refer to [Spy Web Utility](https://docs.katalon.com/x/5BZO#SpyWebUtility(sinceversion5.0.0)-CaptureobjectsusingWebObjectSpy) and [Record & Playback](/pages/viewpage.action?pageId=13699399) for more details). Refer to this [guide](https://docs.katalon.com/x/JYgw).
@@ -37,7 +38,8 @@ Where x.x.x is the Katalon Studio version. For example, you want to download Kat
 
 In addition to Windows and macOS, Katalon Studio also provides a beta [Linux support](/display/KD/Linux+Support).
 
-### Activate Katalon Studio
+Activate Katalon Studio
+-----------------------
 
 After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio. The username and password are the same as the ones you created when registering and downloading Katalon Studio from [https://www.katalon.com/](https://www.katalon.com/).  If you don't have Internet while activating Katalon Studio, request [an offline activation code](https://www.katalon.com/activation/) beforehand.
 
@@ -45,7 +47,8 @@ After launching Katalon Studio, provide your registered username and password to
 
 When Katalon Studio is activated, the **Quick Guide** screen is displayed to guide you through all major features. You can skip this and view the Quick Guide later from the **Help** menu.
 
-### Getting a Sample Project Up and Running
+Getting a Sample Project Up and Running
+---------------------------------------
 
 When you use Katalon Studio for the first time, the Quick Guide screen is displayed to guide you through all the significant features. You can opt to skip this and refer to the guide later in the Help menu. Additionally, Katalon Studio provides sample projects for users to get familiar with the tool.
 
@@ -67,6 +70,7 @@ Katalon Studio will provide a **Job Progress **tab to show the status of your
 
 That’s it! You now can open a project and execute a test using Katalon Studio. You can also modify parts of these provided sample projects to get you familiar with the tool.
 
-### Where to Go Next?
+Where to Go Next?
+-----------------
 
 Check out our [Overview](/display/KD/Overview) to see the list of all the resources available in this Documentation page and beyond.

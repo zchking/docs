@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/version-48.html
 description: 
 ---
 General Improvement
--------------------
+===================
 
 **Enhanced Katalon Help**
 
@@ -20,7 +20,7 @@ Katalon Studio Version 4.8 supports objects with Shadow DOM in Web Testing. User
 ![](../../images/katalon-studio/docs/version-48/image2017-8-15 11_32_52.png)
 
 Test Suite
-----------
+==========
 
 [**Video Capturing**](https://docs.katalon.com/display/KD/Video+Capturing)
 
@@ -37,7 +37,7 @@ Variable Binding has been improved to allow users to set or update **Type** and 
 ![](../../images/katalon-studio/docs/version-48/image2017-8-17 14_27_14.png)
 
 JIRA Integration
-----------------
+================
 
 [Katalon Studio add-on for JIRA:](/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on) An add-on for JIRA so that business users can involve with development team. Project Manager or Business Analyst can compose requirements on JIRA under the BDD's format. These requirements will be synced with Katalon Studio so that test script can be generated and associated accordingly.
 
@@ -54,7 +54,7 @@ JIRA Integration
     
 
 Mobile Testing
---------------
+==============
 
 [Record](https://docs.katalon.com/display/KD/Recording+Mobile+Test) and [Spy](https://docs.katalon.com/display/KD/Mobile+Object+Spy) Mobile is improved to support Kobiton devices, a cloud-based devices platform. Testing team can run test automation on hundreds of Kobiton devices.
 
@@ -66,7 +66,7 @@ Mobile Testing
 ![](../../images/katalon-studio/docs/version-48/image2017-8-15 16_40_14.png)
 
 Test Case
----------
+=========
 
 Introducing **Recent Keywords** and **Recent Objects** features in **Manual** mode when writing a test case. This will optimize time and reduce repetitive tasks for users.
 
@@ -79,7 +79,7 @@ Introducing **Recent Keywords** and **Recent Objects** features in **Manual** mo
 ![](../../images/katalon-studio/docs/version-48/image2017-8-25 17_29_39.png)
 
 Web Services
-------------
+============
 
 **[Support OAuth 1.0 authorization](https://docs.katalon.com/display/KD/RESTful)  
 **
@@ -89,7 +89,7 @@ Katalon Studio now supports OAuth 1.0 authorization for Web Services Testing.  
 ![](../../images/katalon-studio/docs/version-48/image2017-8-23 12_9_38.png)
 
 Project Settings
-----------------
+================
 
 **[Email](https://docs.katalon.com/display/KD/Emails+Settings)**
 
@@ -102,7 +102,7 @@ New **Template** under Email section allows users to customize test execution r
 ![](../../images/katalon-studio/docs/version-48/image2017-8-15 14_49_1.png)
 
 Katalon Studio Console Mode for Linux OS
-----------------------------------------
+========================================
 
 Katalon Studio for Linux is now available. Users can execute test automation in Linux environment by using command line mode. Refer to this guide for [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution).
 
@@ -112,7 +112,7 @@ Katalon Studio for Linux is now available. Users can execute test automation in 
 **Linux OS:** [http://download.katalon.com/4.8.0/Katalon\_Studio\_Linux_64-4.8.tar.gz](http://download.katalon.com/4.8.0/Katalon_Studio_Linux_64-4.8.tar.gz)
 
 Keywords
---------
+========
 
 New built-in keywords to help users check for broken links or images.
 

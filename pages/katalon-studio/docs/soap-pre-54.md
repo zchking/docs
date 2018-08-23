@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/soap-pre-54.html
 description: 
 ---
 Create SOAP Object
-------------------
+==================
 
 1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed.  
     ![](../../images/katalon-studio/docs/soap-pre-54/image2017-2-13 14_4_53.png)  
@@ -25,7 +25,7 @@ Create SOAP Object
 4.  Save the service request object when you're done. The service request defined here can be utilized in other test cases. Refer to [Use WebService in Test Case](#SOAP(Pre-5.4)-UseWebServiceinTestCase) for more details.
 
 Supported HTTP Headers 
------------------------
+=======================
 
 Here’s the list of HTTP headers initially supported in Katalon Studio:
 

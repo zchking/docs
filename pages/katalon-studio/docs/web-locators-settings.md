@@ -12,7 +12,7 @@ Custom locators can be added to the list. Pre-selected locators are recommended 
 
 ![](../../images/katalon-studio/docs/web-locators-settings/image2018-1-26 14_28_1.png)
 
-#### Example
+### Example
 
 1.  By default, **tag** property will be selected. In some cases you really don't want this behavior, so you can change this by:   
     - Add a new property called **tag** and deselect it  

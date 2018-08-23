@@ -16,11 +16,11 @@ There will a **new tab** called '**Script**' in **Test Suite**'s interface. This
 
 <table><thead><tr><th>Method</th><th>Description</th><th>Trigger Condition</th><th>Common Usages</th></tr></thead><tbody><tr><td><p>setUp</p></td><td><p>Setup test suite environment<br><br></p></td><td>Before executed test suites</td><td><p>Prepare testing environment</p><p>Call required test cases for the executed test suite</p></td></tr><tr><td>setUpTestCase</td><td>Run before each test case starts</td><td>Before executed test cases</td></tr><tr><td><p>tearDown</p></td><td><p class="p1">Clean test suites environment</p></td><td>After executed test suites</td><td><p>Clean-up testing environment</p><p>Call TearDown test cases for the executed test suite</p><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td><p class="p1">tearDownTestCase</p></td><td><p class="p1">Run after each test case ends</p></td><td><p class="p1">After executed test cases</p></td></tr></tbody></table>
 
-#### How it works
+### How it works
 
 By default, these **Setup** and **Teardown** methods will not be triggered even if they match with provided trigger condition above. You need to **set skipped value from false** to true to activate related methods.
 
-#### Methods consideration
+### Methods consideration
 
 *   Execution progress from these methods still have execution logs as usual and they will be stored in execution logs files of Katalon Studio.
     

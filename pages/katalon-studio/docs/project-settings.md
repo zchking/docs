@@ -8,7 +8,8 @@ Each Katalon project has its own settings. You can be accessed the project setti
 
 ![](../../images/katalon-studio/docs/project-settings/image2017-2-21 16_56_9.png)
 
-### Import Settings (since version 5.0.0)
+Import Settings (since version 5.0.0)
+-------------------------------------
 
 Katalon Studio **import settings **feature help users smoothly transition into any new release version of Katalon Studio while keeping **preferences** setting from previous versions. The project team can easily migrate Katalon Studio preferences to other team members. 
 

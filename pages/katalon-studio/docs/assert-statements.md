@@ -7,7 +7,7 @@ description:
 An assert statement contains a **boolean expression** where this condition must hold true for the test execution to continue. Thus, execution of the assertion causes evaluation of the **boolean expression** and an error is reported if the expression evaluates as **false**.
 
 Assert statement in Manual view
--------------------------------
+===============================
 
 1.  Open a test case in **Manual** view, then navigate to **Assert Statements** from command toolbar.  
     ![](../../images/katalon-studio/docs/assert-statements/image2017-6-30 20_44_0.png)  
@@ -24,7 +24,7 @@ Assert statement in Manual view
     
 
 Assert statement in Scripting view
-----------------------------------
+==================================
 
 The **Script** view of test cases allows you to programmatically define and handle assertions easily using either Groovy or Java language. Refer to [http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html) for more details regarding assertions in Groovy.
 

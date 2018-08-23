@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/webui-verify-element-visible.html
 description: 
 ---
 Description
------------
+===========
 
 Verify if the given web element is visible.
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td><span>timeOut&nbsp;</span></td><td><span>int&nbsp;</span></td><td>Required</td><td><span>Maximum period of time (in seconds) that system will wait to return result.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li><strong>true:</strong>&nbsp;the element is present<span>&nbsp;and visible.</span></li><li><strong>false:</strong> the element is NOT present.</li></ul></td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to verify 'btn_Login' button to be visible in 10 seconds.
 

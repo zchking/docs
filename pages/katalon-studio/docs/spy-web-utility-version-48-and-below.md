@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/spy-web-utility-version-48-and-below.html
 description: 
 ---
 Capture objects using Web Object Spy
-------------------------------------
+====================================
 
 1.  Click on **Spy Web** from the main toolbar.  
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-2-23 13_20_14.png)  
@@ -50,7 +50,7 @@ Capture objects using Web Object Spy
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2016-12-29 17_22_57.png)
 
 Define additional objects manually
-----------------------------------
+==================================
 
 1.  **Add a Page element**: Whenever activities are taken on a new web page, that page will be captured into the **Object Spy** dialog. Click on **New page** from toolbar to add a new Page element manually.  
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-1-3 11_50_2.png)
@@ -77,7 +77,7 @@ Define additional objects manually
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-1-3 16_55_12.png)
 
 Find objects in HTML DOM using xpath
-------------------------------------
+====================================
 
 You can load the HTML DOM of the web page to **Object Spy** dialog for detailed analyzing. Katalon Studio provides the ability to **search** for web elements using **xpath** on this HTML DOM content. This helps to verify whether an object with a certain **xpath** value could exist on the page.
 
@@ -93,7 +93,7 @@ You can load the HTML DOM of the web page to **Object Spy** dialog for detailed 
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-6-30 20_4_14.png)
 
 Verify captured objects with HTML DOM
--------------------------------------
+=====================================
 
 Katalon Studio allows users to verify if the captured objects still exist on the current web page by checking the **xpath** value of the objects against the **HTML DOM** content.
 

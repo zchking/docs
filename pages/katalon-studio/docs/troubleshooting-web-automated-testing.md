@@ -6,7 +6,7 @@ description:
 ---
 The following article will help you troubleshoot some problems during web automated testing using Katalon Studio.
 
-###### Timed out waiting for driver server to start
+##### Timed out waiting for driver server to start
 
 *   *   Root cause: Incompatible issue when using current Edge driver
         
@@ -17,7 +17,7 @@ The following article will help you troubleshoot some problems during web automa
         *   Copy downloaded Edge driver and replace it in existing edgedriver folder of Katalon Studio, e.g: **C:\\Katalon\_Studio\_Windows_64-4.8\\configuration\\resources\\drivers\\edgedriver**
             
 
-###### Unable to record on Internet Explorer
+##### Unable to record on Internet Explorer
 
 1.  *   Root cause: Add-on on Internet Explorer is not turned on.
         
@@ -30,7 +30,7 @@ The following article will help you troubleshoot some problems during web automa
 
               ![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27 16_29_17.png)
 
-###### Unable to connect to Katalon server
+##### Unable to connect to Katalon server
 
 Root cause: Windows Firewall blocks connection between Katalon Studio and browser's drivers
 
@@ -49,7 +49,7 @@ These executable files can be located in : **<Katalon Studio folder>\\configurat
 
 You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall block them as well.
 
-###### Use different browser versions
+##### Use different browser versions
 
 In case you want Katalon Studio to use different versions besides the current installed version, there are two ways to do it:
 

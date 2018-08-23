@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/manage-test-data.html
 description: 
 ---
 Create an Excel Test Data
--------------------------
+=========================
 
 1.  Select **File > New > Test Data** from the main menu. The **New Test Data** dialog will be displayed. Enter the name for your test data and select **Data Type** as **Excel File**. Click **OK**.  
     ![](../../images/katalon-studio/docs/manage-test-data/image2017-1-24 15_59_35.png)  
@@ -22,7 +22,7 @@ Create an Excel Test Data
 4.  Save the Test Data when you're done. The data set defined here can be utilized in other configurations (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/x/7AAM) when setting up test suites...)
 
 Create a CSV Test Data
-----------------------
+======================
 
 1.  Select **File > New > Test Data** from the main menu. The **New Test Data** dialog will be displayed. Enter the name for your test data and select **Data Type** as **CSV File**. Click **OK**.  
     ![](../../images/katalon-studio/docs/manage-test-data/image2017-1-24 16_23_37.png)  
@@ -39,7 +39,7 @@ Create a CSV Test Data
 4.  Save the Test Data when you're done. The data set defined here can be utilized in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/pages/viewpage.action?pageId=786668) when setting up test suites...)
 
 Create an Internal Test Data
-----------------------------
+============================
 
 With **Internal Data**, you can freely define the data in tabular format. It's up to you to decide how many columns, rows and what value for each cell.
 
@@ -66,7 +66,7 @@ With **Internal Data**, you can freely define the data in tabular format. It's 
 6.  Save the Test Data when you're done. The data set defined here can be utilized in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View)or [data for Test Execution](/pages/viewpage.action?pageId=786668) when setting test suites...)
 
 Create a Database Data
-----------------------
+======================
 
 With **Internal Data**, you can freely define the data in tabular format. It's up to you to decide how many columns, rows and what value for each cell.
 

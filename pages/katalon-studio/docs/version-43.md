@@ -4,7 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-43.html 
 description: 
 ---
-### Object Spy
+Object Spy
+----------
 
 **Highlight Object**
 
@@ -12,7 +13,8 @@ Katalon Studio extends Object Spy capabilities to help users in detecting whethe
 
 ![](../../images/katalon-studio/docs/version-43/image2016-11-29 18_3_28.png)
 
-### Execution
+Execution
+---------
 
 **Control all generated browsers**
 
@@ -31,7 +33,8 @@ Tired of seeing test scripts be executed from the beginning before reaching to a
 
 ![](../../images/katalon-studio/docs/version-43/image2016-11-29 18_0_25.png)
 
-### Test Case
+Test Case
+---------
 
 **Drag and drop Test Objects**
 
@@ -39,7 +42,8 @@ By dragging any of your test objects into current scripting editor, the test obj
 
 ![](../../images/katalon-studio/docs/version-43/image2016-11-29 18_4_57.png)
 
-### User Interface
+User Interface
+--------------
 
 **Flat Icons**
 
@@ -67,7 +71,8 @@ Revised web service object interface provide users a much simpler and straightfo
 
 ![](../../images/katalon-studio/docs/version-43/image2016-11-29 17_53_20.png)
 
-### Performance Improvement
+Performance Improvement
+-----------------------
 
 **Reduce time to open large project or lengthy test cases** 
 
@@ -77,17 +82,20 @@ Open test case and project is much faster. The performance when opening test cas
 
 Katalon Studio now consumes less memory during operation.
 
-### Katalon Agent
+Katalon Agent
+-------------
 
 [Non-UI version of Katalon Studio is now available! It serves best as a standalone console mode execution. It's available in following versions: Mac OSX](http://download.katalon.com/4.3.0/Katalon_Agent-4.3.dmg), [Windows 64](http://download.katalon.com/4.3.0/Katalon_Agent_Windows_64-v4.3.zip) and [Windows 32](http://download.katalon.com/4.3.0/Katalon_Agent_Windows_32-v4.3.zip).
 
-### Console Mode Generator
+Console Mode Generator
+----------------------
 
 **Remember last selection**
 
 Our console mode generator will now remember the last selected options. Saving users the trouble of re-selecting some general options again.
 
-### New Keyword 
+New Keyword 
+------------
 
 **getCSSValue**
 
@@ -102,7 +110,8 @@ Parameters:
            css - represent the css property name of the element
 ```
 
-### qTest Integration
+qTest Integration
+-----------------
 
 **Separate execution's log**
 

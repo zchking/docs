@@ -74,7 +74,7 @@ Follow these steps to automate the above test scenario in **Manual view**:
     Katalon Studio should be able to execute all the steps of the sample test case.
 
 Recent Keywords
----------------
+===============
 
 **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list. For example, let's take test case above. To add another **_Verify Element Present_** after _Step 4_, **recent keywords** feature wouldaccomplished this in seconds.
 
@@ -83,7 +83,7 @@ Highlight _Step 4_. Click on **Recent Keywords** and select **_Verify Element Pr
 ![](../../images/katalon-studio/docs/manual-view/image2017-8-21 12_9_39.png)   ![](../../images/katalon-studio/docs/manual-view/image2017-8-21 12_13_31.png)
 
 Recent Objects and Object Folders
----------------------------------
+=================================
 
 KatalonStudio allows users to quickly select recently used **Object** or jump directly to recent used **Object Folder** in Object Repository.
 

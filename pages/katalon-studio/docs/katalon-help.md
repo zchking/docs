@@ -14,7 +14,8 @@ Select **Help** **>** **Katalon Help**. The app will display Katalon Help pag
 
 On the left menu, click on any icon will take you directly to the respective page.
 
-### Getting Started
+Getting Started
+---------------
 
 This will be the default tab when you first started Katalon Studio application. You can also choose to view the quick guide to perform Web UI, Mobile, or API testing, along with the Scripting feature in Katalon Studio. Click on any hyperlink word from each step will take you to its full instruction page.
 

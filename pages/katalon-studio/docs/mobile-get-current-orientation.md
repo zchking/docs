@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/mobile-get-current-orientation.html
 description: 
 ---
 Description  
--------------
+=============
 
 Get the current screen orientation of the device.
 
 Parameters  
-------------
+============
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th><div class="tablesorter-header-inner">Param Type</div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><span>String</span></td><td><p><span>Current screen orientation (portrait, landscape).</span></p></td></tr></tbody></table>
 
 Example 
---------
+========
 
 You want to get the current orientation of the device, then store it into "orientation" variable.
 

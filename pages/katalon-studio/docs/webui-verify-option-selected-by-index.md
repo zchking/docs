@@ -13,12 +13,12 @@ description:
 *   timeout - int (requiredl): system will wait at most timeout (seconds) to return result
 *   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are in this page: [Failure handling](https://docs.katalon.com/x/qAAM)
 
-#### Returns
+### Returns
 
 *   **true:** if options with given indices are selected
 *   **false:** if options with given indices are not selected
 
-#### Example: You want to verify if the option 1 is selected in the list
+### Example: You want to verify if the option 1 is selected in the list
 
 Manual: 
 

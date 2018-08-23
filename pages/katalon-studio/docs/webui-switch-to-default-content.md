@@ -5,17 +5,17 @@ permalink: katalon-studio/docs/webui-switch-to-default-content.html
 description: 
 ---
 Description
------------
+===========
 
 Switch back to default window, after dealing with some framed elements.
 
 Parameters 
------------
+===========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example 
---------
+========
 
 You want to switch back to default content, after interacting with elements inside an iframe.
 

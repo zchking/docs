@@ -4,7 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-44.html 
 description: 
 ---
-### Object Spy / Record
+Object Spy / Record
+-------------------
 
 **Katalon Utility**
 
@@ -26,7 +27,8 @@ From this release, users can specify the initial web address of new browsers wit
 
 ![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_17_26.png)
 
-### Web Services Testing
+Web Services Testing
+--------------------
 
 **Improved Editor**
 
@@ -34,7 +36,8 @@ Completely new and overhauled SOAP/REST object editor that could be utilized as 
 
 ![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_21_11.png)
 
-### Mobile Testing
+Mobile Testing
+--------------
 
 **Update mobile testing engine**
 
@@ -42,13 +45,15 @@ Mobile Testing Core is updated to be compatible with the new Appium 1.6 and Xco
 
   
 
-### Activation
+Activation
+----------
 
 Users with proxy network had been troubled activating Katalon Studio. Katalon Studio now provide an option so that users can setup proxy for online activation.
 
 ![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_4_21.png)
 
-### Console Mode
+Console Mode
+------------
 
 **Support Test Suite Collection execution**
 
@@ -56,7 +61,8 @@ Katalon Studio now extends [console mode execution](http://docs.katalon.com/dis
 
 ![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_29_29.png)
 
-### General Improvement
+General Improvement
+-------------------
 
 **Performance Improvement **
 

@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/call-test-case.html
 description: 
 ---
 Call Test Case in Manual view
------------------------------
+=============================
 
 Follow the steps below in order to make a call to another test case in **Manual view**:
 
@@ -24,7 +24,7 @@ Follow the steps below in order to make a call to another test case in **Manual 
     
 
 Call Test Case in Scripting view
---------------------------------
+================================
 
 In **Scripting view**, the _callTestCase_ method allows users to make a call to another test case. Refer to either of the following syntaxes:
 

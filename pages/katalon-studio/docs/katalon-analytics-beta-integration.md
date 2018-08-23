@@ -9,25 +9,28 @@ description:
 Test Reports are only available for **Test Suite/Test Suite Collection** level execution.
 
 Settings 
----------
+=========
 
 **Katalon Analytics integration** must be **enabled** in order to submit test execution Reports to Katalon Analytics. In Katalon Studio, select **Project** > **Setting** > **Integration > Katalon Analytics**. Following the below steps to set up the integration properly.
 
 Check '**Enable Integration**' checkbox. All the fields will be visible for edit.
 
-### Authentication
+Authentication
+--------------
 
 Enter Katalon Analytics credential which is Katalon Studio account. Click **Connect**.
 
 ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 11_9_52.png)
 
-### Select Team and Project
+Select Team and Project
+-----------------------
 
 Once Katalon Studio **successfully connected** to Katalon Analytics, all relevant Katalon Analytics **Teams** and **Projects** will be retrieved and **displayed** in Teams and Projects drop-down menu. You can also **create New Project** for Katalon Analytics, just click **New Project** button and provide the project's **Name**. 
 
 ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 11_10_3.png)
 
-### Test Result
+Test Result
+-----------
 
 In Test Result, users can **select** preferred **options** for Katalon Studio execution Reports.
 
@@ -38,16 +41,17 @@ In Test Result, users can **select** preferred **options** for Katalon Studi
 Click **OK** to complete. 
 
 Upload Reports
---------------
+==============
 
 See details document [here](https://docs.katalon.com/x/wBxO).
 
 Access Katalon Analytics to View Reports
-----------------------------------------
+========================================
 
 You can access your reports easily from three windows in Katalon Studio: Test Reports, Test Case View, and Test Suite View. 
 
-### Test Reports View
+Test Reports View
+-----------------
 
 In the **Test Reports View**, clicking on **Katalon Analytics **button and you will see two options. 
 
@@ -68,7 +72,8 @@ When you are using Katalon Analytics for the first time, Katalon Studio will aut
 
 You can change this setting later by going to **Project** > **Setting** > **Integration > Katalon Analytics**. 
 
-### View specific Test Case/Test Suite Execution History
+View specific Test Case/Test Suite Execution History
+----------------------------------------------------
 
 You can also view a specific Test Case or Test Suite entire execution history on Katalon Analytics by clicking on **View Execution History **button on the Test Case or Test Suite View.  
 

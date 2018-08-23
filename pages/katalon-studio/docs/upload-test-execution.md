@@ -17,7 +17,7 @@ In order for a test execution to be uploaded to qTest, the following conditions 
 ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 16_15_25.png)
 
 Upload test results automatically
----------------------------------
+=================================
 
 The test result from Katalon Studio will be upload to qTest automatically in case the **Automatically submit test run result** option is **checked** in [qTest Integration settings](https://docs.katalon.com/display/KD/qTest+Integration).
 
@@ -42,9 +42,10 @@ The test result from Katalon Studio will be upload to qTest automatically in cas
     
 
 Upload test results manually
-----------------------------
+============================
 
-### Upload test execution of a test case
+Upload test execution of a test case
+------------------------------------
 
 1.  Execute an integrated Katalon test suite.
 2.  Open the generated test execution report.
@@ -56,7 +57,8 @@ Upload test results manually
       
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 16_10_23.png)
 
-### Upload test execution of a test suite
+Upload test execution of a test suite
+-------------------------------------
 
 1.  In the **Tests Explorer** view, right click on the test execution to trigger its context menu. Select the **qTest > Upload** option. (You can select the **Upload** option from **Report folders** to upload multiple test execution if needed)  
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 16_11_37.png)  

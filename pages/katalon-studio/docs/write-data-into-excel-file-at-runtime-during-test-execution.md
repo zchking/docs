@@ -23,7 +23,7 @@ XSSFSheet sheet = workbook.getSheetAt(0);
 'Read data from excel'
 String Data_fromCell=sheet.getRow(1).getCell(1).getStringCellValue();
 'Write data to excel'
-sheet.getRow(1).createCell(1).setCellValue("Mahesh3");
+sheet.getRow(1).createCell(1).setCellValue("Mahesh2");
 
 file.close();
 FileOutputStream outFile =new FileOutputStream(new File("E:\\Testdata.xlsx"));

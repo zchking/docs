@@ -9,7 +9,7 @@ Available since Katalon Studio v[5.2](https://docs.katalon.com/display/KD/Versio
 Test Listeners is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, Test Listeners are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with Test Listeners.
 
 Manage Test Listeners
----------------------
+=====================
 
 Test Listeners can be treated the same as other test artifacts, which means you can perform all basic operations such as **create, copy/cut, rename or delete**. We will not talk much about these actions except **Create** one. Test Listeners locate in Test Explorer pane. To create **New** Test Listener:
 
@@ -75,13 +75,14 @@ As you can see from the code above, a sample generated template has already adde
 *   Execution **status** of any steps **within** Test Listers will **NOT** affect the **overall status** of the executed test case (e.g: if you have a FAILED output in any of your Test Listeners but final status of the executed test case is PASSED, then test case's status will be PASSED).
 
 Visualized Workflow
--------------------
+===================
 
 To not get confused with [setUp and tearDown](https://docs.katalon.com/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
 
 ![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-6-8 18_12_39.png)
 
-### Example
+Example
+-------
 
 Define multiple environments as different Global Variables by using Test Listeners. Simply change the environment variable to the preferred environment before test case execution.
 

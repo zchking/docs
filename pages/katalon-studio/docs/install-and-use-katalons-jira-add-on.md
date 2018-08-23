@@ -11,12 +11,12 @@ Katalon Studio provides a free JIRA add-on to help create a seamlessly integrati
 *   Looking up Katalon Studio execution result status using JIRA's JQL syntax.
 
 Installation
-------------
+============
 
 The add-on is listed at [Atlassian Marketplace](https://marketplace.atlassian.com/plugins/com.katalon.katalon-jira-plugin). Currently, we only suport JIRA server. To install the add-on, please follow [Atlassian's instruction](https://marketplace.atlassian.com/plugins/com.katalon.katalon-jira-plugin/server/installation).
 
 Gherkin custom field
---------------------
+====================
 
 Only availabe for JIRA Server Version
 
@@ -31,14 +31,14 @@ To create Katalon Gherkin custom field, please follow [Atlassian's instruction]
 ![](../../images/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)  
 
 Katalon Studio Test Execution Status
-------------------------------------
+====================================
 
 Once integrated, Katalon Studio BDD's will present the latest execution result inside the issue page. The result includes the status (PASSED, FAILED, INCOMPLETE, ERROR) and links to the associated artifacts (e.g. logs, screenshots etc.).
 
 ![](../../images/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-status-marked.png)  
 
 JQL Syntax
-----------
+==========
 
 Katalon Studio test execution status can be queried via [JQL](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html). The syntax is as following:
 

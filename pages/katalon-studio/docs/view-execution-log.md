@@ -13,7 +13,7 @@ Using the filter options, you can specify what type of logs to be displayed:
 <table><thead><tr><th>Filter</th><th>Description</th></tr></thead><tbody><tr><td><p>All</p></td><td><p>Show all the log messages.</p></td></tr><tr><td><p>Info</p></td><td><p>Show only the log messages for information/reference.</p></td></tr><tr><td><p>Passed</p></td><td><p>Show only the log messages indicating that a step is successfully executed.</p></td></tr><tr><td><p>Failed</p></td><td><p>Show only the log messages indicating that a test step is failed to execute.</p></td></tr><tr><td><p>Error</p></td><td><p>Show only the log messages indicating that some error has occurred at a given step.</p></td></tr><tr><td>Warning</td><td>Show only the log messages indicating that a test step is failed but accepted as warning.</td></tr><tr><td>Not Run</td><td>Show only the log messages indicating that a test step is skipped.</td></tr></tbody></table>
 
 Standard view vs. Tree View
----------------------------
+===========================
 
 The **Log Viewer** can be viewed in different modes: **standard** view and **tree** view. You can switch to tree view by selecting the **Tree View** toggle as illustrated below:
 
@@ -24,7 +24,7 @@ The **Tree View** display logs in a structural way that relates to how the tes
 ![](../../images/katalon-studio/docs/view-execution-log/image2017-6-23 15_55_57.png)
 
 Scroll Lock
------------
+===========
 
 While the test is being executed, the **Log Viewer** will be updated with real-time log messages, where the most recent log message is shown at the bottom of the view. Therefore, the **Log Viewer** is kept scrolling down during the test execution. However, users may want to keep the **Log Viewer** standing still so that they can verify certain log message. In order to stop this scrolling behavior, you can select **Scroll Lock**.
 

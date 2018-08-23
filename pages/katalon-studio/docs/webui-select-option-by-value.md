@@ -5,19 +5,19 @@ permalink: katalon-studio/docs/webui-select-option-by-value.html
 description: 
 ---
 Description
------------
+===========
 
 Select the options with the given value.
 
 ![](../../images/katalon-studio/docs/webui-select-option-by-value/image2017-3-1 18_20_51.png)
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>value</td><td>String</td><td>Required</td><td>Value of the options to be selected.</td></tr><tr><td>isRegex</td><td>boolean</td><td>Required</td><td>true if the label is a regular expression, otherwise false</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or st</td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to select an option which value is "Hongkong CURA Healthcare Center" in the list.
 

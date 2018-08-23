@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/version-561.html
 description: 
 ---
 Hotfix release
---------------
+==============
 
 Address the following issues:
 

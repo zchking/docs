@@ -5,17 +5,17 @@ permalink: katalon-studio/docs/webui-set-text.html
 description: 
 ---
 Description  
--------------
+=============
 
 Set the value of an input field, as though you type it in. It also clears the previous value of the input field.
 
 Parameters  
-------------
+============
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to&nbsp;</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td><span>Represent a web element.</span></td></tr><tr><td><span>text</span></td><td><span>String</span></td><td><span>Required</span></td><td><span>The text to type in.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example  
----------
+=========
 
 You want to set the text to **txt_UserName** and **txt_Password** of a login form.
 

@@ -5,15 +5,17 @@ permalink: katalon-studio/docs/version-42.html
 description: 
 ---
 New Features
-------------
+============
 
-### JIRA Integration
+JIRA Integration
+----------------
 
 Bugs can be submitted directly fromKatalonStudio failed test results using embedded native JIRA interface. Teststeps,captured screenshots and logs will be attached automatically to the JIRA ticket. Failed execution results can also be created as sub-task or associated with an existing JIRA ID. Ticket status' synced back toKatalonStudio providing necessary information for validation.  
 
 ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_9_57.png)
 
-### Undo Actions
+Undo Actions
+------------
 
 Support Undo/Redo actions (within 20 steps) for following objects:
 
@@ -25,7 +27,8 @@ Support Undo/Redo actions (within 20 steps) for following objects:
 ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_10_53.png)  
   
 
-### Headless execution
+Headless execution
+------------------
 
 This new option is available for web automation execution without launching the browser interface which increases execution performance and time.
 
@@ -36,9 +39,10 @@ The following keywords are not supported with headless execution
 <table><thead><tr><th>Keyword</th><th>Known Issues</th><th>Impact</th></tr></thead><tbody><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert" rel="nofollow">Accept Alert</a></p></td><td><p>Alert is not recognizable in headless execution</p><p>(<a class="external-link" href="https://github.com/MachinePublishers/jBrowserDriver/issues/147" rel="nofollow">https://github.com/MachinePublishers/jBrowserDriver/issues/147</a>)</p></td><td><p>Alert keywords can’t be used for verification</p></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Dismiss+Alert" rel="nofollow">Dismiss Alert</a></p></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text" rel="nofollow">Get Alert Text</a></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Alert+Text" rel="nofollow">Set Alert Text</a></p></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present" rel="nofollow">Verify Alert Not Present</a></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Present" rel="nofollow">Verify Alert Present</a></p></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert" rel="nofollow">Wait For Alert</a></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Value" rel="nofollow">Select Option By Value</a></p></td><td><p>Wrong option is selected</p><p>(<a class="external-link" href="https://github.com/MachinePublishers/jBrowserDriver/issues/148" rel="nofollow">https://github.com/MachinePublishers/jBrowserDriver/issues/148</a>)</p></td><td><p>Options could not be selected as expected</p></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label" rel="nofollow">Select Option By Label</a></p></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option" rel="nofollow">Select All Options</a></p></td></tr><tr><td><p><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index" rel="nofollow">Select Option By Index</a></p></td></tr></tbody></table>
 
 Improvements
-------------
+============
 
-### General
+General
+-------
 
 1.  Address keywords incompatible issues with Firefox 47+ (as mentioned in [Version 3.5](/display/KD/Version+3.5)).
 2.  Update ChromeDriver's version to 2.25 to resolve execution issue with Chrome 54.
@@ -47,7 +51,8 @@ Improvements
       
     
 
-### Test Project
+Test Project
+------------
 
 1.  Include ‘JRE’ settings on Preferences. Users can change to other JRE version if needed.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_15_42.png)
@@ -56,7 +61,8 @@ Improvements
       
     
 
-### Test Case
+Test Case
+---------
 
 1.  Support defining [closure](http://groovy-lang.org/closures.html) syntax of Groovy in test case’s manual.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_24_9.png)  
@@ -71,7 +77,8 @@ Improvements
       
     
 
-### Test Suite Collection
+Test Suite Collection
+---------------------
 
 1.  Add ‘Run Configuration’ column to setup required information for the following execution modes:
     
@@ -90,7 +97,7 @@ Improvements
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_36_24.png)
 
 Known Issues
-------------
+============
 
 Appium 1.6 is not supported. Besides of that, Appium has problem running tests on the latest iOS as reported at: 
 

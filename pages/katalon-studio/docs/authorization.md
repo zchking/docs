@@ -15,7 +15,8 @@ The following authorizations are supported:
 *   **OAuth 1.0  
     **
 
-### Basic
+Basic
+-----
 
 This is the simplest authorization for a request.
 

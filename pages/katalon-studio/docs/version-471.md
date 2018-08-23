@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/version-471.html
 description: 
 ---
 General Improvement
--------------------
+===================
 
 KatalonStudio [Test Case Script View](https://docs.katalon.com/display/KD/Test+Case+Script+View) is updated with new font:
 
@@ -13,7 +13,7 @@ KatalonStudio [Test Case Script View](https://docs.katalon.com/display/KD/Test+
 *   Mac OS: Menlo 14
 
 qTest Integration
------------------
+=================
 
  Improve overall UI of qTestintegration:
 

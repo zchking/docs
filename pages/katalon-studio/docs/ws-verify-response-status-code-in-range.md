@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/ws-verify-response-status-code-in-range.html
 description: 
 ---
 Description
------------
+===========
 
 Verify status code valid in a range of status codes in the returned data from a web service call.
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>responseObject</span></td><td><span>ResponseObject</span></td><td>Required</td><td><span>The object represents an HTTP Response, the user can get responded content type, header properties (sometimes the user may want to get cookies from response header)</span></td></tr><tr><td>fromStatusCode</td><td>int</td><td>Required</td><td>From status code</td></tr><tr><td>toStatusCode</td><td>int</td><td>Required</td><td>To status code</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
--------
+=======
 
 *   **true** if the response status code is the same as the expected status code, otherwise **false**.
 
 Example
--------
+=======
 
 You want to verify if the response from "REST\_Status Codes/POST\_201" object returns a status code from 200 to 400.
 

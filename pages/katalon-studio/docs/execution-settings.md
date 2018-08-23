@@ -7,7 +7,7 @@ description:
 Execution settings help users to set preferred behaviors for Katalon Studio during test execution. 
 
 Default Execution Settings
---------------------------
+==========================
 
 You can configure general execution preferences by accessing from main menu: **Project > Project Settings > Execution > Default**.
 
@@ -20,7 +20,7 @@ Where:
 All the above preferences are saved into **.prefs** files under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
 
 WebUI Settings
---------------
+==============
 
 These settings decide the general behavior of Katalon Studio when executing WebUI testing. You can configure WebUI execution preferences by accessing from main menu: 
 
@@ -35,12 +35,12 @@ Where:
 All the above preferences are saved into **.prefs** files under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
 
 Desired Capabilities 
----------------------
+=====================
 
 Desired Capabilities are essential in an automation test project. For more information, refer to [this guide](https://docs.katalon.com/x/ywbR). 
 
 Custom Execution
-----------------
+================
 
 Custom execution is a bit different from other execution settings. Follow these steps to create a custom execution with its desired capabilities:
 

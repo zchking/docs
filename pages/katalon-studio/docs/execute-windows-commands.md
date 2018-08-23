@@ -43,7 +43,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 ```
 
 References
-----------
+==========
 
 *   [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
     

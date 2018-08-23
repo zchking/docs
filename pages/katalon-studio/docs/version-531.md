@@ -4,23 +4,27 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-531.html 
 description: 
 ---
-### Integration and Email Accounts Encryption
+Integration and Email Accounts Encryption
+-----------------------------------------
 
 Provide user an option in Project Settings to encrypt all integration and email accounts with Katalon Studio. This helps to ensure the security of accounts information in sharing such as via Git. 
 
 ![](../../images/katalon-studio/docs/version-531/image2018-3-1 11_52_11.png)
 
-### Masking Password Field in Record Web
+Masking Password Field in Record Web
+------------------------------------
 
 Since version 5.3.1, Katalon Studio will auto-detect and masked the input text of Password field while Recording.
 
 ![](../../images/katalon-studio/docs/version-531/image2018-3-1 12_27_59.png)
 
-### Support Private Kobiton Devices
+Support Private Kobiton Devices
+-------------------------------
 
 Enhance Kobiton integration to support mobile testing with **Private** Kobiton devices. 
 
-### Support Proxy in Console Mode Execution
+Support Proxy in Console Mode Execution
+---------------------------------------
 
 Allow users to pass Proxy settings in Console Mode command
 
@@ -32,6 +36,6 @@ Allow users to pass Proxy settings in Console Mode command
 katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" --config -proxy.option=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address="http://192.168.12.32" -proxy.server.port="8888"
 ```
 
-#### Issues fixed
+### Issues fixed
 
 Support negative verification on API error response code (4xx, 5xx, etc)

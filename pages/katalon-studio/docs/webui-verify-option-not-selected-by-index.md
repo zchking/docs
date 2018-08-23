@@ -15,12 +15,12 @@ description:
     
 *   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are [here](https://docs.katalon.com/x/qAAM).
 
-#### Returns
+### Returns
 
 *   **true:** if all options at given indices are not selected
 *   **false:** if options  at given indices are selected
 
-#### Example: You want to verify if the option 1 in the list is not selected in 5s timeout
+### Example: You want to verify if the option 1 in the list is not selected in 5s timeout
 
 Manual: 
 

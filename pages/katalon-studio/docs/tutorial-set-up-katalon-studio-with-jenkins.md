@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/tutorial-set-up-katalon-studio-with-jenkins.html
 description: 
 ---
 Prerequisites
--------------
+=============
 
 1.  Katalon Studio command to be used for console mode execution. Refer to section [Console Mode Execution](/display/KD/Console+Mode+Execution) for how to build up a Katalon command. Here is the basic command template:
     
@@ -19,7 +19,7 @@ Your command should NOT include -noExit and -consoleLog parameters so that CI lo
 2\. CI tool is installed and setup properly. In this example, we will use [Jenkins](https://jenkins.io/), which is a popular CI and easy to integrate with.
 
 Configuration Steps
--------------------
+===================
 
 1.  Create a New item in Jenkins  
     ![](../../images/katalon-studio/docs/tutorial-set-up-katalon-studio-with-jenkins/Screen Shot 2017-07-10 at 14.07.17.png)
@@ -59,7 +59,7 @@ katalon -runMode=console -projectPath="C:\Project\Sample Project.prj" -reportFol
 ![](../../images/katalon-studio/docs/tutorial-set-up-katalon-studio-with-jenkins/build environment.png)
 
 Exit Codes
-----------
+==========
 
 When you execute Katalon Studio command from CI , exit code will be generated as the output of your execution. You can use this exit code to know whether your execution is successful, passed or failed.  
 ![](../../images/katalon-studio/docs/tutorial-set-up-katalon-studio-with-jenkins/image2016-9-8 10_43_50.png)
@@ -73,7 +73,7 @@ Below is the list of exit codes after console mode execution:
 *   4: the execution cannot start because of invalid arguments.
 
 Publish JUnit reports
----------------------
+=====================
 
 From [Katalon Studio 4.7](https://docs.katalon.com/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store , analyze and show results, please add '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
 

@@ -5,14 +5,14 @@ permalink: katalon-studio/docs/version-46.html
 description: 
 ---
 General Improvement
--------------------
+===================
 
 **Download Size Reduced **
 
 <table><thead><tr><th>Platform</th><th>Katalon Studio 4.5</th><th>Katalon Studio 4.6</th></tr></thead><tbody><tr><th>Windows 32 bits</th><td>430 MB</td><td>329 MB</td></tr><tr><th>Windows 64 bits</th><td>414 MB</td><td>333 MB</td></tr><tr><th>macOS</th><td>414 MB</td><td>348 MB</td></tr></tbody></table>
 
 Mobile Testing
---------------
+==============
 
 **[Record & Playback for Mobile ](https://docs.katalon.com/display/KD/Recording+Mobile+Test)**
 
@@ -21,7 +21,7 @@ Katalon preferred Recording utility is enhanced to support both iOS and Android 
 ![](../../images/katalon-studio/docs/version-46/record_mobile.png)
 
 Test Object
------------
+===========
 
 **[Parameterizing Test Objects](https://docs.katalon.com/display/KD/Manage+Test+Object#ManageTestObject-ParameterizingTestObject)**
 
@@ -35,7 +35,7 @@ Users can leverage the declared properties further by using Katalon scripting mo
 ![](../../images/katalon-studio/docs/version-46/image2017-5-18 11_49_17.png)
 
 Network Configuration
----------------------
+=====================
 
 **Certificate Settings**
 
@@ -50,7 +50,7 @@ Proxy setup can be configured at: **Preferences > Proxy**. The setting affects 
 ![](../../images/katalon-studio/docs/version-46/image2017-5-18 11_52_43.png)
 
 Object Spy
-----------
+==========
 
 **Hotkeys Settings**
 
@@ -62,7 +62,7 @@ This ability to change hotkeys for Object Spy only affect Chrome browser. Other 
 ![](../../images/katalon-studio/docs/version-46/image2017-5-28 9_38_40.png)
 
 Keywords
---------
+========
 
 **Wait time for Angular/jQuery pages**
 

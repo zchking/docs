@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/webui-verify-element-not-visible-in-viewport.html
 description: 
 ---
 Description
------------
+===========
 
 Verify if given web element is NOT visible in the current viewport.
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><p><span>Represent a web element.</span></p></td></tr><tr><td>timeout</td><td>int</td><td>Required</td><td><p class="blockList">System will wait at most timeout (seconds) to return a result.</p></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is visible in the current viewport.</li><li><strong>false: </strong>the element is visible is not visible in the current viewport.</li></ul></td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to verify 'Make Appointment'  button is not visible in the current viewport.
 

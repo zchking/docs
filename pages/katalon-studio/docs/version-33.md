@@ -5,41 +5,46 @@ permalink: katalon-studio/docs/version-33.html
 description: 
 ---
 Improvements
-------------
+============
 
-### General
+General
+-------
 
 *   Add the ability to debug a test script
 *   Update test artifacts by using properties dialog (Right Click -> Properties)
 
-### Mobility
+Mobility
+--------
 
 *   Simplified mobile testing setup
 *   Add settings for config external APPIUM libraries
 
-### Test Case
+Test Case
+---------
 
 *   Ability to mark steps as disabled in Manual View
 
-### Execution
+Execution
+---------
 
 *   Add 'chrome' executable driver to Katalon's MAC version
 *   Support external libraries in Console mode
 
-### Reports/ Logs
+Reports/ Logs
+-------------
 
 *   Add Katalon's version in execution logs and reports
 *   Add step number for child steps in setUp and tearDown methods
 
 Fixed Bugs
-----------
+==========
 
 *   Fixed an issue when users switching between running jobs will make the execution logs can't be loaded
 *   Fixed test case's status under specific case
 *   Fixed test steps' count on execution logs when running setUp and tearDown methods
 
 Customer Requests
------------------
+=================
 
 *   \[Core Informatics\] Support the ability to update browser's preferences directly in test script
 *   \[Nexidia\]  - 'import static' script will be kept when users save edited changes on manual mode

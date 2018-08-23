@@ -4,12 +4,14 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-542.html 
 description: 
 ---
-### Enhancements
+Enhancements
+------------
 
 *   Product activation is NOT required after **auto-updated** using **[updater](https://docs.katalon.com/x/lQPR)**.
 *   Support an ability to debug external libraries during debug session.
 
-### Fixes
+Fixes
+-----
 
 *   Fix Script editor glitch where the delete button stop working randomly.
 *   Fix Test Suite retry execution use only Default Profile issue.

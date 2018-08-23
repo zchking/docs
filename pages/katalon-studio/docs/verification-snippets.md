@@ -10,7 +10,8 @@ Verification snippets can be accessed by clicking on the '**Verification**' tab 
 
 ![](../../images/katalon-studio/docs/verification-snippets/Untitled.png)
 
-### List of Available Verification Snippets
+List of Available Verification Snippets
+---------------------------------------
 
 On the right panel of 'Verification' tab is the list of common pre-built snippets which can assist you in most of the verification cases. 
 
@@ -20,7 +21,8 @@ When you click on one of these labels, it will generate a snippet for you.
 
 The generated snippet is ONLY an example. DON'T try to use them immediately without adjustments matched your needs, otherwise it will not work.
 
-### Using Verification Snippets
+Using Verification Snippets
+---------------------------
 
 Once the verification snippets are generated, you can use it in either in your current Web Service's object or in your Test Case
 

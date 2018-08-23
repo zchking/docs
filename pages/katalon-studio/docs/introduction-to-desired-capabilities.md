@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/introduction-to-desired-capabilities.html
 description: 
 ---
 What are Desired Capabilities?
-------------------------------
+==============================
 
 Desired Capabilities are key/value pairs that tell the browser properties such as browser name, browser version, the path of the browser driver in the system, etc. to determine the behavior of the browser at runtime. Besides SeleniumWebDriver, desired capabilities can be used to configure additional driver instances like FirefoxDriver, ChromeDriver, InternetExplorerDriver. Desired Capabilities are useful in cases like:
 
@@ -15,7 +15,7 @@ Desired Capabilities are key/value pairs that tell the browser properties such a
 Katalon Studio allows you to define these Desired Capabilities in [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings).
 
 Understand the Settings
------------------------
+=======================
 
 Before adding Desired Capabilities in Katalon Studio, you need to identify which the environment you want to customize its behaviors. Below is the list of supported environments as well as their locations in Katalon Studio settings
 
@@ -24,7 +24,7 @@ Before adding Desired Capabilities in Katalon Studio, you need to identify which
 As indicated above, any changes made '**Default**' settings will apply to the current environment immediately when you [execute a test](https://docs.katalon.com/display/KD/Execute+a+Test+Case+or+a+Test+Suite#ExecuteaTestCaseoraTestSuite-ExecuteanEntireTestCaseorTestSuite). If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
 
 Modify Desired Capabilities in Katalon Studio
----------------------------------------------
+=============================================
 
 After you select the environment you want to modify its desired capabilities, there will a simple dialog displayed to let you add the settings you want. This section covers how to add or remove these desired capabilities. 
 

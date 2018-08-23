@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/webui-verify-element-clickable.html
 description: 
 ---
 Description
------------
+===========
 
 Verify if the given element is clickable.
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><p><span>Represent a web element.</span></p></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><p><strong>true: </strong>the element is present and clickable.</p></li><li><strong>false: </strong>the element neither present or clickable.</li></ul></td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to verify if 'Make Appointment' button is clickable.
 

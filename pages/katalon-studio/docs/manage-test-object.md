@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/manage-test-object.html
 description: 
 ---
 Create a Test Object
---------------------
+====================
 
 1.  Select **File > New > Test Object** from the main menu. The **New Test Object** dialog will be displayed.  
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-1-24 11_25_41.png)  
@@ -17,7 +17,7 @@ Create a Test Object
     
 
 Add an object property
-----------------------
+======================
 
 There cannot be two properties with the same name existed in the same test object.
 
@@ -38,7 +38,7 @@ There cannot be two properties with the same name existed in the same test objec
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-10-17 11_36_7.png)
 
 Manage parent object
---------------------
+====================
 
 Nowadays, there are many web applications which render elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website’s **iframes** and select the correct **iframe** where the text and its object are present. In order to do so, you have to use '[Switch To Frame](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements. 
 
@@ -47,13 +47,13 @@ Katalon Studio does support the ability to define parent iframe object within te
 ![](../../images/katalon-studio/docs/manage-test-object/image2017-10-17 11_38_6.png)
 
 Properties used for detecting object
-------------------------------------
+====================================
 
 *   Available since version 5.0
 *   [How to get Web objects XPath or CSS Locator](https://docs.katalon.com/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
 *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
 
-##### Selection Method
+#### Selection Method
 
 Katalon Studio allows users to select methods on how objects will be located.
 
@@ -69,7 +69,7 @@ Katalon Studio allows users to select methods on how objects will be located.
         Click **Save** when finished. 
 
 Validate Test Object on AUT
----------------------------
+===========================
 
 You can add test objects to **Web Object Spy** dialog to verify whether they are still correctly detected in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](/pages/viewpage.action?pageId=5111951) for details regarding how to validate captured objects against the application under test.
 
@@ -77,7 +77,7 @@ You can add test objects to **Web Object Spy** dialog to verify whether they a
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-1-24 14_13_42.png)
 
 Parameterizing Test Object
---------------------------
+==========================
 
 Katalon Studio provides user with the ability to handle dynamic objects (Objects that have some particular properties change due to certain business rules). By supporting a way to parameterize test objects, users can leverage this approach to control objects dynamically. The example below describes basic steps to do this:
 
@@ -121,7 +121,7 @@ Katalon Studio provides user with the ability to handle dynamic objects (Objects
     
 
 Test Objects in Scripting View
-------------------------------
+==============================
 
 The **Script View** of Test Case allows you to programmatically define and handle **Test Objects** as needed. Following is a simple sample showing you how to do that:
 

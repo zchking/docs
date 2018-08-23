@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/common-concatenate.html
 description: 
 ---
 Description  
--------------
+=============
 
 Concatenate all strings end-to-end into one string.
 
 Parameters  
-------------
+============
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>stringList</span></td><td><span>String[]</span></td><td><span>Required</span></td><td><span>List of strings to concatenate.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns  
----------
+=========
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>String</span></td><td><p><span>A concatenated string from the list of strings.</span></p></td></tr></tbody></table>
 
 Example  
----------
+=========
 
 You want to concatenate two strings "Katalon Studio" and "Automation Tool" into one string "Katalon Studio Automation Tool".
 

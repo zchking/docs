@@ -6,17 +6,20 @@ description:
 ---
 Currently, Katalon Studio for Linux has a **Lite** version (Ubuntu tested) which supports only [console mode execution](https://docs.katalon.com/display/KD/Console+Mode+Execution). Katalon Studio IDE is **not** supported yet. This guide will cover basic setups and installation steps for the **Linux** version.
 
-### Download
+Download
+--------
 
 Sign in with the registered account on Katalon [website](https://www.katalon.com/) and select **Linux version** to download.
 
 ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/image2018-2-2 11_43_19.png)
 
-### Activation
+Activation
+----------
 
 Since **only console mode** execution is supported, users **DON'T** need to activate Katalon Studio. 
 
-### Execution
+Execution
+---------
 
 Be sure to install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
 
@@ -39,15 +42,16 @@ To execute tests, follow the following steps:
 cd /home/katalon/Katalon_5.3 ./katalon -noSplash -runMode=console -consoleLog -projectPath="/Users/nguyenvinh/Katalon Studio/WebTesting/WebTesting.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)"
 ```
 
-### Troubleshooting
+Troubleshooting
+---------------
 
-#### Invalid Project Description
+### Invalid Project Description
 
 This might happen because .project file contains invalid information or Katalon command was executed lines in the SAME folder of project folder ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.07.44.png)
 
 You can delete .project file to let Katalon Studio generate back the valid information or execute commands outside of executed project folder.  
 ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.08.52.png)
 
-#### 'NoClassDefFoundError' error
+### 'NoClassDefFoundError' error
 
 This happens because Oracle JDK is used. Please uninstall current Oracle JDK and Install Open JDK8 after that: [http://openjdk.java.net/install/](http://openjdk.java.net/install/).

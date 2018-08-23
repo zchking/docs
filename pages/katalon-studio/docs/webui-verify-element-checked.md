@@ -5,22 +5,22 @@ permalink: katalon-studio/docs/webui-verify-element-checked.html
 description: 
 ---
 Description
------------
+===========
 
 Verify if the given web element is checked.
 
 Parameters
-----------
+==========
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>timeout</td><td>int</td><td>Required</td><td>System will wait at most timeout (seconds) to return result</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
--------
+=======
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><p>Result of verification:</p><ul><li>true if the element is checked.</li><li>false if the element is unchecked.</li></ul><p>&nbsp;</p></td></tr></tbody></table>
 
 Example
--------
+=======
 
 You want to verify if the 'Medicaid' checkbox is checked in 10 seconds timeout.
 
