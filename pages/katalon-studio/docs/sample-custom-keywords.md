@@ -12,7 +12,7 @@ The options are displayed directly when you create a new custom keyword.
 
 ![](../../images/katalon-studio/docs/sample-custom-keywords/Screen Shot 2018-03-26 at 13.35.02.png)
 
-<table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Option</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Generate sample keywords for Web</td><td class="xtd-1-1 confluenceTd" style="">Generate some sample functions used for Web Testing</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style=""><span style="">Generate sample keywords for Mobile</span></td><td class="xtd-2-1 confluenceTd" style="">Generate some sample functions used for Mobile Testing</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style=""><span style="">Generate sample keywords for API</span></td><td class="xtd-3-1 confluenceTd" style="">Generate some sample functions used for API Testing</td></tr></tbody></table>
+<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Generate sample keywords for Web</td><td>Generate some sample functions used for Web Testing</td></tr><tr><td><span>Generate sample keywords for Mobile</span></td><td>Generate some sample functions used for Mobile Testing</td></tr><tr><td><span>Generate sample keywords for API</span></td><td>Generate some sample functions used for API Testing</td></tr></tbody></table>
 
   
 You can select **one** or **all** of these options to have all sample custom keywords generated in one file. For example, select all options, the generated custom keyword will look like as below:

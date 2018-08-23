@@ -41,7 +41,7 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table style="table-layout: fixed;"><thead><tr><th style="">npm install -g appium</th></tr></thead><tbody style=""></tbody></table>
+<table><thead><tr><th>npm install -g appium</th></tr></thead><tbody></tbody></table>
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
 
@@ -76,7 +76,7 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table style="table-layout: fixed;"><thead><tr><th style="">xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=&lt;udid&gt;' test Note: &lt;udid&gt; is the device UDID of your mobile device.</th></tr></thead><tbody style=""></tbody></table>
+<table><thead><tr><th>xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=&lt;udid&gt;' test Note: &lt;udid&gt; is the device UDID of your mobile device.</th></tr></thead><tbody></tbody></table>
 
 *   If the following dialog is shown, select **Always Allow**
 

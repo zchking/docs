@@ -67,7 +67,7 @@ WebUI.closeBrowser()
 
 Where:
 
-<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title" style=""><span style="">Switch To Window Title</span></a></span></td><td style=""><span style="">Switch to the window identified by a given title.</span></td></tr><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index" style=""><span style="">Switch To Window Index</span></a></span></td><td style=""><span style="">Switch to the window identified by a given index.</span></td></tr><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url" style=""><span style="">Switch To Window Url</span></a></span></td><td style=""><span style="">Switch to the window identified by a given URL.</span></td></tr></tbody></table>
+<table><thead><tr><th>Keyword</th><th>Description</th></tr></thead><tbody><tr><td><span><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title"><span>Switch To Window Title</span></a></span></td><td><span>Switch to the window identified by a given title.</span></td></tr><tr><td><span><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index"><span>Switch To Window Index</span></a></span></td><td><span>Switch to the window identified by a given index.</span></td></tr><tr><td><span><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url"><span>Switch To Window Url</span></a></span></td><td><span>Switch to the window identified by a given URL.</span></td></tr></tbody></table>
 
 If you want to switch back to the default window (parent), use the [Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content) keyword. For example_:_
 
@@ -88,7 +88,7 @@ WebUI.closeBrowser()
 
 Where:
 
-<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content" style=""><span style="">Switch To Default Content</span></a></span></td><td style=""><span style="">Switch back to the default window, after working with iFrame windows.</span></td></tr></tbody></table>
+<table><thead><tr><th>Keyword</th><th>Description</th></tr></thead><tbody><tr><td><span><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content"><span>Switch To Default Content</span></a></span></td><td><span>Switch back to the default window, after working with iFrame windows.</span></td></tr></tbody></table>
 
   
 To deal with Windows’ native dialogs such as uploading files, users use the [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
@@ -107,7 +107,7 @@ WebUI.closeBrowser()
 
 Where:
 
-<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File" style=""><span style="">Upload File</span></a></span></td><td style=""><span style="">Specify the file for the upload dialog</span><b style="">.</b></td></tr></tbody></table>
+<table><thead><tr><th>Keyword</th><th>Description</th></tr></thead><tbody><tr><td><span><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File"><span>Upload File</span></a></span></td><td><span>Specify the file for the upload dialog</span><b>.</b></td></tr></tbody></table>
 
 Regarding the browser’s popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
 

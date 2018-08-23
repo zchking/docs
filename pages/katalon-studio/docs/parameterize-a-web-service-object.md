@@ -22,7 +22,7 @@ Having the ability to parameterized Web Services object allows user have more co
     ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/image2018-4-3 11_12_30.png)  
     Where
     
-    <table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Parameter</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">${userID}</td><td class="xtd-1-1 confluenceTd" style="">Parameterized <strong style="">userID</strong> to receive any passing value</td></tr></tbody></table>
+    <table><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody><tr><td>${userID}</td><td>Parameterized <strong>userID</strong> to receive any passing value</td></tr></tbody></table>
     
     In **Script Mode**, the below code passing the value of **userID** to be sent in the request
     
@@ -36,7 +36,7 @@ Having the ability to parameterized Web Services object allows user have more co
     
     Where
     
-    <table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Parameter</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">${userID}</td><td class="xtd-1-1 confluenceTd" style="">Parameterized <strong style="">userID</strong> to receive any passing value</td></tr></tbody></table>
+    <table><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody><tr><td>${userID}</td><td>Parameterized <strong>userID</strong> to receive any passing value</td></tr></tbody></table>
     
       
     In **Script Mode** of the test case, the script below send a request to GET any user with ID = 2 

@@ -12,12 +12,12 @@ Get current viewport left (x) position relative to the web page.
 Parameters  
 ------------
 
-<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Param</th><th class="xtd-0-1 confluenceTh" style="">Param Type</th><th class="xtd-0-2 confluenceTh" colspan="1" style="">Mandatory</th><th class="xtd-0-3 confluenceTh" colspan="1" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><span style="">flowControl</span></td><td class="xtd-1-1 confluenceTd" style=""><span style="">FailureHandling</span></td><td class="xtd-1-2 confluenceTd" colspan="1" style=""><span style="">Optional</span></td><td class="xtd-1-3 confluenceTd" colspan="1" style="">Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" style="">failure handling</a> <span style="">schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead style=""><tr style=""><th class="confluenceTh" style=""><div class="tablesorter-header-inner" style="">Param Type</div></th><th class="confluenceTh" style=""><div class="tablesorter-header-inner" style="">Description</div></th></tr></thead><tbody style=""><tr class="xtr-0" style=""><td class="xtd-0-0 confluenceTd" style=""><span style="">int</span></td><td class="xtd-0-1 confluenceTd" style=""><p style=""><span style="">Current view port left (x) position.</span></p></td></tr></tbody></table>
+<table><thead><tr><th><div class="tablesorter-header-inner">Param Type</div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><span>int</span></td><td><p><span>Current view port left (x) position.</span></p></td></tr></tbody></table>
 
 Example 
 --------

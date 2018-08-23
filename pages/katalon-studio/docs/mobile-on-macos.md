@@ -7,7 +7,7 @@ description:
 Katalon Studio Supported Environment on macOS
 ---------------------------------------------
 
-<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">&nbsp;</th><th class="xtd-0-1 confluenceTh" colspan="1" style="">Version</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Appium</td><td class="xtd-1-1 confluenceTd" colspan="1" style="">1.6, 1.7</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" colspan="1" style="">Android</td><td class="xtd-2-1 confluenceTd" colspan="1" style="">6.x, 7.x</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" colspan="1" style="">iOS</td><td class="xtd-3-1 confluenceTd" colspan="1" style="">9, 10,11</td></tr></tbody></table>
+<table><thead><tr><th>&nbsp;</th><th>Version</th></tr></thead><tbody><tr><td>Appium</td><td>1.6, 1.7</td></tr><tr><td>Android</td><td>6.x, 7.x</td></tr><tr><td>iOS</td><td>9, 10,11</td></tr></tbody></table>
 
 Installing Dependencies
 -----------------------

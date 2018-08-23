@@ -33,7 +33,7 @@ Manual Setup
     ![](../../images/katalon-studio/docs/enable-qtest-integration/image2017-8-1 17_3_41.png)  
     Where:
     
-    <table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Automatically submit test run result</td><td class="xtd-1-1 confluenceTd" style=""><span style="">Results of executed test cases will be uploaded automatically to qTest.</span></td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Submit test run result to latest approved version</td><td class="xtd-2-1 confluenceTd" style=""><span style="">Test run result will be submitted to latest&nbsp;</span><strong style="">approved</strong><span style="">&nbsp;version of mapped qTest test case.</span></td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style="">Report format</td><td class="xtd-3-1 confluenceTd" style=""><span style="">Additional attachments for reports to be upload to qTest.</span></td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Automatically submit test run result</td><td><span>Results of executed test cases will be uploaded automatically to qTest.</span></td></tr><tr><td>Submit test run result to latest approved version</td><td><span>Test run result will be submitted to latest&nbsp;</span><strong>approved</strong><span>&nbsp;version of mapped qTest test case.</span></td></tr><tr><td>Report format</td><td><span>Additional attachments for reports to be upload to qTest.</span></td></tr></tbody></table>
     
       
     

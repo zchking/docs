@@ -21,7 +21,7 @@ Before capturing test objects on the mobile application, make sure that you have
     
     Where:
     
-    <table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Device Name</td><td class="xtd-1-1 confluenceTd" style="">The smartphone to capture objects from. All of your connected devices should be displayed in this list.</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Application Type</td><td class="xtd-2-1 confluenceTd" style="">Currently, Katalon Studio only support native mobile applications.</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style="">Application File</td><td class="xtd-3-1 confluenceTd" style="">The absolute path to your mobile application file (<strong style="">.apk</strong> file for Android or <strong style="">.ipa</strong> file for iOS).</td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Device Name</td><td>The smartphone to capture objects from. All of your connected devices should be displayed in this list.</td></tr><tr><td>Application Type</td><td>Currently, Katalon Studio only support native mobile applications.</td></tr><tr><td>Application File</td><td>The absolute path to your mobile application file (<strong>.apk</strong> file for Android or <strong>.ipa</strong> file for iOS).</td></tr></tbody></table>
     
     Click **Start** when you're done with the settings.
     

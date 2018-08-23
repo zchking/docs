@@ -12,7 +12,7 @@ Add 'Offline Activation' feature on Activation Screen
 
 Add additional parameters to console mode execution. You can use this parameters for activation automatically when running on console mode:
 
-<table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th style="" class="confluenceTh">Param name</th><th class="confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr style=""><td class="confluenceTd" style="">-email</td><td class="confluenceTd" style="">Registered email on Katalon Studio site</td></tr><tr style=""><td class="confluenceTd" style="">-password</td><td class="confluenceTd" style="">Your password tied to the above email</td></tr></tbody></table>
+<table><thead><tr><th>Param name</th><th>Description</th></tr></thead><tbody><tr><td>-email</td><td>Registered email on Katalon Studio site</td></tr><tr><td>-password</td><td>Your password tied to the above email</td></tr></tbody></table>
 
 **Example**
 
