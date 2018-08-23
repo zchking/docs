@@ -12,36 +12,7 @@ Navigate to the specified web page.
 Parameters
 ----------
 
-Param
-
-Param Type
-
-Mandatory
-
-Description
-
-rawUrl
-
-String
-
-Required
-
-URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the the protocol will be http://.
-
-Example: 
-
-*   [http://katalon.com/;](http://katalon.com)
-*   [https://www.google.com;](https://www.google.com)
-*   file:///D:Development/index.html;
-*   kms-technology.com => http://kms-tecnology.com
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" colspan="1" style="">rawUrl</td><td class="" colspan="1" style="">String</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><p class="" style="">URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the&nbsp;the protocol<span style="" class="">&nbsp;will be&nbsp;</span><a rel="nofollow" style="" class="">http://.</a></p><p class="" style=""><span style="" class="">Example:&nbsp;</span></p><ul class="" style=""><li class="" style=""><span style="" class="">&nbsp;</span><a class="" href="http://katalon.com" rel="nofollow" style="">http://katalon.com/;</a><span style="" class="">&nbsp;</span></li><li class="" style=""><span style="" class="">&nbsp;</span><a class="" href="https://www.google.com" rel="nofollow" style="">https://www.google.com;</a><span style="" class="">&nbsp;</span></li><li class="" style=""><span style="" class="">f</span><span style="" class="">ile:///D:Development/index.html;</span></li><li class="" style=""><span style="" class="">kms-technology.com =&gt; http://kms-tecnology.com</span></li></ul></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 -------

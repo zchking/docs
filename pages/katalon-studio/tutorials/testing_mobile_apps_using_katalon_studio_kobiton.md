@@ -24,33 +24,7 @@ Katalon Studio provides two utilities to accelerate the automation process: Mobi
 
 Where
 
-Section
-
-Explanation
-
-Device View
-
-Device inspector view. Preview of device UI will be displayed here. Click on any elements to select.
-
-Configurations
-
-Select setting for recording session
-
-All Objects
-
-The current mobile elements hierarchy on the device. Click to select an element and view its properties in Object Properties.
-
-Possible Actions
-
-All available actions that can be performed on the device
-
-Object Properties
-
-All properties of the selected element in All Objects.
-
-Recorded Actions
-
-All recorded actions appear here
+<table class="" style="table-layout: fixed;"><thead><tr><th style="" class="">Section</th><th style="" class="">Explanation</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">Device View</span></td><td style="" class=""><span style="" class="">Device inspector view. Preview of device UI will be displayed here. Click on any elements to select.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Configurations</span></td><td style="" class=""><span style="" class="">Select setting for recording session</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">All Objects</span></td><td style="" class=""><span style="" class="">The current mobile elements hierarchy on the device. Click to select an element and view its properties in Object Properties.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Possible Actions</span></td><td style="" class=""><span style="" class="">All available actions that can be performed on the device</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Object Properties</span></td><td style="" class=""><span style="" class="">All properties of the selected element in All Objects.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Recorded Actions</span></td><td style="" class=""><span style="" class="">All recorded actions appear here</span></td></tr></tbody></table>
 
 2\. With the dialog opened, follow the following steps to configure your recording session:
 

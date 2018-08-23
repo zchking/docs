@@ -15,16 +15,7 @@ You can manage additional configurations for test suite collection execution by 
 
 where:
 
-Field
-
-Description
-
-![](../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 11_47_25.png)
-
-The order to execute test suites within the collection.
-
-*   **Sequential**: the test suites will be executed one after another.
-*   **Parallel**: the test suites will be executed at the same time.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 11_47_25.png" data-image-src="/download/attachments/13699894/image2017-2-17%2011%3A47%3A25.png?version=1&amp;modificationDate=1531369163000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699884" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-17 11:47:25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699894" data-linked-resource-container-version="4" style=""></span></p></div></td><td class="" style=""><p class="" style="">The order to execute test suites within the collection.</p><ul class="" style=""><li class="" style=""><strong class="" style="">Sequential</strong>: the test suites will be executed one after another.</li><li class="" style=""><strong class="" style="">Parallel</strong>: the test suites will be executed at the same time.</li></ul></td></tr></tbody></table>
 
 Manage Test Suite List
 ----------------------
@@ -43,29 +34,7 @@ You can add a test suite into a collection by following the steps below:
     ![](../../images/katalon-studio/docs/test-suite-collection/image2018-5-7 15_37_21.png)  
     where:
     
-    Field
-    
-    Description
-    
-    Run with
-    
-    The environment to be executed with the Test Suite.
-    
-    Run configuration
-    
-    Extra information for executing with the selected environment.
-    
-    **For example:** Select mobile devices to be executed for Android environment
-    
-    ![](../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 13_53_7.png)
-    
-    Profile
-    
-    [Execution Profile](https://docs.katalon.com/x/xAHR) that contains all variables values for each Test Suite execution.
-    
-    Run
-    
-    This is checked by default. It means that the test case will be executed when running the collection.
+    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Run with</td><td class="" style=""><div class="" style=""><p class="" style="">The environment to be executed with the Test Suite.</p></div></td></tr><tr class="" style=""><td class="" style="">Run configuration</td><td class="" style=""><div class="" style=""><p class="" style="">Extra information for executing with the selected environment.</p><p class="" style=""><strong class="" style="">For example:</strong> Select mobile devices to be executed for Android environment</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 13_53_7.png" data-image-src="/download/attachments/13699894/image2017-2-17%2013%3A53%3A7.png?version=1&amp;modificationDate=1531369162000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699878" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-17 13:53:7.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699894" data-linked-resource-container-version="4" style=""></span></p></div></td></tr><tr class="" style=""><td class="" colspan="1" style="">Profile</td><td class="" colspan="1" style=""><a href="https://docs.katalon.com/x/xAHR" rel="nofollow" class="" style="">Execution Profile</a> that contains all variables values for each Test Suite execution.</td></tr><tr class="" style=""><td class="" style="">Run</td><td class="" style=""><p class="" style="">This is checked by default. It means that the test case will be executed when running the collection.</p></td></tr></tbody></table>
     
       
     

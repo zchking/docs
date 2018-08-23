@@ -6,41 +6,7 @@ description:
 ---
 Currently, Katalon Studio supports executing automation test in following environments:
 
-Execution Environment
-
-Description
-
-Chrome
-
-Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-Firefox
-
-Execute a test case in Firefox, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-IE
-
-Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-Safari
-
-Execute a test case in Safari, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-Remote
-
-Execute a test case in a remote environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-Android
-
-Execute a test case on Android device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-iOS
-
-Execute a test case on an iOS device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
-Custom
-
-Execute a test case in a custom environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Execution Environment</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><p class="" style="">Chrome</p></td><td class="" style=""><p class="" style="">Execute a test case in Chrome, using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Firefox</p></td><td class="" style=""><p class="" style="">Execute a test case in Firefox, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">IE</p></td><td class="" style=""><p class="" style="">Execute a test case in Internet Explorer, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Safari</p></td><td class="" style=""><p class="" style="">Execute a test case in Safari, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Remote</p></td><td class="" style=""><p class="" style="">Execute a test case in a remote environment, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Android</p></td><td class="" style=""><p class="" style="">Execute a test case on Android device, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">iOS</p></td><td class="" style=""><p class="" style="">Execute a test case on an iOS device, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Custom</p></td><td class="" style=""><p class="" style="">Execute a test case in a custom environment, <span class="" style="">using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings" class="" style="">Execution Settings</a>.</span></p></td></tr></tbody></table>
 
 Execute on a web application
 ----------------------------

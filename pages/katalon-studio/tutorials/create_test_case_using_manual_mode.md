@@ -42,30 +42,7 @@ Follow these steps to automate the above test scenario in **Manual view**:
 
 Where:
 
-Field
-
-Description
-
-No
-
-The parameter order for the selected keyword.
-
-Param Name
-
-The name of the parameter.
-
-Param Type
-
-The data type of the parameter (e.g. String, **[Variable](https://docs.katalon.com/display/KD/Variable+Types)** or **[Test Data Value](https://docs.katalon.com/display/KD/Manage+Test+Data)**…)
-
-Value Type
-
-The type of input value (e.g. String, **[Variable](https://docs.katalon.com/display/KD/Variable+Types)** or **[Test Data Value](https://docs.katalon.com/display/KD/Manage+Test+Data)**…)
-
-Value
-
- The input value for this parameter.  
-Input value varies depending on the specified **Value Type**. Refer to **[Value Types in Katalon](https://docs.katalon.com/display/KD/Value+Types)** for more details.
+<table style="table-layout: fixed;" border="3" class=""><thead><tr><th style="" class="">Field</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class="">No</td><td style="" class=""><span style="" class="">The parameter order for the selected keyword.</span></td></tr><tr class="" style=""><td style="" class="">Param Name</td><td style="" class="">The name of the parameter.</td></tr><tr class="" style=""><td style="" class="">Param Type</td><td style="" class=""><span style="" class="">The data type of the parameter</span> (e.g. String,<span style="" class=""><strong class="" style=""> <span style="" class=""><a style="" href="https://docs.katalon.com/display/KD/Variable+Types" class="">Variable</a></span></strong></span> or <span style="" class=""><strong class="" style=""><span style="" class=""><a style="" href="https://docs.katalon.com/display/KD/Manage+Test+Data" class="">Test Data Value</a></span></strong></span>…)</td></tr><tr class="" style=""><td style="" class="">Value Type</td><td style="" class="">The type of input value (e.g. String,<strong class="" style=""> <a style="" href="https://docs.katalon.com/display/KD/Variable+Types" class="">Variable</a></strong><span style="" class=""> or </span><span style="" class=""><strong class="" style=""><span style="" class=""><a style="" href="https://docs.katalon.com/display/KD/Manage+Test+Data" class="">Test Data Value</a></span></strong></span><span style="" class="">…)</span></td></tr><tr class="" style=""><td style="" class="">Value</td><td style="" class="">&nbsp;The input value for this parameter.<br class="" style="">Input value varies <span style="" class="">depending on the specified</span> <strong class="" style="">Value Type</strong>. Refer to <strong class="" style=""><span style="" class=""><span style="" class=""><a style="" href="https://docs.katalon.com/display/KD/Value+Types" class="">Value Types in Katalon</a></span></span></strong> for more details.</td></tr></tbody></table>
 
 For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the **Value** column then click **OK**.
 

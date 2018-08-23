@@ -12,49 +12,12 @@ Verify if the given web element does present on DOM.
 Parameters
 ----------
 
-Param
-
-Param Type
-
-Mandatory
-
-Description
-
-to
-
-TestObject
-
-Required
-
-Represent a web element.
-
-timeout
-
-int
-
-Required
-
-System will wait at most timeout (seconds) to return result
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" colspan="1" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">to</span></td><td class="" colspan="1" style="">TestObject</td><td class="" colspan="1" style="">Required</td><td class="" style=""><p class="" style=""><span style="" class="">Represent a web element.</span></p></td></tr><tr class="" style=""><td class="" colspan="1" style="">timeout</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">System will wait at most timeout (seconds) to return result</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" colspan="1" style="">FailureHandling</td><td class="" colspan="1" style="">Optional</td><td class="" style="">Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop</td></tr></tbody></table>
 
 Returns
 -------
 
-Param Type
-
-Description
-
-boolean
-
-*   **true:** the element presents.
-*   **false: **the element does NOT present.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" colspan="1" style="">Param Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" colspan="1" style="">boolean</td><td class="" style=""><ul class="" style=""><li class="" style=""><strong class="" style="">true:</strong> the element presents.</li><li class="" style=""><strong class="" style="">false:&nbsp;</strong>the element does NOT present.</li></ul></td></tr></tbody></table>
 
 Example
 -------

@@ -12,49 +12,12 @@ Wait for an image to be present on page.
 Parameters
 ----------
 
-Param
-
-Param Type
-
-Mandatory
-
-Description
-
-to
-
-TestObject
-
-Required
-
-Represent an image.
-
-timeOutInSeconds 
-
-int 
-
-Required
-
-Maximum period of time (in seconds) that system will wait to return result.
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" colspan="1" style="">to</td><td class="" colspan="1" style="">TestObject</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">Represent an image.</td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">timeOutInSeconds&nbsp;</span></td><td class="" colspan="1" style=""><span style="" class="">int&nbsp;</span></td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">Maximum period of time (in seconds) that system will wait to return result.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-Param Type
-
-Description
-
-Boolean
-
-*   true if the image is presented.
-*   false if the image is NOT presented.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style="">true&nbsp;if the image is presented.</li><li class="" style="">false&nbsp;if the image is NOT presented.</li></ul></td></tr></tbody></table>
 
 Example 
 --------

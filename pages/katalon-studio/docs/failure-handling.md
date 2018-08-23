@@ -8,27 +8,7 @@ Failure handling settings allow users to decide whether Katalon Studio will cont
 
 Currently, Katalon Studio supports the following failure handling options:
 
-Option
-
-Description
-
-Stop on Failure
-
-Katalon Studio will stop execution should there be any error occurs.
-
-The step with errors will have **Failed** status.
-
-Continue on Failure
-
-Katalon Studio will continue in spite of any error during its execution.
-
-The step with errors will have **Failed** status.
-
-Optional
-
-Katalon Studio will continue in spite of any error during its execution.
-
-The step with errors will have **Warning** status.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Option</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><p class="" style="">Stop on Failure</p></td><td class="" style=""><p class="" style="">Katalon Studio will stop execution should there be any error occurs.</p><p class="" style="">The step with errors will have <strong class="" style="">Failed</strong> status.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Continue on Failure</p></td><td class="" style=""><p class="" style="">Katalon Studio will continue in spite of any error during its execution.</p><p class="" style=""><span class="" style="">The step with errors will have <strong class="" style="">Failed</strong> status</span>.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Optional</p></td><td class="" style=""><p class="" style=""><span class="" style=""><span class="" style="">Katalon Studio will continue in spite of any error during its execution.</span></span></p><p class="" style=""><span class="" style=""><span class="" style="">&nbsp;</span><span class="" style="">The step with errors will have </span></span><strong class="" style="">Warning</strong> status.</p></td></tr></tbody></table>
 
 Default failure handling behavior
 ---------------------------------

@@ -68,25 +68,7 @@ Follow these steps to automate the above test scenario in **Script view**:
       
     The following API docs may prove useful when working in Script view:
     
-    Class
-    
-    Description
-    
-    **[Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html)**
-    
-    List of common built-in keywords
-    
-    **[WebUI Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html)**
-    
-    List of Web UI built-in keywords
-    
-    **[Web Service Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html)**
-    
-    List of Web Service built-in keywords
-    
-    **[Mobile Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html)**
-    
-    List of Mobile built-in keywords
+    <table class="" style="table-layout: fixed;"><thead class="" style=""><tr class="" style=""><th class="" style=""><div class="" style="">Class</div></th><th class="" style=""><div class="" style="">Description</div></th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html" rel="nofollow" style="">Builtin Keywords</a></strong></td><td class="" style="">List of common built-in keywords</td></tr><tr class="" style=""><td class="" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html" rel="nofollow" style="">WebUI Builtin Keywords</a></strong></td><td class="" style="">List of Web UI built-in keywords</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html" rel="nofollow" style="">Web Service Builtin Keywords</a></strong></td><td class="" colspan="1" style="">List of Web Service built-in keywords</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html" rel="nofollow" style="">Mobile Builtin Keywords</a></strong></td><td class="" colspan="1" style="">List of Mobile built-in keywords</td></tr></tbody></table>
     
       
       

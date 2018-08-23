@@ -67,21 +67,7 @@ WebUI.closeBrowser()
 
 Where:
 
-Keyword
-
-Description
-
-[Switch To Window Title](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title)
-
-Switch to the window identified by a given title.
-
-[Switch To Window Index](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index)
-
-Switch to the window identified by a given index.
-
-[Switch To Window Url](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url)
-
-Switch to the window identified by a given URL.
+<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title" class="" style=""><span style="" class="">Switch To Window Title</span></a></span></td><td style="" class=""><span style="" class="">Switch to the window identified by a given title.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index" class="" style=""><span style="" class="">Switch To Window Index</span></a></span></td><td style="" class=""><span style="" class="">Switch to the window identified by a given index.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url" class="" style=""><span style="" class="">Switch To Window Url</span></a></span></td><td style="" class=""><span style="" class="">Switch to the window identified by a given URL.</span></td></tr></tbody></table>
 
 If you want to switch back to the default window (parent), use the [Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content) keyword. For example_:_
 
@@ -102,13 +88,7 @@ WebUI.closeBrowser()
 
 Where:
 
-Keyword
-
-Description
-
-[Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content)
-
-Switch back to the default window, after working with iFrame windows.
+<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content" class="" style=""><span style="" class="">Switch To Default Content</span></a></span></td><td style="" class=""><span style="" class="">Switch back to the default window, after working with iFrame windows.</span></td></tr></tbody></table>
 
   
 To deal with Windows’ native dialogs such as uploading files, users use the [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
@@ -127,13 +107,7 @@ WebUI.closeBrowser()
 
 Where:
 
-Keyword
-
-Description
-
-[Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File)
-
-Specify the file for the upload dialog**.**
+<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File" class="" style=""><span style="" class="">Upload File</span></a></span></td><td style="" class=""><span style="" class="">Specify the file for the upload dialog</span><b class="" style="">.</b></td></tr></tbody></table>
 
 Regarding the browser’s popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
 

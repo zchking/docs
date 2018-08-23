@@ -12,72 +12,12 @@ Modify existing property or add a new property to test object. Use when test obj
 Parameters  
 ------------
 
-Param
-
-Param Type
-
-Mandatory
-
-Description
-
-testObject
-
-Test Object
-
-Required
-
-Represent a web element.
-
-propertyName
-
-String
-
-Required
-
-Name of the property, for example, xpath, id, name,... If the property already exists in the object, the keyword will modify its related artifacts; if not, the keyword will add a new property.
-
-matchCondition
-
-String
-
-Required
-
-Condition to match property name with property value, for example, equals, not equals,... In case the property already exists, input null to this argument to keep the old value of match condition.
-
-modifyValue
-
-String
-
-Required
-
-Value of the property. In case the property already exists, input null to this argument to keep the old property value.
-
-isActive
-
-Boolean
-
-Required
-
-True if the property is checked (used to find the test object); otherwise, false. In case the property already exists, input null to this argument to keep the old value.
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">testObject</span></td><td class="" colspan="1" style=""><span style="" class="">Test Object</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Represent a web element.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">propertyName</span></td><td class="" colspan="1" style=""><span style="" class="">String</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Name of the property, for example, xpath, id, name,... If the property already exists in the object, the keyword will modify its related artifacts; if not, the keyword will add a new property.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">matchCondition</span></td><td class="" colspan="1" style=""><span style="" class="">String</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Condition to match property name with property value, for example, equals, not equals,... In case the property already exists, input null to this argument to keep the old value of match condition.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">modifyValue</span></td><td class="" colspan="1" style=""><span style="" class="">String</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Value of the property. In case the property already exists, input null to this argument to keep the old property value.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">isActive</span></td><td class="" colspan="1" style=""><span style="" class="">Boolean</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">True if the property is checked (used to find the test object); otherwise, false. In case the property already exists, input null to this argument to keep the old value.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-Param Type
-
-Description
-
-TestObject
-
-The newly created TestObject.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">TestObject</span></td><td class="" style=""><p class="" style=""><span style="" class="">The newly created TestObject.</span></p></td></tr></tbody></table>
 
 Example 
 --------

@@ -13,38 +13,7 @@ You can manage additional configurations for test suite execution by expanding t
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_49_29.png)
 
-Field
-
-Description
-
-Page load timeout:
-
- ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_56_48.png)
-
-The timeout period allowed to wait for a page to be loaded. You can choose among the following options:
-
-*   **Use default**: the default value defined will be used. Refer to [Execution Preferences (Version 5.0 and below)](/pages/viewpage.action?pageId=3179873) for more details.
-*   **User-defined value**: the entered timeout value (in seconds) will be used.
-
-Retry:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_9_6.png)
-
-The **maximum** number of retries for execution until it is successfully passed. You can opt to retry only **failed** test cases.
-
-Mail Recipients
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_12_46.png)
-
-The list of recipients who would receive the execution report once the test suite finishes its execution.
-
-There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to [Emails Settings](/display/KD/Emails+Settings) for more details.
-
-Last run:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_14_55.png)
-
-The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the **Last run** hyperlink.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style="">Page load timeout:</p><p class="" style="">&nbsp;<span class="" style=""><img class="" height="91" width="300" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_56_48.png" data-image-src="/download/attachments/13699992/image2017-2-15%2014%3A56%3A48.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699981" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 14:56:48.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p></div></td><td class="" style=""><div class="" style=""><p class="" style="">The timeout period allowed to wait for a page to be loaded. You can choose among the following options:</p><ul class="" style=""><li class="" style=""><strong class="" style="">Use default</strong>: the default value defined will be used. Refer to <a href="/pages/viewpage.action?pageId=3179873" class="" style="">Execution Preferences (Version 5.0 and below)</a> for more details.</li><li class="" style=""><strong class="" style="">User-defined value</strong>: the entered timeout value (in seconds) will be used.</li></ul><p class="" style="">&nbsp;</p></div></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style="">Retry:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_9_6.png" data-image-src="/download/attachments/13699992/image2017-2-15%2015%3A9%3A6.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699980" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 15:9:6.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p></div></td><td class="" style=""><div class="" style=""><p class="" style="">The <strong class="" style="">maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong class="" style="">failed</strong> test cases.</p><p class="" style="">&nbsp;</p></div></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style="">Mail Recipients</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_12_46.png" data-image-src="/download/attachments/13699992/image2017-2-15%2015%3A12%3A46.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699979" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 15:12:46.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p></div></td><td class="" style=""><div class="" style=""><p class="" style="">The list of recipients who would receive the execution report once the test suite finishes its execution.</p><div class="" data-hasbody="true" data-macro-name="note" style=""><span class="" style=""></span><div class="" style=""><p class="" style="">There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to <a href="/display/KD/Emails+Settings" class="" style="">Emails Settings</a> for more details.</p></div></div></div></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style="">Last run:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_14_55.png" data-image-src="/download/attachments/13699992/image2017-2-15%2015%3A14%3A55.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699978" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 15:14:55.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p></div></td><td class="" style=""><div class="" style=""><p class="" style="">The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the <strong class="" style="">Last run</strong> hyperlink.</p><p class="" style="">&nbsp;</p></div></td></tr></tbody></table>
 
 Manage Test Case List
 ---------------------
@@ -85,26 +54,7 @@ Using the test suite editor, you can add a predefined test data file object whic
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_5_49.png)  
     where:
     
-    Option
-    
-    Description
-    
-    Run all rows
-    
-    All the data rows in the data file will be used during test execution.
-    
-    Run from row ... to row ...
-    
-    The data range from a certain row to a certain row in the data file will be used during test execution.
-    
-    Run with specific rows
-    
-    The data rows which are specified here will be used during test execution. You can use **comma** and **hyphen** characters to define the rows.
-    
-    For example:
-    
-    *   to use three data rows (row 1, row 2, row 3), enter: 1,2,3
-    *   to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: 1-5,9
+    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Option</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Run all rows</td><td class="" style=""><span class="" style="">All the data rows in the data file will be used during test execution.</span></td></tr><tr class="" style=""><td class="" style="">Run from row ... to row ...</td><td class="" style=""><span class="" style="">The data range from a certain row to a certain row in the data file will be used during test execution.</span></td></tr><tr class="" style=""><td class="" style="">Run with specific rows</td><td class="" style=""><p class="" style="">The data rows which are specified here will be used during test execution. You can use <strong class="" style="">comma</strong> and <strong class="" style="">hyphen</strong> characters to define the rows.</p><p class="" style=""><span class="" style="">For example:</span></p><ul class="" style=""><li class="" style="">to use three data rows (row 1, row 2, row 3), enter: <span style="" class="">1,2,3</span></li><li class="" style="">to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: <span style="" class="">1-5,9</span></li></ul></td></tr></tbody></table>
     
 6.  Click on the **Type** cell to toggle its value. Refer to [Manage Test Data Relationship](#DesignaTestSuite-Managetestdatarelationship) for more details.  
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_53_51.png)  
@@ -115,77 +65,11 @@ Using the test suite editor, you can add a predefined test data file object whic
 
 If you are specifying multiple test data, then you can further define the relationship among them to decide how the final data set used in the test execution will be. There are two types of relationship supported in Katalon Studio:
 
-Relationship Type
-
-Description
-
-One
-
-The data set will be indicated as 'One' in the relationship with other data set.
-
-Many
-
-The data set will be indicated as 'Many' in the relationship with other data set.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Relationship Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">One</td><td class="" style=""><p class="" style="">The data set will be indicated as 'One' in the relationship with other data set.</p></td></tr><tr class="" style=""><td class="" style="">Many</td><td class="" style="">The data set will be indicated as 'Many' in the relationship with other data set.</td></tr></tbody></table>
 
 Therefore, we can have the following combinations among data sets:
 
-Relationship
-
-Example
-
-One to One
-
-Given there are two data sets as below:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_47_9.png)
-
-Then the final data set used for test execution will be:
-
-*   a1 b1
-*   a2 b2
-
-Many to Many
-
-Given there are two data sets as below:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_49_3.png)
-
-Then the final data set used for test execution will be:
-
-*   a1 b1
-*   a1 b2
-*   a2 b1
-*   a2 b2
-*   a3 b1
-*   a3 b2
-
-One to Many
-
-Given there are two data sets as below:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_50_53.png)
-
-Then the final data set used for test execution will be:
-
-*   a1 b1
-*   a2 b1
-*   a3 b1
-*   a4 b1
-*   a1 b2
-*   a2 b2
-*   a3 b2
-*   a4 b2
-
-Given there are three data sets as below:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_52_41.png)
-
-Then the final data set used for test execution will be:
-
-*   a1 b1 c1
-*   a1 b1 c2
-*   a2 b2 c1
-*   a2 b2 c2
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Relationship</th><th class="" style="">Example</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">One to One</td><td class="" style=""><div class="" style=""><p class="" style="">Given there are two data sets as below:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_47_9.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A47%3A9.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699958" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:47:9.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p><p class="" style="">Then the final data set used for test execution will be:</p><ul class="" style=""><li class="" style="">a1 b1</li><li class="" style="">a2 b2</li></ul></div></td></tr><tr class="" style=""><td class="" style="">Many to Many</td><td class="" style=""><div class="" style=""><p class="" style="">Given there are two data sets as below:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_49_3.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A49%3A3.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699957" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:49:3.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p><p class="" style="">Then the final data set used for test execution will be:</p><ul class="" style=""><li class="" style="">a1 b1</li><li class="" style="">a1 b2</li><li class="" style="">a2 b1</li><li class="" style="">a2 b2</li><li class="" style="">a3 b1</li><li class="" style="">a3 b2</li></ul></div></td></tr><tr class="" style=""><td class="" rowspan="2" style="">One to Many</td><td class="" style=""><div class="" style=""><p class="" style="">Given there are two data sets as below:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_50_53.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A50%3A53.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699956" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:50:53.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p><p class="" style="">Then the final data set used for test execution will be:</p><ul class="" style=""><li class="" style="">a1 b1</li><li class="" style="">a2 b1</li><li class="" style="">a3 b1</li><li class="" style="">a4 b1</li><li class="" style="">a1 b2</li><li class="" style="">a2 b2</li><li class="" style="">a3 b2</li><li class="" style="">a4 b2</li></ul></div></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style="">Given there are three data sets as below:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_52_41.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A52%3A41.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699955" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:52:41.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4" style=""></span></p><p class="" style="">Then the final data set used for test execution will be:</p><ul class="" style=""><li class="" style="">a1 b1 c1</li><li class="" style="">a1 b1 c2</li><li class="" style="">a2 b2 c1</li><li class="" style="">a2 b2 c2</li></ul></div></td></tr></tbody></table>
 
 ### Variable Binding
 

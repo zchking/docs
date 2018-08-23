@@ -33,45 +33,7 @@ This new option is available for web automation execution without launching the 
 
 The following keywords are not supported with headless execution
 
-Keyword
-
-Known Issues
-
-Impact
-
-[Accept Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert)
-
-Alert is not recognizable in headless execution
-
-([https://github.com/MachinePublishers/jBrowserDriver/issues/147](https://github.com/MachinePublishers/jBrowserDriver/issues/147))
-
-Alert keywords can’t be used for verification
-
-[Dismiss Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Dismiss+Alert)
-
-[Get Alert Text](http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text)
-
-[Set Alert Text](http://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Alert+Text)
-
-[Verify Alert Not Present](http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present)
-
-[Verify Alert Present](http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Present)
-
-[Wait For Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert)
-
-[Select Option By Value](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Value)
-
-Wrong option is selected
-
-([https://github.com/MachinePublishers/jBrowserDriver/issues/148](https://github.com/MachinePublishers/jBrowserDriver/issues/148))
-
-Options could not be selected as expected
-
-[Select Option By Label](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label)
-
-[Select All Options](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option)
-
-[Select Option By Index](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index)
+<table class="" style="table-layout: fixed;"><thead><tr><th style="" class="">Keyword</th><th style="" class="">Known Issues</th><th style="" class="">Impact</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert" rel="nofollow" style="">Accept Alert</a></p></td><td rowspan="7" class="" style=""><p class="" style="">Alert is not recognizable in headless execution</p><p class="" style="">(<a class="" href="https://github.com/MachinePublishers/jBrowserDriver/issues/147" rel="nofollow" style="">https://github.com/MachinePublishers/jBrowserDriver/issues/147</a>)</p></td><td rowspan="7" class="" style=""><p class="" style="">Alert keywords can’t be used for verification</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Dismiss+Alert" rel="nofollow" style="">Dismiss Alert</a></p></td></tr><tr class="" style=""><td colspan="1" class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text" rel="nofollow" style="">Get Alert Text</a></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Alert+Text" rel="nofollow" style="">Set Alert Text</a></p></td></tr><tr class="" style=""><td colspan="1" class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present" rel="nofollow" style="">Verify Alert Not Present</a></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Present" rel="nofollow" style="">Verify Alert Present</a></p></td></tr><tr class="" style=""><td colspan="1" class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert" rel="nofollow" style="">Wait For Alert</a></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Value" rel="nofollow" style="">Select Option By Value</a></p></td><td rowspan="4" class="" style=""><p class="" style="">Wrong option is selected</p><p class="" style="">(<a class="" href="https://github.com/MachinePublishers/jBrowserDriver/issues/148" rel="nofollow" style="">https://github.com/MachinePublishers/jBrowserDriver/issues/148</a>)</p></td><td rowspan="4" class="" style=""><p class="" style="">Options could not be selected as expected</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label" rel="nofollow" style="">Select Option By Label</a></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option" rel="nofollow" style="">Select All Options</a></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style=""><a class="" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index" rel="nofollow" style="">Select Option By Index</a></p></td></tr></tbody></table>
 
 Improvements
 ------------

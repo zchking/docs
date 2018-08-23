@@ -40,26 +40,4 @@ cd /home/katalon/Katalon_5.3 ./katalon -noSplash -runMode=console -consoleLog -p
 
 #### Troubleshooting
 
-Description
-
-Causes (one of the following)
-
-Solutions
-
-**Invalid Project Description**
-
-.project file contains invalid information.  
-  
-Katalon command was executed lines in the SAME folder of project folder ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.07.44.png)
-
-- Delete .project file to let Katalon Studio generate back the valid information  
-  
-- Execute commands outside of executed project folder  
-  
-![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.08.52.png)
-
-'NoClassDefFoundError' error
-
-Oracle JDK is used
-
-- Uninstall current Oracle JDK - Install Open JDK8 after that: [http://openjdk.java.net/install/](http://openjdk.java.net/install/).
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Description</th><th class="" style="">Causes (one of the following)</th><th class="" colspan="1" style="">Solutions</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style="">Invalid Project Description</strong></td><td class="" style=""><div class="" style="">.project file contains invalid information.<br class="" style=""><br class="" style="">Katalon command was executed lines in the SAME folder of project folder <span class="" style=""><img class="" width="600" src="../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.07.44.png" data-image-src="/download/attachments/13697253/Screen%20Shot%202018-02-02%20at%2011.07.44.png?version=1&amp;modificationDate=1517544706000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13697256" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2018-02-02 at 11.07.44.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13697253" data-linked-resource-container-version="1" style=""></span></div></td><td class="" colspan="1" style=""><div class="" style="">-&nbsp;Delete .project file to let Katalon Studio generate back the valid information<br class="" style=""><br class="" style="">-&nbsp;Execute commands outside of executed project folder<br class="" style=""><br class="" style=""><span class="" style=""><img class="" width="600" src="../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.08.52.png" data-image-src="/download/attachments/13697253/Screen%20Shot%202018-02-02%20at%2011.08.52.png?version=1&amp;modificationDate=1517544729000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13697258" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2018-02-02 at 11.08.52.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13697253" data-linked-resource-container-version="1" style=""></span></div></td></tr><tr class="" style=""><td class="" colspan="1" style="">'NoClassDefFoundError' error</td><td class="" colspan="1" style="">Oracle JDK is used</td><td class="" colspan="1" style="">-&nbsp;Uninstall current Oracle JDK - Install Open JDK8 after that: <a class="" href="http://openjdk.java.net/install/" rel="nofollow" style="">http://openjdk.java.net/install/</a>.</td></tr></tbody></table>

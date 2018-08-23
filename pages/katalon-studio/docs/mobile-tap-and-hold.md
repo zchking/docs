@@ -12,45 +12,7 @@ Tap and hold on a mobile element for a duration
 Parameters
 ----------
 
-Parameter
-
-Parameter Type
-
-Mandatory
-
-Description
-
-to
-
-TestObject 
-
-Required
-
-Represent a mobile element.
-
-duration
-
-Number 
-
-Required
-
-Duration (in seconds) that the tap is held on the element, if set to <= 0 then will use default duration.
-
-timeout 
-
-int
-
-Required
-
-System will wait at most timeout (seconds) to return the result.
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Parameter</th><th class="" style="">Parameter Type</th><th class="" style="">Mandatory</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">to</span></td><td class="" style=""><span style="" class="">TestObject&nbsp;</span></td><td class="" style=""><span style="" class="">Required</span></td><td class="" style="">Represent a mobile element.</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">duration</span></td><td class="" style=""><span style="" class="">Number&nbsp;</span></td><td class="" style=""><span style="" class="">Required</span></td><td class="" style="">Duration (in seconds) that the tap is held on the element, if set to &lt;= 0 then will use default duration.</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">timeout&nbsp;</span></td><td class="" style=""><span style="" class="">int</span></td><td class="" style=""><p class="" style=""><span style="" class="">Required</span></p></td><td class="" style="">System will wait at most timeout (seconds) to return the result.</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" style=""><span style="" class="">Optional</span></td><td class="" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example
 -------

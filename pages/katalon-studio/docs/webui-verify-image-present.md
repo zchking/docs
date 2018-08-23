@@ -12,43 +12,12 @@ Verify if an image is present on page.
 Parameters 
 -----------
 
-Param
-
-Param Type
-
-Mandatory
-
-Description
-
-to
-
-TestObject
-
-Required
-
-Represent an image.
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" colspan="1" style="">to</td><td class="" colspan="1" style="">TestObject</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">Represent an image.</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns 
 --------
 
-Param Type
-
-Description
-
-Boolean
-
-*   true if the image if present.
-    
-*   false if the image is not present.
-    
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style=""><p class="" style=""><span style="" class="">true&nbsp;if the image if present.</span></p></li><li class="" style=""><p class="" style=""><span style="" class="">false&nbsp;if the image is not present.</span><span style="" class="">&nbsp;</span></p></li></ul></td></tr></tbody></table>
 
 Example 
 --------

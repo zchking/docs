@@ -8,49 +8,7 @@ Katalon Studio supports executing automation tests in multiple environments, all
 
 Currently, Katalon Studio supports executing automation test in the following environments:
 
-Execution Environment
-
-Description
-
-Chrome
-
-Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings).
-
-Firefox
-
-Execute a test case in Firefox, using the Desired Capabilities settings defined in Execution Settings.
-
-IE
-
-Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in Execution Settings.
-
-Safari
-
-Execute a test case in Safari, using the Desired Capabilities settings defined in Execution Settings.
-
-Edge
-
-Execute a test case in Edge, using the Desired Capabilities settings defined in Execution Settings.
-
-Remote
-
-Execute a test case in a remote environment, using the Desired Capabilities settings defined in Execution Settings.
-
-Headless
-
-Execute a test case in headless mode, using the Desired Capabilities settings defined in Execution Settings.
-
-Android
-
-Execute a test case on Android device, using the Desired Capabilities settings defined in Execution Settings.
-
-iOS
-
-Execute a test case on an iOS device, using the Desired Capabilities settings defined in Execution Settings.
-
-Custom
-
-Execute a test case in a custom environment, using the Desired Capabilities settings defined in Execution Settings.
+<table class="" style="table-layout: fixed;"><thead><tr><th style="" class="">Execution Environment</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr style="" class=""><td style="" class=""><span style="" class="">Chrome</span></td><td style="" class=""><span style="" class="">Execute a test case in Chrome, using the Desired Capabilities settings defined in </span><a href="https://docs.katalon.com/display/KD/Execution+Settings" target="_blank" rel="noopener noreferrer" class="" style=""><span style="" class="">Execution Settings</span></a><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Firefox</span></td><td style="" class=""><span style="" class="">Execute a test case in Firefox, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">IE</span></td><td style="" class=""><span style="" class="">Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Safari</span></td><td style="" class=""><span style="" class="">Execute a test case in Safari, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Edge</span></td><td style="" class=""><span style="" class="">Execute a test case in Edge, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Remote</span></td><td style="" class=""><span style="" class="">Execute a test case in a remote environment, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Headless</span></td><td style="" class=""><span style="" class="">Execute a test case in headless mode, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Android</span></td><td style="" class=""><span style="" class="">Execute a test case on Android device, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">iOS</span></td><td style="" class=""><span style="" class="">Execute a test case on an iOS device, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Custom</span></td><td style="" class=""><span style="" class="">Execute a test case in a custom environment, using the Desired Capabilities settings defined in </span><span style="" class="">Execution Settings</span><span style="" class="">.</span></td></tr></tbody></table>
 
 Execute on Web
 ---------------

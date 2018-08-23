@@ -6,21 +6,7 @@ description:
 ---
 There are three types of variables supported in Katalon Studio, as below:
 
-Variable Type
-
-Description
-
-Private variable
-
-A private variable can be referred only within the scope of the test case where it is defined.
-
-Local Variable
-
-A public variable can be exposed as the parameter for the test case where it is defined
-
-Global Variable
-
-A global variable can be referred anywhere of your project.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Variable Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><p class="" style="">Private variable</p></td><td class="" style=""><p class="" style="">A private variable can be referred only within the scope of the test case where it is defined.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Local Variable</p></td><td class="" style=""><p class="" style="">A public variable can be exposed as the parameter for the test case where it is defined</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Global Variable</p></td><td class="" style=""><p class="" style="">A global variable can be referred anywhere of your project.</p></td></tr></tbody></table>
 
 Refer to the subsequence sections for how to define a variable of each type.
 

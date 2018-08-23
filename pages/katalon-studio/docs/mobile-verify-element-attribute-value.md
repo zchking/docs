@@ -12,53 +12,7 @@ Verify if the element has an attribute with the specified name and value  
 Parameters
 ----------
 
-Parameter
-
-Parameter Type
-
-Mandatory
-
-Description
-
-to
-
-TestObject 
-
-Required
-
-Represent a mobile element.
-
-attributeName 
-
-String 
-
-Required
-
-The value of the attribute to verify.
-
-attributeValue 
-
-String 
-
-Required
-
-The value of the attribute to verify.
-
-timeout 
-
-int
-
-Required
-
-System will wait at most timeout (seconds) to return a result.
-
-flowControl
-
-FailureHandling
-
-Optional
-
-Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Parameter</th><th class="" style="">Parameter Type</th><th class="" style="">Mandatory</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">to</td><td class="" style="">TestObject&nbsp;</td><td class="" style="">Required</td><td class="" style="">Represent a mobile element.</td></tr><tr class="" style=""><td class="" style="">attributeName&nbsp;</td><td class="" style="">String&nbsp;</td><td class="" style="">Required</td><td class="" style="">The value of the attribute to verify.</td></tr><tr class="" style=""><td class="" colspan="1" style="">attributeValue&nbsp;</td><td class="" colspan="1" style="">String&nbsp;</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">The value of the attribute to verify.</td></tr><tr class="" style=""><td class="" style="">timeout&nbsp;</td><td class="" style="">int</td><td class="" style="">Required</td><td class="" style="">System will wait at most timeout (seconds) to return a result.</td></tr><tr class="" style=""><td class="" style="">flowControl</td><td class="" style="">FailureHandling</td><td class="" style="">Optional</td><td class="" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------

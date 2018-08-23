@@ -9,17 +9,7 @@ Katalon Studio Supported Environment on Windows
 
 Unfortunately, you can only test an **iOS** application using **macOS**. If you wish to setup your macOS environment for Katalon Studio, please refer to [this guide](https://docs.katalon.com/x/9AXR).
 
- 
-
-Version
-
-Appium
-
-1.6, 1.7
-
-Android
-
-6.x, 7.x
+<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">&nbsp;</th><th class="" colspan="1" style="">Version</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Appium</td><td class="" colspan="1" style="">1.6, 1.7</td></tr><tr class="" style=""><td class="" colspan="1" style="">Android</td><td class="" colspan="1" style="">6.x, 7.x</td></tr></tbody></table>
 
 Installing Dependencies
 -----------------------

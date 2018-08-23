@@ -25,27 +25,7 @@ Capture objects using Web Object Spy
     
 3.  Click on **Start** to begin capturing objects from the web browser.
     
-    Type
-    
-    Description
-    
-    New Browsers
-    
-    Launch a new browser and start spying web objects from that browser.
-    
-    Active Browsers
-    
-    Focus on **the current active Chrome browser** and start spying web objects from it.
-    
-    **Supported browsers**:  
-    \- Chrome  
-    \- Firefox (coming soon)
-    
-    You will be asked for installation of Katalon Utility:
-    
-    ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-2-23 11_54_29.png)
-    
-    Refer to [Katalon Addon for Chrome](/display/KD/Katalon+Addon+for+Chrome) for more details.
+    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">New Browsers</td><td class="" style="">Launch a new browser and start spying web objects from that browser.</td></tr><tr class="" style=""><td class="" style="">Active Browsers</td><td class="" style=""><div class="" style=""><p class="" style="">Focus on <strong class="" style="">the current active Chrome browser</strong> and start spying web objects from it.</p><p class="" style=""><strong class="" style="">Supported browsers</strong>:<br class="" style="">- Chrome<br class="" style="">- Firefox (coming soon)</p><p class="" style="">You will be asked for installation of Katalon Utility:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/spy-web-utility-latest/image2017-2-23 11_54_29.png" data-image-src="/download/attachments/5117668/image2017-2-23%2011%3A54%3A29.png?version=1&amp;modificationDate=1505961187000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5117590" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-23 11:54:29.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5117668" data-linked-resource-container-version="3" style=""></span></p><p class="" style="">Refer to <a href="/display/KD/Katalon+Addon+for+Chrome" class="" style="">Katalon Addon for Chrome</a> for more details.</p></div></td></tr></tbody></table>
     
 4.  Your selected browser will be launched. Navigate to your website, then hover the **mouse cursor** over the web object to be captured.  
     The web object will be highlighted with a **red border**. An **overlay pane** will also be displayed at the edge of the screen to show relevant **xpath** info.  
@@ -61,45 +41,7 @@ Capture objects using Web Object Spy
     Select the object in the **Captured Objects** tree, its details will be displayed in the **Object Properties** section.  
     Where:
     
-    Field
-    
-    Description
-    
-    **Selection Method**
-    
-    The method which Katalon Studio will be using to detect web elements
-    
-    Options
-    
-     
-    
-    **Basic**
-    
-    Default method. Katalon Studio automatically generate an XPath combine with objects' properties
-    
-    **XPath** or **CSS**
-    
-    Advanced method. Users are allowed to input XPath or CSS selector manually into Object Detect Editor
-    
-    **Properties Grid**
-    
-    All the captured properties of the selected object. You can edit the value of any property.
-    
-    **Selector Editor**
-    
-    Display object locator based on **selected** **method**
-    
-    Options
-    
-     
-    
-    **Basic**
-    
-    Katalon Studio generated XPath will be displayed
-    
-    **XPath** or **CSS**
-    
-    Editable text field allows users to manually input object's locator
+    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style="">Selection Method</strong></td><td class="" style=""><p class="" style="">The method which Katalon Studio will be using to detect web elements</p><div class="" style=""><table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Options</th><th class="" style="">&nbsp;</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style="">Basic</strong></td><td class="" style=""><span class="" style="">Default method. Katalon Studio automatically generate an XPath combine with objects' properties</span></td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">XPath</strong> or <strong class="" style="">CSS</strong></td><td class="" style=""><span class="" style="">Advanced method. Users are allowed to input XPath or CSS selector manually into Object Detect Editor</span></td></tr></tbody></table></div></td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Properties Grid</strong></td><td class="" style="">All the captured properties of the selected object. You can edit the value of any property.</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style="">Selector Editor</strong></td><td class="" colspan="1" style=""><p class="" style="">Display object locator based on <strong class="" style="">selected</strong> <strong class="" style="">method</strong></p><div class="" style=""><table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Options</th><th class="" style="">&nbsp;</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style="">Basic</strong></td><td class="" style=""><span class="" style="">Katalon Studio generated XPath will be displayed</span></td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">XPath </strong>or <strong class="" style="">CSS</strong></td><td class="" style=""><span class="" style="">Editable text field allows users to manually input object's locator</span></td></tr></tbody></table></div></td></tr></tbody></table>
     
 7.  Click on **Save **to **Add** to **Object Repository**.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-14 16_58_50.png)  
