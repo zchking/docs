@@ -41,12 +41,12 @@ def getScreenResolution() {
 }
 ```
 
-**References:** 
+**References:**[ ](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/Capabilities.html)
 
-*   Capabilities
+*   [Capabilities](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/Capabilities.html)
 
-*   RemoteWebDriver  
-    
-*   DriverFactory
+*   [RemoteWebDriver  
+    ](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java)
+*   [D](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java)[riverFactory](https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html)
 
-_Credit to Drunda Ninbel_
+_Credit to [Drunda Ninbel](https://forum.katalon.com/discussion/6853/how-to-retrieve-os-browser-and-screen-resolution-of-the-machine-performing-my-test-suite#Comment_15742)_

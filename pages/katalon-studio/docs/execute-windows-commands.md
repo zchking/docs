@@ -45,7 +45,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 References
 ----------
 
-*   RunConfiguration
+*   [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
     
-*   Runtime
-*   Windows command line
+*   [Runtime](https://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html)
+*   [Windows command line](https://www.lifewire.com/list-of-command-prompt-commands-4092302)

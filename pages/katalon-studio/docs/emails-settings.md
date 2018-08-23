@@ -8,11 +8,17 @@ description:
 
 These settings allow you to define global email configurations to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Email**. 
 
+![](../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_23_36.png)
+
 Where:
 
 | Section | Description |
 | --- | --- |
 | 
+![](../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_25_39.png)
+
+
+
  | 
 
 This section defines the mail server which Katalon Studio will use to send emails.
@@ -25,6 +31,10 @@ This section defines the mail server which Katalon Studio will use to send email
 
  |
 | 
+
+![](../../images/katalon-studio/docs/emails-settings/image2017-11-15 9_43_0.png)
+
+
 
  | 
 
@@ -39,41 +49,43 @@ Configure Email Settings in Email Preferences
 
 Katalon Studio allows users to receive summary reports via **Email **after **Test Suites** execution. You can access this setting at **Project > Settings > Email **
 
+![](../../images/katalon-studio/docs/emails-settings/image2017-11-15 10_20_54.png)
+
 In case your email servers are using two-step authentication, please turn it off.
 
-For those who use Gmail & Yahoo! Mail, make sure to allow low secure apps to access your account. Follow the guide here for Gmail users, or here for Yahoo! Mail users.
+For those who use Gmail & Yahoo! Mail, make sure to allow low secure apps to access your account. Follow the guide [here ](https://support.google.com/accounts/answer/6010255)for Gmail users, or [here](https://help.yahoo.com/kb/account/SLN27791.html) for Yahoo! Mail users.
 
 Below is SMTP configuration for popular email servers:
 
 **Gmail:**
 
-*   *   Host: _smtp.gmail.com_
+*   *   Host: _[smtp.gmail.com](http://smtp.gmail.com/)_
         
     *   Port: _465_
         
-    *   Username: _Your full Gmail address (e.g. yourusername@gmail.com)_
+    *   Username: _Your full Gmail address (e.g. [yourusername@gmail.com](mailto:yourusername@gmail.com))_
         
     *   Password: Your Gmail password
         
 
 **Yahoo! Mail:**
 
-*   *   Host: _smtp.mail.yahoo.com_
+*   *   Host: _[smtp.mail.yahoo.com](http://smtp.mail.yahoo.com/)_
         
     *   Port: _465_
         
-    *   Username: _Your full Yahoo! Mail address (e.g. yourusername@yahoo.com)_
+    *   Username: _Your full Yahoo! Mail address (e.g. [yourusername@yahoo.com](mailto:yourusername@yahoo.com))_
         
     *   Password: _Your Yahoo! Mail password_
         
 
 **Outlook:**
 
-*   *   Host: _smtp-mail.outlook.com_
+*   *   Host: _[smtp-mail.outlook.com](http://smtp-mail.outlook.com/)_
         
     *   Port: _587 or 25_
         
-    *   Username: _Your full Microsoft email address (e.g. yourusername@outlook.com)_
+    *   Username: _Your full Microsoft email address (e.g. [yourusername@outlook.com](mailto:yourusername@outlook.com))_
         
     *   Password: _Your Microsoft password_
         
@@ -84,6 +96,8 @@ Template
 --------
 
 You can customize the content of email here. All fields in template is editable. Click Apply when finished.
+
+![](../../images/katalon-studio/docs/emails-settings/image2017-8-25 16_35_27.png)
 
 Where:
 

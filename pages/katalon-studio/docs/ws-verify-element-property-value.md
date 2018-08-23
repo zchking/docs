@@ -15,9 +15,9 @@ Parameters
 | Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | response | ResponseObject | Required | Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header) |
-| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it: Handle Web Service Response object |
+| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it: [Handle Web Service Response object](https://docs.katalon.com/display/KD/Handle+Response+Messages) |
 | value  | String | Required | The expected value of element you want to verify in the responded data (usually is JSON/XML) |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

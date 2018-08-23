@@ -17,7 +17,7 @@ Parameters  
 | actualText | String | Required | Represent the actual text. |
 | expectedText | String | Required | Represent the expected text (can be a regular expression). |
 | isRegex | Boolean | Required | Indicate whether the expected text is a regular expression. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

@@ -31,4 +31,4 @@ workbook.write(outFile);
 outFile.close();
 ```
 
-_Credit to tod2020@mail.ru_
+_Credit to [tod2020@mail.ru](https://forum.katalon.com/discussion/4203/write-into-excel-at-runtime-during-test-execution#Comment_11768)_

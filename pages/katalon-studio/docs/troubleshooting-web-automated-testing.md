@@ -12,7 +12,7 @@ The following article will help you troubleshoot some problems during web automa
         
     *   Solution:
         
-        *   Download correct Edge driver from this page: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/ based on your OS build (Go to **Start** > **Settings** > **System** > **About** and locate the number next to OS Build on the screen)
+        *   Download correct Edge driver from this page: [https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) based on your OS build (Go to **Start** > **Settings** > **System** > **About** and locate the number next to OS Build on the screen)
             
         *   Copy downloaded Edge driver and replace it in existing edgedriver folder of Katalon Studio, e.g: **C:\\Katalon\_Studio\_Windows_64-4.8\\configuration\\resources\\drivers\\edgedriver**
             
@@ -23,12 +23,12 @@ The following article will help you troubleshoot some problems during web automa
         
     *   Solution:
         
-        *   Open 'Manage Add-ons' in Internet Explorer: https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons
+        *   Open 'Manage Add-ons' in Internet Explorer: [https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons](https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons)
             
         *   Enable the RecorderExtension.RecorderBHO
             
 
-              
+              ![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27 16_29_17.png)
 
 ###### Unable to connect to Katalon server
 
@@ -40,9 +40,12 @@ Solution: You need to allow the following .exe files:
     *   chromedriver.exe
     *   iedriverserver.exe
 
-to communicate through Windows Firewall. Here is the full guide for to access this interface.
+to communicate through Windows Firewall. Here is the full [guide](https://www.howtogeek.com/howto/uncategorized/how-to-create-exceptions-in-windows-vista-firewall/) for to access this interface.
 
 These executable files can be located in : **<Katalon Studio folder>\\configuration\\resources\\drivers**
+
+**![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen Shot 2018-04-24 at 13.51.51.png)![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen Shot 2018-04-24 at 13.51.41.png)  
+**
 
 You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall block them as well.
 
@@ -53,7 +56,7 @@ In case you want Katalon Studio to use different versions besides the current in
 *   Use custom keywords
 
 *   *   These Firefox instances should be installed on your machine first.
-    *   Create a custom keyword to open the browser. Press Ctrl + Shift + O to automatically import necessary packages: 
+    *   Create a [custom keyword](https://docs.katalon.com/display/KD/Define+custom+keywords) to open the browser. Press Ctrl + Shift + O to automatically import necessary packages: 
 
 ```
 package com.example
@@ -103,4 +106,4 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 ```
 
 *   Downgrade browser's version:  
-    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium
+    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: [https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium](https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium)

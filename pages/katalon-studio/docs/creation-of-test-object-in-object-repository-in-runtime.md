@@ -21,4 +21,4 @@ static TestObject makeTO(String css) {
 
 ```
 
-_Credit to Russ Thomas_
+_Credit to [Russ Thomas](https://forum.katalon.com/discussion/6171/creation-of-test-object-in-object-repository-in-runtime#Comment_13991)_

@@ -6,6 +6,8 @@ description:
 ---
 These settings allow you to define global database connection to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Database**. 
 
+![](../../images/katalon-studio/docs/database-settings/image2017-6-29 16_34_26.png)
+
 Where:
 
 | Field | Description |

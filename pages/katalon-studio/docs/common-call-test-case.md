@@ -16,7 +16,7 @@ Parameters  
 | --- | --- | --- | --- |
 | arg0 | TestCase | Required | Represent the called test case's path. |
 | arg1 | Map<String,Object> | Required | Represent the list of parameters will be used in the called test case. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -34,7 +34,7 @@ Example 
 You want to verify if the returned message after logging in successfully does not match the expected message.
 
 *   Manual view    
-    
+    ![](../../images/katalon-studio/docs/common-call-test-case/image2017-3-3 17_49_2.png)
 *   Script view 
     
     ```

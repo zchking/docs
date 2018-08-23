@@ -9,6 +9,8 @@ Description
 
 Verify if the options with the given displayed text are selected.
 
+![](../../images/katalon-studio/docs/webui-verify-option-selected-by-label/label.jpg)
+
 Parameters
 ----------
 
@@ -18,7 +20,7 @@ Parameters
 | label | String | Required | Displayed texts of the options to be verified if existing. |
 | isRegex | boolean | Required | True if the label is a regular expression, false by default. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return the result. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

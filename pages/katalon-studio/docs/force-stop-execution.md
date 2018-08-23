@@ -19,4 +19,4 @@ FORCESTOP()
 ```
 
 _  
-Credit to Russ Thomas_
+Credit to [Russ Thomas](https://forum.katalon.com/discussion/7482/tip-forcestop)_

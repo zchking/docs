@@ -6,11 +6,13 @@ description:
 ---
 Warning
 
-This setup process is **NOT** required if you use an Android device. Please go straight to this step instead.
+This setup process is **NOT** required if you use an Android device. Please go straight to this [step](https://docs.katalon.com/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
 
-WebDriverAgent is a WebDriver server implementation for iOS that can be used to remote control iOS devices. You need to install and setup WebDriverAgent to allow Katalon Studio to automate iOS devices.
+[WebDriverAgent](https://github.com/facebook/WebDriverAgent) is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. You need to install and setup WebDriverAgent to allow Katalon Studio to automate iOS devices.
 
 *   Open **Xcode > Preferences > Accounts**: Add developer’s Apple ID 
+
+![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_4.png)
 
   
 
@@ -28,25 +30,29 @@ Error code 13: re-run command with sudo: **sudo ./Scripts/bootstrap.sh -d**
 
 Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing paramter -d when running **./Scripts/bootstrap.sh**
 
-*   Login to Apple developer account and register device to developer account.  
+*   Login to Apple developer account and [register device](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal) to developer account.  
       
     
 *   Open project **WebDriverAgent.xcodeproj** within folder **WebDriverAgent** in Xcode.  
-      
+    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_29.png)  
       
     
 *   Select target **WebDriverAgentLib**, in the Signing section, check **Automatically manage signing** and select the team.  
-      
+    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_56.png)  
       
     
 *   Then on the menu bar, select **Product > Build**  
-      
+    **![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_52_23.png)**  
     
 *   Repeat the last two steps for **WebDriverAgentRunner**  
     
 *   Xcode may fail to create a provisioning profile for the `WebDriverAgentRunner` target:
     
+    [![Xcode provisioning fail](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-facebook-fail.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-facebook-fail.png)
+    
 *   This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from `com.facebook.WebDriverAgentRunner` to something that Xcode will accept:
+    
+    [![Xcode bundle id](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-bundle-id.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-bundle-id.png)
     
 
 *   Build **WebDriverAgent** by executing this command on Terminal in WebdriverAgent folder to verify all above steps worked
@@ -58,7 +64,7 @@ Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing 
     _where <udid> is your Device ID_
     
 *   In case this dialog is displayed, select **Always Allow**.  
-      
+    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_54_6.png)  
       
     
 

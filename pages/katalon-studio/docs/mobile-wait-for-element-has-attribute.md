@@ -20,7 +20,7 @@ Represent a mobile element.
  |
 | attributeName | String | Required | The name of the attribute to wait for. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -75,7 +75,7 @@ Mobile.closeApplication()
     
 *   timeOut - int (required): \- system will wait at most timeout (seconds) to return result
     
-*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details is in this page: Failure Handling
+*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details is in this page: [Failure Handling](/display/KD/Failure+Handling)
 
 #### Returns
 
@@ -84,6 +84,8 @@ Mobile.closeApplication()
 #### Example: You want to wait until the button has an attribute with name = 'class'
 
 Manual: 
+
+** ![](../../images/katalon-studio/docs/mobile-wait-for-element-has-attribute/image2016-8-15 19_2_59.png)**
 
 Script:
 

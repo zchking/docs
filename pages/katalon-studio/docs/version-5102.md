@@ -6,9 +6,9 @@ description:
 ---
 *   Fix an issue where desired capabilities are not working on Chrome.
 *   Fix 'NullPointerException' error from mobile execution.
-*   Fix an issue where 'Execute from here...' feature is disabled.
+*   Fix an issue where '[Execute from here...](https://docs.katalon.com/display/KD/Execute+test+from+specific+step)' feature is disabled.
 *   Fix an issue where 'Workbench auto-save job' message is displayed when users leave Katalon Studio in an idle state for a while.
-*   Support Appium 1.7. Due to this change, 'Swipe' keyword has been adjusted:
+*   Support Appium 1.7. Due to this change, '[Swipe](https://docs.katalon.com/display/KD/%5BMobile%5D+Swipe)' keyword has been adjusted:
     
     |   | Current | Changed |
     | --- | --- | --- |

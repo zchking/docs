@@ -10,15 +10,15 @@ Binary statement in Manual view
 -------------------------------
 
 1.  Open a test case in **Manual** view, then navigate to **Binary Statements** from command toolbar.  
-      
+    ![](../../images/katalon-studio/docs/binary-statements/image2017-6-30 20_43_7.png)  
       
     
 2.  A test step represents binary expression is added to the test case.  
-      
+    ![](../../images/katalon-studio/docs/binary-statements/image2017-2-10 13_46_52.png)  
       
     
 3.  Double click on the **Input** cell to edit the binary expression.  
-      
+    ![](../../images/katalon-studio/docs/binary-statements/image2017-2-10 14_0_33.png)  
       
     
 4.  Save the test case when you're done.
@@ -29,6 +29,8 @@ Binary statement in Manual view
 Binary statement in Scripting view
 ----------------------------------
 
-The **Script** view of test cases allows you to programmatically define and handle binary expression easily using either Groovy or Java language. Refer to http://groovy-lang.org/operators.html for more details about using operators in Groovy.
+The **Script** view of test cases allows you to programmatically define and handle binary expression easily using either Groovy or Java language. Refer to [http://groovy-lang.org/operators.html](http://groovy-lang.org/operators.html) for more details about using operators in Groovy.
 
 For example:
+
+ ![](../../images/katalon-studio/docs/binary-statements/11.png)

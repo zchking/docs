@@ -11,4 +11,4 @@ import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.getReportFolder()
 ```
 
-You can also retrieve other information through the RunConfiguartion package, please refer to this documentation: **RunConfiguration**
+You can also retrieve other information through the RunConfiguartion package, please refer to this documentation: **[RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)**

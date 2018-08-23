@@ -22,7 +22,11 @@ Introducing Test Hooks feature in Katalon Studio version 5.2 to support users e
 *   Generate sample After Test Suite method  
     
 
+![](../../images/katalon-studio/docs/version-52/image2017-12-5 10_35_38.png)
+
 Objects Spy/Record
 ------------------
 
 Enhanced Katalon Studio objects detection approach to auto-select only important captured properties that are used to locate the object instead of selecting all captured properties.
+
+![](../../images/katalon-studio/docs/version-52/image2017-12-5 14_5_33.png)

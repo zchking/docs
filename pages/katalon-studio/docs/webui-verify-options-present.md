@@ -9,6 +9,8 @@ Description
 
 Verify if all expected options are present within the given test object.
 
+![](../../images/katalon-studio/docs/webui-verify-options-present/label.jpg)
+
 Parameters
 ----------
 
@@ -16,7 +18,7 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | expectedOptions | List | Required | The list of all expected options for the given web element. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

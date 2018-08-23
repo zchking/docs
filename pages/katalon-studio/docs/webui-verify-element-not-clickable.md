@@ -6,6 +6,8 @@ description:
 ---
 This keyword only works with Element has **tag** _<input>_ with attribute **disable.**
 
+_![](../../images/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
+
 Description
 -----------
 
@@ -22,7 +24,7 @@ Represent a web element.
 
 
  |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

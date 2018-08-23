@@ -6,21 +6,29 @@ description: "Learn how to test the alert dialog which usually appears on mobile
 ---
 An alert dialog box is used to send a message to the user. An alert box displays a dialog with a specific message and allows user to accept or reject the alert (OK/Cancel buttons).
 
-The .apk file can be downloaded here. Start the app. Select **App** \> **Alert Dialogs**.
+The .apk file can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). Start the app. Select **App** \> **Alert Dialogs**.
 
 ### Scenario
 
 We want to test the alert dialog which usually appears on mobile app when there are suspicious/potentially dangerous actions.
 
+![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App.png)
+
 ### Manual Mode
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select ‘**Value Type**‘ as **Variable**. In **Value**, pass the variable name as ‘**path’**.
 
+![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-1.png)
+
 *   Step 2: Add a **Wait For Element Present** item.
 *   Step 3: Call **Scroll To Text** from mobile keyword, pass **App** to **Input**. **Scroll To Text** accepts **String** type **parameter** (Text of the element to scroll to).
 
+![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-3.png)
+
 *   Step 4: Call **Tap** method and pass the object of **App**.
 *   Step 5: Select **Scroll To Text** method and pass the **Alert Dialogs** text.
+
+![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-5.png)
 
 *   Step 6: Tap on **Alert Dialogs**.
 *   Step 7: Add another **Wait for Element Present** keyword for object **App**/**Alert Dialogs**.
@@ -29,6 +37,8 @@ We want to test the alert dialog which usually appears on mobile app when there 
 *   Step 10: Verify alert using **Verify Element Visible** keyword.
 *   Step 11: Capture the text of alert using **Get Text** command and store it in a variable **actual_AlertText.**
 *   Step 12: Verify **Actual** and **Expected** alert texts by **Verify Match** keyword.
+
+![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-13.png)
 
 *   Step 13: **Tap** on **OK** Button.
 
@@ -141,4 +151,4 @@ Mobile.tap(findTestObject('API Demos Objects/Handle Alert/button_OK'), 30)
 
 ```
 
-For further instructions and help, please refer to Katalon User Guide or Katalon Forum.
+For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).

@@ -13,7 +13,7 @@ WebUI.setText(findTestObject('myEmail'),  'test' +Keys.chord(Keys.CONTROL, Keys
 
 **References:**
 
-*   Set Text
-*   Keys
+*   [Set Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Text)
+*   [Keys](http://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/Keys.html)
 
-_Credit to Federico Jimenez_
+_Credit to [Federico Jimenez](https://forum.katalon.com/discussion/4510/ie-webdriver-cannot-type#latest)_

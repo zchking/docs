@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/install-chrome-extensions-at-runtime.html 
 description: 
 ---
-To install Chrome extensions before you start the browser, you can either use packed or unpacked extensions. The sample code below refer to packed extensions, so if you want to use unpacked extensions, please refer to this page: https://sites.google.com/a/chromium.org/chromedriver/extensions
+To install Chrome extensions before you start the browser, you can either use packed or unpacked extensions. The sample code below refer to packed extensions, so if you want to use unpacked extensions, please refer to this page: [https://sites.google.com/a/chromium.org/chromedriver/extensions](https://sites.google.com/a/chromium.org/chromedriver/extensions)
 
 ```
 import org.openqa.selenium.WebDriver
@@ -24,6 +24,6 @@ DriverFactory.changeWebDriver(driver)
 
 **References:**
 
-*   DriverFactory
-*   Chrome desired capabilities
-*   Install Chrome extensions
+*   [DriverFactory](https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html)
+*   [Chrome desired capabilities](http://chromedriver.chromium.org/capabilities)
+*   [Install Chrome extensions](https://sites.google.com/a/chromium.org/chromedriver/extensions)

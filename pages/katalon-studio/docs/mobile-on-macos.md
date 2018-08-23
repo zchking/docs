@@ -24,18 +24,18 @@ Some emulators have already supported Appium through their installations. Thus, 
 
 ### Android
 
-If you want to test an Android application on your local device. You will need to install Appium. 
+If you want to test an Android application on your local device. You will need to install [Appium](http://appium.io/downloads.html). 
 
 ### iOS
 
 Additionally, if you want to test iOS applications, you will need to download the packages below (which have been linked to their respective setting up instructions):
 
-1.  Xcode
-2.  Command-line tool for Xcode
-3.  WebDriverAgent 
-4.  Appium
+1.  [Xcode](https://itunes.apple.com/vn/app/xcode/id497799835?mt=12)
+2.  [Command-line tool for Xcode](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
+3.  [WebDriverAgent](/display/KD/Installing+WebDriverAgent+for+iOS+devices)[](https://docs.katalon.com/x/TwbR)[](https://docs.katalon.com/x/9AXR#MobileonmacOS-InstallingWebDriverAgenttoiOSdevices)[ ](https://github.com/facebook/WebDriverAgent)
+4.  [Appium](http://appium.io/downloads.html)
 
-The Katalon Team suggests using homebrew to install these dependencies. 
+The Katalon Team suggests using [homebrew](https://brew.sh/) to install these dependencies. 
 
 Setting Up Your Devices
 -----------------------
@@ -57,9 +57,9 @@ Setting Up Your Devices
     1.  1.  Open **Xcode** and navigate to **Window/Devices**
         2.  Choose your device from the Devices list
         3.  Press the “+” button and choose you application file  
-            
+            ![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8 14_31_5.png)
         4.  If installed successfully, the application will appear in the Installed Apps section as shown below.  
-            
+            **![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8 14_31_14.png)**
 
 Verifiying the Setups
 ---------------------
@@ -68,23 +68,27 @@ Verifiying the Setups
 
 After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in your Katalon Studio installation) and execute a test suite using an Android device: 
 
-  
+![](../../images/katalon-studio/docs/mobile-on-macos/image2017-6-29 14_48_34.png)  
 Select your device from the **Android Devices** list. Click **OK**. 
+
+![](../../images/katalon-studio/docs/mobile-on-macos/image2018-1-26 18_39_1.png)
 
 If your test suite runs successfully, you will see the results in the test reports as follow:
 
-For more information on how to run a test suite, check out the documentation here.
+![](../../images/katalon-studio/docs/mobile-on-macos/image2018-6-15 17_47_28.png)
+
+For more information on how to run a test suite, check out the documentation [here](/pages/viewpage.action?pageId=786668).
 
 Finishing Steps
 ---------------
 
 Once setting up successfully, follow the following guides to perform mobile testing in Katalon Studio
 
-*   Record Mobile Utility
-*   Spy Mobile Utility
-*   Execute a Test Case or a Test Suite
+*   [Record Mobile Utility](/display/KD/Record+Mobile+Utility)
+*   [Spy Mobile Utility](/display/KD/Spy+Mobile+Utility)
+*   [Execute a Test Case or a Test Suite](/display/KD/Execute+a+Test+Case+or+a+Test+Suite)
 
 Troubleshooting Common Issues
 -----------------------------
 
-_**Please refer to this troubleshooting tutorial**_
+_**Please refer to [this](https://docs.katalon.com/display/KD/Troubleshooting+automated+mobile+testing) troubleshooting tutorial**_

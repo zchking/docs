@@ -15,14 +15,14 @@ Parameters
 | Param | ParamType | Mandatory | Description |
 | --- | --- | --- | --- |
 | seconds | int | Required |  The number of seconds to wait |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
 **true** if Angular/AJAX is ready. Otherwise, **false**.
 
-Checking of whether Angular/AJAX is loaded or used in your current web application is based on this approach.
+Checking of whether Angular/AJAX is loaded or used in your current web application is based on this [approach](http://www.swtestacademy.com/selenium-wait-javascript-angular-ajax/).
 
 Example
 -------

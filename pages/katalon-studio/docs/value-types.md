@@ -150,6 +150,8 @@ This list describes how to provide data for each data type:
 
 Enter value directly into the **Value** cell.
 
+![](../../images/katalon-studio/docs/value-types/image2017-2-24 22_1_4.png)
+
 
 
  |
@@ -162,6 +164,8 @@ Enter value directly into the **Value** cell.
 
 Select preferred option from the **Value** drop-down list.
 
+![](../../images/katalon-studio/docs/value-types/image2017-2-24 22_3_11.png)
+
 
 
  |
@@ -172,6 +176,8 @@ Boolean
  | 
 
 Select preferred option from the **Value** drop-down list.
+
+![](../../images/katalon-studio/docs/value-types/image2017-2-24 21_58_55.png)
 
 
 
@@ -184,12 +190,12 @@ List
 
 *   Click on the **Value** cell.
 *   A popup which looks like the following will be displayed:  
-    
+    ![](../../images/katalon-studio/docs/value-types/Screen Shot 2017-07-13 at 14.37.49.png)
 *   Continue to add as many items as you want in the above popup.  
-    
+    ![](../../images/katalon-studio/docs/value-types/Screen Shot 2017-07-13 at 14.26.51.png)
 *   Then press the **OK** button.
 *   Those defined values will be displayed in the **Value** cell, as illustrated below:  
-    
+    ![](../../images/katalon-studio/docs/value-types/Screen Shot 2017-07-13 at 14.27.28.png)
 
 
 
@@ -199,11 +205,15 @@ List
 *   Click on the **Value** cell.
 *   A popup which looks like the following will be displayed:
 
+![](../../images/katalon-studio/docs/value-types/Screen Shot 2017-07-13 at 14.39.13.png)
+
 Continue to add as many items as you want in the above popup.
+
+![](../../images/katalon-studio/docs/value-types/Screen Shot 2017-07-13 at 14.41.07.png)
 
 *   Then press the **OK** button
 *   Those defined values will be displayed in the **Value** cell, as illustrated below.  
-    
+    ![](../../images/katalon-studio/docs/value-types/Screen Shot 2017-07-13 at 14.31.40.png)
 
 
 

@@ -4,17 +4,17 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/define-method.html 
 description: 
 ---
-A method consists of instructions to perform a specific task. Defined methods can be called for reused later. Refer to Method Call Statements for more details regarding how to call a defined method.
+A method consists of instructions to perform a specific task. Defined methods can be called for reused later. Refer to [Method Call Statements](/display/KD/Method+Call+Statements) for more details regarding how to call a defined method.
 
 Define a method in Manual view
 ------------------------------
 
 1.  Open a test case in **Manual** view, then select to add **Method** from command toolbar.  
-      
+    ![](../../images/katalon-studio/docs/define-method/image2017-6-30 20_45_48.png)  
       
     
 2.  The **Method builder** dialog is displayed.   
-      
+    ![](../../images/katalon-studio/docs/define-method/image2017-2-10 15_48_9.png)  
     Specify the required information for your method as following:
     
     | Field | Description |
@@ -28,7 +28,7 @@ Define a method in Manual view
      |
     | Setup, Teardown options | 
     
-    Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to SetUp() and TearDown() in Manual view for more details.
+    Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to [SetUp() and TearDown() in Manual view](#Definemethod-SetUp()andTearDown()inManualview) for more details.
     
      |
     | Parameter list | 
@@ -41,8 +41,8 @@ Define a method in Manual view
     
     Click **OK** after configuring the method details.
     
-3.  A test step representing the recently defined method is added to the test case. You can switch to **Script** view to define content for the method.  
-      
+3.  A test step representing the recently defined method is added to the test case. You can switch to **Script** view to [define content for the method](https://docs.katalon.com/display/KD/Define+method#Definemethod-DefineamethodinScriptingview).  
+    ![](../../images/katalon-studio/docs/define-method/image2017-2-28 14_55_16.png)  
       
     
 4.  Save the test case when you're done.
@@ -129,9 +129,11 @@ The SetUp()/TearDown() methods will have **Error** status if there is any issue 
 Define a method in Scripting view
 ---------------------------------
 
-The **Script** view of a test case allows you to programmatically define and handle methods easily using either Groovy or Java language. Refer to http://groovy-lang.org/structure.html#_methods for details about methods in Groovy.
+The **Script** view of a test case allows you to programmatically define and handle methods easily using either Groovy or Java language. Refer to [http://groovy-lang.org/structure.html#_methods](http://groovy-lang.org/structure.html#_methods) for details about methods in Groovy.
 
 For example:
+
+![](../../images/katalon-studio/docs/define-method/1.png)
 
 ### SetUp() and TearDown() in Scripting view
 
@@ -146,3 +148,5 @@ You can declare a method as setup() or teardown() method using the appropriated 
 ```
 
 For example:
+
+![](../../images/katalon-studio/docs/define-method/image2017-2-28 15_10_1.png)

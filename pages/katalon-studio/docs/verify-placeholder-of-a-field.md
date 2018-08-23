@@ -6,7 +6,9 @@ description:
 ---
 In case you want to verify placeholder of a field, e.g:
 
-Then using 'Get Attribute' keyword can help you to resolve this issue:
+![](../../images/katalon-studio/docs/verify-placeholder-of-a-field/w5juifrptxou.jpg)
+
+Then using '[Get Attribute](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Attribute)' keyword can help you to resolve this issue:
 
 ```
 String expectedPlaceholder = "Email"
@@ -17,4 +19,4 @@ if(expectedPlaceholder != placeholder) {
 }
 ```
 
-_Credit to Marek Melocik_
+_Credit to [Marek Melocik](https://forum.katalon.com/discussion/7362/placeholder-visibility-verification#Comment_17113)_

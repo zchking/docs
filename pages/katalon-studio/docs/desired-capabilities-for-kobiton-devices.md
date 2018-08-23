@@ -6,13 +6,13 @@ description:
 ---
 Prerequisites
 
-Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to this guide for more details.
+Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to this [guide](https://docs.katalon.com/display/KD/Mobile+Testing+with+Kobiton+Devices) for more details.
 
   
-There will be cases you want to use additional desired capabilities for Kobiton devices, such as using 'appWaitActivity' capability to troubleshoot issue related to starting an application (check it out here). The tips below can help you to overcome this issue and finding a workaround solution. 
+There will be cases you want to use additional desired capabilities for Kobiton devices, such as using 'appWaitActivity' capability to troubleshoot issue related to starting an application (check it out [here](https://docs.katalon.com/display/KD/Troubleshooting+automated+mobile+testing)). The tips below can help you to overcome this issue and finding a workaround solution. 
 
-1.  Grab desired capabilities generated from Kobiton portal of the device you want to use and paste it to your test script.  
-      
+1.  [Grab desired capabilities](https://docs.kobiton.com/automation-testing/automation-testing-with-kobiton/) generated from Kobiton portal of the device you want to use and paste it to your test script.  
+    ![](../../images/katalon-studio/docs/desired-capabilities-for-kobiton-devices/Screen Shot 2018-07-05 at 11.40.52.png)  
       
     
 2.  Insert '**app**' capability and pass in Kobiton application id for your device, e.g.,

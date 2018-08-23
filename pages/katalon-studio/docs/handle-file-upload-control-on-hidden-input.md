@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handle-file-upload-control-on-hidden-input.html 
 description: 
 ---
-Hidden input controls have CSS display property of none. To handle this case, we have two approaches below:
+Hidden input controls have CSS display property of [none](https://www.w3schools.com/css/css_display_visibility.asp). To handle this case, we have two approaches below:
 
 1.  CSS Overwrite:
 
@@ -31,8 +31,8 @@ robot.keyPress(java.awt.event.KeyEvent.VK_ENTER);
 
 **References:**
 
-*   **Java Robot**
-*   **JavascriptExecutor**
-*   **getWebDriver()**
+*   **[Java Robot](https://docs.oracle.com/javase/7/docs/api/java/awt/Robot.html)**
+*   **[JavascriptExecutor](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/JavascriptExecutor.html)**
+*   **[getWebDriver()](https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html#getWebDriver())**
 
-_Credit to Jason Truman_
+_Credit to [Jason Truman](https://forum.katalon.com/discussion/1860/handling-file-uploads-on-hidden-input#Comment_2331)_

@@ -13,7 +13,7 @@ description:
 *   isRegex - boolean (required): true if the label is a regular expression, false by default
 *   timeOut - int (required):  system will wait at most timeout (seconds) to return result
     
-*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are here.
+*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are [here](https://docs.katalon.com/x/qAAM).
 
 #### Returns
 
@@ -23,6 +23,8 @@ description:
 #### Example: You want to verify if the option 1 in the list is not selected in 5s timeout
 
 Manual: 
+
+![](../../images/katalon-studio/docs/webui-verify-option-not-selected-by-index/image2016-8-21 19_30_39.png)
 
 Script:
 

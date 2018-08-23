@@ -34,4 +34,4 @@ subpage/
 ```
 
 _  
-Credit to Marek Melocik _
+Credit to [Marek Melocik](https://forum.katalon.com/profile/18/Marek%20Melocik) _

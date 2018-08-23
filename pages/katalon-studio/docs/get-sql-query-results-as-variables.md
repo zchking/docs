@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/get-sql-query-results-as-variables.html 
 description: 
 ---
-Using the built-in data files functionality in Katalon Studio, you can create a data file connecting to my DB and then return the results as a variable with the code below:
+Using the built-in [data files functionalit](https://docs.katalon.com/display/KD/Manage+Test+Data)y in Katalon Studio, you can create a data file connecting to my DB and then return the results as a variable with the code below:
 
 ```
 //get data
@@ -18,7 +18,7 @@ println record
 
 **References:**
 
-*   TestDataFactory
-*   TestData
+*   [TestDataFactory](https://api-docs.katalon.com/com/kms/katalon/core/testdata/TestDataFactory.html)
+*   [TestData](https://api-docs.katalon.com/com/kms/katalon/core/testdata/TestData.html)
 
-_Credit to Anthony_
+_Credit to [Anthony](https://forum.katalon.com/discussion/6817/get-sql-query-results-as-variables#Comment_15812)_

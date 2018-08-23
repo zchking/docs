@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/optimizing-object-identification-and-tools.html 
 description: 
 ---
-**If your test execution encounters errors related to your Test Object can't be found due to some specific reasons, you can refer to troubleshooting guide here first before trying to optimize your Test Object's properties**
+**If your test execution encounters errors related to your Test Object can't be found due to some specific reasons, you can refer to troubleshooting guide [here](https://docs.katalon.com/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element) first before trying to optimize your Test Object's properties**
 
 1.  Always try to use fixed ID attribute if available. Try to communicate with development team to put the Id on each web element at front-end development side. In case the ID is dynamic (changed in every page load), should try to use other properties and below tips.
 2.  Depending on your system under test, try to use attributes that rarely changes when SUT makes changes, for example: name, ID, text, etc.

@@ -16,7 +16,7 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent an image. |
 | timeOutInSeconds  | int  | Required | Maximum period of time (in seconds) that system will wait to return result. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -68,3 +68,5 @@ WebUI.closeBrowser()
 ```
 
 The test object needs to define a source image from the local machine for Katalon Studio to use it for verification
+
+![](../../images/katalon-studio/docs/webui-wait-for-image-present/define_image.jpg)

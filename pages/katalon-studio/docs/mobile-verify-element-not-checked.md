@@ -16,7 +16,7 @@ Parameters:  
 | --- | --- | --- | --- |
 | to | TestObject  | required | represent a mobile element |
 | timeout  | int | required | system will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -29,6 +29,8 @@ Example
 You want to verify if a checkbox is NOT checked 
 
 Manual: 
+
+** ![](../../images/katalon-studio/docs/mobile-verify-element-not-checked/image2016-8-15 9_56_9.png)**
 
 Script:
 

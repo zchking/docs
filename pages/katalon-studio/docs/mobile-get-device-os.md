@@ -14,7 +14,7 @@ Parameters  
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -29,7 +29,7 @@ Example 
 You want to get the device OS of the current active mobile device, then store it into "os" variable.
 
 *   Manual view    
-    
+    ![](../../images/katalon-studio/docs/mobile-get-device-os/image2017-3-3 13_50_20.png)
 *   Script view 
     
     ```

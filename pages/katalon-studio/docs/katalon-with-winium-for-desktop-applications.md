@@ -6,7 +6,7 @@ description:
 ---
 As you may know, Katalon Studio only supports WebUI, Mobile, and API automation testing. However, there is a workaround solution to this problem, utilizing Winium .jar package in order to test desktop applications.
 
-First, download the jar package. Then see the example below to import the Winium driver into Katalon Studio.
+First, download the [jar package](https://jar-download.com/?search_box=com.github.2gis.winium). Then see the example below to import the Winium driver into Katalon Studio.
 
 ```
 import org.openqa.selenium.By
@@ -40,4 +40,4 @@ driver.findElementByName("Equals").click()
 driver.close()
 ```
 
-Credit to: Veera Palla
+Credit to: [Veera Palla](https://forum.katalon.com/discussion/8457/katalon-with-winium)

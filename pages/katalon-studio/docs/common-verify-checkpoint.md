@@ -16,7 +16,7 @@ Parameters  
 | --- | --- | --- | --- |
 | checkpoint | Checkpoint | Required | Represent the input checkpoint. |
 | logChangedValues | Boolean | Required | true will log all the changed values between checkpoint data and the source, false will not log any changed value. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -35,7 +35,7 @@ Example 
 You want to verify the checkpoint and don't print out changed values between checkpoint data and the source.
 
 *   Manual view    
-    
+    ![](../../images/katalon-studio/docs/common-verify-checkpoint/image2017-3-3 17_56_28.png)
 *   Script view 
     
     ```

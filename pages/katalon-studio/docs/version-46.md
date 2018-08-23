@@ -18,19 +18,25 @@ General Improvement
 Mobile Testing
 --------------
 
-**Record & Playback for Mobile **
+**[Record & Playback for Mobile ](https://docs.katalon.com/display/KD/Recording+Mobile+Test)**
 
 Katalon preferred Recording utility is enhanced to support both iOS and Android to cover mobile platforms. Test objects and actions will be stored and generated as test cases that can be edited using manual/scripting interfaces. The function UI is identical to web recording to help users get started quickly.  
+
+![](../../images/katalon-studio/docs/version-46/record_mobile.png)
 
 Test Object
 -----------
 
-**Parameterizing Test Objects**
+**[Parameterizing Test Objects](https://docs.katalon.com/display/KD/Manage+Test+Object#ManageTestObject-ParameterizingTestObject)**
 
 This version provides the capability to handle dynamic objects (objects with particular properties changed due to certain business rules). Users can leverage Katalon Studio parameterization capability to control these objects easily.  
 For example, the desired properties for the test object can be declared in the manual mode even without recording & spying the AUT. These properties will be used by Katalon to identify the test object during execution dynamically.
 
-Users can leverage the declared properties further by using Katalon scripting mode and adjust how the value of the properties to be perceived. (Typically, users will want to pass property value as variable or make reference to datafiles according to their situation - Refer to Parameterizing Test Object for more details).
+![](../../images/katalon-studio/docs/version-46/1. declare dynamic object.png)
+
+Users can leverage the declared properties further by using Katalon scripting mode and adjust how the value of the properties to be perceived. (Typically, users will want to pass property value as variable or make reference to datafiles according to their situation - Refer to [Parameterizing Test Object](/display/KD/Manage+Test+Object#ManageTestObject-ParameterizingTestObject) for more details).
+
+![](../../images/katalon-studio/docs/version-46/image2017-5-18 11_49_17.png)
 
 Network Configuration
 ---------------------
@@ -39,9 +45,13 @@ Network Configuration
 
 Version 4.6 introduces the capability to bypass certificate validation supporting users with restricted network policy to work with Katalon Studio as usual. This setting can be found at: **Project > Settings > Network** and it affects both WebUI and WebService testings.
 
+![](../../images/katalon-studio/docs/version-46/image2017-5-21 20_34_16.png)
+
 **Proxy Settings**
 
 Proxy setup can be configured at: **Preferences > Proxy**. The setting affects both WebUI and WebService testings. 
+
+![](../../images/katalon-studio/docs/version-46/image2017-5-18 11_52_43.png)
 
 Object Spy
 ----------
@@ -53,6 +63,7 @@ This version supports customizable hotkeys for Object Spy function for users to 
 This ability to change hotkeys for Object Spy only affect Chrome browser. Other browsers will be considered for future releases.
 
   
+![](../../images/katalon-studio/docs/version-46/image2017-5-28 9_38_40.png)
 
 Keywords
 --------
@@ -64,10 +75,10 @@ New built-in keywords are introduced in this version to help users with the popu
 | Keyword | Description |
 | --- | --- |
 | 
-Wait for Angular Load
+[Wait for Angular Load](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Angular+Load)
 
  | Wait for Angular/AJAX to load within the given time in second unit. |
-| Wait for jQuery Load | 
+| [Wait for jQuery Load](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+for+jQuery+Load) | 
 
 Wait for jQuery to load within the given time in second unit.
 
@@ -75,11 +86,11 @@ Wait for jQuery to load within the given time in second unit.
 
 **Location for screenshots**
 
-Similar to the \[Mobile\] Take Screenshot keywords, this improvement allows users to specify location for screenshots taken by \[WebUI\] Take Screenshot keywords.
+Similar to the [\[Mobile\] Take Screenshot](https://docs.katalon.com/x/WpQY) keywords, this improvement allows users to specify location for screenshots taken by [\[WebUI\] Take Screenshot](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) keywords.
 
 | Keyword | Improvement |
 | --- | --- |
-| \[WebUI\] Take Screenshot | 
+| [\[WebUI\] Take Screenshot](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) | 
 Captured screenshot saved to user-defined path. The default location will be used without user-defined value.
 
  |
@@ -90,8 +101,8 @@ Katalon Studio no longer requires the mobile UAT to be deployed on the local mac
 
 | Keyword | Improvement |
 | --- | --- |
-| \[Mobile\] Start Application | 
-'Start Application' keyword will start your installed Kobiton application directly by passing generated application ID from Kobiton application repository.
+| [\[Mobile\] Start Application](https://docs.katalon.com/display/KD/%5BMobile%5D+Start+Application) | 
+'Start Application' keyword will start your installed [Kobiton application](http://docs.kobiton.com/display/DOC/App+repository) directly by passing generated application ID from [Kobiton application repository](http://docs.kobiton.com/display/DOC/App+repository).
 
 **Example:**
 

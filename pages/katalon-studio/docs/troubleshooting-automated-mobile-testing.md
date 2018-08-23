@@ -4,8 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-automated-mobile-testing.html 
 description: 
 ---
-*   Please read **Installation and Setup** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.
-*   The information below is **NOT** exhaustive. For further troubleshooting requests, check out Katalon Community or consider subscribing to our Business Support.
+*   Please read **[Installation and Setup](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.
+*   The information below is **NOT** exhaustive. For further troubleshooting requests, check out [Katalon Community](https://forum.katalon.com/discussions) or consider subscribing to our [Business Support](https://www.katalon.com/support-service-options/).
 
 | No | Issue | Solution |
 | --- | --- | --- |
@@ -85,7 +85,7 @@ The root cause is Katalon Studio can't start application due to incorrect packag
 
 
  |
-| 6 | Carthage is not found | Known issue of Appium 1.7 with Xcode 9: https://github.com/appium/appium/issues/9344, so please use Katalon Studio 5.1.0.2+ to avoid this message. |
+| 6 | Carthage is not found | Known issue of Appium 1.7 with Xcode 9: [https://github.com/appium/appium/issues/9344](https://github.com/appium/appium/issues/9344), so please use Katalon Studio 5.1.0.2+ to avoid this message. |
 | 7 | Unable to Start Application on this device: Appium directory is invalid. | 
 
 Katalon Studio cannot locate the provided Appium directory. Please double check your Appium directory to make sure it should be as shown below:

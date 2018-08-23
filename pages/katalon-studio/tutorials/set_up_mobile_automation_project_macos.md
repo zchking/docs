@@ -11,9 +11,9 @@ This tutorial explains how to set up a mobile app testing project for Katalon St
 Setup Prerequisites
 -------------------
 
-Katalon Studio requires the latest installation of Appium and Node.js. Please setup as the following steps:
+Katalon Studio requires the latest installation of [Appium](http://appium.io/) and [Node.js](https://nodejs.org/en/). Please setup as the following steps:
 
-*   Install Homebrew from **Terminal**:
+*   Install [Homebrew](http://brew.sh/) from **Terminal**:
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL
@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ```
 
-*   Install Carthage with **Homebrew**:
+*   Install [Carthage](https://github.com/Carthage/Carthage) with **Homebrew**:
 
 ```
 brew install carthage
@@ -41,14 +41,16 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table><tbody><tr><td><span><pre><code><div><span>npm </span><span>install</span><span> </span><span>-</span><span>g</span><span> </span><span>appium</span>
-</div></code></pre></span></td></tr></tbody></table>
+| npm install -g appium |
+| --- |
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
 
-You will need to install and configure Xcode in case of testing on iOS devices. Please set up Xcode as follows:
+You will need to install and configure [Xcode](https://developer.apple.com/xcode/) in case of testing on iOS devices. Please set up Xcode as follows:
 
 *   Open **Xcode > Preferences > Accounts**: Add developer’s Apple ID
+
+![Add-acocunt-in-Xcode](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Add-acocunt-in-Xcode.png)
 
 *   Open Terminal at **WebDriverAgent** in Appium directory folder:_<…>/appium/node_modules/appium-xcuitest-driver/WebDriverAgent_ and enter following command to initialize **WebDriverAgent** project:
 
@@ -61,20 +63,30 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Open project **WebDriverAgent.xcodeproj** under**WebDriverAgent** in Xcode.
 
+![Open-WebDriverAgent.xcodeproj](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Open-WebDriverAgent.xcodeproj.png)
+
 *   Select **WebDriverAgentLib**, and in the Signing section, check **Automatically manage signing** and select a team.
 
+![Select-target-WebDriverAgentLib](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Select-target-WebDriverAgentLib.png)
+
 *   Then on Xcode’s menu bar, select **Product > Build**
+
+![Select-Build](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Select-Build.png)
 
 *   Repeat the last two steps for **WebDriverAgentRunner**
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table><tbody><tr><td><span><pre><code><div><span>xcodebuild</span><span> </span><span>-</span><span>project </span><span>WebDriverAgent</span><span>.</span><span>xcodeproj</span><span> </span><span>-</span><span>scheme </span><span>WebDriverAgentRunner</span><span> </span><span>-</span><span>destination</span><span> </span><span>'id=&lt;udid&gt;'</span><span> </span><span>test</span>
-</div></code></pre></span><p></p><p><span>Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
+| xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=<udid>' test Note: <udid> is the device UDID of your mobile device. |
+| --- |
 
 *   If the following dialog is shown, select **Always Allow**
 
+![Always-allow](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Always-allow.png)
+
 *   You should be able to see _Listening on USB _in the build output as below
+
+![Build-Output](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Build-Output.png)
 
 Setup Devices
 -------------
@@ -97,8 +109,11 @@ To test an iOS native application file (**.ipa** or **.app** file), make sure th
 **2\. Choose your device from the Devices list  
 3\. Press the “+” button and choose your application file  
   
+![Choose-your-application-file](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Choose-your-application-file.png)
 
 4\. If installed successfully, the application will appear in the Installed Apps section as shown below
+
+![Installed-successfully](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Installed-successfully.png)
 
 Desired Capabilities
 --------------------
@@ -109,4 +124,6 @@ To define Desired Capabilities for local execution using Chrome, Firefox, IE, Sa
 
 The example below shows Desired Capabilities settings for Android to enable Unicode inputs.
 
-Refer to Desired Capabilities for which properties of each web browser are supported by Selenium. For Desired Capabilities to be used with Appium, refer to Appium server capabilities.
+![Desired-capabilities-setting](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Desired-capabilities-setting-1024x673.png)
+
+Refer to [Desired Capabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities) for which properties of each web browser are supported by Selenium. For Desired Capabilities to be used with Appium, refer to [Appium server capabilities](https://appium.io/docs/en/writing-running-appium/caps/).

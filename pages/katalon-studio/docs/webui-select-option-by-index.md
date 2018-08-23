@@ -23,7 +23,7 @@ Index range of the options to be deselected. Example:
 *   "2-5" - index 2 to 5 (2,3,4,5)
 
  |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
 
 Example
 -------

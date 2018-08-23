@@ -8,9 +8,13 @@ description:
 
 **Katalon Utility**
 
-This extension provides the ability to capture web elements displayed in Chrome browser. Captured objects will then be loaded to Katalon Studio for post processing.
+This [extension](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid) provides the ability to capture web elements displayed in Chrome browser. Captured objects will then be loaded to Katalon Studio for post processing.
+
+![](../../images/katalon-studio/docs/version-44/image2017-1-5 9_58_58.png)
 
 After installing this Chrome extension, Katalon users can start spying objects (or recording test cases) on the current open Chrome browser by selecting the **Active Browsers** option in **Spy** (or **Record**) dialog of Katalon Studio.   
+
+![](../../images/katalon-studio/docs/version-44/image2017-1-5 10_37_23.png)
 
 This is particularly helpful in case when the user needs to capture things on his current browser quickly. With the support of Katalon Utility, the user does not have to open a new browser from Katalon Studio and go thru all the steps just to reach his targeted website.
 
@@ -20,17 +24,21 @@ This is particularly helpful in case when the user needs to capture things on hi
 
 From this release, users can specify the initial web address of new browsers with **Starting URL** field.
 
+![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_17_26.png)
+
 ### Web Services Testing
 
 **Improved Editor**
 
 Completely new and overhauled SOAP/REST object editor that could be utilized as a viable option for your Web Services testing.
 
+![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_21_11.png)
+
 ### Mobile Testing
 
 **Update mobile testing engine**
 
-Mobile Testing Core is updated to be compatible with the new Appium 1.6 and Xcode 8 on macOS Sierra (10.12). You can now perform your test on latest Android 7 and iOS 10. The setup for mobile has been updated for this upgrade. Please refer to this guide for more details.
+Mobile Testing Core is updated to be compatible with the new Appium 1.6 and Xcode 8 on macOS Sierra (10.12). You can now perform your test on latest Android 7 and iOS 10. The setup for mobile has been updated for this upgrade. Please refer to this [guide](http://docs.katalon.com/display/KD/Mobile+on+macOS) for more details.
 
   
 
@@ -38,11 +46,15 @@ Mobile Testing Core is updated to be compatible with the new Appium 1.6 and Xco
 
 Users with proxy network had been troubled activating Katalon Studio. Katalon Studio now provide an option so that users can setup proxy for online activation.
 
+![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_4_21.png)
+
 ### Console Mode
 
 **Support Test Suite Collection execution**
 
-Katalon Studio now extends console mode execution capabilites to support test suite collection. Users can also generate commands for Test Suite Collection execution using **Command Builder**.
+Katalon Studio now extends [console mode execution](http://docs.katalon.com/display/KD/Console+Mode+Execution) capabilites to support test suite collection. Users can also generate commands for Test Suite Collection execution using **Command Builder**.
+
+![](../../images/katalon-studio/docs/version-44/image2017-1-4 10_29_29.png)
 
 ### General Improvement
 
@@ -54,6 +66,10 @@ Optimize performance of Katalon Studio when working under heavy duty. System mem
 
 Welcome page now have links to help new users access useful resources quickly. The simplified Sample Projects will be good references for those who seek to get a quick experience with Katalon Studio.
 
+![](../../images/katalon-studio/docs/version-44/image2017-1-4 11_31_40.png)
+
 **Git menu relocating**
 
 Git options are relocated from Katalon menu to main toolbar so that user could access the functions quickly.
+
+![](../../images/katalon-studio/docs/version-44/image2017-1-4 14_27_0.png)

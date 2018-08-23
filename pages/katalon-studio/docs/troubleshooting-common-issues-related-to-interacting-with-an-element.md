@@ -10,7 +10,7 @@ description:
 
 The element can't be detected on current page due XPath or CSS selector is incorrect
 
-**Solution**: Refer to here and here
+**Solution**: Refer to [here](https://forum.katalon.com/discussion/2015/element-not-found-exception#Comment_3654) and [here](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
 
 **2. "selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted"**
 
@@ -18,7 +18,7 @@ The element can't be detected on current page due XPath or CSS selector is incor
 *   The element is not visible yet after current page is loaded.
 
 **Solution:**  
-Add 'Wait For Element Visible' step before the step having this issue, e.g:
+Add '[Wait For Element Visible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible)' step before the step having this issue, e.g:
 
 ```
 WebUI.openBrowser('http://demoaut.katalon.com') 
@@ -28,7 +28,7 @@ WebUI.click(findTestObject('btn_Login'))
 
 **3\. "Element is not currently interactable and may not be manipulated"**
 
-*   Usually happens on 'Set Text' keyword where input field is read-only.
+*   Usually happens on '[Set Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Text)' keyword where input field is read-only.
 *   The element is not visible.
 *   The element requires some conditions to be displayed.
 
@@ -47,12 +47,12 @@ WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element
   
 **4\. "Element is not clickable at point (x,x).** Another element **would receive the click...":**
 
-*   Happens mostly on Chrome (source).
+*   Happens mostly on Chrome ([source](http://chromedriver.chromium.org/help/clicking-issues)).
 *   The element is clickable but there is a spinner/overlay on top of it.
 
 **Solution:**
 
-Click on the element using Javascript instead:  
+Click on the element using [Javascript](https://docs.katalon.com/display/KD/%5BWebUI%5D+Execute+JavaScript) instead:  
 
 ```
 import com.kms.katalon.core.webui.common.WebUiCommonHelper

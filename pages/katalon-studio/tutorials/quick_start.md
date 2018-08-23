@@ -4,9 +4,9 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/quick_start.html
 description: "A quick guide to set up and start your first automation test with Katalon Studio that helps you start automation testing on web and mobile in no times."
 ---
-**A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least efforts and no costs. Free download at www.katalon.com**
+**A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
-**Read full guideline https://docs.katalon.com/x/l4Ei**
+**Read full guideline [https://docs.katalon.com/x/l4Ei](https://docs.katalon.com/x/l4Ei)**
 
 *   Introduction
     ------------
@@ -18,17 +18,17 @@ This Getting Started Guide gives you a quick introduction to Katalon Studio, fro
     -----------------------
     
 
-Katalon Studio is available for free, supporting both Windows and Mac. Visit Katalon Studio website to download the latest version.
+Katalon Studio is available for free, supporting both Windows and Mac. Visit [Katalon Studio website](https://www.katalon.com/) to download the latest version.
 
 *   Environment Configuration
     -------------------------
     
 
-First you need to verify if your computer meets the System Requirements of Katalon Studio.
+First you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
-If you do **Web UI** testing, then no additional settings are needed except making sure the required browsers are installed. Check this list for all supported browsers.
+If you do **Web UI** testing, then no additional settings are needed except making sure the required browsers are installed. Check [this list](https://docs.katalon.com/x/dAAM) for all supported browsers.
 
-In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to Installation Guide for more details.
+In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
 
 *   Start Katalon Studio
     --------------------
@@ -42,7 +42,7 @@ Once started, the application should display a splash screen.
     ----------------------
     
 
-After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio Instance. The username and password are the ones used to login to https://www.katalon.com
+After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio Instance. The username and password are the ones used to login to [https://www.katalon.com](https://www.katalon.com)
 
 *   Feature Introduction
     --------------------
@@ -88,4 +88,4 @@ _Note: You can specify the target browser to run the script by selecting it in t
 
 Congratulations! You have just successfully created and executed your first test case.
 
-_For further instructions and help, please refer to Katalon User Guide or Katalon Forum_
+_For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_

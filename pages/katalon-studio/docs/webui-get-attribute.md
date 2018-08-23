@@ -16,7 +16,7 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element |
 | attribute | String | Required | Name of the attribute |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

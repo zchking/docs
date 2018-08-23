@@ -8,6 +8,8 @@ All the preferences under **Test Case** group are for controlling the default be
 
 You can configure these preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Test Case**
 
+![](../../images/katalon-studio/docs/test-case-preferences/image2017-6-29 16_5_23.png)
+
 Where:
 
 | 
@@ -27,9 +29,38 @@ Test Case Calling
 
 This is to specify how Katalon Studio should behave when you are calling another test case in your current test case.
 
-<table><tbody><tr><td><p><strong>Options</strong></p></td><td><p><strong>Description</strong></p></td></tr><tr><td><p>Generate variable with default value</p></td><td><p>Called test case uses default values for its variables.</p></td></tr><tr><td><p>Generate variable with the same name as the exposed variable of the called test case</p></td><td><p>Called test case uses default values which are the same with its variables name.</p></td></tr><tr><td><p>Expose variables automatically after choosing the called test case</p></td><td><p>Called test case uses default values which are the same with its variables name.</p><p>The variables are also added into current test case at 'Variables' tab.</p></td></tr></tbody></table>
+| Options | Description |
+| --- | --- |
+| 
+Generate variable with default value
 
-You might need to refer back to Variable Types section for which types of variables are supported in Katalon Studio.
+ | 
+
+Called test case uses default values for its variables.
+
+ |
+| 
+
+Generate variable with the same name as the exposed variable of the called test case
+
+ | 
+
+Called test case uses default values which are the same with its variables name.
+
+ |
+| 
+
+Expose variables automatically after choosing the called test case
+
+ | 
+
+Called test case uses default values which are the same with its variables name.
+
+The variables are also added into current test case at 'Variables' tab.
+
+ |
+
+You might need to refer back to [Variable Types](/display/KD/Variable+Types) section for which types of variables are supported in Katalon Studio.
 
  |
 | 
@@ -38,7 +69,7 @@ Default Failure Handling
 
  | 
 
-The default Failure Handling schema that should be used when a new step is added in your test case. Refer to Failure Handling section for more settings to control Failure Handling.
+The default Failure Handling schema that should be used when a new step is added in your test case. Refer to [Failure Handling](/display/KD/Failure+Handling) section for more settings to control Failure Handling.
 
  |
 | 

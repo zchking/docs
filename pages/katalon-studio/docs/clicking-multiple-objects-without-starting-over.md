@@ -25,7 +25,7 @@ https://www.katalon.com/resources-center/tutorials/data-driven-testing/ for lin
 
 **References:**
 
-*   **\[**WebUI\] Modify Object Property
-*   Data-Driven Testing
+*   **[\[](https://docs.katalon.com/display/KD/%5BWebUI%5D+Modify+Object+Property)**[WebUI\] Modify Object Property](https://docs.katalon.com/display/KD/%5BWebUI%5D+Modify+Object+Property)
+*   [Data-Driven Testing](https://www.katalon.com/resources-center/tutorials/data-driven-testing/)
 
-_Credit to Mate Mrse_
+_Credit to [Mate Mrse](https://forum.katalon.com/discussion/7010/how-to-test-clicking-multiple-objects-without-starting-over#lComment_16209)_

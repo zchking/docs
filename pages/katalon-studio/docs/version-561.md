@@ -14,4 +14,4 @@ Address the following issues:
 
 Want an older version?
 
-Refer to this guide on how to download an older Katalon Studio version.
+Refer to this [guide](https://docs.katalon.com/display/KD/Getting+Started#GettingStarted-Download) on how to download an older Katalon Studio version.

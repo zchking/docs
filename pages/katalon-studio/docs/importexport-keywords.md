@@ -12,26 +12,46 @@ Currently, Katalon Studio provides two options to import keywords: from a **loc
 
 To import new keywords, navigate to **Menu > File > Import Keywords** and choose your preferred option. Additionally, the users can import keywords from the **Tests Explorer** by right-clicking on the **Keywords** section to display the context menu as shown below.
 
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_38_45.png)
+
 #### Import from Local Folder
 
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_40_43.png)
+
 After the **Browse For Folder** panel appears, choose your desired folder to import the keywords to Katalon Studio. If the keywords imported don't belong to any package, Katalon Studio will put them into a default package.
+
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_53_24.png)
 
 #### Import from Git 
 
 If the user is importing the keywords from a public repository, **NO** authentication is **required**. However, if the repository is private, please provide your Git authentication. 
 
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-25 16_3_24.png)
+
 When Katalon Studio successfully discovers the desired repository, it will ask the user to choose a branch to check out. Please select the branch that contains the keywords you want to import. 
+
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-25 16_2_27.png)
 
 Katalon Studio will clone the Git repository to a default location in your project folder. Choose your initial branch and click **Finish.**
 
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_45_26.png)
+
 Katalon Studio will notify you whether the keywords are imported successfully. If the keywords imported don't belong to any package, Katalon Studio will put them into a **default** package.
+
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_53_24.png)
 
 #### Duplicate Keywords
 
 There are instances of similar keywords exist in the project. Katalon Studio will automatically detect and alert users for taking actions. There are 3 options to choose as shown below.
 
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_46_12.png)
+
 ### Export Keywords
 
 To increase code usability, Katalon Studio also let the users to export keyword for sharing across team memebers. Simply right-click on **Keywords **in the Test Explorers, select **Export** from the context-menu. 
 
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_46_43.png)
+
 The **Browse For Folder** panel will be displayed, choose your desired folder to export the keywords to the local storage.
+
+![](../../images/katalon-studio/docs/importexport-keywords/image2018-6-21 11_48_40.png)

@@ -7,7 +7,7 @@ description:
 Hypothetically, you want to call a Custom Keyword within a Custom Keyword that is defined in another class. Check out the code below for a sample implementation.
 
   
-  
+![](../../images/katalon-studio/docs/import-custom-keywords-classes-recursively/f5uxhyxe7z65.png)  
   
 Keywords/my.a/Greeting.groovy  
 
@@ -30,7 +30,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUIdef str
 
   
 The TC1 ran fine:  
+![](../../images/katalon-studio/docs/import-custom-keywords-classes-recursively/30qrty5tymg5.png)
 
   
 
-_Credit to kazurayam_
+_Credit to [kazurayam](https://forum.katalon.com/discussion/6971/importing-custom-keywords-classes-recursively-within-a-custom-keyword#Comment_16124)_

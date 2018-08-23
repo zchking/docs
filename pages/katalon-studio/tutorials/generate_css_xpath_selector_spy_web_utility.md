@@ -4,7 +4,7 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility.html
 description: "Katalon Studio Spy Web Utility provides an intelligent object capturing capability and immediate feedback on CSS Selector & Xpath selector. Learn more!"
 ---
-Katalon Studio Spy Web Utility provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. There are two widely used selectors: **CSS** and **XPath**.
+Katalon Studio [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668) provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. There are two widely used selectors: **CSS** and **XPath**.
 
 Locators are object attributes which are used to build up XPath or CSS selector. Locators help find and identify elements on the Web page under test. Katalon Studio builds the final XPath selector (Basic mode) by using any active object locators from users to locate Web Elements.
 
@@ -26,17 +26,27 @@ How to find object locators
 
 **Step 1:** Click on **Spy Web** on the Katalon Studio main toolbar.
 
+![Find-Object-locators](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Find-Object-locators.png)
+
 **Step 2:** The Object Spy window is shown as the following.
 
+![The-Object-Spy-window](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/The-Object-Spy-window.png)
+
 **Step 3:** Type the application URL in the URL text box and select the desired browser.  Click on **Start**.
+
+![application URL in Object Spy](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/application-URL-in-Object-Spy.png)
 
 Once you click on Start, Katalon Studio will launch the browser and navigates to the respective website.
 
 **Step 4:** To capture test objects, hover the mouse over them. The focused web object would be highlighted.
 
+![Capture-test-objects](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Capture-test-objects.png)
+
 By pressing the <Alt + ~> keys the focused object will be highlighted green, which means that it has been stored in the Captured Objects list.
 
 Katalon Studio will automatically capture all available properties of captured objects. You can change the folder name and edit the value of any properties.
+
+![Locate captured Xpath selector](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Locate-captured-objects.png)
 
 Katalon Studio allows users to select **Selection Method** to locate captured objects. **Basic mode** is recommended to manual testers who just started automation journey. With **Basic** mode, Katalon Studio’s intelligent selector generator will **automatically generate** a robust and unique XPath **selector** which combined all properties of captured objects.
 
@@ -55,12 +65,16 @@ XPath selector is commonly used to locate web element in Web UI testing. The fol
 
 As an example, you can identify the login button with multiple attributes
 
+![Login-Button-Multiple-Attributes](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Login-Button-Multiple-Attributes.png)
+
 Xpath:
 
 ```
 //*[@id='btn-login'][@type='submit']
 
 ```
+
+![Multiple-Attributes](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Multiple-Attributes.png)
 
 *   **Contains():**
 
@@ -70,12 +84,16 @@ Example:
 
 Contains method for heading CURA Healthcare Service
 
+![CURA-Healthcare-Service](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/CURA-Healthcare-Service.png)
+
 Xpath:
 
 ```
  //h1[contains(.,'CURA Healthcare Service')]
 
 ```
+
+![Xpath object selector](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Contain-Method.png)
 
 *   **Last():**
 
@@ -84,6 +102,8 @@ Last() is a method used in an XPath expression. It is used to get the very last 
 Example:
 
 There are 3 Social Icon Links, and we want to get the 3rd and last item by using Last()
+
+![Social-icons-by-using-Last](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Social-icons-by-using-Last.png)
 
 Xpath:
 
@@ -99,6 +119,8 @@ The Start-with method finds the element whose attribute value changes on refresh
 Example:
 
 Starts-with() method for heading CURA Healthcare Service
+
+![CURA-Healthcare-Service](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/CURA-Healthcare-Service.png)
 
 Xpath:
 
@@ -147,6 +169,8 @@ Example:
 
 Using Child we can identify all social links as shown in the below screenshot.
 
+![identify-all-social-links-by-child](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/identify-all-social-links-by-child.png)
+
 Xpath:
 
 ```
@@ -161,6 +185,8 @@ Selects all nodes that come before the current node.
 Example:
 
 Using Preceding we can identify all nodes that come before the Login button.
+
+![identify-all-nodes-before-the-Login-button](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/identify-all-nodes-before-the-Login-button.png)
 
 Xpath:
 
@@ -184,6 +210,6 @@ Xpath:
 
 ```
 
-The source code is available to be downloaded here.
+The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to Katalon Studio Tutorials and Katalon Forum.
+For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

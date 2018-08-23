@@ -15,6 +15,6 @@ dbTestData.fetchedData = dbTestData.fetchData()
 
 **References:**
 
-*   DBData
+*   [DBData](https://api-docs.katalon.com/com/kms/katalon/core/testdata/DBData.html)
 
-_Credit to Trong Bui_
+_Credit to [Trong Bui](https://forum.katalon.com/discussion/5799/dynamically-update-sql-generated-test-data-files-before-test-suite-case-execution#Comment_13181)_

@@ -8,9 +8,13 @@ description:
 
 Provide user an option in Project Settings to encrypt all integration and email accounts with Katalon Studio. This helps to ensure the security of accounts information in sharing such as via Git. 
 
+![](../../images/katalon-studio/docs/version-531/image2018-3-1 11_52_11.png)
+
 ### Masking Password Field in Record Web
 
 Since version 5.3.1, Katalon Studio will auto-detect and masked the input text of Password field while Recording.
+
+![](../../images/katalon-studio/docs/version-531/image2018-3-1 12_27_59.png)
 
 ### Support Private Kobiton Devices
 
@@ -24,7 +28,7 @@ Allow users to pass Proxy settings in Console Mode command
 | --- | --- | --- | --- |
 | proxy.option | Fixed | NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG | YES |
 | proxy.server.type | Fixed |  HTTP, HTTPS, or SOCKS | YES |
-| proxy.server.address | String | Example: http://192.168.12.32, http://katalon.com | YES |
+| proxy.server.address | String | Example: http://192.168.12.32, [http://katalon.com](http://katalon.com/) | YES |
 | proxy.server.port | Integer | Example: 80, 8080, 9999 | YES |
 | proxy.username | String | Example: MyProxyUsername | Optional (YES if your proxy server requires authentication) |
 | proxy.password | String | Example: MyProxyPassword | Optional (YES if your proxy server requires authentication) |

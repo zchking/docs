@@ -19,7 +19,7 @@ Parameters  
 | matchCondition | String | Required | Condition to match property name with property value, for example, equals, not equals,... In case the property already exists, input null to this argument to keep the old value of match condition. |
 | modifyValue | String | Required | Value of the property. In case the property already exists, input null to this argument to keep the old property value. |
 | isActive | Boolean | Required | True if the property is checked (used to find the test object); otherwise, false. In case the property already exists, input null to this argument to keep the old value. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

@@ -14,7 +14,7 @@ Parameters  
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
@@ -22,7 +22,7 @@ Example 
 You want to hide keyboard if it is showing.
 
 *   Manual view    
-    
+    ![](../../images/katalon-studio/docs/mobile-hide-keyboard/image2017-3-3 14_27_56.png)
 *   Script view 
     
     ```

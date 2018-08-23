@@ -13,13 +13,13 @@ Katalon Studio supports parameterized the following information for Web Services
 *   **HTTP Header**
 *   **URL**
 
-Having the ability to parameterized Web Services object allows user have more control of the web services request object and fulfill all the testing requirements. The approach is the same with Web UI object
+Having the ability to parameterized Web Services object allows user have more control of the web services request object and fulfill all the testing requirements. The approach is the same with [Web UI object](https://docs.katalon.com/x/A4C9)
 
 **Example:**
 
 *   Create a POST method with **Parameterized HTTP Body**. The **userID** in the screenshot below are parameterized instead of being hardcoded.  
       
-      
+    ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/image2018-4-3 11_12_30.png)  
     Where
     
     | Parameter | Description |
@@ -34,7 +34,7 @@ Having the ability to parameterized Web Services object allows user have more co
     
 *   Create a **REST** object with **GET** method and **Parameterized URL**. The **userID** is parameterized in the URL to receive any passing value from the Test Case.  
       
-      
+    ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/Screen Shot 2018-06-05 at 2.17.14 PM.png)  
     
     Where
     
@@ -50,3 +50,5 @@ Having the ability to parameterized Web Services object allows user have more co
     
     System.out.println(response.getResponseText())
     ```
+    
+    ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/Screen Shot 2018-06-05 at 2.16.49 PM.png)

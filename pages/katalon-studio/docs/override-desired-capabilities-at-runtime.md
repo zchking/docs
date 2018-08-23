@@ -14,4 +14,4 @@ RunConfiguration.setWebDriverPreferencesProperty("key", "value")
   
 **References:**
 
-*   RunConfiguration
+*   [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
