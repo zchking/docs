@@ -12,7 +12,17 @@ Record
 *   Without opening any test case, click on Web Record ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 09.41.37.png) icon to open Web Recorder
 *   Katalon Studio default browser is Chrome, whose icon is displayed in the top right corner, but you can change this default browser in **Preferences → Katalon → Recorder → Default browser**. You can also click on the drop-down button to select the browser you want to use:
     
-    <table class="relative-table wrapped confluenceTable" style="width: 94.5274%;"><colgroup><col style="width: 21.1082%;"><col style="width: 26.0921%;"><col style="width: 52.4773%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Type</th><th class="xtd-0-1 confluenceTh">Description</th><th class="xtd-0-2 confluenceTh" colspan="1">Note</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">New Browsers</td><td class="xtd-1-1 confluenceTd">Start a new browser</td><td class="xtd-1-2 confluenceTd" colspan="1"><strong>Supported browsers:</strong><br>- Firefox<br>- Chrome<br>- Internet Explorer (only on Windows)</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Active Browsers</td><td class="xtd-2-1 confluenceTd">Use the current browser (only Chrome)</td><td class="xtd-2-2 confluenceTd" colspan="1">Katalon Studio will install <a class="external-link" href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid" rel="nofollow">Katalon Recorder</a> as an add-on to help with recording for this type of browser<br><br><strong>Supported browsers:</strong><br>- Chrome<br>- Firefox (coming soon)</td></tr></tbody></table>
+    | Type | Description | Note |
+    | --- | --- | --- |
+    | New Browsers | Start a new browser | **Supported browsers:**  
+    \- Firefox  
+    \- Chrome  
+    \- Internet Explorer (only on Windows) |
+    | Active Browsers | Use the current browser (only Chrome) | Katalon Studio will install [Katalon Recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid) as an add-on to help with recording for this type of browser  
+      
+    **Supported browsers:**  
+    \- Chrome  
+    \- Firefox (coming soon) |
     
 *   In this example, just select either Chrome or Firefox from '**New Browser**' type to start recording.
     
@@ -69,7 +79,32 @@ Execution comes with seeing execution logs, and in many cases you don't want to 
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.46.04.png)
 
-<table class="relative-table wrapped confluenceTable" style="width: 91.5118%;"><colgroup><col style="width: 10.6369%;"><col style="width: 63.4824%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh" style="text-align: center;">Type of Run</th><th class="xtd-0-1 confluenceTh" style="text-align: center;">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Run all steps</td><td class="xtd-1-1 confluenceTd">Execute ALL steps that are enabled on Web Recorder.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Run selected steps</td><td class="xtd-2-1 confluenceTd"><div class="content-wrapper"><p>Execute only one or many selected steps.</p><div class="confluence-information-macro confluence-information-macro-information conf-macro output-block" data-hasbody="true" data-macro-name="info"><span class="aui-icon aui-icon-small aui-iconfont-info confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p>You can select many steps using either Ctrl or Shift key from your keyword. Selected steps will be highlighted e.g run step #2, #6, #9 and #11 are selected.</p><p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" src="../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.45.48.png" data-image-src="/download/attachments/13699399/Screen%20Shot%202018-06-27%20at%2011.45.48.png?version=1&amp;modificationDate=1530075143000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699437" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2018-06-27 at 11.45.48.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699399" data-linked-resource-container-version="7"></span></p></div></div></div></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Run from selected step</td><td class="xtd-3-1 confluenceTd"><div class="content-wrapper"><p>Execute the current selected step and all steps after selected one, e.g run step #4 and all steps after it.</p><p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" src="../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.51.07.png" data-image-src="/download/attachments/13699399/Screen%20Shot%202018-06-27%20at%2011.51.07.png?version=1&amp;modificationDate=1530075393000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699438" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2018-06-27 at 11.51.07.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699399" data-linked-resource-container-version="7"></span></p></div></td></tr></tbody></table>
+| Type of Run | Description |
+| --- | --- |
+| Run all steps | Execute ALL steps that are enabled on Web Recorder. |
+| Run selected steps | 
+Execute only one or many selected steps.
+
+You can select many steps using either Ctrl or Shift key from your keyword. Selected steps will be highlighted e.g run step #2, #6, #9 and #11 are selected.
+
+![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.45.48.png)
+
+
+
+
+
+
+
+ |
+| Run from selected step | 
+
+Execute the current selected step and all steps after selected one, e.g run step #4 and all steps after it.
+
+![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.51.07.png)
+
+
+
+ |
 
 Upon selecting any types of Run to execute, there will be execution logs displayed on Logs tab
 

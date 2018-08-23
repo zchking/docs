@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/how_handle_drop_down_menu.html
 description: "A drop-down menu contains a list of options. This tutorial illustrates how to handle the drop-down list using Katalon Studio built-in keywords."
 ---
-[](#)
-
 What is Drop-down?
 ------------------
 
@@ -307,6 +305,4 @@ WebUI.closeBrowser()
 
 Using Katalon built-in keywords we can simple handle dropdowns, we will look into other scenarios of dropdowns such as ‘verifying dropdown values are in alphabetical’, ‘verifying expected and actual dropdown values’ using custom keywords. You may download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Katalon Studio WebUI](https://docs.katalon.com/display/KD/%5BWebUI%5D+Combo+box) tutorials. 
-
-[](#modal-id-popup)
+For further instructions and help, please refer to [Katalon Studio WebUI](https://docs.katalon.com/display/KD/%5BWebUI%5D+Combo+box) tutorials.

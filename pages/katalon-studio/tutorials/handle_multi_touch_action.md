@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_multi_touch_action.html
 description: "Multi-Touch action appears often in gaming applications. We will use MultiTouch Tester app to demonstrate automation testing on this common behavior."
 ---
-[](#)
-
 Multi-touch action appears often in gaming applications. We will use **MultiTouch Tester** app to demonstrate automation testing on this common behavior. Please download the app from [here](https://play.google.com/store/apps/details?id=com.the511plus.MultiTouchTester) or the direct apk file [here](https://www.appsapk.com/multitouch-tester/).
 
 ### Scenario
@@ -205,5 +203,3 @@ multiTouch.add(action1).add(action2).add(action3).add(action4).perform()
 ```
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

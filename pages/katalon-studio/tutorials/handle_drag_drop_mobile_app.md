@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_drag_drop_mobile_app.html
 description: "This tutorial demonstrates how to handle drag and drop action in a mobile application using Katalon Studio."
 ---
-[](#)
-
 In this tutorial, we will see how to handle drag and drop action in a mobile application using Katalon Studio. The source code can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/Drag%20and%20Drop.apk).
 
 ### Scenario
@@ -104,5 +102,3 @@ Mobile.closeApplication()
 ```
 
 For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

@@ -4,8 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-51.html 
 description: 
 ---
-**Drivers Update**
-------------------
+Drivers Update
+--------------
 
 Katalon team has implemented the following changes in Katalon Studio Version 5.1.0
 

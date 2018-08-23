@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/solving_common_issue_wait_time.html
 description: "This article will guide users through leveraging the wait time to handle the situations: network stability, internet bandwidth, the performance of the AUT."
 ---
-[](#)
-
 Automation execution usually does not carry out exactly as scripted due to many factors involved during execution such as network stability, internet bandwidth, the performance of the AUT, and the performance of the executing computer. This article will guide users through leveraging delayed time to handle such situations.
 
 **What is Wait?**
@@ -105,5 +103,3 @@ WebUI.closeBrowser()
 Quite often test execution get failed due to the exceptions such as ‘**NoSuchElementException**‘, ‘**ElementNotFoundException**‘, ‘**ElementNotVisibleException**‘. In order to handle these exceptions, conditional Synchronization has to be implemented. Katalon Studio supports many built in “**Wait for….**” keywords to deal with such exceptions. For example:
 
 <table><tbody><tr><td style="text-align: center; border: 1px solid black;"><b>Keyword</b></td><td style="text-align: center; border: 1px solid black;"><b>Description</b></td></tr><tr><td style="text-align: center; border: 1px solid black;"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present"><span style="font-weight: 400;">Wait For Element Present</span></a></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Wait for the given element to present (appear) within the given time in seconds.</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible"><span style="font-weight: 400;">Wait For Element Visible</span></a></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Wait until the given web element is visible within timeout.</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert"><span style="font-weight: 400;">Wait For Alert</span></a></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Wait for a browser’s alert to present.</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable"><span style="font-weight: 400;">Wait for Element Clickable</span></a></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Wait for the given element to be clickable within the given time in seconds.</span></td></tr></tbody></table>
-
-[](#modal-id-popup)

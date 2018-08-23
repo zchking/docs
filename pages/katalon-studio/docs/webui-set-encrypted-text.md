@@ -17,8 +17,8 @@ The pop-up dialog has been shown when calling keyword “**Set Encrypted Text**�
 
 Go to **Help > Encrypt Text**, input raw text to encrypt. Next, copy and paste encrypted text into the test scripts.
 
-Parameters
-----------
+ Parameters
+-----------
 
 | 
 Param

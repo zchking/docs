@@ -38,7 +38,39 @@ Mobile.callTestCase(findTestCase({Test Case ID}), [key1:value1, key2:value2, …
 
 where:
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh">Items</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">{Test Case ID}</td><td class="confluenceTd"><div class="content-wrapper"><p>The&nbsp;<strong>ID</strong>&nbsp;of the test case to be called. You can find this info in test case properties.</p><p>For example:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/call-test-case/image2017-2-24 14_16_26.png" data-image-src="/download/attachments/786602/image2017-2-24%2014%3A16%3A26.png?version=1&amp;modificationDate=1487920587000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5113100" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-24 14:16:26.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786602" data-linked-resource-container-version="1"></span></p></div></td></tr><tr><td class="confluenceTd"><p>Parameters binding:</p><pre><code class="language-groovy">[key1:value1, key2:value2, … , keyN:valueN]</code></pre></td><td class="confluenceTd"><p><span>The&nbsp;<strong>list of input parameters</strong>&nbsp;for that test case if any, which consists of following details:</span></p><ul><li><em>Key(s)</em>: The <a href="https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Publicvariables" rel="nofollow">public variables</a> defined within the called test case.</li><li><em>Value</em>: the value to be used for the corresponding public variables.</li></ul></td></tr><tr><td class="confluenceTd">FailureHandling.option</td><td class="confluenceTd"><p>The <em>failure handling</em> option for the current test step. This parameter is <strong>optional</strong>.</p></td></tr></tbody></table>
+| Items | Description |
+| --- | --- |
+| {Test Case ID} | 
+The **ID** of the test case to be called. You can find this info in test case properties.
+
+For example:
+
+![](../../images/katalon-studio/docs/call-test-case/image2017-2-24 14_16_26.png)
+
+
+
+ |
+| 
+
+Parameters binding:
+
+```groovy
+[key1:value1, key2:value2, … , keyN:valueN]
+```
+
+ | 
+
+The **list of input parameters** for that test case if any, which consists of following details:
+
+*   _Key(s)_: The [public variables](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Publicvariables) defined within the called test case.
+*   _Value_: the value to be used for the corresponding public variables.
+
+ |
+| FailureHandling.option | 
+
+The _failure handling_ option for the current test step. This parameter is **optional**.
+
+ |
 
 For example:
 

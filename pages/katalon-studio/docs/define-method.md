@@ -17,7 +17,27 @@ Define a method in Manual view
     ![](../../images/katalon-studio/docs/define-method/image2017-2-10 15_48_9.png)  
     Specify the required information for your method as following:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh">Field</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">Name</td><td class="confluenceTd">The name of the method.</td></tr><tr><td class="confluenceTd">Return type</td><td class="confluenceTd"><div class="content-wrapper"><p>The object type that this method will return after its execution.</p></div></td></tr><tr><td class="confluenceTd">Setup, Teardown options</td><td class="confluenceTd"><p>Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to <a href="#Definemethod-SetUp()andTearDown()inManualview">SetUp() and TearDown() in Manual view</a> for more details.</p></td></tr><tr><td colspan="1" class="confluenceTd">Parameter list</td><td colspan="1" class="confluenceTd"><p>Any parameter needed to pass into the method.</p><p>By clicking on the <strong>Insert</strong> button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.</p></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Name | The name of the method. |
+    | Return type | 
+    The object type that this method will return after its execution.
+    
+    
+    
+     |
+    | Setup, Teardown options | 
+    
+    Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to [SetUp() and TearDown() in Manual view](#Definemethod-SetUp()andTearDown()inManualview) for more details.
+    
+     |
+    | Parameter list | 
+    
+    Any parameter needed to pass into the method.
+    
+    By clicking on the **Insert** button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.
+    
+     |
     
     Click **OK** after configuring the method details.
     
@@ -38,7 +58,71 @@ With the prerequisite configuration, certain actions must be taken before start
 
 This can be achieved using the setup() and teardown() methods. 
 
-<table class="wrapped relative-table confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 13.4293%;"><col style="width: 55.6355%;"><col style="width: 30.9353%;"></colgroup><tbody><tr><th class="confluenceTh">Method</th><th class="confluenceTh">Description</th><th colspan="1" class="confluenceTh">Common Usage</th></tr><tr><td class="confluenceTd"><p>Set Up</p></td><td class="confluenceTd"><p>This method is always called <strong>first</strong> prior to executing main test steps.<br><br></p></td><td colspan="1" class="confluenceTd"><p>Prepare testing environment such as:</p><ul><li>Starting new browser with clean cookies</li><li>Creating temporary &amp; proxy databases, directories</li><li>Starting a server process</li><li>...</li></ul></td></tr><tr><td class="confluenceTd"><p>Tear Down If Failed</p></td><td class="confluenceTd"><p>This method will be called after executing all steps of the test case <strong>and</strong><span> one of those steps has <strong>Failed</strong> status.</span></p></td><td rowspan="4" style="text-align: left;" class="confluenceTd"><p>Clean-up testing environment such as:</p><ul><li>Closing browsers</li><li>Disclosing opened connections to database or server</li><li>...</li></ul><p>&nbsp;</p></td></tr><tr><td class="confluenceTd"><p>Tear Down If Passed</p></td><td class="confluenceTd"><p><span><span>This method will be called after executing all steps of the test case <strong>and</strong></span><span> all of those steps have <strong>Pass</strong> status.</span></span></p></td></tr><tr><td class="confluenceTd"><p>Tear Down If Error</p></td><td class="confluenceTd"><p><span>This method will be called after executing all steps of the test case </span><strong>and</strong><span> one of those steps has <strong>Error</strong> status.</span></p></td></tr><tr><td class="confluenceTd"><p>Tear Down</p></td><td class="confluenceTd"><p>This method will be called <strong>finally</strong>.</p></td></tr></tbody></table>
+| Method | Description | Common Usage |
+| --- | --- | --- |
+| 
+Set Up
+
+ | 
+
+This method is always called **first** prior to executing main test steps.  
+  
+
+
+ | 
+
+Prepare testing environment such as:
+
+*   Starting new browser with clean cookies
+*   Creating temporary & proxy databases, directories
+*   Starting a server process
+*   ...
+
+ |
+| 
+
+Tear Down If Failed
+
+ | 
+
+This method will be called after executing all steps of the test case **and** one of those steps has **Failed** status.
+
+ | 
+
+Clean-up testing environment such as:
+
+*   Closing browsers
+*   Disclosing opened connections to database or server
+*   ...
+
+ |
+| 
+
+Tear Down If Passed
+
+ | 
+
+This method will be called after executing all steps of the test case **and** all of those steps have **Pass** status.
+
+ |
+| 
+
+Tear Down If Error
+
+ | 
+
+This method will be called after executing all steps of the test case **and** one of those steps has **Error** status.
+
+ |
+| 
+
+Tear Down
+
+ | 
+
+This method will be called **finally**.
+
+ |
 
 The SetUp()/TearDown() methods will have **Error** status if there is any issue occurred during their execution. The only exception to this is when _AssertionError_ Class is used or the methods are skipped.
 

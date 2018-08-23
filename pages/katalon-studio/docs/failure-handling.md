@@ -8,7 +8,48 @@ Failure handling settings allow users to decide whether Katalon Studio will cont
 
 Currently, Katalon Studio supports the following failure handling options:
 
-<table class="wrapped relative-table confluenceTable" style="width: 72.9233%;"><colgroup><col style="width: 27.7412%;"><col style="width: 72.2588%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><p><strong>Option</strong></p></th><th class="xtd-0-1 confluenceTh"><p><strong>Description</strong></p></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><p>Stop on Failure</p></td><td class="xtd-1-1 confluenceTd"><p>Katalon Studio will stop execution should there be any error occurs.</p><p>The step with errors will have <strong>Failed</strong> status.</p></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><p>Continue on Failure</p></td><td class="xtd-2-1 confluenceTd"><p>Katalon Studio will continue in spite of any error during its execution.</p><p><span>The step with errors will have <strong>Failed</strong> status</span>.</p></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><p>Optional</p></td><td class="xtd-3-1 confluenceTd"><p><span><span>Katalon Studio will continue in spite of any error during its execution.</span></span></p><p><span><span>&nbsp;</span><span>The step with errors will have </span></span><strong>Warning</strong> status.</p></td></tr></tbody></table>
+| 
+**Option**
+
+ | 
+
+**Description**
+
+ |
+| --- | --- |
+| 
+
+Stop on Failure
+
+ | 
+
+Katalon Studio will stop execution should there be any error occurs.
+
+The step with errors will have **Failed** status.
+
+ |
+| 
+
+Continue on Failure
+
+ | 
+
+Katalon Studio will continue in spite of any error during its execution.
+
+The step with errors will have **Failed** status.
+
+ |
+| 
+
+Optional
+
+ | 
+
+Katalon Studio will continue in spite of any error during its execution.
+
+The step with errors will have **Warning** status.
+
+ |
 
 Default failure handling behavior
 ---------------------------------

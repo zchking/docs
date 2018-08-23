@@ -21,7 +21,11 @@ Before capturing test objects on the mobile application, make sure that you have
     
     Where:
     
-    <table class="relative-table wrapped confluenceTable" style="width: 51.2676%;"><colgroup><col style="width: 23.2123%;"><col style="width: 76.7877%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Device Name</td><td class="xtd-1-1 confluenceTd">The smartphone to capture objects from. All of your connected devices should be displayed in this list.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Application Type</td><td class="xtd-2-1 confluenceTd">Currently, Katalon Studio only support native mobile applications.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Application File</td><td class="xtd-3-1 confluenceTd">The absolute path to your mobile application file (<strong>.apk</strong> file for Android or <strong>.ipa</strong> file for iOS).</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Device Name | The smartphone to capture objects from. All of your connected devices should be displayed in this list. |
+    | Application Type | Currently, Katalon Studio only support native mobile applications. |
+    | Application File | The absolute path to your mobile application file (**.apk** file for Android or **.ipa** file for iOS). |
     
     Click **Start** when you're done with the settings.
     

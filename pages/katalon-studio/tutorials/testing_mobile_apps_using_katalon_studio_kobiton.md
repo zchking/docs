@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
 description: "In this tutorial, we will show you how to speed up your mobile apps testing project using Katalon Studio and Kobiton’s mobile devices on cloud."
 ---
-[](#)
-
 ![Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/QS_high-08-1024x509.png)
 
 Scripting your first mobile automation test case can be quite confusing without a specialized tool or instruction. In this tutorial, we will show you how to speed up your automation project using Katalon Studio’s mobile recording utility and run your recorded test cases on hundreds of Kobiton’s mobile devices on the cloud. For this tutorial, we assume that you have already installed [Katalon Studio](https://www.katalon.com/), got familiar with its basic functions and registered a [Kobiton account](https://kobiton.com/).
@@ -120,5 +118,3 @@ Hieu Mai
 Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years’ experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
 
 Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)
-
-[](#modal-id-popup)

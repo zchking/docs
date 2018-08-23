@@ -32,7 +32,15 @@ Improvements
 
 ### New mobile keywords
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr><th class="confluenceTh">No.</th><th class="confluenceTh">Keyword's name</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">1</td><td class="confluenceTd">Tap And Hold</td><td class="confluenceTd">Tap and hold on a mobile element for a duration</td></tr><tr><td class="confluenceTd">2</td><td class="confluenceTd">Check Element</td><td class="confluenceTd">Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)</td></tr><tr><td class="confluenceTd">3</td><td class="confluenceTd">Uncheck Element</td><td class="confluenceTd">Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)</td></tr><tr><td colspan="1" class="confluenceTd">4</td><td colspan="1" class="confluenceTd">Hide Keyboard</td><td colspan="1" class="confluenceTd">Hide a keyboard if it is showing</td></tr><tr><td colspan="1" class="confluenceTd">5</td><td colspan="1" class="confluenceTd">Verify Element Checked</td><td colspan="1" class="confluenceTd">Verify if a mobile element is checked</td></tr><tr><td colspan="1" class="confluenceTd">6</td><td colspan="1" class="confluenceTd">Verify Element Not Checked</td><td colspan="1" class="confluenceTd">Verify of a mobile element is not checked</td></tr><tr><td colspan="1" class="confluenceTd">7</td><td colspan="1" class="confluenceTd">Drag and Drop</td><td colspan="1" class="confluenceTd">Drag and drop an element into another element</td></tr></tbody></table>
+| No. | Keyword's name | Description |
+| --- | --- | --- |
+| 1 | Tap And Hold | Tap and hold on a mobile element for a duration |
+| 2 | Check Element | Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
+| 3 | Uncheck Element | Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
+| 4 | Hide Keyboard | Hide a keyboard if it is showing |
+| 5 | Verify Element Checked | Verify if a mobile element is checked |
+| 6 | Verify Element Not Checked | Verify of a mobile element is not checked |
+| 7 | Drag and Drop | Drag and drop an element into another element |
 
 ### Record/Playback
 

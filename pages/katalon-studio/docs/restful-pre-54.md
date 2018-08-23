@@ -20,6 +20,53 @@ Create REST Object
     ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 11_41_59.png)  
     where:
     
-    <table class="relative-table wrapped confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 10.4046%;"><col style="width: 89.5954%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Request Method</td><td class="xtd-1-1 confluenceTd"><span style="color: rgb(37,37,37);">The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE.</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Request URL</td><td class="xtd-2-1 confluenceTd">The URL registered for the RESTful web service.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Parameters</td><td class="xtd-3-1 confluenceTd">Any parameter that you want to pass along with this RESTful request object.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd"><div class="content-wrapper"><p>Authorization</p></div></td><td class="xtd-4-1 confluenceTd"><div class="content-wrapper"><p><span>Credentials for HTTP authentication.<br></span></p><p><span>Type: <strong>Basic, OAuth 1.0, </strong>or <strong></strong><strong>No Authorization</strong><br></span></p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_31_8.png" data-image-src="/download/attachments/5116880/image2017-2-13%2013%3A31%3A8.png?version=1&amp;modificationDate=1503888019000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116888" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-13 13:31:8.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5116880" data-linked-resource-container-version="1"></span>&nbsp;&nbsp;&nbsp; <span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/restful-pre-54/image2017-8-28 9_49_5.png" data-image-src="/download/attachments/5116880/image2017-8-28%209%3A49%3A5.png?version=1&amp;modificationDate=1503888546000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116917" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-8-28 9:49:5.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5116880" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd">HTTP Headers</td><td class="xtd-5-1 confluenceTd"><div class="content-wrapper"><p>The header information that you want to transmit in this RESTful request object.</p><p>You can select headers from the list of suggested options (by double clicking on the <strong>Name</strong> cell) or enter another header of your interest. Refer to&nbsp;<a href="#RESTful(Pre-5.4)-SupportedHTTPHeaders">Supported HTTP Headers</a>&nbsp;for more details.</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_33_57.png" data-image-src="/download/attachments/5116880/image2017-2-13%2013%3A33%3A57.png?version=1&amp;modificationDate=1503888019000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116889" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-13 13:33:57.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5116880" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class="xtr-6"><td class="xtd-6-0 confluenceTd" colspan="1">HTTP Body</td><td class="xtd-6-1 confluenceTd" colspan="1"><div class="content-wrapper"><p>The information that you want to transmit in this RESTful request object. You can enter directly or import content from external text files. <span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_38_29.png" data-image-src="/download/attachments/5116880/image2017-2-13%2013%3A38%3A29.png?version=1&amp;modificationDate=1503888019000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116890" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-13 13:38:29.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5116880" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class="xtr-7"><td class="xtd-7-0 confluenceTd" colspan="1">Response</td><td class="xtd-7-1 confluenceTd" colspan="1"><div class="content-wrapper"><p>The retrieved message from web service server when you click <strong>Test Request</strong>.</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_58_30.png" data-image-src="/download/attachments/5116880/image2017-2-13%2013%3A58%3A30.png?version=1&amp;modificationDate=1503888019000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116891" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-13 13:58:30.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5116880" data-linked-resource-container-version="1"></span></p></div></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Request Method | The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE. |
+    | Request URL | The URL registered for the RESTful web service. |
+    | Parameters | Any parameter that you want to pass along with this RESTful request object. |
+    | 
+    Authorization
+    
+    
+    
+     | 
+    
+    Credentials for HTTP authentication.  
+    
+    Type: **Basic, OAuth 1.0,** or **No Authorization**  
+    
+    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_31_8.png)    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-8-28 9_49_5.png)
+    
+    
+    
+     |
+    | HTTP Headers | 
+    
+    The header information that you want to transmit in this RESTful request object.
+    
+    You can select headers from the list of suggested options (by double clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](#RESTful(Pre-5.4)-SupportedHTTPHeaders) for more details.
+    
+    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_33_57.png)
+    
+    
+    
+     |
+    | HTTP Body | 
+    
+    The information that you want to transmit in this RESTful request object. You can enter directly or import content from external text files. ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_38_29.png)
+    
+    
+    
+     |
+    | Response | 
+    
+    The retrieved message from web service server when you click **Test Request**.
+    
+    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_58_30.png)
+    
+    
+    
+     |
     
 4.  Save the service request object when you're done. The service request defined here can be utilized in other test cases. Refer to [Use WebService in Test Case](#RESTful(Pre-5.4)-UseWebServiceinTestCase) for more details.

@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_alerts.html
 description: "The alerts that are used to notify users on a Web page can be handled using Katalon Studio. This tutorial shows how to do so with HTML examples."
 ---
-[](#)
-
 What is an alert?
 -----------------
 
@@ -180,5 +178,3 @@ WebUI.verifyEqual(AlertText, 'Please enter your name')
 The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, refer to [WebUI Alert](https://docs.katalon.com/display/KD/%5BWebUI%5D+Alert)  and [Solving pop-up dialog issue with Katalon Studio](https://www.katalon.com/resources-center/tutorials/pop-up-dialog-issue/).
-
-[](#modal-id-popup)

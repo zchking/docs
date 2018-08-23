@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_manual_mode.html
 description: "This tutorial will give users with less experience in programming step-by-step instruction to create an automation test case in manual mode."
 ---
-[](#)
-
 Katalon Studio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less experience in programming to easily generate automation test. The below tutorial will give you step-by-step instruction in order to create an automation test case in manual mode.
 
 Given a sample test case with the following steps:
@@ -71,5 +69,3 @@ For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the
 Katalon Studio should be able to execute all of the steps specified in the test case. Test execution results are shown in Log Viewer as below:
 
 ![Log view dialog Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_manual_mode/12.-Katalon-Log-viewer-300x113.png)
-
-[](#modal-id-popup)

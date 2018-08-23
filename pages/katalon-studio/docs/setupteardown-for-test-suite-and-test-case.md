@@ -14,7 +14,53 @@ There will a **new tab** called '**Script**' in **Test Suite**'s interface. This
 
 ![](../../images/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/image2018-1-8 16_25_42.png)**Supported methods**
 
-<table class="relative-table wrapped confluenceTable" style="width: 99.4152%;"><colgroup><col style="width: 16.49%;"><col style="width: 17.0789%;"><col style="width: 28.5041%;"><col style="width: 37.927%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Method</th><th class="xtd-0-1 confluenceTh">Description</th><th class="xtd-0-2 confluenceTh" colspan="1">Trigger Condition</th><th class="xtd-0-3 confluenceTh" colspan="1">Common Usages</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><p>setUp</p></td><td class="xtd-1-1 confluenceTd"><p>Setup test suite environment<br><br></p></td><td class="xtd-1-2 confluenceTd" colspan="1">Before executed test suites</td><td class="xtd-1-3 xtd-2-3 confluenceTd" rowspan="2"><p>Prepare testing environment</p><p>Call required test cases for the executed test suite</p></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd" colspan="1">setUpTestCase</td><td class="xtd-2-1 confluenceTd" colspan="1">Run before each test case starts</td><td class="xtd-2-2 confluenceTd">Before executed test cases</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><p>tearDown</p></td><td class="xtd-3-1 confluenceTd"><p class="p1">Clean test suites environment</p></td><td class="xtd-3-2 confluenceTd" colspan="1">After executed test suites</td><td class="xtd-3-3 xtd-4-3 confluenceTd" rowspan="2"><p>Clean-up testing environment</p><p>Call TearDown test cases for the executed test suite</p><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd"><p class="p1">tearDownTestCase</p></td><td class="xtd-4-1 confluenceTd"><p class="p1">Run after each test case ends</p></td><td class="xtd-4-2 confluenceTd"><p class="p1">After executed test cases</p></td></tr></tbody></table>
+| Method | Description | Trigger Condition | Common Usages |
+| --- | --- | --- | --- |
+| 
+setUp
+
+ | 
+
+Setup test suite environment  
+  
+
+
+ | Before executed test suites | 
+
+Prepare testing environment
+
+Call required test cases for the executed test suite
+
+ |
+| setUpTestCase | Run before each test case starts | Before executed test cases |
+| 
+
+tearDown
+
+ | 
+
+Clean test suites environment
+
+ | After executed test suites | 
+
+Clean-up testing environment
+
+Call TearDown test cases for the executed test suite
+
+ |
+| 
+
+tearDownTestCase
+
+ | 
+
+Run after each test case ends
+
+ | 
+
+After executed test cases
+
+ |
 
 #### How it works
 

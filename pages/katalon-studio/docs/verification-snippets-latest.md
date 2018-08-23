@@ -14,7 +14,19 @@ Verification snippets can be accessed by clicking on the '**Verification**' tab 
 
 On the right panel of 'Verification' tab is the list of common pre-built snippets which can assist you in most of the verification cases. 
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Snippet</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Get current response</td><td class="xtd-1-1 confluenceTd">Return response object after sending a request successfully.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Get a global variable</td><td class="xtd-2-1 confluenceTd">Return a Global Variable's value.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Response body: Contains string</td><td class="xtd-3-1 confluenceTd">Verify if response's body contains a specific string.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd" colspan="1">Response body: Convert to JSON Object</td><td class="xtd-4-1 confluenceTd" colspan="1">Convert response's body to JSON.</td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd" colspan="1">Response headers: Content-Type header</td><td class="xtd-5-1 confluenceTd" colspan="1">Verify Content-Type header's value.</td></tr><tr class="xtr-6"><td class="xtd-6-0 confluenceTd" colspan="1">Status code: Code is 200</td><td class="xtd-6-1 confluenceTd" colspan="1">Verify if response's status code is 200 or no.</td></tr><tr class="xtr-7"><td class="xtd-7-0 confluenceTd" colspan="1">Status code: Successfully request</td><td class="xtd-7-1 confluenceTd" colspan="1">Verify if the request is sent successfully</td></tr><tr class="xtr-8"><td class="xtd-8-0 confluenceTd" colspan="1">Response body: number of elements</td><td class="xtd-8-1 confluenceTd" colspan="1">Verify number of elements from response</td></tr><tr class="xtr-9"><td class="xtd-9-0 confluenceTd" colspan="1">Response body: element not empty</td><td class="xtd-9-1 confluenceTd" colspan="1">Verify specified element is not empty</td></tr><tr class="xtr-10"><td class="xtd-10-0 confluenceTd" colspan="1">Response: Array contains</td><td class="xtd-10-1 confluenceTd" colspan="1">Verify specified arrays contain values</td></tr><tr class="xtr-11"><td class="xtd-11-0 confluenceTd" colspan="1">Response: Get single info of array list</td><td class="xtd-11-1 confluenceTd" colspan="1"><span>Get single info of array list</span></td></tr></tbody></table>
+| Snippet | Description |
+| --- | --- |
+| Get current response | Return response object after sending a request successfully. |
+| Get a global variable | Return a Global Variable's value. |
+| Response body: Contains string | Verify if response's body contains a specific string. |
+| Response body: Convert to JSON Object | Convert response's body to JSON. |
+| Response headers: Content-Type header | Verify Content-Type header's value. |
+| Status code: Code is 200 | Verify if response's status code is 200 or no. |
+| Status code: Successfully request | Verify if the request is sent successfully |
+| Response body: number of elements | Verify number of elements from response |
+| Response body: element not empty | Verify specified element is not empty |
+| Response: Array contains | Verify specified arrays contain values |
+| Response: Get single info of array list | Get single info of array list |
 
 When you click on one of these labels, it will generate a snippet for you.
 

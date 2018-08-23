@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handling_iframe_issue.html
 description: "A very common type of control used in website is the HTML iframe. This article shows you how to handle iframe issue properly in Katalon Studio."
 ---
-[](#)
-
 A very common type of control used in website is the HTML iframe. And this control needs to be handled in a specific manner when testing. This article shows you how to handle iframes properly in Katalon Studio.
 
 What is iframe?
@@ -244,5 +242,3 @@ _Note:_ Please download the source code [here](https://github.com/katalon-studi
 Noted that **NoSuchFrameException** or **InvalidSwitchToTargetException** exceptions are thrown when the target frame to be switched to doesn’t exist.
 
 If you need further support, join us on [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

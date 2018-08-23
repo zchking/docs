@@ -50,4 +50,24 @@ description:
 
 **Troubleshooting**
 
-<table class="wrapped relative-table confluenceTable" style="width: 93.0031%;"><colgroup><col><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Description</th><th class="xtd-0-1 confluenceTh">Causes (one of the following)</th><th class="xtd-0-2 confluenceTh" colspan="1">Solutions</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Invalid Project Description</td><td class="xtd-1-1 confluenceTd"><div class="content-wrapper"><p>.project file contains invalid information.<br><br>Katalon command was executed lines in the SAME folder of project folder <span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" width="600" src="../../images/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen Shot 2018-02-02 at 11.07.44.png" data-image-src="/download/attachments/13698175/Screen%20Shot%202018-02-02%20at%2011.07.44.png?version=1&amp;modificationDate=1527772849000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698172" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2018-02-02 at 11.07.44.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13698175" data-linked-resource-container-version="1"></span></p></div></td><td class="xtd-1-2 confluenceTd" colspan="1"><div class="content-wrapper"><p>-&nbsp;Delete .project file to let Katalon Studio generate back the valid information<br><br>-&nbsp;Execute commands outside of executed project folder<br><br><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" width="600" src="../../images/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen Shot 2018-02-02 at 11.08.52.png" data-image-src="/download/attachments/13698175/Screen%20Shot%202018-02-02%20at%2011.08.52.png?version=1&amp;modificationDate=1527772849000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698171" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2018-02-02 at 11.08.52.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13698175" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd" colspan="1">'NoClassDefFoundError' error</td><td class="xtd-2-1 confluenceTd" colspan="1">Oracle JDK is used</td><td class="xtd-2-2 confluenceTd" colspan="1">-&nbsp;Uninstall current Oracle JDK - Install Open JDK8 after that: <a class="external-link" href="http://openjdk.java.net/install/" rel="nofollow">http://openjdk.java.net/install/</a>.</td></tr></tbody></table>
+| Description | Causes (one of the following) | Solutions |
+| --- | --- | --- |
+| Invalid Project Description | 
+.project file contains invalid information.  
+  
+Katalon command was executed lines in the SAME folder of project folder ![](../../images/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen Shot 2018-02-02 at 11.07.44.png)
+
+
+
+ | 
+
+- Delete .project file to let Katalon Studio generate back the valid information  
+  
+- Execute commands outside of executed project folder  
+  
+![](../../images/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen Shot 2018-02-02 at 11.08.52.png)
+
+
+
+ |
+| 'NoClassDefFoundError' error | Oracle JDK is used | - Uninstall current Oracle JDK - Install Open JDK8 after that: [http://openjdk.java.net/install/](http://openjdk.java.net/install/). |

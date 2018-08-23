@@ -10,7 +10,62 @@ Once your test cases/test suites finish execution, you can review the results on
 
 Using the filter options, you can specify what type of logs to be displayed:
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Filter</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th></tr><tr><td class="confluenceTd"><p>All</p></td><td class="confluenceTd"><p>Show all the log messages.</p></td></tr><tr><td class="confluenceTd"><p>Info</p></td><td class="confluenceTd"><p>Show only the log messages for information/reference.</p></td></tr><tr><td class="confluenceTd"><p>Passed</p></td><td class="confluenceTd"><p>Show only the log messages indicating that a step is successfully executed.</p></td></tr><tr><td class="confluenceTd"><p>Failed</p></td><td class="confluenceTd"><p>Show only the log messages indicating that a test step is failed to execute.</p></td></tr><tr><td class="confluenceTd"><p>Error</p></td><td class="confluenceTd"><p>Show only the log messages indicating that some error has occurred at a given step.</p></td></tr><tr><td colspan="1" class="confluenceTd">Warning</td><td colspan="1" class="confluenceTd">Show only the log messages indicating that a test step is failed but accepted as warning.</td></tr><tr><td colspan="1" class="confluenceTd">Not Run</td><td colspan="1" class="confluenceTd">Show only the log messages indicating that a test step is skipped.</td></tr></tbody></table>
+| 
+**Filter**
+
+ | 
+
+**Description**
+
+ |
+| --- | --- |
+| 
+
+All
+
+ | 
+
+Show all the log messages.
+
+ |
+| 
+
+Info
+
+ | 
+
+Show only the log messages for information/reference.
+
+ |
+| 
+
+Passed
+
+ | 
+
+Show only the log messages indicating that a step is successfully executed.
+
+ |
+| 
+
+Failed
+
+ | 
+
+Show only the log messages indicating that a test step is failed to execute.
+
+ |
+| 
+
+Error
+
+ | 
+
+Show only the log messages indicating that some error has occurred at a given step.
+
+ |
+| Warning | Show only the log messages indicating that a test step is failed but accepted as warning. |
+| Not Run | Show only the log messages indicating that a test step is skipped. |
 
 Standard view vs. Tree View
 ---------------------------

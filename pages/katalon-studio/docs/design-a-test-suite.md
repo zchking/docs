@@ -13,7 +13,76 @@ You can manage additional configurations for test suite execution by expanding t
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_49_29.png)
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><div class="content-wrapper"><p>Page load timeout:</p><p>&nbsp;<span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" height="91" width="300" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_56_48.png" data-image-src="/download/attachments/13699992/image2017-2-15%2014%3A56%3A48.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699981" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 14:56:48.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p></div></td><td class="xtd-1-1 confluenceTd"><div class="content-wrapper"><p>The timeout period allowed to wait for a page to be loaded. You can choose among the following options:</p><ul><li><strong>Use default</strong>: the default value defined will be used. Refer to <a href="/pages/viewpage.action?pageId=3179873">Execution Preferences (Version 5.0 and below)</a> for more details.</li><li><strong>User-defined value</strong>: the entered timeout value (in seconds) will be used.</li></ul><p>&nbsp;</p></div></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><div class="content-wrapper"><p>Retry:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_9_6.png" data-image-src="/download/attachments/13699992/image2017-2-15%2015%3A9%3A6.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699980" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 15:9:6.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p></div></td><td class="xtd-2-1 confluenceTd"><div class="content-wrapper"><p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases.</p><p>&nbsp;</p></div></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><div class="content-wrapper"><p>Mail Recipients</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_12_46.png" data-image-src="/download/attachments/13699992/image2017-2-15%2015%3A12%3A46.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699979" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 15:12:46.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p></div></td><td class="xtd-3-1 confluenceTd"><div class="content-wrapper"><p>The list of recipients who would receive the execution report once the test suite finishes its execution.</p><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p>There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to <a href="/display/KD/Emails+Settings">Emails Settings</a> for more details.</p></div></div></div></td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd"><div class="content-wrapper"><p>Last run:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_14_55.png" data-image-src="/download/attachments/13699992/image2017-2-15%2015%3A14%3A55.png?version=1&amp;modificationDate=1531370623000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699978" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 15:14:55.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p></div></td><td class="xtd-4-1 confluenceTd"><div class="content-wrapper"><p>The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the <strong>Last run</strong> hyperlink.</p><p>&nbsp;</p></div></td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| 
+Page load timeout:
+
+ ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_56_48.png)
+
+
+
+ | 
+
+The timeout period allowed to wait for a page to be loaded. You can choose among the following options:
+
+*   **Use default**: the default value defined will be used. Refer to [Execution Preferences (Version 5.0 and below)](/pages/viewpage.action?pageId=3179873) for more details.
+*   **User-defined value**: the entered timeout value (in seconds) will be used.
+
+
+
+ |
+| 
+
+Retry:
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_9_6.png)
+
+
+
+ | 
+
+The **maximum** number of retries for execution until it is successfully passed. You can opt to retry only **failed** test cases.
+
+
+
+ |
+| 
+
+Mail Recipients
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_12_46.png)
+
+
+
+ | 
+
+The list of recipients who would receive the execution report once the test suite finishes its execution.
+
+There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to [Emails Settings](/display/KD/Emails+Settings) for more details.
+
+
+
+
+
+
+
+ |
+| 
+
+Last run:
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_14_55.png)
+
+
+
+ | 
+
+The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the **Last run** hyperlink.
+
+
+
+ |
 
 Manage Test Case List
 ---------------------
@@ -54,7 +123,19 @@ Using the test suite editor, you can add a predefined test data file object whic
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_5_49.png)  
     where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Option</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Run all rows</td><td class="xtd-1-1 confluenceTd"><span>All the data rows in the data file will be used during test execution.</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Run from row ... to row ...</td><td class="xtd-2-1 confluenceTd"><span>The data range from a certain row to a certain row in the data file will be used during test execution.</span></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Run with specific rows</td><td class="xtd-3-1 confluenceTd"><p>The data rows which are specified here will be used during test execution. You can use <strong>comma</strong> and <strong>hyphen</strong> characters to define the rows.</p><p><span>For example:</span></p><ul><li>to use three data rows (row 1, row 2, row 3), enter: <span style="color: rgb(0,0,255);">1,2,3</span></li><li>to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: <span style="color: rgb(0,0,255);">1-5,9</span></li></ul></td></tr></tbody></table>
+    | Option | Description |
+    | --- | --- |
+    | Run all rows | All the data rows in the data file will be used during test execution. |
+    | Run from row ... to row ... | The data range from a certain row to a certain row in the data file will be used during test execution. |
+    | Run with specific rows | 
+    The data rows which are specified here will be used during test execution. You can use **comma** and **hyphen** characters to define the rows.
+    
+    For example:
+    
+    *   to use three data rows (row 1, row 2, row 3), enter: 1,2,3
+    *   to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: 1-5,9
+    
+     |
     
 6.  Click on the **Type** cell to toggle its value. Refer to [Manage Test Data Relationship](#DesignaTestSuite-Managetestdatarelationship) for more details.  
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_53_51.png)  
@@ -65,11 +146,85 @@ Using the test suite editor, you can add a predefined test data file object whic
 
 If you are specifying multiple test data, then you can further define the relationship among them to decide how the final data set used in the test execution will be. There are two types of relationship supported in Katalon Studio:
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Relationship Type</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">One</td><td class="xtd-1-1 confluenceTd"><p>The data set will be indicated as 'One' in the relationship with other data set.</p></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Many</td><td class="xtd-2-1 confluenceTd">The data set will be indicated as 'Many' in the relationship with other data set.</td></tr></tbody></table>
+| Relationship Type | Description |
+| --- | --- |
+| One | 
+The data set will be indicated as 'One' in the relationship with other data set.
+
+ |
+| Many | The data set will be indicated as 'Many' in the relationship with other data set. |
 
 Therefore, we can have the following combinations among data sets:
 
-<table class="wrapped relative-table confluenceTable" style="width: 74.8276%;"><colgroup><col style="width: 22.3421%;"><col style="width: 77.6579%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Relationship</th><th class="xtd-0-1 confluenceTh">Example</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">One to One</td><td class="xtd-1-1 confluenceTd"><div class="content-wrapper"><p>Given there are two data sets as below:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_47_9.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A47%3A9.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699958" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:47:9.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1</li><li>a2 b2</li></ul></div></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Many to Many</td><td class="xtd-2-1 confluenceTd"><div class="content-wrapper"><p>Given there are two data sets as below:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_49_3.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A49%3A3.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699957" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:49:3.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1</li><li>a1 b2</li><li>a2 b1</li><li>a2 b2</li><li>a3 b1</li><li>a3 b2</li></ul></div></td></tr><tr class="xtr-3"><td class="xtd-3-0 xtd-4-0 confluenceTd" rowspan="2">One to Many</td><td class="xtd-3-1 confluenceTd"><div class="content-wrapper"><p>Given there are two data sets as below:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_50_53.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A50%3A53.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699956" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:50:53.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1</li><li>a2 b1</li><li>a3 b1</li><li>a4 b1</li><li>a1 b2</li><li>a2 b2</li><li>a3 b2</li><li>a4 b2</li></ul></div></td></tr><tr class="xtr-4"><td class="xtd-4-1 confluenceTd"><div class="content-wrapper"><p>Given there are three data sets as below:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_52_41.png" data-image-src="/download/attachments/13699992/image2017-2-15%2016%3A52%3A41.png?version=1&amp;modificationDate=1531370622000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699955" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-15 16:52:41.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699992" data-linked-resource-container-version="4"></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1 c1</li><li>a1 b1 c2</li><li>a2 b2 c1</li><li>a2 b2 c2</li></ul></div></td></tr></tbody></table>
+| Relationship | Example |
+| --- | --- |
+| One to One | 
+Given there are two data sets as below:
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_47_9.png)
+
+Then the final data set used for test execution will be:
+
+*   a1 b1
+*   a2 b2
+
+
+
+ |
+| Many to Many | 
+
+Given there are two data sets as below:
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_49_3.png)
+
+Then the final data set used for test execution will be:
+
+*   a1 b1
+*   a1 b2
+*   a2 b1
+*   a2 b2
+*   a3 b1
+*   a3 b2
+
+
+
+ |
+| One to Many | 
+
+Given there are two data sets as below:
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_50_53.png)
+
+Then the final data set used for test execution will be:
+
+*   a1 b1
+*   a2 b1
+*   a3 b1
+*   a4 b1
+*   a1 b2
+*   a2 b2
+*   a3 b2
+*   a4 b2
+
+
+
+ |
+| 
+
+Given there are three data sets as below:
+
+![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_52_41.png)
+
+Then the final data set used for test execution will be:
+
+*   a1 b1 c1
+*   a1 b1 c2
+*   a2 b2 c1
+*   a2 b2 c2
+
+
+
+ |
 
 ### Variable Binding
 

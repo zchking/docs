@@ -18,7 +18,12 @@ Follow these basic steps to get familiar with the Record & Playback features for
     ![](../../images/katalon-studio/docs/record-mobile-utility/image2017-8-21 14_0_0.png)  
     Where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><span style="color: rgb(0,0,0);">Field</span></th><th class="xtd-0-1 confluenceTh"><span style="color: rgb(0,0,0);">Description</span></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><span style="color: rgb(0,0,0);">Device Name</span></td><td class="xtd-1-1 confluenceTd"><span style="color: rgb(0,0,0);">The smartphone to capture objects from. All of your connected devices should be displayed in this list.</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><span style="color: rgb(0,0,0);">Application Type</span></td><td class="xtd-2-1 confluenceTd"><span style="color: rgb(0,0,0);">Katalon Studio supports native (local) mobile devices and cloud-based Kobiton devices.<br></span></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><span style="color: rgb(0,0,0);">Application File</span></td><td class="xtd-3-1 confluenceTd"><span style="color: rgb(0,0,0);">The absolute path to your mobile application file (<strong>.apk</strong>&nbsp;file for Android or&nbsp;<strong>.ipa</strong>&nbsp;file for iOS).</span></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Device Name | The smartphone to capture objects from. All of your connected devices should be displayed in this list. |
+    | Application Type | Katalon Studio supports native (local) mobile devices and cloud-based Kobiton devices.  
+     |
+    | Application File | The absolute path to your mobile application file (**.apk** file for Android or **.ipa** file for iOS). |
     
     Click **Start** when you're done with the settings.
     

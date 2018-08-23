@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics.html
 description: "This tutorial will show you how to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas."
 ---
-[](#)
-
 1.  [Status Report](#StatusReport)
 2.  [Duration Report](#DurationReport)
 3.  [Execution Report](#ExecutionReport)
@@ -128,5 +126,3 @@ To investigate further, click **View all executions of this Test Case**. The **H
 ![View all executions of this Test Case](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/251.png)
 
 Congratulation! Now you know how to navigate around the Katalon Analytics dashboard, investigate test executions, and detect potential problems and their causes. Katalon Analytics visualizes test execution reports in such a way that product owners and project teams can quickly evaluate execution tests, make informed decisions to improve the quality of the application under test.
-
-[](#modal-id-popup)

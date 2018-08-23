@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility.html
 description: "Katalon Studio Spy Web Utility provides an intelligent object capturing capability and immediate feedback on CSS Selector & Xpath selector. Learn more!"
 ---
-[](#)
-
 Katalon Studio [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668) provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. There are two widely used selectors: **CSS** and **XPath**.
 
 Locators are object attributes which are used to build up XPath or CSS selector. Locators help find and identify elements on the Web page under test. Katalon Studio builds the final XPath selector (Basic mode) by using any active object locators from users to locate Web Elements.
@@ -215,5 +213,3 @@ Xpath:
 The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

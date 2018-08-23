@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
 description: "Using Katalon Studio, mobile automation tester can design automation test for both Android and iOS to run on physical devices, cloud services and emulators."
 ---
-[](#)
-
 Using Katalon Studio, a tester can design mobile app automation tests for both Android and iOS to run on physical devices, cloud services or emulators.  
   
 This tutorial explains how to set up a mobile app testing project for Katalon Studio on macOS. It assumes that you are familiar with automated testing.
@@ -43,7 +41,7 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7d7da2b5255700660048-1"><span class="crayon-e">npm </span><span class="crayon-v">install</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">g</span><span class="crayon-h"> </span><span class="crayon-v">appium</span>
+<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7e3749d41e3801571323-1"><span class="crayon-e">npm </span><span class="crayon-v">install</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">g</span><span class="crayon-h"> </span><span class="crayon-v">appium</span>
 </div></code></pre></span></td></tr></tbody></table>
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
@@ -79,7 +77,7 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7d7da2b525b351315548-1"><span class="crayon-v">xcodebuild</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">project </span><span class="crayon-v">WebDriverAgent</span><span class="crayon-sy">.</span><span class="crayon-v">xcodeproj</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">scheme </span><span class="crayon-v">WebDriverAgentRunner</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">destination</span><span class="crayon-h"> </span><span class="crayon-s">'id=&lt;udid&gt;'</span><span class="crayon-h"> </span><span class="crayon-v">test</span>
+<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7e3749d41e9474637073-1"><span class="crayon-v">xcodebuild</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">project </span><span class="crayon-v">WebDriverAgent</span><span class="crayon-sy">.</span><span class="crayon-v">xcodeproj</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">scheme </span><span class="crayon-v">WebDriverAgentRunner</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">destination</span><span class="crayon-h"> </span><span class="crayon-s">'id=&lt;udid&gt;'</span><span class="crayon-h"> </span><span class="crayon-v">test</span>
 </div></code></pre></span><p></p><p><span style="font-weight: 400;">Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
 
 *   If the following dialog is shown, select **Always Allow**
@@ -129,5 +127,3 @@ The example below shows Desired Capabilities settings for Android to enable Unic
 ![Desired-capabilities-setting](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Desired-capabilities-setting-1024x673.png)
 
 Refer to [Desired Capabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities) for which properties of each web browser are supported by Selenium. For Desired Capabilities to be used with Appium, refer to [Appium server capabilities](https://appium.io/docs/en/writing-running-appium/caps/).
-
-[](#modal-id-popup)

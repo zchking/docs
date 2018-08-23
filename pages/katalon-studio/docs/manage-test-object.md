@@ -11,8 +11,15 @@ Create a Test Object
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-1-24 11_25_41.png)  
       
     
-2.  Provide the name for the new test object, then click **OK** button. A new test object is created under **Object Repository** of Katalon Studio.  
+2.  Provide the name for the new test object, then click **OK** button. A new test object is created under **Object Repository** of Katalon Studio.
+    
+    Where to store your tests?
+    
+    Choose the location for your test where you have all Read & Write permission. **Don't** store your projects in the Katalon build folder.
+    
+      
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-1-24 11_34_54.png)
+    
 
 Add an object property
 ----------------------
@@ -28,7 +35,10 @@ There cannot be two properties with the same name existed in the same test objec
     
     where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Name</td><td class="xtd-1-1 confluenceTd">The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Match condition</td><td class="xtd-2-1 confluenceTd">The condition which will be used to search for the “<em>actual</em>” object in the application under test when executing automation tests.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Name | The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted. |
+    | Match condition | The condition which will be used to search for the “_actual_” object in the application under test when executing automation tests. |
     
     Click **OK** when you finish with configuring.
     
@@ -153,4 +163,9 @@ The **Script View** of Test Case allows you to programmatically define and han
 
 The following API docs may prove useful when working with test objects:
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Class</th><th class="xtd-0-1 confluenceTh">Method</th><th class="xtd-0-2 confluenceTh" colspan="1">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 xtd-2-0 xtd-3-0 xtd-4-0 confluenceTd" rowspan="4"><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html" rel="nofollow">Test Object</a></strong></td><td class="xtd-1-1 confluenceTd"><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)" rel="nofollow">addProperty(String name, ConditionType condition, String value)</a></td><td class="xtd-1-2 confluenceTd" colspan="1">Add a new property to the test object</td></tr><tr class="xtr-2"><td class="xtd-2-1 confluenceTd" colspan="1"><a class="in-cell-link" rel="nofollow">setProperties(List&lt;TestObjectProperty&gt; properties)</a></td><td class="xtd-2-2 confluenceTd" colspan="1">Set the properties of the test object</td></tr><tr class="xtr-3"><td class="xtd-3-1 confluenceTd" colspan="1"><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()" rel="nofollow">getObjectId()</a></td><td class="xtd-3-2 confluenceTd" colspan="1">Get object ID.</td></tr><tr class="xtr-4"><td class="xtd-4-1 confluenceTd" colspan="1"><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)" rel="nofollow">findPropertyValue(String name, boolean caseSensitive)</a></td><td class="xtd-4-2 confluenceTd" colspan="1">Find the value of a property using the property name</td></tr></tbody></table>
+| Class | Method | Description |
+| --- | --- | --- |
+| **[Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html)** | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)) | Add a new property to the test object |
+| setProperties(List<TestObjectProperty> properties) | Set the properties of the test object |
+| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get object ID. |
+| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)) | Find the value of a property using the property name |

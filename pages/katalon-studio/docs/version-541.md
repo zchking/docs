@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-541.html 
 description: 
 ---
-### **Fixes bugs**
+### Fixes bugs
 
 *   Fix an issue where Tests Explorer is not displayed when restoring last working session.
 *   Fix some issues regarding Test Suite Collection HTML report.

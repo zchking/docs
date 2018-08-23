@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/generate_command_line.html
 description: "Command line is the quickest way to launch programs and execute the tests. This tutorial will help you generate commands to use in console mode."
 ---
-[](#)
-
 If the users want to run a test case, they can utilize either the command-line runner or execute the tests directly from Katalon Studio UI.
 
 **Command line** is the quickest way to launch programs and execute the tests. It is convenient for those users who have familiarity with coding and command-line experience.
@@ -60,5 +58,3 @@ You can select the checkbox to enable email configuration to send report to your
 ![Running tests from Command Line](../../images/katalon-studio/tutorials/generate_command_line/Running-tests-from-Command-Line-10.png)
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution) guide and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

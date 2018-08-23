@@ -12,12 +12,22 @@ Verify if the web element is visible in current [viewport](https://www.w3school
 Parameters
 ----------
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><span style="color: rgb(0,0,0);">Param</span></th><th class="xtd-0-1 confluenceTh"><span style="color: rgb(0,0,0);">Param Type</span></th><th class="xtd-0-2 confluenceTh" colspan="1"><span style="color: rgb(0,0,0);">Mandatory</span></th><th class="xtd-0-3 confluenceTh" colspan="1"><span style="color: rgb(0,0,0);">Description</span></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">to</span></td><td class="xtd-1-1 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">TestObject</span></td><td class="xtd-1-2 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Required</span></td><td class="xtd-1-3 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Represent a web element.</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">timeOut&nbsp;</span></td><td class="xtd-2-1 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">int&nbsp;</span></td><td class="xtd-2-2 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Required</span></td><td class="xtd-2-3 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Maximum period of time (in seconds) that system will wait to return the result.</span></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><span style="color: rgb(0,0,0);">flowControl</span></td><td class="xtd-3-1 confluenceTd"><span style="color: rgb(0,0,0);">FailureHandling</span></td><td class="xtd-3-2 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Optional</span></td><td class="xtd-3-3 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Specify <span style="color: rgb(0,0,0);"><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a></span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element. |
+| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return the result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table class="relative-table wrapped confluenceTable" style="width: 35.3264%;"><colgroup><col style="width: 23.3281%;"><col style="width: 76.6719%;"></colgroup><tbody><tr><th class="confluenceTh"><span style="color: rgb(0,0,0);">Param Type</span></th><th class="confluenceTh"><span style="color: rgb(0,0,0);">Description</span></th></tr><tr><td class="confluenceTd"><span style="color: rgb(0,0,0);">Boolean</span></td><td class="confluenceTd"><ul><li><span style="color: rgb(0,0,0);"><strong>true:</strong>&nbsp;the element is visible in current viewport.</span></li><li><span style="color: rgb(0,0,0);"><strong>false:</strong> the element is NOT visible in current viewport.</span></li></ul></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| Boolean | 
+*   **true:** the element is visible in current viewport.
+*   **false:** the element is NOT visible in current viewport.
+
+ |
 
 Example
 -------

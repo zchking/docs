@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/running_application_mobile_browsers.html
 description: "Learn how to execute Web application testing directly on a mobile device via a sample project on Chrome and Safari browser."
 ---
-[](#)
-
 What You’ll Learn
 -----------------
 
@@ -157,5 +155,3 @@ See Also
 --------
 
 _For further instructions and help, please refer to [Overview of Documentation](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_.
-
-[](#modal-id-popup)

@@ -18,7 +18,11 @@ Auto-update feature helps to ensure Katalon users are working with the newest ve
     ![](../../images/katalon-studio/docs/auto-updater/Screen Shot 2018-04-12 at 21.46.21.png)  
       
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><strong>Option</strong></th><th class="xtd-0-1 confluenceTh"><strong>Description</strong></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><strong>Download</strong></td><td class="xtd-1-1 confluenceTd">New version will be downloaded immediately.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><strong>Remind me later</strong></td><td class="xtd-2-1 confluenceTd">New Update will be prompted again after the next app reload or launch</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><strong>Ignore This Update</strong></td><td class="xtd-3-1 confluenceTd">'<strong>New Update</strong>' dialog will not be displayed anymore if this option is selected.</td></tr></tbody></table>
+    | **Option** | **Description** |
+    | --- | --- |
+    | **Download** | New version will be downloaded immediately. |
+    | **Remind me later** | New Update will be prompted again after the next app reload or launch |
+    | **Ignore This Update** | '**New Update**' dialog will not be displayed anymore if this option is selected. |
     
 *   If **Download** option is selected, Katalon Studio will download the new version and its progress can be viewed. Users are allowed to **Cancel** download at any time. 
     

@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/execute_debug_certain_steps.html
 description: "To save users from the trouble of having to re-run all unnecessary steps, Katalon Studio provides two ways to execute/ debug at their preferred steps."
 ---
-[](#)
-
 Creating automation test cases is a repetitive task that requires a lot of editing and rerunning test cases. In many automation tools, when the test case fails and users makes certain changes to the script, they usually have to execute the whole script all over again to make sure the test is executed as expected. To save users from the trouble of having to re-run all unnecessary steps, Katalon Studio provides two ways so that users can start the test at their preferred steps:
 
 *   Execute from selected step
@@ -28,5 +26,3 @@ Katalon Studio also allows users to enable/disable one or more test steps before
 ![Enable/Disable steps](../../images/katalon-studio/tutorials/execute_debug_certain_steps/Enable_Disable-steps.png)
 
 As described above, users have two methods to specify steps to be executed. The first method allows users to quickly resume the existing execution, but it only supports Chrome sessions that are launched by Katalon Studio. On the other hand, the “enable/disable steps” method does not have this restriction but users may not be able to execute on specific context as wanted.
-
-[](#modal-id-popup)

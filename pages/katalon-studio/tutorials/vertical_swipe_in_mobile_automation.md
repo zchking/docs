@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/vertical_swipe_in_mobile_automation.html
 description: "This tutorial illustrates Vertical Swiping from Top to Bottom action in mobile automation using Katalon Studio."
 ---
-[](#)
-
 Swipe Vertically from Top to Bottom
 -----------------------------------
 
@@ -132,5 +130,3 @@ Mobile.swipe(startX, startY, endX, endY)
 ```
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Swipe](https://docs.katalon.com/display/KD/%5BMobile%5D+Swipe) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

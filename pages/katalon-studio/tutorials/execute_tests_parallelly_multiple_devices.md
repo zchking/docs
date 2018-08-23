@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/execute_tests_parallelly_multiple_devices.html
 description: "There are instances in which the user wants to execute tests on different devices parallelly. This is the how-to guide for these instances."
 ---
-[](#)
-
 There are instances in which the user wants to execute tests on different devices at the same time. Below is the how-to guide for these instances.
 
 *   Step 1: Create **two** Test suites. Refer to the [Katalon documentatio](https://docs.katalon.com/x/mAvR)[n](https://docs.katalon.com/x/7AAM) for a quick guide to creating test suites.
@@ -38,5 +36,3 @@ There are instances in which the user wants to execute tests on different device
 *   Step 10: Click on **Execute**. It will execute tests parallelly on your selected mobile devices.
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation).  For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

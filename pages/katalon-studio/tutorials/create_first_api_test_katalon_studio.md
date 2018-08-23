@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_first_api_test_katalon_studio.html
 description: "API testing has become more important. This tutorial will demonstrate how to use Katalon Studio to create your first API test from scratch."
 ---
-[](#)
-
 **API testing** (or Web service testing in the context of a Web application) has become more important in software testing. The interest in API testing has been increasing over the last five years, according to [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=api%20testing). This trend possibly indicates that the demand for applying API testing has become more prevalent. Testing API or web services is no longer performed solely by the original developer. This activity is now a common practice among outsourcing teams who independently verify and validate their products.
 
 This tutorial will demonstrate how to use Katalon Studio to create your first API/Web service test from scratch with good practices. Before proceeding with API Testing, there are some basic terms about API testing object in Katalon Studio that we need to understand clearly.
@@ -172,5 +170,3 @@ Source code: [https://github.com/katalon-studio-samples/jira-ui-tests](https://g
 Project: Jira API
 
 **CONGRATULATION! YOU HAVE SUCCESSFULLY CREATE A SIMPLE API TESTING FROM SCRATCH WITH 6 SIMPLE STEPS.**
-
-[](#modal-id-popup)

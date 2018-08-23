@@ -23,17 +23,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
-      comments: true
-      search: true
-      topnav: topnav
-
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+      layout: "docs"
       comments: true
       search: true
       topnav: topnav

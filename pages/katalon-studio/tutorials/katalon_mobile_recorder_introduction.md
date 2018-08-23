@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/katalon_mobile_recorder_introduction.html
 description: "Katalon Studio Record Mobile feature allows users to record and run the same tests on multiple devices. This is an introduction to Katalon Mobile Recorder."
 ---
-[](#)
-
 Test recording is the fastest way for users to automate applications. However, identifying objects on applications is time-consuming and tedious. Katalon Studio Record Mobile feature allows users to record and run the same tests on multiple devices with ease.
 
 This tutorial shows you a step-by-step introduction to utilizing Katalon Mobile Recorder.
@@ -127,5 +125,3 @@ Mobile.closeApplication()
 ```
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Recording Mobile Test](https://docs.katalon.com/x/RwnR) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

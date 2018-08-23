@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/sample_web_automation_test_project.html
 description: "Starting a web automation test project for a website can be complicated. The following tutorial will help you ease that process using Katalon Studio."
 ---
-[](#)
-
 Starting a new automation project for a website can be complicated and requires a steep learning curve, especially to those who are new to automation testing. The following tutorial will help you ease that process using [Katalon Studio](https://www.katalon.com).
 
 Test Scenario
@@ -115,5 +113,3 @@ For additional tutorials and guidelines please visit Katalon Studio [documentati
 Currently working as a senior full-stack developer for [KMS Technology](http://www.kms-technology.com/), Hieu Mai is one of the developers behind Katalon Studio. With 5 years’ experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
 
 Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)
-
-[](#modal-id-popup)

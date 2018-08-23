@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_spinner_mobile_automation_testing.html
 description: "A step-by-step guide on how to handle spinner in mobile automation testing using Katalon Studio. This behavior is very common in mobile software development"
 ---
-[](#)
-
 The source code can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). This behavior is very common in mobile software development. An example is choosing a location out of a list of US states and territories.
 
 ### Scenario
@@ -100,5 +98,3 @@ Mobile.closeApplication()
 **Note:** This scenario can be also handled by capturing the values in a list and tapping on the desired value from spinner.
 
 _The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)._
-
-[](#modal-id-popup)

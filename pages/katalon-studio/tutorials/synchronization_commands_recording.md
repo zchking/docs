@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/synchronization_commands_recording.html
 description: "Synchronization is a mechanism which allows multiple threads to work in parallel. To avoid execution failures, we need to use synchronization commands."
 ---
-[](#)
-
 What is Synchronization?
 ------------------------
 
@@ -137,5 +135,3 @@ WebUI.closeBrowser()
 It is recommended to add synchronization while recording automation test cases in the [manual mode](https://www.katalon.com/resources-center/tutorials/create-test-case-using-manual-mode/) or [script mode](https://www.katalon.com/resources-center/tutorials/create-test-case-using-script-mode/). It is also a good practice to use wait commands to avoid execution failures. Download source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Recording WebUI Test](https://docs.katalon.com/x/Y4Iw) tutorial.
-
-[](#modal-id-popup)

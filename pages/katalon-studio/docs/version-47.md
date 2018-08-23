@@ -53,4 +53,23 @@ Execution speed between actions can be specified based on the preference defined
 Keywords
 --------
 
-<table class="wrapped relative-table confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 29.7632%;"><col style="width: 70.2368%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Keyword</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Text" rel="nofollow">[WebUI] Verify Element Text</a></td><td class="xtd-1-1 confluenceTd">Verify text of an element.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Options+Present" rel="nofollow">[WebUI] Verify Options Present</a></td><td class="xtd-2-1 confluenceTd">Verify if all expected options are present within the given test object.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Click+Offset" rel="nofollow">[WebUI] Click Offset</a></td><td class="xtd-3-1 confluenceTd">Click on the given element with the relative position (x, y) from the top-left corner of that element</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd" colspan="1"><span><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Right+Click+Offset" rel="nofollow">[WebUI] Right Click Offset</a></span></td><td class="xtd-4-1 confluenceTd" colspan="1">Right click on the given element with the relative position (x, y) from the top-left corner of that element</td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd" colspan="1"><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Mouse+Over+Offset" rel="nofollow">[WebUI] Mouse Over Offset</a></td><td class="xtd-5-1 confluenceTd" colspan="1"><p class="p1">Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element.</p></td></tr><tr class="xtr-6"><td class="xtd-6-0 confluenceTd" colspan="1"><a href="https://docs.katalon.com/display/KD/%5BMobile%5D+Send+Keys" rel="nofollow">[Mobile] Send Keys</a></td><td class="xtd-6-1 confluenceTd" colspan="1"><p><span style="color: rgb(0,0,0);">Simulates keystroke events on the specified element, as though you typed the value key-by-key.&nbsp;</span></p></td></tr><tr class="xtr-7"><td class="xtd-7-0 confluenceTd" colspan="1"><a href="https://docs.katalon.com/display/KD/%5BMobile%5D+Verify+Element+Text" rel="nofollow">[Mobile] Verify Element Text</a></td><td class="xtd-7-1 confluenceTd" colspan="1"><p>Verify text of an element.</p></td></tr></tbody></table>
+| Keyword | Description |
+| --- | --- |
+| [\[WebUI\] Verify Element Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Text) | Verify text of an element. |
+| [\[WebUI\] Verify Options Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Options+Present) | Verify if all expected options are present within the given test object. |
+| [\[WebUI\] Click Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click+Offset) | Click on the given element with the relative position (x, y) from the top-left corner of that element |
+| [\[WebUI\] Right Click Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Right+Click+Offset) | Right click on the given element with the relative position (x, y) from the top-left corner of that element |
+| [\[WebUI\] Mouse Over Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Mouse+Over+Offset) | 
+Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element.
+
+ |
+| [\[Mobile\] Send Keys](https://docs.katalon.com/display/KD/%5BMobile%5D+Send+Keys) | 
+
+Simulates keystroke events on the specified element, as though you typed the value key-by-key. 
+
+ |
+| [\[Mobile\] Verify Element Text](https://docs.katalon.com/display/KD/%5BMobile%5D+Verify+Element+Text) | 
+
+Verify text of an element.
+
+ |

@@ -19,7 +19,48 @@ You can configure general execution preferences by accessing from main menu: *
 
 Where:
 
-<table class="wrapped relative-table confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 13.9888%;"><col style="width: 86.0112%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><p>Field</p></th><th class="xtd-0-1 confluenceTh"><p><strong>Description</strong></p></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><p>Default execution</p></td><td class="xtd-1-1 confluenceTd"><p>The default environment that Katalon Studio will use to execute automation test.</p></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><p>Default load timeout</p></td><td class="xtd-2-1 confluenceTd"><p>The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded when executing automation test.</p></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><p>Post-Execution Options</p></td><td class="xtd-3-1 confluenceTd"><p>These options decide the actions that Katalon Studio will perform after finishing automation test.</p><ul><li><strong>Notify me</strong>: S<span><span>pecify whether you want to send email notification.</span></span><ul><li>Refer to <a href="/display/KD/Emails+Settings">Emails Settings</a> for how to register the list of report recipients.</li><li>Refer to <a href="/pages/viewpage.action?pageId=786668">Test suite &gt; Manage execution information</a> for how to register a list of recipients who will be receiving the execution report of a specific test suite.</li></ul></li><li><strong>Open report</strong>: S<span>pecify whether the report generated after your test suite finishes its execution will also be open immediately.</span></li><li><span><strong>Terminate drivers</strong>: Specify whether any driver remains after execution will be terminated.</span></li></ul></td></tr></tbody></table>
+| 
+Field
+
+ | 
+
+**Description**
+
+ |
+| --- | --- |
+| 
+
+Default execution
+
+ | 
+
+The default environment that Katalon Studio will use to execute automation test.
+
+ |
+| 
+
+Default load timeout
+
+ | 
+
+The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded when executing automation test.
+
+ |
+| 
+
+Post-Execution Options
+
+ | 
+
+These options decide the actions that Katalon Studio will perform after finishing automation test.
+
+*   **Notify me**: Specify whether you want to send email notification.
+    *   Refer to [Emails Settings](/display/KD/Emails+Settings) for how to register the list of report recipients.
+    *   Refer to [Test suite > Manage execution information](/pages/viewpage.action?pageId=786668) for how to register a list of recipients who will be receiving the execution report of a specific test suite.
+*   **Open report**: Specify whether the report generated after your test suite finishes its execution will also be open immediately.
+*   **Terminate drivers**: Specify whether any driver remains after execution will be terminated.
+
+ |
 
 All the above preferences are saved into the file “**com.kms.katalon.composer.execution.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.
 
@@ -32,6 +73,23 @@ You can configure WebUI execution preferences by accessing from main menu: **W
 
 Where:
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><p><strong>Preference Setting</strong></p></th><th class="xtd-0-1 confluenceTh"><p><strong>Description</strong></p></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><p>Default wait when IE hangs</p></td><td class="xtd-1-1 confluenceTd"><p>Specify the default period of waiting that Katalon Studio should use in case IE hangs.</p></td></tr></tbody></table>
+| 
+**Preference Setting**
+
+ | 
+
+**Description**
+
+ |
+| --- | --- |
+| 
+
+Default wait when IE hangs
+
+ | 
+
+Specify the default period of waiting that Katalon Studio should use in case IE hangs.
+
+ |
 
 The above preference is saved into the file “**com.kms.katalon.composer.webui.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.

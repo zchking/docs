@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/git_integration_introduction.html
 description: "This tutorial details steps to set-up integration with Git from Katalon Studio to help address the collaboration among automation teams."
 ---
-[](#)
-
 What is Git?
 ------------
 
@@ -146,5 +144,3 @@ Click **Finish **after finished selecting your remote branch. The code is now 
 After taking Commit, Push, and Pull actions, our Katalon Studio project is now synced with those of other team members.
 
 For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

@@ -6,7 +6,87 @@ description:
 ---
 Currently, Katalon Studio supports executing automation test in following environments:
 
-<table class="wrapped relative-table confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 14.1542%;"><col style="width: 85.8458%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><p><strong>Execution Environment</strong></p></th><th class="xtd-0-1 confluenceTh"><p><strong>Description</strong></p></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><p>Chrome</p></td><td class="xtd-1-1 confluenceTd"><p>Execute a test case in Chrome, using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</p></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><p>Firefox</p></td><td class="xtd-2-1 confluenceTd"><p>Execute a test case in Firefox, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><p>IE</p></td><td class="xtd-3-1 confluenceTd"><p>Execute a test case in Internet Explorer, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd"><p>Safari</p></td><td class="xtd-4-1 confluenceTd"><p>Execute a test case in Safari, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd"><p>Remote</p></td><td class="xtd-5-1 confluenceTd"><p>Execute a test case in a remote environment, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr class="xtr-6"><td class="xtd-6-0 confluenceTd"><p>Android</p></td><td class="xtd-6-1 confluenceTd"><p>Execute a test case on Android device, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr class="xtr-7"><td class="xtd-7-0 confluenceTd"><p>iOS</p></td><td class="xtd-7-1 confluenceTd"><p>Execute a test case on an iOS device, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr class="xtr-8"><td class="xtd-8-0 confluenceTd"><p>Custom</p></td><td class="xtd-8-1 confluenceTd"><p>Execute a test case in a custom environment, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr></tbody></table>
+| 
+**Execution Environment**
+
+ | 
+
+**Description**
+
+ |
+| --- | --- |
+| 
+
+Chrome
+
+ | 
+
+Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+Firefox
+
+ | 
+
+Execute a test case in Firefox, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+IE
+
+ | 
+
+Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+Safari
+
+ | 
+
+Execute a test case in Safari, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+Remote
+
+ | 
+
+Execute a test case in a remote environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+Android
+
+ | 
+
+Execute a test case on Android device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+iOS
+
+ | 
+
+Execute a test case on an iOS device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
+| 
+
+Custom
+
+ | 
+
+Execute a test case in a custom environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
+
+ |
 
 Execute on a web application
 ----------------------------

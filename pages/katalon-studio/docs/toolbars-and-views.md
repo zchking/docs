@@ -13,7 +13,177 @@ Since version 5.6
 
 The main **Toolbar** contains the most common actions which you usually perform (e.g. creating test resources or executing automation tests).
 
-<table class="relative-table confluenceTable" style="width: 97.4684%;"><colgroup><col style="width: 17.2934%;"><col style="width: 82.637%;"></colgroup><tbody><tr><th class="confluenceTh">Icon</th><th class="confluenceTh">Description</th></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_19_48.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A19%3A48.png?version=1&amp;modificationDate=1523877588000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698003" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:19:48.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Save the current opened test artifact.</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_19_17.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A19%3A17.png?version=1&amp;modificationDate=1523877558000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698002" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:19:17.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Save all opened test artifacts.</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_18_47.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A18%3A47.png?version=1&amp;modificationDate=1523877527000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698001" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:18:47.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd"><p>Create new test artifacts. You can select these options by selecting from dropdownlist:</p><ul><li>Folder</li><li>Test Case</li><li>Test Suite</li><li>Test Suite Collection</li><li>Test Object</li><li>Web Service Request</li><li>Test Data</li><li>Checkpoint</li><li>Package</li><li>Keyword</li></ul></td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_11.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A20%3A11.png?version=1&amp;modificationDate=1523877611000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698004" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:20:11.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Open <strong>Web</strong> <strong>Object Spy</strong> dialog for capturing elements on websites.</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_32.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A20%3A32.png?version=1&amp;modificationDate=1523877634000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698005" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:20:32.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_21_15.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A21%3A15.png?version=1&amp;modificationDate=1523877675000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698007" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:21:15.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Open <strong>Web</strong> <strong>Record</strong> dialog for recording WebUI test cases.</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_56.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A20%3A56.png?version=1&amp;modificationDate=1523877656000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698006" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:20:56.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_21_34.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A21%3A34.png?version=1&amp;modificationDate=1523877695000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698008" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:21:34.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd"><p>Run the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_4.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A22%3A4.png?version=1&amp;modificationDate=1523877724000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698009" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:22:4.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd"><p>Debug the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_28.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A22%3A28.png?version=1&amp;modificationDate=1523877748000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698010" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:22:28.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Stop the current execution</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_45.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A22%3A45.png?version=1&amp;modificationDate=1523877765000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698011" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:22:45.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd">Open <strong>Command Builder</strong> for generating commands for console execution</td></tr><tr><td style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_23_4.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A23%3A4.png?version=1&amp;modificationDate=1523877784000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698012" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:23:4.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td class="confluenceTd"><p>Command for Git activities. You can select these options by selecting from dropdownlist (after <a href="https://docs.katalon.com/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p><ul><li>Clone Project</li><li>Share Project</li><li>Show History</li><li>Manage Branches</li><li>Commit</li><li>Push</li><li>Pull</li><li>Fetch</li></ul></td></tr><tr><td colspan="1" style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper image-center-wrapper"><img class="confluence-embedded-image image-center" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_23_24.png" data-image-src="/download/attachments/786558/image2018-4-16%2018%3A23%3A24.png?version=1&amp;modificationDate=1523877804000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13698013" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-16 18:23:24.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td colspan="1" class="confluenceTd">Import test case from JIRA integrated account</td></tr><tr><td colspan="1" style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3 15_9_34.png" data-image-src="/download/attachments/786558/image2018-4-3%2015%3A9%3A34.png?version=1&amp;modificationDate=1523876941000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13697994" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-4-3 15:9:34.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td colspan="1" class="confluenceTd">Execution profile (testing environments) ro be applied when run tests</td></tr><tr><td colspan="1" style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 11_26_34.png" data-image-src="/download/attachments/786558/image2018-8-1%2011%3A26%3A34.png?version=1&amp;modificationDate=1533231903000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13700835" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-8-1 11:26:34.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td colspan="1" class="confluenceTd">Allowing you to search for help on Katalon Documentation and our Forum</td></tr><tr><td colspan="1" style="text-align: center;" class="confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 14_9_36.png" data-image-src="/download/attachments/786558/image2018-8-1%2014%3A9%3A36.png?version=1&amp;modificationDate=1533231903000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13700836" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-8-1 14:9:36.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786558" data-linked-resource-container-version="4"></span></p></div></td><td colspan="1" class="confluenceTd">If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible.</td></tr></tbody></table>
+| Icon | Description |
+| --- | --- |
+| 
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_19_48.png)
+
+
+
+ | Save the current opened test artifact. |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_19_17.png)
+
+
+
+ | Save all opened test artifacts. |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_18_47.png)
+
+
+
+ | 
+
+Create new test artifacts. You can select these options by selecting from dropdownlist:
+
+*   Folder
+*   Test Case
+*   Test Suite
+*   Test Suite Collection
+*   Test Object
+*   Web Service Request
+*   Test Data
+*   Checkpoint
+*   Package
+*   Keyword
+
+ |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_11.png)
+
+
+
+ | Open **Web** **Object Spy** dialog for capturing elements on websites. |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_32.png)
+
+
+
+ | Open **Mobile Object Spy** dialog for capturing elements on mobile applications. |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_21_15.png)
+
+
+
+ | Open **Web** **Record** dialog for recording WebUI test cases. |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_56.png)
+
+
+
+ | Open **Mobile Recorder** dialog for recording Mobile test cases. |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_21_34.png)
+
+
+
+ | 
+
+Run the current open test case. You can select these options by selecting from dropdownlist:
+
+*   Chrome
+*   Firefox
+*   IE
+*   Safari
+*   Edge
+*   Remote
+*   Headless
+*   Android
+*   iOS (on macOS)
+*   Custom
+
+ |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_4.png)
+
+
+
+ | 
+
+Debug the current open test case. You can select these options by selecting from dropdownlist:
+
+*   Chrome
+*   Firefox
+*   IE
+*   Safari
+*   Edge
+*   Remote
+*   Headless
+*   Android
+*   iOS (on macOS)
+*   Custom
+
+ |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_28.png)
+
+
+
+ | Stop the current execution |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_45.png)
+
+
+
+ | Open **Command Builder** for generating commands for console execution |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_23_4.png)
+
+
+
+ | 
+
+Command for Git activities. You can select these options by selecting from dropdownlist (after [enabling Git](https://docs.katalon.com/display/KD/Git+Integration)):
+
+*   Clone Project
+*   Share Project
+*   Show History
+*   Manage Branches
+*   Commit
+*   Push
+*   Pull
+*   Fetch
+
+ |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_23_24.png)
+
+
+
+ | Import test case from JIRA integrated account |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3 15_9_34.png)
+
+
+
+ | Execution profile (testing environments) ro be applied when run tests |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 11_26_34.png)
+
+
+
+ | Allowing you to search for help on Katalon Documentation and our Forum |
+| 
+
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 14_9_36.png)
+
+
+
+ | If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible. |
 
 Tests Explorer View
 -------------------
@@ -24,7 +194,16 @@ The **Tests Explorer** view allows you to browse the structure of your project
 
 where:
 
-<table class="confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh">Group</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">Test Cases</td><td class="confluenceTd">List all <a href="/display/KD/Manual+View">test cases</a> within current project</td></tr><tr><td class="confluenceTd">Object Repository</td><td class="confluenceTd">List all <a href="https://docs.katalon.com/display/KD/Manage+Test+Object" rel="nofollow">test objects</a> of the current project</td></tr><tr><td class="confluenceTd">Test Suites</td><td class="confluenceTd">List all <a href="https://docs.katalon.com/display/KD/Execute+a+test+suite" rel="nofollow">test suites</a> and <a href="https://docs.katalon.com/display/KD/Execute+a+test+suite+collection" rel="nofollow">test suite collections</a> of the current project</td></tr><tr><td class="confluenceTd">Data Files</td><td class="confluenceTd">List all <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow">test data</a> of the current project</td></tr><tr><td colspan="1" class="confluenceTd">Checkpoints</td><td colspan="1" class="confluenceTd">List all <a href="https://docs.katalon.com/display/KD/Manage+Checkpoint" rel="nofollow">checkpoints</a> of the current project</td></tr><tr><td colspan="1" class="confluenceTd">Keywords</td><td colspan="1" class="confluenceTd">List all <a href="/display/KD/Introduction+to+Custom+Keywords">custom keywords</a> of the current project</td></tr><tr><td colspan="1" class="confluenceTd">Reports</td><td colspan="1" class="confluenceTd">List all generated <a href="https://docs.katalon.com/display/KD/Test+Report" rel="nofollow">reports</a> of the current project</td></tr><tr><td colspan="1" class="confluenceTd">Profiles</td><td colspan="1" class="confluenceTd">List all execution profiles of the current project</td></tr></tbody></table>
+| Group | Description |
+| --- | --- |
+| Test Cases | List all [test cases](/display/KD/Manual+View) within current project |
+| Object Repository | List all [test objects](https://docs.katalon.com/display/KD/Manage+Test+Object) of the current project |
+| Test Suites | List all [test suites](https://docs.katalon.com/display/KD/Execute+a+test+suite) and [test suite collections](https://docs.katalon.com/display/KD/Execute+a+test+suite+collection) of the current project |
+| Data Files | List all [test data](https://docs.katalon.com/display/KD/Manage+Test+Data) of the current project |
+| Checkpoints | List all [checkpoints](https://docs.katalon.com/display/KD/Manage+Checkpoint) of the current project |
+| Keywords | List all [custom keywords](/display/KD/Introduction+to+Custom+Keywords) of the current project |
+| Reports | List all generated [reports](https://docs.katalon.com/display/KD/Test+Report) of the current project |
+| Profiles | List all execution profiles of the current project |
 
 Keywords Browser View
 ---------------------

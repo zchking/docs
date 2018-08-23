@@ -3,14 +3,14 @@ entries:
   folders:
   - title: Getting Started
     folderitems:
-    - title: "Authorization"
-      url: /katalon-studio/docs/authorization.html
     - title: "Execute a Test Case or a Test Suite"
       url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
+    - title: "Authorization"
+      url: /katalon-studio/docs/authorization.html
     - title: "Version 5.6.1"
       url: /katalon-studio/docs/version-561.html
-    - title: "Headless Browsers Execution"
-      url: /katalon-studio/docs/headless-browsers-execution.html
+    - title: "Manage Test Object"
+      url: /katalon-studio/docs/manage-test-object.html
     - title: "Configure JIRA Integration"
       url: /katalon-studio/docs/configure-jira-integration.html
     - title: "Custom Keywords"
@@ -55,10 +55,12 @@ entries:
       url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
     - title: "Emails Settings"
       url: /katalon-studio/docs/emails-settings.html
-    - title: "Desired Capabilities"
-      url: /katalon-studio/docs/desired-capabilities.html
     - title: "Design a Test Suite"
       url: /katalon-studio/docs/design-a-test-suite.html
+    - title: "Headless Browsers Execution"
+      url: /katalon-studio/docs/headless-browsers-execution.html
+    - title: "Desired Capabilities"
+      url: /katalon-studio/docs/desired-capabilities.html
     - title: "Console Mode Execution"
       url: /katalon-studio/docs/console-mode-execution.html
     - title: "Variable Types"
@@ -93,8 +95,6 @@ entries:
       url: /katalon-studio/docs/execute-a-test-case.html
     - title: "Recording WebUI Test"
       url: /katalon-studio/docs/recording-webui-test.html
-    - title: "Manage Test Object"
-      url: /katalon-studio/docs/manage-test-object.html
     - title: "Toolbars and Views"
       url: /katalon-studio/docs/toolbars-and-views.html
     - title: "Setup/Teardown for Test Suite and Test Case"
@@ -267,12 +267,12 @@ entries:
       url: /katalon-studio/docs/webui-wait-for-element-not-has-attribute.html
     - title: "[WebUI] Verify Element Visible In Viewport"
       url: /katalon-studio/docs/webui-verify-element-visible-in-viewport.html
+    - title: "[WebUI] Get Window Index"
+      url: /katalon-studio/docs/webui-get-window-index.html
     - title: "[WebUI] Close Window Index"
       url: /katalon-studio/docs/webui-close-window-index.html
     - title: "[WebUI] Wait For Element Not Present"
       url: /katalon-studio/docs/webui-wait-for-element-not-present.html
-    - title: "[WebUI] Get Window Index"
-      url: /katalon-studio/docs/webui-get-window-index.html
     - title: "[WebUI] Close Window Title"
       url: /katalon-studio/docs/webui-close-window-title.html
     - title: "[WebUI] Get Window Title"
@@ -305,6 +305,8 @@ entries:
       url: /katalon-studio/docs/webui-wait-for-element-has-attribute.html
     - title: "[WebUI] Switch To Window Url"
       url: /katalon-studio/docs/webui-switch-to-window-url.html
+    - title: "[WebUI] Get Viewport Height"
+      url: /katalon-studio/docs/webui-get-viewport-height.html
     - title: "[Mobile] Close Application"
       url: /katalon-studio/docs/mobile-close-application.html
     - title: "[WebUI] Get Viewport Left Position"
@@ -313,8 +315,6 @@ entries:
       url: /katalon-studio/docs/webui-get-viewport-top-position.html
     - title: "[Mobile] Run iOS App in Background and Wait"
       url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
-    - title: "[WebUI] Get Viewport Height"
-      url: /katalon-studio/docs/webui-get-viewport-height.html
     - title: "[WebUI] Get Viewport Width"
       url: /katalon-studio/docs/webui-get-viewport-width.html
     - title: "[Mobile] Start Application"
@@ -533,24 +533,26 @@ entries:
       url: /katalon-studio/docs/webui-set-masked-text.html
     - title: "[WebUI] Execute JavaScript"
       url: /katalon-studio/docs/webui-execute-javascript.html
-    - title: "Optimizing Object Identification and Tools"
-      url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
     - title: "Record Web Utility (version 5.0 to 5.4)"
       url: /katalon-studio/docs/record-web-utility-version-50-to-54.html
+    - title: "Optimizing Object Identification and Tools"
+      url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
     - title: "Using autoIT for authentication in Katalon Studio"
       url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
     - title: "[WebUI] Set Encrypted Text"
       url: /katalon-studio/docs/webui-set-encrypted-text.html
     - title: "Export Test Results in JUnit Format"
       url: /katalon-studio/docs/export-test-results-in-junit-format.html
+    - title: "Docker images"
+      url: /katalon-studio/docs/docker-images.html
     - title: "Common Assertions"
       url: /katalon-studio/docs/common-assertions.html
     - title: "Version 5.4.2"
       url: /katalon-studio/docs/version-542.html
     - title: "Using the WebDriver Object"
       url: /katalon-studio/docs/using-the-webdriver-object.html
-    - title: "Docker images"
-      url: /katalon-studio/docs/docker-images.html
+    - title: "Execute Windows commands"
+      url: /katalon-studio/docs/execute-windows-commands.html
     - title: "Import Custom Keywords classes recursively"
       url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
     - title: "Get SQL query results as variables"
@@ -605,8 +607,6 @@ entries:
       url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
     - title: "Verify placeholder of a field"
       url: /katalon-studio/docs/verify-placeholder-of-a-field.html
-    - title: "Execute Windows commands"
-      url: /katalon-studio/docs/execute-windows-commands.html
     - title: "Tutorial: Setup Katalon Studio with VSO"
       url: /katalon-studio/docs/tutorial-setup-katalon-studio-with-vso.html
     - title: "Swipe action on iOS device"
@@ -643,6 +643,8 @@ entries:
       url: /katalon-studio/docs/viewing-a-test-case.html
     - title: "Writing Test Case"
       url: /katalon-studio/docs/writing-test-case.html
+    - title: "Verification Snippets (latest)"
+      url: /katalon-studio/docs/verification-snippets-latest.html
     - title: "Record & Playback"
       url: /katalon-studio/docs/record-and-playback.html
     - title: "Working with JIRA"
@@ -677,8 +679,6 @@ entries:
       url: /katalon-studio/docs/internet-explorer-configurations.html
     - title: "Katalon Addon for Chrome"
       url: /katalon-studio/docs/katalon-addon-for-chrome.html
-    - title: "Verification Snippets (latest)"
-      url: /katalon-studio/docs/verification-snippets-latest.html
     - title: "Troubleshooting web automated testing"
       url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
     - title: "Known Issues / Limitations"
@@ -687,18 +687,20 @@ entries:
       url: /katalon-studio/docs/parameterization.html
     - title: "Test Design"
       url: /katalon-studio/docs/test-design.html
+    - title: "Test Execution within CI/CD Tools"
+      url: /katalon-studio/docs/test-execution-within-cicd-tools.html
     - title: "Test Listeners (Test Hooks)"
       url: /katalon-studio/docs/test-listeners-test-hooks.html
     - title: "Built-in Keywords"
       url: /katalon-studio/docs/built-in-keywords.html
-    - title: "Test Execution within CI/CD Tools"
-      url: /katalon-studio/docs/test-execution-within-cicd-tools.html
     - title: "Integrations"
       url: /katalon-studio/docs/integrations.html
     - title: "Auto-updater"
       url: /katalon-studio/docs/auto-updater.html
     - title: "Environment Setup for Mobile Testing"
       url: /katalon-studio/docs/environment-setup-for-mobile-testing.html
+    - title: "Update New Versions"
+      url: /katalon-studio/docs/update-new-versions.html
     - title: "Environment Setup for Web Testing"
       url: /katalon-studio/docs/environment-setup-for-web-testing.html
     - title: "Linux Support"
@@ -719,8 +721,6 @@ entries:
       url: /katalon-studio/docs/debug-automation-test.html
     - title: "Failure Handling"
       url: /katalon-studio/docs/failure-handling.html
-    - title: "Update New Versions"
-      url: /katalon-studio/docs/update-new-versions.html
     - title: "Test Execution"
       url: /katalon-studio/docs/test-execution.html
     - title: "Video Capturing"
@@ -735,16 +735,16 @@ entries:
       url: /katalon-studio/docs/version-54.html
     - title: "Web Locators Settings"
       url: /katalon-studio/docs/web-locators-settings.html
-    - title: "Install and Use Katalon's JIRA add-on"
-      url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
     - title: "Execution Preferences (Version 5.0 and below)"
       url: /katalon-studio/docs/execution-preferences-version-50-and-below.html
+    - title: "Install and Use Katalon's JIRA add-on"
+      url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
     - title: "Sample Custom Keywords"
       url: /katalon-studio/docs/sample-custom-keywords.html
-    - title: "Web Services Builder"
-      url: /katalon-studio/docs/web-services-builder.html
     - title: "Git Integration"
       url: /katalon-studio/docs/git-integration.html
+    - title: "Web Services Builder"
+      url: /katalon-studio/docs/web-services-builder.html
     - title: "Working with Shadow DOM Objects"
       url: /katalon-studio/docs/working-with-shadow-dom-objects.html
     - title: "Handle Response Messages"
@@ -753,26 +753,26 @@ entries:
       url: /katalon-studio/docs/version-501.html
     - title: "Version 5.1.0.2"
       url: /katalon-studio/docs/version-5102.html
+    - title: "Version 4.8"
+      url: /katalon-studio/docs/version-48.html
     - title: "Version 5.1"
       url: /katalon-studio/docs/version-51.html
     - title: "Version 5.2"
       url: /katalon-studio/docs/version-52.html
-    - title: "Version 4.8"
-      url: /katalon-studio/docs/version-48.html
     - title: "Object Spy Preferences"
       url: /katalon-studio/docs/object-spy-preferences.html
     - title: "Network Settings"
       url: /katalon-studio/docs/network-settings.html
     - title: "BrowserStack Integration"
       url: /katalon-studio/docs/browserstack-integration.html
+    - title: "Integrate test suite"
+      url: /katalon-studio/docs/integrate-test-suite.html
     - title: "Upload test execution"
       url: /katalon-studio/docs/upload-test-execution.html
     - title: "Integrate test case"
       url: /katalon-studio/docs/integrate-test-case.html
     - title: "Using Web Service in Test Case"
       url: /katalon-studio/docs/using-web-service-in-test-case.html
-    - title: "Release Notes"
-      url: /katalon-studio/docs/release-notes.html
     - title: "System Requirements"
       url: /katalon-studio/docs/system-requirements.html
     - title: "Call test case"
@@ -781,16 +781,14 @@ entries:
       url: /katalon-studio/docs/control-statements.html
     - title: "Binary Statements"
       url: /katalon-studio/docs/binary-statements.html
-    - title: "Integrate test suite"
-      url: /katalon-studio/docs/integrate-test-suite.html
     - title: "Assert Statements"
       url: /katalon-studio/docs/assert-statements.html
     - title: "Method Call Statements"
       url: /katalon-studio/docs/method-call-statements.html
-    - title: "Test Suite Collection Report"
-      url: /katalon-studio/docs/test-suite-collection-report.html
     - title: "Define method"
       url: /katalon-studio/docs/define-method.html
+    - title: "Test Suite Collection Report"
+      url: /katalon-studio/docs/test-suite-collection-report.html
     - title: "[WebUI] Alert"
       url: /katalon-studio/docs/webui-alert.html
     - title: "[WebUI] Browser"
@@ -801,6 +799,8 @@ entries:
       url: /katalon-studio/docs/webui-combo-box.html
     - title: "[WebUI] Element"
       url: /katalon-studio/docs/webui-element.html
+    - title: "[WebUI] Form"
+      url: /katalon-studio/docs/webui-form.html
     - title: "[WebUI] Frame"
       url: /katalon-studio/docs/webui-frame.html
     - title: "[WebUI] Image"
@@ -829,8 +829,6 @@ entries:
       url: /katalon-studio/docs/web-service.html
     - title: "[WS] Request"
       url: /katalon-studio/docs/ws-request.html
-    - title: "[WebUI] Form"
-      url: /katalon-studio/docs/webui-form.html
     - title: "Version 4.0.1"
       url: /katalon-studio/docs/version-401.html
     - title: "Value Types"
@@ -855,10 +853,10 @@ entries:
       url: /katalon-studio/docs/version-40.html
     - title: "Version 4.2"
       url: /katalon-studio/docs/version-42.html
-    - title: "Version 4.1"
-      url: /katalon-studio/docs/version-41.html
     - title: "Version 4.3"
       url: /katalon-studio/docs/version-43.html
+    - title: "Version 4.1"
+      url: /katalon-studio/docs/version-41.html
     - title: "Version 4.6"
       url: /katalon-studio/docs/version-46.html
     - title: "Version 4.4"
@@ -877,3 +875,5 @@ entries:
       url: /katalon-studio/docs/spy-object.html
     - title: "Test Suite Report"
       url: /katalon-studio/docs/test-suite-report.html
+    - title: "Release Notes"
+      url: /katalon-studio/docs/release-notes.html

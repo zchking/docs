@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/install_setup_katalon_studio.html
 description: "This guide gives you a quick introduction to Katalon Studio, from downloading to activating and running your first automation test."
 ---
-[](#)
-
 Katalon Studio is a simple and powerful test automation solution for not only web and mobile applications but also web services, a revolution of the Selenium and Appium frameworks. Katalon Studio allows users with less experience in programming to work effortlessly by providing a predefined automation framework with hundreds of built-in keywords. This guide explains all the basic steps, from downloading to activating the build, so that new users can start Katalon Studio for the first time.
 
 Download Katalon Studio
@@ -60,5 +58,3 @@ You have successfully downloaded and activated Katalon Studio. Next, please refe
 *   [Setting up Mobile automation project in Windows](https://www.katalon.com/resources-center/tutorials/get-started/set-up-mobile-automation-project-windows/)
 *   [Setting up Mobile automation project in macOS](https://www.katalon.com/resources-center/tutorials/get-started/set-up-mobile-automation-project-macos/)
 *   [Setting up API automation project](https://www.katalon.com/resources-center/tutorials/get-started/set-up-api-testing-project/)
-
-[](#modal-id-popup)

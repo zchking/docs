@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/locators_object_identification.html
 description: "Learn how to identify Locators and Object using Spy Mobile in Katalon Studio with sample project provided by the Katalon Team."
 ---
-[](#)
-
 In each test case, **locators** are an abstract way to define how an element can be found.
 
 Below are listed locators for a mobile automation test:
@@ -54,5 +52,3 @@ The object repository will look similar to the screenshot below, with your newly
 ![Object Spy locators in Katalon Studio](../../images/katalon-studio/tutorials/locators_object_identification/Object-Spy-locators-in-Katalon-Studio.png)
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Object Spy](https://docs.katalon.com/x/3QBO) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

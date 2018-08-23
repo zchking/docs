@@ -18,7 +18,7 @@ description:
 *   **true:** if options with given indices are selected
 *   **false:** if options with given indices are not selected
 
-#### **Example: You want to verify if the option 1 is selected in the list**
+#### Example: You want to verify if the option 1 is selected in the list
 
 Manual: 
 

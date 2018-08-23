@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/common_validation_statements_katalon_studio.html
 description: "This tutorial explain how to make use of common validation methods when designing your automation test with Katalon Studio."
 ---
-[](#)
-
 Katalon Studio supports two methods to validate. One is using built-in keywords to verify the states of certain test objects. Another is to use checkpoints to verify a specific data set against a previously captured data set. This tutorial explains how to make use of these methods when designing your automation test.
 
 **Validation with Captured Objects**
@@ -81,5 +79,3 @@ WS.verifyCheckpoint(findCheckpoint('Checkpoints/chk_DataSnapshot'), false)
 ```
 
 Now that you have been introduced to two methods for validation in Katalon Studio, each with its own purpose. You can use them when composing test scripts to verify data.
-
-[](#modal-id-popup)

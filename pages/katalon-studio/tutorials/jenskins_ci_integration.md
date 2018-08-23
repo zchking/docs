@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/jenskins_ci_integration.html
 description: "Katalon Studio supports console mode execution which can be utilized for integration with popular CI tools such as Jenkins and TeamCity."
 ---
-[](#)
-
 Katalon Studio supports [console mode execution ](https://docs.katalon.com/display/KD/Console+Mode+Execution)which can be utilized for integration with popular CI tools such as Jenkins and TeamCity. This tutorial shows you the basic steps to set up integration with a Jenkins server for scheduling Katalon execution.
 
 Prerequisites
@@ -138,5 +136,3 @@ All test executions from the folder you’ve specified will be summarized and vi
 ![Test Results Analyzer chart](../../images/katalon-studio/tutorials/jenskins_ci_integration/12.-Katalon-test-executions.png)
 
 For the visual tutorial on How to set up the integration with Jenkins and other CI tools, please check out the videos created by Katalon Studio’s user at:
-
-[](#modal-id-popup)

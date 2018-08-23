@@ -15,7 +15,21 @@ You can manage additional configurations for test suite collection execution by 
 
 where:
 
-<table class="relative-table wrapped confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 32.1059%;"><col style="width: 67.8941%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 11_47_25.png" data-image-src="/download/attachments/13699894/image2017-2-17%2011%3A47%3A25.png?version=1&amp;modificationDate=1531369163000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699884" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-17 11:47:25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699894" data-linked-resource-container-version="4"></span></p></div></td><td class="xtd-1-1 confluenceTd"><p>The order to execute test suites within the collection.</p><ul><li><strong>Sequential</strong>: the test suites will be executed one after another.</li><li><strong>Parallel</strong>: the test suites will be executed at the same time.</li></ul></td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| 
+![](../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 11_47_25.png)
+
+
+
+ | 
+
+The order to execute test suites within the collection.
+
+*   **Sequential**: the test suites will be executed one after another.
+*   **Parallel**: the test suites will be executed at the same time.
+
+ |
 
 Manage Test Suite List
 ----------------------
@@ -34,7 +48,31 @@ You can add a test suite into a collection by following the steps below:
     ![](../../images/katalon-studio/docs/test-suite-collection/image2018-5-7 15_37_21.png)  
     where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Run with</td><td class="xtd-1-1 confluenceTd"><div class="content-wrapper"><p>The environment to be executed with the Test Suite.</p></div></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Run configuration</td><td class="xtd-2-1 confluenceTd"><div class="content-wrapper"><p>Extra information for executing with the selected environment.</p><p><strong>For example:</strong> Select mobile devices to be executed for Android environment</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 13_53_7.png" data-image-src="/download/attachments/13699894/image2017-2-17%2013%3A53%3A7.png?version=1&amp;modificationDate=1531369162000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699878" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-17 13:53:7.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699894" data-linked-resource-container-version="4"></span></p></div></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd" colspan="1">Profile</td><td class="xtd-3-1 confluenceTd" colspan="1"><a href="https://docs.katalon.com/x/xAHR" rel="nofollow">Execution Profile</a> that contains all variables values for each Test Suite execution.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd">Run</td><td class="xtd-4-1 confluenceTd"><p>This is checked by default. It means that the test case will be executed when running the collection.</p></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Run with | 
+    The environment to be executed with the Test Suite.
+    
+    
+    
+     |
+    | Run configuration | 
+    
+    Extra information for executing with the selected environment.
+    
+    **For example:** Select mobile devices to be executed for Android environment
+    
+    ![](../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 13_53_7.png)
+    
+    
+    
+     |
+    | Profile | [Execution Profile](https://docs.katalon.com/x/xAHR) that contains all variables values for each Test Suite execution. |
+    | Run | 
+    
+    This is checked by default. It means that the test case will be executed when running the collection.
+    
+     |
     
       
     

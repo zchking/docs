@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/integrate_with_kobiton.html
 description: "Using Katalon Studio, you can easily execute automated tests on Kobiton’s devices, thanks to the built-in integration feature supported by Katalon Studio."
 ---
-[](#)
-
 Mobile app cloud-based devices can be a good option for mobile testing teams that have limited access to real devices. Kobiton is a powerful mobile device platform offers real mobile devices for both testers and developers. Using Katalon Studio, you can easily execute automated tests on Kobiton’s devices, thanks to the built-in integration feature supported by Katalon Studio.
 
 This tutorial will walk you through basic steps to setup the integration between Katalon Studio and Kobiton.
@@ -98,5 +96,3 @@ You can also modify this list by updating your **Favorite Devices **from [htt
 ![automation test execution uploaded to Kobiton](../../images/katalon-studio/tutorials/integrate_with_kobiton/Sessions.png)
 
 Congrats! You have just run your Kobiton mobile automation test with Katalon Studio. Kobiton is an innovative mobile device testing platform, through Kobiton developers can save cost and time by directly remote access to the mobile devices to run test before releasing to the market. This will empower mobile developers to build high-quality applications by identifying potential issues faster.
-
-[](#modal-id-popup)

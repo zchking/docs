@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/import_java_library.html
 description: "Katalon Studio allows users to import external Java .jar libraries either through Katalon project settings or copying .jar files to a designated folder."
 ---
-[](#)
-
 Katalon Studio allows users to use external Java .jar libraries either through Katalon project settings or copying .jar files to a designated folder. Users can leverage this to extend the capabilities of Katalon Studio and handle specific situations when needed. This article will show you how to add external libraries to Katalon Studio.
 
 Using Katalon project settings
@@ -27,5 +25,3 @@ Manually copy .jar files to the Drivers folder
 You can also manually copy your .jar file (and its dependencies if any) into **Drivers** folder. You have to restart Katalon (shutdown and open it again) to reload its class paths.
 
 When your .jar library is recognized by Katalon, you should be able to use it in your code. Refer to the topic **[How to create a Custom Keyword](https://www.katalon.com/resources-center/tutorials/create-custom-keyword/)** for information on how to use the email validation functionality from Apache open source library **commons-validator-1.5.1.jar.**
-
-[](#modal-id-popup)

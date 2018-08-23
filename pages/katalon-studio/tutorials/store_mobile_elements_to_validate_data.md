@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/store_mobile_elements_to_validate_data.html
 description: "To select a mobile element (ex: Radio button) from a List, we need to capture all the button elements in a collection and pick the desired Radio button."
 ---
-[](#)
-
 ### Scenario
 
 We want to select a Radio button from a List. In order to do so, we need to capture all the button elements in a collection and pick the desired Radio button.
@@ -160,5 +158,3 @@ for (WebElement radio : elements) {
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation).
 
 _For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)._
-
-[](#modal-id-popup)

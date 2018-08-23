@@ -14,8 +14,8 @@ Welcome to the version 5.0.0 release of Katalon Studio. In this release, Katalon
 *   **Kobiton devices -** Support Kobiton's devices as a part of Test Suite Collection environment configuration.
 *   **Keywords **\- Added new keyword "**Execute JavaScript**" and enhanced "**startApplication**" keyword to support relative path for appFile parameter.
 
-[**Katalon Analytics**** (Beta)**](/display/KA)
------------------------------------------------
+Katalon Analytics (Beta)
+------------------------
 
 Introducing a new generation of Katalon Studio Execution Reports, **Katalon Analytics**, a web application to help users analyze and have richer views of test automation reports. **Katalon Analytics** presents data through dashboard with powerful visualizations:
 
@@ -25,8 +25,8 @@ Introducing a new generation of Katalon Studio Execution Reports, **Katalon Anal
 
 ![](../../images/katalon-studio/docs/version-50/image2017-10-20 11_14_34.png)
 
-**[Record Web](/pages/viewpage.action?pageId=5118055)**
--------------------------------------------------------
+Record Web
+----------
 
 Enhanced [Record Web](/pages/viewpage.action?pageId=5118055) feature allows users to have more control of captured objects** Properties** and its **L****ocator **before adding to the object repository.
 
@@ -37,8 +37,8 @@ Enhanced [Record Web](/pages/viewpage.action?pageId=5118055) feature allows use
 
 ![](../../images/katalon-studio/docs/version-50/image2017-10-20 19_30_9.png)
 
-**[Spy Web](https://docs.katalon.com/x/5BZO)**
-----------------------------------------------
+Spy Web
+-------
 
 Enhanced [Spy Web](https://docs.katalon.com/x/5BZO) feature for more compact and more intelligent.
 
@@ -48,8 +48,8 @@ Enhanced [Spy Web](https://docs.katalon.com/x/5BZO) feature for more compact an
 
 ![](../../images/katalon-studio/docs/version-50/image2017-10-16 13_20_41.png)
 
-**[Import preferences](https://docs.katalon.com/x/eYEw)**
----------------------------------------------------------
+Import preferences
+------------------
 
 Adding new [Import Settings](https://docs.katalon.com/x/eYEw) feature that help users to
 
@@ -58,22 +58,22 @@ Adding new [Import Settings](https://docs.katalon.com/x/eYEw) feature that help
 
 ![](../../images/katalon-studio/docs/version-50/image2017-10-11 11_3_33.png)
 
-**[Execution](https://docs.katalon.com/x/sxVO)**
-------------------------------------------------
+Execution
+---------
 
 Enhanced current headless browser [execution mode](https://docs.katalon.com/x/sxVO) with **Chrome headless** browser. Headless mode is great solution for automated web testing and server environments where UI components are invisible. Thus, testing process is more efficient. 
 
 ![](../../images/katalon-studio/docs/version-50/image2017-10-18 15_44_34.png)
 
-**[Test Suite Collection](https://docs.katalon.com/display/KD/Mobile+Testing+with+Kobiton+Devices#MobileTestingwithKobitonDevices-ExecuteTestSuiteCollection)**
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Test Suite Collection
+---------------------
 
 Katalon Studio supports **Kobiton's devices** as part of [Test Suite Collection](https://docs.katalon.com/display/KD/Mobile+Testing+with+Kobiton+Devices#MobileTestingwithKobitonDevices-ExecuteTestSuiteCollection) environment configuration. Users can **select** preferred **Kobiton devices** for each test suite in test suite collection.
 
 ![](../../images/katalon-studio/docs/version-50/image2017-10-11 13_21_53.png)
 
-**[Keywords](https://docs.katalon.com/x/VQAM)**
------------------------------------------------
+Keywords
+--------
 
 *   Improving "**[Start Application](https://docs.katalon.com/x/zo0Y)**" keyword for Mobile testing. Users are allowed to input both **relative **and **absolute** path for _appFile_ parameter.
 

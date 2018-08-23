@@ -12,7 +12,12 @@ Verify status code valid in a range of status codes in the returned data from a 
 Parameters
 ----------
 
-<table class="wrapped confluenceTable"><colgroup><col><col><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Parameter</th><th class="xtd-0-1 confluenceTh">Parameter Type</th><th class="xtd-0-2 confluenceTh">Mandatory</th><th class="xtd-0-3 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><span style="color: rgb(0,0,0);">responseObject</span></td><td class="xtd-1-1 confluenceTd"><span style="color: rgb(0,0,0);">ResponseObject</span></td><td class="xtd-1-2 confluenceTd">Required</td><td class="xtd-1-3 confluenceTd"><span style="color: rgb(52,52,55);">The object represents an HTTP Response, the user can get responded content type, header properties (sometimes the user may want to get cookies from response header)</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd" colspan="1">fromStatusCode</td><td class="xtd-2-1 confluenceTd" colspan="1">int</td><td class="xtd-2-2 confluenceTd" colspan="1">Required</td><td class="xtd-2-3 confluenceTd" colspan="1">From status code</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd" colspan="1">toStatusCode</td><td class="xtd-3-1 confluenceTd" colspan="1">int</td><td class="xtd-3-2 confluenceTd" colspan="1">Required</td><td class="xtd-3-3 confluenceTd" colspan="1">To status code</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd"><span style="color: rgb(0,0,0);">flowControl</span></td><td class="xtd-4-1 confluenceTd"><span style="color: rgb(0,0,0);">FailureHandling</span></td><td class="xtd-4-2 confluenceTd">Optional</td><td class="xtd-4-3 confluenceTd"><span style="color: rgb(0,0,0);">Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Parameter | Parameter Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| responseObject | ResponseObject | Required | The object represents an HTTP Response, the user can get responded content type, header properties (sometimes the user may want to get cookies from response header) |
+| fromStatusCode | int | Required | From status code |
+| toStatusCode | int | Required | To status code |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

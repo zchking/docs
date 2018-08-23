@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/drag_drop_web_applications_katalon_studio.html
 description: "In this tutorial, we will show you step-by-step how Katalon Studio is used to test the drag and drop feature in a web application."
 ---
-[](#)
-
 ![Drag & Drop testing Katalon Studio](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/crop-1-1024x481.png)
 
 Drag and drop is a fairly popular approach in modern websites to improve their overall UX. However, it could be very challenging to implement automation test for drag and drop components.
@@ -194,5 +192,3 @@ We hope you enjoy the tutorial, please comment if you have any question or anoth
 Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years’ experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
 
 Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)
-
-[](#modal-id-popup)

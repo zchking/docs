@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/setting_mobile_application_automation.html
 description: "Test automation for mobile app required to set up testing environment before performing any test. Learn how to perform mobile testing in Katalon Studio."
 ---
-[](#)
-
 Test automation for mobile application required users to set up proper testing environment before performing any test. To perform Mobile testing on Katalon Studio required:
 
 *   Node.js
@@ -88,5 +86,3 @@ As an example, let’s see how it works in record mode.
 ![Device View pane in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Device-View-pane-in-Katalon.png)
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile on Windows](https://docs.katalon.com/display/KD/Mobile+on+Windows) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

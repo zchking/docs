@@ -15,7 +15,7 @@ The following authorizations are supported:
 *   **OAuth 1.0  
     **
 
-### **Basic**
+### Basic
 
 This is the simplest authorization for a request.
 
@@ -29,7 +29,14 @@ To learn, please refer to [this guide](https://swagger.io/docs/specification/au
 
 The following fields are supported in Katalon Studio:
 
-<table class="relative-table wrapped confluenceTable" style="width: 93.0335%;"><colgroup><col style="width: 10.6195%;"><col style="width: 89.3805%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Name</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Consumer Key</td><td class="xtd-1-1 confluenceTd"><span style="color: rgb(36,39,41);">The API key associated with the application (Twitter, Facebook, etc.). This key (or 'client ID', as Facebook calls it) is what identifies the client, which is a website/service that is trying to access an end-user's resources.</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Consumer Secret</td><td class="xtd-2-1 confluenceTd"><span style="color: rgb(36,39,41);">The client's password that is used to authenticate with the authentication server, which is a Twitter/Facebook/etc. server that authenticates the client.</span></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Signature Method</td><td class="xtd-3-1 confluenceTd"><span style="color: rgb(0,0,0);">The Consumer used this to sign the request <em>For signature method RSA-SHA1, only support OpenSSL RSA Private key with&nbsp;<strong>PKCS#8 or PKCS#1 format</strong></em></span></td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd">Token</td><td class="xtd-4-1 confluenceTd"><span style="color: rgb(36,39,41);">What is issued to the client once the client successfully authenticates itself (using the consumer key &amp; secret). This access token defines the privileges of the client (what data the client can and cannot access)</span></td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd">Token Secret</td><td class="xtd-5-1 confluenceTd"><span style="color: rgb(36,39,41);">The string sent with the access token as a password</span></td></tr><tr class="xtr-6"><td class="xtd-6-0 confluenceTd">Realm</td><td class="xtd-6-1 confluenceTd"><span style="color: rgb(36,39,41);">The Provider basically decides if this is of any importance. It is the counterpart of the WWW-authenticate response header. If a server returns a WWW-authenticate header of 'OAuth realm="<a class="external-link" href="https://api.example.com/" rel="nofollow">https://api.example.com</a>"' then it probably parses that value from the Authenticate request header in the OAuth process.</span></td></tr></tbody></table>
+| Name | Description |
+| --- | --- |
+| Consumer Key | The API key associated with the application (Twitter, Facebook, etc.). This key (or 'client ID', as Facebook calls it) is what identifies the client, which is a website/service that is trying to access an end-user's resources. |
+| Consumer Secret | The client's password that is used to authenticate with the authentication server, which is a Twitter/Facebook/etc. server that authenticates the client. |
+| Signature Method | The Consumer used this to sign the request _For signature method RSA-SHA1, only support OpenSSL RSA Private key with **PKCS#8 or PKCS#1 format**_ |
+| Token | What is issued to the client once the client successfully authenticates itself (using the consumer key & secret). This access token defines the privileges of the client (what data the client can and cannot access) |
+| Token Secret | The string sent with the access token as a password |
+| Realm | The Provider basically decides if this is of any importance. It is the counterpart of the WWW-authenticate response header. If a server returns a WWW-authenticate header of 'OAuth realm="[https://api.example.com](https://api.example.com/)"' then it probably parses that value from the Authenticate request header in the OAuth process. |
 
 To know how to generate one of them, you can refer to this [testing site](http://term.ie/oauth/example/index.php) and apply it based on your service provider. See the example below how to use this information:
 

@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/git_conflict_resolve.html
 description: "Git conflicts occur when two people make changes to the same file concurrently. This article will show you how to resolve Git conflicts using Katalon Studio"
 ---
-[](#)
-
 Why do we have Git conflicts?
 -----------------------------
 
@@ -109,5 +107,3 @@ The situation is a bit more complicated if your automation team already works on
 ![add Katalon project into existing Git](../../images/katalon-studio/tutorials/git_conflict_resolve/add-Katalon-project-into-existing-Git.png)
 
 For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

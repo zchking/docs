@@ -12,11 +12,15 @@ Verify that an expected text appeared in the returned data from a web service ca
 Parameters 
 -----------
 
-<table class="wrapped relative-table confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 7.25552%;"><col style="width: 10.2524%;"><col style="width: 7.41325%;"><col style="width: 75.0789%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Parameter</th><th class="xtd-0-1 confluenceTh">Parameter Type</th><th class="xtd-0-2 confluenceTh">Mandatory</th><th class="xtd-0-3 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><span style="color: rgb(0,0,0);">response&nbsp;</span></td><td class="xtd-1-1 confluenceTd"><span style="color: rgb(0,0,0);">ResponseObject&nbsp;</span></td><td class="xtd-1-2 confluenceTd"><span style="color: rgb(0,0,0);">required</span></td><td class="xtd-1-3 confluenceTd"><span style="color: rgb(0,0,0);">the object represents for a HTTP Response, user can get responded content type, data, header properties (sometime user may want to get cookie from response header)</span></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><span style="color: rgb(0,0,0);">string&nbsp;</span></td><td class="xtd-2-1 confluenceTd"><span style="color: rgb(0,0,0);">String&nbsp;</span></td><td class="xtd-2-2 confluenceTd"><span style="color: rgb(0,0,0);">required</span></td><td class="xtd-2-3 confluenceTd"><span style="color: rgb(0,0,0);">the text you want to look for</span></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><span style="color: rgb(0,0,0);">useRegex</span></td><td class="xtd-3-1 confluenceTd"><span style="color: rgb(0,0,0);">Boolean&nbsp;</span></td><td class="xtd-3-2 confluenceTd"><span style="color: rgb(0,0,0);">required</span></td><td class="xtd-3-3 confluenceTd"><span style="color: rgb(0,0,0);">indicate whether the text is a regular expression</span></td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">flowControl</span></td><td class="xtd-4-1 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">FailureHandling&nbsp;</span></td><td class="xtd-4-2 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">optional</span></td><td class="xtd-4-3 confluenceTd" colspan="1"><span style="color: rgb(0,0,0);">Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Parameter | Parameter Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| response  | ResponseObject  | required | the object represents for a HTTP Response, user can get responded content type, data, header properties (sometime user may want to get cookie from response header) |
+| string  | String  | required | the text you want to look for |
+| useRegex | Boolean  | required | indicate whether the text is a regular expression |
+| flowControl | FailureHandling  | optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
-  
 Returns
-----------
+-------
 
 *   **true**, if your text is found; otherwise, **false**.
 

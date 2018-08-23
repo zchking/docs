@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/viewing_execution_logs.html
 description: "Katalon Studio allows users to review test execution in Log Viewer. This guide shows you to view execution results of automation tests."
 ---
-[](#)
-
 Katalon Studio allows users to review test execution in Log Viewer. You can choose to view **ALL** logs of your test execution or just certain specific ones such as **PASSED, FAILED, ERROR** and **NOT RUN**. This guide provides you basic information when viewing execution results of the automation tests.
 
 Once your test cases/test suites finish execution, you can review the results on the **Log Viewer** views.
@@ -34,6 +32,4 @@ While the test is being executed, the **Log Viewer** will be updated with real-t
 
 ![Scroll Lock Katalon Studio](../../images/katalon-studio/tutorials/viewing_execution_logs/Scroll-Lock.png)
 
-As mentioned above, users can view execution result using two different views in **Log Viewer**. These views allow users to quickly track the test execution and thus make a modification to the test scripts accordingly.  
-
-[](#modal-id-popup)
+As mentioned above, users can view execution result using two different views in **Log Viewer**. These views allow users to quickly track the test execution and thus make a modification to the test scripts accordingly.

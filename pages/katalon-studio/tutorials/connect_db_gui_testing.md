@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/connect_db_gui_testing.html
 description: "Katalon Studio allows users to create custom keywords to address specific needs. With custom keywords, you can connect and perform database testing."
 ---
-[](#)
-
 Katalon Studio allows users to [create custom keywords](https://www.katalon.com/resources-center/tutorials/advanced/create-custom-keyword/) to address specific needs. With custom keywords, you can connect to databases and perform database testing. This tutorial describes details on how to create custom keywords for database testing in Katalon Studio.
 
 Below is a code sample demonstrating how to
@@ -149,5 +147,3 @@ You can add the sample code above to your keyword file and modify the details as
 1\. Create new custom keywords for database connection (see above).
 
 2\. Copy the DB script provided above and paste it into the new keyword editor as illustrated below:![Katalon Defined Keywords](../../images/katalon-studio/tutorials/connect_db_gui_testing/DB-Testing.png)
-
-[](#modal-id-popup)

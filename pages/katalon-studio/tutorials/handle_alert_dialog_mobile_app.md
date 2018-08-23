@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_alert_dialog_mobile_app.html
 description: "Learn how to test the alert dialog which usually appears on mobile app when there are suspicious/potentially dangerous actions using Katalon Studio."
 ---
-[](#)
-
 An alert dialog box is used to send a message to the user. An alert box displays a dialog with a specific message and allows user to accept or reject the alert (OK/Cancel buttons).
 
 The .apk file can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). Start the app. Select **App** \> **Alert Dialogs**.
@@ -154,5 +152,3 @@ Mobile.tap(findTestObject('API Demos Objects/Handle Alert/button_OK'), 30)
 ```
 
 For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

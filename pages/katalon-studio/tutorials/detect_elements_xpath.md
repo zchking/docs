@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/detect_elements_xpath.html
 description: "This article shows you how Katalon Studio provides supports to deal with the issue of detecting elements with Xpath."
 ---
-[](#)
-
 Detecting UI elements of the application under test (AUT) is crucial for automation testing since they are the main objects in test cases and test scripts. However, identifying them manually requires much time and experience in HTML. This task becomes even more challenging for objects that could not be identified by their common attributes or are located deep within another element (nested objects). This article shows you how Katalon Studio provides supports to deal with such cases.
 
 What is XPath?
@@ -67,5 +65,3 @@ Here are a few examples:
 Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 
 For more information on XPath Axes, refer to **[XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp)** from **[www.w3schools.com](https://www.w3schools.com)**.
-
-[](#modal-id-popup)

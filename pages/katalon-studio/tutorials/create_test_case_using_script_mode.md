@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_script_mode.html
 description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the Script mode of test cases."
 ---
-[](#)
-
 In addition to the **[Manual view](https://docs.katalon.com/x/9YEw)**, Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily edit test scripts in this view.
 
 This tutorial walks you through the steps needed to manually write a very basic automation test script using Katalon Studio. After going through this article, you will be able to understand and be able to use _import_ statements and **[built-in keywords](https://docs.katalon.com/x/VQAM)** to compose test scripts. It’s recommended that you should have some basic scripting background, preferably using **[Groovy](http://groovy-lang.org/)**, to efficiently use the scripting capability.
@@ -87,5 +85,3 @@ Where **Object ID** is the ID of that object in Katalon Studio.
 Katalon Studio should be able to execute the script of the test case. Test execution results are shown in Log Viewer as below:
 
 ![Test execution Dialog](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/13b-Katalon-Log-viewer.png)
-
-[](#modal-id-popup)

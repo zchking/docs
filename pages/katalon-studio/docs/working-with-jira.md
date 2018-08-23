@@ -71,7 +71,26 @@ Submit options will be available in Test Reports after JIRA Integration setup is
     
     Where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Option</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">Create as New</td><td class="xtd-1-1 confluenceTd">A new Issue will be submitted to JIRA.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Create as Sub Issue</td><td class="xtd-2-1 confluenceTd"><div class="content-wrapper"><p>A sub-task for an existing JIRA Issue will be created. You will be asked to provide the <strong>ID</strong> of an existing JIRA Issue to create sub-task within.</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/working-with-jira/image2017-8-2 16_12_21.png" data-image-src="/download/attachments/5115954/image2017-8-2%2016%3A12%3A21.png?version=1&amp;modificationDate=1501665141000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116019" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-8-2 16:12:21.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5115954" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Link to existing Issue</td><td class="xtd-3-1 confluenceTd"><div class="content-wrapper"><p><span>This option will append execution details to an existing JIRA Issue. You will be asked to provide the ID of existing JIRA Issue for this.</span></p><p><span><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/working-with-jira/image2016-11-3 14_28_29.png" data-image-src="/download/attachments/5115954/image2016-11-3%2014%3A28%3A29.png?version=1&amp;modificationDate=1501664515000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116014" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2016-11-3 14:28:29.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5115954" data-linked-resource-container-version="1"></span></span></p></div></td></tr></tbody></table>
+    | Option | Description |
+    | --- | --- |
+    | Create as New | A new Issue will be submitted to JIRA. |
+    | Create as Sub Issue | 
+    A sub-task for an existing JIRA Issue will be created. You will be asked to provide the **ID** of an existing JIRA Issue to create sub-task within.
+    
+    ![](../../images/katalon-studio/docs/working-with-jira/image2017-8-2 16_12_21.png)
+    
+    
+    
+     |
+    | Link to existing Issue | 
+    
+    This option will append execution details to an existing JIRA Issue. You will be asked to provide the ID of existing JIRA Issue for this.
+    
+    ![](../../images/katalon-studio/docs/working-with-jira/image2016-11-3 14_28_29.png)
+    
+    
+    
+     |
     
 4.  In case of creating new JIRA Issue (or Sub-task), a **JIRA native submission form** will be displayed. Following is an example of creating new JIRA Issue:  
     ![](../../images/katalon-studio/docs/working-with-jira/image2016-11-3 14_32_53.png)  

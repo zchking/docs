@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/introduction_api_testing.html
 description: "An overview of API testing with candid answers to What - When - Why-questions that shed light on the mysterious land hidden inside the boundary of testing."
 ---
-[](#)
-
 This article aims to provide an overview of API testing with candid answers to the What – When – Why-questions that hopefully shed light on this mysterious land hidden inside the boundary of testing – engineering realm.
 
 You will also find potential challenges with API test implementation – best practices and how to choose right toolset to help you achieve API testing with a higher success chance.
@@ -261,5 +259,3 @@ _**The interest in API testing has been trending up over the last five years, ac
 [![](../../images/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png)](https://www.katalon.com/download)
 
 Read more:_[Top 10 API Testing Tools (Details and updates done for you!)](https://medium.com/@alicealdaine/top-10-api-testing-tools-rest-soap-services-5395cb03cfa9)_
-
-[](#modal-id-popup)

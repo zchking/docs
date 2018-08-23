@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_web_tables.html
 description: "A Web table is a collection of rows and columns. This article will show you how to handle web tables using Katalon Studio."
 ---
-[](#)
-
 What is Web Tables?
 -------------------
 
@@ -180,5 +178,3 @@ Switch to **manual mode** tab to view test case step by step.
 Examples above provide a basic understanding on how to handle web tables in Katalon Studio. If you are new to automation testing, it is recommended to take advantage of Manual Mode in Katalon Studio. For advanced testers, Script Mode provides you flexibility in creating and manipulating tests. Please download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

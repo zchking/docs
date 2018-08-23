@@ -17,7 +17,7 @@
 <meta id="confluence-context-path" name="confluence-context-path" content="">
 <meta id="confluence-base-url" name="confluence-base-url" content="https://docs.katalon.com">
 
-<meta id="atlassian-token" name="atlassian-token" content="44e09e57ee4b0349e21b6c84d3bd827583fffb62">
+<meta id="atlassian-token" name="atlassian-token" content="36abf2058a643b1ca6fbbaf46a4fda35f0361e2e">
 
 
 <script type="text/javascript">
@@ -28,14 +28,14 @@
 
     <meta name="robots" content="noindex,nofollow">
     <meta name="robots" content="noarchive">
-    <meta name="confluence-request-time" content="1534931241260">
+    <meta name="confluence-request-time" content="1534998178924">
         
     
         
             <meta name="ajs-is-space-admin" content=""> <meta name="ajs-has-space-config" content="">
             <meta name="ajs-use-keyboard-shortcuts" content="true">
             <meta name="ajs-discovered-plugin-features" content="$discoveredList">
-            <meta name="stp-license-product-name" content="Confluence"/> <meta name="stp-license-days-to-expiry" content="-242"/> <meta name="stp-license-is-admin" content="false"/> <meta name="stp-license-should-keep-banner-hidden" content="false"/>
+            <meta name="stp-license-product-name" content="Confluence"/> <meta name="stp-license-days-to-expiry" content="-243"/> <meta name="stp-license-is-admin" content="false"/> <meta name="stp-license-should-keep-banner-hidden" content="false"/>
             <meta name="ajs-keyboardshortcut-hash" content="6cf5ee89fa7b67703d28f2283cb71eca">
             <meta name="ajs-is-confluence-admin" content="false">
             <meta name="ajs-connection-timeout" content="10000">
@@ -56,7 +56,7 @@
             <meta name="ajs-global-settings-attachment-max-size" content="104857600">
             <meta name="ajs-user-locale" content="en_GB">
             <meta name="ajs-enabled-dark-features" content="confluence.view.edit.transition,confluence-inline-comments-resolved,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,file-annotations,confluence.efi.onboarding.rich.space.content,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentReplyEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,confluence.table.resizable,notification.batch,confluence-inline-comments-rich-editor,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentMentionUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.hipchat.api.events.HipChatUserMapped,quick-reload-inline-comments-flags,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent,clc.quick.create,cql.search.screen,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,pdf-preview,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,previews.sharing,previews.versions,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingLessUsersEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentRemoveEvent,confluence.wrap.macro,atlassian.aui.raphael.disabled,previews.conversion-service,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,editor.ajax.save,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentResolveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,previews.sharing.pushstate,file-annotations.likes,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingNoSpaceCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareAttachmentEvent,confluence-inline-comments,confluence-inline-comments-dangling-comment">
-            <meta name="ajs-atl-token" content="44e09e57ee4b0349e21b6c84d3bd827583fffb62">
+            <meta name="ajs-atl-token" content="36abf2058a643b1ca6fbbaf46a4fda35f0361e2e">
             <meta name="ajs-confluence-flavour" content="VANILLA">
             <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
             <meta name="ajs-date.format" content="MMM dd, yyyy">
@@ -98,7 +98,7 @@ if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
 
     
         
-            <meta name="stp-license-product-name" content="Confluence"/> <meta name="stp-license-days-to-expiry" content="-242"/> <meta name="stp-license-is-admin" content="false"/> <meta name="stp-license-should-keep-banner-hidden" content="false"/>
+            <meta name="stp-license-product-name" content="Confluence"/> <meta name="stp-license-days-to-expiry" content="-243"/> <meta name="stp-license-is-admin" content="false"/> <meta name="stp-license-should-keep-banner-hidden" content="false"/>
     
 
             

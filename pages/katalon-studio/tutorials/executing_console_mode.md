@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/executing_console_mode.html
 description: "This easy-to-follow guide will walk you through steps on how to execute test cases using the console mode in Katalon Studio."
 ---
-[](#)
-
 One of the advantages of Katalon Studio is that you can execute automation test without launching Katalon Studio IDE by using command line mode execution. Users use this function to run execution batch files or planning jobs in CI Tools. This easy-to-follow guide will walk you through steps on how to execute test cases using the command prompt.
 
 Execute Katalon in CMD
@@ -97,5 +95,3 @@ katalon -propertiesFile="<absolute path to console.properties file" -runMode=con
 ```
 
 This command runs the test on IE instead of Chrome as _browserType_ is set to IE.
-
-[](#modal-id-popup)

@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/executing_test_case.html
 description: "Katalon Studio supports executing test case in multiple environments, allowing testers to validate their tests across browsers/platforms."
 ---
-[](#)
-
 Katalon Studio supports executing automation tests in multiple environments, allowing testers to validate their tests across browsers/platforms. This tutorial will walk you through the steps needed to execute test cases in the Katalon Studio supported environments.  
 
 Currently, Katalon Studio supports executing automation test in the following environments:
@@ -73,5 +71,3 @@ Job Progress
 The Job Progress window will be triggered automatically to show the progress while your test case is being executed. You can switch the Job Progress of different executions to review their details accordingly.
 
 ![Switch the Job Progress of different executions](../../images/katalon-studio/tutorials/executing_test_case/Job-progress.png)
-
-[](#modal-id-popup)

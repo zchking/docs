@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_textbox_checkbox_radio_button.html
 description: "This article will help you to discover what is textbox, checkbox, radio button and how to handle them using Katalon Studio in particular scenarios."
 ---
-[](#)
-
 This tutorial illustrates how to handle Textbox, Checkbox, Radio buttons using Katalon Studio. The reference source code is provided at the end of the tutorial.
 
 How to Handle Textbox
@@ -364,5 +362,3 @@ The source code is available to be downloaded [here](https://github.com/katalon
 For further instructions and help, refer to [\[WebUI\] Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Text) and [\[WebUI\] Checkbox](https://docs.katalon.com/display/KD/%5BWebUI%5D+Checkbox).
 
 You can also refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/) for more tutorials and discussions.
-
-[](#modal-id-popup)

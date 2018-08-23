@@ -33,10 +33,18 @@ Description
 | expectedObject  | Object  | Required | Represent the expected object. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
-Returns 
---------
+ Returns 
+---------
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Param Type</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><span style="color: rgb(0,0,0);">Boolean</span></td><td class="xtd-1-1 confluenceTd"><ul><li><p><span style="color: rgb(0,0,0);"><strong>true</strong>&nbsp;if the actual number is greater than or equal to the expected number.</span></p></li><li><p><span style="color: rgb(0,0,0);"><strong>false</strong>&nbsp;if the actual number is NOT greater than or equal to the expected number.</span><span style="color: rgb(128,128,128);">&nbsp;</span></p></li></ul></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| Boolean | 
+*   **true** if the actual number is greater than or equal to the expected number.
+    
+*   **false** if the actual number is NOT greater than or equal to the expected number.
+    
+
+ |
 
 Example 
 --------

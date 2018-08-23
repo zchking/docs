@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_images_mobile_app.html
 description: "Learn how to handle images in mobile app using Katalon Studio including capture picture from mobile camera, app's screenshots and upload image from gallery."
 ---
-[](#)
-
 Capturing a Picture from Mobile Camera
 --------------------------------------
 
@@ -306,5 +304,3 @@ def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
 ```
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [\[Mobile\] Take Screenshot](https://docs.katalon.com/display/KD/%5BMobile%5D+Take+Screenshot) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

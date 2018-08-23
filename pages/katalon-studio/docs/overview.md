@@ -8,7 +8,11 @@ Katalon Studio is a simple and powerful automation solution built for testers ev
 
 If you are a first-time user, check out our **[Getting Started](/display/KD/Getting+Started)** page. Below are some links that may help you quickly navigate the Katalon resources. 
 
-<table class="wrapped relative-table confluenceTable" style="width: 48.0693%;"><colgroup><col style="width: 37.4384%;"><col style="width: 62.5616%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh" colspan="1">&nbsp;</th><th class="xtd-0-1 confluenceTh">Section</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd" colspan="1">Tutorials</td><td class="xtd-1-1 confluenceTd" colspan="1"><a class="external-link" href="https://www.katalon.com/resources-center/tutorials/" rel="nofollow"><strong>Learning Center</strong>&nbsp;</a></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd" colspan="1">Documentation</td><td class="xtd-2-1 confluenceTd" colspan="1"><strong><a href="/display/KD/Overview">Katalon Studio</a></strong></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd" colspan="1">Support</td><td class="xtd-3-1 confluenceTd" colspan="1"><a class="external-link" href="https://forum.katalon.com/" rel="nofollow"><strong>Katalon Community</strong>&nbsp;</a></td></tr></tbody></table>
+|   | Section |
+| --- | --- |
+| Tutorials | [**Learning Center** ](https://www.katalon.com/resources-center/tutorials/) |
+| Documentation | **[Katalon Studio](/display/KD/Overview)** |
+| Support | [**Katalon Community** ](https://forum.katalon.com/) |
 
 **[  
 Tutorials](https://www.katalon.com/resources-center/tutorials/)**
@@ -25,7 +29,13 @@ Our documentation will help you with configurations, features utilization and im
 
 Additionally, we also have other resources available to assist your automation testing process. 
 
-<table class="wrapped relative-table confluenceTable" style="width: 48.5422%;"><colgroup><col style="width: 36.5854%;"><col style="width: 63.4146%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Section</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><a href="/display/KD/Built-in+Keywords">Built-in Keywords</a></td><td class="xtd-1-1 confluenceTd">A comprehensive list of all built-in keywords for reference</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><a class="external-link" href="https://github.com/katalon-studio-samples" rel="nofollow">Katalon Repository</a></td><td class="xtd-2-1 confluenceTd">A Github repository of Katalon sample projects</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><a href="/pages/viewpage.action?pageId=3179464">Known Issues / Limitations</a></td><td class="xtd-3-1 confluenceTd">List of all currently known issues in Katalon Studio.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd"><a href="https://docs.katalon.com/display/KD/Tips+and+Tricks" rel="nofollow">Tips and Tricks</a></td><td class="xtd-4-1 confluenceTd">Collection of quick tips and tricks from our <a class="external-link" href="https://forum.katalon.com/discussions" rel="nofollow">Community</a></td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd"><a class="external-link" href="https://api-docs.katalon.com/index.html" rel="nofollow">API Documentation</a></td><td class="xtd-5-1 confluenceTd">List of all existing Katalon Studio APIs and its details information</td></tr></tbody></table>
+| Section | Description |
+| --- | --- |
+| [Built-in Keywords](/display/KD/Built-in+Keywords) | A comprehensive list of all built-in keywords for reference |
+| [Katalon Repository](https://github.com/katalon-studio-samples) | A Github repository of Katalon sample projects |
+| [Known Issues / Limitations](/pages/viewpage.action?pageId=3179464) | List of all currently known issues in Katalon Studio. |
+| [Tips and Tricks](https://docs.katalon.com/display/KD/Tips+and+Tricks) | Collection of quick tips and tricks from our [Community](https://forum.katalon.com/discussions) |
+| [API Documentation](https://api-docs.katalon.com/index.html) | List of all existing Katalon Studio APIs and its details information |
 
 **[  
 Support](https://forum.katalon.com/)**

@@ -89,5 +89,3 @@ _Note: You can specify the target browser to run the script by selecting it in t
 Congratulations! You have just successfully created and executed your first test case.
 
 _For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_
-
-[](#modal-id-popup)

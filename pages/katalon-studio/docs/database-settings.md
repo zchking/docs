@@ -10,4 +10,16 @@ These settings allow you to define global database connection to be used in othe
 
 Where:
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh">Field</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">Username</td><td class="confluenceTd">The username to authenticate with connected database server</td></tr><tr><td class="confluenceTd">Password</td><td class="confluenceTd"><span>The password to authenticate with connected database server</span></td></tr><tr><td class="confluenceTd">Connection URL</td><td class="confluenceTd"><p>The connection string of database server. Katalon Studio supports following databases:</p><ul><li>MySQL</li><li>SQLServer</li><li>Oracle</li><li>Postgre</li></ul></td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| Username | The username to authenticate with connected database server |
+| Password | The password to authenticate with connected database server |
+| Connection URL | 
+The connection string of database server. Katalon Studio supports following databases:
+
+*   MySQL
+*   SQLServer
+*   Oracle
+*   Postgre
+
+ |

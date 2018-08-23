@@ -22,7 +22,45 @@ Register qTest location for test suite
       
     From the test structure, select the location to be integrated with the Katalon test suite then click **OK** to continue. Further options are as following:
     
-    <table class="relative-table wrapped confluenceTable" style="width: 78.5479%;"><colgroup><col style="width: 30.1788%;"><col style="width: 69.8212%;"></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Option</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th></tr><tr><td class="confluenceTd"><p>Create only</p></td><td class="confluenceTd"><ul><li>Create association between the Katalon test suite and the selected qTest location.</li></ul></td></tr><tr><td class="confluenceTd"><p>Create and upload</p></td><td class="confluenceTd"><ul><li>Create association between the Katalon test suite and the selected qTest location.</li><li>Upload the Katalon test suite to the selected qTest location.</li></ul></td></tr><tr><td class="confluenceTd"><p>Create, upload and set as default</p></td><td class="confluenceTd"><ul><li>Create association between the Katalon test suite and the selected qTest location.</li><li>Upload the Katalon test suite to the selected qTest location.</li><li>Set the qTest location as default for uploading execution result of the Katalon test suite.</li></ul></td></tr></tbody></table>
+    | 
+    **Option**
+    
+     | 
+    
+    **Description**
+    
+     |
+    | --- | --- |
+    | 
+    
+    Create only
+    
+     | 
+    
+    *   Create association between the Katalon test suite and the selected qTest location.
+    
+     |
+    | 
+    
+    Create and upload
+    
+     | 
+    
+    *   Create association between the Katalon test suite and the selected qTest location.
+    *   Upload the Katalon test suite to the selected qTest location.
+    
+     |
+    | 
+    
+    Create, upload and set as default
+    
+     | 
+    
+    *   Create association between the Katalon test suite and the selected qTest location.
+    *   Upload the Katalon test suite to the selected qTest location.
+    *   Set the qTest location as default for uploading execution result of the Katalon test suite.
+    
+     |
     
 3.  Once integrated, Katalon Studio will provide details information such as location and name of parent folder on qTest, integration information ( Parent IID, Test Suite ID, and Alias) as shown below:
     
@@ -31,11 +69,72 @@ Register qTest location for test suite
     
     Where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Icon</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th></tr><tr><td class="confluenceTd"><div class="content-wrapper"><span class="confluence-embedded-file-wrapper"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/integrate-test-suite/84.png" data-image-src="/download/attachments/3178951/84.png?version=1&amp;modificationDate=1477638259000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="3178941" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="84.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178951" data-linked-resource-container-version="1"></span></span></div></td><td class="confluenceTd"><p>The Katalon test suite is integrated to the qTest location.</p></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><span class="confluence-embedded-file-wrapper"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/integrate-test-suite/85.png" data-image-src="/download/attachments/3178951/85.png?version=1&amp;modificationDate=1477638259000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="3178942" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="85.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178951" data-linked-resource-container-version="1"></span></span></div></td><td class="confluenceTd"><p>The Katalon test suite is not integrated to the qTest location.</p></td></tr></tbody></table>
+    | 
+    **Icon**
+    
+     | 
+    
+    **Description**
+    
+     |
+    | --- | --- |
+    | 
+    
+    ![](../../images/katalon-studio/docs/integrate-test-suite/84.png)
+    
+     | 
+    
+    The Katalon test suite is integrated to the qTest location.
+    
+     |
+    | 
+    
+    ![](../../images/katalon-studio/docs/integrate-test-suite/85.png)
+    
+     | 
+    
+    The Katalon test suite is not integrated to the qTest location.
+    
+     |
     
     If the selected **qTest location** is integrated, then the related information can be viewed in the **Integration Information** section where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr><th class="confluenceTh"><p><strong>Field</strong></p></th><th class="confluenceTh"><p><strong>Description</strong></p></th></tr><tr><td class="confluenceTd"><p>Test Suite ID</p></td><td class="confluenceTd"><p>The ID of the integrated qTest test suite.</p></td></tr><tr><td class="confluenceTd"><p>Alias</p></td><td class="confluenceTd"><p>The alias of the integrated qTest test suite.</p></td></tr><tr><td class="confluenceTd"><p>Parent ID</p></td><td class="confluenceTd"><p>The ID of the integrated qTest location.</p></td></tr></tbody></table>
+    | 
+    **Field**
+    
+     | 
+    
+    **Description**
+    
+     |
+    | --- | --- |
+    | 
+    
+    Test Suite ID
+    
+     | 
+    
+    The ID of the integrated qTest test suite.
+    
+     |
+    | 
+    
+    Alias
+    
+     | 
+    
+    The alias of the integrated qTest test suite.
+    
+     |
+    | 
+    
+    Parent ID
+    
+     | 
+    
+    The ID of the integrated qTest location.
+    
+     |
     
 4.  You can also quickly navigate to **qTest** **parent** folder where the test suite(s) is uploaded by clicking on the **Navigate** button.  
       
@@ -94,7 +193,7 @@ Disintegrate test suites
 
 Remove the integration between **Katalon test suites** and its registered **qTest locations**.
 
-### Disintegrate **a test suite** from qTest
+### Disintegrate a test suite from qTest
 
 1.  You have two methods to remove the connection between a test suite and registered qTest locations:
     1.  Navigate to the **Integration** tab of the test suite. Select a **qTest location** and click on the **Disintegrate** button.  
@@ -105,7 +204,7 @@ Remove the integration between **Katalon test suites** and its registered **qTes
         
 2.  Click **OK** on the Confirmation dialog. The integration between this test suite and all registered qTest locations will be removed.
 
-### Disintegrate a **test suite folder** from qTest
+### Disintegrate a test suite folder from qTest
 
 You can remove the integration between a test suite folder (together with all its test suites) and all registered qTest locations by following the steps below:
 

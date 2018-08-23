@@ -48,7 +48,15 @@ Katalon Studio test execution status can be queried via [JQL](https://confluence
 
 Where Status value can be one of the following:
 
-<table class="wrapped relative-table confluenceTable" style="width: 62.5981%;"><colgroup><col style="width: 15.6206%;"><col style="width: 84.3352%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Status</th><th class="xtd-0-1 confluenceTh" colspan="1">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">PASSED</td><td class="xtd-1-1 confluenceTd" colspan="1">The automation tests that executed successfully.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">FAILED</td><td class="xtd-2-1 confluenceTd" colspan="1">The automation tests that failed to execute at certain steps.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><p>INCOMPLETE</p></td><td class="xtd-3-1 confluenceTd" colspan="1">The automation tests that did not finish running all the steps due to other factors such as wrong syntax, power shortage, disconnected network, etc.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd" colspan="1">ERROR</td><td class="xtd-4-1 confluenceTd" colspan="1">The automation tests that have some errors occurred.</td></tr></tbody></table>
+| Status | Description |
+| --- | --- |
+| PASSED | The automation tests that executed successfully. |
+| FAILED | The automation tests that failed to execute at certain steps. |
+| 
+INCOMPLETE
+
+ | The automation tests that did not finish running all the steps due to other factors such as wrong syntax, power shortage, disconnected network, etc. |
+| ERROR | The automation tests that have some errors occurred. |
 
 For example, to search for all issues that have failed in Katalon Studio test execution_:_
 

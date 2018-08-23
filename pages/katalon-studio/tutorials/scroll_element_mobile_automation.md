@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/scroll_element_mobile_automation.html
 description: "This tutorial illustrates the Scroll Element which contains the given text in the mobile automation via a sample project in Katalon Studio."
 ---
-[](#)
-
 Scroll To Text
 --------------
 
@@ -92,5 +90,3 @@ def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
 ```
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Scroll to Text](https://docs.katalon.com/display/KD/%5BMobile%5D+Scroll+To+Text) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

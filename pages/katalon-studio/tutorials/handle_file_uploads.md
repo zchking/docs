@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_file_uploads.html
 description: "This tutorial will show you how to handle the file upload feature and verifying downloaded files using Katalon Studio."
 ---
-[](#)
-
 In general, we need to automate scenarios like uploading a file into the application for attaching profile pictures or documents. This tutorial demonstrates handling the file upload feature and verifying downloaded files using Katalon Studio.
 
 What is File Upload in testing?
@@ -143,5 +141,3 @@ return flag
 We have just learned how to handle file uploads and verify downloaded files using Katalon Studio. You can download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) guideline.
-
-[](#modal-id-popup)

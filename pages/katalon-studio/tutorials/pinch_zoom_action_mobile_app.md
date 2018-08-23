@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/pinch_zoom_action_mobile_app.html
 description: "This tutorial is to test the pinch zoom action in the mobile app with sample project using Android O.S."
 ---
-[](#)
-
 This tutorial is to test the **Pinch To Zoom In** action in the mobile app. The app used for this demonstration can be downloaded here. We will be using Android O.S for this tutorial, so please make sure that your Android device **API** is **greater** than **18**.
 
 ### Scenario
@@ -135,5 +133,3 @@ Mobile.closeApplication()
 ```
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Pinch To Zoom In At Position](https://docs.katalon.com/display/KD/%5BMobile%5D+Pinch+To+Zoom+In+At+Position) guide and join us on [Katalon Forum](http://forum.katalon.com/).
-
-[](#modal-id-popup)

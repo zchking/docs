@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/pop_up_dialog_issue.html
 description: "When performing automation testing, you may sometimes deal with pop-up dialog issue. This tutorial will show you how to deal with that."
 ---
-[](#)
-
 When performing automation testing, you may sometimes deal with pop-up dialog issue that needs to be handled differently from normal test objects. This tutorial shows you how to deal with pop-up controls.
 
 What is a pop-up?
@@ -248,5 +246,3 @@ _**Exception**_
 _Noted that _**_NoSuchWindowException_**_ exception will be thrown when window target to be switched doesn’t exist._
 
 For further instructions and help, please refer to [\[WebUI\] Window](https://docs.katalon.com/x/RwnR) and join us on [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)

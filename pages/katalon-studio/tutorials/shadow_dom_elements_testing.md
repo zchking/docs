@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/shadow_dom_elements_testing.html
 description: "What is Shadow DOM? This article will show you how Katalon Studio solves Shadow DOM problem and let you test shadow DOM elements in a straightforward way"
 ---
-[](#)
-
 What is Shadow DOM?
 -------------------
 
@@ -82,5 +80,3 @@ Once finished, the aStoreLink object has Shadow Root Parent as below
 Congratulations! You have successfully created and run your first Shadow DOM test script with Katalon Studio. For more advanced features and keywords, please visit Katalon Studio tutorials center
 
 The sample project for this tutorial can be found at [https://github.com/katalon-studio/ShadowDOMSampleProject](https://github.com/katalon-studio/ShadowDOMSampleProject).
-
-[](#modal-id-popup)

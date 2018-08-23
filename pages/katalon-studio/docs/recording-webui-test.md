@@ -22,7 +22,19 @@ Follow these basic steps to get familiar with the Record & Playback features for
     ![](../../images/katalon-studio/docs/recording-webui-test/image2017-1-9 17_8_37.png)  
     Where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Type</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">New Browsers</td><td class="xtd-1-1 confluenceTd">Launch a new browser and start recording actions from that browser.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Active Browsers</td><td class="xtd-2-1 confluenceTd"><div class="content-wrapper"><p>Focus on <strong>the current active Chrome browser</strong> and start recording actions from it. You will be asked for installation of Katalon Utility:</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/recording-webui-test/image2017-2-23 11_54_29.png" data-image-src="/download/attachments/13700384/image2017-2-23%2011%3A54%3A29.png?version=1&amp;modificationDate=1532503447000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13700381" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-23 11:54:29.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13700384" data-linked-resource-container-version="2"></span></p><p>Refer to <a href="/pages/viewpage.action?pageId=5123595">Katalon Addon for Chrome</a> for more details.</p></div></td></tr></tbody></table>
+    | Type | Description |
+    | --- | --- |
+    | New Browsers | Launch a new browser and start recording actions from that browser. |
+    | Active Browsers | 
+    Focus on **the current active Chrome browser** and start recording actions from it. You will be asked for installation of Katalon Utility:
+    
+    ![](../../images/katalon-studio/docs/recording-webui-test/image2017-2-23 11_54_29.png)
+    
+    Refer to [Katalon Addon for Chrome](/pages/viewpage.action?pageId=5123595) for more details.
+    
+    
+    
+     |
     
 5.  Execute all your test steps on the browser. All of your actions performed on the browser will be recorded by Katalon Studio.   
     ![](../../images/katalon-studio/docs/recording-webui-test/image2017-6-28 16_14_6.png)  

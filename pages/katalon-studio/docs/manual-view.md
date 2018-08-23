@@ -46,7 +46,24 @@ Follow these steps to automate the above test scenario in **Manual view**:
     ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_6_59.png)  
     Where:
     
-    <table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Field</th><th class="xtd-0-1 confluenceTh">Description</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd">No</td><td class="xtd-1-1 confluenceTd">The number of parameter for the selected keyword.</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd">Param Name</td><td class="xtd-2-1 confluenceTd">The name of the parameter.</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd">Param Type</td><td class="xtd-3-1 confluenceTd">The required data type for the parameter.</td></tr><tr class="xtr-4"><td class="xtd-4-0 confluenceTd">Value Type</td><td class="xtd-4-1 confluenceTd">The type of your input value (e.g. strings, <a href="https://docs.katalon.com/display/KD/Variable+Types" rel="nofollow">variables</a>, <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow">data sources</a>...)</td></tr><tr class="xtr-5"><td class="xtd-5-0 confluenceTd">Value</td><td class="xtd-5-1 confluenceTd"><div class="content-wrapper"><p>The input value for this parameter.</p><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p><span>Input value can be varied based on&nbsp;</span><strong>Value Type</strong><span>. Refer to&nbsp;</span><a href="https://docs.katalon.com/display/KD/Value+Types" rel="nofollow">Value Types in Katalon</a><span>&nbsp;for more details.</span></p></div></div></div></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | No | The number of parameter for the selected keyword. |
+    | Param Name | The name of the parameter. |
+    | Param Type | The required data type for the parameter. |
+    | Value Type | The type of your input value (e.g. strings, [variables](https://docs.katalon.com/display/KD/Variable+Types), [data sources](https://docs.katalon.com/display/KD/Manage+Test+Data)...) |
+    | Value | 
+    The input value for this parameter.
+    
+    Input value can be varied based on **Value Type**. Refer to [Value Types in Katalon](https://docs.katalon.com/display/KD/Value+Types) for more details.
+    
+    
+    
+    
+    
+    
+    
+     |
     
       
     For now, enter the URL of Katalon demo AUT ([http://demoaut.katalon.com](http://demoaut.katalon.com)) into the **Value** column then click **OK**.   

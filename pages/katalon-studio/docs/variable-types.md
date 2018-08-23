@@ -6,7 +6,42 @@ description:
 ---
 There are three types of variables supported in Katalon Studio, as below:
 
-<table class="wrapped confluenceTable"><colgroup><col><col></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh"><p><strong>Variable Type</strong></p></th><th class="xtd-0-1 confluenceTh"><p><strong>Description</strong></p></th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd"><p>Private variable</p></td><td class="xtd-1-1 confluenceTd"><p>A private variable can be referred only within the scope of the test case where it is defined.</p></td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd"><p>Local Variable</p></td><td class="xtd-2-1 confluenceTd"><p>A public variable can be exposed as the parameter for the test case where it is defined</p></td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd"><p>Global Variable</p></td><td class="xtd-3-1 confluenceTd"><p>A global variable can be referred anywhere of your project.</p></td></tr></tbody></table>
+| 
+**Variable Type**
+
+ | 
+
+**Description**
+
+ |
+| --- | --- |
+| 
+
+Private variable
+
+ | 
+
+A private variable can be referred only within the scope of the test case where it is defined.
+
+ |
+| 
+
+Local Variable
+
+ | 
+
+A public variable can be exposed as the parameter for the test case where it is defined
+
+ |
+| 
+
+Global Variable
+
+ | 
+
+A global variable can be referred anywhere of your project.
+
+ |
 
 Refer to the subsequence sections for how to define a variable of each type.
 

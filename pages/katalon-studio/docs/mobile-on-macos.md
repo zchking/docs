@@ -7,7 +7,11 @@ description:
 Katalon Studio Supported Environment on macOS
 ---------------------------------------------
 
-<table class="relative-table wrapped confluenceTable" style="width: 100.0%;"><colgroup><col style="width: 37.4702%;"><col style="width: 62.5298%;"></colgroup><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh" style="text-align: center;">&nbsp;</th><th class="xtd-0-1 confluenceTh" colspan="1" style="text-align: center;">Version</th></tr><tr class="xtr-1"><td class="xtd-1-0 confluenceTd" style="text-align: center;">Appium</td><td class="xtd-1-1 confluenceTd" colspan="1" style="text-align: center;">1.6, 1.7</td></tr><tr class="xtr-2"><td class="xtd-2-0 confluenceTd" colspan="1" style="text-align: center;">Android</td><td class="xtd-2-1 confluenceTd" colspan="1" style="text-align: center;">6.x, 7.x</td></tr><tr class="xtr-3"><td class="xtd-3-0 confluenceTd" colspan="1" style="text-align: center;">iOS</td><td class="xtd-3-1 confluenceTd" colspan="1" style="text-align: center;">9, 10,11</td></tr></tbody></table>
+|   | Version |
+| --- | --- |
+| Appium | 1.6, 1.7 |
+| Android | 6.x, 7.x |
+| iOS | 9, 10,11 |
 
 Installing Dependencies
 -----------------------
@@ -42,7 +46,7 @@ Setting Up Your Devices
 *   Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device.
 *   Install Android SDK: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine doesn't have it. Please allow Katalon Studio to install it in this case.
 
-### iOS
+### iOS 
 
 *   Connect your iOS Devices to your computer via a USB cable. Just confirm if prompted to accept/trust the phone.
 *   If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (Settings → Safari → Advanced → Web Inspector)

@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/debugging_test_case.html
 description: "The debugging mode makes debugging easy to use, allowing users to quickly investigate the issues that cause failure for their automation tests."
 ---
-[](#)
-
 Katalon Studio provides users with the capability for debugging test scripts. Its Debug mode is designed to make debugging easy to use, allowing users to quickly investigate the issues that cause failure for their automation tests.
 
 The following presents the basic steps to debug a test case:
@@ -38,5 +36,3 @@ Where:
 
 6\. Stop execution when you complete debugging.  
 Although the debugging mode in Katalon Studio is very similar to that of the popular Eclipse IDE, we manage to retain just enough function to keep the UI clean while providing users with all required options to investigate issues when needed. If you have any suggestion or need any support, please send your request [here](https://www.katalon.com/#submit-ticket).
-
-[](#modal-id-popup)

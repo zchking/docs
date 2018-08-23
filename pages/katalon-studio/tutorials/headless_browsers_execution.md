@@ -4,8 +4,6 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/headless_browsers_execution.html
 description: "Katalon supports Headless Browsers (Chrome & Firefox) which can save project team tremendous amount of time and smoothly integrate in the CD/CI process."
 ---
-[](#)
-
 What is Headless Browser Testing?
 ---------------------------------
 
@@ -72,5 +70,3 @@ Furthermore, using Headless browser in console mode execution is recommended for
 Refer to this [guide](https://docs.katalon.com/pages/viewpage.action?pageId=786527) for leveraging Katalon Studio in CI/CD process.
 
 For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
-
-[](#modal-id-popup)
