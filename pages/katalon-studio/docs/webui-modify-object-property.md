@@ -12,24 +12,72 @@ Modify existing property or add a new property to test object. Use when test obj
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| testObject | Test Object | Required | Represent a web element. |
-| propertyName | String | Required | Name of the property, for example, xpath, id, name,... If the property already exists in the object, the keyword will modify its related artifacts; if not, the keyword will add a new property. |
-| matchCondition | String | Required | Condition to match property name with property value, for example, equals, not equals,... In case the property already exists, input null to this argument to keep the old value of match condition. |
-| modifyValue | String | Required | Value of the property. In case the property already exists, input null to this argument to keep the old property value. |
-| isActive | Boolean | Required | True if the property is checked (used to find the test object); otherwise, false. In case the property already exists, input null to this argument to keep the old value. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+testObject
+
+Test Object
+
+Required
+
+Represent a web element.
+
+propertyName
+
+String
+
+Required
+
+Name of the property, for example, xpath, id, name,... If the property already exists in the object, the keyword will modify its related artifacts; if not, the keyword will add a new property.
+
+matchCondition
+
+String
+
+Required
+
+Condition to match property name with property value, for example, equals, not equals,... In case the property already exists, input null to this argument to keep the old value of match condition.
+
+modifyValue
+
+String
+
+Required
+
+Value of the property. In case the property already exists, input null to this argument to keep the old property value.
+
+isActive
+
+Boolean
+
+Required
+
+True if the property is checked (used to find the test object); otherwise, false. In case the property already exists, input null to this argument to keep the old value.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| TestObject | 
-The newly created TestObject.
+Param Type
 
- |
+Description
+
+TestObject
+
+The newly created TestObject.
 
 Example 
 --------

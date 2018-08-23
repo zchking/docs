@@ -12,11 +12,37 @@ Simulates keystroke events on the specified element, as though you typed the val
 Parameters 
 -----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a mobile element. |
-| strKeys | String | Required | The combination of keys to type. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a mobile element.
+
+strKeys
+
+String
+
+Required
+
+The combination of keys to type.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example 
 --------

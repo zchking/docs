@@ -12,11 +12,37 @@ Tap at a specific position on the screen of the mobile device.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| x | Number | Required | x position |
-| y | Number | Required | y position |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+x
+
+Number
+
+Required
+
+x position
+
+y
+
+Number
+
+Required
+
+y position
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example 
 --------

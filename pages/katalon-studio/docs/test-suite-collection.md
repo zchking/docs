@@ -15,21 +15,16 @@ You can manage additional configurations for test suite collection execution by 
 
 where:
 
-| Field | Description |
-| --- | --- |
-| 
+Field
+
+Description
+
 ![](../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 11_47_25.png)
-
-
-
- | 
 
 The order to execute test suites within the collection.
 
 *   **Sequential**: the test suites will be executed one after another.
 *   **Parallel**: the test suites will be executed at the same time.
-
- |
 
 Manage Test Suite List
 ----------------------
@@ -48,15 +43,15 @@ You can add a test suite into a collection by following the steps below:
     ![](../../images/katalon-studio/docs/test-suite-collection/image2018-5-7 15_37_21.png)  
     where:
     
-    | Field | Description |
-    | --- | --- |
-    | Run with | 
+    Field
+    
+    Description
+    
+    Run with
+    
     The environment to be executed with the Test Suite.
     
-    
-    
-     |
-    | Run configuration | 
+    Run configuration
     
     Extra information for executing with the selected environment.
     
@@ -64,15 +59,13 @@ You can add a test suite into a collection by following the steps below:
     
     ![](../../images/katalon-studio/docs/test-suite-collection/image2017-2-17 13_53_7.png)
     
+    Profile
     
+    [Execution Profile](https://docs.katalon.com/x/xAHR) that contains all variables values for each Test Suite execution.
     
-     |
-    | Profile | [Execution Profile](https://docs.katalon.com/x/xAHR) that contains all variables values for each Test Suite execution. |
-    | Run | 
+    Run
     
     This is checked by default. It means that the test case will be executed when running the collection.
-    
-     |
     
       
     

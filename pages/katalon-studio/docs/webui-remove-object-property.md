@@ -12,21 +12,48 @@ Remove existing property of test object. Use when test object has attributes cha
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| testObject | Test Object | Required | Represent a web element. |
-| propertyName | String | Required | Name of the property, for example, xpath, id, name,... |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+testObject
+
+Test Object
+
+Required
+
+Represent a web element.
+
+propertyName
+
+String
+
+Required
+
+Name of the property, for example, xpath, id, name,...
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| TestObject | 
-The newly created TestObject.
+Param Type
 
- |
+Description
+
+TestObject
+
+The newly created TestObject.
 
 Example 
 --------

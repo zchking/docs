@@ -12,15 +12,45 @@ Drag an object and drop it to an offset location.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| sourceObject | TestObject | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+sourceObject
+
+TestObject
+
+Required
+
 The source object.
 
- |
-| xOffset | int | Required | x offset. |
-| yOffset | int | Required | y offset. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+xOffset
+
+int
+
+Required
+
+x offset.
+
+yOffset
+
+int
+
+Required
+
+y offset.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

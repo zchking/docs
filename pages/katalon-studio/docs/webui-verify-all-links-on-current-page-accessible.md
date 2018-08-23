@@ -12,11 +12,37 @@ Verify if all links (URLs) on the current page are accessible.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| isIncludedExternalLinks | boolean | Required | If false, only target to links on the same HOST. Otherwise, target to all links. |
-| excludedLinks | List | Required | A list of excluded links (URLs). |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+isIncludedExternalLinks
+
+boolean
+
+Required
+
+If false, only target to links on the same HOST. Otherwise, target to all links.
+
+excludedLinks
+
+List
+
+Required
+
+A list of excluded links (URLs).
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

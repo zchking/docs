@@ -12,11 +12,37 @@ Check a check-box mobile element (android.widget.CheckBox for Android, UIASwitch
 Parameters
 ----------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | required | represent a mobile element |
-| timeout  | int | required | system will wait at most timeout (seconds) to return result |
-| flowControl  | FailureHandling  | optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+required
+
+represent a mobile element
+
+timeout 
+
+int
+
+required
+
+system will wait at most timeout (seconds) to return result
+
+flowControl 
+
+FailureHandling 
+
+optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

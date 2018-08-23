@@ -22,10 +22,17 @@ katalon {option1} {option2} ... {optionN}
 
 This command includes:
 
-| Item | Description |
-| --- | --- |
-| katalon | The command of Katalon Studio to execute automation test. |
-| {option(s)} | The additional [options](https://docs.katalon.com/display/KD/Console+Mode+Execution#ConsoleModeExecution-KatalonCommandLineoptions) for the execution (see the description below for details). |
+Item
+
+Description
+
+katalon
+
+The command of Katalon Studio to execute automation test.
+
+{option(s)}
+
+The additional [options](https://docs.katalon.com/display/KD/Console+Mode+Execution#ConsoleModeExecution-KatalonCommandLineoptions) for the execution (see the description below for details).
 
 For example:
 
@@ -45,16 +52,41 @@ Katalon Command Line options
 
 Here’s the list of options supported in the “_katalon_” command:
 
-| Katalon Command Line Option | Description | Required? |
-| --- | --- | --- |
-| -runMode=console | Enable the console mode. | Yes |
-| -projectPath=<path> | Specify the project folder that includes the .prj file. The absolute path must be used in this case. | Yes |
-| -testSuitePath=<path> | Specify the test suite file (without extension .ts). The relative path (relative to the project folder) must be used in this case. | Yes |
-| -testSuiteCollectionPath=<path> | Specify the test suite file (without extension .tsc). The relative path (relative to the project folder) must be used in this case.
+Katalon Command Line Option
+
+Description
+
+Required?
+
+-runMode=console
+
+Enable the console mode.
+
+Yes
+
+-projectPath=<path>
+
+Specify the project folder that includes the .prj file. The absolute path must be used in this case.
+
+Yes
+
+-testSuitePath=<path>
+
+Specify the test suite file (without extension .ts). The relative path (relative to the project folder) must be used in this case.
+
+Yes
+
+-testSuiteCollectionPath=<path>
+
+Specify the test suite file (without extension .tsc). The relative path (relative to the project folder) must be used in this case.
+
 Note: Available only from version 4.4 and later
 
- | Yes (_If -testSuitePath is not used. Otherwise it’s optional_) |
-| -browserType=<browser> | Specify the browser type used for test suite execution.
+Yes (_If -testSuitePath is not used. Otherwise it’s optional_)
+
+-browserType=<browser>
+
+Specify the browser type used for test suite execution.
 
 The following browsers are supported in Katalon:
 
@@ -66,22 +98,97 @@ The following browsers are supported in Katalon:
 *   Android
 *   iOS
 
- | Yes |
-| -remoteWebDriverType=<Selenium, Appium> | Remote web’s driver type (Selenium or Appium) | Yes _(If -remoteWebDriverUrl is used)_ |
-| -deviceId=<device Id for Android/device uuid for ios> | Specify the device’s ID to execute test scripts | Y _(If -browserType=Android or -browserType=iOS is used)_ |
-| -consoleLog | Display log in the console. | No |
-| -noExit | Keep the console open after the execution is completed. | No |
-| -summaryReport | Send summary report of a batch run. | No |
-| -statusDelay=<seconds> | System will update the test case’s execution status after the specified seconds. | No |
-| -retry=<number of retry times> | Number of times running test cases in the test suite. | No |
-| -retryFailedTestCases=<true, false> | Retry failed test cases (overriding the setting in the test suite file). Set true if you want to rerun failed test cases and false otherwise. | No |
-| -qTestDestId=<destination’s id> | Id of the destination where the result will be uploaded to | No |
-| -qTestDestType=<destination’s type> | Type of the destination. There are 4 types, including “test-suite”, “test-cycle”,  “release”, and “root”. | No |
-| -reportFolder=<path> | Specify the destination folder to store report files. Can use an absolute path or relative path (relative to the project folder). | No |
-| -reportFileName=<name> | Specify the name of report files (.html, .csv, .log). If not provided, system uses the name “report” (report.html, report.csv, report.log). This option only takes effect when being used with “-reportFolder” option. | No |
-| -remoteWebDriverUrl=<remote web server url> | Specify the remote web driver’s URL | No |
-| -email | The email used to register [Katalon Studio](https://www.katalon.com/) | No _(If Katalon Studio is already activated)_ |
-| -password | The corresponding password for the registered email above. | No _(If Katalon Studio is already activated)_ |
+Yes
+
+-remoteWebDriverType=<Selenium, Appium>
+
+Remote web’s driver type (Selenium or Appium)
+
+Yes _(If -remoteWebDriverUrl is used)_
+
+-deviceId=<device Id for Android/device uuid for ios>
+
+Specify the device’s ID to execute test scripts
+
+Y _(If -browserType=Android or -browserType=iOS is used)_
+
+-consoleLog
+
+Display log in the console.
+
+No
+
+-noExit
+
+Keep the console open after the execution is completed.
+
+No
+
+-summaryReport
+
+Send summary report of a batch run.
+
+No
+
+-statusDelay=<seconds>
+
+System will update the test case’s execution status after the specified seconds.
+
+No
+
+-retry=<number of retry times>
+
+Number of times running test cases in the test suite.
+
+No
+
+-retryFailedTestCases=<true, false>
+
+Retry failed test cases (overriding the setting in the test suite file). Set true if you want to rerun failed test cases and false otherwise.
+
+No
+
+-qTestDestId=<destination’s id>
+
+Id of the destination where the result will be uploaded to
+
+No
+
+-qTestDestType=<destination’s type>
+
+Type of the destination. There are 4 types, including “test-suite”, “test-cycle”,  “release”, and “root”.
+
+No
+
+-reportFolder=<path>
+
+Specify the destination folder to store report files. Can use an absolute path or relative path (relative to the project folder).
+
+No
+
+-reportFileName=<name>
+
+Specify the name of report files (.html, .csv, .log). If not provided, system uses the name “report” (report.html, report.csv, report.log). This option only takes effect when being used with “-reportFolder” option.
+
+No
+
+-remoteWebDriverUrl=<remote web server url>
+
+Specify the remote web driver’s URL
+
+No
+
+-email
+
+The email used to register [Katalon Studio](https://www.katalon.com/)
+
+No _(If Katalon Studio is already activated)_
+
+-password
+
+The corresponding password for the registered email above.
+
+No _(If Katalon Studio is already activated)_
 
 Command Builder
 ---------------
@@ -95,10 +202,16 @@ Instead of typing directly in the command prompt, you can quickly generate comma
 ![Generate Command for Console Mode](../../images/katalon-studio/tutorials/executing_console_mode/Generate-Command-for-Console-Mode.png)  
 This dialog has the following options:
 
-| Section | Description |
-| --- | --- |
-| Test Suite | The Test Suite or Test Suite Collection to be executed |
-| Executed Platform | 
+Section
+
+Description
+
+Test Suite
+
+The Test Suite or Test Suite Collection to be executed
+
+Executed Platform
+
 The platform used to execute the test:
 
 ![Executed Platform Katalon Studio](../../images/katalon-studio/tutorials/executing_console_mode/Executed-Platform.png)
@@ -109,8 +222,7 @@ The platform used to execute the test:
 
 **Custom Execution** is enabled if you choose to run with **Custom **option.
 
- |
-| Report Configuration | 
+Report Configuration
 
 Extra settings for report after the execution is completed:
 
@@ -124,8 +236,9 @@ Extra settings for report after the execution is completed:
 
 **Send Summary Report to recipients below**: enable sending the summary report to recipients who emails are specified Mail Recipients.
 
- |
-| Other Options | ![Other Report Options](../../images/katalon-studio/tutorials/executing_console_mode/Other-Options.png) |
+Other Options
+
+![Other Report Options](../../images/katalon-studio/tutorials/executing_console_mode/Other-Options.png)
 
 3\. Click on **Generate Command **after you complete the configuration. The command is generated and shown in a dialog as below  
 ![Generate Command Katalon Studio](../../images/katalon-studio/tutorials/executing_console_mode/Generate-Command.png)

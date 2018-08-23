@@ -12,18 +12,41 @@ Select the option at the given index. Index starts from 0.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a web element. |
-| range | Object | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a web element.
+
+range
+
+Object
+
+Required
+
 Index range of the options to be deselected. Example:
 
 *   2 - index 2 
 *   "2,3" - index 2 and 3 
 *   "2-5" - index 2 to 5 (2,3,4,5)
 
- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop
 
 Example
 -------

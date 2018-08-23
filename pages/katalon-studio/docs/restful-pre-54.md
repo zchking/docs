@@ -20,17 +20,23 @@ Create REST Object
     ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 11_41_59.png)  
     where:
     
-    | Field | Description |
-    | --- | --- |
-    | Request Method | The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE. |
-    | Request URL | The URL registered for the RESTful web service. |
-    | Parameters | Any parameter that you want to pass along with this RESTful request object. |
-    | 
+    Field
+    
+    Description
+    
+    Request Method
+    
+    The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE.
+    
+    Request URL
+    
+    The URL registered for the RESTful web service.
+    
+    Parameters
+    
+    Any parameter that you want to pass along with this RESTful request object.
+    
     Authorization
-    
-    
-    
-     | 
     
     Credentials for HTTP authentication.  
     
@@ -38,10 +44,7 @@ Create REST Object
     
     ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_31_8.png)    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-8-28 9_49_5.png)
     
-    
-    
-     |
-    | HTTP Headers | 
+    HTTP Headers
     
     The header information that you want to transmit in this RESTful request object.
     
@@ -49,24 +52,14 @@ Create REST Object
     
     ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_33_57.png)
     
-    
-    
-     |
-    | HTTP Body | 
+    HTTP Body
     
     The information that you want to transmit in this RESTful request object. You can enter directly or import content from external text files. ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_38_29.png)
     
-    
-    
-     |
-    | Response | 
+    Response
     
     The retrieved message from web service server when you click **Test Request**.
     
     ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_58_30.png)
-    
-    
-    
-     |
     
 4.  Save the service request object when you're done. The service request defined here can be utilized in other test cases. Refer to [Use WebService in Test Case](#RESTful(Pre-5.4)-UseWebServiceinTestCase) for more details.

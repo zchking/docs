@@ -12,17 +12,40 @@ Count the total number of options the given web element has.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a web element. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a web element.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| int | The total number of option. |
+Param Type
+
+Description
+
+int
+
+The total number of option.
 
 Example
 -------

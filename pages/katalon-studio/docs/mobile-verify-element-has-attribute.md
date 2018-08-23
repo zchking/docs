@@ -12,12 +12,45 @@ Verify if the element has an attribute with a specific name.
 Parameters
 ----------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject  | Required | Represent a mobile element |
-| attributeName  | String  | Required | The name of the attribute to verify |
-| timeout  | int | Required | System will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject 
+
+Required
+
+Represent a mobile element
+
+attributeName 
+
+String 
+
+Required
+
+The name of the attribute to verify
+
+timeout 
+
+int
+
+Required
+
+System will wait at most timeout (seconds) to return a result
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------

@@ -17,27 +17,27 @@ Define a method in Manual view
     ![](../../images/katalon-studio/docs/define-method/image2017-2-10 15_48_9.png)  
     Specify the required information for your method as following:
     
-    | Field | Description |
-    | --- | --- |
-    | Name | The name of the method. |
-    | Return type | 
+    Field
+    
+    Description
+    
+    Name
+    
+    The name of the method.
+    
+    Return type
+    
     The object type that this method will return after its execution.
     
-    
-    
-     |
-    | Setup, Teardown options | 
+    Setup, Teardown options
     
     Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to [SetUp() and TearDown() in Manual view](#Definemethod-SetUp()andTearDown()inManualview) for more details.
     
-     |
-    | Parameter list | 
+    Parameter list
     
     Any parameter needed to pass into the method.
     
     By clicking on the **Insert** button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.
-    
-     |
     
     Click **OK** after configuring the method details.
     
@@ -58,18 +58,16 @@ With the prerequisite configuration, certain actions must be taken before start
 
 This can be achieved using the setup() and teardown() methods. 
 
-| Method | Description | Common Usage |
-| --- | --- | --- |
-| 
-Set Up
+Method
 
- | 
+Description
+
+Common Usage
+
+Set Up
 
 This method is always called **first** prior to executing main test steps.  
   
-
-
- | 
 
 Prepare testing environment such as:
 
@@ -78,16 +76,9 @@ Prepare testing environment such as:
 *   Starting a server process
 *   ...
 
- |
-| 
-
 Tear Down If Failed
 
- | 
-
 This method will be called after executing all steps of the test case **and** one of those steps has **Failed** status.
-
- | 
 
 Clean-up testing environment such as:
 
@@ -95,34 +86,17 @@ Clean-up testing environment such as:
 *   Disclosing opened connections to database or server
 *   ...
 
- |
-| 
-
 Tear Down If Passed
-
- | 
 
 This method will be called after executing all steps of the test case **and** all of those steps have **Pass** status.
 
- |
-| 
-
 Tear Down If Error
-
- | 
 
 This method will be called after executing all steps of the test case **and** one of those steps has **Error** status.
 
- |
-| 
-
 Tear Down
 
- | 
-
 This method will be called **finally**.
-
- |
 
 The SetUp()/TearDown() methods will have **Error** status if there is any issue occurred during their execution. The only exception to this is when _AssertionError_ Class is used or the methods are skipped.
 

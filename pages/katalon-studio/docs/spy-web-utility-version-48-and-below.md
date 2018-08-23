@@ -19,19 +19,21 @@ Capture objects using Web Object Spy
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-6-30 19_46_58.png)  
     Where:
     
-    | Type | Description |
-    | --- | --- |
-    | New Browsers | Launch a new browser and start spying web objects from that browser. |
-    | Active Browsers | 
+    Type
+    
+    Description
+    
+    New Browsers
+    
+    Launch a new browser and start spying web objects from that browser.
+    
+    Active Browsers
+    
     Focus on **the current active Chrome browser** and start spying web objects from it. You will be asked for installation of Katalon Utility:
     
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-2-23 11_54_29.png)
     
     Refer to [Katalon Addon for Chrome](/display/KD/Katalon+Addon+for+Chrome) for more details.
-    
-    
-    
-     |
     
 4.  Your selected browser will be launched. Navigate to your website, then hover the **mouse cursor** over the web object to be captured.  
     The web object will be highlighted with a **red border**. An **overlay pane** will also be displayed at the edge of the screen to show relevant **xpath** info.  
@@ -47,10 +49,17 @@ Capture objects using Web Object Spy
     Select the object in the **Captured Objects** tree, its details will be displayed in the **Object Properties** section.  
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Object Name | The name of selected object. Editable |
-    | Properties Grid | All the captured properties of the selected object. You can edit the value of any property. |
+    Field
+    
+    Description
+    
+    Object Name
+    
+    The name of selected object. Editable
+    
+    Properties Grid
+    
+    All the captured properties of the selected object. You can edit the value of any property.
     
 7.  Click on **Add to Object Repository** from command toolbar.  
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2016-12-29 17_15_0.png)  

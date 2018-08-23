@@ -12,11 +12,37 @@ Start up an application.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| appFile | String | Required | Absolute path or Relative path (since 5.0) of the application installation file. |
-| uninstallAfterCloseApp | boolean | Required | true if uninstalling the application automatically after run. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+appFile
+
+String
+
+Required
+
+Absolute path or Relative path (since 5.0) of the application installation file.
+
+uninstallAfterCloseApp
+
+boolean
+
+Required
+
+true if uninstalling the application automatically after run.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example 
 --------

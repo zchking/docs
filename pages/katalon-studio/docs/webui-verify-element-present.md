@@ -12,25 +12,49 @@ Verify if the given web element does present on DOM.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
 Represent a web element.
 
- |
-| timeout | int | Required | System will wait at most timeout (seconds) to return result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+timeout
+
+int
+
+Required
+
+System will wait at most timeout (seconds) to return result
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| boolean | 
+Param Type
+
+Description
+
+boolean
+
 *   **true:** the element presents.
 *   **false: **the element does NOT present.
-
- |
 
 Example
 -------

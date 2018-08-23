@@ -12,22 +12,49 @@ Wait for the given mobile element to present within the given time (in seconds)
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a mobile element. |
-| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return a result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a mobile element.
+
+timeOut 
+
+int 
+
+Required
+
+Maximum period of time (in seconds) that system will wait to return a result.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
+Param Type
+
+Description
+
+Boolean
+
 *   **true**: the element is present within the timeout.
 *   **false**: the element is NOT present within the timeout.
-
- |
 
 Example 
 --------

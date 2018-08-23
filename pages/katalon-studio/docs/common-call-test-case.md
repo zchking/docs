@@ -12,21 +12,48 @@ Call another test case and execute it separately.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| arg0 | TestCase | Required | Represent the called test case's path. |
-| arg1 | Map<String,Object> | Required | Represent the list of parameters will be used in the called test case. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+arg0
+
+TestCase
+
+Required
+
+Represent the called test case's path.
+
+arg1
+
+Map<String,Object>
+
+Required
+
+Represent the list of parameters will be used in the called test case.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Object | 
-Value of called test case if any.
+Param Type
 
- |
+Description
+
+Object
+
+Value of called test case if any.
 
 Example 
 --------

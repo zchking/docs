@@ -10,16 +10,23 @@ These settings allow you to define global database connection to be used in othe
 
 Where:
 
-| Field | Description |
-| --- | --- |
-| Username | The username to authenticate with connected database server |
-| Password | The password to authenticate with connected database server |
-| Connection URL | 
+Field
+
+Description
+
+Username
+
+The username to authenticate with connected database server
+
+Password
+
+The password to authenticate with connected database server
+
+Connection URL
+
 The connection string of database server. Katalon Studio supports following databases:
 
 *   MySQL
 *   SQLServer
 *   Oracle
 *   Postgre
-
- |

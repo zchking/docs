@@ -12,9 +12,20 @@ Navigate to the specified web page.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| rawUrl | String | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+rawUrl
+
+String
+
+Required
+
 URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the the protocol will be http://.
 
 Example: 
@@ -24,8 +35,13 @@ Example: 
 *   file:///D:Development/index.html;
 *   kms-technology.com => http://kms-tecnology.com
 
- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

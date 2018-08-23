@@ -12,22 +12,49 @@ Wait for an image to be present on page.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent an image. |
-| timeOutInSeconds  | int  | Required | Maximum period of time (in seconds) that system will wait to return result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent an image.
+
+timeOutInSeconds 
+
+int 
+
+Required
+
+Maximum period of time (in seconds) that system will wait to return result.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
+Param Type
+
+Description
+
+Boolean
+
 *   true if the image is presented.
 *   false if the image is NOT presented.
-
- |
 
 Example 
 --------

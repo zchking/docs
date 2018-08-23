@@ -21,13 +21,29 @@ In **Test Explorer** view, double-click on a historical execution of a test su
 
 where:
 
-| Field | Description |
-| --- | --- |
-| ID | The ID of the executed test suite in Katalon Studio. |
-| Environment | The environment which the test suite is executed on. |
-| Status | Information about whether the execution is completed or not. |
-| Failed Tests / Total | Total test cases in the test suite and the number of failed test cases if any. |
-| Test Suite Details | Click on this link to be redirected to detailed [report of the test suite](https://docs.katalon.com/display/KD/Test+Suite+Report). |
+Field
+
+Description
+
+ID
+
+The ID of the executed test suite in Katalon Studio.
+
+Environment
+
+The environment which the test suite is executed on.
+
+Status
+
+Information about whether the execution is completed or not.
+
+Failed Tests / Total
+
+Total test cases in the test suite and the number of failed test cases if any.
+
+Test Suite Details
+
+Click on this link to be redirected to detailed [report of the test suite](https://docs.katalon.com/display/KD/Test+Suite+Report).
 
 Export to other formats
 -----------------------

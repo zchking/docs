@@ -12,15 +12,67 @@ Simulate swiping fingers on the mobile device.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description | Note |
-| --- | --- | --- | --- | --- |
-| startX | int | Required | Starting x position |   |
-| startY | int | Required | Starting y position |   |
-| endX | int | Required | Ending x position | Since 5.1.0.2:  
-Relative x position of startX |
-| endY | int | Required | Ending y position | Since 5.1.0.2  
-Relative y position of start Y |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |   |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+Note
+
+startX
+
+int
+
+Required
+
+Starting x position
+
+ 
+
+startY
+
+int
+
+Required
+
+Starting y position
+
+ 
+
+endX
+
+int
+
+Required
+
+Ending x position
+
+Since 5.1.0.2:  
+Relative x position of startX
+
+endY
+
+int
+
+Required
+
+Ending y position
+
+Since 5.1.0.2  
+Relative y position of start Y
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+
+ 
 
 Example 
 --------

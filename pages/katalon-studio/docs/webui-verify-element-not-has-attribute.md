@@ -12,26 +12,57 @@ Verify if the web element doesn't have an attribute with the specified name.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
 Represent a web element.
 
- |
-| attributeName | String | Required | The name of the attribute to verify. |
-| timeout | int | Required | System will wait at most timeout (seconds) to return result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or sto |
+attributeName
+
+String
+
+Required
+
+The name of the attribute to verify.
+
+timeout
+
+int
+
+Required
+
+System will wait at most timeout (seconds) to return result
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or sto
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| boolean | 
+Param Type
+
+Description
+
+boolean
+
 *   **true:** the element doesn't the attribute with the specified name.
 *   **false:** the element has the attribute with the specified name
-
- |
 
 Example
 -------

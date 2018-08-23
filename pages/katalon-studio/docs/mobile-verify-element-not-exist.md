@@ -12,10 +12,29 @@ Verify if a mobile element is not present.
 Parameters  
 ------------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject  | Required | Represent a mobile element |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject 
+
+Required
+
+Represent a mobile element
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------

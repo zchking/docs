@@ -12,10 +12,17 @@ Add 'Offline Activation' feature on Activation Screen
 
 Add additional parameters to console mode execution. You can use this parameters for activation automatically when running on console mode:
 
-| Param name | Description |
-| --- | --- |
-| -email | Registered email on Katalon Studio site |
-| -password | Your password tied to the above email |
+Param name
+
+Description
+
+-email
+
+Registered email on Katalon Studio site
+
+-password
+
+Your password tied to the above email
 
 **Example**
 

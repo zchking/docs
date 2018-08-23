@@ -28,11 +28,21 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_3_4.png)  
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Repository URL | The URL to your Git repository (Should be in HTTPS protocol). |
-    | Username | The username to access the Git repository. |
-    | Password | The password to access the Git repository. |
+    Field
+    
+    Description
+    
+    Repository URL
+    
+    The URL to your Git repository (Should be in HTTPS protocol).
+    
+    Username
+    
+    The username to access the Git repository.
+    
+    Password
+    
+    The password to access the Git repository.
     
     Enter all required information and click the **Next** button to let Katalon Studio gets details about your repository.
     
@@ -50,10 +60,17 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Directory | The local storage location you want to store your Git's repository. |
-    | Initial branch | All selected branches from the previous step will be displayed here. Select the branch to be used initially from this list. |
+    Field
+    
+    Description
+    
+    Directory
+    
+    The local storage location you want to store your Git's repository.
+    
+    Initial branch
+    
+    All selected branches from the previous step will be displayed here. Select the branch to be used initially from this list.
     
 5.  Click **Finish** when you are done. Katalon Studio will automatically open your cloned project. 
     
@@ -93,10 +110,17 @@ The **Commit** option allows users to view all current changes and decide which 
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_41_43.png)  
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Unstaged Changes | Changes which have been made. |
-    | Staged Changes | Selected changes from **Unstaged Changes.** These changes will be committed. |
+    Field
+    
+    Description
+    
+    Unstaged Changes
+    
+    Changes which have been made.
+    
+    Staged Changes
+    
+    Selected changes from **Unstaged Changes.** These changes will be committed.
     
 3.  From the **Unstaged Changes** list, select the changes to be committed, then right-click on them and select **Add To Index**. Selected changes will be added to the **Staged Changes** list.  
       
@@ -116,18 +140,23 @@ Manage Branches
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 15_2_3.png)  
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Source | 
+    Field
+    
+    Description
+    
+    Source
+    
     Select either remote or local branch which will be your source branch.
     
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 16_8_31.png)
     
+    Branch name
     
+    The name to be used for the new branch.
     
-     |
-    | Branch name | The name to be used for the new branch. |
-    | Checkout new branch | Option to let Katalon Studio checkout that branch after created. |
+    Checkout new branch
+    
+    Option to let Katalon Studio checkout that branch after created.
     
 3.  Click **Finish** to create new branch.
 

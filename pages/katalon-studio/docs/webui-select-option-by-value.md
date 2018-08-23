@@ -14,12 +14,45 @@ Select the options with the given value.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a web element. |
-| value | String | Required | Value of the options to be selected. |
-| isRegex | boolean | Required | true if the label is a regular expression, otherwise false |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or st |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a web element.
+
+value
+
+String
+
+Required
+
+Value of the options to be selected.
+
+isRegex
+
+boolean
+
+Required
+
+true if the label is a regular expression, otherwise false
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or st
 
 Example
 -------

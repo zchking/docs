@@ -8,40 +8,27 @@ Failure handling settings allow users to decide whether Katalon Studio will cont
 
 Currently, Katalon Studio supports the following failure handling options:
 
-| Option | Description |
-| --- | --- |
-| 
-Stop on Failure
+Option
 
- | 
+Description
+
+Stop on Failure
 
 Katalon Studio will stop execution should there be any error occurs.
 
 The step with errors will have **Failed** status.
 
- |
-| 
-
 Continue on Failure
-
- | 
 
 Katalon Studio will continue in spite of any error during its execution.
 
 The step with errors will have **Failed** status.
 
- |
-| 
-
 Optional
-
- | 
 
 Katalon Studio will continue in spite of any error during its execution.
 
 The step with errors will have **Warning** status.
-
- |
 
 Default failure handling behavior
 ---------------------------------

@@ -14,12 +14,45 @@ Deselect the options with the given label (displayed text).
  Parameters
 -----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a web element. |
-| labelText | String | Required | Displayed text of the options to be deselected. |
-| isRegex | boolean | Required | true if the label is a regular expression, otherwise false |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a web element.
+
+labelText
+
+String
+
+Required
+
+Displayed text of the options to be deselected.
+
+isRegex
+
+boolean
+
+Required
+
+true if the label is a regular expression, otherwise false
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop
 
 Example
 -------

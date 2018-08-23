@@ -33,70 +33,45 @@ This new option is available for web automation execution without launching the 
 
 The following keywords are not supported with headless execution
 
-| Keyword | Known Issues | Impact |
-| --- | --- | --- |
-| 
-[Accept Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert)
+Keyword
 
- | 
+Known Issues
+
+Impact
+
+[Accept Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert)
 
 Alert is not recognizable in headless execution
 
 ([https://github.com/MachinePublishers/jBrowserDriver/issues/147](https://github.com/MachinePublishers/jBrowserDriver/issues/147))
 
- | 
-
 Alert keywords can’t be used for verification
-
- |
-| 
 
 [Dismiss Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Dismiss+Alert)
 
- |
-| [Get Alert Text](http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text) |
-| 
+[Get Alert Text](http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text)
 
 [Set Alert Text](http://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Alert+Text)
 
- |
-| [Verify Alert Not Present](http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present) |
-| 
+[Verify Alert Not Present](http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present)
 
 [Verify Alert Present](http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Present)
 
- |
-| [Wait For Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert) |
-| 
+[Wait For Alert](http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert)
 
 [Select Option By Value](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Value)
-
- | 
 
 Wrong option is selected
 
 ([https://github.com/MachinePublishers/jBrowserDriver/issues/148](https://github.com/MachinePublishers/jBrowserDriver/issues/148))
 
- | 
-
 Options could not be selected as expected
-
- |
-| 
 
 [Select Option By Label](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label)
 
- |
-| 
-
 [Select All Options](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option)
 
- |
-| 
-
 [Select Option By Index](http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index)
-
- |
 
 Improvements
 ------------

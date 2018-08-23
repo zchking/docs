@@ -19,27 +19,29 @@ In **Test Explorer** view, double-click on a historical execution of a test suit
 ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_27_2.png)  
 where:
 
-| Component | Description |
-| --- | --- |
-| Test Cases Table | List of executed test cases. |
-| Summary | Summary information of executed environment. |
-| Execution Settings | 
+Component
+
+Description
+
+Test Cases Table
+
+List of executed test cases.
+
+Summary
+
+Summary information of executed environment.
+
+Execution Settings
+
 Settings of executed browsers/devices. For example:
 
 ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_40_50.png)
 
-
-
- |
-| Execution Environment | 
+Execution Environment
 
 Other information about the executed system. For example:
 
 ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_42_41.png)
-
-
-
- |
 
 Test Cases List
 ---------------
@@ -48,35 +50,25 @@ Test Cases List
     ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_15_33.png)
 *   Users can easily determine which type of information to be displayed by using the provided filters:
     
-    | Filter | Description |
-    | --- | --- |
-    | 
-    Passed
+    Filter
     
-     | 
+    Description
+    
+    Passed
     
     Show only iterations which are passed.
     
-     |
-    | 
-    
     Failed
-    
-     | 
     
     Show only iterations which are failed.
     
-     |
-    | 
-    
     Error
-    
-     | 
     
     Show only iterations having errors.
     
-     |
-    | Incomplete | Show only incomplete iterations |
+    Incomplete
+    
+    Show only incomplete iterations
     
 *   By selecting an **iteration** in **Test Case Table** and click **Show Test Case Details**, you can view details regarding its executed logs.
 *   If **qTest** and **JIRA** are configured in project settings, you can submit data to those systems. Refer to [Enable qTest Integration](/display/KD/Enable+qTest+Integration) and [Configure JIRA Integration](/display/KD/Configure+JIRA+Integration) for more details.
@@ -90,19 +82,25 @@ This section gives the summary information of the test suite:
 
 where:
 
-| Field | Description |
-| --- | --- |
-| Test Suite ID | The ID of the executed test suite in Katalon Studio. |
-| 
+Field
+
+Description
+
+Test Suite ID
+
+The ID of the executed test suite in Katalon Studio.
+
 Hostname / OS / Platform
 
- | The environment where the test suite was executed |
-| 
+The environment where the test suite was executed
 
 Start / End / Elapse
 
- | Execution start/end date time and duration |
-| Total TC | Total number of test cases, along with their executed status. |
+Execution start/end date time and duration
+
+Total TC
+
+Total number of test cases, along with their executed status.
 
 Test Logs Details
 -----------------
@@ -115,66 +113,59 @@ This section shows all information regarding the iteration selected in the **Tes
     ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_29_56.png)  
     where:
     
-    | Component | Description |
-    | --- | --- |
-    | Log Information | Information of the test step selected in the **Test Case’s Log** section:
+    Component
+    
+    Description
+    
+    Log Information
+    
+    Information of the test step selected in the **Test Case’s Log** section:
+    
     *   The **Name** of the test step (the name of the keyword used in the test step)
     *   Execution **Start/End** date time and duration
     *   The **Description** of the test step
     *   Any system **Message** raised when the test step was executed
     
-     |
-    | Log Image | 
+    Log Image
     
     The screenshot taken from the application under test, it is captured in either of following situations:
     
     *   An error occurs during test execution
     *   The [Take Screenshot](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) keyword is used
     
-     |
-    
 *   Users can easily determine which type of information to be displayed by using the provided filters:
     
-    | Filter | Description |
-    | --- | --- |
-    | 
-    Info
+    Filter
     
-     | 
+    Description
+    
+    Info
     
     Show the messages logged for information/reference.
     
-     |
-    | 
-    
     Passed
-    
-     | 
     
     Show the steps which are successfully executed.
     
-     |
-    | 
-    
     Failed
-    
-     | 
     
     Show the steps which are failed to execute.
     
-     |
-    | 
-    
     Error
-    
-     | 
     
     Show the steps having errors.
     
-     |
-    | Incomplete | Show incomplete steps due to other factors such as wrong syntax, power shortage, disconnected network, etc... |
-    | Warning | Show the steps which have warning status. |
-    | Not Run | Show the skipped steps. |
+    Incomplete
+    
+    Show incomplete steps due to other factors such as wrong syntax, power shortage, disconnected network, etc...
+    
+    Warning
+    
+    Show the steps which have warning status.
+    
+    Not Run
+    
+    Show the skipped steps.
     
 *   If **JIRA** is configured in project settings, you can submit a ticket to this system. Refer to [Configure JIRA Integration](/display/KD/Configure+JIRA+Integration) for more details.
 *   Screenshots are taken for the failed steps and you can hover the mouse cursor over the attachment icon to review. 
@@ -187,15 +178,25 @@ Users can find the summary information of the test case in this tab.
 
 where:
 
-| Field | Description |
-| --- | --- |
-| Test Case ID | The ID of the executed test case in Katalon Studio. |
-| 
+Field
+
+Description
+
+Test Case ID
+
+The ID of the executed test case in Katalon Studio.
+
 Start / End / Elapse
 
- | Execution start/end date time and duration. |
-| Description | The description of the test case. |
-| Message | Any system message raised when this **iteration** was executed. |
+Execution start/end date time and duration.
+
+Description
+
+The description of the test case.
+
+Message
+
+Any system message raised when this **iteration** was executed.
 
 ### Integration Tab
 
@@ -205,11 +206,21 @@ The information regarding qTest Integration of this iteration is displayed in th
 
 where:
 
-| Field | Description |
-| --- | --- |
-| Test Log ID | The ID of the integrated qTest **Test Run**. |
-| Test Run Alias | The alias of the integrated qTest **Test Run**. |
-| Attachment | Indicate whether all the execution log and report are placed in a zipped file which is sent to qTest as an attachment. |
+Field
+
+Description
+
+Test Log ID
+
+The ID of the integrated qTest **Test Run**.
+
+Test Run Alias
+
+The alias of the integrated qTest **Test Run**.
+
+Attachment
+
+Indicate whether all the execution log and report are placed in a zipped file which is sent to qTest as an attachment.
 
 Export to other formats
 -----------------------

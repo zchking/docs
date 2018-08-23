@@ -16,34 +16,29 @@ description:
     ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.34.45 AM.png)  
     where:
     
-    | 
     Field
-    
-     | 
     
     Description
     
-     |
-    | --- | --- |
-    | Request Method | The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following SOAP methods: SOAP, SOAP 1.2, POST, GET. |
-    | Request URL | The WSDL address registered for the SOAP web service. |
-    | Service Function | 
+    Request Method
+    
+    The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following SOAP methods: SOAP, SOAP 1.2, POST, GET.
+    
+    Request URL
+    
+    The WSDL address registered for the SOAP web service.
+    
+    Service Function
     
     The function/method of the SOAP web service that you want to use in this SOAP request. The list will be retrieved after clicking **Load from WSDL**. ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.40.05 AM.png)
     
-    
-    
-     |
-    | Authorization | 
+    Authorization
     
     Credential for HTTP authentication.
     
     ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.37.05 AM.png)
     
-    
-    
-     |
-    | HTTP Headers | 
+    HTTP Headers
     
     The header information that you want to transmit in this SOAP request object.
     
@@ -51,28 +46,18 @@ description:
     
     ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.39.09 AM.png)
     
-    
-    
-     |
-    | Request Message | 
+    Request Message
     
     The information that you want to transmit in this SOAP request object. You can enter directly or import content from external text files. 
     
     ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.41.28 AM.png)
     
-    
-    
-     |
-    | Response | 
+    Response
     
     The retrieved message from web service server when you click **Test Request** button. You can view details information of the response including **Status**, **Elapsed Time**, **Size.**
     
     There are 2 viewing format: **pretty** or **raw**
     
     ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.50.38 AM.png) ![](../../images/katalon-studio/docs/soap-latest/Screen Shot 2018-04-05 at 10.52.27 AM.png)
-    
-    
-    
-     |
     
 4.  Save the service request object when you're done. The service request defined here can be utilized in other test cases. Refer to [Use Web Service in Test Case](/display/KD/Using+Web+Service+in+Test+Case) for more details.

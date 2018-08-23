@@ -24,14 +24,33 @@ Katalon Studio provides two utilities to accelerate the automation process: Mobi
 
 Where
 
-| Section | Explanation |
-| --- | --- |
-| Device View | Device inspector view. Preview of device UI will be displayed here. Click on any elements to select. |
-| Configurations | Select setting for recording session |
-| All Objects | The current mobile elements hierarchy on the device. Click to select an element and view its properties in Object Properties. |
-| Possible Actions | All available actions that can be performed on the device |
-| Object Properties | All properties of the selected element in All Objects. |
-| Recorded Actions | All recorded actions appear here |
+Section
+
+Explanation
+
+Device View
+
+Device inspector view. Preview of device UI will be displayed here. Click on any elements to select.
+
+Configurations
+
+Select setting for recording session
+
+All Objects
+
+The current mobile elements hierarchy on the device. Click to select an element and view its properties in Object Properties.
+
+Possible Actions
+
+All available actions that can be performed on the device
+
+Object Properties
+
+All properties of the selected element in All Objects.
+
+Recorded Actions
+
+All recorded actions appear here
 
 2\. With the dialog opened, follow the following steps to configure your recording session:
 

@@ -12,12 +12,45 @@ Select item of listview control by its index. Have not implemented for Android b
 Parameters  
 ------------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject  | Required | Represent a mobile element |
-| index  | int | Required | Item index (1-based indexed) |
-| timeout  | int | Required | System will wait at most timeout (seconds) to return result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject 
+
+Required
+
+Represent a mobile element
+
+index 
+
+int
+
+Required
+
+Item index (1-based indexed)
+
+timeout 
+
+int
+
+Required
+
+System will wait at most timeout (seconds) to return result
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

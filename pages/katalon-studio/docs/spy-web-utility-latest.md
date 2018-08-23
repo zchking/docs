@@ -25,10 +25,16 @@ Capture objects using Web Object Spy
     
 3.  Click on **Start** to begin capturing objects from the web browser.
     
-    | Type | Description |
-    | --- | --- |
-    | New Browsers | Launch a new browser and start spying web objects from that browser. |
-    | Active Browsers | 
+    Type
+    
+    Description
+    
+    New Browsers
+    
+    Launch a new browser and start spying web objects from that browser.
+    
+    Active Browsers
+    
     Focus on **the current active Chrome browser** and start spying web objects from it.
     
     **Supported browsers**:  
@@ -40,10 +46,6 @@ Capture objects using Web Object Spy
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-2-23 11_54_29.png)
     
     Refer to [Katalon Addon for Chrome](/display/KD/Katalon+Addon+for+Chrome) for more details.
-    
-    
-    
-     |
     
 4.  Your selected browser will be launched. Navigate to your website, then hover the **mouse cursor** over the web object to be captured.  
     The web object will be highlighted with a **red border**. An **overlay pane** will also be displayed at the edge of the screen to show relevant **xpath** info.  
@@ -59,32 +61,45 @@ Capture objects using Web Object Spy
     Select the object in the **Captured Objects** tree, its details will be displayed in the **Object Properties** section.  
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | **Selection Method** | 
+    Field
+    
+    Description
+    
+    **Selection Method**
+    
     The method which Katalon Studio will be using to detect web elements
     
-    | Options |   |
-    | --- | --- |
-    | **Basic** | Default method. Katalon Studio automatically generate an XPath combine with objects' properties |
-    | **XPath** or **CSS** | Advanced method. Users are allowed to input XPath or CSS selector manually into Object Detect Editor |
+    Options
     
+     
     
+    **Basic**
     
-     |
-    | **Properties Grid** | All the captured properties of the selected object. You can edit the value of any property. |
-    | **Selector Editor** | 
+    Default method. Katalon Studio automatically generate an XPath combine with objects' properties
+    
+    **XPath** or **CSS**
+    
+    Advanced method. Users are allowed to input XPath or CSS selector manually into Object Detect Editor
+    
+    **Properties Grid**
+    
+    All the captured properties of the selected object. You can edit the value of any property.
+    
+    **Selector Editor**
     
     Display object locator based on **selected** **method**
     
-    | Options |   |
-    | --- | --- |
-    | **Basic** | Katalon Studio generated XPath will be displayed |
-    | **XPath** or **CSS** | Editable text field allows users to manually input object's locator |
+    Options
     
+     
     
+    **Basic**
     
-     |
+    Katalon Studio generated XPath will be displayed
+    
+    **XPath** or **CSS**
+    
+    Editable text field allows users to manually input object's locator
     
 7.  Click on **Save **to **Add** to **Object Repository**.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-14 16_58_50.png)  

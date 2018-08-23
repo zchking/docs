@@ -12,27 +12,65 @@ Wait until the given mobile element has an attribute with the specified name and
 Parameters 
 -----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
 Represent a mobile element.
 
- |
-| attributeName | String | Required | The name of the attribute to wait for. |
-| attributeValue | String | Required | The value of the attribute to wait for. |
-| timeout | int | Required | System will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+attributeName
+
+String
+
+Required
+
+The name of the attribute to wait for.
+
+attributeValue
+
+String
+
+Required
+
+The value of the attribute to wait for.
+
+timeout
+
+int
+
+Required
+
+System will wait at most timeout (seconds) to return a result
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| boolean | 
+Param Type
+
+Description
+
+boolean
+
 *   **true:** the element has the attribute with the specified name and value in the given timeout.
 *   **false:** the element doesn't have the attribute with the specified name and value in the given timeout.
-
- |
 
 Example
 -------

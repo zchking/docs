@@ -71,26 +71,25 @@ Submit options will be available in Test Reports after JIRA Integration setup is
     
     Where:
     
-    | Option | Description |
-    | --- | --- |
-    | Create as New | A new Issue will be submitted to JIRA. |
-    | Create as Sub Issue | 
+    Option
+    
+    Description
+    
+    Create as New
+    
+    A new Issue will be submitted to JIRA.
+    
+    Create as Sub Issue
+    
     A sub-task for an existing JIRA Issue will be created. You will be asked to provide the **ID** of an existing JIRA Issue to create sub-task within.
     
     ![](../../images/katalon-studio/docs/working-with-jira/image2017-8-2 16_12_21.png)
     
-    
-    
-     |
-    | Link to existing Issue | 
+    Link to existing Issue
     
     This option will append execution details to an existing JIRA Issue. You will be asked to provide the ID of existing JIRA Issue for this.
     
     ![](../../images/katalon-studio/docs/working-with-jira/image2016-11-3 14_28_29.png)
-    
-    
-    
-     |
     
 4.  In case of creating new JIRA Issue (or Sub-task), a **JIRA native submission form** will be displayed. Following is an example of creating new JIRA Issue:  
     ![](../../images/katalon-studio/docs/working-with-jira/image2016-11-3 14_32_53.png)  

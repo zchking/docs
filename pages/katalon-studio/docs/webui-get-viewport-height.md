@@ -12,19 +12,32 @@ Get current viewport's height value.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| int | 
-Current viewport's height.
+Param Type
 
- |
+Description
+
+int
+
+Current viewport's height.
 
 Example 
 --------

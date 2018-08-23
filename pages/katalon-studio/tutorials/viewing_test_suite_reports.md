@@ -23,19 +23,29 @@ In **Test Explorer** view, double-click on a historical execution of a test suit
 
 where:
 
-| Component | Description |
-| --- | --- |
-| Test Cases Table | List of executed test cases. |
-| Summary | Summary information of executed environment. |
-| Execution Settings | Settings for execution which include information about how to handle a failed test case, page loading timeout, etc. For example:
+Component
+
+Description
+
+Test Cases Table
+
+List of executed test cases.
+
+Summary
+
+Summary information of executed environment.
+
+Execution Settings
+
+Settings for execution which include information about how to handle a failed test case, page loading timeout, etc. For example:
+
 ![page loading timeout](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Settings1.png)
 
- |
-| Execution Environment | Information concerning the execution environment, including Host Name, Operating System (os), Katalon Studio version, browser, etc. For example:
+Execution Environment
+
+Information concerning the execution environment, including Host Name, Operating System (os), Katalon Studio version, browser, etc. For example:
 
 ![Information concerning the execution environment](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Environment.png)
-
- |
 
 Test Cases List
 ---------------
@@ -46,18 +56,28 @@ Test Cases List
 
 Users can easily determine what information to display by using the filters.
 
-| Filter | Description |
-| --- | --- |
-| 
+Filter
+
+Description
+
 ![Passed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed1.png)Passed
 
- | Show only iterations which are passed. |
-| ![Failed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed1.png)  
-Failed | Show only iterations which are failed. |
-| ![Error status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error1.png)  
-Error | Show only iterations having errors. |
-| ![Incomplete status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete.png)  
-Incomplete | Show only incomplete iterations |
+Show only iterations which are passed.
+
+![Failed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed1.png)  
+Failed
+
+Show only iterations which are failed.
+
+![Error status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error1.png)  
+Error
+
+Show only iterations having errors.
+
+![Incomplete status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete.png)  
+Incomplete
+
+Show only incomplete iterations
 
 *   By selecting an **iteration** in **Test Case Table** and click **Show Test Case Details**, you can view details regarding its executed logs.
 *   If **qTest** and **JIRA** are configured in Project Settings, you can submit the results to these systems. Refer to [qTest Integration](https://docs.katalon.com/display/KD/qTest+Integration) and [JIRA Integration](https://docs.katalon.com/display/KD/JIRA+Integration) for more details.
@@ -71,12 +91,25 @@ This section explains the information on the test execution summary report for a
 
 The fields include:
 
-| Field | Description |
-| --- | --- |
-| Test Suite ID | The ID of the executed test suite in Katalon Studio. Once clicked, the test suite is opened. |
-| Hostname / OS / Platform | The environment where the test suite is executed |
-| Start / End / Elapse | Execution start/end date time and duration |
-| Total TC | The total number of test cases, grouped into four status groups, Passed, Failed, Error, and Incomplete. |
+Field
+
+Description
+
+Test Suite ID
+
+The ID of the executed test suite in Katalon Studio. Once clicked, the test suite is opened.
+
+Hostname / OS / Platform
+
+The environment where the test suite is executed
+
+Start / End / Elapse
+
+Execution start/end date time and duration
+
+Total TC
+
+The total number of test cases, grouped into four status groups, Passed, Failed, Error, and Incomplete.
 
 Test Case’s Log
 ---------------
@@ -90,40 +123,66 @@ Test Case’s Log
 
 Detail of the items:
 
-| Component | Description |
-| --- | --- |
-| Log Information | Information of the selected iteration in the **Test Case’s Log** section:
+Component
+
+Description
+
+Log Information
+
+Information of the selected iteration in the **Test Case’s Log** section:
+
 *   *   **Name** of the test step (the name of the keyword used in the test step)
     *   Execution **Start/End** date time and duration
     *   **Description** of the test step
     *   Any system **Message** raised when the test step is executed.
 
- |
-| Log Image | The screenshot taken from the application under test, it is captured in either of the following situations:
+Log Image
+
+The screenshot taken from the application under test, it is captured in either of the following situations:
 
 *   *   An error occurs during test execution
     *   The [Take Screenshot](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) keyword is used
 
- |
-
 *   Users can easily determine which type of information to be displayed by using the provided filters:
 
-| Filter | Description |
-| --- | --- |
-| ![Info ](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Info1.png)  
-Info | Show the messages logged for information/reference. |
-| ![passed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed-2.png)  
-Passed | Show the steps which are successfully executed. |
-| ![Failed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed-2.png)  
-Failed | Show the steps which failed to execute. |
-| ![Error status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error-2.png)  
-Error | Show the steps having errors. |
-| ![Incomplete status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete-2.png)  
-Incomplete | Show incomplete steps. |
-| ![Warning status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Warning1.png)  
-Warning | Show the steps which have warning status. |
-| ![Not Run status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Not-Run1.png)  
-Not Run | Show the skipped steps. |
+Filter
+
+Description
+
+![Info ](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Info1.png)  
+Info
+
+Show the messages logged for information/reference.
+
+![passed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed-2.png)  
+Passed
+
+Show the steps which are successfully executed.
+
+![Failed status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed-2.png)  
+Failed
+
+Show the steps which failed to execute.
+
+![Error status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error-2.png)  
+Error
+
+Show the steps having errors.
+
+![Incomplete status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete-2.png)  
+Incomplete
+
+Show incomplete steps.
+
+![Warning status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Warning1.png)  
+Warning
+
+Show the steps which have warning status.
+
+![Not Run status Katalon Studio](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Not-Run1.png)  
+Not Run
+
+Show the skipped steps.
 
 *   If **JIRA** is configured in Project Settings, users can submit a ticket to this system. Refer to [JIRA Integration](https://docs.katalon.com/display/KD/JIRA+Integration) for more details.
 *   Screenshots are taken for the failed steps and users can hover the mouse cursor over the attachment icon to review.
@@ -136,12 +195,25 @@ Users can find the summary information of the test case in this tab.
 
 The items include:
 
-| Field | Description |
-| --- | --- |
-| Test Case ID | The ID of the executed test case in Katalon Studio. Once clicked, the system navigates users to the respective test case. |
-| Start / End / Elapse | Execution start/end date time and duration. |
-| Description | Description of the test case. |
-| Message | Any system message raised when this **iteration** is executed. |
+Field
+
+Description
+
+Test Case ID
+
+The ID of the executed test case in Katalon Studio. Once clicked, the system navigates users to the respective test case.
+
+Start / End / Elapse
+
+Execution start/end date time and duration.
+
+Description
+
+Description of the test case.
+
+Message
+
+Any system message raised when this **iteration** is executed.
 
 ### Integration Tab
 
@@ -151,11 +223,21 @@ The information regarding qTest Integration of this iteration is displayed in th
 
 The fields include:
 
-| Field | Description |
-| --- | --- |
-| Test Log ID | The ID of the integrated qTest **Test Run**. Once clicked, the system navigates users to the respective qTest page. |
-| Test Run Alias | The alias of the integrated qTest **Test Run**. |
-| Attachment | Indicate whether all execution logs and reports are placed in a zipped file to be sent to qTest as an attachment. |
+Field
+
+Description
+
+Test Log ID
+
+The ID of the integrated qTest **Test Run**. Once clicked, the system navigates users to the respective qTest page.
+
+Test Run Alias
+
+The alias of the integrated qTest **Test Run**.
+
+Attachment
+
+Indicate whether all execution logs and reports are placed in a zipped file to be sent to qTest as an attachment.
 
 Export to other formats
 -----------------------

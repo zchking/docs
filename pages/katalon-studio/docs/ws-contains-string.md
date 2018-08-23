@@ -12,12 +12,45 @@ Verify that an expected text appeared in the returned data from a web service ca
 Parameters 
 -----------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| response  | ResponseObject  | required | the object represents for a HTTP Response, user can get responded content type, data, header properties (sometime user may want to get cookie from response header) |
-| string  | String  | required | the text you want to look for |
-| useRegex | Boolean  | required | indicate whether the text is a regular expression |
-| flowControl | FailureHandling  | optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+response 
+
+ResponseObject 
+
+required
+
+the object represents for a HTTP Response, user can get responded content type, data, header properties (sometime user may want to get cookie from response header)
+
+string 
+
+String 
+
+required
+
+the text you want to look for
+
+useRegex
+
+Boolean 
+
+required
+
+indicate whether the text is a regular expression
+
+flowControl
+
+FailureHandling 
+
+optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------

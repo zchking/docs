@@ -6,79 +6,41 @@ description:
 ---
 Currently, Katalon Studio supports executing automation test in following environments:
 
-| Execution Environment | Description |
-| --- | --- |
-| 
-Chrome
+Execution Environment
 
- | 
+Description
+
+Chrome
 
 Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 Firefox
-
- | 
 
 Execute a test case in Firefox, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 IE
-
- | 
 
 Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 Safari
-
- | 
 
 Execute a test case in Safari, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 Remote
-
- | 
 
 Execute a test case in a remote environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 Android
-
- | 
 
 Execute a test case on Android device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 iOS
-
- | 
 
 Execute a test case on an iOS device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
 
- |
-| 
-
 Custom
 
- | 
-
 Execute a test case in a custom environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings).
-
- |
 
 Execute on a web application
 ----------------------------

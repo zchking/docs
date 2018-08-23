@@ -12,15 +12,37 @@ Once your test cases/test suites finish execution, you can review the results on
 
 Using the filter options, you can specify what type of logs to be displayed:
 
-| Filter | Description |
-| --- | --- |
-| ![Show all the log messages](../../images/katalon-studio/tutorials/viewing_execution_logs/All.png) All | Show all the log messages. |
-| ![Show only log messages for information/reference](../../images/katalon-studio/tutorials/viewing_execution_logs/Info.png) Info | Show only log messages for information/reference. |
-| ![Passed](../../images/katalon-studio/tutorials/viewing_execution_logs/Passed.png)Passed | Show only log messages indicating that a step is successfully executed. |
-| ![Failed](../../images/katalon-studio/tutorials/viewing_execution_logs/Failed.png)Failed | Show only log messages indicating that a test step is failed to execute. |
-| ![Error](../../images/katalon-studio/tutorials/viewing_execution_logs/Error.png)Error | Show only log messages indicating that some error occurs at a given step. |
-| ![Warning](../../images/katalon-studio/tutorials/viewing_execution_logs/Warning.png)Warning | Show only log messages indicating that a test step is failed but accepted as a warning. |
-|  ![Not run](../../images/katalon-studio/tutorials/viewing_execution_logs/Not-Run.png) Not Run | Show only log messages indicating that a test step is skipped. |
+Filter
+
+Description
+
+![Show all the log messages](../../images/katalon-studio/tutorials/viewing_execution_logs/All.png) All
+
+Show all the log messages.
+
+![Show only log messages for information/reference](../../images/katalon-studio/tutorials/viewing_execution_logs/Info.png) Info
+
+Show only log messages for information/reference.
+
+![Passed](../../images/katalon-studio/tutorials/viewing_execution_logs/Passed.png)Passed
+
+Show only log messages indicating that a step is successfully executed.
+
+![Failed](../../images/katalon-studio/tutorials/viewing_execution_logs/Failed.png)Failed
+
+Show only log messages indicating that a test step is failed to execute.
+
+![Error](../../images/katalon-studio/tutorials/viewing_execution_logs/Error.png)Error
+
+Show only log messages indicating that some error occurs at a given step.
+
+![Warning](../../images/katalon-studio/tutorials/viewing_execution_logs/Warning.png)Warning
+
+Show only log messages indicating that a test step is failed but accepted as a warning.
+
+ ![Not run](../../images/katalon-studio/tutorials/viewing_execution_logs/Not-Run.png) Not Run
+
+Show only log messages indicating that a test step is skipped.
 
 Standard View vs. Tree View
 ---------------------------

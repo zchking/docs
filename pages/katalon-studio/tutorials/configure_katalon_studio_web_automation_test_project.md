@@ -113,17 +113,26 @@ These settings allow you to define the global database connection to be used in 
 
 The dialog includes the following fields:
 
-| Field | Description |
-| --- | --- |
-| Username | The username to authenticate with connected database server |
-| Password | The password to authenticate with connected database server |
-| Connection URL | The connection string of database server. Katalon Studio supports following databases:
+Field
+
+Description
+
+Username
+
+The username to authenticate with connected database server
+
+Password
+
+The password to authenticate with connected database server
+
+Connection URL
+
+The connection string of database server. Katalon Studio supports following databases:
+
 *   MySQL
 *   SQLServer
 *   Oracle
 *   Postgre
-
- |
 
 Git Integration
 ---------------
@@ -139,11 +148,22 @@ Users can specify what to do next when a test execution finishes. The setting ca
 
 The options include:
 
-| Field | Description |
-| --- | --- |
-| Default execution | The default environment that Katalon Studio will use to execute automation test. |
-| Default load timeout | The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests. |
-| Post-Execution Options | These options determine the actions that Katalon Studio will perform after executing tests.
+Field
+
+Description
+
+Default execution
+
+The default environment that Katalon Studio will use to execute automation test.
+
+Default load timeout
+
+The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests.
+
+Post-Execution Options
+
+These options determine the actions that Katalon Studio will perform after executing tests.
+
 *   **Notify me**: Specify whether you want to send email notification.
 
 *   Refer to [Emails Settings](https://docs.katalon.com/display/KD/Emails+Settings) on how to register the list of report recipients.
@@ -152,5 +172,3 @@ The options include:
 *   **Open report**: Specify whether the report generated is opened immediately.
 
 **Terminate drivers**: Specify whether any driver remaining after execution will be terminated.
-
- |

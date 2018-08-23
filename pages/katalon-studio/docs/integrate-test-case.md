@@ -38,18 +38,23 @@ You have two methods to upload a test case to predefined qTest Module
       
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Test Case ID | The ID of the integrated qTest test case. |
-    | Alias | The alias of the integrated qTest test case. |
-    | Parent ID | 
+    Field
+    
+    Description
+    
+    Test Case ID
+    
+    The ID of the integrated qTest test case.
+    
+    Alias
+    
+    The alias of the integrated qTest test case.
+    
+    Parent ID
+    
     ![](../../images/katalon-studio/docs/integrate-test-case/image2017-8-9 16_27_25.png)
     
     The ID of the integrated qTest module.
-    
-    
-    
-     |
     
       
     

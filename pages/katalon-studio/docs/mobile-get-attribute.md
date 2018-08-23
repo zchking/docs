@@ -12,30 +12,56 @@ Get a specific attribute of a mobile element.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a mobile element. |
-| name | String | Required | Name of the attribute to get. |
-| timeout | int | Required | Maximum period of time (in seconds) that system will wait to return a result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a mobile element.
+
+name
+
+String
+
+Required
+
+Name of the attribute to get.
+
+timeout
+
+int
+
+Required
+
+Maximum period of time (in seconds) that system will wait to return a result.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| 
 Param Type
-
- | 
 
 Description
 
- |
-| --- | --- |
-| String | 
+String
 
 Value of the attribute.
-
- |
 
 Example 
 --------

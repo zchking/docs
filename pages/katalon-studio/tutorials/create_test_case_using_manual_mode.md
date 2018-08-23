@@ -42,14 +42,30 @@ Follow these steps to automate the above test scenario in **Manual view**:
 
 Where:
 
-| Field | Description |
-| --- | --- |
-| No | The parameter order for the selected keyword. |
-| Param Name | The name of the parameter. |
-| Param Type | The data type of the parameter (e.g. String, **[Variable](https://docs.katalon.com/display/KD/Variable+Types)** or **[Test Data Value](https://docs.katalon.com/display/KD/Manage+Test+Data)**…) |
-| Value Type | The type of input value (e.g. String, **[Variable](https://docs.katalon.com/display/KD/Variable+Types)** or **[Test Data Value](https://docs.katalon.com/display/KD/Manage+Test+Data)**…) |
-| Value |  The input value for this parameter.  
-Input value varies depending on the specified **Value Type**. Refer to **[Value Types in Katalon](https://docs.katalon.com/display/KD/Value+Types)** for more details. |
+Field
+
+Description
+
+No
+
+The parameter order for the selected keyword.
+
+Param Name
+
+The name of the parameter.
+
+Param Type
+
+The data type of the parameter (e.g. String, **[Variable](https://docs.katalon.com/display/KD/Variable+Types)** or **[Test Data Value](https://docs.katalon.com/display/KD/Manage+Test+Data)**…)
+
+Value Type
+
+The type of input value (e.g. String, **[Variable](https://docs.katalon.com/display/KD/Variable+Types)** or **[Test Data Value](https://docs.katalon.com/display/KD/Manage+Test+Data)**…)
+
+Value
+
+ The input value for this parameter.  
+Input value varies depending on the specified **Value Type**. Refer to **[Value Types in Katalon](https://docs.katalon.com/display/KD/Value+Types)** for more details.
 
 For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the **Value** column then click **OK**.
 

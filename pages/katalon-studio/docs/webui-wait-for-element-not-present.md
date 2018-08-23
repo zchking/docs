@@ -12,25 +12,49 @@ Wait for the given element to NOT present (appear) within the given time (in s
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
 Represent a web element.
 
- |
-| timeout | int | Required | Maximum period of time (in seconds) that system will wait to return a result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+timeout
+
+int
+
+Required
+
+Maximum period of time (in seconds) that system will wait to return a result.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| boolean | 
+Param Type
+
+Description
+
+boolean
+
 *   **true:** the element is NOT present within given timeout.
 *   **false: **the element is present within given timeout.
-
- |
 
 Example
 -------

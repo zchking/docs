@@ -29,29 +29,17 @@ The test result from Katalon Studio will be upload to qTest automatically in cas
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 15_42_26.png)  
     Where:
     
-    | Icon | Description |
-    | --- | --- |
-    | 
+    Icon
+    
+    Description
+    
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-2-28 16_32_19.png)
-    
-    
-    
-     | 
     
     The execution result of the test case is integrated to qTest.
     
-     |
-    | 
-    
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-2-28 16_29_39.png)
     
-    
-    
-     | 
-    
     The execution result of the test case is **not** integrated to qTest.
-    
-     |
     
 4.  Select an integrated execution from **Test Cases Table** and you can find related information of qTest in **Integration** tab of **Test Case's Log.** (You need to select **Show Test Case Details** to access this section)
     
@@ -60,40 +48,25 @@ The test result from Katalon Studio will be upload to qTest automatically in cas
       
     where:
     
-    | Field | Description |
-    | --- | --- |
-    | 
-    Test Run Alias
+    Field
     
-     | 
+    Description
+    
+    Test Run Alias
     
     The alias of the integrated qTest test run.
     
-     |
-    | 
-    
     Test Log ID
-    
-     | 
     
     The ID of the test log (i.e., execution history record) created in qTest.
     
-     |
-    | 
-    
     Attachment
-    
-     | 
     
     This is to let users know whether all the execution log and report are sent to qTest as an attachment. (i.e. Yes or No)
     
     If yes, you can go to qTest and find them under related execution history record, as illustrated below:
     
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 15_50_43.png)
-    
-    
-    
-     |
     
 
 Upload test results manually

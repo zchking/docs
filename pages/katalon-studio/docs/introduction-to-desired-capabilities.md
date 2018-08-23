@@ -19,73 +19,33 @@ Understand the Settings
 
 Before adding Desired Capabilities in Katalon Studio, you need to identify which the environment you want to customize its behaviors. Below is the list of supported environments as well as their locations in Katalon Studio settings
 
-| Settings | Description |
-| --- | --- |
-| 
+Settings
+
+Description
+
 **Project > Settings > Execution > Custom**
-
-
-
- | 
 
 Define a custom option for execution along with its Desired Capabilities.
 
-
-
- |
-| 
-
 **Project > Settings > Execution > Default > WebUI > Chrome** (Firefox, IE, Safari, Edge)
-
-
-
- | 
 
 Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari or Edge.
 
-
-
- |
-| 
-
 ****Project > Settings >** Execution > Default > WebUI > Remote Web**
-
-
-
- | 
 
 Define Desired Capabilities for execution on a remote web server.
 
-
-
- |
-| 
-
 ****Project > Settings >** Execution > Default > Mobile > Android** (iOS is only available in macOS)
-
-
-
- | 
 
 Define Desired Capabilities for execution with Android and iOS devices.
 
-
-
- |
-| 
-
 ****Project > Settings >** Execution > Default > WebUI > Chrome (Headless)**
-
-
-
- | 
 
 Define Desired Capabilities for execution with a headless instance using Chrome.
 
+****Project > Settings >** Execution > Default > WebUI > Firefox (Headless)**
 
-
- |
-| ****Project > Settings >** Execution > Default > WebUI > Firefox (Headless)** | Define Desired Capabilities for execution with a headless instance using Firefox. |
+Define Desired Capabilities for execution with a headless instance using Firefox.
 
 As indicated above, any changes made '**Default**' settings will apply to the current environment immediately when you [execute a test](https://docs.katalon.com/display/KD/Execute+a+Test+Case+or+a+Test+Suite#ExecuteaTestCaseoraTestSuite-ExecuteanEntireTestCaseorTestSuite). If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
 

@@ -12,24 +12,41 @@ Verify if given web element is NOT visible.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
 Represent a web element.
 
- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue orsto |
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue orsto
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| boolean | 
+Param Type
+
+Description
+
+boolean
+
 *   **true:** the element is visible.
 *   **false:** the element is NOT visible.
-
- |
 
 Example
 -------

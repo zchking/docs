@@ -14,13 +14,29 @@ This keyword is used for iOS application only.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
 seconds
 
- | int | Required | Amounts of time (in seconds) for the application to run in the background. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+int
+
+Required
+
+Amounts of time (in seconds) for the application to run in the background.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example 
 --------

@@ -12,21 +12,48 @@ Verify if the given text presents anywhere in the page source.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| text | String | Required | Text to be verified if presenting anywhere in the page source. |
-| isRegex | Boolean | Required | Indicate whether the expected text is a regular expression. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+text
+
+String
+
+Required
+
+Text to be verified if presenting anywhere in the page source.
+
+isRegex
+
+Boolean
+
+Required
+
+Indicate whether the expected text is a regular expression.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
-true, if text presents anywhere in the page source; otherwise, false.
+Param Type
 
- |
+Description
+
+Boolean
+
+true, if text presents anywhere in the page source; otherwise, false.
 
 Example 
 --------

@@ -19,87 +19,83 @@ Improvements
 
 ### New MOBILE  built-in keywords
 
-| No. | Name | Description |
-| --- | --- | --- |
-| 1 | 
-Select Item in List by Index
+No.
 
- | 
+Name
+
+Description
+
+1
+
+Select Item in List by Index
 
 Select item of list view control by its index. Have not implemented for Android because its list view is async loaded
 
- |
-| 2 | 
+2
 
 Select Item in List by Label
 
- | 
-
 Select item of list view control by its label.
 
- |
-| 3 | 
+3
 
 Pinch to Zoom In by Position
 
- | 
-
 Pinch to zoom in at a specific position on the screen of the mobile device
 
- |
-| 4 | 
+4
 
 Pinch to Zoom Out by Position
 
- | 
-
 Pinch to zoom out at a specific position on the screen of the mobile device
 
- |
-| 5 | Tap At Position | 
+5
+
+Tap At Position
 
 Tap at a specific position on the screen of the mobile device
 
- |
-| 6 | 
+6
 
 Get Element Top Position
 
- | 
-
 Get the top position of mobile element
 
- |
-|  7 | Get Element Left Position | Get the left position of mobile element |
-| 8  | Get Element Width | 
+ 7
+
+Get Element Left Position
+
+Get the left position of mobile element
+
+8 
+
+Get Element Width
 
 Get the width of mobile element
 
- |
-| 9 | 
+9
 
 Get Element Height
 
- | 
-
 Get the height of mobile element
 
- |
-| 10 | Long Press | 
+10
+
+Long Press
 
 Tap and hold at a specific position on the screen of the mobile device
 
- |
-| 11 | Set Slider Value | 
+11
+
+Set Slider Value
 
 Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage
 
- |
-| 12 | Unlock Screen | 
+12
+
+Unlock Screen
 
 Unlock device scree
-
- |
 
 ### Object Spy
 

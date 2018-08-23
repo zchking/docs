@@ -13,28 +13,19 @@ Since version 5.6
 
 The main **Toolbar** contains the most common actions which you usually perform (e.g. creating test resources or executing automation tests).
 
-| Icon | Description |
-| --- | --- |
-| 
+Icon
+
+Description
+
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_19_48.png)
 
-
-
- | Save the current opened test artifact. |
-| 
+Save the current opened test artifact.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_19_17.png)
 
-
-
- | Save all opened test artifacts. |
-| 
+Save all opened test artifacts.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_18_47.png)
-
-
-
- | 
 
 Create new test artifacts. You can select these options by selecting from dropdownlist:
 
@@ -49,42 +40,23 @@ Create new test artifacts. You can select these options by selecting from dropdo
 *   Package
 *   Keyword
 
- |
-| 
-
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_11.png)
 
-
-
- | Open **Web** **Object Spy** dialog for capturing elements on websites. |
-| 
+Open **Web** **Object Spy** dialog for capturing elements on websites.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_32.png)
 
-
-
- | Open **Mobile Object Spy** dialog for capturing elements on mobile applications. |
-| 
+Open **Mobile Object Spy** dialog for capturing elements on mobile applications.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_21_15.png)
 
-
-
- | Open **Web** **Record** dialog for recording WebUI test cases. |
-| 
+Open **Web** **Record** dialog for recording WebUI test cases.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_20_56.png)
 
-
-
- | Open **Mobile Recorder** dialog for recording Mobile test cases. |
-| 
+Open **Mobile Recorder** dialog for recording Mobile test cases.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_21_34.png)
-
-
-
- | 
 
 Run the current open test case. You can select these options by selecting from dropdownlist:
 
@@ -99,14 +71,7 @@ Run the current open test case. You can select these options by selecting from d
 *   iOS (on macOS)
 *   Custom
 
- |
-| 
-
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_4.png)
-
-
-
- | 
 
 Debug the current open test case. You can select these options by selecting from dropdownlist:
 
@@ -121,28 +86,15 @@ Debug the current open test case. You can select these options by selecting from
 *   iOS (on macOS)
 *   Custom
 
- |
-| 
-
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_28.png)
 
-
-
- | Stop the current execution |
-| 
+Stop the current execution
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_22_45.png)
 
-
-
- | Open **Command Builder** for generating commands for console execution |
-| 
+Open **Command Builder** for generating commands for console execution
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_23_4.png)
-
-
-
- | 
 
 Command for Git activities. You can select these options by selecting from dropdownlist (after [enabling Git](https://docs.katalon.com/display/KD/Git+Integration)):
 
@@ -155,35 +107,21 @@ Command for Git activities. You can select these options by selecting from dropd
 *   Pull
 *   Fetch
 
- |
-| 
-
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16 18_23_24.png)
 
-
-
- | Import test case from JIRA integrated account |
-| 
+Import test case from JIRA integrated account
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3 15_9_34.png)
 
-
-
- | Execution profile (testing environments) ro be applied when run tests |
-| 
+Execution profile (testing environments) ro be applied when run tests
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 11_26_34.png)
 
-
-
- | Allowing you to search for help on Katalon Documentation and our Forum |
-| 
+Allowing you to search for help on Katalon Documentation and our Forum
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 14_9_36.png)
 
-
-
- | If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible. |
+If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible.
 
 Tests Explorer View
 -------------------
@@ -194,16 +132,41 @@ The **Tests Explorer** view allows you to browse the structure of your project
 
 where:
 
-| Group | Description |
-| --- | --- |
-| Test Cases | List all [test cases](/display/KD/Manual+View) within current project |
-| Object Repository | List all [test objects](https://docs.katalon.com/display/KD/Manage+Test+Object) of the current project |
-| Test Suites | List all [test suites](https://docs.katalon.com/display/KD/Execute+a+test+suite) and [test suite collections](https://docs.katalon.com/display/KD/Execute+a+test+suite+collection) of the current project |
-| Data Files | List all [test data](https://docs.katalon.com/display/KD/Manage+Test+Data) of the current project |
-| Checkpoints | List all [checkpoints](https://docs.katalon.com/display/KD/Manage+Checkpoint) of the current project |
-| Keywords | List all [custom keywords](/display/KD/Introduction+to+Custom+Keywords) of the current project |
-| Reports | List all generated [reports](https://docs.katalon.com/display/KD/Test+Report) of the current project |
-| Profiles | List all execution profiles of the current project |
+Group
+
+Description
+
+Test Cases
+
+List all [test cases](/display/KD/Manual+View) within current project
+
+Object Repository
+
+List all [test objects](https://docs.katalon.com/display/KD/Manage+Test+Object) of the current project
+
+Test Suites
+
+List all [test suites](https://docs.katalon.com/display/KD/Execute+a+test+suite) and [test suite collections](https://docs.katalon.com/display/KD/Execute+a+test+suite+collection) of the current project
+
+Data Files
+
+List all [test data](https://docs.katalon.com/display/KD/Manage+Test+Data) of the current project
+
+Checkpoints
+
+List all [checkpoints](https://docs.katalon.com/display/KD/Manage+Checkpoint) of the current project
+
+Keywords
+
+List all [custom keywords](/display/KD/Introduction+to+Custom+Keywords) of the current project
+
+Reports
+
+List all generated [reports](https://docs.katalon.com/display/KD/Test+Report) of the current project
+
+Profiles
+
+List all execution profiles of the current project
 
 Keywords Browser View
 ---------------------

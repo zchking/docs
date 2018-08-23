@@ -12,17 +12,30 @@ Record
 *   Without opening any test case, click on Web Record ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 09.41.37.png) icon to open Web Recorder
 *   Katalon Studio default browser is Chrome, whose icon is displayed in the top right corner, but you can change this default browser in **Preferences → Katalon → Recorder → Default browser**. You can also click on the drop-down button to select the browser you want to use:
     
-    | Type | Description | Note |
-    | --- | --- | --- |
-    | New Browsers | Start a new browser | **Supported browsers:**  
+    Type
+    
+    Description
+    
+    Note
+    
+    New Browsers
+    
+    Start a new browser
+    
+    **Supported browsers:**  
     \- Firefox  
     \- Chrome  
-    \- Internet Explorer (only on Windows) |
-    | Active Browsers | Use the current browser (only Chrome) | Katalon Studio will install [Katalon Recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid) as an add-on to help with recording for this type of browser  
+    \- Internet Explorer (only on Windows)
+    
+    Active Browsers
+    
+    Use the current browser (only Chrome)
+    
+    Katalon Studio will install [Katalon Recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid) as an add-on to help with recording for this type of browser  
       
     **Supported browsers:**  
     \- Chrome  
-    \- Firefox (coming soon) |
+    \- Firefox (coming soon)
     
 *   In this example, just select either Chrome or Firefox from '**New Browser**' type to start recording.
     
@@ -79,32 +92,27 @@ Execution comes with seeing execution logs, and in many cases you don't want to 
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.46.04.png)
 
-| Type of Run | Description |
-| --- | --- |
-| Run all steps | Execute ALL steps that are enabled on Web Recorder. |
-| Run selected steps | 
+Type of Run
+
+Description
+
+Run all steps
+
+Execute ALL steps that are enabled on Web Recorder.
+
+Run selected steps
+
 Execute only one or many selected steps.
 
 You can select many steps using either Ctrl or Shift key from your keyword. Selected steps will be highlighted e.g run step #2, #6, #9 and #11 are selected.
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.45.48.png)
 
-
-
-
-
-
-
- |
-| Run from selected step | 
+Run from selected step
 
 Execute the current selected step and all steps after selected one, e.g run step #4 and all steps after it.
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.51.07.png)
-
-
-
- |
 
 Upon selecting any types of Run to execute, there will be execution logs displayed on Logs tab
 

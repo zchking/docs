@@ -12,27 +12,32 @@ Get the current screen orientation of the device.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| 
 Param Type
-
- | 
 
 Description
 
- |
-| --- | --- |
-| String | 
+String
 
 Current screen orientation (portrait, landscape).
-
- |
 
 Example 
 --------

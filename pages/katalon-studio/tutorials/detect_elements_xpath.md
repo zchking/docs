@@ -60,11 +60,21 @@ To deal with these challenges, automation testers should not set fixed XPaths fo
 
 Here are a few examples:
 
-| Xpath value | Description |
-| --- | --- |
-| .//h2\[text()=’Make Appointment’\] | Locate the **h2** tag element that has text matching exactly “Make Appointment” |
-| //*\[contains(text(),’Login’)\] | Locate any element that contains the text “Login” |
-| //a\[starts-with(@id=’LoginPanel’)\] | Locate the **a** tag element that has the ID starting with “LoginPanel” |
+Xpath value
+
+Description
+
+.//h2\[text()=’Make Appointment’\]
+
+Locate the **h2** tag element that has text matching exactly “Make Appointment”
+
+//*\[contains(text(),’Login’)\]
+
+Locate any element that contains the text “Login”
+
+//a\[starts-with(@id=’LoginPanel’)\]
+
+Locate the **a** tag element that has the ID starting with “LoginPanel”
 
 Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 

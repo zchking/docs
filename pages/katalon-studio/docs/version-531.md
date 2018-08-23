@@ -24,14 +24,61 @@ Enhance Kobiton integration to support mobile testing with **Private** Kobiton
 
 Allow users to pass Proxy settings in Console Mode command
 
-| Option Name | Value Type | Value | Mandatory? |
-| --- | --- | --- | --- |
-| proxy.option | Fixed | NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG | YES |
-| proxy.server.type | Fixed |  HTTP, HTTPS, or SOCKS | YES |
-| proxy.server.address | String | Example: http://192.168.12.32, [http://katalon.com](http://katalon.com/) | YES |
-| proxy.server.port | Integer | Example: 80, 8080, 9999 | YES |
-| proxy.username | String | Example: MyProxyUsername | Optional (YES if your proxy server requires authentication) |
-| proxy.password | String | Example: MyProxyPassword | Optional (YES if your proxy server requires authentication) |
+Option Name
+
+Value Type
+
+Value
+
+Mandatory?
+
+proxy.option
+
+Fixed
+
+NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG
+
+YES
+
+proxy.server.type
+
+Fixed
+
+ HTTP, HTTPS, or SOCKS
+
+YES
+
+proxy.server.address
+
+String
+
+Example: http://192.168.12.32, [http://katalon.com](http://katalon.com/)
+
+YES
+
+proxy.server.port
+
+Integer
+
+Example: 80, 8080, 9999
+
+YES
+
+proxy.username
+
+String
+
+Example: MyProxyUsername
+
+Optional (YES if your proxy server requires authentication)
+
+proxy.password
+
+String
+
+Example: MyProxyPassword
+
+Optional (YES if your proxy server requires authentication)
 
 **Example:**
 

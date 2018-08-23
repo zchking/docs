@@ -19,30 +19,19 @@ You can configure general execution preferences by accessing from main menu: *
 
 Where:
 
-| Field | Description |
-| --- | --- |
-| 
-Default execution
+Field
 
- | 
+Description
+
+Default execution
 
 The default environment that Katalon Studio will use to execute automation test.
 
- |
-| 
-
 Default load timeout
-
- | 
 
 The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded when executing automation test.
 
- |
-| 
-
 Post-Execution Options
-
- | 
 
 These options decide the actions that Katalon Studio will perform after finishing automation test.
 
@@ -51,8 +40,6 @@ These options decide the actions that Katalon Studio will perform after finishin
     *   Refer to [Test suite > Manage execution information](/pages/viewpage.action?pageId=786668) for how to register a list of recipients who will be receiving the execution report of a specific test suite.
 *   **Open report**: Specify whether the report generated after your test suite finishes its execution will also be open immediately.
 *   **Terminate drivers**: Specify whether any driver remains after execution will be terminated.
-
- |
 
 All the above preferences are saved into the file “**com.kms.katalon.composer.execution.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.
 
@@ -65,15 +52,12 @@ You can configure WebUI execution preferences by accessing from main menu: **W
 
 Where:
 
-| Preference Setting | Description |
-| --- | --- |
-| 
+Preference Setting
+
+Description
+
 Default wait when IE hangs
 
- | 
-
 Specify the default period of waiting that Katalon Studio should use in case IE hangs.
-
- |
 
 The above preference is saved into the file “**com.kms.katalon.composer.webui.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.

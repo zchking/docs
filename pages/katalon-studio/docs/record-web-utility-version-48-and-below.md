@@ -22,19 +22,21 @@ Follow these basic steps to get familiar with the Record & Playback features for
     ![](../../images/katalon-studio/docs/record-web-utility-version-48-and-below/image2017-1-9 17_8_37.png)  
     Where:
     
-    | Type | Description |
-    | --- | --- |
-    | New Browsers | Launch a new browser and start recording actions from that browser. |
-    | Active Browsers | 
+    Type
+    
+    Description
+    
+    New Browsers
+    
+    Launch a new browser and start recording actions from that browser.
+    
+    Active Browsers
+    
     Focus on **the current active Chrome browser** and start recording actions from it. You will be asked for installation of Katalon Utility:
     
     ![](../../images/katalon-studio/docs/record-web-utility-version-48-and-below/image2017-2-23 11_54_29.png)
     
     Refer to [Katalon Addon for Chrome](/display/KD/Katalon+Addon+for+Chrome) for more details.
-    
-    
-    
-     |
     
 5.  Execute all your test steps on the browser. All of your actions performed on the browser will be recorded by Katalon Studio.   
     ![](../../images/katalon-studio/docs/record-web-utility-version-48-and-below/image2017-6-28 16_14_6.png)  

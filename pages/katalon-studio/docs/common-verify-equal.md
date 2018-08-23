@@ -12,24 +12,51 @@ Verify if two objects are equal. 
 Parameters 
 -----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| actualObject  | Object  | Required | Represent the actual object. |
-| expectedObject  | Object  | Required | Represent the expected object. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+actualObject 
+
+Object 
+
+Required
+
+Represent the actual object.
+
+expectedObject 
+
+Object 
+
+Required
+
+Represent the expected object.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
+Param Type
+
+Description
+
+Boolean
+
 *   **true** if the actual number and the expected number are equal.
     
 *   **false** if the actual number and the expected number are NOT equal.
     
-
- |
 
 Example 
 --------

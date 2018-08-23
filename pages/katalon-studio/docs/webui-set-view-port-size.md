@@ -12,11 +12,37 @@ Set the size of the current window. This will change the outer window dimension 
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| width | int | Required | The target viewport width. |
-| height | int | Required | The target viewport height. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+width
+
+int
+
+Required
+
+The target viewport width.
+
+height
+
+int
+
+Required
+
+The target viewport height.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop.
 
 Example 
 --------

@@ -116,25 +116,26 @@ Keywords
 
 New built-in keywords to help users check for broken links or images.
 
-| Keywords | Description |
-| --- | --- |
-| 
-[Get All Links On Current Page](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+All+Links+On+Current+Page)
+Keywords
 
- | 
+Description
+
+[Get All Links On Current Page](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+All+Links+On+Current+Page)
 
 Get all links on current page
 
- |
-| [Verify Response Status Code](https://docs.katalon.com/display/KD/%5BWS%5D+Verify+Response+Status+Code) | 
+[Verify Response Status Code](https://docs.katalon.com/display/KD/%5BWS%5D+Verify+Response+Status+Code)
 
 Verify status code in the returned data from a web service call
 
- |
-| [Verify Response Status Code In Range](https://docs.katalon.com/display/KD/%5BWS%5D+Verify+Response+Status+Code+In+Range) | 
+[Verify Response Status Code In Range](https://docs.katalon.com/display/KD/%5BWS%5D+Verify+Response+Status+Code+In+Range)
 
 Verify status code valid in a range of status codes in the returned data from a web service call
 
- |
-| [Verify Links Accessible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Links+Accessible) | Verify a list of links (URLs) are accessible |
-| [Verify All Links On Current Page Accessible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+All+Links+On+Current+Page+Accessible) | Verify all links (URLs) on the current page are accessible |
+[Verify Links Accessible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Links+Accessible)
+
+Verify a list of links (URLs) are accessible
+
+[Verify All Links On Current Page Accessible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+All+Links+On+Current+Page+Accessible)
+
+Verify all links (URLs) on the current page are accessible

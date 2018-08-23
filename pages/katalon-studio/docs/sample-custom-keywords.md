@@ -12,11 +12,21 @@ The options are displayed directly when you create a new custom keyword.
 
 ![](../../images/katalon-studio/docs/sample-custom-keywords/Screen Shot 2018-03-26 at 13.35.02.png)
 
-| Option | Description |
-| --- | --- |
-| Generate sample keywords for Web | Generate some sample functions used for Web Testing |
-| Generate sample keywords for Mobile | Generate some sample functions used for Mobile Testing |
-| Generate sample keywords for API | Generate some sample functions used for API Testing |
+Option
+
+Description
+
+Generate sample keywords for Web
+
+Generate some sample functions used for Web Testing
+
+Generate sample keywords for Mobile
+
+Generate some sample functions used for Mobile Testing
+
+Generate sample keywords for API
+
+Generate some sample functions used for API Testing
 
   
 You can select **one** or **all** of these options to have all sample custom keywords generated in one file. For example, select all options, the generated custom keyword will look like as below:

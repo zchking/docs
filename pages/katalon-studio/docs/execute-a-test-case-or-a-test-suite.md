@@ -15,11 +15,20 @@ Open a test case/test suite, then select the environment to run the test case fr
 
 If you simply click on the **Run** button, the test case will be executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
-| Execution Environment | Execution Guide |
-| --- | --- |
-| **Browsers** | Simply select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge) |
-| **Mobile Browsers** | Simply select to execute your test on one of the supported devices (Android, iOS) |
-| **Mobile** | 
+Execution Environment
+
+Execution Guide
+
+**Browsers**
+
+Simply select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge)
+
+**Mobile Browsers**
+
+Simply select to execute your test on one of the supported devices (Android, iOS)
+
+**Mobile**
+
 Before executing your test, check if you have set up the environment for mobile testing for [Windows](/display/KD/Mobile+on+Windows) or for [macOS](/display/KD/Mobile+on+macOS). Select your device among those listed in Katalon Studio.
 
 ![](../../images/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26 18_54_41.png)
@@ -30,15 +39,13 @@ If there is no device listed, please make sure the Developer Mode on the phone i
 
 ![](../../images/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2 15_31_52.png)
 
+**Remote**
 
+Make sure you have set up default configuration for the remote environment in project settings. Refer to [Introduction to Desired Capabilities](/display/KD/Introduction+to+Desired+Capabilities) for more details.
 
+**Custom**
 
-
-
-
- |
-| **Remote** | Make sure you have set up default configuration for the remote environment in project settings. Refer to [Introduction to Desired Capabilities](/display/KD/Introduction+to+Desired+Capabilities) for more details. |
-| **Custom** | Make sure you have set up default configuration for the remote environment in project settings. Refer to [Custom Execution](https://docs.katalon.com/x/cgFO#ExecutionSettings-CustomExecution) for more details. When you have set up your custom environment, simply select it from the drop-down list. |
+Make sure you have set up default configuration for the remote environment in project settings. Refer to [Custom Execution](https://docs.katalon.com/x/cgFO#ExecutionSettings-CustomExecution) for more details. When you have set up your custom environment, simply select it from the drop-down list.
 
 Execute Parts of a Test Case
 ----------------------------

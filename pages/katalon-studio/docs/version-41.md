@@ -31,17 +31,15 @@ Improvements
     
 2.  Update Dialog icons.
     
-    | Infomation |  |
-    | --- | --- |
-    | Error | 
+    Infomation
+    
+    Error
+    
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 15_59_52.png)
     
-     |
-    | Warning | 
+    Warning
     
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 16_0_53.png)
-    
-     |
     
 3.  Rename 'Mobile Object Inspector' into 'Mobile Object Spy' Dialog  
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 11_35_10.png)  

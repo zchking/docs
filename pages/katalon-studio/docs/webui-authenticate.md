@@ -12,16 +12,53 @@ Navigate to a page that requires authentication. System will enter username and 
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| url | String | Required | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+url
+
+String
+
+Required
+
 URL of the page to navigate.
 
- |
-| userName | String | Required | Username to authenticate. |
-| password | String | Required | Password to authenticate. |
-| timeout | int | Required | Time to wait since navigating to the page until entering username. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+userName
+
+String
+
+Required
+
+Username to authenticate.
+
+password
+
+String
+
+Required
+
+Password to authenticate.
+
+timeout
+
+int
+
+Required
+
+Time to wait since navigating to the page until entering username.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

@@ -14,53 +14,46 @@ There will a **new tab** called '**Script**' in **Test Suite**'s interface. This
 
 ![](../../images/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/image2018-1-8 16_25_42.png)**Supported methods**
 
-| Method | Description | Trigger Condition | Common Usages |
-| --- | --- | --- | --- |
-| 
-setUp
+Method
 
- | 
+Description
+
+Trigger Condition
+
+Common Usages
+
+setUp
 
 Setup test suite environment  
   
 
-
- | Before executed test suites | 
+Before executed test suites
 
 Prepare testing environment
 
 Call required test cases for the executed test suite
 
- |
-| setUpTestCase | Run before each test case starts | Before executed test cases |
-| 
+setUpTestCase
+
+Run before each test case starts
+
+Before executed test cases
 
 tearDown
 
- | 
-
 Clean test suites environment
 
- | After executed test suites | 
+After executed test suites
 
 Clean-up testing environment
 
 Call TearDown test cases for the executed test suite
 
- |
-| 
-
 tearDownTestCase
-
- | 
 
 Run after each test case ends
 
- | 
-
 After executed test cases
-
- |
 
 #### How it works
 

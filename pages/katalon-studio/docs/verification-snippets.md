@@ -14,19 +14,53 @@ Verification snippets can be accessed by clicking on the '**Verification**' tab 
 
 On the right panel of 'Verification' tab is the list of common pre-built snippets which can assist you in most of the verification cases. 
 
-| Snippet | Description |
-| --- | --- |
-| Get current response | Return response object after sending a request successfully. |
-| Get a global variable | Return a Global Variable's value. |
-| Response body: Contains string | Verify if response's body contains a specific string. |
-| Response body: Convert to JSON Object | Convert response's body to JSON. |
-| Response headers: Content-Type header | Verify Content-Type header's value. |
-| Status code: Code is 200 | Verify if response's status code is 200 or no. |
-| Status code: Successfully request | Verify if the request is sent successfully |
-| Response body: number of elements | Verify number of elements from response |
-| Response body: element not empty | Verify specified element is not empty |
-| Response: Array contains | Verify specified arrays contain values |
-| Response: Get single info of array list | Get single info of array list |
+Snippet
+
+Description
+
+Get current response
+
+Return response object after sending a request successfully.
+
+Get a global variable
+
+Return a Global Variable's value.
+
+Response body: Contains string
+
+Verify if response's body contains a specific string.
+
+Response body: Convert to JSON Object
+
+Convert response's body to JSON.
+
+Response headers: Content-Type header
+
+Verify Content-Type header's value.
+
+Status code: Code is 200
+
+Verify if response's status code is 200 or no.
+
+Status code: Successfully request
+
+Verify if the request is sent successfully
+
+Response body: number of elements
+
+Verify number of elements from response
+
+Response body: element not empty
+
+Verify specified element is not empty
+
+Response: Array contains
+
+Verify specified arrays contain values
+
+Response: Get single info of array list
+
+Get single info of array list
 
 When you click on one of these labels, it will generate a snippet for you.
 

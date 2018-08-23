@@ -32,15 +32,53 @@ Improvements
 
 ### New mobile keywords
 
-| No. | Keyword's name | Description |
-| --- | --- | --- |
-| 1 | Tap And Hold | Tap and hold on a mobile element for a duration |
-| 2 | Check Element | Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
-| 3 | Uncheck Element | Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
-| 4 | Hide Keyboard | Hide a keyboard if it is showing |
-| 5 | Verify Element Checked | Verify if a mobile element is checked |
-| 6 | Verify Element Not Checked | Verify of a mobile element is not checked |
-| 7 | Drag and Drop | Drag and drop an element into another element |
+No.
+
+Keyword's name
+
+Description
+
+1
+
+Tap And Hold
+
+Tap and hold on a mobile element for a duration
+
+2
+
+Check Element
+
+Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)
+
+3
+
+Uncheck Element
+
+Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)
+
+4
+
+Hide Keyboard
+
+Hide a keyboard if it is showing
+
+5
+
+Verify Element Checked
+
+Verify if a mobile element is checked
+
+6
+
+Verify Element Not Checked
+
+Verify of a mobile element is not checked
+
+7
+
+Drag and Drop
+
+Drag and drop an element into another element
 
 ### Record/Playback
 

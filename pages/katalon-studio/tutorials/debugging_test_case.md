@@ -27,25 +27,60 @@ The following presents the basic steps to debug a test case:
 
 Where:
 
-| Command | Description |
-| --- | --- |
-|  ![Resume debugging](../../images/katalon-studio/tutorials/debugging_test_case/Resume-debugging.png) | Resume debugging |
-|  ![Suspend debugging](../../images/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png) | Suspend debugging |
-|  ![Terminate debugging](../../images/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png) | Terminate debugging |
-|  ![Disconnect](../../images/katalon-studio/tutorials/debugging_test_case/Disconnect.png) | Disconnect |
-|  ![Step into current code block](../../images/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into current code block |
-|  ![Step over current code block](../../images/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over current code block |
-|  ![Return from current code block](../../images/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from current code block |
-|  ![Run to specific line](../../images/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to specific line |
+Command
+
+Description
+
+ ![Resume debugging](../../images/katalon-studio/tutorials/debugging_test_case/Resume-debugging.png)
+
+Resume debugging
+
+ ![Suspend debugging](../../images/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png)
+
+Suspend debugging
+
+ ![Terminate debugging](../../images/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png)
+
+Terminate debugging
+
+ ![Disconnect](../../images/katalon-studio/tutorials/debugging_test_case/Disconnect.png)
+
+Disconnect
+
+ ![Step into current code block](../../images/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png)
+
+Step into current code block
+
+ ![Step over current code block](../../images/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png)
+
+Step over current code block
+
+ ![Return from current code block](../../images/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png)
+
+Return from current code block
+
+ ![Run to specific line](../../images/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png)
+
+Run to specific line
 
 **Track values of variables using Watch utilities.**  
 ![Watch utilities](../../images/katalon-studio/tutorials/debugging_test_case/Watch-utilities.png)Where:
 
-| View | Description |
-| --- | --- |
-| Variables | You can view all variables associated with the current debugged action using Variables View. This is similar to Variables View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
-| Breakpoints | You can view all breakpoints using Breakpoints View. This is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
-| Expressions | You can inspect data using Expressions View. This is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+View
+
+Description
+
+Variables
+
+You can view all variables associated with the current debugged action using Variables View. This is similar to Variables View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details.
+
+Breakpoints
+
+You can view all breakpoints using Breakpoints View. This is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details.
+
+Expressions
+
+You can inspect data using Expressions View. This is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details.
 
 6\. Stop execution when you complete debugging.  
 Although the debugging mode in Katalon Studio is very similar to that of the popular Eclipse IDE, we manage to retain just enough function to keep the UI clean while providing users with all required options to investigate issues when needed. If you have any suggestion or need any support, please send your request [here](https://www.katalon.com/#submit-ticket).

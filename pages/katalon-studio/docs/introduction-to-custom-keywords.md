@@ -53,11 +53,21 @@ Create a Custom Keyword
     
     where:
     
-    | Item | Description |
-    | --- | --- |
-    | @Keyword | The annotation to indicate that the block of code below is the definition of a keyword. |
-    | keywordName | The name that you would like to use for your custom keyword |
-    | parameters | The list of parameters that would be used in the custom keyword |
+    Item
+    
+    Description
+    
+    @Keyword
+    
+    The annotation to indicate that the block of code below is the definition of a keyword.
+    
+    keywordName
+    
+    The name that you would like to use for your custom keyword
+    
+    parameters
+    
+    The list of parameters that would be used in the custom keyword
     
     For example:  
     ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 16_20_3.png)
@@ -99,17 +109,62 @@ Follow the steps below in order to use your defined custom keywords in **Script
 
 The following API docs may prove useful when working with custom keywords:
 
-| Class | Method | Description |
-| --- | --- | --- |
-| **[Driver Factory](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/driver/DriverFactory.html)** | [getWebDriver()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/driver/DriverFactory.html#getWebDriver()) | Get the current active web driver. |
-| **[Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html)** | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)) | Add a new property to the test object |
-| setProperties(List<TestObjectProperty> properties) | Set the properties of the test object |
-| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get object ID. |
-| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name |
-| **[Keyword Util](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html)** | [logInfo(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#logInfo(java.lang.String)) | Log message as info |
-| [markError(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markError(java.lang.String)) | Mark a keyword to be error |
-| [markErrorAndStop(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markErrorAndStop(java.lang.String)) | Mark a keyword to be error and stop execution |
-| [markFailed(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markFailed(java.lang.String)) | Mark a keyword to be failed and continue execution |
-| [markFailedAndStop(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markFailedAndStop(java.lang.String)) | Mark a keyword to be failed and stop execution |
-| [markPassed(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markPassed(java.lang.String)) | Mark a keyword to be passed |
-| [markWarning(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markWarning(java.lang.String)) | Mark a keyword to be warning |
+Class
+
+Method
+
+Description
+
+**[Driver Factory](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/driver/DriverFactory.html)**
+
+[getWebDriver()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/driver/DriverFactory.html#getWebDriver())
+
+Get the current active web driver.
+
+**[Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html)**
+
+[addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String))
+
+Add a new property to the test object
+
+setProperties(List<TestObjectProperty> properties)
+
+Set the properties of the test object
+
+[getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId())
+
+Get object ID.
+
+[findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean))
+
+Find the value of a property using the property name
+
+**[Keyword Util](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html)**
+
+[logInfo(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#logInfo(java.lang.String))
+
+Log message as info
+
+[markError(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markError(java.lang.String))
+
+Mark a keyword to be error
+
+[markErrorAndStop(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markErrorAndStop(java.lang.String))
+
+Mark a keyword to be error and stop execution
+
+[markFailed(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markFailed(java.lang.String))
+
+Mark a keyword to be failed and continue execution
+
+[markFailedAndStop(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markFailedAndStop(java.lang.String))
+
+Mark a keyword to be failed and stop execution
+
+[markPassed(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markPassed(java.lang.String))
+
+Mark a keyword to be passed
+
+[markWarning(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markWarning(java.lang.String))
+
+Mark a keyword to be warning

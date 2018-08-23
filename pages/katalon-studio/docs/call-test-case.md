@@ -38,19 +38,17 @@ Mobile.callTestCase(findTestCase({Test Case ID}), [key1:value1, key2:value2, …
 
 where:
 
-| Items | Description |
-| --- | --- |
-| {Test Case ID} | 
+Items
+
+Description
+
+{Test Case ID}
+
 The **ID** of the test case to be called. You can find this info in test case properties.
 
 For example:
 
 ![](../../images/katalon-studio/docs/call-test-case/image2017-2-24 14_16_26.png)
-
-
-
- |
-| 
 
 Parameters binding:
 
@@ -58,19 +56,14 @@ Parameters binding:
 [key1:value1, key2:value2, … , keyN:valueN]
 ```
 
- | 
-
 The **list of input parameters** for that test case if any, which consists of following details:
 
 *   _Key(s)_: The [public variables](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Publicvariables) defined within the called test case.
 *   _Value_: the value to be used for the corresponding public variables.
 
- |
-| FailureHandling.option | 
+FailureHandling.option
 
 The _failure handling_ option for the current test step. This parameter is **optional**.
-
- |
 
 For example:
 

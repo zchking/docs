@@ -11,11 +11,37 @@ Set the value of an input field, as though you type it in. It also clears the pr
 
 Parameters  
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to  | TestObject | Required | Represent a web element. |
-| text | String | Required | The text to type in. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to 
+
+TestObject
+
+Required
+
+Represent a web element.
+
+text
+
+String
+
+Required
+
+The text to type in.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example  
 ---------

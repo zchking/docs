@@ -12,22 +12,49 @@ Verify if the web element is visible in current [viewport](https://www.w3school
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | Represent a web element. |
-| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return the result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject
+
+Required
+
+Represent a web element.
+
+timeOut 
+
+int 
+
+Required
+
+Maximum period of time (in seconds) that system will wait to return the result.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
+Param Type
+
+Description
+
+Boolean
+
 *   **true:** the element is visible in current viewport.
 *   **false:** the element is NOT visible in current viewport.
-
- |
 
 Example
 -------

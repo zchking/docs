@@ -13,76 +13,38 @@ You can manage additional configurations for test suite execution by expanding t
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_49_29.png)
 
-| Field | Description |
-| --- | --- |
-| 
+Field
+
+Description
+
 Page load timeout:
 
  ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_56_48.png)
-
-
-
- | 
 
 The timeout period allowed to wait for a page to be loaded. You can choose among the following options:
 
 *   **Use default**: the default value defined will be used. Refer to [Execution Preferences (Version 5.0 and below)](/pages/viewpage.action?pageId=3179873) for more details.
 *   **User-defined value**: the entered timeout value (in seconds) will be used.
 
-
-
- |
-| 
-
 Retry:
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_9_6.png)
 
-
-
- | 
-
 The **maximum** number of retries for execution until it is successfully passed. You can opt to retry only **failed** test cases.
-
-
-
- |
-| 
 
 Mail Recipients
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_12_46.png)
 
-
-
- | 
-
 The list of recipients who would receive the execution report once the test suite finishes its execution.
 
 There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to [Emails Settings](/display/KD/Emails+Settings) for more details.
-
-
-
-
-
-
-
- |
-| 
 
 Last run:
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_14_55.png)
 
-
-
- | 
-
 The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the **Last run** hyperlink.
-
-
-
- |
 
 Manage Test Case List
 ---------------------
@@ -123,19 +85,26 @@ Using the test suite editor, you can add a predefined test data file object whic
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_5_49.png)  
     where:
     
-    | Option | Description |
-    | --- | --- |
-    | Run all rows | All the data rows in the data file will be used during test execution. |
-    | Run from row ... to row ... | The data range from a certain row to a certain row in the data file will be used during test execution. |
-    | Run with specific rows | 
+    Option
+    
+    Description
+    
+    Run all rows
+    
+    All the data rows in the data file will be used during test execution.
+    
+    Run from row ... to row ...
+    
+    The data range from a certain row to a certain row in the data file will be used during test execution.
+    
+    Run with specific rows
+    
     The data rows which are specified here will be used during test execution. You can use **comma** and **hyphen** characters to define the rows.
     
     For example:
     
     *   to use three data rows (row 1, row 2, row 3), enter: 1,2,3
     *   to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: 1-5,9
-    
-     |
     
 6.  Click on the **Type** cell to toggle its value. Refer to [Manage Test Data Relationship](#DesignaTestSuite-Managetestdatarelationship) for more details.  
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_53_51.png)  
@@ -146,19 +115,26 @@ Using the test suite editor, you can add a predefined test data file object whic
 
 If you are specifying multiple test data, then you can further define the relationship among them to decide how the final data set used in the test execution will be. There are two types of relationship supported in Katalon Studio:
 
-| Relationship Type | Description |
-| --- | --- |
-| One | 
+Relationship Type
+
+Description
+
+One
+
 The data set will be indicated as 'One' in the relationship with other data set.
 
- |
-| Many | The data set will be indicated as 'Many' in the relationship with other data set. |
+Many
+
+The data set will be indicated as 'Many' in the relationship with other data set.
 
 Therefore, we can have the following combinations among data sets:
 
-| Relationship | Example |
-| --- | --- |
-| One to One | 
+Relationship
+
+Example
+
+One to One
+
 Given there are two data sets as below:
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_47_9.png)
@@ -168,10 +144,7 @@ Then the final data set used for test execution will be:
 *   a1 b1
 *   a2 b2
 
-
-
- |
-| Many to Many | 
+Many to Many
 
 Given there are two data sets as below:
 
@@ -186,10 +159,7 @@ Then the final data set used for test execution will be:
 *   a3 b1
 *   a3 b2
 
-
-
- |
-| One to Many | 
+One to Many
 
 Given there are two data sets as below:
 
@@ -206,11 +176,6 @@ Then the final data set used for test execution will be:
 *   a3 b2
 *   a4 b2
 
-
-
- |
-| 
-
 Given there are three data sets as below:
 
 ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_52_41.png)
@@ -221,10 +186,6 @@ Then the final data set used for test execution will be:
 *   a1 b1 c2
 *   a2 b2 c1
 *   a2 b2 c2
-
-
-
- |
 
 ### Variable Binding
 

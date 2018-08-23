@@ -40,14 +40,17 @@ cd /home/katalon/Katalon_5.3 ./katalon -noSplash -runMode=console -consoleLog -p
 
 #### Troubleshooting
 
-| Description | Causes (one of the following) | Solutions |
-| --- | --- | --- |
-| **Invalid Project Description** | 
+Description
+
+Causes (one of the following)
+
+Solutions
+
+**Invalid Project Description**
+
 .project file contains invalid information.  
   
 Katalon command was executed lines in the SAME folder of project folder ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.07.44.png)
-
- | 
 
 - Delete .project file to let Katalon Studio generate back the valid information  
   
@@ -55,5 +58,8 @@ Katalon command was executed lines in the SAME folder of project folder ![](../.
   
 ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.08.52.png)
 
- |
-| 'NoClassDefFoundError' error | Oracle JDK is used | - Uninstall current Oracle JDK - Install Open JDK8 after that: [http://openjdk.java.net/install/](http://openjdk.java.net/install/). |
+'NoClassDefFoundError' error
+
+Oracle JDK is used
+
+- Uninstall current Oracle JDK - Install Open JDK8 after that: [http://openjdk.java.net/install/](http://openjdk.java.net/install/).

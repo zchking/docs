@@ -12,14 +12,11 @@ These settings allow you to define global email configurations to be used in oth
 
 Where:
 
-| Section | Description |
-| --- | --- |
-| 
+Section
+
+Description
+
 ![](../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_25_39.png)
-
-
-
- | 
 
 This section defines the mail server which Katalon Studio will use to send emails.
 
@@ -29,20 +26,11 @@ This section defines the mail server which Katalon Studio will use to send email
 *   **Protocol**: the protocol to communicate with the mail server
 *   **Encrypt authentication data** is recommended for sensitive data protection
 
- |
-| 
-
 ![](../../images/katalon-studio/docs/emails-settings/image2017-11-15 9_43_0.png)
-
-
-
- | 
 
 This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click **Edit Template**.
 
 Selecting **Include report as email attachment** will enable all the options to include **execution log** and **report format** of the test suite will be sent as attachments in the notification email.
-
- |
 
 Configure Email Settings in Email Preferences
 ---------------------------------------------
@@ -101,16 +89,50 @@ You can customize the content of email here. All fields in template is editable.
 
 Where:
 
-| Variable | Description |
-| --- | --- |
-| hostName | Host's name |
-| os | Operating system |
-| Browser | Browser name and version |
-| deviceId | Id of executed device |
-| deviceName | Name of executed device |
-| suiteId | Id of test suite |
-| suiteName | Name of test suite |
-| totalTestCases | total executed test cases |
-| totalPassed | total passed test cases |
-| totalFailed | total failed test cases |
-| totalError | total error test cases |
+Variable
+
+Description
+
+hostName
+
+Host's name
+
+os
+
+Operating system
+
+Browser
+
+Browser name and version
+
+deviceId
+
+Id of executed device
+
+deviceName
+
+Name of executed device
+
+suiteId
+
+Id of test suite
+
+suiteName
+
+Name of test suite
+
+totalTestCases
+
+total executed test cases
+
+totalPassed
+
+total passed test cases
+
+totalFailed
+
+total failed test cases
+
+totalError
+
+total error test cases

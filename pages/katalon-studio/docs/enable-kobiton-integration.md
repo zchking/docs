@@ -14,10 +14,17 @@ Enable Kobiton Integration
     ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29 16_54_3.png)  
     where:
     
-    | Field | Description |
-    | --- | --- |
-    | Kobiton Server | The Kobiton server to be integrated with Katalon Studio. |
-    | API Key | The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys). |
+    Field
+    
+    Description
+    
+    Kobiton Server
+    
+    The Kobiton server to be integrated with Katalon Studio.
+    
+    API Key
+    
+    The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
     
       
       

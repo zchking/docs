@@ -19,10 +19,17 @@ Enable Kobiton Integration
 ![information for Kobiton integration](../../images/katalon-studio/tutorials/integrate_with_kobiton/Connect.png)  
 Other fields in the Kobiton configuration dialog include:
 
-| Field | Description |
-| --- | --- |
-| Kobiton Server | The Kobiton server to be connected and integrated with Katalon Studio. |
-| API Key | The token to be used by Katalon Studio for exchanging API messages with Kobiton. You can generate more keys from the [Kobiton API Settings](https://portal.kobiton.com/settings/keys). |
+Field
+
+Description
+
+Kobiton Server
+
+The Kobiton server to be connected and integrated with Katalon Studio.
+
+API Key
+
+The token to be used by Katalon Studio for exchanging API messages with Kobiton. You can generate more keys from the [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
 
 3\. Click **Apply **when you are done with the settings.
 

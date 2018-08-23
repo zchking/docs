@@ -12,15 +12,45 @@ Tap and hold on a mobile element for a duration
 Parameters
 ----------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject  | Required | Represent a mobile element. |
-| duration | Number  | Required | Duration (in seconds) that the tap is held on the element, if set to <= 0 then will use default duration. |
-| timeout  | int | 
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+to
+
+TestObject 
+
 Required
 
- | System will wait at most timeout (seconds) to return the result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Represent a mobile element.
+
+duration
+
+Number 
+
+Required
+
+Duration (in seconds) that the tap is held on the element, if set to <= 0 then will use default duration.
+
+timeout 
+
+int
+
+Required
+
+System will wait at most timeout (seconds) to return the result.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

@@ -42,7 +42,14 @@ For example:
 
 The following API docs may prove useful when working with web service objects:
 
-| Class | Description |
-| --- | --- |
-| **[Request Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/RequestObject.html)** | Describe all available methods for Request Object |
-| **[Response Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/ResponseObject.html)** | Describe all available methods for Response Object |
+Class
+
+Description
+
+**[Request Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/RequestObject.html)**
+
+Describe all available methods for Request Object
+
+**[Response Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/ResponseObject.html)**
+
+Describe all available methods for Response Object

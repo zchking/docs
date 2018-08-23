@@ -31,43 +31,35 @@ https://sample-web-service-aut.herokuapp.com/api/users/accept-json?gender=MALE&a
 
 where:
 
-| 
 Field
-
- | 
 
 Description
 
- |
-| --- | --- |
-| Request method | The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE. |
-| Request URL | The URL registered for the RESTful web services. |
-| Parameters | Any parameter to be passed along with the RESTful request object. These values are generated automatically based on the Request URL or can be manually added. |
-| 
+Request method
+
+The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE.
+
+Request URL
+
+The URL registered for the RESTful web services.
+
+Parameters
+
+Any parameter to be passed along with the RESTful request object. These values are generated automatically based on the Request URL or can be manually added.
 
 Authorization
-
-
-
- | 
 
 Credentials for HTTP authentication. 
 
 Type: **Basic, OAuth 1.0, **or **No Authorization**
 
-
-
- |
-| HTTP Headers | 
+HTTP Headers
 
 The header information to be included to transmit in the RESTful request object. '**Content-Type**' value is generated automatically based on the HTTP Body.
 
 You can also select headers from the list of suggested options (by double-clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for more details.
 
-
-
- |
-| HTTP Body | 
+HTTP Body
 
 The body information to be included to transmit in the RESTful request object. Katalon Studio supports the following transmit types:
 
@@ -86,10 +78,6 @@ And the following format types:
 
 ![](../../images/katalon-studio/docs/restful-latest/image2018-4-1 18_58_27.png)
 
-
-
- |
-
 RESTful Response
 ----------------
 
@@ -101,53 +89,49 @@ Since version 5.4, Katalon Studio provides Web Services Response in a separate 
 
 There are 3 new information provided in the response's section:
 
-| Field | Description |
-| --- | --- |
-| 
+Field
+
+Description
+
 **Status**
 
- | The status code of the response |
-| 
+The status code of the response
 
 **Elapsed**
 
- | The total time that starts from the request is sent until Katalon Studio receives the last byte of the response. |
-| 
+The total time that starts from the request is sent until Katalon Studio receives the last byte of the response.
 
 **Size**
 
- | Size of the response package |
+Size of the response package
 
 The **Response** can be displayed in **multiple ways**
 
-|   | Description | Example |
-| --- | --- | --- |
-| **pretty** | Response is displayed in a pretty format which is easier to read | 
+ 
+
+Description
+
+Example
+
+**pretty**
+
+Response is displayed in a pretty format which is easier to read
+
 ![](../../images/katalon-studio/docs/restful-latest/Screen Shot 2018-04-10 at 17.23.21.png)
 
+**raw**
 
-
- |
-| **raw** | Response is displayed in the raw text without any format | 
+Response is displayed in the raw text without any format
 
 ![](../../images/katalon-studio/docs/restful-latest/Screen Shot 2018-04-10 at 17.23.30.png)
 
-
-
- |
-| **preview** | 
+**preview**
 
 Response will be displayed as visualized
 
 (e.g. If a Response is from loading a specific webpage, it will be displayed as the screenshot below)
 
- | 
-
 ![](../../images/katalon-studio/docs/restful-latest/image2018-4-1 19_10_26.png)
-
-
-
- |
 
   
   

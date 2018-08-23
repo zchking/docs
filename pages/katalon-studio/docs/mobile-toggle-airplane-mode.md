@@ -12,10 +12,29 @@ Simulate toggling airplane mode on mobile devices.
  Parameters  
 -------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| mode | String | Required | \["yes", "on", "true"\] to turn on airplane mode; otherwise, airplane mode is turn off. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+mode
+
+String
+
+Required
+
+\["yes", "on", "true"\] to turn on airplane mode; otherwise, airplane mode is turn off.
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example  
 ---------

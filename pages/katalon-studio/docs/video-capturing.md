@@ -27,13 +27,20 @@ Follow the steps below to see how work with Katalon Studio video capturing featu
     
     Video setting can be specified depend on users preferences. Katalon Studio recommends AVI (.avi) format and Low quality to save disk space. The higher the video qualiy the bigger file size will be.
     
-    |   | Options |
-    | --- | --- |
-    | **Video format** | AVI (.avi)  
-    MOV (.mov) |
-    | **Video quality** | Low  
+     
+    
+    Options
+    
+    **Video format**
+    
+    AVI (.avi)  
+    MOV (.mov)
+    
+    **Video quality**
+    
+    Low  
     Medium  
-    High |
+    High
     
       
       

@@ -12,9 +12,20 @@ Open a browser and navigate to the specified URL. If the URL is left empty then 
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| rawUrl | String | Optional | 
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+rawUrl
+
+String
+
+Optional
+
 URL of the web page to be opened can be left empty or null. If rawUrl doesn't contain protocol prefix, the protocol will be http://. For example: 
 
 *   [https://www.google.com](https://www.google.com) 
@@ -26,8 +37,13 @@ URL of the web page to be opened can be left empty or null. If rawUrl doesn't co
 *   http://katalon.com/
     
 
- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Example
 -------

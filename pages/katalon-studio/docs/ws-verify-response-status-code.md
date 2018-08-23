@@ -12,11 +12,37 @@ Verify status code in the returned data from a web service call.
 Parameters
 ----------
 
-| Parameter | Parameter Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| responseObject | ResponseObject | Required | The object represents an HTTP Response, the user can get responded content type, header properties (sometimes the user may want to get cookies from response header) |
-| expectedStatusCode | int | Required | The expected status code |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Parameter
+
+Parameter Type
+
+Mandatory
+
+Description
+
+responseObject
+
+ResponseObject
+
+Required
+
+The object represents an HTTP Response, the user can get responded content type, header properties (sometimes the user may want to get cookies from response header)
+
+expectedStatusCode
+
+int
+
+Required
+
+The expected status code
+
+flowControl
+
+FailureHandling
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------

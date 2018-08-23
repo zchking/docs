@@ -12,17 +12,40 @@ Send an HTTP Request to a web server.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| request  | RequestObject  | Required | Represent a HTTP Request, user needs to define it from Object Repository > New > Web Service Request |
-| flowControl  | FailureHandling  | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+Param
+
+Param Type
+
+Mandatory
+
+Description
+
+request 
+
+RequestObject 
+
+Required
+
+Represent a HTTP Request, user needs to define it from Object Repository > New > Web Service Request
+
+flowControl 
+
+FailureHandling 
+
+Optional
+
+Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| ResponseObject | A response object |
+Param Type
+
+Description
+
+ResponseObject
+
+A response object
 
 Example
 -------

@@ -22,9 +22,13 @@ Having the ability to parameterized Web Services object allows user have more co
     ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/image2018-4-3 11_12_30.png)  
     Where
     
-    | Parameter | Description |
-    | --- | --- |
-    | ${userID} | Parameterized **userID** to receive any passing value |
+    Parameter
+    
+    Description
+    
+    ${userID}
+    
+    Parameterized **userID** to receive any passing value
     
     In **Script Mode**, the below code passing the value of **userID** to be sent in the request
     
@@ -38,9 +42,13 @@ Having the ability to parameterized Web Services object allows user have more co
     
     Where
     
-    | Parameter | Description |
-    | --- | --- |
-    | ${userID} | Parameterized **userID** to receive any passing value |
+    Parameter
+    
+    Description
+    
+    ${userID}
+    
+    Parameterized **userID** to receive any passing value
     
       
     In **Script Mode** of the test case, the script below send a request to GET any user with ID = 2 
