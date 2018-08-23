@@ -38,18 +38,7 @@ You have two methods to upload a test case to predefined qTest Module
       
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | Test Case ID | The ID of the integrated qTest test case. |
-    | Alias | The alias of the integrated qTest test case. |
-    | Parent ID | 
-    ![](../../images/katalon-studio/docs/integrate-test-case/image2017-8-9 16_27_25.png)
-    
-    The ID of the integrated qTest module.
-    
-    
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Field</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">Test Case ID</td><td class="" style="">The ID of the integrated qTest test case.</td></tr><tr class="" style=""><td class="" style="">Alias</td><td class="" style="">The alias of the integrated qTest test case.</td></tr><tr class="" style=""><td class="" style="">Parent ID</td><td class="" style=""><div class="" style=""><p class="" style=""><span class="" style=""><img class="" width="500" src="../../images/katalon-studio/docs/integrate-test-case/image2017-8-9 16_27_25.png" data-image-src="/download/attachments/3178914/image2017-8-9%2016%3A27%3A25.png?version=1&amp;modificationDate=1504084817000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116962" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-8-9 16:27:25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178914" data-linked-resource-container-version="1" style=""></span></p><p class="" style="">The ID of the integrated qTest module.</p></div></td></tr></tbody></table>
     
       
     

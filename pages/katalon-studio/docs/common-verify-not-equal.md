@@ -12,24 +12,12 @@ Verify if the actual number is NOT equal to the expected number.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| actualObject  | Object  | Required | Represent the actual object. |
-| expectedObject  | Object  | Required | Represent the expected object. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">actualObject&nbsp;</span></td><td class="" colspan="1" style=""><span style="" class="">Object&nbsp;</span></td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">Represent the actual object.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">expectedObject&nbsp;</span></td><td class="" colspan="1" style=""><span style="" class="">Object&nbsp;</span></td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">Represent the expected object.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
-*   **true** if the actual number is NOT equal to the expected number.
-    
-*   **false** if the actual number is equal to the expected number.
-    
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style=""><p class="" style=""><span style="" class=""><strong class="" style="">true</strong>&nbsp;if the actual number is&nbsp;NOT equal to the expected number.</span></p></li><li class="" style=""><p class="" style=""><span style="" class=""><strong class="" style="">false</strong>&nbsp;if the actual number is equal to the expected number.</span></p></li></ul></td></tr></tbody></table>
 
 Example  
 ---------

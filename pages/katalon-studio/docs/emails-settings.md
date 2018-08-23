@@ -12,37 +12,7 @@ These settings allow you to define global email configurations to be used in oth
 
 Where:
 
-| Section | Description |
-| --- | --- |
-| 
-![](../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_25_39.png)
-
-
-
- | 
-
-This section defines the mail server which Katalon Studio will use to send emails.
-
-*   **Host**: the domain name of the mail server
-*   **Port**: the port to be used for that server
-*   **Username & Password**: the account to authenticate with the server
-*   **Protocol**: the protocol to communicate with the mail server
-*   **Encrypt authentication data** is recommended for sensitive data protection
-
- |
-| 
-
-![](../../images/katalon-studio/docs/emails-settings/image2017-11-15 9_43_0.png)
-
-
-
- | 
-
-This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click **Edit Template**.
-
-Selecting **Include report as email attachment** will enable all the options to include **execution log** and **report format** of the test suite will be sent as attachments in the notification email.
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Section</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_25_39.png" data-image-src="/download/attachments/5112244/image2018-3-1%2017%3A25%3A39.png?version=1&amp;modificationDate=1519899940000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13697365" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-3-1 17:25:39.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5112244" data-linked-resource-container-version="6" style=""></span></p></div></td><td class="" style=""><p class="" style="">This section defines the mail server which Katalon Studio will use to send emails.</p><ul class="" style=""><li class="" style=""><strong class="" style="">Host</strong>: the domain name of the mail server</li><li class="" style=""><strong class="" style="">Port</strong>: the port to be used for that server</li><li class="" style=""><strong class="" style="">Username &amp; Password</strong>: the account to authenticate with the server</li><li class="" style=""><strong class="" style="">Protocol</strong>: the protocol to communicate with the mail server</li><li class="" style=""><strong class="" style="">Encrypt authentication data</strong> is recommended for sensitive data protection</li></ul></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/emails-settings/image2017-11-15 9_43_0.png" data-image-src="/download/attachments/5112244/image2017-11-15%209%3A43%3A0.png?version=1&amp;modificationDate=1510713781000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5119082" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-11-15 9:43:0.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5112244" data-linked-resource-container-version="6" style=""></span></p></div></td><td class="" style=""><p class="" style="">This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click <strong class="" style="">Edit Template</strong>.</p><p class="" style="">Selecting <strong class="" style="">Include report as email attachment</strong> will enable all the options to include <span class="" style=""><strong class="" style="">execution log</strong> and <strong class="" style="">report format</strong> of the test suite will be sent as attachments in the notification email.</span></p></td></tr></tbody></table>
 
 Configure Email Settings in Email Preferences
 ---------------------------------------------
@@ -101,16 +71,4 @@ You can customize the content of email here. All fields in template is editable.
 
 Where:
 
-| Variable | Description |
-| --- | --- |
-| hostName | Host's name |
-| os | Operating system |
-| Browser | Browser name and version |
-| deviceId | Id of executed device |
-| deviceName | Name of executed device |
-| suiteId | Id of test suite |
-| suiteName | Name of test suite |
-| totalTestCases | total executed test cases |
-| totalPassed | total passed test cases |
-| totalFailed | total failed test cases |
-| totalError | total error test cases |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Variable</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">hostName</td><td class="" style="">Host's name</td></tr><tr class="" style=""><td class="" style="">os</td><td class="" style="">Operating system</td></tr><tr class="" style=""><td class="" style="">Browser</td><td class="" style="">Browser name and version</td></tr><tr class="" style=""><td class="" style="">deviceId</td><td class="" style="">Id of executed device</td></tr><tr class="" style=""><td class="" style="">deviceName</td><td class="" style="">Name of executed device</td></tr><tr class="" style=""><td class="" style="">suiteId</td><td class="" style="">Id of test suite</td></tr><tr class="" style=""><td class="" style="">suiteName</td><td class="" style="">Name of test suite</td></tr><tr class="" style=""><td class="" style="">totalTestCases</td><td class="" style="">total executed test cases</td></tr><tr class="" style=""><td class="" style="">totalPassed</td><td class="" style="">total passed test cases</td></tr><tr class="" style=""><td class="" style="">totalFailed</td><td class="" style="">total failed test cases</td></tr><tr class="" style=""><td class="" style="">totalError</td><td class="" style="">total error test cases</td></tr></tbody></table>

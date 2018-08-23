@@ -12,11 +12,7 @@ Get all links on the current page.
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| isIncludedExternalLinks | boolean | Required | If false, only target to links on the same HOST. Otherwise, target to all links. |
-| excludedLinks | List | Required | A list of excluded links (URLs). |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style="">isIncludedExternalLinks</td><td class="" colspan="1" style="">boolean</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">If false, only target to links on the same HOST. Otherwise, target to all links.</td></tr><tr class="" style=""><td class="" colspan="1" style="">excludedLinks</td><td class="" colspan="1" style="">List</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">A list of excluded links (URLs).</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 -------

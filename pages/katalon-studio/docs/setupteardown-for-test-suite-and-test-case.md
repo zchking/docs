@@ -14,53 +14,7 @@ There will a **new tab** called '**Script**' in **Test Suite**'s interface. This
 
 ![](../../images/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/image2018-1-8 16_25_42.png)**Supported methods**
 
-| Method | Description | Trigger Condition | Common Usages |
-| --- | --- | --- | --- |
-| 
-setUp
-
- | 
-
-Setup test suite environment  
-  
-
-
- | Before executed test suites | 
-
-Prepare testing environment
-
-Call required test cases for the executed test suite
-
- |
-| setUpTestCase | Run before each test case starts | Before executed test cases |
-| 
-
-tearDown
-
- | 
-
-Clean test suites environment
-
- | After executed test suites | 
-
-Clean-up testing environment
-
-Call TearDown test cases for the executed test suite
-
- |
-| 
-
-tearDownTestCase
-
- | 
-
-Run after each test case ends
-
- | 
-
-After executed test cases
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Method</th><th class="" style="">Description</th><th class="" colspan="1" style="">Trigger Condition</th><th class="" colspan="1" style="">Common Usages</th></tr><tr class="" style=""><td class="" style=""><p class="" style="">setUp</p></td><td class="" style=""><p class="" style="">Setup test suite environment<br class="" style=""><br class="" style=""></p></td><td class="" colspan="1" style="">Before executed test suites</td><td class="" rowspan="2" style=""><p class="" style="">Prepare testing environment</p><p class="" style="">Call required test cases for the executed test suite</p></td></tr><tr class="" style=""><td class="" colspan="1" style="">setUpTestCase</td><td class="" colspan="1" style="">Run before each test case starts</td><td class="" style="">Before executed test cases</td></tr><tr class="" style=""><td class="" style=""><p class="" style="">tearDown</p></td><td class="" style=""><p class="" style="">Clean test suites environment</p></td><td class="" colspan="1" style="">After executed test suites</td><td class="" rowspan="2" style=""><p class="" style="">Clean-up testing environment</p><p class="" style="">Call TearDown test cases for the executed test suite</p><p class="" style="">&nbsp;</p><p class="" style="">&nbsp;</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">tearDownTestCase</p></td><td class="" style=""><p class="" style="">Run after each test case ends</p></td><td class="" style=""><p class="" style="">After executed test cases</p></td></tr></tbody></table>
 
 #### How it works
 

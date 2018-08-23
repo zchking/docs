@@ -48,15 +48,7 @@ Katalon Studio test execution status can be queried via [JQL](https://confluence
 
 Where Status value can be one of the following:
 
-| Status | Description |
-| --- | --- |
-| PASSED | The automation tests that executed successfully. |
-| FAILED | The automation tests that failed to execute at certain steps. |
-| 
-INCOMPLETE
-
- | The automation tests that did not finish running all the steps due to other factors such as wrong syntax, power shortage, disconnected network, etc. |
-| ERROR | The automation tests that have some errors occurred. |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Status</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" style="">PASSED</td><td class="" colspan="1" style="">The automation tests that executed successfully.</td></tr><tr class="" style=""><td class="" style="">FAILED</td><td class="" colspan="1" style="">The automation tests that failed to execute at certain steps.</td></tr><tr class="" style=""><td class="" style=""><p class="" style="">INCOMPLETE</p></td><td class="" colspan="1" style="">The automation tests that did not finish running all the steps due to other factors such as wrong syntax, power shortage, disconnected network, etc.</td></tr><tr class="" style=""><td class="" colspan="1" style="">ERROR</td><td class="" colspan="1" style="">The automation tests that have some errors occurred.</td></tr></tbody></table>
 
 For example, to search for all issues that have failed in Katalon Studio test execution_:_
 

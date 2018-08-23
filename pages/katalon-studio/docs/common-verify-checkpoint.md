@@ -12,22 +12,12 @@ Verify if checked data of checkpoint matches their source data.
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| checkpoint | Checkpoint | Required | Represent the input checkpoint. |
-| logChangedValues | Boolean | Required | true will log all the changed values between checkpoint data and the source, false will not log any changed value. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">checkpoint</span></td><td class="" colspan="1" style=""><span style="" class="">Checkpoint</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Represent the input checkpoint.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">logChangedValues</span></td><td class="" colspan="1" style=""><span style="" class="">Boolean</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">true will log all the changed values between checkpoint data and the source, false will not log any changed value.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
-*   **true**, if checked data of checkpoint matches their source data.
-*   **false**, if checked data of checkpoint NOT matches their source data.
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style=""><span style="" class=""><strong class="" style="">true</strong>, if checked data of checkpoint matches their source data.</span></li><li class="" style=""><span style="" class=""><strong class="" style="">false</strong>, if checked data of checkpoint NOT matches their source data.</span></li></ul></td></tr></tbody></table>
 
 Example 
 --------

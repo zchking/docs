@@ -15,45 +15,7 @@ You can configure general execution preferences by accessing from main menu: *
 
 Where:
 
-| 
-Field
-
- | 
-
-**Description**
-
- |
-| --- | --- |
-| 
-
-Default execution
-
- | 
-
-The default environment that Katalon Studio will use to execute automation test.
-
- |
-| 
-
-Default implicit timeout
-
- | 
-
-The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded when executing automation test.
-
- |
-| 
-
-Post-Execution Options
-
- | 
-
-These options decide the actions that Katalon Studio will perform after finishing automation test.
-
-*   **Open report**: Specify whether the report generated after your test suite finishes its execution will also be open immediately.
-*   **Terminate drivers**: Specify when any driver remains after execution will be terminated.
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style="">Field</p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Default execution</p></td><td class="" style=""><p class="" style="">The default environment that Katalon Studio will use to execute automation test.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Default implicit timeout</p></td><td class="" style=""><p class="" style="">The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded when executing automation test.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Post-Execution Options</p></td><td class="" style=""><p class="" style="">These options decide the actions that Katalon Studio will perform after finishing automation test.</p><ul class="" style=""><li class="" style=""><strong class="" style="">Open report</strong>: Specify whether the report generated after your test suite finishes its execution will also be open immediately.</li><li class="" style=""><strong class="" style="">Terminate drivers</strong>: Specify when any driver remains after execution will be terminated.</li></ul></td></tr></tbody></table>
 
 All the above preferences are saved into **.prefs** files under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
 
@@ -68,31 +30,7 @@ These settings decide the general behavior of Katalon Studio when executing WebU
 
 Where:
 
-| 
-**Preference Setting**
-
- | 
-
-**Description**
-
- |
-| --- | --- |
-| 
-
-Delay between actions
-
- | 
-
-The time for Katalon Studio to wait between test steps when executing test cases
-
- |
-| Default wait when IE hangs | Specify the default period of waiting that Katalon Studio should use in case IE hangs |
-| Default page load timeout | 
-
-*   **Wait until the page is loaded**: Katalon Studio will wait for web page to load completely
-*   **Wait for (in seconds)**: The default timeout period (in seconds) that Katalon Studio will wait for Web page to load
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Preference Setting</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Delay between actions</p></td><td class="" style=""><p class="" style="">The time for Katalon Studio to wait between test steps when executing test cases</p></td></tr><tr class="" style=""><td class="" colspan="1" style="">Default wait when IE hangs</td><td class="" colspan="1" style="">Specify the default period of waiting that Katalon Studio should use in case IE hangs</td></tr><tr class="" style=""><td class="" colspan="1" style="">Default page load timeout</td><td class="" colspan="1" style=""><ul class="" style=""><li class="" style=""><strong class="" style="">Wait until the page is loaded</strong>: Katalon Studio will wait for web page to load completely</li><li class="" style=""><strong class="" style="">Wait for (in seconds)</strong>: The default timeout period (in seconds) that Katalon Studio will wait for Web page to load</li></ul></td></tr></tbody></table>
 
 All the above preferences are saved into **.prefs** files under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
 
@@ -128,76 +66,4 @@ Location of Desired Capabilities files
 
 Defined configuration settings are saved in separated files under the “**<your test project location>\\settings\\internal**” location (or “**<your test project location>\\settings\\external\\execution**” in case of custom execution), as below:
 
-| 
-**Driver**
-
- | 
-
-**Settings’ file**
-
- |
-| --- | --- |
-| 
-
-Chrome
-
- | 
-
-com.kms.katalon.core.webui.chrome.properties
-
- |
-| 
-
-Firefox
-
- | 
-
-com.kms.katalon.core.webui.firefox.properties
-
- |
-| 
-
-IE
-
- | 
-
-com.kms.katalon.core.webui.ie.properties
-
- |
-| 
-
-Safari
-
- | 
-
-com.kms.katalon.core.webui.safari.properties
-
- |
-| 
-
-Edge
-
- | 
-
-com.kms.katalon.core.webui.edge.properties
-
- |
-| Remote Web | com.kms.katalon.core.webui.remote.properties |
-| 
-
-Android
-
- | 
-
-com.kms.katalon.core.mobile.android.properties
-
- |
-| 
-
-iOS
-
- | 
-
-com.kms.katalon.core.mobile.ios.properties
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Driver</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Settings’ file</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Chrome</p></td><td class="" style=""><p class="" style="">com.kms.katalon.core.webui.chrome.properties</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Firefox</p></td><td class="" style=""><p class="" style="">com.kms.katalon.core.webui.firefox.properties</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">IE</p></td><td class="" style=""><p class="" style="">com.kms.katalon.core.webui.ie.properties</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Safari</p></td><td class="" style=""><p class="" style="">com.kms.katalon.core.webui.safari.properties</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Edge</p></td><td class="" style=""><p class="" style="">com.kms.katalon.core.webui.edge.properties</p></td></tr><tr class="" style=""><td class="" colspan="1" style="">Remote Web</td><td class="" colspan="1" style="">com.kms.katalon.core.webui.remote.properties</td></tr><tr class="" style=""><td class="" colspan="1" style=""><p class="" style="">Android</p></td><td class="" colspan="1" style=""><p class="" style="">com.kms.katalon.core.mobile.android.properties</p></td></tr><tr class="" style=""><td class="" colspan="1" style=""><p class="" style="">iOS</p></td><td class="" colspan="1" style=""><p class="" style="">com.kms.katalon.core.mobile.ios.properties</p></td></tr></tbody></table>

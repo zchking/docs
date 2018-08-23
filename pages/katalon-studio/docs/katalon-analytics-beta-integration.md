@@ -33,10 +33,7 @@ In Test Result, users can **select** preferred **options** for Katalon Studi
 
 ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 11_10_16.png)
 
-| Option | Description |
-| --- | --- |
-| Automatically submit test run result | Katalon Studio will automatically upload Test Suite execution Reports to Katalon Analytics |
-| Attach Screenshot | Include execution Screenshots |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Option</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">Automatically submit test run result</td><td class="" style="">Katalon Studio will automatically upload Test Suite execution Reports to Katalon Analytics</td></tr><tr class="" style=""><td class="" style="">Attach Screenshot</td><td class="" style="">Include execution Screenshots</td></tr></tbody></table>
 
 Click **OK** to complete. 
 

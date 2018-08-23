@@ -41,7 +41,7 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table class=""><tbody class=""><tr class=""><td class=""><span style="font-weight: 400;" class=""><pre class=""><code class="" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="" id="crayon-5b7e5d296ec74595099611-1"><span class="">npm </span><span class="">install</span><span class=""> </span><span class="">-</span><span class="">g</span><span class=""> </span><span class="">appium</span>
+<table class="" style="table-layout: fixed;"><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class=""><pre class="" style=""><code class="" style=""><div class="" id="crayon-5b7e682059ba8459637971-1" style=""><span class="" style="">npm </span><span class="" style="">install</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">g</span><span class="" style=""> </span><span class="" style="">appium</span>
 </div></code></pre></span></td></tr></tbody></table>
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
@@ -77,8 +77,8 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table class=""><tbody class=""><tr class=""><td class=""><span style="font-weight: 400;" class=""><pre class=""><code class="" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="" id="crayon-5b7e5d296ec7a079858129-1"><span class="">xcodebuild</span><span class=""> </span><span class="">-</span><span class="">project </span><span class="">WebDriverAgent</span><span class="">.</span><span class="">xcodeproj</span><span class=""> </span><span class="">-</span><span class="">scheme </span><span class="">WebDriverAgentRunner</span><span class=""> </span><span class="">-</span><span class="">destination</span><span class=""> </span><span class="">'id=&lt;udid&gt;'</span><span class=""> </span><span class="">test</span>
-</div></code></pre></span><p class=""></p><p class=""><span style="font-weight: 400;" class="">Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
+<table class="" style="table-layout: fixed;"><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class=""><pre class="" style=""><code class="" style=""><div class="" id="crayon-5b7e682059bae015056951-1" style=""><span class="" style="">xcodebuild</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">project </span><span class="" style="">WebDriverAgent</span><span class="" style="">.</span><span class="" style="">xcodeproj</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">scheme </span><span class="" style="">WebDriverAgentRunner</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">destination</span><span class="" style=""> </span><span class="" style="">'id=&lt;udid&gt;'</span><span class="" style=""> </span><span class="" style="">test</span>
+</div></code></pre></span><p class="" style=""></p><p class="" style=""><span style="" class="">Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
 
 *   If the following dialog is shown, select **Always Allow**
 

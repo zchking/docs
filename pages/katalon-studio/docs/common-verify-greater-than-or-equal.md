@@ -36,15 +36,7 @@ Description
  Returns 
 ---------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
-*   **true** if the actual number is greater than or equal to the expected number.
-    
-*   **false** if the actual number is NOT greater than or equal to the expected number.
-    
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style=""><p class="" style=""><span style="" class=""><strong class="" style="">true</strong>&nbsp;if the actual number is greater than or equal to the expected number.</span></p></li><li class="" style=""><p class="" style=""><span style="" class=""><strong class="" style="">false</strong>&nbsp;if the actual number is NOT greater than or equal to the expected number.</span><span style="" class="">&nbsp;</span></p></li></ul></td></tr></tbody></table>
 
 Example 
 --------

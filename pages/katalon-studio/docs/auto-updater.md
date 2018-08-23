@@ -18,11 +18,7 @@ Auto-update feature helps to ensure Katalon users are working with the newest ve
     ![](../../images/katalon-studio/docs/auto-updater/Screen Shot 2018-04-12 at 21.46.21.png)  
       
     
-    | **Option** | **Description** |
-    | --- | --- |
-    | **Download** | New version will be downloaded immediately. |
-    | **Remind me later** | New Update will be prompted again after the next app reload or launch |
-    | **Ignore This Update** | '**New Update**' dialog will not be displayed anymore if this option is selected. |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><strong class="" style="">Option</strong></th><th class="" style=""><strong class="" style="">Description</strong></th></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Download</strong></td><td class="" style="">New version will be downloaded immediately.</td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Remind me later</strong></td><td class="" style="">New Update will be prompted again after the next app reload or launch</td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Ignore This Update</strong></td><td class="" style="">'<strong class="" style="">New Update</strong>' dialog will not be displayed anymore if this option is selected.</td></tr></tbody></table>
     
 *   If **Download** option is selected, Katalon Studio will download the new version and its progress can be viewed. Users are allowed to **Cancel** download at any time. 
     

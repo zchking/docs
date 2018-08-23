@@ -22,45 +22,7 @@ Register qTest location for test suite
       
     From the test structure, select the location to be integrated with the Katalon test suite then click **OK** to continue. Further options are as following:
     
-    | 
-    **Option**
-    
-     | 
-    
-    **Description**
-    
-     |
-    | --- | --- |
-    | 
-    
-    Create only
-    
-     | 
-    
-    *   Create association between the Katalon test suite and the selected qTest location.
-    
-     |
-    | 
-    
-    Create and upload
-    
-     | 
-    
-    *   Create association between the Katalon test suite and the selected qTest location.
-    *   Upload the Katalon test suite to the selected qTest location.
-    
-     |
-    | 
-    
-    Create, upload and set as default
-    
-     | 
-    
-    *   Create association between the Katalon test suite and the selected qTest location.
-    *   Upload the Katalon test suite to the selected qTest location.
-    *   Set the qTest location as default for uploading execution result of the Katalon test suite.
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Option</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Create only</p></td><td class="" style=""><ul class="" style=""><li class="" style="">Create association between the Katalon test suite and the selected qTest location.</li></ul></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Create and upload</p></td><td class="" style=""><ul class="" style=""><li class="" style="">Create association between the Katalon test suite and the selected qTest location.</li><li class="" style="">Upload the Katalon test suite to the selected qTest location.</li></ul></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Create, upload and set as default</p></td><td class="" style=""><ul class="" style=""><li class="" style="">Create association between the Katalon test suite and the selected qTest location.</li><li class="" style="">Upload the Katalon test suite to the selected qTest location.</li><li class="" style="">Set the qTest location as default for uploading execution result of the Katalon test suite.</li></ul></td></tr></tbody></table>
     
 3.  Once integrated, Katalon Studio will provide details information such as location and name of parent folder on qTest, integration information ( Parent IID, Test Suite ID, and Alias) as shown below:
     
@@ -69,72 +31,11 @@ Register qTest location for test suite
     
     Where:
     
-    | 
-    **Icon**
-    
-     | 
-    
-    **Description**
-    
-     |
-    | --- | --- |
-    | 
-    
-    ![](../../images/katalon-studio/docs/integrate-test-suite/84.png)
-    
-     | 
-    
-    The Katalon test suite is integrated to the qTest location.
-    
-     |
-    | 
-    
-    ![](../../images/katalon-studio/docs/integrate-test-suite/85.png)
-    
-     | 
-    
-    The Katalon test suite is not integrated to the qTest location.
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Icon</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><div class="" style=""><span class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/integrate-test-suite/84.png" data-image-src="/download/attachments/3178951/84.png?version=1&amp;modificationDate=1477638259000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="3178941" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="84.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178951" data-linked-resource-container-version="1" style=""></span></span></div></td><td class="" style=""><p class="" style="">The Katalon test suite is integrated to the qTest location.</p></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><span class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/integrate-test-suite/85.png" data-image-src="/download/attachments/3178951/85.png?version=1&amp;modificationDate=1477638259000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="3178942" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="85.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178951" data-linked-resource-container-version="1" style=""></span></span></div></td><td class="" style=""><p class="" style="">The Katalon test suite is not integrated to the qTest location.</p></td></tr></tbody></table>
     
     If the selected **qTest location** is integrated, then the related information can be viewed in the **Integration Information** section where:
     
-    | 
-    **Field**
-    
-     | 
-    
-    **Description**
-    
-     |
-    | --- | --- |
-    | 
-    
-    Test Suite ID
-    
-     | 
-    
-    The ID of the integrated qTest test suite.
-    
-     |
-    | 
-    
-    Alias
-    
-     | 
-    
-    The alias of the integrated qTest test suite.
-    
-     |
-    | 
-    
-    Parent ID
-    
-     | 
-    
-    The ID of the integrated qTest location.
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Field</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Test Suite ID</p></td><td class="" style=""><p class="" style="">The ID of the integrated qTest test suite.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Alias</p></td><td class="" style=""><p class="" style="">The alias of the integrated qTest test suite.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Parent ID</p></td><td class="" style=""><p class="" style="">The ID of the integrated qTest location.</p></td></tr></tbody></table>
     
 4.  You can also quickly navigate to **qTest** **parent** folder where the test suite(s) is uploaded by clicking on the **Navigate** button.  
       

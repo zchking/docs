@@ -22,7 +22,4 @@ To use Firefox 57 with Katalon Studio, please use Katalon Studio v5.1+
 Mobile
 ------
 
-| Installation | Version on Windows | Version on macOS | Native App support? | Hybrid App support? | Mobile Browser support? |
-| --- | --- | --- | --- | --- | --- |
-| Android | 6.x, 7.x | 6.x, 7.x | YES | NO | YES |
-| iOS | Not Available | 9, 10, 11 | YES | NO | YES |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Installation</th><th class="" style="">Version on Windows</th><th class="" colspan="1" style="">Version on macOS</th><th class="" colspan="1" style="">Native App support?</th><th class="" colspan="1" style="">Hybrid App support?</th><th class="" colspan="1" style="">Mobile Browser support?</th></tr><tr class="" style=""><td class="" colspan="1" style="">Android</td><td class="" colspan="1" style="">6.x, 7.x</td><td class="" colspan="1" style="">6.x, 7.x</td><td class="" style="">YES</td><td class="" style="">NO</td><td class="" style="">YES</td></tr><tr class="" style=""><td class="" colspan="1" style="">iOS</td><td class="" colspan="1" style="">Not Available</td><td class="" colspan="1" style="">9, 10, 11</td><td class="" style="">YES</td><td class="" style="">NO</td><td class="" style="">YES</td></tr></tbody></table>

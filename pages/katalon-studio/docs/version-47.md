@@ -53,23 +53,4 @@ Execution speed between actions can be specified based on the preference defined
 Keywords
 --------
 
-| Keyword | Description |
-| --- | --- |
-| [\[WebUI\] Verify Element Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Text) | Verify text of an element. |
-| [\[WebUI\] Verify Options Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Options+Present) | Verify if all expected options are present within the given test object. |
-| [\[WebUI\] Click Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click+Offset) | Click on the given element with the relative position (x, y) from the top-left corner of that element |
-| [\[WebUI\] Right Click Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Right+Click+Offset) | Right click on the given element with the relative position (x, y) from the top-left corner of that element |
-| [\[WebUI\] Mouse Over Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Mouse+Over+Offset) | 
-Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element.
-
- |
-| [\[Mobile\] Send Keys](https://docs.katalon.com/display/KD/%5BMobile%5D+Send+Keys) | 
-
-Simulates keystroke events on the specified element, as though you typed the value key-by-key. 
-
- |
-| [\[Mobile\] Verify Element Text](https://docs.katalon.com/display/KD/%5BMobile%5D+Verify+Element+Text) | 
-
-Verify text of an element.
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Keyword</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Text" rel="nofollow" class="" style="">[WebUI] Verify Element Text</a></td><td class="" style="">Verify text of an element.</td></tr><tr class="" style=""><td class="" style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Options+Present" rel="nofollow" class="" style="">[WebUI] Verify Options Present</a></td><td class="" style="">Verify if all expected options are present within the given test object.</td></tr><tr class="" style=""><td class="" style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Click+Offset" rel="nofollow" class="" style="">[WebUI] Click Offset</a></td><td class="" style="">Click on the given element with the relative position (x, y) from the top-left corner of that element</td></tr><tr class="" style=""><td class="" colspan="1" style=""><span class="" style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Right+Click+Offset" rel="nofollow" class="" style="">[WebUI] Right Click Offset</a></span></td><td class="" colspan="1" style="">Right click on the given element with the relative position (x, y) from the top-left corner of that element</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Mouse+Over+Offset" rel="nofollow" class="" style="">[WebUI] Mouse Over Offset</a></td><td class="" colspan="1" style=""><p class="" style="">Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element.</p></td></tr><tr class="" style=""><td class="" colspan="1" style=""><a href="https://docs.katalon.com/display/KD/%5BMobile%5D+Send+Keys" rel="nofollow" class="" style="">[Mobile] Send Keys</a></td><td class="" colspan="1" style=""><p class="" style=""><span style="" class="">Simulates keystroke events on the specified element, as though you typed the value key-by-key.&nbsp;</span></p></td></tr><tr class="" style=""><td class="" colspan="1" style=""><a href="https://docs.katalon.com/display/KD/%5BMobile%5D+Verify+Element+Text" rel="nofollow" class="" style="">[Mobile] Verify Element Text</a></td><td class="" colspan="1" style=""><p class="" style="">Verify text of an element.</p></td></tr></tbody></table>

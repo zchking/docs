@@ -12,15 +12,7 @@ Click on the given element with the relative position (x, y) from the top-left c
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| to | TestObject | Required | 
-Represent a web element.
-
- |
-| offsetX | int | Required | x position in relative to the element |
-| offsetY | int | Required | y position in relative to the element |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" colspan="1" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><span style="" class="">to</span></td><td class="" colspan="1" style="">TestObject</td><td class="" colspan="1" style="">Required</td><td class="" style=""><p class="" style=""><span style="" class="">Represent a web element.</span></p></td></tr><tr class="" style=""><td class="" colspan="1" style="">offsetX</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style=""><span class="" style="">Required</span></td><td class="" colspan="1" style="">x position in relative to the element</td></tr><tr class="" style=""><td class="" colspan="1" style=""><span class="" style="">offsetY</span></td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style=""><span class="" style="">Required</span></td><td class="" colspan="1" style="">y position in relative to the element</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" colspan="1" style="">FailureHandling</td><td class="" colspan="1" style="">Optional</td><td class="" style="">Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 -------

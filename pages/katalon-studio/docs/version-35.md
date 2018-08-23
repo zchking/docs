@@ -32,15 +32,7 @@ Improvements
 
 ### New mobile keywords
 
-| No. | Keyword's name | Description |
-| --- | --- | --- |
-| 1 | Tap And Hold | Tap and hold on a mobile element for a duration |
-| 2 | Check Element | Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
-| 3 | Uncheck Element | Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
-| 4 | Hide Keyboard | Hide a keyboard if it is showing |
-| 5 | Verify Element Checked | Verify if a mobile element is checked |
-| 6 | Verify Element Not Checked | Verify of a mobile element is not checked |
-| 7 | Drag and Drop | Drag and drop an element into another element |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">No.</th><th class="" style="">Keyword's name</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">1</td><td class="" style="">Tap And Hold</td><td class="" style="">Tap and hold on a mobile element for a duration</td></tr><tr class="" style=""><td class="" style="">2</td><td class="" style="">Check Element</td><td class="" style="">Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)</td></tr><tr class="" style=""><td class="" style="">3</td><td class="" style="">Uncheck Element</td><td class="" style="">Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)</td></tr><tr class="" style=""><td colspan="1" class="" style="">4</td><td colspan="1" class="" style="">Hide Keyboard</td><td colspan="1" class="" style="">Hide a keyboard if it is showing</td></tr><tr class="" style=""><td colspan="1" class="" style="">5</td><td colspan="1" class="" style="">Verify Element Checked</td><td colspan="1" class="" style="">Verify if a mobile element is checked</td></tr><tr class="" style=""><td colspan="1" class="" style="">6</td><td colspan="1" class="" style="">Verify Element Not Checked</td><td colspan="1" class="" style="">Verify of a mobile element is not checked</td></tr><tr class="" style=""><td colspan="1" class="" style="">7</td><td colspan="1" class="" style="">Drag and Drop</td><td colspan="1" class="" style="">Drag and drop an element into another element</td></tr></tbody></table>
 
 ### Record/Playback
 

@@ -29,37 +29,7 @@ The test result from Katalon Studio will be upload to qTest automatically in cas
     ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 15_42_26.png)  
     Where:
     
-    | 
-    **Icon**
-    
-     | 
-    
-    **Description**
-    
-     |
-    | --- | --- |
-    | 
-    
-    ![](../../images/katalon-studio/docs/upload-test-execution/image2017-2-28 16_32_19.png)
-    
-    
-    
-     | 
-    
-    The execution result of the test case is integrated to qTest.
-    
-     |
-    | 
-    
-    ![](../../images/katalon-studio/docs/upload-test-execution/image2017-2-28 16_29_39.png)
-    
-    
-    
-     | 
-    
-    The execution result of the test case is **not** integrated to qTest.
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Icon</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/upload-test-execution/image2017-2-28 16_32_19.png" data-image-src="/download/attachments/3178981/image2017-2-28%2016%3A32%3A19.png?version=1&amp;modificationDate=1488274339000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5113501" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-28 16:32:19.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178981" data-linked-resource-container-version="1" style=""></span></p></div></td><td class="" style=""><p class="" style="">The execution result of the test case is integrated to qTest.</p></td></tr><tr class="" style=""><td class="" style=""><div class="" style=""><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/upload-test-execution/image2017-2-28 16_29_39.png" data-image-src="/download/attachments/3178981/image2017-2-28%2016%3A29%3A39.png?version=1&amp;modificationDate=1488274179000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5113497" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-28 16:29:39.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178981" data-linked-resource-container-version="1" style=""></span></p></div></td><td class="" style=""><p class="" style="">The execution result of the test case is <strong class="" style="">not</strong> integrated to qTest.</p></td></tr></tbody></table>
     
 4.  Select an integrated execution from **Test Cases Table** and you can find related information of qTest in **Integration** tab of **Test Case's Log.** (You need to select **Show Test Case Details** to access this section)
     
@@ -68,48 +38,7 @@ The test result from Katalon Studio will be upload to qTest automatically in cas
       
     where:
     
-    | 
-    **Field**
-    
-     | 
-    
-    **Description**
-    
-     |
-    | --- | --- |
-    | 
-    
-    Test Run Alias
-    
-     | 
-    
-    The alias of the integrated qTest test run.
-    
-     |
-    | 
-    
-    Test Log ID
-    
-     | 
-    
-    The ID of the test log (i.e., execution history record) created in qTest.
-    
-     |
-    | 
-    
-    Attachment
-    
-     | 
-    
-    This is to let users know whether all the execution log and report are sent to qTest as an attachment. (i.e. Yes or No)
-    
-    If yes, you can go to qTest and find them under related execution history record, as illustrated below:
-    
-    ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 15_50_43.png)
-    
-    
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Field</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Test Run Alias</p></td><td class="" style=""><p class="" style="">The alias of the integrated qTest test run.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Test Log ID</p></td><td class="" style=""><p class="" style="">The ID of the test log (i.e., execution history record) created in qTest.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Attachment</p></td><td class="" style=""><div class="" style=""><p class="" style="">This is to let users know whether all the execution log and report are sent to qTest as an attachment. (i.e. Yes or No)</p><p class="" style="">If yes, you can go to qTest and find them under related execution history record, as illustrated below:</p><p class="" style=""><span class="" style=""><span class="" style=""><img class="" width="1035" src="../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 15_50_43.png" data-image-src="/download/attachments/3178981/image2017-8-7%2015%3A50%3A43.png?version=1&amp;modificationDate=1503633899000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116794" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-8-7 15:50:43.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178981" data-linked-resource-container-version="1" style=""></span></span></p></div></td></tr></tbody></table>
     
 
 Upload test results manually

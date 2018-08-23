@@ -12,22 +12,12 @@ Verify if two strings match each other, the second string can be a regular expre
 Parameters  
 ------------
 
-| Param | Param Type | Mandatory | Description |
-| --- | --- | --- | --- |
-| actualText | String | Required | Represent the actual text. |
-| expectedText | String | Required | Represent the expected text (can be a regular expression). |
-| isRegex | Boolean | Required | Indicate whether the expected text is a regular expression. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">actualText</span></td><td class="" colspan="1" style=""><span style="" class="">String</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Represent the actual text.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">expectedText</span></td><td class="" colspan="1" style=""><span style="" class="">String</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Represent the expected text (can be a regular expression).</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">isRegex</span></td><td class="" colspan="1" style=""><span style="" class="">Boolean</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Indicate whether the expected text is a regular expression.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-| Param Type | Description |
-| --- | --- |
-| Boolean | 
-**true**, if two given strings match each other; otherwise, **false**.
-
- |
+<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><p class="" style=""><strong class="" style="">true</strong>,&nbsp;if two given strings match each other; otherwise,&nbsp;<strong class="" style="">false</strong>.</p></td></tr></tbody></table>
 
 Example  
 ---------

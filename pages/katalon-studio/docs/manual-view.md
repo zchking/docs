@@ -46,24 +46,7 @@ Follow these steps to automate the above test scenario in **Manual view**:
     ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_6_59.png)  
     Where:
     
-    | Field | Description |
-    | --- | --- |
-    | No | The number of parameter for the selected keyword. |
-    | Param Name | The name of the parameter. |
-    | Param Type | The required data type for the parameter. |
-    | Value Type | The type of your input value (e.g. strings, [variables](https://docs.katalon.com/display/KD/Variable+Types), [data sources](https://docs.katalon.com/display/KD/Manage+Test+Data)...) |
-    | Value | 
-    The input value for this parameter.
-    
-    Input value can be varied based on **Value Type**. Refer to [Value Types in Katalon](https://docs.katalon.com/display/KD/Value+Types) for more details.
-    
-    
-    
-    
-    
-    
-    
-     |
+    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Field</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">No</td><td class="" style="">The number of parameter for the selected keyword.</td></tr><tr class="" style=""><td class="" style="">Param Name</td><td class="" style="">The name of the parameter.</td></tr><tr class="" style=""><td class="" style="">Param Type</td><td class="" style="">The required data type for the parameter.</td></tr><tr class="" style=""><td class="" style="">Value Type</td><td class="" style="">The type of your input value (e.g. strings, <a href="https://docs.katalon.com/display/KD/Variable+Types" rel="nofollow" class="" style="">variables</a>, <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow" class="" style="">data sources</a>...)</td></tr><tr class="" style=""><td class="" style="">Value</td><td class="" style=""><div class="" style=""><p class="" style="">The input value for this parameter.</p><div class="" data-hasbody="true" data-macro-name="note" style=""><span class="" style=""></span><div class="" style=""><p class="" style=""><span class="" style="">Input value can be varied based on&nbsp;</span><strong class="" style="">Value Type</strong><span class="" style="">. Refer to&nbsp;</span><a href="https://docs.katalon.com/display/KD/Value+Types" rel="nofollow" class="" style="">Value Types in Katalon</a><span class="" style="">&nbsp;for more details.</span></p></div></div></div></td></tr></tbody></table>
     
       
     For now, enter the URL of Katalon demo AUT ([http://demoaut.katalon.com](http://demoaut.katalon.com)) into the **Value** column then click **OK**.   
