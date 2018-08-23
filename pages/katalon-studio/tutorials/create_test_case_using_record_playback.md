@@ -12,8 +12,8 @@ Test recording is the easiest way for new automation testers to start learning t
 2.  [How to change the Page Folder names and elements names while runtime recording](#change-page-folder-names)
 3.  [How to add Katalon Commands while recording](#add-katalon-commands)
 
-**1\. Recording your first test with Katalon Studio Record Web Function**
--------------------------------------------------------------------------
+Recording your first test with Katalon Studio Record Web Function
+-----------------------------------------------------------------
 
 **Scenario:** To make an appointment
 
@@ -109,8 +109,8 @@ WebUI.closeBrowser()
 
 ```
 
-**2\. How to change the Page Folder names and elements names while runtime recording**
---------------------------------------------------------------------------------------
+How to change the Page Folder names and elements names while runtime recording
+------------------------------------------------------------------------------
 
 To organize your test scripts in page object pattern, we need to add test objects in the folder corresponding to page. This helps us in reusing the object and maintain the objects
 
@@ -184,8 +184,8 @@ WebUI.closeBrowser()
 
 ```
 
-**3\. How to add Katalon Commands while recording**
----------------------------------------------------
+How to add Katalon Commands while recording
+-------------------------------------------
 
 **Scenario:** Verify the Login functionality with validations
 
@@ -289,7 +289,7 @@ WebUI.closeBrowser()
 
 Thus we can record the actions being performed using Katalon Studio. There are few actions which cannot be recorded.
 
-### **What cannot be recorded?**
+### What cannot be recorded?
 
 Though recording your tests saves time, we cannot validate few scenarios such as Web Table handling, switching to multiple frames, switching to windows, handling captcha, image recognition, video playbacks. Here are the main drawbacks
 

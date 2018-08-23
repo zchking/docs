@@ -15,7 +15,7 @@ Test automation for mobile application required users to set up proper testing e
 
 This tutorial illustrates how to set up environment for mobile app automation on both Windows operating systems.
 
-### **Installing Node.js**
+### Installing Node.js
 
 Navigate to URL ‘[https://nodejs.org/en/download/](https://nodejs.org/en/download/)’ to download _Node.js_. Download the file according to the bit size of your operating system (32 bit or 64 bit) and install it.
 
@@ -27,7 +27,7 @@ Open Windows Command Prompt/MacOS Terminal and type node -v for Node and npm -v 
 
 ![run Node.js in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Install-Node.JS.png)
 
-### **Installing Appium**
+### Installing Appium
 
 Open Command Prompt/Terminal and type the following command to install Appium:
 
@@ -47,7 +47,7 @@ Appium directory needs to be set after this installation.
 
 By default, it’s usually installed at _C:\\Users\\{user  login account}\\AppData\\Roaming\\npm\\node_modules\\appium._
 
-### **How to Install a Mobile App Manually?**
+### How to Install a Mobile App Manually?
 
 *   Step 1: Connect mobile device to the system
 *   Step 2: Open Command Prompt/Terminal
@@ -57,11 +57,11 @@ Refer to the screenshot below as an example.
 
 ![Install a Mobile App Manually?](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Install-an-Mobile-App-Manually.png)
 
-### **Set up devices**
+### Set up devices
 
 Refer to this [documentation](https://docs.katalon.com/display/KD/Mobile+on+Windows#MobileonWindows-SetupDevices) on setting test devices.
 
-### **How to Install a Mobile App in Katalon Studio?**
+### How to Install a Mobile App in Katalon Studio?
 
 Katalon Studio installs the application automatically while in Spy mobile, Record mobile, Run, or Debug mode if the application is previously not installed on the device.
 

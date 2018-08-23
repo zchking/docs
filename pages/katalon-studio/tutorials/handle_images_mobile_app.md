@@ -6,8 +6,8 @@ description: "Learn how to handle images in mobile app using Katalon Studio incl
 ---
 [](#)
 
-1\. Capturing a Picture from Mobile Camera
-------------------------------------------
+Capturing a Picture from Mobile Camera
+--------------------------------------
 
 ### Scenario
 
@@ -92,8 +92,8 @@ Mobile.tap(findTestObject('handle_Camera/button_OK'), 60)
 
 ```
 
-2\. Uploading an Image from Mobile Gallery
-------------------------------------------
+Uploading an Image from Mobile Gallery
+--------------------------------------
 
 ### What is Android Gallery?
 
@@ -200,8 +200,8 @@ Mobile.waitForElementPresent(findTestObject('handle_Camera and Gallery/button_Ca
 
 ```
 
-3\. Capturing Screenshots in Mobile App
----------------------------------------
+Capturing Screenshots in Mobile App
+-----------------------------------
 
 Katalon Studio provides a built-in method to capture a screenshot of the current device screen**.** To use this method, we need to pass a parameter (i.e., the absolute path of the saved screenshot image file).
 

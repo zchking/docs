@@ -8,8 +8,8 @@ description: "This article will help you to discover what is textbox, checkbox, 
 
 This tutorial illustrates how to handle Textbox, Checkbox, Radio buttons using Katalon Studio. The reference source code is provided at the end of the tutorial.
 
-**1.How to Handle Textbox**
----------------------------
+How to Handle Textbox
+---------------------
 
 A textbox is a field that allows users to enter text as an input. Textbox and textarea are similar but the latter allows multiple lines and more characters.
 
@@ -104,8 +104,8 @@ WebUI.closeBrowser()
 
 In the script mode above, **Def** is a keyword in Groovy used for declaration of variables. Username is a variable name, here storing the value “Katalon” in the **username** variable.
 
-**2\. How to Handle Button and Checkbox**
------------------------------------------
+How to Handle Button and Checkbox
+---------------------------------
 
 **Scenario:** To make an appointment
 
@@ -233,8 +233,8 @@ In the script above, the keyword **VerifyElementClickable** is used to validate 
 
 The keywords **VerifyElementChecked** and **VerifyElementNotChecked** are used to validate whether an element is checked or unchecked, respectively.
 
-**3\. How to Handle Radio Button**
-----------------------------------
+How to Handle Radio Button
+--------------------------
 
 Radio Button is a toggle-button that allows you to check the operations.  
 **Scenario:** To make an appointment

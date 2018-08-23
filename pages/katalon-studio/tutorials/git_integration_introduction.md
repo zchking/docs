@@ -6,8 +6,8 @@ description: "This tutorial details steps to set-up integration with Git from Ka
 ---
 [](#)
 
-**1\. What is Git?**
---------------------
+What is Git?
+------------
 
 Git is a powerful and popular system for version control. It is one of the essential tools for collaboration in software development teams. If your Katalon Studio automation project involves several or more members, you should use Git or another source control system for managing change and configuration on your project. Below are several specific benefits of using Git for your Katalon Studio projects.  
 
@@ -24,14 +24,14 @@ Git is a powerful and popular system for version control. It is one of the essen
 
 With Git, a repository can be shared to multiple members in a team to help to improve the team’s collaboration and productivity.
 
-**2\. Katalon Studio integration with Git introduction**
---------------------------------------------------------
+Katalon Studio integration with Git introduction
+------------------------------------------------
 
 Git Integration is a powerful feature of Katalon Studio for collaboration between team members in test automation projects using Git. This tutorial presents a typical workflow for Git integration with Katalon Studio:
 
 ![workflow working with Git in Katalon](../../images/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png)
 
-### **2.1 Enable Git integration in Katalon Studio**
+### 1 Enable Git integration in Katalon Studio
 
 By default, Git integration is not enabled when Katalon Studio is first launched. But this feature can be enabled easily with the following steps:
 
@@ -43,12 +43,12 @@ By default, Git integration is not enabled when Katalon Studio is first launched
 
 ![Enable Git integration in Katalon Studio](../../images/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio.png)
 
-### **2.2 Choose Git Remote Repository**
+### 2 Choose Git Remote Repository
 
 After the Git integration feature is enabled, we can connect to a Git-based repository from Github, BitBucket, Gitlab, etc. In this tutorial, we will use integrate our Katalon Studio with a repository from Github.  
 Github is a popular service for source control using Git. In this tutorial, we will use a free plan provided by Github. (if you need to keep the project private, you can choose a paid plan ([https://github.com/pricing](https://github.com/pricing)) to be considered)
 
-### **2.3 Create Git repository**
+### 3 Create Git repository
 
 After logged in Github successfully, we can create a new repository with following steps:
 
@@ -64,7 +64,7 @@ Repository name could be in lower-case, and ‘-’ as a naming convention.
 
 3\. The Git repository is now ready to use.
 
-### **2.4 Clone Project**
+### 4 Clone Project
 
 Now we already have Katalon Studio with Git integration enabled and a Git repository. It is time to start a new Katalon Studio project and integrate it with the Git repository.  
 A new Katalon Studio project can be created and integrated with Git by using the Clone Project feature. Perform the following steps to create a new Katalon Studio project.
@@ -85,13 +85,13 @@ A new Katalon Studio project can be created and integrated with Git by using the
 
 ![Clone project with Git](../../images/katalon-studio/tutorials/git_integration_introduction/Clone-Project-with-Git-4.png)
 
-### **2.5 Test Project is ready for working**
+### 5 Test Project is ready for working
 
 We might need to have a double check to ensure that the integration with Git is completed. Go to **Window** ->** Katalon Studio Reference**, and verify information from Repository Settings. Ensure that the Repository is selected correctly with URL specified.
 
 ![Integration with Git is completed](../../images/katalon-studio/tutorials/git_integration_introduction/Test-Project-is-ready-for-working1.png)
 
-### **2.6 Commit**
+### 6 Commit
 
 The Commit option allows us to view all current changes and decide which changes to be stored in local branch.
 
@@ -109,7 +109,7 @@ The Commit option allows us to view all current changes and decide which changes
 
 4\. Enter your comments into the **Commit Message** then click on **Commit** to store your staged changes into the local branch.
 
-### **2.7 Push to Git**
+### 7 Push to Git
 
 While the **Commit** function is used to store the changes we made into the local repository (branch), the **Push** function allows us to update the **remote branch** with what we have committed in the **local branch**.
 
@@ -129,7 +129,7 @@ Click **Next** after finished selecting your remote branch.
 
 Click on **Finish** to push your commits to the remote repository.
 
-### **2.8 Pull from Git**
+### 8 Pull from Git
 
 **Pull** command is used to incorporate changes from a remote repository into the local branch. In other words, we use the **Pull** command when we want to **get** the code from the Git remote repository (properly containing the latest code committed by other members) and **merge** it to the local repository so that we could have the **latest code version**.
 

@@ -10,8 +10,8 @@ This article aims to provide an overview of API testing with candid answers to t
 
 You will also find potential challenges with API test implementation – best practices and how to choose right toolset to help you achieve API testing with a higher success chance.
 
-**What is API testing?**
-------------------------
+What is API testing?
+--------------------
 
 API testing is a type of [software testing](https://en.wikipedia.org/wiki/Software_testing) that involves testing application programming interfaces (APIs) directly and as part of [integration testing](https://en.wikipedia.org/wiki/Integration_testing) to determine if they meet expectations for functionality, reliability, performance, and security. Since APIs lack a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), API testing is performed at the message layer and can validate application logic very quickly and effectively.
 
@@ -19,8 +19,8 @@ API testing is critical for automation testing and CI/CD process because it can 
 
 A side note, for Web and mobile applications, API often means Web services, and API testing refers to the automation test performed to the Web services.
 
-**Where is API testing performed?**
------------------------------------
+Where is API testing performed?
+-------------------------------
 
 Commonly, applications have three separate layers or tiers including Presentation Layer or user interface, Business Layer or application user interface for business logic processing, and Database Layer for modeling and manipulating data.
 
@@ -28,8 +28,8 @@ API Testing is performed at the most critical layer, the Business Layer, where b
 
 ![](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-9%402x.png)
 
-**Why do we need to perform API testing?**
-------------------------------------------
+Why do we need to perform API testing?
+--------------------------------------
 
 The figure below shows three different layers of testing called [the test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) initially coined by Mike Cohn in his book Succeeding with Agile. It has layers representing different types of testing. Despite its being overly simplistic, it offers us a general rule of thumb: it suggests how much testing we should focus on at each layer. As such, API and services tests in the second layer is an important testing activity that we should focus on.
 
@@ -43,8 +43,8 @@ Workflow Tests (through the UI): functional UI testing is performed via the UI o
 
 API testing yields the highest ROI compared to all other testing type performed by testers as Unit test performed by developers mostly. It also offers a number of advantages over other kinds of testing:
 
-**Advantages of API testing**
------------------------------
+Advantages of API testing
+-------------------------
 
 As discussed above, API testing is an important activity that testing teams should focus on. It offers a number of advantages over other kinds of testing:
 
@@ -68,30 +68,30 @@ It is common that executing a UI regression test suite takes 8-10 hrs while the 
 
 [![](../../images/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png)](https://www.katalon.com/download)
 
-**API testing types**
----------------------
+API testing types
+-----------------
 
 API testing is generally categorized into common categories below:
 
 ![API Testing Types](../../images/katalon-studio/tutorials/introduction_api_testing/37314962_134560560788081_95847559624392704_n-1024x576.png)
 
-### **1\. Validation Testing**
+### Validation Testing
 
 Validation testing is among the final steps and plays an essential role in the development process. Validation test helps verify the aspects of product, behavior, and efficiency.
 
 In other words, the validation testing can be seen as an assurance of the correct development against the stated user needs and requirements.
 
-### **2\. Functional Testing**
+### Functional Testing
 
 Functional testing includes the testing of particular functions in the codebase. These features are the representation of specific scenarios to make sure the API functions are handled well within the planned parameters.
 
-### **3\. End-to-end Testing**
+### End-to-end Testing
 
 UI testing is defined as a test of the user interface for the API and other integral parts. It is mainly about the UI functions, in which the interface is naturally graphical or rely on the command-line endpoint calls.
 
 Generally, the test is more likely of the interface which ties into the API rather than the API testing itself. Although UI testing is not a specific test of API in term of the codebase, this still provides overview information about the health, usability, and efficiency of both front-end and back-end.
 
-### **4\. Load Testing**
+### Load Testing
 
 Load testing is generally done after a specific unit, or the whole codebase has been completed to check if the theoretical solutions work as the practical plan.
 
@@ -103,7 +103,7 @@ Theoretical maximum traffic – this is to make sure during the full load period
 
 Overload test – to test the maximum capability according to the theory, then add 10-20% more on the peak traffic.  
 
-### **5\. Runtime/Error Detection**
+### Runtime/Error Detection
 
 This testing type is related to the actual running of the API, particularly with the universal results of utilizing the API codebase. Generally, they focus on one of the below aspects:
 
@@ -115,34 +115,34 @@ Resource Leaks: The requests which are invalid or commonly illegal will be submi
 
 Error Detection: The known failure scenarios will be used to test the code to make sure the errors are appropriately figured and resolved
 
-### **6\. Security Testing**
+### Security Testing
 
 Security, Penetration and Fuzz testing are the three separate elements of the security auditing process. They are used to ensure the API implementation is secure from external threats.
 
 Besides enclosing with penetration and fuzz testing, security testing also includes additional steps like the validation of encryption methodologies, and of the design of the access control for the API. It also contains the user rights management and validating authorization checks to access the resources.
 
-### **7\. Penetration Testing**
+### Penetration Testing
 
 Penetration testing is considered the second test in the process if auditing. In this testing type, the users with limited API knowledge will try to attack to assess the threat vector from an outside perspective, which is about functions, resources, processes, or aim to the entire API and its components.
 
-### **8\. Fuzz Testing**
+### Fuzz Testing
 
 Fuzz testing is another step in the whole security audit process. In this testing type, a vast amount of random data (referred to as “noise” or “fuzz” ), will be input into the system with the aim to try a forced crash or any negative behavior. This fuzz test will help test the API in term of the limits to prepare for the “worst case scenarios.”
 
-**API testing best practices**
-------------------------------
+API testing best practices
+--------------------------
 
 ![API Testing Best Practices](../../images/katalon-studio/tutorials/introduction_api_testing/hero-03-1024x512.png)
 
-### **1. Priorities**
+### Priorities
 
 When starting to develop test scenarios, some of us are relatively common to jump right into some of the negative test scenarios (to verify invalid information, validation on special characters, uncommon input, etc.). These types of verification might cause crashes and other interesting problems. In other words, easy bugs might be found quickly with negative test scenarios. Unfortunately, it is not necessarily the best use of a tester’s effort. It is suggested that mainline scenarios should be focus first with higher priority. A basic guideline is to identify the most common parameters and conditions that an end developer will use when calling the APIs and test these scenarios extensively.
 
-### **2\. Functional and Non-functional testing priorities**
+### Functional and Non-functional testing priorities
 
 API is an essential part of modern web applications, its non-functional aspects such as performance, security, connectivity will affect the system heavily. The behavior makes traditional testing mindset, which focuses on functional testing first, not suitable anymore. Functional and non-functional testing should be performed at the same time with equal priority.
 
-### **3\. End-points management**
+### End-points management
 
    A typical product may have hundreds of API/Web services endpoints, which look very similar to each other, and might cause duplication issues to the testing project. How you organize the tests and the endpoints will influence the productivity, effectiveness, and maintenance of your tests.
 
@@ -174,7 +174,7 @@ api/2/group: affects to Jira Group
 
 This method will help us preventing missing test endpoints, and test scenarios.
 
-### **4\. Endpoint as a template**
+### Endpoint as a template
 
    This endpoint is a part of the [data-driven approach](https://www.katalon.com/resources-center/tutorials/data-driven-testing/), which relates to data models more than input data. One of the most challenging issues in API testing is test data mapping with data models, subsets of data models. For examples:
 
@@ -182,7 +182,7 @@ This method will help us preventing missing test endpoints, and test scenarios.
 
    This practice suggests that we consider each combination as a test template for the endpoint, then apply data-driven approach for this test template to generate actual executable test scenarios.
 
-### **5\. Data-driven**
+### Data-driven
 
    The most important feature of any API test tools is the capability of the data-driven approach. Lacking data-driven ability will lead to test data hardcoded, duplicated test scripts, test verification, therefore causing massive effort at maintenance phase.
 
@@ -190,63 +190,63 @@ This method will help us preventing missing test endpoints, and test scenarios.
 
 [![](../../images/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png)](https://www.katalon.com/download)
 
-**Challenges in API testing**
------------------------------
+Challenges in API testing
+-------------------------
 
 ![challenges api testing](../../images/katalon-studio/tutorials/introduction_api_testing/34202954_194986051330169_865881311137497088_n-1-1024x456.png)
 
-### **1\. Initial Setup of API testing**
+### Initial Setup of API testing
 
 In API testing, both manual and automated testing matter. While manual testing confirms whether the app works, automated testing helps to check how effectively the app performs under pressure. Setting up the test infrastructure get it working is considered among the most challenging tasks of the testing process, as it is not only particularly tricky but also a significantly motivation-killer. However, it will be a long-term benefit once the team gets through those challenging setup process.
 
 To avoid these challenges, teams need to start the API testing in the early stage, specifically in the design phase and make sure to conduct the interval checking of APIs for 100% uptime.
 
-### **2\. Update the Schema of API testing**
+### Update the Schema of API testing
 
 The schema (data formatting which handles requests and responses for the API) should be maintained during the testing process. Any changes in the program that create additional parameters for the API calls must be reflected in the schema configuration.
 
 In today’s API economy, the changes in API helps facilitate the demand, but those changes can cause downtime. To avoid this issue, the team needs to test the API in beta and alpha environments, which is seen to reduce 90% of the chances of issues happen.
 
-### **3\. Testing Parameter Combinations**
+### Testing Parameter Combinations
 
 APIs handle communication between systems by assigning data values to parameters and passing these parameters through data requests. Testing all possible parameter request combinations in the API is necessary to detect the problems regarding the specific configurations. A more significant project would end up assigning two different values to the same parameter, or create instances where numerical values appear when text values should be. Adding parameter will aggressively increase the number of possible combinations.
 
 This challenge can be solved by picking some applications that aren’t very critical to daily operations to utilize the API and release it to those applications only. By doing this, testers can know how the API is utilized and whether there are any changes should be done for a general availability release.
 
-### **4\. Sequencing the API Calls**
+### Sequencing the API Calls
 
 It is a challenge for testing teams when API needs to be in a specific order to work correctly. For instance, a call to return a user’s profile information goes through before the profile is created, the request will return an error. The process can become even more significantly difficult when involving more applications.
 
 To help overcome this issue, a flowchart is recommended to visualize the API calls. Developers then can build and integrate API calls faster with less unexpected problems.
 
-### **5\. Validating Parameters**
+### Validating Parameters
 
 Software testing team may find it challenging invalidating the parameters sent through API requests because of the sheer number of parameters and use cases for those parameters. Testers need to ensure all parameter data uses the correct string or numerical data type, fits within length restrictions, fits within the designated value range and pass other validation criteria.
 
 To solve this problem, testing team can use the continuous synthetic API monitoring to detect the problem early. Besides, it should be combined with an APM solution to get the 360-degree view.
 
-### **6\. Tracking System Integration**
+### Tracking System Integration
 
 Ensuring the API testing system is working correctly with the data tracking system is another challenge in API testing. This integration is essential in bringing back the appropriate responses on whether a call is working properly. It is also useful in monitoring the API performance. Tracking system integration is a late stage in a whole process, which cause the team not to give it enough attention.
 
 It can be improved by planning since the design phase to see how it will integrate with other systems. Each application has various requirements that need to be met. So, the team should not test in parallel with other critical integration systems. This can be achieved by implementing and adding load testing in the continuous delivery.
 
-**How to select the right API testing tools**
----------------------------------------------
+How to select the right API testing tools
+-----------------------------------------
 
 ![Select API Testing Tools](../../images/katalon-studio/tutorials/introduction_api_testing/34485670_194986041330170_8180674687441829888_n-1024x453.png)
 
 Selecting the right API testing tool plays an essential role in the success of a testing project. A suitable API solution can help save plenty of time and budget for the team. There are generally some options to consider:
 
-### **1\. Home-grown tools**
+### Home-grown tools
 
 Home-grown tools are suitable for the application that present unique testing challenges, for the team members with skills, time, and inclination to write their own test framework or build one on top of an existing open source tool. While these internal solutions can require team’s efforts to develop, they are generally programmer-friendly, precisely customized, and effectively integrated with the existing process and other infrastructure.
 
-### **2\. Open source tools**
+### Open source tools
 
 Using open source tools (JMeter, Rest-Assured) can be lightweight and appropriate for agile development. They mainly have a broad appeal, with features useful to both programmers and testers. However, not all open source tools are well documented, and training can be an issue for the testing team.
 
-### **3\. Vendor tools**
+### Vendor tools
 
 Commercial tools (SoapUI Pro, Tricentis Tosca) are perceived as a safe bet as they are likely to come with available manuals, support, and training. Unfortunately, they remain some drawbacks: vendor tools are historically programmer-unfriendly as they tend to use proprietary scripting languages that programmers don’t want to spend time learning; they also tend to be heavyweight; and test scripts may be brittle, easily broken by minor changes to the application.
 

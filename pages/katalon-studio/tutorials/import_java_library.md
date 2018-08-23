@@ -8,8 +8,8 @@ description: "Katalon Studio allows users to import external Java .jar libraries
 
 Katalon Studio allows users to use external Java .jar libraries either through Katalon project settings or copying .jar files to a designated folder. Users can leverage this to extend the capabilities of Katalon Studio and handle specific situations when needed. This article will show you how to add external libraries to Katalon Studio.
 
-**Using Katalon project settings**
-----------------------------------
+Using Katalon project settings
+------------------------------
 
 On Katalon Studio, from the toolbar select **Project** \> **Settings** \> **External Libraries**. Click on **Add** to browse and select your .jar file(s) (and its dependencies if any).  Click on **Apply** and **OK** to save the settings.
 
@@ -21,8 +21,8 @@ To remove imported external libraries, specify the library which you want to del
 
 ![ remove import external library](../../images/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
 
-**Manually copy .jar files to the Drivers folder**
---------------------------------------------------
+Manually copy .jar files to the Drivers folder
+----------------------------------------------
 
 You can also manually copy your .jar file (and its dependencies if any) into **Drivers** folder. You have to restart Katalon (shutdown and open it again) to reload its class paths.
 

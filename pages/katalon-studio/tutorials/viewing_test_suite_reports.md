@@ -16,8 +16,8 @@ For example:
 
 The report will be named with following the naming convention: _YYYYMMDD_HHmmss_, which is the datetime when the test suite starts its execution.
 
-**Report Overview**
--------------------
+Report Overview
+---------------
 
 In **Test Explorer** view, double-click on a historical execution of a test suite to view its details:
 
@@ -27,8 +27,8 @@ where:
 
 <table><tbody><tr><td style="text-align: center; border: 1px solid black;"><b>Component</b></td><td style="text-align: center; border: 1px solid black;"><b>Description</b></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Test Cases Table</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">List of executed test cases.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Summary</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Summary information of executed environment.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Execution Settings</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Settings for execution which include information about how to handle a failed test case, page loading timeout, etc. For example:</span><p></p><p><img class="alignleft wp-image-2198" src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Settings1.png" alt="page loading timeout" width="527" height="218" srcset="https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2017/08/22185517/Execution-Settings1.png 556w, https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2017/08/22185517/Execution-Settings1-300x124.png 300w" sizes="(max-width: 527px) 100vw, 527px"></p></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Execution Environment</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Information concerning the execution environment, including Host Name, Operating System (os), Katalon Studio version, browser, etc. For example:</span><p></p><p><img class="alignnone wp-image-2199" src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Environment.png" alt="Information concerning the execution environment" width="532" height="222" srcset="https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2017/08/22185532/Execution-Environment.png 556w, https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2017/08/22185532/Execution-Environment-300x125.png 300w" sizes="(max-width: 532px) 100vw, 532px"></p></td></tr></tbody></table>
 
-**Test Cases List**
--------------------
+Test Cases List
+---------------
 
 *   The Test Case Table displays the list of all executed test cases in a test suite. If [data-driven testing](https://www.katalon.com/resources-center/tutorials/data-driven-testing/) is used, each test case will be executed through a number of times (iterations) that are defined in the Data Iteration column of the current test suite as shown in the steps No. 5 to 7 below.
 
@@ -41,8 +41,8 @@ Users can easily determine what information to display by using the filters.
 *   By selecting an **iteration** in **Test Case Table** and click **Show Test Case Details**, you can view details regarding its executed logs.
 *   If **qTest** and **JIRA** are configured in Project Settings, you can submit the results to these systems. Refer to [qTest Integration](https://docs.katalon.com/display/KD/qTest+Integration) and [JIRA Integration](https://docs.katalon.com/display/KD/JIRA+Integration) for more details.
 
-**Test Suite Summary**
-----------------------
+Test Suite Summary
+------------------
 
 This section explains the information on the test execution summary report for a test suite, as shown below.
 
@@ -52,12 +52,12 @@ The fields include:
 
 <table><tbody><tr><td style="text-align: center; border: 1px solid black;"><b>Field</b></td><td style="text-align: center; border: 1px solid black;"><b>Description</b></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Test Suite ID</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">The ID of the executed test suite in Katalon Studio. Once clicked, the test suite is opened.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Hostname / OS / Platform</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">The environment where the test suite is executed</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Start / End / Elapse</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Execution start/end date time and duration</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Total TC</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">The total number of test cases, grouped into four status groups, Passed, Failed, Error, and Incomplete.</span></td></tr></tbody></table>
 
-**Test Case’s Log**
--------------------
+Test Case’s Log
+---------------
 
 **Test Case’s Log** shows the detail of a test case after execution. Users can view such details in three tabs **Test Log**, **Information**, and **Integration**. Double-click on a test case in **Test Cases Table** to display the **Test Case’s Log** window.
 
-### **Test Log Tab**
+### Test Log Tab
 
 *   Details of the executed steps and their status are displayed in this tab.  
     ![Details of the executed steps](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Test-Case%E2%80%99s-Log.png)
@@ -73,7 +73,7 @@ Detail of the items:
 *   If **JIRA** is configured in Project Settings, users can submit a ticket to this system. Refer to [JIRA Integration](https://docs.katalon.com/display/KD/JIRA+Integration) for more details.
 *   Screenshots are taken for the failed steps and users can hover the mouse cursor over the attachment icon to review.
 
-### **Information Tab**
+### Information Tab
 
 Users can find the summary information of the test case in this tab.
 
@@ -83,7 +83,7 @@ The items include:
 
 <table><tbody><tr><td style="text-align: center; border: 1px solid black;"><b>Field</b></td><td style="text-align: center; border: 1px solid black;"><b>Description</b></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Test Case ID</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">The ID of the executed test case in Katalon Studio. Once clicked, the system navigates users to the respective test case.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Start / End / Elapse</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Execution start/end date time and duration.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Description</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Description of the test case.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Message</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Any system message raised when this </span><b>iteration</b><span style="font-weight: 400;"> is executed.</span></td></tr></tbody></table>
 
-### **Integration Tab**
+### Integration Tab
 
 The information regarding qTest Integration of this iteration is displayed in this tab.
 
@@ -93,8 +93,8 @@ The fields include:
 
 <table><tbody><tr><td style="text-align: center; border: 1px solid black;"><b>Field</b></td><td style="text-align: center; border: 1px solid black;"><b>Description</b></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Test Log ID</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">The ID of the integrated qTest </span><b>Test Run</b><span style="font-weight: 400;">. Once clicked, the system navigates users to the respective qTest page.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Test Run Alias</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">The alias of the integrated qTest </span><b>Test Run</b><span style="font-weight: 400;">.</span></td></tr><tr><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Attachment</span></td><td style="border: 1px solid black; text-align: left;"><span style="font-weight: 400;">Indicate whether all execution logs and reports are placed in a zipped file to be sent to qTest as an attachment.</span></td></tr></tbody></table>
 
-**Export to other formats**
----------------------------
+Export to other formats
+-----------------------
 
 For the purpose of sharing, users can generate reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit** using the context menu in Test Explorer as the example below:
 

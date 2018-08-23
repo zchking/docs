@@ -13,8 +13,8 @@ description: "Data-driven testing is a testing method using the tables of test d
     *   [Data-driven Tests Execution](#test-execution)
 3.  [Tutorial video](#tutorial-video)
 
-**1\. What is Data-driven testing?**
-------------------------------------
+What is Data-driven testing?
+----------------------------
 
 **Data-driven testing (DDT)** is a common term in the computer software testing area. Its define a testing has been done using a table of conditions directly as test inputs and verifiable outputs. Also, in the data-driven testing process, the test environment settings and control are not hard-coded.
 
@@ -35,7 +35,7 @@ Data-driven framework can be best understood by the following diagram:
 
 ![data-driven testing using Katalon Studio](../../images/katalon-studio/tutorials/data_driven_testing/data_driven_testing.jpg)
 
-### **The Advantages of Data-driven testing**
+### The Advantages of Data-driven testing
 
 *   The [scripts could generate parallelly](https://www.katalon.com/videos/test-suite-collection-run-test-suites-parallel/) whilst developers are building the application/software. The whole process of designing, planning and running the database is independent towards the application development.
 *   The tester can avoid the irrelevant and unneeded duplication of testing scripts generated since we already carry a standard file using for testing inputs and verifying the data.
@@ -44,8 +44,8 @@ Data-driven framework can be best understood by the following diagram:
 *   The test data can’t be impacted if the test scripts are changing since data-driven testing is running separately with the development. The tester will have no influence towards developers even though they make multiple changes.
 *   It is a good news for tester if errors or bugs generated in future will be minimized to the lowest probability since there are multiple scenarios and inputs tested using data-driven framework approach.
 
-**2. Data-driven testing approach with Katalon Studio**
--------------------------------------------------------
+Data-driven testing approach with Katalon Studio
+------------------------------------------------
 
 Katalon Studio supports data-driven testing which allows users to define data sets and execute test scripts faster and easier compared to data-driven testing in other frameworks.
 
@@ -63,7 +63,7 @@ Katalon Studio: available for free, running on both Windows and MacOS with a bet
 *   In case of **Mobile** testing, you need to install **Appium** and enable **USB Debugging mode** on your device first. Please refer to our Mobile Setup [for Windows](https://docs.katalon.com/x/jwbR) or [for macOS](https://docs.katalon.com/x/9AXR).
 *   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven’t already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
-### **The Data-Driven Testing Sample Project**
+### The Data-Driven Testing Sample Project
 
 The simple example of Data-driven testing is described through a testing booking service. The booking form has 5 different fields, each field contains multiple options. The data used for a specific case may not cause any error to the application, but for the other sets of data, it probably does. In order to make sure the application will be working probably regardless of the inputs, you may leverage data-driven testing for this scenario to execute the test automatically multiple times using different data tests.
 
@@ -76,13 +76,13 @@ Given a sample test case whose scenario is as below:
 
 You can use the following steps to automate the above test scenario.
 
-### **Prepare the Data**
+### Prepare the Data
 
 Create a data file in Katalon containing three login accounts. Refer to [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more details on how to create test data from different sources. The following example shows the internal data file with three accounts for [http://demoaut.katalon.com](http://demoaut.katalon.com/profile.php#login) (note that only ‘**_John Doe_**_’_ is valid):
 
 ![prepare data](../../images/katalon-studio/tutorials/data_driven_testing/Picture1-300x132.png)
 
-### **Create a new test case using Web Record function**
+### Create a new test case using Web Record function
 
 1\. Create a new test case and generate the steps needed to run data-driven testing. You can utilize the [Web Record function](https://www.katalon.com/resources-center/tutorials/create-test-case-using-record-playback/) to quickly generate your test case:
 
@@ -105,11 +105,11 @@ You can see that the input values for username and password are hard-coded as wh
 
 ![Katalon Manual view](../../images/katalon-studio/tutorials/data_driven_testing/4.-Katalon-manual-view.png)
 
-### **Data-driven Tests Execution**
+### Data-driven Tests Execution
 
 From here you can apply Data-driven using two methods, either using **Test Suites** or **Test Cases.**
 
-#### **A. Execution from test suites**
+#### A. Execution from test suites
 
 1\. Next, create a test suite to execute the test case using the defined dataset.
 
@@ -121,7 +121,7 @@ From here you can apply Data-driven using two methods, either using **Test Suit
 
 3\. You can now execute your test case. It will run three times using the accounts defined in the test data file.
 
-#### **B. ****Execute using a test case**
+#### B. Execute using a test case
 
 1. We can also implement Data-driven tests in a test case. Just create a new test case and switch to Script Mode. To iterate tests with multiple sets of data, we need to use FOR statement and call the test data objects. Copy and paste below code:
 
@@ -143,8 +143,8 @@ _Password field:  data.internallyGetValue(“demo_pwd”, index)\_
 
 **Congratulations! You now understand how to approach Data-driven testing with Katalon Studio.**
 
-**3\. Tutorial video is contributed by Shiva Raj**
---------------------------------------------------
+Tutorial video is contributed by Shiva Raj
+------------------------------------------
 
 Learn more:
 

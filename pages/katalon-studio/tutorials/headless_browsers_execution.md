@@ -6,15 +6,15 @@ description: "Katalon supports Headless Browsers (Chrome & Firefox) which can sa
 ---
 [](#)
 
-**What is Headless Browser Testing?**
--------------------------------------
+What is Headless Browser Testing?
+---------------------------------
 
 Headless browser testing is simply testing a web pages functionality, without a GUI present. One of the biggest reasons for using a headless browser/carrying out headless testing is performance since it lets you run tests more quickly in a real browser environment. Headless Browsers can save project team the tremendous amount of time and smoothly integrate in the CD/CI process.
 
 [Katalon Studio](https://www.katalon.com) supports Headless Browsers execution for both Chrome and Firefox. This tutorial will walk you through the steps to execute tests using Headless Browsers and also additional configurations (if needed) to tweak your Headless browsers.
 
-**1\. Configuring headless browsers**
--------------------------------------
+Configuring headless browsers
+-----------------------------
 
 By default, executing automation tests using either [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) headless will add necessary desired capabilities to the browsers. You don’t need to add any additional configurations.
 
@@ -27,10 +27,10 @@ In case you really need to add more desired capabilities to headless browsers, t
 
 To find out more about desired capabilities, refer to this [guide](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities).
 
-**2\. Executing automation tests**
-----------------------------------
+Executing automation tests
+--------------------------
 
-### **2.1  Execute Test Case/ Test Suite**
+### 1  Execute Test Case/ Test Suite
 
 *   Open a test case or a test suite you want to execute
 *   Select either **Chrome** (**headless**) or **Firefox** (**headless**) from the list of execution items
@@ -41,7 +41,7 @@ To find out more about desired capabilities, refer to this [guide](https://githu
 
 ![execute test case](../../images/katalon-studio/tutorials/headless_browsers_execution/execute-test-case.png)
 
-### **2.2  Execute Test Suite Collection**
+### 2  Execute Test Suite Collection
 
 *   Open a test suite collection you want to execute
 *   Add a Test Suite into this Test Suite Collection
@@ -55,7 +55,7 @@ To find out more about desired capabilities, refer to this [guide](https://githu
 
 *   Execute this Test Suite Collection and Katalon Studio will use the selected environment to run.
 
-### **2.3  Execute using console mode execution**
+### 2.3  Execute using console mode execution
 
 *   Generate your console mode commands by selecting either **Chrome** (**headless**) or **Firefox** (**headless**) and click on **Build CMD** button on the main toolbar.
 

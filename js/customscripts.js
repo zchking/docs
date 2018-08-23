@@ -6,6 +6,12 @@ $(function() {
 
     (function sidebar() {
         $(".sidebar").Stickyfill();
+        $(".navbar-toggle").click(function(){
+            $("#sidebar-nav").each(function(){
+                $(this).toggleClass("hidden-sm");
+                $(this).toggleClass("hidden-xs");
+            });
+        });
         var nav = $('#jsTOCLeftNav');
         nav
             .navgoco({

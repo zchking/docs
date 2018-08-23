@@ -11,8 +11,8 @@ Creating automation test cases is a repetitive task that requires a lot of editi
 *   Execute from selected step
 *   Enable/Disable steps
 
-**Execute from a selected step**
---------------------------------
+Execute from a selected step
+----------------------------
 
 From the Manual view of the test case, right-click on a step and select **Execute from here…**. Once this option is selected, all **_currently running and supported Chrome instances_** are displayed so that you can select to run the script from the selected step.
 
@@ -20,8 +20,8 @@ From the Manual view of the test case, right-click on a step and select **Execut
 
 Please note that **_currently running and supported Chrome instances_** refer to the running Chrome browser instances that are previously launched from Katalon Studio.
 
-**Enable/Disable steps**
-------------------------
+Enable/Disable steps
+--------------------
 
 Katalon Studio also allows users to enable/disable one or more test steps before executing the test case as shown in the screenshot below. Using the shortcuts  **Ctrl + D** (disable) and **Ctrl + E** (enable) on selected steps, users can skip unwanted steps when executing the test case.
 

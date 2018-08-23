@@ -10,8 +10,8 @@ description: "In this tutorial, we will show you how to speed up your mobile app
 
 Scripting your first mobile automation test case can be quite confusing without a specialized tool or instruction. In this tutorial, we will show you how to speed up your automation project using Katalon Studio’s mobile recording utility and run your recorded test cases on hundreds of Kobiton’s mobile devices on the cloud. For this tutorial, we assume that you have already installed [Katalon Studio](https://www.katalon.com/), got familiar with its basic functions and registered a [Kobiton account](https://kobiton.com/).
 
-**Create mobile automation test cases using Katalon Studio’s recording utility**
---------------------------------------------------------------------------------
+Create mobile automation test cases using Katalon Studio’s recording utility
+----------------------------------------------------------------------------
 
 Before starting, make sure that you have:
 
@@ -84,8 +84,8 @@ The recorded actions should look like the following:
 
 After adding the validation test steps, try to run the test case again. This time the execution takes longer for Katalon Studio to perform the validation steps, but your test case should pass successfully since the input value is identical to the validation value. You can test with different values or connect to a data source.
 
-**Run your mobile automation test case on Kobiton’s cloud devices      **
--------------------------------------------------------------------------
+Run your mobile automation test case on Kobiton’s cloud devices      
+---------------------------------------------------------------------
 
 1\. Upload the Material Login Demo app to Kobiton App Repository. From the Repository view, select the more actions button and select the **_Automation snippet._** Copy the app id (the one in bold, for example, **_Kobiton-store:184_** as shown below) and save it.
 

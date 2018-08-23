@@ -8,13 +8,13 @@ description: "When performing automation testing, you may sometimes deal with po
 
 When performing automation testing, you may sometimes deal with pop-up dialog issue that needs to be handled differently from normal test objects. This tutorial shows you how to deal with pop-up controls.
 
-**What is a pop-up?**
----------------------
+What is a pop-up?
+-----------------
 
 A pop-up is a graphical display area, usually in a form of a small window that appears (“pop-up”) in the foreground of the current interface.
 
-**What are issues with pop-up?**
---------------------------------
+What are issues with pop-up?
+----------------------------
 
 The problem with pop-ups is that they usually show up unexpectedly. There is no certain way to overcome this except that you need to understand the behavior of the application and insert scripts accordingly to handle the situation. Another issue with pop-ups is that they are not from the AUT so you need to handle them with dedicated keywords.
 
@@ -113,8 +113,8 @@ Where:
 
 Regarding the browser’s popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
 
-**Example**
------------
+Example
+-------
 
 Here in this example, When I clicked a link, it will open a new window. So I want to switch to that window to perform actions on the newly opened window. We can handle it using Katalon Studio built-in keywords as shown below.
 

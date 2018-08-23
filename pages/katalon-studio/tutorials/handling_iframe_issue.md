@@ -8,13 +8,13 @@ description: "A very common type of control used in website is the HTML iframe. 
 
 A very common type of control used in website is the HTML iframe. And this control needs to be handled in a specific manner when testing. This article shows you how to handle iframes properly in Katalon Studio.
 
-**What is iframe?**
--------------------
+What is iframe?
+---------------
 
 An iframe (Inline Frame) is an HTML document embedded in another HTML document. The iframe HTML element is often used to insert the content from another source, such as an advertisement, into a Web page.
 
-**How to identify the iframe**
-------------------------------
+How to identify the iframe
+--------------------------
 
 We can identify the iframes by below two ways by inspecting the element:
 
@@ -27,8 +27,8 @@ b) Reload frame
 
 c) This frame
 
-**Why is it important to know how to test iframes?**
-----------------------------------------------------
+Why is it important to know how to test iframes?
+------------------------------------------------
 
 Verifying text and objects within iframes can be a challenge. For example, even though you can see a text displayed in an iframe, automation tools may not be able to detect the text. You have to tell your script how to traverse through a website’s iframes structure and select the correct iframe where the text and its object are present.
 

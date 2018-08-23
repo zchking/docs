@@ -6,8 +6,8 @@ description: "A drop-down menu contains a list of options. This tutorial illustr
 ---
 [](#)
 
-**What is Drop-down?**
-----------------------
+What is Drop-down?
+------------------
 
 A drop-down list (abbreviated drop-down; also known as a drop-down menu) is a graphical control element, similar to a list box, that allows the user to choose one value from a list. When a drop-down list is inactive, it displays a single value. When activated, it displays a list of values, from which the user may select one. When the user selects a new value, the control reverts to its inactive state, displaying the selected value. It is often used in the design of graphical user interfaces, including web design.
 
@@ -21,8 +21,8 @@ The below image shows what the sample select command has.
 
 ![DropDown Methods Explanation](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/DropDown_Methods_Explanation.png)
 
-[**Deselect All Options**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Deselect+All+Option)
------------------------------------------------------------------------------------------------
+Deselect All Options
+--------------------
 
 We have a multi-select drop down as the following, values in a multi-select combo box include Admin, HR, Networking, Developer, Tester. This drop-down allows users to select multiple items.
 
@@ -65,8 +65,8 @@ WebUI.verifyEqual(NoOfSelectedOptions, 0)
 
 ```
 
-**[Get the number of selected options](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Number+Of+Selected+Option) **(‘getNumberOfTotalOption’)
---------------------------------------------------------------------------------------------------------------------------------------------------
+Get the number of selected options (‘getNumberOfTotalOption’)
+-------------------------------------------------------------
 
 This keyword returns a Count of number of options which are being selected in the combo box
 
@@ -105,8 +105,8 @@ WebUI.verifyEqual(SelectedItems, 5)
 
 ```
 
-**[Get Number of Total Option](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Number+Of+Total+Option)**** (**getNumberOfTotalOption)
------------------------------------------------------------------------------------------------------------------------------------------
+Get Number of Total Option (getNumberOfTotalOption)
+---------------------------------------------------
 
 This keyword returns the number of options listed in the combo box.
 
@@ -145,8 +145,8 @@ WebUI.verifyEqual(TotalOptions, 5)
 
 ```
 
-[**Select All Option**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option)
-------------------------------------------------------------------------------------------
+Select All Option
+-----------------
 
 It will select all options from the list.
 
@@ -179,8 +179,8 @@ WebUI.verifyEqual(SelectedOptions, 5)
 
 ```
 
-[**Select Option By Index**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index)
-----------------------------------------------------------------------------------------------------
+Select Option By Index
+----------------------
 
 It will select the option at the given index. Index always starts from 0.
 
@@ -225,8 +225,8 @@ If we want a select  Feb to Apr from the below combo box then we will pass inpu
 
 ![Input_Dialog_Box](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Input_Dialog_Box.png)
 
-**[Select Option By Label](https://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label)**
-----------------------------------------------------------------------------------------------------
+Select Option By Label
+----------------------
 
 It will select the option which has the exactly displayed text of a particular option.
 
@@ -265,8 +265,8 @@ WebUI.closeBrowser()
 
 ```
 
-**[Select Option](https://docs.katalon.com/x/LZIY) [by Value](https://docs.katalon.com/x/LZIY)**
-------------------------------------------------------------------------------------------------
+Select Option by Value
+----------------------
 
 It will Select the option which has value of the “value” attribute.
 

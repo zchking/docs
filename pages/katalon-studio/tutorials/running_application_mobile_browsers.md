@@ -6,8 +6,8 @@ description: "Learn how to execute Web application testing directly on a mobile 
 ---
 [](#)
 
-**What You’ll Learn**
----------------------
+What You’ll Learn
+-----------------
 
 Katalon Studio supports executing the same test cases on both desktop browsers and mobile browsers. A test case created via recording, either in manual mode or script mode, on a desktop browser with Katalon Studio can be executed on a mobile browser as well. This tutorial will guide you step by step how to do that.
 
@@ -15,13 +15,13 @@ Katalon Studio supports executing the same test cases on both desktop browsers a
 *   Create a test case with Katalon Studio
 *   Execute the test case with mobile browser
 
-**What You’ll Need**
---------------------
+What You’ll Need
+----------------
 
 *   Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit [Katalon Studio website](https://www.katalon.com/download) to get the latest version.
 
-**Before You Dive In**
-----------------------
+Before You Dive In
+------------------
 
 First, you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
@@ -31,8 +31,8 @@ Web application testing can be directly executed on a mobile device. To do so, t
 
 It is not an easy task and requires some knowledge on working with OS, Appium, and the device in use. Many people cannot implement this flow successfully because facing some issues in this task. Please refer to our Mobile Setup guide [for Windows](https://docs.katalon.com/x/jwbR) or [for macOS](https://docs.katalon.com/x/9AXR) and follow the instructions closely.
 
-**Understand your web application under test (AUT)**
-----------------------------------------------------
+Understand your web application under test (AUT)
+------------------------------------------------
 
 When a smartphone is a must-have for everyone, it is required for a web application to accommodate both desktop browsers and mobile browsers.
 
@@ -40,8 +40,8 @@ Often, a desktop UI and a mobile web UI will vary for the same web application s
 
 Do not stress out when your test cases cannot execute properly on mobile browsers as they do on desktop browsers. Automation testing is all about understanding the AUT (Application Under Test) clearly to find a suitable approach. This practice should be a top priority before we want to continue testing our web application.
 
-**Create a test case with Katalon Studio**
-------------------------------------------
+Create a test case with Katalon Studio
+--------------------------------------
 
 After understanding your AUT, and you have decided to perform automation testing, let’s create a test case with Katalon Studio. Below is the test scenario and how to create the test case in manual mode.
 
@@ -144,8 +144,8 @@ WebUI.closeBrowser()
 
 Do not forget to execute the test case in Katalon Studio again to ensure that it works properly.
 
-**Execute the test case with mobile browser**
----------------------------------------------
+Execute the test case with mobile browser
+-----------------------------------------
 
 Double check again to ensure that the real device is connected, or virtual device is loaded, or cloud device is connected successfully. From Katalon Studio, select the test case and choose to execute with Android/iOS as follows:
 
@@ -153,8 +153,8 @@ Double check again to ensure that the real device is connected, or virtual devic
 
 It may take a while before the browser can be loaded into the device.
 
-**See Also**
-------------
+See Also
+--------
 
 _For further instructions and help, please refer to [Overview of Documentation](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_.
 

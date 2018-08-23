@@ -10,7 +10,7 @@ Test recording is the fastest way for users to automate applications. However, i
 
 This tutorial shows you a step-by-step introduction to utilizing Katalon Mobile Recorder.
 
-### **Recording your first test with Katalon Studio Mobile Recorder, an Example**
+### Recording your first test with Katalon Studio Mobile Recorder, an Example
 
 Sending a message
 

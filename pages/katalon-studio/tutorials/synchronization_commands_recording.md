@@ -6,12 +6,12 @@ description: "Synchronization is a mechanism which allows multiple threads to wo
 ---
 [](#)
 
-**What is Synchronization?**
-----------------------------
+What is Synchronization?
+------------------------
 
 Synchronization is a mechanism which allows multiple threads to work in parallel. In test automation, the application under test (AUT) and the automation tool we employ should collaborate to progress the test execution. In order to achieve this and avoid execution failures, we need to use synchronization commands. This tutorial shows you how to do just that.
 
-### **Scenario:  **Login with valid credentials
+### Scenario:  Login with valid credentials
 
 1.  Launch the application under test (URL: [http://demoaut.katalon.com/](http://demoaut.katalon.com/))
 2.  Use _Wait For Page Load_ keyword

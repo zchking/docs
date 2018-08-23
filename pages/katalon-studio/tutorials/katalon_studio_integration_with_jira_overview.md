@@ -11,8 +11,8 @@ JIRA is a popular bug tracking system, an integral part of any automation team. 
 Configuration
 -------------
 
-You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
-------------------------------------------------------------------------------------------------------------------------------------------------
+You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at Project > Settings > Integration > JIRA.
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ![enable JIRA Integration](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Configuration.png)
 

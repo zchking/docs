@@ -8,8 +8,8 @@ description: "Katalon Studio supports console mode execution which can be utiliz
 
 Katalon Studio supports [console mode execution ](https://docs.katalon.com/display/KD/Console+Mode+Execution)which can be utilized for integration with popular CI tools such as Jenkins and TeamCity. This tutorial shows you the basic steps to set up integration with a Jenkins server for scheduling Katalon execution.
 
-**Prerequisites**
------------------
+Prerequisites
+-------------
 
 Here are the requirements to be prepared for Jenkins integration:
 
@@ -26,8 +26,8 @@ Note: the command should NOT include the -noExit and -consoleLog parameters so t
 
 3\. The command will invoke Katalon Studio for execution so a Katalon build is needed for each execution machine.
 
-**Configuration Steps**
------------------------
+Configuration Steps
+-------------------
 
 1\. Login to your Jenkins (You need a Jenkins server so either contact your IT admin or set up a new Jenkins instance. You can refer to the following [guide](https://www.tutorialspoint.com/jenkins/jenkins_tomcat_setup.htm) for simple instructions regarding how to set up Jenkins)
 
@@ -101,8 +101,8 @@ Note: The Katalon execution command needs to be executed in the same folder of t
 
 Note: The Katalon execution command needs to be executed in the same folder of the Katalon Studio build so you may need to change the current folder to the build folder first as illustrated above.
 
-**Exit Codes**
---------------
+Exit Codes
+----------
 
 When you execute the Katalon Studio command from CI, an exit code will be generated as the output. You can use this exit code to know whether your execution is successful, passed or failed.
 
@@ -118,8 +118,8 @@ Below is the list of exit codes:
 
 To check test execution report in Katalon. Please refer to this [guide](https://docs.katalon.com/display/KD/Test+Report).
 
-**Publish JUnit reports**
--------------------------
+Publish JUnit reports
+---------------------
 
 From [Katalon Studio 4.7](https://docs.katalon.com/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store, analyze and show results, please add the ‘[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)‘ item.
 

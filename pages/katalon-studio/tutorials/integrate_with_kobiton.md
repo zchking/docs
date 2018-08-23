@@ -10,8 +10,8 @@ Mobile app cloud-based devices can be a good option for mobile testing teams tha
 
 This tutorial will walk you through basic steps to setup the integration between Katalon Studio and Kobiton.
 
-**Enable Kobiton Integration**
-------------------------------
+Enable Kobiton Integration
+--------------------------
 
 1\. Open Kobiton integration settings from the main menu at **Windows > Katalon Studio Preferences > Katalon > Kobiton**. Check **Enable Kobiton Integration**.  
 ![Enable Kobiton Integration](../../images/katalon-studio/tutorials/integrate_with_kobiton/Enable-Kobiton-Integration.png)
@@ -25,8 +25,8 @@ Other fields in the Kobiton configuration dialog include:
 
 3\. Click **Apply **when you are done with the settings.
 
-**Mobile testing with Kobiton devices**
----------------------------------------
+Mobile testing with Kobiton devices
+-----------------------------------
 
 1\. Navigate to Kobiton Portal: [https://portal.kobiton.com](https://portal.kobiton.com) and login with your username and password.
 

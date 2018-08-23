@@ -35,7 +35,7 @@ In Katalon Studio, a response is stored either in the Object Repository (at requ
 How to create a Web service (RESTful) test case from scratch using Katalon Studio?
 ----------------------------------------------------------------------------------
 
-### **Step 1: Create a new Web Service Request**
+### Step 1: Create a new Web Service Request
 
 Right-click on the Object Repository, select Web Service Request under New sub-menu to open new Web Service Request dialog.
 
@@ -71,7 +71,7 @@ Once all the information is specified, the new Web Service Request will be creat
 
 _Figure 3: New WS Request is created in the Tests Explorer_
 
-### **Step 2: Specify the WS Request’s settings**
+### Step 2: Specify the WS Request’s settings
 
 ![Web service object information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service-object-information.png)
 
@@ -99,7 +99,7 @@ b. OAuth 1.0 method
 
 (6) Folder structure to organize the end-points. The application under test often has hundreds of services, so having a good organization is very important. In Katalon Studio, it is highly suggested that Web services should be grouped by path, function, and method by using folder structure.
 
-### **Step 3: Smoke test the Web service**
+### Step 3: Smoke test the Web service
 
 Before adding actual verification steps to test the service, Katalon Studio supports testing on-the-fly method: send the request and perform quick verification of the response.
 
@@ -119,7 +119,7 @@ _Figure 5: Web service’s response information_
 
 (6) Based on the response data format, Katalon Studio will automatically choose the pretty mode to display the data in correct format. Currently, it supports JSON, XML, HTML, JavaScript data types.
 
-### **Step 4: Create test scenario for the Web service**
+### Step 4: Create test scenario for the Web service
 
 The first 3 steps demonstrate how to create Web service end-point at Object Repository. This step will guide you through creating an actual test scenario for it.
 
@@ -143,7 +143,7 @@ _Figure 7: Adding “Send request” keyword_
 
 (4) Select the “Web Service Request” we’ve created from step 2
 
-### **Step 5: Add verification steps**
+### Step 5: Add verification steps
 
 This step will guide you how to add verification steps into the Test Case.
 
@@ -161,7 +161,7 @@ _Figure 8: Verification steps_
 
 (5) Verify the response content with the json-path and expected value
 
-### **Step 6: Execute the Test case**
+### Step 6: Execute the Test case
 
 Executing an API Test case is exactly the same as executing a UI functional Test case. However, in API Testing, there is no browser used.
 

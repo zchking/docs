@@ -6,8 +6,8 @@ description: "The alerts that are used to notify users on a Web page can be hand
 ---
 [](#)
 
-**1\. What is an alert?**
--------------------------
+What is an alert?
+-----------------
 
 An alert is a Javascript function which is used to notify users on a Web page. It displays a dialog with a specified message and OK/Cancel buttons.
 
@@ -15,10 +15,10 @@ The alert is a modal dialog that takes the focus away from the current window an
 
 Such an alert can be handled using Katalon Studio built-in keywords. This tutorial shows how to do so with HTML examples. You can get the HTML by clicking [here](https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Alerts2.html).
 
-**2\. Handle Alerts using Katalon Studio**
-------------------------------------------
+Handle Alerts using Katalon Studio
+----------------------------------
 
-### **2.1. Handle Accept Alert**
+### 1\. Handle Accept Alert
 
 This alert method is used to confirm an action performed by the user. You can handle this method either in the manual or script modes.
 
@@ -56,7 +56,7 @@ WebUI.acceptAlert()
 
 ```
 
-### **2.2. Handle Dismiss Alert**
+### 2\. Handle Dismiss Alert
 
 This alert method is used to ask the user to cancel something.
 
@@ -94,7 +94,7 @@ WebUI.dismissAlert()
 
 ```
 
-### **2.3. Send data to an alert dialog**
+### 3\. Send data to an alert dialog
 
 We can pass text to an **Alert** text message by using the **sendKeys()** method.
 
@@ -142,7 +142,7 @@ WebUI.dismissAlert()
 
 ```
 
-### **2.4. Capture the alert message**
+### 4\. Capture the alert message
 
 We can capture the message on Alert by using the getText() method.
 

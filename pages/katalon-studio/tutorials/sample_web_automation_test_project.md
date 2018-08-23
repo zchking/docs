@@ -8,8 +8,8 @@ description: "Starting a web automation test project for a website can be compli
 
 Starting a new automation project for a website can be complicated and requires a steep learning curve, especially to those who are new to automation testing. The following tutorial will help you ease that process using [Katalon Studio](https://www.katalon.com).
 
-**Test Scenario**
------------------
+Test Scenario
+-------------
 
 For this tutorial, we are using Katalon Studio to test the dummy web app (CURA) accessible at [http://demoaut.katalon.com](http://demoaut.katalon.com). CURA is a simple health care service that allows patients to book appointments with doctors.
 
@@ -28,7 +28,7 @@ In this tutorial, we create a test case to test the following flow:
 ![Katalon1](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon1.png)  
 ![Katalon2](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon2.png)
 
-### 2.Create a test case, where all of your necessary test steps of the scenario will be written
+### Create a test case, where all of your necessary test steps of the scenario will be written
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon3.png)
 
@@ -36,7 +36,7 @@ In this tutorial, we create a test case to test the following flow:
 
 The newly created test case is generated in form of a Groovy language script file (also called test script) which can be viewed and edited in Katalon Studio by one of two view modes: [Manual View](https://docs.katalon.com/x/9YEw) and [Script View](https://docs.katalon.com/x/Y4Iw).
 
-### **3\. Composing automation test case**
+### Composing automation test case
 
 Please refer to the [Test Design page](https://docs.katalon.com/display/KD/Test+Design) for detailed instructions to compose test steps in various modes using different utilities. For a starter, we recommend using the Record – Playback function to get familiar with the scripting process. Katalon Studio is capable of generating test steps quickly.
 
@@ -72,7 +72,7 @@ Please refer to the [Test Design page](https://docs.katalon.com/display/KD/Test+
 
 *   The recorded test scripts should run smoothly, but you will notice the test fails at Step 14 (Click on “a_Logout” element) with the error message “Unable to click on object ‘Object Repository/Page CURA Healthcare Service (3)/a Logout’”. Don’t worry, this can be fixed using the following steps.
 
-### **4\. Complete your first test case**
+### Complete your first test case
 
 If you investigate to the failed message of the test execution, it includes the message “org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point”.
 
@@ -82,7 +82,7 @@ It happens because when the Side Menu of CURA website is open, the animation cau
 
 Run the test case again, you will see the Log out button is found and the step passes.
 
-### **5\. Generate a report**
+### Generate a report
 
 To generate test reports, we need to have a test suite. A test suite in Katalon Studio is where you group test cases to run them together.
 

@@ -6,16 +6,16 @@ description: "Git conflicts occur when two people make changes to the same file 
 ---
 [](#)
 
-**1\. Why do we have Git conflicts?**
--------------------------------------
+Why do we have Git conflicts?
+-----------------------------
 
 In a source control system like Git, conflicts may occur when two or more people make changes to the same file concurrently. The conflicts may appear at a member’s local repository or Git remote repository. In order to avoid conflicts, the team must collaborate following several Git practices. For example, before pushing new source code to the Git remote repository, one must remember to fetch the latest version from Git remote repository, resolve any conflicts and merge the code with local version.  
 The chart below demonstrates how conflicts may occur when Tom and Emma are working in the same project. The conflicts occur when Tom and Emma try to push new code to the Git remote repository without updating the changes from each other.
 
 ![Git conflicts Katalon Studio](../../images/katalon-studio/tutorials/git_conflict_resolve/Git-conflict.png)
 
-**2\. Resolve Git conflicts using Katalon Studio**
---------------------------------------------------
+Resolve Git conflicts using Katalon Studio
+------------------------------------------
 
 Let’s consider the following situation: Tom and Emma are working on the same test case in a test project. Emma added a new comment (“EMMA ADDED THIS COMMENT”), then committed and pushed the change to the Git remote repository.
 
@@ -57,8 +57,8 @@ In order to minimize the conflict in a team having more than one members, you sh
 *   **Pull** changes from the Git remote repository **before** working on new scripts and before **committing**.
 *   Each member works on **each feature at a time**.
 
-**3\. Best practices in Katalon Studio integration with Git**
--------------------------------------------------------------
+Best practices in Katalon Studio integration with Git
+-----------------------------------------------------
 
 Git is a very powerful system for source version control, so if you have more than one member on your Katalon Studio project, you may consider using Git as a remote repository for your testing project. The content below provides several typical workflows for working with Git using Katalon Studio. Each workflow is presented via a diagram with each activity being taken from either Katalon Studio, Git, or Local Repository.
 
@@ -81,22 +81,22 @@ The activities involve performing one or more commands on Katalon Studio and Git
 
 Below are some good practices in using Katalon Studio integration with Git.
 
-**3.1 Start a Katalon Studio project with Git**
------------------------------------------------
+1 Start a Katalon Studio project with Git
+-----------------------------------------
 
 Below is a recommended workflow for starting a new Katalon Studio project and integrating with Git. The main activities in this workflow include [Katalon Studio Registration](https://www.katalon.com), Enable Git Integration, Create Git Repository, and Clone project to Katalon Studio.   
 
 ![Starting-Katalon-with-Git](../../images/katalon-studio/tutorials/git_conflict_resolve/Starting-Katalon-with-Git.png)
 
-**3.2 Add an existing Katalon Studio project into a new Git repository**
-------------------------------------------------------------------------
+2 Add an existing Katalon Studio project into a new Git repository
+------------------------------------------------------------------
 
 In case you have an existing Katalon Studio project and you want to add it to a Git repository and share with team members, you can apply the following workflow. This workflow involves [Commit and Push](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-Commit) changes to Git.
 
 ![add-Katalon-project-into-new-Git](../../images/katalon-studio/tutorials/git_conflict_resolve/add-Katalon-project-into-new-Git.png)
 
-**3.3 Add an existing Katalon Studio project into an existing Git repository**
-------------------------------------------------------------------------------
+3 Add an existing Katalon Studio project into an existing Git repository
+------------------------------------------------------------------------
 
 Very often we have a Git repository from development team for storing production code. The QA/Tester team is required to save automation test scripts into this repository under a _‘test’_ folder.
 

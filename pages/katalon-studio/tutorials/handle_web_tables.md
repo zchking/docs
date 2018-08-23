@@ -6,8 +6,8 @@ description: "A Web table is a collection of rows and columns. This article will
 ---
 [](#)
 
-**What is Web Tables?**
------------------------
+What is Web Tables?
+-------------------
 
 A Web table is a collection of rows and columns. For a Web table, data is stored in cells. Tables are used not only in data sheets but also in organizing web pages.
 
@@ -28,10 +28,10 @@ A Web table normally contains the following tags:
 
 Handling Web tables is perhaps much more complicated than any other elements or controls. This article will show you how to handle web tables using Katalon Studio.
 
-**Handle web tables with Katalon Studio**
------------------------------------------
+Handle web tables with Katalon Studio
+-------------------------------------
 
-### **Example 1****: **You want to get a text from a Web table and verify it.
+### Example 1: You want to get a text from a Web table and verify it.
 
 **Scenario:**  Let’s say we need to find out which country the ‘Pay talk’ company in the above table belongs to.
 
@@ -100,7 +100,7 @@ Switch to **manual mode** tab to view test case step by step.
 
 ** ![Handle-webtable](../../images/katalon-studio/tutorials/handle_web_tables/Handle-webtable.png)**
 
-### **Example 2: **You want to perform actions on the Web table below
+### Example 2: You want to perform actions on the Web table below
 
 ![Web-table](../../images/katalon-studio/tutorials/handle_web_tables/Web-table.png)
 

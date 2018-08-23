@@ -23,8 +23,8 @@ The following are some Web element locators:
 7.  **CSS**: Select the element using CSS selectors.
 8.  **Xpath**: Locate an element using a XPath expression.
 
-**1\. How to find object locators**
------------------------------------
+How to find object locators
+---------------------------
 
 **Step 1:** Click on **Spy Web** on the Katalon Studio main toolbar.
 
@@ -56,8 +56,8 @@ For advanced testers who wish to **manually input selectors** have the option to
 
 Click on **Add** to **Object Repository** from the command toolbar to save objects in Objects Repository. Select a folder to add the captured objects into. Click **OK** when done.
 
-**2\. Working with XPath selector**
------------------------------------
+Working with XPath selector
+---------------------------
 
 Katalon Studio’s object spy further allows advanced users to manually input object selectors with XPath or CSS Selection Method mode. Spy Utility will provide instant feedback by auto-detecting the numbers of matching element with provided selector and highlighting it.
 

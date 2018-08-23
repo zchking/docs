@@ -8,8 +8,8 @@ description: "This tutorial will show you how to handle the file upload feature 
 
 In general, we need to automate scenarios like uploading a file into the application for attaching profile pictures or documents. This tutorial demonstrates handling the file upload feature and verifying downloaded files using Katalon Studio.
 
-**What is File Upload in testing?**
------------------------------------
+What is File Upload in testing?
+-------------------------------
 
 The file upload widget is the input tag having attribute **type** equal to **file**. It allows us to upload all file formats (.jpg, .png, .txt…)
 
@@ -45,8 +45,8 @@ WebUI.verifyMatch(FilePath, 'C:\\fakepath\\Desert.jpg', false)
 
 ```
 
-**File upload using Send Keys**
--------------------------------
+File upload using Send Keys
+---------------------------
 
 We can also upload files by using the **Send Keys** method. **Send Keys** works for the **input** tag having **type** equal to **file**.
 
@@ -82,8 +82,8 @@ WebUI.verifyMatch(FilePath, 'C:\\fakepath\\Desert.jpg', false)
 
 ```
 
-**Verify a Downloaded File**
-----------------------------
+Verify a Downloaded File
+------------------------
 
 After downloading a file from the application we need to verify whether the file is successfully downloaded and saved in a folder.
 

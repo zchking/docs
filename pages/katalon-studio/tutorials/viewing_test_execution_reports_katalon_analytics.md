@@ -16,8 +16,8 @@ This tutorial will show you how to leverage Katalon Analytics powerful dashboard
 
 For this tutorial, let’s assume that you already uploaded Katalon Studio execution reports to [Katalon Analytics](https://analytics.katalon.com). If not, refer to [this tutorial](https://www.katalon.com/resources-center/tutorials/upload-test-execution-reports-katalon-analytics/).
 
-**1\. Status Report**
----------------------
+Status Report
+-------------
 
 The graph presents an overview of test status over a series of executions within the report. This is the quickest way to check the status of Automation Test of the AUT, which also indicates the quality of Automation Test. There are 4 possible results when a test is run: **Passed**, **Failed**, **Error**, **Incomplete**. You can **click** on an **unwanted result** on the Status Report graph to **filter** it out.
 
@@ -33,8 +33,8 @@ Incomplete test cases are shown as failed test cases. To view Incomplete test ca
 
 As depicted in the chart above, there are two incomplete test cases and the other test cases are not shown.
 
-**2\. Duration Report**
------------------------
+Duration Report
+---------------
 
 The duration reports graph indicates how much time each execution took to complete. Any significant changes in execution time can be a sign to let you know that there are performance issues.
 
@@ -42,8 +42,8 @@ Let’s take a look at Duration Report Graph of the Katalon Keywords project bel
 
 ![Duration Report Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/10.png)
 
-**3\. Execution Report**
-------------------------
+Execution Report
+----------------
 
 The Execution Report displays a list of all test executions and their details within a report. Execution Report contains a table that combines data from Status Report and Duration Report.
 
@@ -55,8 +55,8 @@ For example, select Passed in Status if you want to see only executions that are
 
 ![Filter status Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/12-1024x257.png)
 
-**4\. Execution Detail View**
------------------------------
+Execution Detail View
+---------------------
 
 Katalon Analytics provides a detail view to help you have a better understanding of each execution. To view details, simply click on a preferred execution **ID**. A dashboard for the selected execution will be displayed.
 
@@ -94,8 +94,8 @@ You can also view all tests in one table, as shown in the screenshot below. From
 
 ![view all tests in one table Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/18-1024x512.png)
 
-**5\. Performance and History**
--------------------------------
+Performance and History
+-----------------------
 
 Katalon Analytics takes users even deeper into the performance and history of executions of test suites, test cases, and folders. Performance and history charts allow users to have a more comprehensive view of their tests in order to take actions concerning the quality of the application under test.
 

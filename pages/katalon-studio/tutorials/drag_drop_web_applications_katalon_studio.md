@@ -19,8 +19,8 @@ There are different common implementation methods for the drag and drop feature,
 *   Using pure JavaScript to handle drag and drop with popular JavaScript frameworks like [jQuery](http://jqueryui.com/droppable/#default).
 *   Using HTML5 Drag and Drop, which is detailed in w3schools’ HTML Drag and Drop tutorial.
 
-**Create automation tests for JavaScript Drag and Drop**
---------------------------------------------------------
+Create automation tests for JavaScript Drag and Drop
+----------------------------------------------------
 
 Testing the pure JavaScript implemented drag and drop function is quite straightforward with Katalon Studio as its built-in keyword [**_dragAndDropObjectToObject_**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Drag+And+Drop+To+Object) was designed to handle the JavaScript action natively.
 

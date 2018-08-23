@@ -10,8 +10,8 @@ Katalon Studio supports functional testing of web applications on Internet Explo
   
 This tutorial explains how to setup a test project in Katalon Studio. We assume that you are familiar with general principles of automated testing and have minimal knowledge of the Katalon Studio IDE.
 
-**Internet Explorer Configurations**
-------------------------------------
+Internet Explorer Configurations
+--------------------------------
 
 Skip this section if you do not wish to run your automated tests on Internet Expolorer. Otherwise, you need the following setup:
 
@@ -48,8 +48,8 @@ Katalon Utility, a [**Katalon addon**](https://chrome.google.com/webstore/detail
 
 ![Katalon Utility](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/5.-Katalon-Addon.png)
 
-**Port Configuration**
-----------------------
+Port Configuration
+------------------
 
 This configuration allows you to decide which port to be used for sending data between Katalon Utility and Katalon Studio.
 
@@ -61,15 +61,15 @@ This configuration allows you to decide which port to be used for sending data b
 
 ![Katalon Utility Addon](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/7.-Katalon-Utility-Addon.png)
 
-**Proxy Settings**
-------------------
+Proxy Settings
+--------------
 
 There may be a situation when your machine is setup within a restricted network with a policy to only allow Internet connection through a proxy server. In such a case, proxy settings can be configured from **Preferences > Proxy**. The settings affect both WebUI and WebService test execution. (Contact your network administrator to have necessary information for these settings).
 
 ![Katalon Proxy Settings](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/8.-Katalon-Proxy-Settings.png)
 
-**Certificate Settings**
-------------------------
+Certificate Settings
+--------------------
 
 Users may find their computers operating in a network that requires some certification in order to access the Internet.
 
@@ -77,8 +77,8 @@ Katalon Studio supports the capability to bypass certificate validation so that 
 
 ![Katalon Certificate Settings](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/9.-Katalon-Certificate-settings.png)
 
-**Desired Capabilities**
-------------------------
+Desired Capabilities
+--------------------
 
 You can add and modify **Desired Capabilities** to set the properties of browsers for test execution.
 
@@ -92,8 +92,8 @@ Refer to [https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities](https
 
 Notes: in case you want to have more configuration about desired capabilities (e.g., setup desired capabilities for specific web execution on remote machines), please refer to [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-CustomExecution) for more details.
 
-**External Library**
---------------------
+External Library
+----------------
 
 With this setting, you can add or remove your external libraries. Please access the setting from **Project > Settings > External Libraries**.
 
@@ -106,8 +106,8 @@ The added libraries can be imported and utilized in the [Script View](https://do
 
 ![Katalon Studio Script View](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/12.-Katalon-Script-view.png)
 
-**Database Settings**
----------------------
+Database Settings
+-----------------
 
 These settings allow you to define the global database connection to be used in several features of Katalon Studio such as defining [Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data#ManageTestData-CreateaDatabaseData) or [Checkpoints](https://docs.katalon.com/display/KD/Manage+Checkpoint#ManageCheckpoint-CreateaDatabaseCheckpoint). You can access these settings from **Project > Settings > Database**.
 
@@ -117,13 +117,13 @@ The dialog includes the following fields:
 
 <table style="height: 136px; width: 596px; border-color: #302828;" border="2"><tbody><tr><td style="width: 161px;"><strong>Field</strong></td><td style="width: 421px;"><strong>Description</strong></td></tr><tr><td style="width: 161px;"><span style="font-weight: 400;">Username</span></td><td style="width: 421px;"><span style="font-weight: 400;">The username to authenticate with connected database server</span></td></tr><tr><td style="width: 161px;"><span style="font-weight: 400;">Password</span></td><td style="width: 421px;"><span style="font-weight: 400;">The password to authenticate with connected database server</span></td></tr><tr><td style="width: 161px;"><span style="font-weight: 400;">Connection URL</span></td><td style="width: 421px;"><span style="font-weight: 400;">The connection string of database server. Katalon Studio supports following databases:</span><p></p><ul><li style="font-weight: 400;"><span style="font-weight: 400;">MySQL</span></li><li style="font-weight: 400;"><span style="font-weight: 400;">SQLServer</span></li><li style="font-weight: 400;"><span style="font-weight: 400;">Oracle</span></li><li style="font-weight: 400;"><span style="font-weight: 400;">Postgre</span></li></ul></td></tr></tbody></table>
 
-**Git Integration**
--------------------
+Git Integration
+---------------
 
 Katalon Studio supports Git integration to facilitate team collaboration. Refer to this [guide](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-Configuration) on how to enable it.
 
-**Post-execution options**
---------------------------
+Post-execution options
+----------------------
 
 Users can specify what to do next when a test execution finishes. The setting can be accessed from **Windows > Katalon Studio Preferences > Katalon > Execution**
 

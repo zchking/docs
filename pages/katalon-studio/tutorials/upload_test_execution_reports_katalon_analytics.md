@@ -14,8 +14,8 @@ This tutorial will show you how to upload Katalon Studio execution reports to Ka
 
 For this tutorial, let’s assume that you have been using Katalon Studio as a test automation solution, and there are existing collections of Katalon Studio test execution reports. Great! Let’s get started.
 
-**1\. Introduction to Katalon Analytics**
------------------------------------------
+Introduction to Katalon Analytics
+---------------------------------
 
 ![Katalon Analytics logo](../../images/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics/logo-KA-tagline%402x.png)
 
@@ -25,8 +25,8 @@ Katalon Analytics is designed to allow users to upload execution reports from bo
 
 The Katalon Analytics team welcomes any suggestion and feedback to help make this web application better serve users.
 
-**2\. Uploading your first execution reports from Katalon Studio**
-------------------------------------------------------------------
+Uploading your first execution reports from Katalon Studio
+----------------------------------------------------------
 
 1.  Navigate to the Katalon Analytics portal: [https://analytics.katalon.com/](https://analytics.katalon.com/) and log in using the same account used with Katalon Studio.
 2.  Once logged in, the main dashboard of Katalon Analytics will be displayed.
@@ -65,8 +65,8 @@ Create a new Project before uploading any Katalon Studio test execution reports.
 
 12.  Congratulation! You have just finished uploading the first execution report to **Katalon Analytics**.
 
-**3\. Uploading multiple execution reports from CLI**
------------------------------------------------------
+Uploading multiple execution reports from CLI
+---------------------------------------------
 
 1.  Before uploading a Katalon Studio reports folder to Katalon Analytics, you will need to
 

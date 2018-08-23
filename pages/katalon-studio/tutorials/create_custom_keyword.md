@@ -8,8 +8,8 @@ description: "In addition to the built-in keywords, Katalon Studio users can def
 
 In addition to the built-in keywords, users can define custom keywords to extend the capability of Katalon Studio. Once created, custom keywords can be used in test cases just like other built-in keywords. This feature allows users to expand keywords and reuse them across projects.
 
-**Create a Package**
---------------------
+Create a Package
+----------------
 
 A package allows you to group custom keywords into a specific category, making keywords easier to search and use.
 
@@ -21,8 +21,8 @@ A package allows you to group custom keywords into a specific category, making k
 
 ![Keywords of Katalon Studio](../../images/katalon-studio/tutorials/create_custom_keyword/2.-Katalon-Keyword.png)
 
-**Create a Custom Keyword**
----------------------------
+Create a Custom Keyword
+-----------------------
 
 1. Select **File > New > Keyword** from the main menu to open the **New Keyword** dialog. Enter the name for your keyword and select a **package** for the keyword. Click **OK**.
 
@@ -44,8 +44,8 @@ For example:
 
 4\. Save the **Keyword** file when you’re done.
 
-**Custom keywords in Manual view**
-----------------------------------
+Custom keywords in Manual view
+------------------------------
 
 Follow the steps below to use your defined custom keywords in the **Manual view** of a test case:
 
@@ -57,8 +57,8 @@ Follow the steps below to use your defined custom keywords in the **Manual view*
 
 ![defined custom keywords](../../images/katalon-studio/tutorials/create_custom_keyword/7.-Katalon-new-test-case.png)
 
-**Custom keywords in Scripting view**
--------------------------------------
+Custom keywords in Scripting view
+---------------------------------
 
 Follow the steps below to use your defined custom keywords in the **Scripting view** of a test case:
 

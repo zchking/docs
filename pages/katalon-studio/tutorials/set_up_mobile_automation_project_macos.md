@@ -10,8 +10,8 @@ Using Katalon Studio, a tester can design mobile app automation tests for both A
   
 This tutorial explains how to set up a mobile app testing project for Katalon Studio on macOS. It assumes that you are familiar with automated testing.
 
-**1\. Setup Prerequisites**
----------------------------
+Setup Prerequisites
+-------------------
 
 Katalon Studio requires the latest installation of [Appium](http://appium.io/) and [Node.js](https://nodejs.org/en/). Please setup as the following steps:
 
@@ -43,7 +43,7 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7d27b311c35005831473-1"><span class="crayon-e">npm </span><span class="crayon-v">install</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">g</span><span class="crayon-h"> </span><span class="crayon-v">appium</span>
+<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7d7da2b5255700660048-1"><span class="crayon-e">npm </span><span class="crayon-v">install</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">g</span><span class="crayon-h"> </span><span class="crayon-v">appium</span>
 </div></code></pre></span></td></tr></tbody></table>
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
@@ -79,7 +79,7 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7d27b311c3c043000530-1"><span class="crayon-v">xcodebuild</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">project </span><span class="crayon-v">WebDriverAgent</span><span class="crayon-sy">.</span><span class="crayon-v">xcodeproj</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">scheme </span><span class="crayon-v">WebDriverAgentRunner</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">destination</span><span class="crayon-h"> </span><span class="crayon-s">'id=&lt;udid&gt;'</span><span class="crayon-h"> </span><span class="crayon-v">test</span>
+<table><tbody><tr><td><span style="font-weight: 400;"><pre class="crayon-code"><code class="crayon-pre language-groovy" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5b7d7da2b525b351315548-1"><span class="crayon-v">xcodebuild</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">project </span><span class="crayon-v">WebDriverAgent</span><span class="crayon-sy">.</span><span class="crayon-v">xcodeproj</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-e">scheme </span><span class="crayon-v">WebDriverAgentRunner</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-i">destination</span><span class="crayon-h"> </span><span class="crayon-s">'id=&lt;udid&gt;'</span><span class="crayon-h"> </span><span class="crayon-v">test</span>
 </div></code></pre></span><p></p><p><span style="font-weight: 400;">Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
 
 *   If the following dialog is shown, select **Always Allow**
@@ -90,8 +90,8 @@ sh ./Scripts/bootstrap.sh -d
 
 ![Build-Output](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Build-Output.png)
 
-**2\. Setup Devices**
----------------------
+Setup Devices
+-------------
 
 For Android devices:
 
@@ -117,8 +117,8 @@ To test an iOS native application file (**.ipa** or **.app** file), make sure th
 
 ![Installed-successfully](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Installed-successfully.png)
 
-**3\. Desired Capabilities**
-----------------------------
+Desired Capabilities
+--------------------
 
 You can modify extra **Desired Capabilities** when executing automation test in Katalon Studio.
 
