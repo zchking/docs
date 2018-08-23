@@ -58,27 +58,7 @@ The **Script** view of test cases allows you to programmatically define and hand
 
 For example:
 
-| Decision-making statement | Screenshot |
-| --- | --- |
-| 
-If - Else If - Else
-
- | 
-
- ![](../../images/katalon-studio/docs/control-statements/10.png)
-
-
-
- |
-| 
-
-Switch - Case
-
- | 
-
- ![](../../images/katalon-studio/docs/control-statements/11.png)
-
- |
+<table class=""><tbody class=""><tr class=""><td class=""><p class=""><strong class="">Decision-making statement</strong></p></td><td class=""><p class=""><strong class="">Screenshot</strong></p></td></tr><tr class=""><td class=""><p class="">If - Else If - Else</p></td><td class=""><div class=""><p class="">&nbsp;<span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/10.png" data-image-src="/download/attachments/786604/10.png?version=1&amp;modificationDate=1452064114000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787287" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="10.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class=""><td class=""><p class="">Switch - Case</p></td><td class=""><div class="">&nbsp;<span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/11.png" data-image-src="/download/attachments/786604/11.png?version=1&amp;modificationDate=1452064115000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787288" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="11.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></div></td></tr></tbody></table>
 
 Looping statements 
 -------------------
@@ -113,29 +93,7 @@ The **Script** View of test cases allows you to programmatically define and hand
 
 For example:
 
-| Looping statement | Screenshot |
-| --- | --- |
-| 
-For
-
- | 
-
-![](../../images/katalon-studio/docs/control-statements/24.png)
-
-
-
- |
-| 
-
-While
-
- | 
-
-![](../../images/katalon-studio/docs/control-statements/25.png)
-
-
-
- |
+<table class=""><tbody class=""><tr class=""><td class=""><p class=""><strong class="">Looping statement</strong></p></td><td class=""><p class=""><strong class="">Screenshot</strong></p></td></tr><tr class=""><td class=""><p class="">For</p></td><td class=""><div class=""><p class=""><span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/24.png" data-image-src="/download/attachments/786604/24.png?version=1&amp;modificationDate=1452064128000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787301" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="24.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></p></div></td></tr><tr class=""><td class=""><p class="">While</p></td><td class=""><div class=""><p class=""><span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/25.png" data-image-src="/download/attachments/786604/25.png?version=1&amp;modificationDate=1452064129000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787302" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></p></div></td></tr></tbody></table>
 
 Branching statements 
 ---------------------
@@ -181,34 +139,7 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
-| Decision-making statement | Screenshot |
-| --- | --- |
-| 
-Break
-
- | 
-
-![](../../images/katalon-studio/docs/control-statements/36.png)
-
- |
-| 
-
-Continue
-
- | 
-
-![](../../images/katalon-studio/docs/control-statements/37.png)
-
- |
-| 
-
-Return
-
- | 
-
-![](../../images/katalon-studio/docs/control-statements/38.png)
-
- |
+<table class=""><tbody class=""><tr class=""><td class=""><p class=""><strong class="">Decision-making statement</strong></p></td><td class=""><p class=""><strong class="">Screenshot</strong></p></td></tr><tr class=""><td class=""><p class="">Break</p></td><td class=""><div class=""><span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/36.png" data-image-src="/download/attachments/786604/36.png?version=1&amp;modificationDate=1452064141000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787313" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="36.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></div></td></tr><tr class=""><td class=""><p class="">Continue</p></td><td class=""><div class=""><span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/37.png" data-image-src="/download/attachments/786604/37.png?version=1&amp;modificationDate=1452064142000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787314" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="37.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></div></td></tr><tr class=""><td class=""><p class="">Return</p></td><td class=""><div class=""><span class=""><img class="" src="../../images/katalon-studio/docs/control-statements/38.png" data-image-src="/download/attachments/786604/38.png?version=1&amp;modificationDate=1452064142000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787315" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="38.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="1"></span></div></td></tr></tbody></table>
 
 Exception handling block 
 -------------------------

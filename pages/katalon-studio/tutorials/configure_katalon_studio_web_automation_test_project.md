@@ -113,17 +113,7 @@ These settings allow you to define the global database connection to be used in 
 
 The dialog includes the following fields:
 
-| Field | Description |
-| --- | --- |
-| Username | The username to authenticate with connected database server |
-| Password | The password to authenticate with connected database server |
-| Connection URL | The connection string of database server. Katalon Studio supports following databases:
-*   MySQL
-*   SQLServer
-*   Oracle
-*   Postgre
-
- |
+<table style="height: 136px; width: 596px; border-color: #302828;" border="2" class=""><tbody class=""><tr class=""><td style="width: 161px;" class=""><strong class="">Field</strong></td><td style="width: 421px;" class=""><strong class="">Description</strong></td></tr><tr class=""><td style="width: 161px;" class=""><span style="font-weight: 400;" class="">Username</span></td><td style="width: 421px;" class=""><span style="font-weight: 400;" class="">The username to authenticate with connected database server</span></td></tr><tr class=""><td style="width: 161px;" class=""><span style="font-weight: 400;" class="">Password</span></td><td style="width: 421px;" class=""><span style="font-weight: 400;" class="">The password to authenticate with connected database server</span></td></tr><tr class=""><td style="width: 161px;" class=""><span style="font-weight: 400;" class="">Connection URL</span></td><td style="width: 421px;" class=""><span style="font-weight: 400;" class="">The connection string of database server. Katalon Studio supports following databases:</span><p class=""></p><ul class=""><li style="font-weight: 400;" class=""><span style="font-weight: 400;" class="">MySQL</span></li><li style="font-weight: 400;" class=""><span style="font-weight: 400;" class="">SQLServer</span></li><li style="font-weight: 400;" class=""><span style="font-weight: 400;" class="">Oracle</span></li><li style="font-weight: 400;" class=""><span style="font-weight: 400;" class="">Postgre</span></li></ul></td></tr></tbody></table>
 
 Git Integration
 ---------------
@@ -139,18 +129,4 @@ Users can specify what to do next when a test execution finishes. The setting ca
 
 The options include:
 
-| Field | Description |
-| --- | --- |
-| Default execution | The default environment that Katalon Studio will use to execute automation test. |
-| Default load timeout | The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests. |
-| Post-Execution Options | These options determine the actions that Katalon Studio will perform after executing tests.
-*   **Notify me**: Specify whether you want to send email notification.
-
-*   Refer to [Emails Settings](https://docs.katalon.com/display/KD/Emails+Settings) on how to register the list of report recipients.
-*   Refer to [Test suite > Manage execution information](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-Manageexecutioninformation) on how to register a list of recipients who will be receiving the execution report of a specific test suite.
-
-*   **Open report**: Specify whether the report generated is opened immediately.
-
-**Terminate drivers**: Specify whether any driver remaining after execution will be terminated.
-
- |
+<table style="height: 410px; width: 870px; border-color: #383434;" border="3" class=""><tbody class=""><tr class=""><td style="width: 159px;" class="">Field</td><td style="width: 697px;" class="">Description</td></tr><tr class=""><td style="width: 159px;" class=""><span style="font-weight: 400;" class="">Default execution</span></td><td style="width: 697px;" class=""><span style="font-weight: 400;" class="">The default environment that Katalon Studio will use to execute automation test.</span></td></tr><tr class=""><td style="width: 159px;" class=""><span style="font-weight: 400;" class="">Default load timeout</span></td><td style="width: 697px;" class=""><span style="font-weight: 400;" class="">The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests.</span></td></tr><tr class=""><td style="width: 159px;" class=""><span style="font-weight: 400;" class="">Post-Execution Options</span></td><td style="width: 697px;" class=""><span style="font-weight: 400;" class="">These options determine the actions that Katalon Studio will perform after executing tests.</span><p class=""></p><ul class=""><li style="font-weight: 400;" class=""><b class="">Notify me</b><span style="font-weight: 400;" class="">: Specify whether you want to send email notification.</span></li></ul><ul class=""><li style="font-weight: 400;" class=""><span style="font-weight: 400;" class="">Refer to </span><span style="text-decoration: underline;" class=""><a href="https://docs.katalon.com/display/KD/Emails+Settings" class=""><span style="font-weight: 400;" class="">Emails Settings</span></a></span><span style="font-weight: 400;" class=""> on how to register the list of report recipients.</span></li><li style="font-weight: 400;" class=""><span style="font-weight: 400;" class="">Refer to </span><span style="text-decoration: underline;" class=""><a href="https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-Manageexecutioninformation" class=""><span style="font-weight: 400;" class="">Test suite &gt; Manage execution information</span></a></span><span style="font-weight: 400;" class=""> on how to register a list of recipients who will be receiving the execution report of a specific test suite.</span></li></ul><ul class=""><li style="font-weight: 400;" class=""><b class="">Open report</b><span style="font-weight: 400;" class="">: Specify whether the report generated is opened immediately.</span></li></ul><p class=""><b class="">Terminate drivers</b><span style="font-weight: 400;" class="">: Specify whether any driver remaining after execution will be terminated.</span></p></td></tr></tbody></table>

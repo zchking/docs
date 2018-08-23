@@ -15,6 +15,6 @@ Test Design contains information on various components of a test case/test suit
 *   [Test Object](/display/KD/Test+Object)
 *   [Custom Keywords](/display/KD/Custom+Keywords)
 *   [Assertions](/display/KD/Assertions)
-*   [Verification Snippets (latest)](/pages/viewpage.action?pageId=13699091)
+*   [Verification Snippets](/display/KD/Verification+Snippets)
 *   [Setup/Teardown for Test Suite and Test Case](/pages/viewpage.action?pageId=12419091)
 *   [Advanced Topics](/display/KD/Advanced+Topics)

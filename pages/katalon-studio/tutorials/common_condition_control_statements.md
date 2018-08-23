@@ -49,23 +49,7 @@ The Script view of test cases allows you to programmatically define and handle I
 
 For example:
 
-| Decision-making statement | Screenshot |
-| --- | --- |
-| **If – Else If – Else** | 
-Here is an example on how to use **if-else if-else** in the Script View where the Click action will be carried out based on the condition
-
-![Script View Katalon Studio](../../images/katalon-studio/tutorials/common_condition_control_statements/10.png)
-
-
-
- |
-| **Switch – Case** | 
-
-Here is an example on how to use **switch-case** in the Script View where _varB_ is calculated based on the passing value of _varA._
-
-![switch-case in the Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/Katalon-switch-case-150x150.png)
-
- |
+<table class="" border="1px solid black"><tbody class=""><tr style="height: 48px;" class=""><td class="" style="width: 153px; height: 48px;"><strong class="">Decision-making statement</strong></td><td class="" style="width: 624px; height: 48px; text-align: center;"><strong class="">Screenshot</strong></td></tr><tr style="height: 195.969px;" class=""><td class="" style="width: 153px; height: 195.969px;"><strong class="">If – Else If – Else</strong></td><td class="" style="width: 624px; height: 195.969px;"><div class=""><p class="">Here is an example on how to use <strong class="">if-else if-else </strong>in the Script View where the Click action will be carried out based on the condition</p><p class=""><span class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/10.png" alt="Script View Katalon Studio" width="577" height="85" data-image-src="/download/attachments/786604/10.png?version=1&amp;modificationDate=1452064114000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787287" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="10.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="41"></span></p></div></td></tr><tr style="height: 233px;" class=""><td class="" style="width: 153px; height: 233px;"><strong class="">Switch – Case</strong></td><td class="" style="width: 624px; height: 233px;"><div class=""><p class="">Here is an example on how to use <strong class="">switch-case </strong>in the Script View where <i class=""><span style="font-weight: 400;" class="">varB</span></i>&nbsp;is calculated based on the passing value of&nbsp;<i class=""><span style="font-weight: 400;" class="">varA.</span></i></p></div><div class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Katalon-switch-case-150x150.png" alt="switch-case in the Script View" width="150" height="150"></div></td></tr></tbody></table>
 
 Looping statements
 ------------------
@@ -110,25 +94,7 @@ The Script View of test cases allows you to programmatically define and handle F
 
 For example:
 
-| Looping statement | Screenshot |
-| --- | --- |
-| **For** | 
-Here is an example on how to use **For** in the Script View where the _acceptAlert_ keyword will be executed 10 times
-
-![how to use For in the Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/24.png)
-
-
-
- |
-| **While** | 
-
-Here is an example on how to use **For** in the Script View where the value of **varA** is **true**
-
-![how to use For in the Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/25.png)
-
-
-
- |
+<table class="" border="1px solid black"><tbody class=""><tr style="height: 24px;" class=""><td class="" style="width: 174px; height: 24px;"><strong class="">Looping statement</strong></td><td class="" style="width: 640px; height: 24px;"><strong class="">Screenshot</strong></td></tr><tr style="height: 158px;" class=""><td class="" style="width: 174px; height: 158px;"><strong class="">For</strong></td><td class="" style="width: 640px; height: 158px;"><div class=""><p class="">Here is an example on how to use <strong class="">For </strong>in the Script View where the <em class="">acceptAlert </em>keyword will be executed 10 times</p><p class=""><span class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/24.png" alt="how to use For in the Script View" width="300" height="32" data-image-src="/download/attachments/786604/24.png?version=1&amp;modificationDate=1452064128000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787301" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="24.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="41"></span></p></div></td></tr><tr style="height: 101.094px;" class=""><td class="" style="width: 174px; height: 101.094px;"><strong class="">While</strong></td><td class="" style="width: 640px; height: 101.094px;"><div class=""><p class="">Here is an example on how to use <strong class="">For </strong>in the Script View where the value of <strong class="">varA </strong>is <strong class="">true</strong></p><p class=""><span class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/25.png" alt="how to use For in the Script View" width="492" height="53" data-image-src="/download/attachments/786604/25.png?version=1&amp;modificationDate=1452064129000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787302" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="41"></span></p></div></td></tr></tbody></table>
 
 Branching statements
 --------------------
@@ -186,28 +152,7 @@ The Script view of test cases allows you to programmatically define and handle B
 
 For example:
 
-| Decision-making statement | Screenshot |
-| --- | --- |
-| **Break** | 
-Here is an example on how to use **Break** in the Scripts View in order to exit current code block and move to next code block.
-
-![Break-in-the-Scripts-Katalon-Studio](../../images/katalon-studio/tutorials/common_condition_control_statements/Break-in-the-Scripts-Katalon-Studio.png)
-
- |
-| **Continue** | 
-
-Here is an example on how to use **Continue** in the Script View in order to skip the remainder of the current loop and continue with the next iteration of the loop.
-
-![how to use Continue in the Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/Continue-in-the-Script-View.png)
-
- |
-| **Return** | 
-
-Here is an example on how to use **Return** in the Script View in order to exit from the current method, and the flow control is returned to where the method was invoked.
-
-![how to use Return in the Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/Return-in-the-Script-View.png)
-
- |
+<table class="" border="1px solid black"><tbody class=""><tr class=""><td class="" style="width: 203px;"><strong class="">Decision-making statement</strong></td><td class="" style="width: 566px;"><strong class="">Screenshot</strong></td></tr><tr class=""><td class="" style="width: 203px;"><strong class="">Break</strong></td><td class="" style="width: 566px;"><div class=""><p class="">Here is an example on how to use <strong class="">Break </strong>in the Scripts View in order to exit current code block and move to next code block.</p></div><div class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Break-in-the-Scripts-Katalon-Studio.png" alt="Break-in-the-Scripts-Katalon-Studio" width="260" height="144"></div></td></tr><tr class=""><td class="" style="width: 203px;"><strong class="">Continue</strong></td><td class="" style="width: 566px;"><div class="">Here is an example on how to use <strong class="">Continue </strong>in the Script View in order to skip the remainder of the current loop and continue with the next iteration of the loop.</div><div class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Continue-in-the-Script-View.png" alt="how to use Continue in the Script View" width="263" height="143"></div></td></tr><tr class=""><td class="" style="width: 203px;"><strong class="">Return</strong></td><td class="" style="width: 566px;"><div class=""><p class="">Here is an example on how to use <strong class="">Return </strong>in the Script View in order to exit from the current method, and the flow control is returned to where the method was invoked.</p></div><div class=""><img class="" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Return-in-the-Script-View.png" alt="how to use Return in the Script View" width="263" height="143"></div></td></tr></tbody></table>
 
 Exception handling block
 ------------------------

@@ -8,8 +8,7 @@ Katalon Studio provides a lot of features for automation testing such as recordi
 
 This tutorial includes screenshots and explanation about:
 
-| Tool bar Tests Explorer View Keywords Browser View Editors o Test Case Editor o Test Object Editor o Web Service Editor o Test Suite Editor o Test Suite Collection Editor o Data File Editor | o Checkpoint Editor o Keyword Editor – Global Variables View – Job Progress View – Problems View – Console View – Log Viewer View – Search View – Report View – Test Suite Collection Report View |
-| --- | --- |
+<table style="width: 706px;" class=""><tbody class=""><tr style="height: 265px;" class=""><td style="width: 347px; height: 265px;" class=""><ul style="list-style-type: disc;" class=""><li class="">Tool bar</li><li class="">Tests Explorer View</li><li class="">Keywords Browser View</li><li class="">Editors<br class="">o Test Case Editor<br class="">o Test Object Editor<br class="">o Web Service Editor<br class="">o Test Suite Editor<br class="">o Test Suite Collection Editor<br class="">o Data File Editor</li></ul></td><td style="width: 343px; height: 265px; text-align: left;" class="">o Checkpoint Editor<br class="">o Keyword Editor<br class="">– Global Variables View<br class="">– Job Progress View<br class="">– Problems View<br class="">– Console View<br class="">– Log Viewer View<br class="">– Search View<br class="">– Report View<br class="">– Test Suite Collection Report View</td></tr></tbody></table>
 
 That’s all about Katalon Studio’s GUI. Hope you are ready to create your first test case with Katalon Studio.
 

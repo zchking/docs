@@ -41,8 +41,8 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-| npm install -g appium |
-| --- |
+<table class=""><tbody class=""><tr class=""><td class=""><span style="font-weight: 400;" class=""><pre class=""><code class="" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="" id="crayon-5b7e5d296ec74595099611-1"><span class="">npm </span><span class="">install</span><span class=""> </span><span class="">-</span><span class="">g</span><span class=""> </span><span class="">appium</span>
+</div></code></pre></span></td></tr></tbody></table>
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
 
@@ -77,8 +77,8 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-| xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=<udid>' test Note: <udid> is the device UDID of your mobile device. |
-| --- |
+<table class=""><tbody class=""><tr class=""><td class=""><span style="font-weight: 400;" class=""><pre class=""><code class="" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="" id="crayon-5b7e5d296ec7a079858129-1"><span class="">xcodebuild</span><span class=""> </span><span class="">-</span><span class="">project </span><span class="">WebDriverAgent</span><span class="">.</span><span class="">xcodeproj</span><span class=""> </span><span class="">-</span><span class="">scheme </span><span class="">WebDriverAgentRunner</span><span class=""> </span><span class="">-</span><span class="">destination</span><span class=""> </span><span class="">'id=&lt;udid&gt;'</span><span class=""> </span><span class="">test</span>
+</div></code></pre></span><p class=""></p><p class=""><span style="font-weight: 400;" class="">Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
 
 *   If the following dialog is shown, select **Always Allow**
 

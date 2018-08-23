@@ -13,6 +13,8 @@ entries:
       url: /katalon-studio/docs/manage-test-object.html
     - title: "Manage Test Project"
       url: /katalon-studio/docs/manage-test-project.html
+    - title: "Verification Snippets"
+      url: /katalon-studio/docs/verification-snippets.html
     - title: "Configure JIRA Integration"
       url: /katalon-studio/docs/configure-jira-integration.html
     - title: "Custom Keywords"
@@ -643,8 +645,6 @@ entries:
       url: /katalon-studio/docs/viewing-a-test-case.html
     - title: "Writing Test Case"
       url: /katalon-studio/docs/writing-test-case.html
-    - title: "Verification Snippets (latest)"
-      url: /katalon-studio/docs/verification-snippets-latest.html
     - title: "Record & Playback"
       url: /katalon-studio/docs/record-and-playback.html
     - title: "Working with JIRA"
