@@ -19,7 +19,19 @@ Capture objects using Web Object Spy
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-6-30 19_46_58.png)  
     Where:
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">New Browsers</td><td class="" style="">Launch a new browser and start spying web objects from that browser.</td></tr><tr class="" style=""><td class="" style="">Active Browsers</td><td class="" style=""><div class="" style=""><p class="" style="">Focus on <strong class="" style="">the current active Chrome browser</strong> and start spying web objects from it. You will be asked for installation of Katalon Utility:</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-2-23 11_54_29.png" data-image-src="/download/attachments/5111951/image2017-2-23%2011%3A54%3A29.png?version=1&amp;modificationDate=1487831171000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5113067" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-23 11:54:29.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5111951" data-linked-resource-container-version="1" style=""></span></p><p class="" style="">Refer to <a href="/display/KD/Katalon+Addon+for+Chrome" class="" style="">Katalon Addon for Chrome</a> for more details.</p></div></td></tr></tbody></table>
+    | Type | Description |
+    | --- | --- |
+    | New Browsers | Launch a new browser and start spying web objects from that browser. |
+    | Active Browsers | 
+    Focus on **the current active Chrome browser** and start spying web objects from it. You will be asked for installation of Katalon Utility:
+    
+    ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-2-23 11_54_29.png)
+    
+    Refer to [Katalon Addon for Chrome](/display/KD/Katalon+Addon+for+Chrome) for more details.
+    
+    
+    
+     |
     
 4.  Your selected browser will be launched. Navigate to your website, then hover the **mouse cursor** over the web object to be captured.  
     The web object will be highlighted with a **red border**. An **overlay pane** will also be displayed at the edge of the screen to show relevant **xpath** info.  
@@ -35,7 +47,10 @@ Capture objects using Web Object Spy
     Select the object in the **Captured Objects** tree, its details will be displayed in the **Object Properties** section.  
     Where:
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Field</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">Object Name</td><td class="" style="">The name of selected object. Editable</td></tr><tr class="" style=""><td class="" style="">Properties Grid</td><td class="" style="">All the captured properties of the selected object. You can edit the value of any property.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Object Name | The name of selected object. Editable |
+    | Properties Grid | All the captured properties of the selected object. You can edit the value of any property. |
     
 7.  Click on **Add to Object Repository** from command toolbar.  
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2016-12-29 17_15_0.png)  

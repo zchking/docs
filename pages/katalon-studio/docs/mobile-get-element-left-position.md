@@ -12,12 +12,18 @@ Get the left position of a mobile element.
 Parameters  
 ------------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">to</span></td><td class="" colspan="1" style=""><span style="" class="">TestObject</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style="">Represent a mobile element.</td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">timeout</span></td><td class="" colspan="1" style=""><span style="" class="">int</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style="">Maximum period of time (in seconds) that system will wait to return a result</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a mobile element. |
+| timeout | int | Required | Maximum period of time (in seconds) that system will wait to return a result |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">int</td><td class="" style=""><span style="" class="">The left position of the mobile element.</span></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| int | The left position of the mobile element. |
 
 Example 
 --------

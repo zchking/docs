@@ -15,7 +15,30 @@ Open a test case/test suite, then select the environment to run the test case fr
 
 If you simply click on the **Run** button, the test case will be executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Execution Environment</th><th class="" style="">Execution Guide</th></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Browsers</strong></td><td class="" style="">Simply select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge)</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style="">Mobile Browsers</strong></td><td class="" colspan="1" style=""><span class="" style="">Simply select to execute your test on one of the supported devices (Android, iOS)</span></td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Mobile</strong></td><td class="" style=""><div class="" style=""><p class="" style="">Before executing your test, check if you have set up the environment for mobile testing for <a href="/display/KD/Mobile+on+Windows" class="" style="">Windows</a> or for <a href="/display/KD/Mobile+on+macOS" class="" style="">macOS</a>. Select your device among those listed in Katalon Studio.</p><span class="" style=""><img class="" src="../../images/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26 18_54_41.png" data-image-src="/download/attachments/13699864/image2018-1-26%2018%3A54%3A41.png?version=1&amp;modificationDate=1531368628000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13699831" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-1-26 18:54:41.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699864" data-linked-resource-container-version="13" style=""></span><p class="" style="">&nbsp;</p><div class="" data-hasbody="true" data-macro-name="note" style=""><p class="" style="">Troubleshooting</p><span class="" style=""></span><div class="" style=""><p class="" style="">If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device.</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2 15_31_52.png" data-image-src="/download/attachments/13699864/image2018-8-2%2015%3A31%3A52.png?version=1&amp;modificationDate=1533198712000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13700823" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-8-2 15:31:52.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="13699864" data-linked-resource-container-version="13" style=""></span></p></div></div></div></td></tr><tr class="" style=""><td class="" style=""><strong class="" style="">Remote</strong></td><td class="" style="">Make sure you have set up default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities" class="" style="">Introduction to Desired Capabilities</a>&nbsp;for more details.</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style="">Custom</strong></td><td class="" colspan="1" style="">Make sure you have set up default configuration for the remote environment in project settings. Refer to&nbsp;<a href="https://docs.katalon.com/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow" class="" style="">Custom Execution</a>&nbsp;for more details. When you have set up your custom environment, simply select it from the drop-down list.</td></tr></tbody></table>
+| Execution Environment | Execution Guide |
+| --- | --- |
+| **Browsers** | Simply select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge) |
+| **Mobile Browsers** | Simply select to execute your test on one of the supported devices (Android, iOS) |
+| **Mobile** | 
+Before executing your test, check if you have set up the environment for mobile testing for [Windows](/display/KD/Mobile+on+Windows) or for [macOS](/display/KD/Mobile+on+macOS). Select your device among those listed in Katalon Studio.
+
+![](../../images/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26 18_54_41.png)
+
+Troubleshooting
+
+If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device.
+
+![](../../images/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2 15_31_52.png)
+
+
+
+
+
+
+
+ |
+| **Remote** | Make sure you have set up default configuration for the remote environment in project settings. Refer to [Introduction to Desired Capabilities](/display/KD/Introduction+to+Desired+Capabilities) for more details. |
+| **Custom** | Make sure you have set up default configuration for the remote environment in project settings. Refer to [Custom Execution](https://docs.katalon.com/x/cgFO#ExecutionSettings-CustomExecution) for more details. When you have set up your custom environment, simply select it from the drop-down list. |
 
 Execute Parts of a Test Case
 ----------------------------

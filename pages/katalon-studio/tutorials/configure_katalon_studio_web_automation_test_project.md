@@ -113,7 +113,17 @@ These settings allow you to define the global database connection to be used in 
 
 The dialog includes the following fields:
 
-<table style="table-layout: fixed;" border="2" class=""><tbody class="" style=""><tr class="" style=""><td style="" class=""><strong class="" style="">Field</strong></td><td style="" class=""><strong class="" style="">Description</strong></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Username</span></td><td style="" class=""><span style="" class="">The username to authenticate with connected database server</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Password</span></td><td style="" class=""><span style="" class="">The password to authenticate with connected database server</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Connection URL</span></td><td style="" class=""><span style="" class="">The connection string of database server. Katalon Studio supports following databases:</span><p class="" style=""></p><ul class="" style=""><li style="" class=""><span style="" class="">MySQL</span></li><li style="" class=""><span style="" class="">SQLServer</span></li><li style="" class=""><span style="" class="">Oracle</span></li><li style="" class=""><span style="" class="">Postgre</span></li></ul></td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| Username | The username to authenticate with connected database server |
+| Password | The password to authenticate with connected database server |
+| Connection URL | The connection string of database server. Katalon Studio supports following databases:
+*   MySQL
+*   SQLServer
+*   Oracle
+*   Postgre
+
+ |
 
 Git Integration
 ---------------
@@ -129,4 +139,18 @@ Users can specify what to do next when a test execution finishes. The setting ca
 
 The options include:
 
-<table style="table-layout: fixed;" border="3" class=""><tbody class="" style=""><tr class="" style=""><td style="" class="">Field</td><td style="" class="">Description</td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Default execution</span></td><td style="" class=""><span style="" class="">The default environment that Katalon Studio will use to execute automation test.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Default load timeout</span></td><td style="" class=""><span style="" class="">The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Post-Execution Options</span></td><td style="" class=""><span style="" class="">These options determine the actions that Katalon Studio will perform after executing tests.</span><p class="" style=""></p><ul class="" style=""><li style="" class=""><b class="" style="">Notify me</b><span style="" class="">: Specify whether you want to send email notification.</span></li></ul><ul class="" style=""><li style="" class=""><span style="" class="">Refer to </span><span style="" class=""><a href="https://docs.katalon.com/display/KD/Emails+Settings" class="" style=""><span style="" class="">Emails Settings</span></a></span><span style="" class=""> on how to register the list of report recipients.</span></li><li style="" class=""><span style="" class="">Refer to </span><span style="" class=""><a href="https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-Manageexecutioninformation" class="" style=""><span style="" class="">Test suite &gt; Manage execution information</span></a></span><span style="" class=""> on how to register a list of recipients who will be receiving the execution report of a specific test suite.</span></li></ul><ul class="" style=""><li style="" class=""><b class="" style="">Open report</b><span style="" class="">: Specify whether the report generated is opened immediately.</span></li></ul><p class="" style=""><b class="" style="">Terminate drivers</b><span style="" class="">: Specify whether any driver remaining after execution will be terminated.</span></p></td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| Default execution | The default environment that Katalon Studio will use to execute automation test. |
+| Default load timeout | The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests. |
+| Post-Execution Options | These options determine the actions that Katalon Studio will perform after executing tests.
+*   **Notify me**: Specify whether you want to send email notification.
+
+*   Refer to [Emails Settings](https://docs.katalon.com/display/KD/Emails+Settings) on how to register the list of report recipients.
+*   Refer to [Test suite > Manage execution information](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-Manageexecutioninformation) on how to register a list of recipients who will be receiving the execution report of a specific test suite.
+
+*   **Open report**: Specify whether the report generated is opened immediately.
+
+**Terminate drivers**: Specify whether any driver remaining after execution will be terminated.
+
+ |

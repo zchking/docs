@@ -14,7 +14,10 @@ Enable Kobiton Integration
     ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29 16_54_3.png)  
     where:
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Field</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">Kobiton Server</td><td class="" style="">The Kobiton server to be integrated with Katalon Studio.</td></tr><tr class="" style=""><td class="" style="">API Key</td><td class="" style="">The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in <a class="" href="https://portal.kobiton.com/settings/keys" rel="nofollow" style="">Kobiton API Settings</a>.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Kobiton Server | The Kobiton server to be integrated with Katalon Studio. |
+    | API Key | The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys). |
     
       
       

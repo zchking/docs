@@ -12,7 +12,11 @@ Set the size of the current window. This will change the outer window dimension 
 Parameters  
 ------------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">width</span></td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">The target viewport width.</span></td></tr><tr class="" style=""><td class="" colspan="1" style="">height</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style=""><span class="" style="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">The target viewport height.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style="">Specify <a href="https://docs.katalon.com/display/KD/Failure+handling" rel="nofollow" class="" style="">failure handling</a> <span style="" class="">schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| width | int | Required | The target viewport width. |
+| height | int | Required | The target viewport height. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------

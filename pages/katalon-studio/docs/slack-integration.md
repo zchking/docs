@@ -13,7 +13,43 @@ You can receive Katalon Studio notifications for Slack by enabling Slack Integra
 
 1.  Check on the **Using Slack** checkbox. The entire screen will be changed to editable mode. Where:
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Field</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Authentication Token</p></td><td class="" style=""><p class="" style="">The authentication token to make the connection to your Slack’s account. Follow this <a href="https://docs.katalon.com/display/KD/Slack+Integration#SlackIntegration-ObtainSlackauthenticationtoken" rel="nofollow" class="" style="">help</a> to obtain the Slack authentication token.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Channel/Group</p></td><td class="" style=""><p class="" style="">The channel/group of Slack to get messages regarding activities from Katalon Studio.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Post the message as the authenticated user</p></td><td class="" style=""><p class="" style="">Katalon Studio will use your Slack username when posting messages to Slack.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Bot Username</p></td><td class="" style=""><p class="" style="">You can provide another name here which Katalon Studio will use instead of your Slack username.</p></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | 
+    Authentication Token
+    
+     | 
+    
+    The authentication token to make the connection to your Slack’s account. Follow this [help](https://docs.katalon.com/display/KD/Slack+Integration#SlackIntegration-ObtainSlackauthenticationtoken) to obtain the Slack authentication token.
+    
+     |
+    | 
+    
+    Channel/Group
+    
+     | 
+    
+    The channel/group of Slack to get messages regarding activities from Katalon Studio.
+    
+     |
+    | 
+    
+    Post the message as the authenticated user
+    
+     | 
+    
+    Katalon Studio will use your Slack username when posting messages to Slack.
+    
+     |
+    | 
+    
+    Bot Username
+    
+     | 
+    
+    You can provide another name here which Katalon Studio will use instead of your Slack username.
+    
+     |
     
 2.  Provide all the required information above and click **Test Connection**.   
     If the connection from Katalon Studio to your Slack team space is successfully established, you can verify as below:  

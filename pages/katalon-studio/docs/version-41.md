@@ -31,7 +31,17 @@ Improvements
     
 2.  Update Dialog icons.
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Infomation</th><td class="" style=""><div class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/version-41/image2016-10-3 15_56_45.png" data-image-src="/download/attachments/2851102/image2016-10-3%2015%3A56%3A45.png?version=1&amp;modificationDate=1475485005000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="2851310" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2016-10-3 15:56:45.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="2851102" data-linked-resource-container-version="1" style=""></span></div></td></tr><tr class="" style=""><th class="" style="">Error</th><td class="" style=""><div class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/version-41/image2016-10-3 15_59_52.png" data-image-src="/download/attachments/2851102/image2016-10-3%2015%3A59%3A52.png?version=1&amp;modificationDate=1475485193000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="2851315" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2016-10-3 15:59:52.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="2851102" data-linked-resource-container-version="1" style=""></span></div></td></tr><tr class="" style=""><th style="" class="">Warning</th><td class="" style=""><div class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/version-41/image2016-10-3 16_0_53.png" data-image-src="/download/attachments/2851102/image2016-10-3%2016%3A0%3A53.png?version=1&amp;modificationDate=1475485253000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="2851318" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2016-10-3 16:0:53.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="2851102" data-linked-resource-container-version="1" style=""></span></div></td></tr></tbody></table>
+    | Infomation |  |
+    | --- | --- |
+    | Error | 
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 15_59_52.png)
+    
+     |
+    | Warning | 
+    
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 16_0_53.png)
+    
+     |
     
 3.  Rename 'Mobile Object Inspector' into 'Mobile Object Spy' Dialog  
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 11_35_10.png)  

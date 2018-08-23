@@ -41,8 +41,8 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table class="" style="table-layout: fixed;"><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class=""><pre class="" style=""><code class="" style=""><div class="" id="crayon-5b7e682059ba8459637971-1" style=""><span class="" style="">npm </span><span class="" style="">install</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">g</span><span class="" style=""> </span><span class="" style="">appium</span>
-</div></code></pre></span></td></tr></tbody></table>
+| npm install -g appium |
+| --- |
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
 
@@ -77,8 +77,8 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table class="" style="table-layout: fixed;"><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class=""><pre class="" style=""><code class="" style=""><div class="" id="crayon-5b7e682059bae015056951-1" style=""><span class="" style="">xcodebuild</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">project </span><span class="" style="">WebDriverAgent</span><span class="" style="">.</span><span class="" style="">xcodeproj</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">scheme </span><span class="" style="">WebDriverAgentRunner</span><span class="" style=""> </span><span class="" style="">-</span><span class="" style="">destination</span><span class="" style=""> </span><span class="" style="">'id=&lt;udid&gt;'</span><span class="" style=""> </span><span class="" style="">test</span>
-</div></code></pre></span><p class="" style=""></p><p class="" style=""><span style="" class="">Note: &lt;udid&gt; is the device UDID of your mobile device.</span></p></td></tr></tbody></table>
+| xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=<udid>' test Note: <udid> is the device UDID of your mobile device. |
+| --- |
 
 *   If the following dialog is shown, select **Always Allow**
 

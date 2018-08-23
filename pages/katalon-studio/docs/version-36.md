@@ -19,7 +19,87 @@ Improvements
 
 ### New MOBILE  built-in keywords
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">No.</th><th class="" style="">Name</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">1</td><td class="" style=""><p class="" style="">Select Item in List by Index</p></td><td class="" style=""><p class="" style="">Select item of list view control by its index. Have not implemented for Android because its list view is async loaded</p></td></tr><tr class="" style=""><td class="" style="">2</td><td class="" style=""><p class="" style="">Select Item in List by Label</p></td><td class="" style=""><p class="" style="">Select item of list view control by its label.</p></td></tr><tr class="" style=""><td class="" style="">3</td><td class="" style=""><p class="" style="">Pinch to Zoom In by Position</p></td><td class="" style=""><p class="" style="">Pinch to zoom in at a specific position on the screen of the mobile device</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">4</td><td colspan="1" class="" style=""><p class="" style="">Pinch to Zoom Out by Position</p></td><td colspan="1" class="" style=""><p class="" style="">Pinch to zoom out at a specific position on the screen of the mobile device</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">5</td><td colspan="1" class="" style="">Tap At Position</td><td colspan="1" class="" style=""><p class="" style="">Tap at a specific position on the screen of the mobile device</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">6</td><td colspan="1" class="" style=""><p class="" style="">Get Element Top Position</p></td><td colspan="1" class="" style=""><p class="" style="">Get the top position of mobile element</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">&nbsp;7</td><td colspan="1" class="" style=""><span style="" class="">Get Element Left Position</span></td><td colspan="1" class="" style=""><span style="" class="">Get the left position of mobile element</span></td></tr><tr class="" style=""><td colspan="1" class="" style="">8&nbsp;</td><td colspan="1" class="" style=""><span style="" class="">Get Element Width</span></td><td colspan="1" class="" style=""><p class="" style="">Get the width of mobile element</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">9</td><td colspan="1" class="" style=""><p class="" style="">Get Element Height</p></td><td colspan="1" class="" style=""><p class="" style="">Get the height of mobile element</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">10</td><td colspan="1" class="" style="">Long Press</td><td colspan="1" class="" style=""><p class="" style="">Tap and hold at a specific position on the screen of the mobile device</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">11</td><td colspan="1" class="" style="">Set Slider Value</td><td colspan="1" class="" style=""><p class="" style="">Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">12</td><td colspan="1" class="" style="">Unlock Screen</td><td colspan="1" class="" style=""><p class="" style="">Unlock device scree</p></td></tr></tbody></table>
+| No. | Name | Description |
+| --- | --- | --- |
+| 1 | 
+Select Item in List by Index
+
+ | 
+
+Select item of list view control by its index. Have not implemented for Android because its list view is async loaded
+
+ |
+| 2 | 
+
+Select Item in List by Label
+
+ | 
+
+Select item of list view control by its label.
+
+ |
+| 3 | 
+
+Pinch to Zoom In by Position
+
+ | 
+
+Pinch to zoom in at a specific position on the screen of the mobile device
+
+ |
+| 4 | 
+
+Pinch to Zoom Out by Position
+
+ | 
+
+Pinch to zoom out at a specific position on the screen of the mobile device
+
+ |
+| 5 | Tap At Position | 
+
+Tap at a specific position on the screen of the mobile device
+
+ |
+| 6 | 
+
+Get Element Top Position
+
+ | 
+
+Get the top position of mobile element
+
+ |
+|  7 | Get Element Left Position | Get the left position of mobile element |
+| 8  | Get Element Width | 
+
+Get the width of mobile element
+
+ |
+| 9 | 
+
+Get Element Height
+
+ | 
+
+Get the height of mobile element
+
+ |
+| 10 | Long Press | 
+
+Tap and hold at a specific position on the screen of the mobile device
+
+ |
+| 11 | Set Slider Value | 
+
+Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage
+
+ |
+| 12 | Unlock Screen | 
+
+Unlock device scree
+
+ |
 
 ### Object Spy
 

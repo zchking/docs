@@ -12,6 +12,66 @@ You can configure these preferences by accessing from main menu: **Window > Ka
 
 Where:
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><p class="" style=""><strong class="" style="">Preference Setting</strong></p></th><th class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Test Case Calling</p></td><td class="" style=""><p class="" style="">This is to specify how Katalon Studio should behave when you are calling another test case in your current test case.</p><p class="" style="">&nbsp;</p><div class="" style=""><table class="" style="table-layout: fixed;"><tbody class="" style=""><tr class="" style=""><td class="" style=""><p class="" style=""><strong class="" style="">Options</strong></p></td><td class="" style=""><p class="" style=""><strong class="" style="">Description</strong></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Generate variable with default value</p></td><td class="" style=""><p class="" style="">Called test case uses default values for its variables.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Generate variable with the same name as the exposed variable of the called test case</p></td><td class="" style=""><p class="" style="">Called test case uses default values which are the same with its variables name.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Expose variables automatically after choosing the called test case</p></td><td class="" style=""><p class="" style="">Called test case uses default values which are the same with its variables name.</p><p class="" style="">The variables are also added into current test case at 'Variables' tab.</p></td></tr></tbody></table></div><p class="" style="">&nbsp;</p><p class="" style="">You might need to refer back to <a href="/display/KD/Variable+Types" class="" style="">Variable Types</a> section for which types of variables are supported in Katalon Studio.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Default Failure Handling</p></td><td class="" style=""><p class="" style="">The default Failure Handling schema that should be used when a new step is added in your test case. Refer to <a href="/display/KD/Failure+Handling" class="" style="">Failure Handling</a> section for more settings to control Failure Handling.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Default Keyword</p></td><td class="" style=""><p class="" style="">The default keyword that should be used when a new step is added in your test case.</p></td></tr></tbody></table>
+| Preference Setting | Description |
+| --- | --- |
+| 
+Test Case Calling
+
+ | 
+
+This is to specify how Katalon Studio should behave when you are calling another test case in your current test case.
+
+| Options | Description |
+| --- | --- |
+| 
+Generate variable with default value
+
+ | 
+
+Called test case uses default values for its variables.
+
+ |
+| 
+
+Generate variable with the same name as the exposed variable of the called test case
+
+ | 
+
+Called test case uses default values which are the same with its variables name.
+
+ |
+| 
+
+Expose variables automatically after choosing the called test case
+
+ | 
+
+Called test case uses default values which are the same with its variables name.
+
+The variables are also added into current test case at 'Variables' tab.
+
+ |
+
+You might need to refer back to [Variable Types](/display/KD/Variable+Types) section for which types of variables are supported in Katalon Studio.
+
+ |
+| 
+
+Default Failure Handling
+
+ | 
+
+The default Failure Handling schema that should be used when a new step is added in your test case. Refer to [Failure Handling](/display/KD/Failure+Handling) section for more settings to control Failure Handling.
+
+ |
+| 
+
+Default Keyword
+
+ | 
+
+The default keyword that should be used when a new step is added in your test case.
+
+ |
 
 All the above preferences are saved into the file “**com.kms.katalon.composer.testcase.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.

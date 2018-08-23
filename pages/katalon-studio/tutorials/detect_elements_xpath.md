@@ -60,7 +60,11 @@ To deal with these challenges, automation testers should not set fixed XPaths fo
 
 Here are a few examples:
 
-<table class="" style="table-layout: fixed;"><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">Xpath value</span></td><td style="" class=""><span style="" class="">Description</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">.//h2[text()=’Make Appointment’]</span></td><td style="" class=""><span style="" class="">Locate the </span><b class="" style="">h2</b><span style="" class=""> tag element that has text matching exactly “Make Appointment”</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">//*[contains(text(),’Login’)]</span></td><td style="" class=""><span style="" class="">Locate any element that contains the text “Login”</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">//a[starts-with(@id=’LoginPanel’)]</span></td><td style="" class=""><span style="" class="">Locate the </span><b class="" style="">a</b><span style="" class=""> tag element that has the ID starting with “LoginPanel”</span></td></tr></tbody></table>
+| Xpath value | Description |
+| --- | --- |
+| .//h2\[text()=’Make Appointment’\] | Locate the **h2** tag element that has text matching exactly “Make Appointment” |
+| //*\[contains(text(),’Login’)\] | Locate any element that contains the text “Login” |
+| //a\[starts-with(@id=’LoginPanel’)\] | Locate the **a** tag element that has the ID starting with “LoginPanel” |
 
 Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 

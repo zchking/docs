@@ -12,7 +12,12 @@ Tap and hold at a specific position on the screen of the mobile device.
 Parameters
 ----------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style="">x</td><td class="" colspan="1" style="">Number</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">x position</td></tr><tr class="" style=""><td class="" colspan="1" style="">y</td><td class="" colspan="1" style="">Number</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">y position</td></tr><tr class="" style=""><td class="" colspan="1" style="">duration</td><td class="" colspan="1" style=""><span class="" style="">Number</span></td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">Duration (in seconds) that the tap&nbsp;</span>is held<span style="" class="">&nbsp;on the&nbsp;</span>element,<span style="" class="">&nbsp;if set to &lt;= 0 then will use default duration</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| x | Number | Required | x position |
+| y | Number | Required | y position |
+| duration | Number | Required | Duration (in seconds) that the tap is held on the element, if set to <= 0 then will use default duration |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------

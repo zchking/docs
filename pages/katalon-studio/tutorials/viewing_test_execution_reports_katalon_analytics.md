@@ -62,7 +62,14 @@ Let’s take Katalon Keywords as an example. By viewing the Result section, you 
 
 ![Execution Detail View Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/13-1024x460.png)
 
-<table style="table-layout: fixed;" border="1px solid black" class=""><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">Status: Failed</span></td><td style="" class=""><span style="" class="">The overall status of the 7th execution is Failed</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Total: 242 (+228)</span></td><td style="" class=""><span style="" class="">The total number of test cases is 247, and there are 228 test cases added since the last execution (execution #6)</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Passed: </span><span style="" class="">179 ( +168)</span></td><td style="" class=""><span style="" class="">Execution #7 has 179 passed test cases. There are additional 168 passed test cases since the last execution</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Failed: </span><span style="" class="">63 ( +61)</span></td><td style="" class=""><span style="" class="">Execution #7 has 63 failed test case. This execution has 61 more failed test cases compared to the last execution</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Error: </span><span style="" class="">0</span></td><td style="" class=""><span style="" class="">Zero erroneous test case</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Incomplete: </span><span style="" class="">0 ( -1)</span></td><td style="" class=""><span style="" class="">Zero incomplete test case compared to 1 incomplete test case in the last execution.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Started and Duration</span></td><td style="" class=""><span style="" class="">Exact date and time of the execution, and the time taken to complete.</span></td></tr></tbody></table>
+| Status: Failed | The overall status of the 7th execution is Failed |
+| --- | --- |
+| Total: 242 (+228) | The total number of test cases is 247, and there are 228 test cases added since the last execution (execution #6) |
+| Passed: 179 ( +168) | Execution #7 has 179 passed test cases. There are additional 168 passed test cases since the last execution |
+| Failed: 63 ( +61) | Execution #7 has 63 failed test case. This execution has 61 more failed test cases compared to the last execution |
+| Error: 0 | Zero erroneous test case |
+| Incomplete: 0 ( -1) | Zero incomplete test case compared to 1 incomplete test case in the last execution. |
+| Started and Duration | Exact date and time of the execution, and the time taken to complete. |
 
 Next, you can hover the mouse over the pie chart to see the total percentage of passed and failed test cases. (e.g. 73.97% fassed, 26.03% failed for the Katalon Keyword Project).
 

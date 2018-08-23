@@ -30,7 +30,10 @@ There cannot be two properties with the same name existed in the same test objec
     
     where:
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Field</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">Name</td><td class="" style="">The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted.</td></tr><tr class="" style=""><td class="" style="">Match condition</td><td class="" style="">The condition which will be used to search for the “<em class="" style="">actual</em>” object in the application under test when executing automation tests.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Name | The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted. |
+    | Match condition | The condition which will be used to search for the “_actual_” object in the application under test when executing automation tests. |
     
     Click **OK** when you finish with configuring.
     
@@ -155,4 +158,9 @@ The **Script View** of Test Case allows you to programmatically define and han
 
 The following API docs may prove useful when working with test objects:
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Class</th><th class="" style="">Method</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" rowspan="4" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html" rel="nofollow" style="">Test Object</a></strong></td><td class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)" rel="nofollow" style="">addProperty(String name, ConditionType condition, String value)</a></td><td class="" colspan="1" style="">Add a new property to the test object</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a class="" rel="nofollow" style="">setProperties(List&lt;TestObjectProperty&gt; properties)</a></td><td class="" colspan="1" style="">Set the properties of the test object</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()" rel="nofollow" style="">getObjectId()</a></td><td class="" colspan="1" style="">Get object ID.</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)" rel="nofollow" style="">findPropertyValue(String name, boolean caseSensitive)</a></td><td class="" colspan="1" style="">Find the value of a property using the property name</td></tr></tbody></table>
+| Class | Method | Description |
+| --- | --- | --- |
+| **[Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html)** | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)) | Add a new property to the test object |
+| setProperties(List<TestObjectProperty> properties) | Set the properties of the test object |
+| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get object ID. |
+| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)) | Find the value of a property using the property name |

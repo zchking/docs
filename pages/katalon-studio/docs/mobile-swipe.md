@@ -12,7 +12,15 @@ Simulate swiping fingers on the mobile device.
 Parameters
 ----------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th><th class="" colspan="1" style="">Note</th></tr><tr class="" style=""><td class="" colspan="1" style="">startX</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">Starting x position</td><td class="" colspan="1" style="">&nbsp;</td></tr><tr class="" style=""><td class="" colspan="1" style="">startY</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">Starting y position</td><td class="" colspan="1" style="">&nbsp;</td></tr><tr class="" style=""><td class="" colspan="1" style="">endX</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">Ending x position</td><td class="" colspan="1" style="">Since 5.1.0.2:<br class="" style="">Relative x position of startX</td></tr><tr class="" style=""><td class="" colspan="1" style="">endY</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style="">Ending y position</td><td class="" colspan="1" style="">Since 5.1.0.2<br class="" style="">Relative y position of start Y</td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td><td class="" colspan="1" style="">&nbsp;</td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description | Note |
+| --- | --- | --- | --- | --- |
+| startX | int | Required | Starting x position |   |
+| startY | int | Required | Starting y position |   |
+| endX | int | Required | Ending x position | Since 5.1.0.2:  
+Relative x position of startX |
+| endY | int | Required | Ending y position | Since 5.1.0.2  
+Relative y position of start Y |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |   |
 
 Example 
 --------

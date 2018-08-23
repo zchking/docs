@@ -24,7 +24,14 @@ Enhance Kobiton integration to support mobile testing with **Private** Kobiton
 
 Allow users to pass Proxy settings in Console Mode command
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Option Name</th><th class="" colspan="1" style="">Value Type</th><th class="" style="">Value</th><th class="" colspan="1" style="">Mandatory?</th></tr><tr class="" style=""><td class="" style="">proxy.option</td><td class="" colspan="1" style="">Fixed</td><td class="" style="">NO_PROXY, USE_SYSTEM, MANUAL_CONFIG</td><td class="" colspan="1" style="">YES</td></tr><tr class="" style=""><td class="" style="">proxy.server.type</td><td class="" colspan="1" style="">Fixed</td><td class="" style="">&nbsp;HTTP, HTTPS, or SOCKS</td><td class="" colspan="1" style="">YES</td></tr><tr class="" style=""><td class="" style="">proxy.server.address</td><td class="" colspan="1" style="">String</td><td class="" style="">Example: http://192.168.12.32,&nbsp;<a class="" href="http://katalon.com/" rel="nofollow" style="">http://katalon.com</a></td><td class="" colspan="1" style="">YES</td></tr><tr class="" style=""><td class="" style="">proxy.server.port</td><td class="" colspan="1" style="">Integer</td><td class="" style="">Example: 80, 8080, 9999</td><td class="" colspan="1" style="">YES</td></tr><tr class="" style=""><td class="" style="">proxy.username</td><td class="" colspan="1" style="">String</td><td class="" style="">Example:&nbsp;MyProxyUsername</td><td class="" colspan="1" style="">Optional <span class="" style="">(YES if your proxy server requires authentication)</span></td></tr><tr class="" style=""><td class="" style="">proxy.password</td><td class="" colspan="1" style="">String</td><td class="" style=""><span class="" style="">Example: MyProxyPassword</span></td><td class="" colspan="1" style="">Optional (YES if your proxy server requires authentication)</td></tr></tbody></table>
+| Option Name | Value Type | Value | Mandatory? |
+| --- | --- | --- | --- |
+| proxy.option | Fixed | NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG | YES |
+| proxy.server.type | Fixed |  HTTP, HTTPS, or SOCKS | YES |
+| proxy.server.address | String | Example: http://192.168.12.32, [http://katalon.com](http://katalon.com/) | YES |
+| proxy.server.port | Integer | Example: 80, 8080, 9999 | YES |
+| proxy.username | String | Example: MyProxyUsername | Optional (YES if your proxy server requires authentication) |
+| proxy.password | String | Example: MyProxyPassword | Optional (YES if your proxy server requires authentication) |
 
 **Example:**
 

@@ -12,12 +12,22 @@ Wait for the given element to present within the given time (in seconds) 
 Parameters
 ----------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr><tr class="" style=""><td class="" colspan="1" style="">to</td><td class="" colspan="1" style="">TestObject</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span class="" style="">Represent a web element.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">timeOut&nbsp;</span></td><td class="" colspan="1" style=""><span style="" class="">int&nbsp;</span></td><td class="" colspan="1" style=""><span class="" style="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Maximum period of time (in seconds) that system will wait to return a result.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style="">Optional</td><td class="" colspan="1" style=""><span style="" class="">Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element. |
+| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return a result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Param Type</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style=""><span style="" class="">true&nbsp;if the element is present&nbsp;within&nbsp;the timeout.</span></li><li class="" style=""><span style="" class="">false&nbsp;if the element is NOT present within&nbsp;</span>the timeout.</li></ul></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| Boolean | 
+*   true if the element is present within the timeout.
+*   false if the element is NOT present within the timeout.
+
+ |
 
 Example 
 --------

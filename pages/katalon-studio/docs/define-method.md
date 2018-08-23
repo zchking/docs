@@ -17,7 +17,27 @@ Define a method in Manual view
     ![](../../images/katalon-studio/docs/define-method/image2017-2-10 15_48_9.png)  
     Specify the required information for your method as following:
     
-    <table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Field</th><th class="" style="">Description</th></tr><tr class="" style=""><td class="" style="">Name</td><td class="" style="">The name of the method.</td></tr><tr class="" style=""><td class="" style="">Return type</td><td class="" style=""><div class="" style=""><p class="" style="">The object type that this method will return after its execution.</p></div></td></tr><tr class="" style=""><td class="" style="">Setup, Teardown options</td><td class="" style=""><p class="" style="">Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to <a href="#Definemethod-SetUp()andTearDown()inManualview" class="" style="">SetUp() and TearDown() in Manual view</a> for more details.</p></td></tr><tr class="" style=""><td colspan="1" class="" style="">Parameter list</td><td colspan="1" class="" style=""><p class="" style="">Any parameter needed to pass into the method.</p><p class="" style="">By clicking on the <strong class="" style="">Insert</strong> button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.</p></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Name | The name of the method. |
+    | Return type | 
+    The object type that this method will return after its execution.
+    
+    
+    
+     |
+    | Setup, Teardown options | 
+    
+    Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to [SetUp() and TearDown() in Manual view](#Definemethod-SetUp()andTearDown()inManualview) for more details.
+    
+     |
+    | Parameter list | 
+    
+    Any parameter needed to pass into the method.
+    
+    By clicking on the **Insert** button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.
+    
+     |
     
     Click **OK** after configuring the method details.
     
@@ -38,7 +58,71 @@ With the prerequisite configuration, certain actions must be taken before start
 
 This can be achieved using the setup() and teardown() methods. 
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style="">Method</th><th class="" style="">Description</th><th colspan="1" class="" style="">Common Usage</th></tr><tr class="" style=""><td class="" style=""><p class="" style="">Set Up</p></td><td class="" style=""><p class="" style="">This method is always called <strong class="" style="">first</strong> prior to executing main test steps.<br class="" style=""><br class="" style=""></p></td><td colspan="1" class="" style=""><p class="" style="">Prepare testing environment such as:</p><ul class="" style=""><li class="" style="">Starting new browser with clean cookies</li><li class="" style="">Creating temporary &amp; proxy databases, directories</li><li class="" style="">Starting a server process</li><li class="" style="">...</li></ul></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Tear Down If Failed</p></td><td class="" style=""><p class="" style="">This method will be called after executing all steps of the test case <strong class="" style="">and</strong><span class="" style=""> one of those steps has <strong class="" style="">Failed</strong> status.</span></p></td><td rowspan="4" style="" class=""><p class="" style="">Clean-up testing environment such as:</p><ul class="" style=""><li class="" style="">Closing browsers</li><li class="" style="">Disclosing opened connections to database or server</li><li class="" style="">...</li></ul><p class="" style="">&nbsp;</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Tear Down If Passed</p></td><td class="" style=""><p class="" style=""><span class="" style=""><span class="" style="">This method will be called after executing all steps of the test case <strong class="" style="">and</strong></span><span class="" style=""> all of those steps have <strong class="" style="">Pass</strong> status.</span></span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Tear Down If Error</p></td><td class="" style=""><p class="" style=""><span class="" style="">This method will be called after executing all steps of the test case </span><strong class="" style="">and</strong><span class="" style=""> one of those steps has <strong class="" style="">Error</strong> status.</span></p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Tear Down</p></td><td class="" style=""><p class="" style="">This method will be called <strong class="" style="">finally</strong>.</p></td></tr></tbody></table>
+| Method | Description | Common Usage |
+| --- | --- | --- |
+| 
+Set Up
+
+ | 
+
+This method is always called **first** prior to executing main test steps.  
+  
+
+
+ | 
+
+Prepare testing environment such as:
+
+*   Starting new browser with clean cookies
+*   Creating temporary & proxy databases, directories
+*   Starting a server process
+*   ...
+
+ |
+| 
+
+Tear Down If Failed
+
+ | 
+
+This method will be called after executing all steps of the test case **and** one of those steps has **Failed** status.
+
+ | 
+
+Clean-up testing environment such as:
+
+*   Closing browsers
+*   Disclosing opened connections to database or server
+*   ...
+
+ |
+| 
+
+Tear Down If Passed
+
+ | 
+
+This method will be called after executing all steps of the test case **and** all of those steps have **Pass** status.
+
+ |
+| 
+
+Tear Down If Error
+
+ | 
+
+This method will be called after executing all steps of the test case **and** one of those steps has **Error** status.
+
+ |
+| 
+
+Tear Down
+
+ | 
+
+This method will be called **finally**.
+
+ |
 
 The SetUp()/TearDown() methods will have **Error** status if there is any issue occurred during their execution. The only exception to this is when _AssertionError_ Class is used or the methods are skipped.
 

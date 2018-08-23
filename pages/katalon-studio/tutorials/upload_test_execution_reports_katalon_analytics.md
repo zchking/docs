@@ -88,7 +88,11 @@ java -jar ../katalon-report-uploader-0.0.1-SNAPSHOT.jar
 
 Where
 
-<table style="table-layout: fixed;" border="1px solid black" class=""><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">katalon-report-uploader-0.0.1-SNAPSHOT.jar</span></td><td style="" class=""><span style="" class="">Jar file path can be an absolute path or relative path</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">projectID</span></td><td style="" class=""><span style="" class="">Katalon Analytics Projects’ ID</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Path=” “</span></td><td style="" class=""><span style="" class="">Local path of the Katalon Studio Reports folder</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Email and Password</span></td><td style="" class=""><span style="" class="">Your Katalon Studio account’s credentials</span></td></tr></tbody></table>
+| katalon-report-uploader-0.0.1-SNAPSHOT.jar | Jar file path can be an absolute path or relative path |
+| --- | --- |
+| projectID | Katalon Analytics Projects’ ID |
+| Path=” “ | Local path of the Katalon Studio Reports folder |
+| Email and Password | Your Katalon Studio account’s credentials |
 
 ![Start CLI](../../images/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics/7.png)
 

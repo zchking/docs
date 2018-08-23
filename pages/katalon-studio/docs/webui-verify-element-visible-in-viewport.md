@@ -12,12 +12,22 @@ Verify if the web element is visible in current [viewport](https://www.w3school
 Parameters
 ----------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""><col class="" style=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><span style="" class="">Param</span></th><th class="" style=""><span style="" class="">Param Type</span></th><th class="" colspan="1" style=""><span style="" class="">Mandatory</span></th><th class="" colspan="1" style=""><span style="" class="">Description</span></th></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">to</span></td><td class="" colspan="1" style=""><span style="" class="">TestObject</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Represent a web element.</span></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">timeOut&nbsp;</span></td><td class="" colspan="1" style=""><span style="" class="">int&nbsp;</span></td><td class="" colspan="1" style=""><span style="" class="">Required</span></td><td class="" colspan="1" style=""><span style="" class="">Maximum period of time (in seconds) that system will wait to return the result.</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style=""><span style="" class="">Specify <span style="" class=""><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a></span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element. |
+| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return the result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table class="" style="table-layout: fixed;"><colgroup class="" style=""><col style="" class=""><col style="" class=""></colgroup><tbody class="" style=""><tr class="" style=""><th class="" style=""><span style="" class="">Param Type</span></th><th class="" style=""><span style="" class="">Description</span></th></tr><tr class="" style=""><td class="" style=""><span style="" class="">Boolean</span></td><td class="" style=""><ul class="" style=""><li class="" style=""><span style="" class=""><strong class="" style="">true:</strong>&nbsp;the element is visible in current viewport.</span></li><li class="" style=""><span style="" class=""><strong class="" style="">false:</strong> the element is NOT visible in current viewport.</span></li></ul></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| Boolean | 
+*   **true:** the element is visible in current viewport.
+*   **false:** the element is NOT visible in current viewport.
+
+ |
 
 Example
 -------
