@@ -6,7 +6,7 @@ description:
 ---
 To retrieve current generated reports location, you can use the sample code below:
 
-```
+```groovy
 import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.getReportFolder()
 ```

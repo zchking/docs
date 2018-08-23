@@ -12,7 +12,7 @@ Filter out the last part of the URL I get back from the "WebUI.getURL()" functio
 
 Use Pattern and Matcher classes from java.util.regex package.
 
-```
+```groovy
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 import com.kms.katalon.core.util.KeywordUtil

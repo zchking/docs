@@ -9,7 +9,7 @@ Prerequisites
 
 1.  Katalon Studio command to be used for console mode execution. Refer to section [Console Mode Execution](/display/KD/Console+Mode+Execution) for how to build up a Katalon command. Here is the basic command template:
     
-    ```
+    ```groovy
     katalon -runMode=console -projectPath="<YOUR PROJECT>" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath=<YOUR TEST SUITE PATH> -browserType="Chrome"
     ```
     
@@ -36,7 +36,7 @@ Configuration Steps
 
 3.2 Paste in generated Katalon Studio command
 
-```
+```groovy
 ./Katalon\ Studio.app/Contents/MacOS/katalon --args -runMode=console -projectPath="/Users/admin/Katalon Studio/Samples/Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
 ```
 
@@ -50,7 +50,7 @@ Configuration Steps
 
 3.2 Paste in generated Katalon Studio command.
 
-```
+```groovy
 katalon -runMode=console -projectPath="C:\Project\Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
 ```
 

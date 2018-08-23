@@ -30,7 +30,7 @@ There cannot be two properties with the same name existed in the same test objec
     
     where:
     
-    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Name</td><td class="" style="">The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted.</td></tr><tr class="" style=""><td class="" style="">Match condition</td><td class="" style="">The condition which will be used to search for the “<em class="" style="">actual</em>” object in the application under test when executing automation tests.</td></tr></tbody></table>
+    <table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Name</td><td class="xtd-1-1 confluenceTd" style="">The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted.</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Match condition</td><td class="xtd-2-1 confluenceTd" style="">The condition which will be used to search for the “<em style="">actual</em>” object in the application under test when executing automation tests.</td></tr></tbody></table>
     
     Click **OK** when you finish with configuring.
     
@@ -93,7 +93,7 @@ Katalon Studio provides user with the ability to handle dynamic objects (Objects
     
     The general syntax to find a test object using a dynamic property is as following:
     
-    ```
+    ```groovy
     findTestObject('{your test object}', [('{property}') : '{value of property}'])
     ```
     
@@ -101,13 +101,13 @@ Katalon Studio provides user with the ability to handle dynamic objects (Objects
     
     \+ One dynamic property
     
-    ```
+    ```groovy
     findTestObject('Page_Login/txtUserName', ['(id)' : '{48415648}'])
     ```
     
     \+ Two dynamic properties
     
-    ```
+    ```groovy
     findTestObject('Page_Login/txtUserName', ['(id)' : '{48415648}', [('{name}') : '{controler14585}']])
     ```
     
@@ -129,21 +129,21 @@ The **Script View** of Test Case allows you to programmatically define and han
 
 1.  Refer to existing objects using the _findTestObject()_ method
     
-    ```
+    ```groovy
     // Find an object which was defined already in Object Repository
     myPredefinedObject = findTestObject('Page_Katalon Studio/a_Free Download')
     ```
     
 2.  Create a new object programmatically using _TestObject_ class
     
-    ```
+    ```groovy
     // Create a new object programmatically
     myNewObject = new TestObject("TheObjectName")
     ```
     
 3.  Add property to an object using _addProperty()_ method
     
-    ```
+    ```groovy
     // Add property to Test Object, a property is defined by:
     //	property name,
     //	condition type,
@@ -155,4 +155,4 @@ The **Script View** of Test Case allows you to programmatically define and han
 
 The following API docs may prove useful when working with test objects:
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Class</th><th class="" style="">Method</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" rowspan="4" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html" rel="nofollow" style="">Test Object</a></strong></td><td class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)" rel="nofollow" style="">addProperty(String name, ConditionType condition, String value)</a></td><td class="" colspan="1" style="">Add a new property to the test object</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a class="" rel="nofollow" style="">setProperties(List&lt;TestObjectProperty&gt; properties)</a></td><td class="" colspan="1" style="">Set the properties of the test object</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()" rel="nofollow" style="">getObjectId()</a></td><td class="" colspan="1" style="">Get object ID.</td></tr><tr class="" style=""><td class="" colspan="1" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)" rel="nofollow" style="">findPropertyValue(String name, boolean caseSensitive)</a></td><td class="" colspan="1" style="">Find the value of a property using the property name</td></tr></tbody></table>
+<table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Class</th><th class="xtd-0-1 confluenceTh" style="">Method</th><th class="xtd-0-2 confluenceTh" colspan="1" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 xtd-2-0 xtd-3-0 xtd-4-0 confluenceTd" rowspan="4" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html" rel="nofollow" style="">Test Object</a></strong></td><td class="xtd-1-1 confluenceTd" style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)" rel="nofollow" style="">addProperty(String name, ConditionType condition, String value)</a></td><td class="xtd-1-2 confluenceTd" colspan="1" style="">Add a new property to the test object</td></tr><tr class="xtr-2" style=""><td class="xtd-2-1 confluenceTd" colspan="1" style=""><a class="in-cell-link" rel="nofollow" style="">setProperties(List&lt;TestObjectProperty&gt; properties)</a></td><td class="xtd-2-2 confluenceTd" colspan="1" style="">Set the properties of the test object</td></tr><tr class="xtr-3" style=""><td class="xtd-3-1 confluenceTd" colspan="1" style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()" rel="nofollow" style="">getObjectId()</a></td><td class="xtd-3-2 confluenceTd" colspan="1" style="">Get object ID.</td></tr><tr class="xtr-4" style=""><td class="xtd-4-1 confluenceTd" colspan="1" style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)" rel="nofollow" style="">findPropertyValue(String name, boolean caseSensitive)</a></td><td class="xtd-4-2 confluenceTd" colspan="1" style="">Find the value of a property using the property name</td></tr></tbody></table>

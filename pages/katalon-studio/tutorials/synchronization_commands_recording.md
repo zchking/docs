@@ -113,7 +113,7 @@ Provide the URL of application under test.
 Click on **Script Tab** to view the generated code. Katalon Studio allows users to modify the script from the script mode as well. All the above recorded actions can be modified in the script mode.  
 **Script code :**
 
-```
+```groovy
 WebUI.openBrowser('')
  
 WebUI.navigateToUrl('http://demoaut.katalon.com/')

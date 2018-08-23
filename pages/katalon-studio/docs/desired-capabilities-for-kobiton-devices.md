@@ -17,7 +17,7 @@ There will be cases you want to use additional desired capabilities for Kobiton 
     
 2.  Insert '**app**' capability and pass in Kobiton application id for your device, e.g.,
     
-    ```
+    ```groovy
     String kobitonServerUrl = "https://katalon-integration:xxxxxxxxxxxxxxxxxxx@api.kobiton.com/wd/hub";
     DesiredCapabilities capabilities = new DesiredCapabilities();
     capabilities.setCapability("sessionName", "Automation test session");
@@ -34,7 +34,7 @@ There will be cases you want to use additional desired capabilities for Kobiton 
     
     3\. **Replace** 'Start Application' keyword with these lines. These codes will establish a connection to selected Kobiton's device and also create a driver to be used for other built-in keywords. Thus, you don't have to rewrite the whole test script again.
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
     import org.openqa.selenium.remote.DesiredCapabilities
     import com.kms.katalon.core.appium.driver.AppiumDriverManager
@@ -66,7 +66,7 @@ There will be cases you want to use additional desired capabilities for Kobiton 
       
     Now you've finished adjusting the 'Start Application' keyword. Here is the complete code:
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
     import org.openqa.selenium.remote.DesiredCapabilities
     import com.kms.katalon.core.appium.driver.AppiumDriverManager

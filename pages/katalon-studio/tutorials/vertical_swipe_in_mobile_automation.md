@@ -40,7 +40,7 @@ The same thing can be achieved from the Script mode (switch to Script Mode by cl
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration

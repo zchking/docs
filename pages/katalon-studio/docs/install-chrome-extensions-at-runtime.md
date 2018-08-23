@@ -6,7 +6,7 @@ description:
 ---
 To install Chrome extensions before you start the browser, you can either use packed or unpacked extensions. The sample code below refer to packed extensions, so if you want to use unpacked extensions, please refer to this page: [https://sites.google.com/a/chromium.org/chromedriver/extensions](https://sites.google.com/a/chromium.org/chromedriver/extensions)
 
-```
+```groovy
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.chrome.ChromeOptions

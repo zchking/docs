@@ -42,7 +42,7 @@ The step-by-step guide can also be achieved through **Script Mode**. We suggest 
 
 ### Script Mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile

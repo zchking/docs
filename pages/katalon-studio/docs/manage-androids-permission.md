@@ -6,7 +6,7 @@ description:
 ---
 To manage Android's permission, you need to set the value of 'autoGrantPermissions' desired capabilities:
 
-```
+```groovy
 /**
 * Enable all permission
 * 

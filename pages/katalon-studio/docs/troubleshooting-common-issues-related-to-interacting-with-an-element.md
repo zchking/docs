@@ -20,7 +20,7 @@ The element can't be detected on current page due XPath or CSS selector is incor
 **Solution:**  
 Add '[Wait For Element Visible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible)' step before the step having this issue, e.g:
 
-```
+```groovy
 WebUI.openBrowser('http://demoaut.katalon.com') 
 WebUI.waitForElementVisible(findtestObject('btn_Login'), 30) 
 WebUI.click(findTestObject('btn_Login')) 
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('btn_Login'))
 *   Wait until the element is visible
 *   Set value to its directly using Javascript:
 
-```
+```groovy
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
  
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
@@ -54,7 +54,7 @@ WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element
 
 Click on the element using [Javascript](https://docs.katalon.com/display/KD/%5BWebUI%5D+Execute+JavaScript) instead:  
 
-```
+```groovy
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
  
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)

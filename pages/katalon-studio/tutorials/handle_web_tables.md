@@ -37,7 +37,7 @@ First of all, we will find the location of table then we will store all table el
 
 **Script Mode:**
 
-```
+```groovy
 import org.openqa.selenium.By as By
  
 import org.openqa.selenium.WebDriver as WebDriver
@@ -108,7 +108,7 @@ Let’s say we need to edit a student record that has the graduation year of 201
 
 **Script Mode:**
 
-```
+```groovy
 import org.openqa.selenium.By as By
  
 import org.openqa.selenium.WebDriver as WebDriver

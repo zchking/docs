@@ -6,7 +6,7 @@ description:
 ---
 To write data into Excel file at runtime during test execution, you need to write your own script to handle this case. The current capabilities of Katalon Studio do provide you functions to handle it:
 
-```
+```groovy
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

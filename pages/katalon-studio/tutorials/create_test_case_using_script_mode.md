@@ -32,7 +32,7 @@ Katalon Studio is an automation tool that supports keyword-driven testing. All k
 
 3. In this scenario, you will create a Web application test script, so you can make use of the **[Web UI](https://docs.katalon.com/x/VQAM) [built-in keywords](https://docs.katalon.com/x/VQAM)**. To use a built-in **WebUI** keyword, enter the following syntax into the editor.
 
-```
+```groovy
 WebUI.
 
 ```
@@ -55,7 +55,7 @@ WebUI.
 
 8\. Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
 
-```
+```groovy
 findTestObject('{Object ID}')
 
 ```
@@ -76,7 +76,7 @@ Where **Object ID** is the ID of that object in Katalon Studio.
 
 12\. The following API docs are useful when working with scripts:
 
-<table style="table-layout: fixed;" border="3" class=""><thead><tr><th style="" class="">Class</th><th style="" class="">DescriptionDescription</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><strong class="" style=""><span style="" class=""><span style="" class=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html" class="">Builtin Keywords</a></span></span></strong></td><td style="" class="">List of common built-in keywords</td></tr><tr class="" style=""><td style="" class=""><strong class="" style=""><span style="" class=""><span style="" class=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html" class="">WebUI Builtin Keywords</a></span></span></strong></td><td style="" class="">List of Web UI built-in keywords</td></tr><tr class="" style=""><td style="" class=""><strong class="" style=""><span style="" class=""><span style="" class=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html" class="">Web Service Builtin Keywords</a></span></span></strong></td><td style="" class="">List of Web Service built-in keywords</td></tr><tr class="" style=""><td style="" class=""><span style="" class=""><strong class="" style=""><span style="" class=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html" class="">Mobile Builtin Keywords</a></span></strong></span></td><td style="" class="">List of Mobile built-in keywords</td></tr></tbody></table>
+<table style="table-layout: fixed;" border="3"><thead><tr><th style="">Class</th><th style="">DescriptionDescription</th></tr></thead><tbody style=""><tr style=""><td style=""><strong style=""><span style=""><span style=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html">Builtin Keywords</a></span></span></strong></td><td style="">List of common built-in keywords</td></tr><tr style=""><td style=""><strong style=""><span style=""><span style=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html">WebUI Builtin Keywords</a></span></span></strong></td><td style="">List of Web UI built-in keywords</td></tr><tr style=""><td style=""><strong style=""><span style=""><span style=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html">Web Service Builtin Keywords</a></span></span></strong></td><td style="">List of Web Service built-in keywords</td></tr><tr style=""><td style=""><span style=""><strong style=""><span style=""><a style="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html">Mobile Builtin Keywords</a></span></strong></span></td><td style="">List of Mobile built-in keywords</td></tr></tbody></table>
 
 13. Congratulations! You have finished your first automation script in Groovy language. Click on **Run** in the main toolbar to execute the test case.
 

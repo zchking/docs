@@ -12,14 +12,14 @@ Open a browser and navigate to the specified URL. If the URL is left empty then 
 Parameters
 ----------
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" colspan="1" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">rawUrl</span></td><td class="" colspan="1" style="">String</td><td class="" colspan="1" style="">Optional</td><td class="" style=""><p class="" style=""><span style="" class="">URL of the web page to be opened can be left empty or null. If rawUrl doesn't contain protocol prefix, the protocol will be&nbsp;<a rel="nofollow" class="" style="">http://.</a>&nbsp;For e</span><span style="" class="">xample:&nbsp;</span></p><ul class="" style=""><li class="" style=""><p class="" style=""><span style="" class=""><a class="" href="https://www.google.com" rel="nofollow" style="">https://www.google.com</a>&nbsp;</span></p></li><li class="" style=""><p class="" style=""><span style="" class="">file:///D:/Development/index.html&nbsp;</span></p></li><li class="" style=""><p class="" style=""><span style="" class=""><a class="" href="http://kms-technology.com" rel="nofollow" style="">kms-technology.com</a> =&gt; <a class="" href="http://kms-technology.com" rel="nofollow" style="">http://kms-technology.com</a></span></p></li><li class="" style=""><p class="" style=""><a rel="nofollow" class="" style="">http://katalon.com/</a><span style="" class="">&nbsp;</span></p></li></ul></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" colspan="1" style="">FailureHandling</td><td class="" colspan="1" style="">Optional</td><td class="" style="">Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+<table class="wrapped relative-table confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Param</th><th class="xtd-0-1 confluenceTh" colspan="1" style="">Param Type</th><th class="xtd-0-2 confluenceTh" colspan="1" style="">Mandatory</th><th class="xtd-0-3 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><span style="">rawUrl</span></td><td class="xtd-1-1 confluenceTd" colspan="1" style="">String</td><td class="xtd-1-2 confluenceTd" colspan="1" style="">Optional</td><td class="xtd-1-3 confluenceTd" style=""><p style=""><span style="">URL of the web page to be opened can be left empty or null. If rawUrl doesn't contain protocol prefix, the protocol will be&nbsp;<a rel="nofollow" style="">http://.</a>&nbsp;For e</span><span style="">xample:&nbsp;</span></p><ul style=""><li class="blockList" style=""><p style=""><span style=""><a class="external-link" href="https://www.google.com" rel="nofollow" style="">https://www.google.com</a>&nbsp;</span></p></li><li class="blockList" style=""><p style=""><span style="">file:///D:/Development/index.html&nbsp;</span></p></li><li class="blockList" style=""><p style=""><span style=""><a class="external-link" href="http://kms-technology.com" rel="nofollow" style="">kms-technology.com</a> =&gt; <a class="external-link" href="http://kms-technology.com" rel="nofollow" style="">http://kms-technology.com</a></span></p></li><li class="blockList" style=""><p style=""><a rel="nofollow" style="">http://katalon.com/</a><span style="">&nbsp;</span></p></li></ul></td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style=""><span style="">flowControl</span></td><td class="xtd-2-1 confluenceTd" colspan="1" style="">FailureHandling</td><td class="xtd-2-2 confluenceTd" colspan="1" style="">Optional</td><td class="xtd-2-3 confluenceTd" style="">Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow" style="">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 -------
 
 1.  You want to open a browser and navigate to '[http://demoaut.katalon.com/](http://demoaut.katalon.com/)' URL:
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
     import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -48,7 +48,7 @@ Example
     
 2.  You want to open browser only
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
     import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

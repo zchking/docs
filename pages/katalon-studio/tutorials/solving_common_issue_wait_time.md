@@ -30,7 +30,7 @@ For example: The script below shows the usage of a global variable and the use o
 
 **Figure 1: Katalon Studio test script**
 
-```
+```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint</p>
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  
@@ -72,7 +72,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
 ```
 
-```
+```groovy
 'Open browser and navigate to Katalon site'
 WebUI.openBrowser("https://katalon.com")
  
@@ -102,4 +102,4 @@ WebUI.closeBrowser()
 
 Quite often test execution get failed due to the exceptions such as ‘**NoSuchElementException**‘, ‘**ElementNotFoundException**‘, ‘**ElementNotVisibleException**‘. In order to handle these exceptions, conditional Synchronization has to be implemented. Katalon Studio supports many built in “**Wait for….**” keywords to deal with such exceptions. For example:
 
-<table class="" style="table-layout: fixed;"><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present" class="" style=""><span style="" class="">Wait For Element Present</span></a></td><td style="" class=""><span style="" class="">Wait for the given element to present (appear) within the given time in seconds.</span></td></tr><tr class="" style=""><td style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible" class="" style=""><span style="" class="">Wait For Element Visible</span></a></td><td style="" class=""><span style="" class="">Wait until the given web element is visible within timeout.</span></td></tr><tr class="" style=""><td style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert" class="" style=""><span style="" class="">Wait For Alert</span></a></td><td style="" class=""><span style="" class="">Wait for a browser’s alert to present.</span></td></tr><tr class="" style=""><td style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable" class="" style=""><span style="" class="">Wait for Element Clickable</span></a></td><td style="" class=""><span style="" class="">Wait for the given element to be clickable within the given time in seconds.</span></td></tr></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present" style=""><span style="">Wait For Element Present</span></a></td><td style=""><span style="">Wait for the given element to present (appear) within the given time in seconds.</span></td></tr><tr style=""><td style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible" style=""><span style="">Wait For Element Visible</span></a></td><td style=""><span style="">Wait until the given web element is visible within timeout.</span></td></tr><tr style=""><td style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert" style=""><span style="">Wait For Alert</span></a></td><td style=""><span style="">Wait for a browser’s alert to present.</span></td></tr><tr style=""><td style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable" style=""><span style="">Wait for Element Clickable</span></a></td><td style=""><span style="">Wait for the given element to be clickable within the given time in seconds.</span></td></tr></tbody></table>

@@ -6,7 +6,7 @@ description:
 ---
 To set cookies for browsers:
 
-```
+```groovy
 import org.openqa.selenium.Cookie
 import org.openqa.selenium.WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory

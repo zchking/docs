@@ -10,7 +10,7 @@ In case you want to verify placeholder of a field, e.g:
 
 Then using '[Get Attribute](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Attribute)' keyword can help you to resolve this issue:
 
-```
+```groovy
 String expectedPlaceholder = "Email"
 String placeholder = WebUI.getAttribute(emailTestObject, "placeholder")
 

@@ -93,7 +93,7 @@ Our console mode generator will now remember the last selected options. Saving u
 
 This keyword helps retrieving CSS value of an element.
 
-```
+```groovy
 Get CSS value of a web element
 Returns:
            the current, computed value of the property

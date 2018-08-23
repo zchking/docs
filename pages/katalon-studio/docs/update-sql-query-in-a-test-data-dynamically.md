@@ -6,7 +6,7 @@ description:
 ---
 To update SQL query in a Test Data dynamically, you can refer to sample code below:
 
-```
+```groovy
 DBData dbTestData = findTestData('######')
 dbTestData.fetchedData = dbTestData.fetchData()
 ```

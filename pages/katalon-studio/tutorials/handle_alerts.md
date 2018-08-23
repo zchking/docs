@@ -31,7 +31,7 @@ This alert method is used to confirm an action performed by the user. You can ha
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -69,7 +69,7 @@ This alert method is used to ask the user to cancel something.
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -107,7 +107,7 @@ We can pass text to an **Alert** text message by using the **sendKeys()** method
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import org.openqa.selenium.WebDriver as WebDriver
@@ -156,7 +156,7 @@ We can capture the message on Alert by using the getText() method.
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory

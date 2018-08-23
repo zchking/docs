@@ -8,7 +8,7 @@ To create Global Variables during runtime using Katalon scripts, there are many 
 
 "You can also define environment variable (with path to external configuration or properties file) in the session will be used to execute Katalon studio and then in the TestListener read the value of variable (path to the file), load that file and override settings for project, Global variables etc. To create new GlobalVariable I used metaprogramming:
 
-```
+```groovy
 void addGlobalVariable(String name, def value) {
     MetaClass mc = script.evaluate("internal.GlobalVariable").metaClass
     String getterName = "get" + name.capitalize()

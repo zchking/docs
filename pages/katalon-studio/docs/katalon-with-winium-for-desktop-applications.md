@@ -8,7 +8,7 @@ As you may know, Katalon Studio only supports WebUI, Mobile, and API automation 
 
 First, download the [jar package](https://jar-download.com/?search_box=com.github.2gis.winium). Then see the example below to import the Winium driver into Katalon Studio.
 
-```
+```groovy
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.winium.DesktopOptions

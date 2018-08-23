@@ -21,13 +21,13 @@ When creating a new test listener, you can see there are 4 options in **New Test
 
 ![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_38.png)
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Generate sample Before Test Case method</th><th class="" style="">A sample listener will be generated before every test case starts.</th></tr></thead><tbody class="" style=""><tr class="" style=""><th class="" style="">Generate sample After Test Case method</th><td class="" style="">A sample listener <span class="" style="">will be generated</span> <strong class="" style="">after every</strong> test case ends.</td></tr><tr class="" style=""><th class="" style="">Generate sample Before Test Suite method</th><td class="" style="">A sample listener <span class="" style="">will be generated</span> <strong class="" style="">before every</strong> test suite starts.</td></tr><tr class="" style=""><th class="" style="">Generate sample Before Test Suite method</th><td class="" style="">A sample listener<span class="" style="">will be generated </span><strong class="" style="">after every</strong> test suite ends.</td></tr></tbody></table>
+<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Generate sample Before Test Case method</th><th class="xtd-0-1 confluenceTd" style="">A sample listener will be generated before every test case starts.</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><th class="xtd-1-0 confluenceTh" style="">Generate sample After Test Case method</th><td class="xtd-1-1 confluenceTd" style="">A sample listener <span style="">will be generated</span> <strong style="">after every</strong> test case ends.</td></tr><tr class="xtr-2" style=""><th class="xtd-2-0 confluenceTh" style="">Generate sample Before Test Suite method</th><td class="xtd-2-1 confluenceTd" style="">A sample listener <span style="">will be generated</span> <strong style="">before every</strong> test suite starts.</td></tr><tr class="xtr-3" style=""><th class="xtd-3-0 confluenceTh" style="">Generate sample Before Test Suite method</th><td class="xtd-3-1 confluenceTd" style="">A sample listener<span style="">will be generated </span><strong style="">after every</strong> test suite ends.</td></tr></tbody></table>
 
 You can select **one** or **multiple** options. Once finished, Katalon Studio will generate a sample template accordingly:
 
 Expand source
 
-```
+```groovy
 class NewTestListener {
 	/**
 	 * Executes before every test case starts.
@@ -85,7 +85,7 @@ To not get confused with [setUp and tearDown](https://docs.katalon.com/display/D
 
 Define multiple environments as different Global Variables by using Test Listeners. Simply change the environment variable to the preferred environment before test case execution.
 
-```
+```groovy
 /**
  * Executes before every test case starts.
  * @param testCaseContext related information of the executed test case.

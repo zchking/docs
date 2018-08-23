@@ -11,20 +11,20 @@ Hypothetically, you want to call a Custom Keyword within a Custom Keyword that 
   
 Keywords/my.a/Greeting.groovy  
 
-```
+```groovy
 package my.aimport com.kms.katalon.core.annotation.Keywordclass Greeting { @Keyword def greet(String someone) { return my.b.AI.sayHelloTo(someone) }}
 ```
 
 Keywords/my.b/AI.groovy  
 
-```
+```groovy
 package my.bclass AI { static def sayHelloTo(String someone) { return "Hello, ${someone}." }}
 ```
 
   
 TC1:  
 
-```
+```groovy
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUIdef str = CustomKeywords.'my.a.Greeting.greet'("Drunda")WebUI.comment(">>> ${str}")
 ```
 

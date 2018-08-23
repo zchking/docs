@@ -6,7 +6,7 @@ description:
 ---
 If you want to override desired capabilities of a browser before it's started, refer to the sample code below.
 
-```
+```groovy
 import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.setWebDriverPreferencesProperty("key", "value")
 ```

@@ -6,7 +6,7 @@ description:
 ---
 To get current mobile's session after using 'Start Application' built-in keyword, use the sample code below:
 
-```
+```groovy
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import com.kms.katalon.core.annotation.Keyword

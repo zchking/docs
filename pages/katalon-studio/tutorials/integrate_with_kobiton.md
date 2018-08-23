@@ -19,7 +19,7 @@ Enable Kobiton Integration
 ![information for Kobiton integration](../../images/katalon-studio/tutorials/integrate_with_kobiton/Connect.png)  
 Other fields in the Kobiton configuration dialog include:
 
-<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Field</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">Kobiton Server</span></td><td style="" class=""><span style="" class="">The Kobiton server to be connected and integrated with Katalon Studio.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">API Key</span></td><td style="" class=""><span style="" class="">The token to be used by Katalon Studio for exchanging API messages with Kobiton. You can generate more keys from the&nbsp;</span><span style="" class=""><a href="https://portal.kobiton.com/settings/keys" class="" style=""><span style="" class="">Kobiton API Settings</span></a></span><span style="" class="">.</span></td></tr></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">Field</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style="">Kobiton Server</span></td><td style=""><span style="">The Kobiton server to be connected and integrated with Katalon Studio.</span></td></tr><tr style=""><td style=""><span style="">API Key</span></td><td style=""><span style="">The token to be used by Katalon Studio for exchanging API messages with Kobiton. You can generate more keys from the&nbsp;</span><span style=""><a href="https://portal.kobiton.com/settings/keys" style=""><span style="">Kobiton API Settings</span></a></span><span style="">.</span></td></tr></tbody></table>
 
 3\. Click **Apply **when you are done with the settings.
 
@@ -37,14 +37,14 @@ Mobile testing with Kobiton devices
 
 5\. In Katalon Studio, open your mobile test case and switch to Scripts view. Locate this line of code:
 
-```
+```groovy
 Mobile.startApplication(appPath,false).
 
 ```
 
 Next, replace the
 
-```
+```groovy
 "appPath”
 
 ```
@@ -53,7 +53,7 @@ Next, replace the
 
 ![replace the "appPath” with the Kobiton app id](../../images/katalon-studio/tutorials/integrate_with_kobiton/Kobiton-app-id.png)
 
-```
+```groovy
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCaseMobile.comment('Story: Verify correct alarm message')Mobile.comment('Given that user has started an application')'Get full directory\'s path of android application'
  
 //def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())

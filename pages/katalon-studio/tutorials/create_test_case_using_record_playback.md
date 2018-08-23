@@ -80,7 +80,7 @@ Just click on **‘Run’** to execute recorded test cases in desired browser.
 
 **Script Code for Record and Playback**
 
-```
+```groovy
 WebUI.openBrowser('')
 WebUI.navigateToUrl('http://demoaut.katalon.com/')</p>
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
@@ -166,7 +166,7 @@ Just click on **‘Run’** to execute recorded test cases in desired browser
 
 **Source Code:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject</p>
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
  
@@ -269,7 +269,7 @@ Basic action commands, validation point commands, synchronization commands
 
 **Script code:**
 
-```
+```groovy
 WebUI.openBrowser('')</p>
 WebUI.navigateToUrl('http://demoaut.katalon.com/')
  

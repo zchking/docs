@@ -26,7 +26,7 @@ Follow these steps to automate the above test scenario in **Script view**:
     
 3.  To use a built-in **WebUI** keyword, enter the following syntax into the editor. 
     
-    ```
+    ```groovy
     WebUI.
     ```
     
@@ -49,7 +49,7 @@ Follow these steps to automate the above test scenario in **Script view**:
     
 7.  Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
     
-    ```
+    ```groovy
     findTestObject('{Object ID}')
     ```
     
@@ -68,7 +68,7 @@ Follow these steps to automate the above test scenario in **Script view**:
       
     The following API docs may prove useful when working in Script view:
     
-    <table class="" style="table-layout: fixed;"><thead class="" style=""><tr class="" style=""><th class="" style=""><div class="" style="">Class</div></th><th class="" style=""><div class="" style="">Description</div></th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html" rel="nofollow" style="">Builtin Keywords</a></strong></td><td class="" style="">List of common built-in keywords</td></tr><tr class="" style=""><td class="" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html" rel="nofollow" style="">WebUI Builtin Keywords</a></strong></td><td class="" style="">List of Web UI built-in keywords</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html" rel="nofollow" style="">Web Service Builtin Keywords</a></strong></td><td class="" colspan="1" style="">List of Web Service built-in keywords</td></tr><tr class="" style=""><td class="" colspan="1" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html" rel="nofollow" style="">Mobile Builtin Keywords</a></strong></td><td class="" colspan="1" style="">List of Mobile built-in keywords</td></tr></tbody></table>
+    <table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead style=""><tr style=""><th class="confluenceTh" style=""><div class="tablesorter-header-inner" style="">Class</div></th><th class="confluenceTh" style=""><div class="tablesorter-header-inner" style="">Description</div></th></tr></thead><tbody style=""><tr class="xtr-0" style=""><td class="xtd-0-0 confluenceTd" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html" rel="nofollow" style="">Builtin Keywords</a></strong></td><td class="xtd-0-1 confluenceTd" style="">List of common built-in keywords</td></tr><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html" rel="nofollow" style="">WebUI Builtin Keywords</a></strong></td><td class="xtd-1-1 confluenceTd" style="">List of Web UI built-in keywords</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" colspan="1" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html" rel="nofollow" style="">Web Service Builtin Keywords</a></strong></td><td class="xtd-2-1 confluenceTd" colspan="1" style="">List of Web Service built-in keywords</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" colspan="1" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html" rel="nofollow" style="">Mobile Builtin Keywords</a></strong></td><td class="xtd-3-1 confluenceTd" colspan="1" style="">List of Mobile built-in keywords</td></tr></tbody></table>
     
       
       

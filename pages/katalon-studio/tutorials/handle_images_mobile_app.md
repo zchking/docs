@@ -41,7 +41,7 @@ It is quite simple to automate the same scenario from the **Script Mode**.
 
 ### Script Mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -127,7 +127,7 @@ It is quite simple to automate the same scenario from the script mode.
 
 ### Script Mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import org.openqa.selenium.WebElement as WebElement
@@ -231,7 +231,7 @@ We want to take Screenshot with Relative and Absolute paths and save them under 
 
 ### Script code
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
@@ -298,7 +298,7 @@ Mobile.takeScreenshot('E:\\ScreenShots\\Tab.jpg', FailureHandling.STOP_ON_FAILUR
 
 _**Note:**_ Steps 1 to 6 in Manual mode can be optimized by adding a single line in script mode, i.e.,
 
-```
+```groovy
 def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
 
 ```

@@ -8,7 +8,7 @@ Hidden input controls have CSS display property of [none](https://www.w3schools
 
 1.  CSS Overwrite:
 
-```
+```groovy
 WebDriver driver = DriverFactory.getWebDriver();
 JavascriptExecutor js = (JavascriptExecutor) driver;
 js.executeScript("document.getElementById('chooseFile0').style.display='inline-block'");
@@ -19,7 +19,7 @@ js.executeScript("document.getElementById('chooseFile0').style.display='none'");
   
 2\. Java Robot:
 
-```
+```groovy
 StringSelection s = new StringSelection(filePath);
 Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);
 Robot robot = new Robot();

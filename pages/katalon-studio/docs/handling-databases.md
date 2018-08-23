@@ -12,7 +12,7 @@ Below is a sample demonstrating how to create custom keywords for:
 *   Executing data query
 *   Closing the connection
 
-```
+```groovy
 private static Connection connection = null;
 
 	/**

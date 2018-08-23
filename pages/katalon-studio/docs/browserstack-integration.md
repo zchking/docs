@@ -9,7 +9,7 @@ To integrate with BrowserStack, you need to execute your test scripts using ‘[
 1.  Login to BrowserStack
 2.  On the left side of BrowserStack account page, you will see Username and Access Key value. These values are needed for remote connection using their BrowserStack remote URL
     
-    ```
+    ```groovy
     http://username:accessKey@hub-cloud.browserstack.com/wd/hub
     Example: http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub
     ```
@@ -24,7 +24,7 @@ To integrate with BrowserStack, you need to execute your test scripts using ‘[
 
 *   Remote Web Server URL (retrieved from step #2): 
     
-    ```
+    ```groovy
     http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub
     ```
     

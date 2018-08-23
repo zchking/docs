@@ -12,19 +12,19 @@ Wait until the given mobile element has an attribute with the specified name.
 Parameters
 ----------
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" colspan="1" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">to</span></td><td class="" colspan="1" style="">TestObject</td><td class="" colspan="1" style="">Required</td><td class="" style=""><p class="" style=""><span style="" class="">Represent a mobile element.</span></p></td></tr><tr class="" style=""><td class="" colspan="1" style=""><span style="" class="">attributeName</span></td><td class="" colspan="1" style="">String</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">The name of the attribute to wait for.</span></td></tr><tr class="" style=""><td class="" colspan="1" style="">timeout</td><td class="" colspan="1" style="">int</td><td class="" colspan="1" style="">Required</td><td class="" colspan="1" style=""><span style="" class="">System will wait at most timeout (seconds) to return a result</span></td></tr><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" colspan="1" style="">FailureHandling</td><td class="" colspan="1" style="">Optional</td><td class="" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Param</th><th class="xtd-0-1 confluenceTh" colspan="1" style="">Param Type</th><th class="xtd-0-2 confluenceTh" colspan="1" style="">Mandatory</th><th class="xtd-0-3 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><span style="">to</span></td><td class="xtd-1-1 confluenceTd" colspan="1" style="">TestObject</td><td class="xtd-1-2 confluenceTd" colspan="1" style="">Required</td><td class="xtd-1-3 confluenceTd" style=""><p style=""><span style="">Represent a mobile element.</span></p></td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" colspan="1" style=""><span style="">attributeName</span></td><td class="xtd-2-1 confluenceTd" colspan="1" style="">String</td><td class="xtd-2-2 confluenceTd" colspan="1" style="">Required</td><td class="xtd-2-3 confluenceTd" colspan="1" style=""><span style="">The name of the attribute to wait for.</span></td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" colspan="1" style="">timeout</td><td class="xtd-3-1 confluenceTd" colspan="1" style="">int</td><td class="xtd-3-2 confluenceTd" colspan="1" style="">Required</td><td class="xtd-3-3 confluenceTd" colspan="1" style=""><span style="">System will wait at most timeout (seconds) to return a result</span></td></tr><tr class="xtr-4" style=""><td class="xtd-4-0 confluenceTd" style=""><span style="">flowControl</span></td><td class="xtd-4-1 confluenceTd" colspan="1" style="">FailureHandling</td><td class="xtd-4-2 confluenceTd" colspan="1" style="">Optional</td><td class="xtd-4-3 confluenceTd" style=""><span style="">Spec</span><span style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" style="">failure handling</a><span style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" colspan="1" style="">Param Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" colspan="1" style="">boolean</td><td class="" style=""><ul class="" style=""><li class="" style=""><strong class="" style="">true:</strong> the element has the attribute with the specified name.</li><li class="" style=""><strong class="" style="">false: </strong>the element doesn't have the attribute with the specified name.</li></ul></td></tr></tbody></table>
+<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" colspan="1" style="">Param Type</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" colspan="1" style="">boolean</td><td class="xtd-1-1 confluenceTd" style=""><ul style=""><li style=""><strong style="">true:</strong> the element has the attribute with the specified name.</li><li style=""><strong style="">false: </strong>the element doesn't have the attribute with the specified name.</li></ul></td></tr></tbody></table>
 
 Example
 -------
 
 You want to wait for 'App' button has 'class' attribute.
 
-```
+```groovy
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -75,6 +75,6 @@ Manual: 
 
 Script:
 
-```
+```groovy
 Mobile.waitForElementHasAttribute(findTestObject('SampleApp.apk/android.widget.Button - Button0'), 'class', 10)
 ```

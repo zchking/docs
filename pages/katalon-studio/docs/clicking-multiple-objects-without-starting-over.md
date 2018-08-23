@@ -8,18 +8,18 @@ If you have multiple and similar objects you want to quickly interact with durin
 
 Use CSS or XPath to locate your elements, and then you start changing the IDs (let's say). For example:
 
-```
+```groovy
 TestObject yourObject = WebUI.modifyObjectProperty(findTestObject('Object Repository/Some object'), 'css', 'equals', '#${i}', true) 
 ```
 
 where 'i' is the loop counter. You can put it all inside of a loop that will read your excel sheet:
 
-```
+```groovy
 for (def i=0; i <= fineTestData('Path to your excel').getRowNumbers(); i++) {}
 
 ```
 
-```
+```groovy
 https://www.katalon.com/resources-center/tutorials/data-driven-testing/ for linking data with test.
 ```
 

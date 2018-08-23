@@ -17,7 +17,7 @@ In order to run automation test on Internet Explorer, you need the following set
 *   For IE 11, you need to set a registry entry on the target computer so that the driver can maintain a connection to the instance of Internet Explorer it creates. 
     1.  Type '**_regedit_**' into **Command Prompt** to open the **Registry Editor**
         
-        ```
+        ```groovy
         regedit
         ```
         

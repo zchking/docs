@@ -26,6 +26,6 @@ Manual: 
 
 Script:
 
-```
+```groovy
 WebUI.verifyOptionSelectedByIndex(findTestObject('The Second Landing Page/select_js-intent'), 1, 2)
 ```

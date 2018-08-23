@@ -9,14 +9,14 @@ There will be cases that Katalon Studio failed to start Chrome or Firefox when y
 *   Open katalon.ini file in Katalon Studio folder
 *   Add these lines at the bottom of this file:
 
-```
+```groovy
 -Dwebdriver.chrome.logfile=C:/temp/chromedriver.log
 -Dwebdriver.firefox.logfile=C:/temp/firefoxdriver.log
 ```
 
 *   Your katalon.ini file should look like this:
 
-```
+```groovy
 -startup
 plugins/org.eclipse.equinox.launcher_1.3.201.v20161025-1711.jar
 --launcher.library
@@ -32,7 +32,7 @@ config
 
 *   Open Command Line and execute these commands:
 
-```
+```groovy
 cd  %KATALON_STUDIO_INSTALLED_FOLDER%
 eclipsec.exe -clean
 ```

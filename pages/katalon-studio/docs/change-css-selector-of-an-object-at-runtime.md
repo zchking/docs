@@ -6,7 +6,7 @@ description:
 ---
 To change a Test Object's CSS value at runtime:
 
-```
+```groovy
 import com.kms.katalon.core.testobject.SelectorMethod
 
 TestObject to = findTestObject('your_test_object_id')

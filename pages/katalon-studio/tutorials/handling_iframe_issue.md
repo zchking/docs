@@ -68,7 +68,7 @@ The sample code below shows how to switch to the parent frame before using the d
 
 ![how to switch to the parent frame before using the drag and drop action](../../images/katalon-studio/tutorials/handling_iframe_issue/sample-code_drag_n_drop.png)
 
-```
+```groovy
 import com.kms.katalon.core.annotation.SetUp as SetUp
  
 import com.kms.katalon.core.annotation.TearDown as TearDown
@@ -153,7 +153,7 @@ If we want to get text in the Text Area then we cannot get it directly by taki
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -196,7 +196,7 @@ Switch used to switch back to the main window or parent window frame.
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI

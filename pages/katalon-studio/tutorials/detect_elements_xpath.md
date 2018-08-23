@@ -13,7 +13,7 @@ XPath expression is a mechanism for navigating through and selecting a node in t
 
 For example, the **Download** link in the script below is an element nested in another.
 
-```
+```groovy
 <div class="container">
 <div class="navbar-collapse navbar-right" aria-expanded="true">
 <div class = "nav-bar-decorated"
@@ -60,7 +60,7 @@ To deal with these challenges, automation testers should not set fixed XPaths fo
 
 Here are a few examples:
 
-<table class="" style="table-layout: fixed;"><thead><tr><th style="" class="">Xpath value</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">.//h2[text()=’Make Appointment’]</span></td><td style="" class=""><span style="" class="">Locate the </span><b class="" style="">h2</b><span style="" class=""> tag element that has text matching exactly “Make Appointment”</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">//*[contains(text(),’Login’)]</span></td><td style="" class=""><span style="" class="">Locate any element that contains the text “Login”</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">//a[starts-with(@id=’LoginPanel’)]</span></td><td style="" class=""><span style="" class="">Locate the </span><b class="" style="">a</b><span style="" class=""> tag element that has the ID starting with “LoginPanel”</span></td></tr></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">Xpath value</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style="">.//h2[text()=’Make Appointment’]</span></td><td style=""><span style="">Locate the </span><b style="">h2</b><span style=""> tag element that has text matching exactly “Make Appointment”</span></td></tr><tr style=""><td style=""><span style="">//*[contains(text(),’Login’)]</span></td><td style=""><span style="">Locate any element that contains the text “Login”</span></td></tr><tr style=""><td style=""><span style="">//a[starts-with(@id=’LoginPanel’)]</span></td><td style=""><span style="">Locate the </span><b style="">a</b><span style=""> tag element that has the ID starting with “LoginPanel”</span></td></tr></tbody></table>
 
 Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 

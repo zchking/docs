@@ -6,7 +6,7 @@ description:
 ---
 Unlike built-in keywords, there will be no overall status for a Custom Keyword unless you define what your expected result is within the Custom Keyword. To generate a status for this one, Katalon Studio provides a couple of functions:
 
-```
+```groovy
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import com.kms.katalon.core.annotation.Keyword

@@ -69,7 +69,7 @@ As an example, you can identify the login button with multiple attributes
 
 Xpath:
 
-```
+```groovy
 //*[@id='btn-login'][@type='submit']
 
 ```
@@ -88,7 +88,7 @@ Contains method for heading CURA Healthcare Service
 
 Xpath:
 
-```
+```groovy
  //h1[contains(.,'CURA Healthcare Service')]
 
 ```
@@ -107,7 +107,7 @@ There are 3 Social Icon Links, and we want to get the 3rd and last item by using
 
 Xpath:
 
-```
+```groovy
 //ul[@class='list-inline']/li[last()]
 
 ```
@@ -124,7 +124,7 @@ Starts-with() method for heading CURA Healthcare Service
 
 Xpath:
 
-```
+```groovy
 //h3[starts-with(.,'We Care About')]
 
 ```
@@ -141,7 +141,7 @@ By using Following we can identify the Password text box which is located after 
 
 Xpath:
 
-```
+```groovy
 .//*[@id='txt-username']//following::input
 
 ```
@@ -156,7 +156,7 @@ In the below screenshot we want to get the ancestors of the ‘ul ‘ tag highli
 
 Xpath:
 
-```
+```groovy
 //ul[@class='list-inline']/ancestor::div
 
 ```
@@ -173,7 +173,7 @@ Using Child we can identify all social links as shown in the below screenshot.
 
 Xpath:
 
-```
+```groovy
 //ul[@class='list-inline']/child::li
 
 ```
@@ -190,7 +190,7 @@ Using Preceding we can identify all nodes that come before the Login button.
 
 Xpath:
 
-```
+```groovy
 //*[@id='btn-login']//preceding::input
 
 ```
@@ -205,7 +205,7 @@ By following-sibling method, we can Identify Password text box which located aft
 
 Xpath:
 
-```
+```groovy
 .//*[@id='txt-username']//following::input
 
 ```

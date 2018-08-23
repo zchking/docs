@@ -31,7 +31,7 @@ Katalon Studio v5.4 introduces another flexible way to extend your current autom
           
         The generated command line will have '**executionProfile**' parameter so that you can change it manually, e.g
 
-```
+```groovy
 katalon -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Katalon Studio\yourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -executionProfile="local" -browserType="Chrome (headless)"
 
 ```

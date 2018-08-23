@@ -61,7 +61,7 @@ The following example will demonstrate how to add **Verify Checkpoint** keyword 
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
  
 'Use WebUI keyword'

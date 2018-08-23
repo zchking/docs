@@ -58,7 +58,7 @@ In case you want Katalon Studio to use different versions besides the current in
 *   *   These Firefox instances should be installed on your machine first.
     *   Create a [custom keyword](https://docs.katalon.com/display/KD/Define+custom+keywords) to open the browser. Press Ctrl + Shift + O to automatically import necessary packages: 
 
-```
+```groovy
 package com.example
 
 import org.openqa.selenium.WebDriver
@@ -96,7 +96,7 @@ public class WebUICustomKeywords {
 
 *   *   In a test case, **use this custom keyword instead of ‘Open Browser’ keyword**, e.g:
 
-```
+```groovy
 CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe', 
  'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
 

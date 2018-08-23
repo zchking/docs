@@ -15,7 +15,7 @@ Katalon Studio requires the latest installation of [Appium](http://appium.io/) a
 
 *   Install [Homebrew](http://brew.sh/) from **Terminal**:
 
-```
+```groovy
 /usr/bin/ruby -e "$(curl -fsSL
 https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -23,14 +23,14 @@ https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 *   Install [Carthage](https://github.com/Carthage/Carthage) with **Homebrew**:
 
-```
+```groovy
 brew install carthage
 
 ```
 
 *   Install **node** and **npm** with **Homebrew**:
 
-```
+```groovy
 brew install node
  
 brew install npm
@@ -41,7 +41,7 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 
 *   Install **Appium** with **npm**
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">npm install -g appium</th></tr></thead><tbody class="" style=""></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">npm install -g appium</th></tr></thead><tbody style=""></tbody></table>
 
 *   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
 
@@ -53,7 +53,7 @@ You will need to install and configure [Xcode](https://developer.apple.com/xcode
 
 *   Open Terminal at **WebDriverAgent** in Appium directory folder:_<…>/appium/node_modules/appium-xcuitest-driver/WebDriverAgent_ and enter following command to initialize **WebDriverAgent** project:
 
-```
+```groovy
 mkdir -p Resources/WebDriverAgent.bundle
  
 sh ./Scripts/bootstrap.sh -d
@@ -76,7 +76,7 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=&lt;udid&gt;' test Note: &lt;udid&gt; is the device UDID of your mobile device.</th></tr></thead><tbody class="" style=""></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=&lt;udid&gt;' test Note: &lt;udid&gt; is the device UDID of your mobile device.</th></tr></thead><tbody style=""></tbody></table>
 
 *   If the following dialog is shown, select **Always Allow**
 

@@ -146,7 +146,7 @@ API is an essential part of modern web applications, its non-functional aspects 
 
    Test endpoints could be grouped by path (including path parameters), which generally performance action on specific object types. For examples:
 
-```
+```groovy
 api/2/issue: affects to Jira issue
    -- Create issue
    POST /rest/api/2/issue
@@ -159,7 +159,7 @@ api/2/issue: affects to Jira issue
 
 while
 
-```
+```groovy
 api/2/group: affects to Jira Group
    -- Create group
    POST /rest/api/2/group

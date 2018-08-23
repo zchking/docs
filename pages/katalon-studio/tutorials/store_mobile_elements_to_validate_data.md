@@ -44,7 +44,7 @@ The step-by-step guide can also be achieved through **Script Mode**. We suggest 
 
 ### Script Mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import org.openqa.selenium.WebElement as WebElement

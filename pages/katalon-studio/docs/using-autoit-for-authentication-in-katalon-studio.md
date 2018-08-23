@@ -31,7 +31,7 @@ This would be applicable for Chrome, Firefox and Edge.
 
 Change your own credential at “Username” and “Password” fields
 
-```
+```groovy
 WinWaitActive("","Authentication Required","10")
 WinFlash("", "Authentication Required",4,500)
 If WinExists("","Authentication Required") Then
@@ -51,7 +51,7 @@ EndIf
              b. Adding steps to call autoIt (*.exe) file in Katalon Studio Script Mode
     
 
-```
+```groovy
 WebUI.openBrowser('') 
 autoit_prj = '[your_autoit_file_path].exe' 
 Runtime.getRuntime().exec(autoit_prj) 
@@ -61,7 +61,7 @@ WebUI.navigateToUrl('Your test site url')
 
 For example:
 
-```
+```groovy
 WebUI.openBrowser('')
  
 //Sample path. Change it to your saved location of autoIT script

@@ -56,7 +56,7 @@ The step-by-step guide above can be achieved through **Script mode** (switch to 
 
 ### Script Mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -84,7 +84,7 @@ Mobile.scrollToText('Tabs', FailureHandling.STOP_ON_FAILURE)
 
 **Note:** Steps 1 to 6 in Manual mode can be optimized by adding a single line in script mode; i.e.,
 
-```
+```groovy
 def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
 
 ```

@@ -6,7 +6,7 @@ description:
 ---
 During or after test executions, you may want to capture additional information about OS, browser, and screen resolution of the machine performing tests. Below are some sample custom keywords to help you with this task:
 
-```
+```groovy
 package com.mycompany
 
 import regular.stuff.here

@@ -6,7 +6,7 @@ description:
 ---
 Using the built-in [data files functionalit](https://docs.katalon.com/display/KD/Manage+Test+Data)y in Katalon Studio, you can create a data file connecting to my DB and then return the results as a variable with the code below:
 
-```
+```groovy
 //get data
 def data = findTestData('Data Files/DB Data')
 // Get specific data (column, row) as a variable

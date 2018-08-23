@@ -28,7 +28,7 @@ Follow the steps below in order to use web service object in **Manual** view:
 
 You can use the **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword for Web Service object and the **[Verify...](https://docs.katalon.com/display/KD/Web+Service)** keywords to verify the web service response. You may want to refer to [Handle Response messages](#UsingWebServiceinTestCase-HandleResponsemessages) for more details regarding **Element Locator**:
 
-```
+```groovy
 //Send a SOAP request and returns its response
 def response = WS.sendRequest(findTestObject([the ID of Web Service object]))
 
@@ -42,4 +42,4 @@ For example:
 
 The following API docs may prove useful when working with web service objects:
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Class</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/RequestObject.html" rel="nofollow" style="">Request Object</a></strong></td><td class="" style="">Describe all available methods for Request Object</td></tr><tr class="" style=""><td class="" style=""><strong class="" style=""><a class="" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/ResponseObject.html" rel="nofollow" style="">Response Object</a></strong></td><td class="" style=""><span class="" style="">Describe all available methods for Response Object</span></td></tr></tbody></table>
+<table class="confluenceTable" style="table-layout: fixed;"><thead><tr><th class="confluenceTh" style="">Class</th><th class="confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr style=""><td class="confluenceTd" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/RequestObject.html" rel="nofollow" style="">Request Object</a></strong></td><td class="confluenceTd" style="">Describe all available methods for Request Object</td></tr><tr style=""><td class="confluenceTd" style=""><strong style=""><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/ResponseObject.html" rel="nofollow" style="">Response Object</a></strong></td><td class="confluenceTd" style=""><span style="">Describe all available methods for Response Object</span></td></tr></tbody></table>

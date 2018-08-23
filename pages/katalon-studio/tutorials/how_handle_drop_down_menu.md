@@ -36,7 +36,7 @@ We have a keyword called “deselectAllOption”. This will deselect all the sel
 
 **Script Mode:**
 
-```
+```groovy
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -78,7 +78,7 @@ For example, let’s say in the combo box below the values Admin, HR are selecte
 
 **Script Mode:**
 
-```
+```groovy
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -122,7 +122,7 @@ As it has 5 options in the dropdown it will return a value 5.
 
 **Script Mode:**
 
-```
+```groovy
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -154,7 +154,7 @@ It will select all options from the list.
 
 **Script Mode:**
 
-```
+```groovy
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -196,7 +196,7 @@ Here in this example, we are Validating verify Option Selected By Index Also.
 
 **Script Mode:**
 
-```
+```groovy
 'Open browser'
  
 WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
@@ -242,7 +242,7 @@ In this Example we are also verifying the option is select by Label Value by usi
 
 **Script Mode:**
 
-```
+```groovy
 'Open browser'
  
 WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
@@ -282,7 +282,7 @@ Here in this example we are Validating verify Option Selected By Value Also.
 
 **Script Mode :**
 
-```
+```groovy
 'Open browser'
  
 WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')

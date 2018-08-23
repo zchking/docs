@@ -42,13 +42,13 @@ JQL Syntax
 
 Katalon Studio test execution status can be queried via [JQL](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html). The syntax is as following:
 
-```
+```groovy
 "Katalon Status"=<status>
 ```
 
 Where Status value can be one of the following:
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Status</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">PASSED</td><td class="" colspan="1" style="">The automation tests that executed successfully.</td></tr><tr class="" style=""><td class="" style="">FAILED</td><td class="" colspan="1" style="">The automation tests that failed to execute at certain steps.</td></tr><tr class="" style=""><td class="" style=""><p class="" style="">INCOMPLETE</p></td><td class="" colspan="1" style="">The automation tests that did not finish running all the steps due to other factors such as wrong syntax, power shortage, disconnected network, etc.</td></tr><tr class="" style=""><td class="" colspan="1" style="">ERROR</td><td class="" colspan="1" style="">The automation tests that have some errors occurred.</td></tr></tbody></table>
+<table class="wrapped relative-table confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Status</th><th class="xtd-0-1 confluenceTh" colspan="1" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">PASSED</td><td class="xtd-1-1 confluenceTd" colspan="1" style="">The automation tests that executed successfully.</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">FAILED</td><td class="xtd-2-1 confluenceTd" colspan="1" style="">The automation tests that failed to execute at certain steps.</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style=""><p style="">INCOMPLETE</p></td><td class="xtd-3-1 confluenceTd" colspan="1" style="">The automation tests that did not finish running all the steps due to other factors such as wrong syntax, power shortage, disconnected network, etc.</td></tr><tr class="xtr-4" style=""><td class="xtd-4-0 confluenceTd" colspan="1" style="">ERROR</td><td class="xtd-4-1 confluenceTd" colspan="1" style="">The automation tests that have some errors occurred.</td></tr></tbody></table>
 
 For example, to search for all issues that have failed in Katalon Studio test execution_:_
 

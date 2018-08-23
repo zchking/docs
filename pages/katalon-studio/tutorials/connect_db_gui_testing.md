@@ -12,7 +12,7 @@ Below is a code sample demonstrating how to
 *   execute a query
 *   close  the connection
 
-```
+```groovy
 package com.database
  
 import java.sql.DriverManager

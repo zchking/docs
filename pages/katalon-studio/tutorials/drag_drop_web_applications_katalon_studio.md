@@ -44,7 +44,7 @@ The name of each object is self-explanatory, except for the **_iframe_demo-frame
 
 4.  Create a test case named “jQuery Drag And Drop”, open it, then change to Script mode and copy the following test scripts into it:  
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     
@@ -88,7 +88,7 @@ Therefore, as Katalon Studio utilizes Selenium for the automation execution, imp
 
 3\. Create a keyword class named **_DragAndDropHelper_** and open it. Copy the following scripts to create the custom keyword:
 
-```
+```groovy
 package html5.dnd
  
 import org.openqa.selenium.JavascriptExecutor
@@ -164,7 +164,7 @@ This keyword uses the JavaScript function from [https://gist.github.com/druska/6
 
 4.  Use our newly created custom keyword. Create a test case with the name **_HTML5 Drag And Drop_**, open it then changing to the Script mode and pasting the following Groovy code:  
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     

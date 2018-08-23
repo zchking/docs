@@ -6,7 +6,7 @@ description:
 ---
 Instead of using 'Swipe' keyword which requires you to pass in coordinates, you can utilize supported backend mobile gestures from [Appium](http://appium.io/docs/en/writing-running-appium/ios/ios-xctest-mobile-gestures/index.html#mobile-swipe). Below is sample custom keyword:
 
-```
+```groovy
 import org.openqa.selenium.JavascriptExecutor
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory

@@ -44,7 +44,7 @@ Now for the interesting part: How do you determine which attribute(s) you have t
 *   Switch to **Scripting Mode** of the current Test Case,  add the below code to loop through all 4 checkboxes:
     
 
-```
+```groovy
 WebUI.openBrowser('https://davidwalsh.name/demo/checkbox-all.php')
 
 //Check on all 4 checkboxes at the same time

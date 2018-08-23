@@ -7,7 +7,7 @@ description:
 To use the current session created by Katalon Studio, you can refer to example code below:  
   
 
-```
+```groovy
 WebDriver driver = DriverFactory.getWebDriver()
 
 ```

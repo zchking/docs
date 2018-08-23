@@ -23,7 +23,7 @@ Users can perform certain actions on textbox such as clear text, type text and v
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
  
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -114,7 +114,7 @@ How to Handle Button and Checkbox
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
  
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -244,7 +244,7 @@ Radio Button is a toggle-button that allows you to check the operations.
 
 **Script Mode**
 
-```
+```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
  
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase

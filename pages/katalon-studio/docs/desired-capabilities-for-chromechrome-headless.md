@@ -10,7 +10,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 1.  To start Chrome maximized by default: [--start-maximized](https://peter.sh/experiments/chromium-command-line-switches/#start-maximized)
 
-```
+```groovy
 {"CHROME_DRIVER":{"args":["--start-maximized"]}}
 
 ```
@@ -19,7 +19,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 2\. To disable notification bars : [--disable-infobars](https://peter.sh/experiments/chromium-command-line-switches/#disable-infobars)
 
-```
+```groovy
 {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars"]}}
 
 ```
@@ -29,7 +29,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 3\. To start Chrome in incognito (private) mode : [--incognito](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
 
-```
+```groovy
 {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars","--incognito"]}}
 
 ```

@@ -13,7 +13,7 @@ Here are the requirements to be prepared for Jenkins integration:
 
 1. The Katalon Studio command for console mode execution. Refer to the section [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution) for how to create a Katalon command. Here is the basic command template:
 
-```
+```groovy
 katalon -runMode=console -projectPath="<YOUR PROJECT>" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath=<YOUR TEST SUITE PATH> -browserType="Chrome"
 
 ```
@@ -49,7 +49,7 @@ Configuration Steps
 
 *   Paste in the generated Katalon Studio command
 
-```
+```groovy
 cd /Applications
  
 ./Katalon\ Studio.app/Contents/MacOS/katalon --args -runMode=console -projectPath="/Users/admin/Katalon Studio/Samples/Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
@@ -68,7 +68,7 @@ Note: The Katalon execution command needs to be executed in the same folder of t
 
 *   Enter your execution command in the **Command** field. The command should include Katalon Studio command to execute test scripts. For example:
 
-```
+```groovy
 C:
  
 cd C:\Katalon\4.7
@@ -89,7 +89,7 @@ Note: The Katalon execution command needs to be executed in the same folder of t
 
 *   Paste in the generated Katalon Studio command:
 
-```
+```groovy
 
 
  

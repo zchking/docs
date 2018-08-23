@@ -28,13 +28,13 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_3_4.png)  
     Where:
     
-    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Repository URL</td><td class="" style="">The URL to your Git repository (Should be in HTTPS protocol).</td></tr><tr class="" style=""><td class="" style="">Username</td><td class="" style="">The username to access the Git repository.</td></tr><tr class="" style=""><td class="" style="">Password</td><td class="" style="">The password to access the Git repository.</td></tr></tbody></table>
+    <table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Repository URL</td><td class="xtd-1-1 confluenceTd" style="">The URL to your Git repository (Should be in HTTPS protocol).</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Username</td><td class="xtd-2-1 confluenceTd" style="">The username to access the Git repository.</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style="">Password</td><td class="xtd-3-1 confluenceTd" style="">The password to access the Git repository.</td></tr></tbody></table>
     
     Enter all required information and click the **Next** button to let Katalon Studio gets details about your repository.
     
     If you cannot access the repository after clicking **Next** button, the connection may have issues with SSL verification. You can use below command to bypass SSL verification (NOT recommended):
     
-    ```
+    ```groovy
     git config --global http.sslVerify false
     ```
     
@@ -46,7 +46,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     
     Where:
     
-    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Directory</td><td class="" style=""><span class="" style="">The local storage location you want to store your Git's repository.</span></td></tr><tr class="" style=""><td class="" style="">Initial branch</td><td class="" style=""><span class="" style="">All selected branches from the previous step will be displayed here. Select the branch to be used initially from this list.</span></td></tr></tbody></table>
+    <table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Directory</td><td class="xtd-1-1 confluenceTd" style=""><span style="">The local storage location you want to store your Git's repository.</span></td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Initial branch</td><td class="xtd-2-1 confluenceTd" style=""><span style="">All selected branches from the previous step will be displayed here. Select the branch to be used initially from this list.</span></td></tr></tbody></table>
     
 5.  Click **Finish** when you are done. Katalon Studio will automatically open your cloned project. 
     
@@ -86,7 +86,7 @@ The **Commit** option allows users to view all current changes and decide which 
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_41_43.png)  
     Where:
     
-    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Unstaged Changes</td><td class="" style="">Changes which have been made.</td></tr><tr class="" style=""><td class="" style="">Staged Changes</td><td class="" style="">Selected changes from&nbsp;<strong class="" style="">Unstaged Changes.</strong>&nbsp;These changes will be committed.</td></tr></tbody></table>
+    <table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Unstaged Changes</td><td class="xtd-1-1 confluenceTd" style="">Changes which have been made.</td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Staged Changes</td><td class="xtd-2-1 confluenceTd" style="">Selected changes from&nbsp;<strong style="">Unstaged Changes.</strong>&nbsp;These changes will be committed.</td></tr></tbody></table>
     
 3.  From the **Unstaged Changes** list, select the changes to be committed, then right-click on them and select **Add To Index**. Selected changes will be added to the **Staged Changes** list.  
       
@@ -106,7 +106,7 @@ Manage Branches
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 15_2_3.png)  
     Where:
     
-    <table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Field</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style="">Source</td><td class="" style=""><div class="" style=""><p class="" style="">Select either remote or local branch which will be your source branch.</p><p class="" style=""><span class="" style=""><img class="" src="../../images/katalon-studio/docs/git-integration/image2017-2-22 16_8_31.png" data-image-src="/download/attachments/3178878/image2017-2-22%2016%3A8%3A31.png?version=1&amp;modificationDate=1487754511000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5112994" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-22 16:8:31.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178878" data-linked-resource-container-version="1" style=""></span></p></div></td></tr><tr class="" style=""><td class="" style="">Branch name</td><td class="" style="">The name to be used for the new branch.</td></tr><tr class="" style=""><td class="" style="">Checkout new branch</td><td class="" style="">Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
+    <table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Field</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style="">Source</td><td class="xtd-1-1 confluenceTd" style=""><div class="content-wrapper" style=""><p style="">Select either remote or local branch which will be your source branch.</p><p style=""><span class="confluence-embedded-file-wrapper" style=""><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/git-integration/image2017-2-22 16_8_31.png" data-image-src="/download/attachments/3178878/image2017-2-22%2016%3A8%3A31.png?version=1&amp;modificationDate=1487754511000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5112994" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-22 16:8:31.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178878" data-linked-resource-container-version="1" style=""></span></p></div></td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style="">Branch name</td><td class="xtd-2-1 confluenceTd" style="">The name to be used for the new branch.</td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style="">Checkout new branch</td><td class="xtd-3-1 confluenceTd" style="">Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
     
 3.  Click **Finish** to create new branch.
 

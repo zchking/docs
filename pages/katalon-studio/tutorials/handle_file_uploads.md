@@ -27,7 +27,7 @@ We can also use the **script mode**. Below script is the code to upload a file a
 
 **Script Mode:**
 
-```
+```groovy
 'Open browser and navigate to given URL'
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\Katalon Articles\\\\File Upload\\\\UploadFile.html')
 'Maximize the window\r\n'
@@ -61,7 +61,7 @@ Steps:
 
 **Script Mode:**
 
-```
+```groovy
 'Open browser and navigate to given URL'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\Katalon Articles\\\\File Upload\\\\UploadFile.html')
@@ -91,7 +91,7 @@ For that, we need to set preferences for Firefox, as shown in the Image below.
 
 **Script Mode:**
 
-```
+```groovy
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.testng.Assert as Assert

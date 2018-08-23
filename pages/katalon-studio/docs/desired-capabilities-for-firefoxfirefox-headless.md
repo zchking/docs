@@ -19,7 +19,7 @@ Some common Desired Capabilities:
 
 1.  Start Firefox at default page: browser.startup.homepage
     
-    ```
+    ```groovy
     {"FIREFOX_DRIVER":{"firefox_profile":{"browser.startup.homepage":"www.google.com"}}}
     ```
     
@@ -28,7 +28,7 @@ Some common Desired Capabilities:
     
 2.   Never ask for file download for file MIME type mentioned. The list of MIME type can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types).
 
-```
+```groovy
 {"FIREFOX_DRIVER":{"firefox_profile":{"browser.download.folderList":"2","browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}
 ```
 

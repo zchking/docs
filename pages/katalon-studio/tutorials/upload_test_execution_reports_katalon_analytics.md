@@ -77,7 +77,7 @@ Uploading multiple execution reports from CLI
 
 4.  Start CLI. The Window Command Line is used for this tutorial. Enter the following syntax
 
-```
+```groovy
 java -jar ../katalon-report-uploader-0.0.1-SNAPSHOT.jar
  
 --kit.server.api=http://analytics.katalon.com --projectId=1 --path=""
@@ -88,7 +88,7 @@ java -jar ../katalon-report-uploader-0.0.1-SNAPSHOT.jar
 
 Where
 
-<table style="table-layout: fixed;" border="1px solid black" class=""><thead><tr><th style="" class="">katalon-report-uploader-0.0.1-SNAPSHOT.jar</th><th style="" class="">Jar file path can be an absolute path or relative path</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class="">projectID</span></td><td style="" class=""><span style="" class="">Katalon Analytics Projects’ ID</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Path=” “</span></td><td style="" class=""><span style="" class="">Local path of the Katalon Studio Reports folder</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class="">Email and Password</span></td><td style="" class=""><span style="" class="">Your Katalon Studio account’s credentials</span></td></tr></tbody></table>
+<table style="table-layout: fixed;" border="1px solid black"><thead><tr><th style="">katalon-report-uploader-0.0.1-SNAPSHOT.jar</th><th style="">Jar file path can be an absolute path or relative path</th></tr></thead><tbody style=""><tr style=""><td style=""><span style="">projectID</span></td><td style=""><span style="">Katalon Analytics Projects’ ID</span></td></tr><tr style=""><td style=""><span style="">Path=” “</span></td><td style=""><span style="">Local path of the Katalon Studio Reports folder</span></td></tr><tr style=""><td style=""><span style="">Email and Password</span></td><td style=""><span style="">Your Katalon Studio account’s credentials</span></td></tr></tbody></table>
 
 ![Start CLI](../../images/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics/7.png)
 

@@ -12,12 +12,12 @@ Get the device OS version of the current active mobile device.
 Parameters  
 ------------
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param</th><th class="" style="">Param Type</th><th class="" colspan="1" style="">Mandatory</th><th class="" colspan="1" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">flowControl</span></td><td class="" style=""><span style="" class="">FailureHandling</span></td><td class="" colspan="1" style=""><span style="" class="">Optional</span></td><td class="" colspan="1" style=""><span style="" class="">Spec</span><span class="" style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" class="" style="">failure handling</a><span class="" style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+<table class="relative-table wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Param</th><th class="xtd-0-1 confluenceTh" style="">Param Type</th><th class="xtd-0-2 confluenceTh" colspan="1" style="">Mandatory</th><th class="xtd-0-3 confluenceTh" colspan="1" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><span style="">flowControl</span></td><td class="xtd-1-1 confluenceTd" style=""><span style="">FailureHandling</span></td><td class="xtd-1-2 confluenceTd" colspan="1" style=""><span style="">Optional</span></td><td class="xtd-1-3 confluenceTd" colspan="1" style=""><span style="">Spec</span><span style="">ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow" style="">failure handling</a><span style=""> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Param Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><span style="" class="">String</span></td><td class="" style=""><span style="" class="">The device OS version of the current active mobile device.</span></td></tr></tbody></table>
+<table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Param Type</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><span style="">String</span></td><td class="xtd-1-1 confluenceTd" style=""><span style="">The device OS version of the current active mobile device.</span></td></tr></tbody></table>
 
 Example 
 --------
@@ -28,7 +28,7 @@ You want to get device OS version of the current active mobile device, then stor
     ![](../../images/katalon-studio/docs/mobile-get-device-os-version/image2017-3-3 14_0_54.png)
 *   Script view 
     
-    ```
+    ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
     import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

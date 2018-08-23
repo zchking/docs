@@ -75,7 +75,7 @@ For your reference, Katalon Studio generates a test script for the recorded acti
 
 ### Script mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile

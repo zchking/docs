@@ -39,7 +39,7 @@ The following screenshot shows simple scripts on how to handle a pop-up using th
 
 ![Solving Pop-up dialog issue](../../images/katalon-studio/tutorials/pop_up_dialog_issue/Switch-To-Window-Title-keyword..png)
 
-```
+```groovy
 'Open browser and navigate to elated site'
 WebUI.openBrowser('http://www.elated.com/articles/javascript-tabs/')
  
@@ -67,11 +67,11 @@ WebUI.closeBrowser()
 
 Where:
 
-<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title" class="" style=""><span style="" class="">Switch To Window Title</span></a></span></td><td style="" class=""><span style="" class="">Switch to the window identified by a given title.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index" class="" style=""><span style="" class="">Switch To Window Index</span></a></span></td><td style="" class=""><span style="" class="">Switch to the window identified by a given index.</span></td></tr><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url" class="" style=""><span style="" class="">Switch To Window Url</span></a></span></td><td style="" class=""><span style="" class="">Switch to the window identified by a given URL.</span></td></tr></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title" style=""><span style="">Switch To Window Title</span></a></span></td><td style=""><span style="">Switch to the window identified by a given title.</span></td></tr><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index" style=""><span style="">Switch To Window Index</span></a></span></td><td style=""><span style="">Switch to the window identified by a given index.</span></td></tr><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url" style=""><span style="">Switch To Window Url</span></a></span></td><td style=""><span style="">Switch to the window identified by a given URL.</span></td></tr></tbody></table>
 
 If you want to switch back to the default window (parent), use the [Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content) keyword. For example_:_
 
-```
+```groovy
 'Open browser and navigate to a site that has an iframe'
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
  
@@ -88,12 +88,12 @@ WebUI.closeBrowser()
 
 Where:
 
-<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content" class="" style=""><span style="" class="">Switch To Default Content</span></a></span></td><td style="" class=""><span style="" class="">Switch back to the default window, after working with iFrame windows.</span></td></tr></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content" style=""><span style="">Switch To Default Content</span></a></span></td><td style=""><span style="">Switch back to the default window, after working with iFrame windows.</span></td></tr></tbody></table>
 
   
 To deal with Windows’ native dialogs such as uploading files, users use the [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
 
-```
+```groovy
 'Open browser and navigate to a site that has upload control'
 WebUI.openBrowser(‘http://the-internet.herokuapp.com/upload’)
  
@@ -107,7 +107,7 @@ WebUI.closeBrowser()
 
 Where:
 
-<table style="table-layout: fixed;" class=""><thead><tr><th style="" class="">Keyword</th><th style="" class="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td style="" class=""><span style="" class=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File" class="" style=""><span style="" class="">Upload File</span></a></span></td><td style="" class=""><span style="" class="">Specify the file for the upload dialog</span><b class="" style="">.</b></td></tr></tbody></table>
+<table style="table-layout: fixed;"><thead><tr><th style="">Keyword</th><th style="">Description</th></tr></thead><tbody style=""><tr style=""><td style=""><span style=""><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File" style=""><span style="">Upload File</span></a></span></td><td style=""><span style="">Specify the file for the upload dialog</span><b style="">.</b></td></tr></tbody></table>
 
 Regarding the browser’s popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
 
@@ -126,7 +126,7 @@ We need to use it when you want to switch to the second window (index 1).
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -167,7 +167,7 @@ Switch to the window with given title.
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -208,7 +208,7 @@ Switch to the window with given URL.
 
 **Script Mode:**
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI

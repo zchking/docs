@@ -44,7 +44,7 @@ We want to test the alert dialog which usually appears on mobile app when there 
 
 ### Script Mode
 
-```
+```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration

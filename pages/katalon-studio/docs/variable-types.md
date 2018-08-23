@@ -6,7 +6,7 @@ description:
 ---
 There are three types of variables supported in Katalon Studio, as below:
 
-<table class="" style="table-layout: fixed;"><thead><tr><th class="" style="">Variable Type</th><th class="" style="">Description</th></tr></thead><tbody class="" style=""><tr class="" style=""><td class="" style=""><p class="" style="">Private variable</p></td><td class="" style=""><p class="" style="">A private variable can be referred only within the scope of the test case where it is defined.</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Local Variable</p></td><td class="" style=""><p class="" style="">A public variable can be exposed as the parameter for the test case where it is defined</p></td></tr><tr class="" style=""><td class="" style=""><p class="" style="">Global Variable</p></td><td class="" style=""><p class="" style="">A global variable can be referred anywhere of your project.</p></td></tr></tbody></table>
+<table class="wrapped confluenceTable" style="table-layout: fixed;"><thead><tr><th class="xtd-0-0 confluenceTh" style="">Variable Type</th><th class="xtd-0-1 confluenceTh" style="">Description</th></tr></thead><tbody style=""><tr class="xtr-1" style=""><td class="xtd-1-0 confluenceTd" style=""><p style="">Private variable</p></td><td class="xtd-1-1 confluenceTd" style=""><p style="">A private variable can be referred only within the scope of the test case where it is defined.</p></td></tr><tr class="xtr-2" style=""><td class="xtd-2-0 confluenceTd" style=""><p style="">Local Variable</p></td><td class="xtd-2-1 confluenceTd" style=""><p style="">A public variable can be exposed as the parameter for the test case where it is defined</p></td></tr><tr class="xtr-3" style=""><td class="xtd-3-0 confluenceTd" style=""><p style="">Global Variable</p></td><td class="xtd-3-1 confluenceTd" style=""><p style="">A global variable can be referred anywhere of your project.</p></td></tr></tbody></table>
 
 Refer to the subsequence sections for how to define a variable of each type.
 
@@ -15,7 +15,7 @@ Private variables
 
 Variables defined in **Scripting view** of Test Cases are classified as private variables. These variables will only be accessible within the scope of your Groovy class. For example:
 
-```
+```groovy
 // x is defined as a variable of String type
 	String x = "Hello";
  

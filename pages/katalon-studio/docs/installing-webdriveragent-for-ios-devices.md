@@ -18,7 +18,7 @@ This setup process is **NOT** required if you use an Android device. Please go
 
 *   Open **Terminal** and enter following command to initialize **WebDriverAgent** project:
 
-```
+```groovy
 cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
 mkdir -p Resources/WebDriverAgent.bundle
 sh ./Scripts/bootstrap.sh -d
@@ -57,7 +57,7 @@ Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing 
 
 *   Build **WebDriverAgent** by executing this command on Terminal in WebdriverAgent folder to verify all above steps worked
     
-    ```
+    ```groovy
     xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=<udid>' test
     ```
     
@@ -70,7 +70,7 @@ Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing 
 
 *   If this was successful, the output should end with something like:
     
-    ```
+    ```groovy
         Test Suite 'All tests' started at 2017-01-23 15:49:12.585
         Test Suite 'WebDriverAgentRunner.xctest' started at 2017-01-23 15:49:12.586
         Test Suite 'UITestingUITests' started at 2017-01-23 15:49:12.587
@@ -82,13 +82,13 @@ Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing 
 
 *   (OPTIONAL) To completely verify , you can try accessing the WebDriverAgent server status (note: you _must_ be on the same network as the device, and know its IP address, from Settings => Wi-Fi => Current Network)  
     
-    ```
+    ```groovy
     export DEVICE_URL='http://<device IP>:8100'
     export JSON_HEADER='-H "Content-Type: application/json;charset=UTF-8, accept:application/json"'
     curl -X GET $JSON_HEADER $DEVICE_URL/status
     ```
     
-    ```
+    ```groovy
     You ought to get back output something like this:  
      {
           "value" : {
