@@ -15,14 +15,14 @@ Parameters  
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | fileName | String | Required |  The absolute path of the saved screenshot image file |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
 
 You want to take a screenshot of the current device screen and save it to another location.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

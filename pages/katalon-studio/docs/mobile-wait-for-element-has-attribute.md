@@ -20,7 +20,7 @@ Represent a mobile element.
  |
 | attributeName | String | Required | The name of the attribute to wait for. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -38,7 +38,7 @@ Example
 
 You want to wait for 'App' button has 'class' attribute.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -75,7 +75,7 @@ Mobile.closeApplication()
     
 *   timeOut - int (required): \- system will wait at most timeout (seconds) to return result
     
-*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details is in this page: [Failure Handling](/display/KD/Failure+Handling)
+*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details is in this page: Failure Handling
 
 #### Returns
 
@@ -85,10 +85,8 @@ Mobile.closeApplication()
 
 Manual: 
 
-** ![](../../images/katalon-studio/docs/mobile-wait-for-element-has-attribute/image2016-8-15 19_2_59.png)**
-
 Script:
 
-```groovy
+```
 Mobile.waitForElementHasAttribute(findTestObject('SampleApp.apk/android.widget.Button - Button0'), 'class', 10)
 ```

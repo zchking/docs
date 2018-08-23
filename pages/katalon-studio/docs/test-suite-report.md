@@ -8,15 +8,13 @@ Once a test suite finishes its execution, a historical report will be automatica
 
 For example:
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_1_55.png)
-
 The report will be named with following the naming convention: _YYYYMMDD_HHmmss_, which is the datetime when the test suite starts its execution.
 
 Report Overview
 ---------------
 
 In **Test Explorer** view, double-click on a historical execution of a test suite to view its details:  
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_27_2.png)  
+  
 where:
 
 | Component | Description |
@@ -26,16 +24,12 @@ where:
 | Execution Settings | 
 Settings of executed browsers/devices. For example:
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_40_50.png)
-
 
 
  |
 | Execution Environment | 
 
 Other information about the executed system. For example:
-
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_42_41.png)
 
 
 
@@ -45,7 +39,7 @@ Test Cases List
 ---------------
 
 *   The summary information of all executed iterations done in the test suite is displayed here. Each time when a test case is executed with a test data row is considered an **iteration**.  
-    ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_15_33.png)
+    
 *   Users can easily determine which type of information to be displayed by using the provided filters:
     
     | 
@@ -87,14 +81,12 @@ Test Cases List
     | Incomplete | Show only incomplete iterations |
     
 *   By selecting an **iteration** in **Test Case Table** and click **Show Test Case Details**, you can view details regarding its executed logs.
-*   If **qTest** and **JIRA** are configured in project settings, you can submit data to those systems. Refer to [Enable qTest Integration](/display/KD/Enable+qTest+Integration) and [Configure JIRA Integration](/display/KD/Configure+JIRA+Integration) for more details.
+*   If **qTest** and **JIRA** are configured in project settings, you can submit data to those systems. Refer to Enable qTest Integration and Configure JIRA Integration for more details.
 
 Test Suite Summary
 ------------------
 
 This section gives the summary information of the test suite:
-
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_29_56.png)
 
 where:
 
@@ -120,7 +112,7 @@ This section shows all information regarding the iteration selected in the **Tes
 ### Test Log Tab
 
 *   Details regarding all the executed steps and their status are displayed in this tab.   
-    ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_29_56.png)  
+      
     where:
     
     | Component | Description |
@@ -137,7 +129,7 @@ This section shows all information regarding the iteration selected in the **Tes
     The screenshot taken from the application under test, it is captured in either of following situations:
     
     *   An error occurs during test execution
-    *   The [Take Screenshot](https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot) keyword is used
+    *   The Take Screenshot keyword is used
     
      |
     
@@ -192,14 +184,12 @@ This section shows all information regarding the iteration selected in the **Tes
     | Warning | Show the steps which have warning status. |
     | Not Run | Show the skipped steps. |
     
-*   If **JIRA** is configured in project settings, you can submit a ticket to this system. Refer to [Configure JIRA Integration](/display/KD/Configure+JIRA+Integration) for more details.
+*   If **JIRA** is configured in project settings, you can submit a ticket to this system. Refer to Configure JIRA Integration for more details.
 *   Screenshots are taken for the failed steps and you can hover the mouse cursor over the attachment icon to review. 
 
 ### Information Tab
 
 Users can find the summary information of the test case in this tab.
-
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_4_11.png)
 
 where:
 
@@ -217,8 +207,6 @@ Start / End / Elapse
 
 The information regarding qTest Integration of this iteration is displayed in this tab.
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_15_4.png)
-
 where:
 
 | Field | Description |
@@ -230,5 +218,4 @@ where:
 Export to other formats
 -----------------------
 
-For the purpose of sharing, users can generate reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit** using the context menu in Test Explorer as example below:   
-![](../../images/katalon-studio/docs/test-suite-report/image2017-6-23 16_2_2.png)
+For the purpose of sharing, users can generate reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit** using the context menu in Test Explorer as example below:

@@ -15,14 +15,14 @@ Parameters  
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | fileName | String | Optional | The captured file path. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
 
 1.  You want to take a screenshot of the current browser after logging in and store it in the temp folder
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -65,7 +65,7 @@ WebUI.closeBrowser()
 
 2\. You want to take a screenshot of the current browser after logging in and store it custom location:
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -108,7 +108,7 @@ WebUI.closeBrowser()
 
 3. You want to take a screenshot of the current browser after logging in and store it current project by using relative paths.
 
-```groovy
+```
  import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

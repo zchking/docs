@@ -12,11 +12,11 @@ Create a Package
 A _package_ is a namespace that organizes a set of related classes and interfaces. Because software written in the Java programming language or similar languages can be composed of hundreds or _thousands _of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages.
 
 1.  Select **File > New > Package** from the main menu. The **New Keyword Package** dialog will be displayed. Enter the name for your package and click **OK**.  
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 15_35_6.png)  
+      
       
     
 2.  A new package is created under **Keywords** of Katalon Studio accordingly.  
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 15_36_13.png)
+    
 
 Create a Custom Keyword
 -----------------------
@@ -25,10 +25,9 @@ Create a Custom Keyword
     
     Since version 5.4, Katalon Studio provides user option to generate sample custom keywords for Web, Mobile and API Testing.
     
-    Refer to this guide: [https://docs.katalon.com/x/3QHR](https://docs.katalon.com/x/3QHR)
+    Refer to this guide: https://docs.katalon.com/x/3QHR
     
       
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2018-4-2 14_37_16.png)
     
     Attention
     
@@ -38,12 +37,12 @@ Create a Custom Keyword
       
     
 2.  A new keyword is created under the specified **package** accordingly.  
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 15_50_48.png)  
+      
       
     
 3.  Enter the following block of code in your class to define one custom keyword:
     
-    ```groovy
+    ```
     @Keyword
     def keywordName(parameters…) {
        // enter your code here
@@ -60,7 +59,6 @@ Create a Custom Keyword
     | parameters | The list of parameters that would be used in the custom keyword |
     
     For example:  
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 16_20_3.png)
     
 4.  Save the **Keyword** file when you're done.  
       
@@ -72,11 +70,11 @@ Custom keywords in Manual view
 Follow the steps below in order to use your defined custom keywords in **Manual view** of a Test Case:
 
 1.  Open a test case in **Manual** **view**, then select to add **Custom Keyword** from command toolbar.  
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-6-30 20_32_47.png)  
+      
       
     
 2.  A new test step is added with a list of all defined custom keywords. Select your recently created keyword here.  
-    ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6 16_44_46.png)
+    
 
 Custom keywords in Scripting view
 ---------------------------------
@@ -85,13 +83,11 @@ Follow the steps below in order to use your defined custom keywords in **Script
 
 *   The **Class** _CustomKeywords_ of Katalon Studio allows you to access all custom keywords. Enter the following syntax into the script editor:
     
-    ```groovy
+    ```
     CustomKeywords.
     ```
     
 *   The **Content Assist** function will be invoked immediately after you type the **dot** character. **Content Assist** provides users with the context-sensitive suggestions for code completion. Therefore, all the custom keywords defined in your test project will be displayed as below:
-
-![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2017-6-30 20_35_9.png)
 
 *   Select the recently created keyword and provide all parameters as required.  
       
@@ -101,15 +97,15 @@ The following API docs may prove useful when working with custom keywords:
 
 | Class | Method | Description |
 | --- | --- | --- |
-| **[Driver Factory](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/driver/DriverFactory.html)** | [getWebDriver()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/driver/DriverFactory.html#getWebDriver()) | Get the current active web driver. |
-| **[Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html)** | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)) | Add a new property to the test object |
+| **Driver Factory** | getWebDriver() | Get the current active web driver. |
+| **Test Object** | addProperty(String name, ConditionType condition, String value) | Add a new property to the test object |
 | setProperties(List<TestObjectProperty> properties) | Set the properties of the test object |
-| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get object ID. |
-| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name |
-| **[Keyword Util](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html)** | [logInfo(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#logInfo(java.lang.String)) | Log message as info |
-| [markError(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markError(java.lang.String)) | Mark a keyword to be error |
-| [markErrorAndStop(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markErrorAndStop(java.lang.String)) | Mark a keyword to be error and stop execution |
-| [markFailed(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markFailed(java.lang.String)) | Mark a keyword to be failed and continue execution |
-| [markFailedAndStop(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markFailedAndStop(java.lang.String)) | Mark a keyword to be failed and stop execution |
-| [markPassed(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markPassed(java.lang.String)) | Mark a keyword to be passed |
-| [markWarning(String message)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/util/KeywordUtil.html#markWarning(java.lang.String)) | Mark a keyword to be warning |
+| getObjectId() | Get object ID. |
+| findPropertyValue(String name, boolean caseSensitive) | Find the value of a property using the property name |
+| **Keyword Util** | logInfo(String message) | Log message as info |
+| markError(String message) | Mark a keyword to be error |
+| markErrorAndStop(String message) | Mark a keyword to be error and stop execution |
+| markFailed(String message) | Mark a keyword to be failed and continue execution |
+| markFailedAndStop(String message) | Mark a keyword to be failed and stop execution |
+| markPassed(String message) | Mark a keyword to be passed |
+| markWarning(String message) | Mark a keyword to be warning |

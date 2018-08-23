@@ -7,7 +7,7 @@ description:
 Description
 -----------
 
-Get the [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) value of a web element.
+Get the CSS value of a web element.
 
 Parameters
 ----------
@@ -18,7 +18,7 @@ Parameters
 Represent a web element.
 
  |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -32,7 +32,7 @@ Example
 
 You want to get 'font-size' CSS value of 'Book Appointment' button
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

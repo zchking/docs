@@ -6,6 +6,6 @@ description:
 ---
 *   '**Click Offset**', '**Right Click Offset**' and '**Mouse Over Offset**' keywords do not work on Safari.
 *   Android EditText message can't be captured using Mobile Object Spy.
-*   Does not support Safari on both Windows and MacOS yet when using '[Execute test from specific step](https://docs.katalon.com/display/KD/Execute+test+from+specific+step)'.
+*   Does not support Safari on both Windows and MacOS yet when using 'Execute test from specific step'.
 *   Katalon Studio Console Mode cannot display Unicode characters due to Windows CMD doesn't support UTF-8 encoding.
 *   When exporting the test Reports to PDF file, special characters will be converted to UTF-8 format. The Katalon Team has planned to support custom font in future releases.

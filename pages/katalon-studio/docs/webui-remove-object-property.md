@@ -16,7 +16,7 @@ Parameters  
 | --- | --- | --- | --- |
 | testObject | Test Object | Required | Represent a web element. |
 | propertyName | String | Required | Name of the property, for example, xpath, id, name,... |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -33,7 +33,7 @@ Example 
 
 You want to remove property "class" of the object "btn\_Login" and saved the modified object as "new\_btn".
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

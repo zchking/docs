@@ -18,7 +18,7 @@ Parameters
 Represent a web element.
 
  |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue orsto |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue orsto |
 
 Returns
 -------
@@ -36,7 +36,7 @@ Example
 
 You want to verify 'Make Appointment'  button is not visible on DOM.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

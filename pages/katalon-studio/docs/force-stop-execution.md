@@ -8,15 +8,15 @@ When developing lengthy Test Cases, it's useful to be able to stop execution to 
   
 For me, this little method does exactly what I want -- it kills the test at the exact point I need and allows me to do something in the browser:
 
-```groovy
+```
 import com.kms.katalon.core.exception.StepErrorException as StepErrorException...public class mytools {  static void FORCESTOP() {    throw new StepErrorException("FORCEDSTOP")  } ...}
 ```
 
 That method lives a keyword tools class which I import "everywhere".  Then, in a test case script I do this:
 
-```groovy
+```
 FORCESTOP()
 ```
 
 _  
-Credit to [Russ Thomas](https://forum.katalon.com/discussion/7482/tip-forcestop)_
+Credit to Russ Thomas_

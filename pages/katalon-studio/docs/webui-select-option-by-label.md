@@ -9,8 +9,6 @@ Description
 
  Select the options with the given label (displayed text).
 
-![](../../images/katalon-studio/docs/webui-select-option-by-label/label.jpg)
-
 Parameters
 ----------
 
@@ -19,14 +17,14 @@ Parameters
 | to | TestObject | Required | Represent a web element. |
 | labelText | String | Required | Displayed text of the options to be selected. |
 | isRegex | boolean | Required | true if the label is a regular expression, otherwise false |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop |
 
 Example
 -------
 
 You want to select "Hongkong CURA Healthcare Center" option in the list.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

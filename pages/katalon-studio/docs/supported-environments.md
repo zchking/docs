@@ -9,8 +9,8 @@ Browsers
 
 | Desktop Browsers | Version on Windows | Version on macOS | Note |
 | --- | --- | --- | --- |
-| Internet Explorer | 9, 10, 11 | N/A | Required IE configurations: [Internet Explorer Configurations](/display/KD/Internet+Explorer+Configurations). |
-| Microsoft Edge | Current | N/A | Refer to this [page](https://docs.microsoft.com/en-us/microsoft-edge/webdriver) for the current status of Edge WebDriver. |
+| Internet Explorer | 9, 10, 11 | N/A | Required IE configurations: Internet Explorer Configurations. |
+| Microsoft Edge | Current | N/A | Refer to this page for the current status of Edge WebDriver. |
 | Firefox | 56+ | 
 To use Firefox 57 with Katalon Studio, please use Katalon Studio v5.1+
 

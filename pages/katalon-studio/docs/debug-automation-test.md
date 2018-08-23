@@ -12,20 +12,20 @@ The following sample shows you the basic steps to debug a test case:
       
     
 2.  Double click on the left-most side of the script editor to mark the **breakpoint** for the step you want to start debugging from.  
-    ![](../../images/katalon-studio/docs/debug-automation-test/image2017-2-24 21_25_25.png)   
+       
       
     
 3.  Select option to **Debug** from the main toolbar.  
-    ![](../../images/katalon-studio/docs/debug-automation-test/image2017-2-24 21_29_28.png)  
+      
       
     
 4.  Confirm when asked to show **Debug** perspective.  
-    ![](../../images/katalon-studio/docs/debug-automation-test/image2017-2-28 14_46_2.png)  
+      
     The **Debug** perspective provides users with helpful options for debugging purpose, users can:
     *   Navigate to executing methods using the debug toolbar.  
-        ![](../../images/katalon-studio/docs/debug-automation-test/image2017-2-24 21_37_32.png)
+        
     *   Track value of variables with Watch utility.  
-        ![](../../images/katalon-studio/docs/debug-automation-test/image2017-2-24 21_39_54.png)
+        
     *   Monitor executed threads.  
           
         

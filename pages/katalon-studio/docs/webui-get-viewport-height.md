@@ -14,7 +14,7 @@ Parameters  
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -31,7 +31,7 @@ Example 
 
 You want to get viewport height value of web browser. The output is stored in variable "viewport_height".
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

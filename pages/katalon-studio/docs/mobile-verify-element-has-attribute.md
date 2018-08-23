@@ -17,7 +17,7 @@ Parameters
 | to | TestObject  | Required | Represent a mobile element |
 | attributeName  | String  | Required | The name of the attribute to verify |
 | timeout  | int | Required | System will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -29,7 +29,7 @@ Example
 
 You want to verify 'App' control has 'class' attribute in 10 seconds timeout.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

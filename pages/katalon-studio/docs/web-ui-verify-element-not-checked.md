@@ -16,14 +16,14 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return a result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------
 
 You want to verify 'Medicaid' checkbox is NOT checked in 10 seconds.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

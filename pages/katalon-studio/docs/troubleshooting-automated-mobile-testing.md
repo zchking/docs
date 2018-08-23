@@ -4,8 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-automated-mobile-testing.html 
 description: 
 ---
-*   Please read **[Installation and Setup](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.
-*   The information below is **NOT** exhaustive. For further troubleshooting requests, check out [Katalon Community](https://forum.katalon.com/discussions) or consider subscribing to our [Business Support](https://www.katalon.com/support-service-options/).
+*   Please read **Installation and Setup** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.
+*   The information below is **NOT** exhaustive. For further troubleshooting requests, check out Katalon Community or consider subscribing to our Business Support.
 
 | No | Issue | Solution |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ description:
 *   Go to Settings -> Developer > turn ON UIAutomation.
 *   Check if your device is recognized using the following commands on Terminal
     
-    ```groovy
+    ```
     cd /Applications/Katalon\ Studio.app/Contents/Eclipse/configuration/resources/tools/imobiledevice 
     idevice_id -l
     ```
@@ -66,7 +66,7 @@ Set your Appium Log Level to "Debug" which you can find this option in Windows >
 After this change is applied, retry your record/spy session and then open generated .appium file in the project folder.   
 Somewhere in this file you are likely will see these lines:
 
-```groovy
+```
 [debug] [ADB] Running '..\adb.exe' with args: [...] 
 [debug] [ADB] Found package: 'com.abc.def.xyz' and fully qualified activity name : 'com.egh.jik' 
 [debug] [ADB] Incorrect package and activity. Retrying.
@@ -85,20 +85,20 @@ The root cause is Katalon Studio can't start application due to incorrect packag
 
 
  |
-| 6 | Carthage is not found | Known issue of Appium 1.7 with Xcode 9: [https://github.com/appium/appium/issues/9344](https://github.com/appium/appium/issues/9344), so please use Katalon Studio 5.1.0.2+ to avoid this message. |
+| 6 | Carthage is not found | Known issue of Appium 1.7 with Xcode 9: https://github.com/appium/appium/issues/9344, so please use Katalon Studio 5.1.0.2+ to avoid this message. |
 | 7 | Unable to Start Application on this device: Appium directory is invalid. | 
 
 Katalon Studio cannot locate the provided Appium directory. Please double check your Appium directory to make sure it should be as shown below:
 
 Windows: (Window → Katalon Studio Preferences → Mobile → Appium Directory)
 
-```groovy
+```
 C:\Users\<Username>\AppData\Roaming\npm\node_modules\appium
 ```
 
         MacOS: (Katalon Studio → Preferences → Mobile → Appium Directory)
 
-```groovy
+```
 /usr/local/lib/node_modules/appium
 ```
 

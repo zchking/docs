@@ -12,7 +12,7 @@ Desired Capabilities are key/value pairs that tell the browser properties such a
 *   In mobile application automation, where the browser properties and the device properties can be set.
 *   In web application automation, where additional settings can be added to the browser.
 
-Katalon Studio allows you to define these Desired Capabilities in [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings).
+Katalon Studio allows you to define these Desired Capabilities in Execution Settings.
 
 Understand the Settings
 -----------------------
@@ -87,7 +87,7 @@ Define Desired Capabilities for execution with a headless instance using Chrome.
  |
 | ****Project > Settings >** Execution > Default > WebUI > Firefox (Headless)** | Define Desired Capabilities for execution with a headless instance using Firefox. |
 
-As indicated above, any changes made '**Default**' settings will apply to the current environment immediately when you [execute a test](https://docs.katalon.com/display/KD/Execute+a+Test+Case+or+a+Test+Suite#ExecuteaTestCaseoraTestSuite-ExecuteanEntireTestCaseorTestSuite). If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
+As indicated above, any changes made '**Default**' settings will apply to the current environment immediately when you execute a test. If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
 
 Modify Desired Capabilities in Katalon Studio
 ---------------------------------------------
@@ -97,7 +97,7 @@ After you select the environment you want to modify its desired capabilities, th
 *   **Add**:
     *   Click the **Add** button of command toolbar above the Desired Capabilities list. A new row will be added to the list.
     *   Provide the name of the property that you’d like to configure and its type under the Type column.
-    *   Define value for the property. Refer to [Value Types](/display/KD/Value+Types) for details regarding how to input value for different types.
+    *   Define value for the property. Refer to Value Types for details regarding how to input value for different types.
 *   **Delete**: This will delete selected records.
 *   **Clear**: This will clear all existing records
 
@@ -107,13 +107,11 @@ Desired Capabilities for Mobile
 
 In case of Mobile execution, you need to select the device when configuring Desired Capabilities.
 
-![](../../images/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1 13_59_38.png)
-
 Where:
 
 *   **Device Name**: the device to apply Desired Capabilities settings on.
 
-*   [Desired Capabilities for Firefox/Firefox (headless)](/pages/viewpage.action?pageId=13700172)
-*   [Desired Capabilities for Chrome/Chrome (headless)](/pages/viewpage.action?pageId=13700170)
-*   [Desired Capabilities for Internet Explorer](/display/KD/Desired+Capabilities+for+Internet+Explorer)
-*   [Remote Desired Capabilities](/display/KD/Remote+Desired+Capabilities)
+*   Desired Capabilities for Firefox/Firefox (headless)
+*   Desired Capabilities for Chrome/Chrome (headless)
+*   Desired Capabilities for Internet Explorer
+*   Remote Desired Capabilities

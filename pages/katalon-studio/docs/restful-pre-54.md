@@ -8,16 +8,16 @@ Create REST Object
 ------------------
 
 1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed.  
-    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 11_22_17.png)  
+      
     Provide the name for the new service request object, select **RESTful** as **Request Type** then click **OK**.  
       
     
 2.  A new service request object is created under **Object Repository** of Katalon Studio.  
-    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 11_40_54.png)  
+      
       
     
 3.  In the opened editor of the new service request object, enter all required information.  
-    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 11_41_59.png)  
+      
     where:
     
     | Field | Description |
@@ -36,7 +36,7 @@ Create REST Object
     
     Type: **Basic, OAuth 1.0,** or **No Authorization**  
     
-    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_31_8.png)    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-8-28 9_49_5.png)
+        
     
     
     
@@ -45,16 +45,14 @@ Create REST Object
     
     The header information that you want to transmit in this RESTful request object.
     
-    You can select headers from the list of suggested options (by double clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](#RESTful(Pre-5.4)-SupportedHTTPHeaders) for more details.
-    
-    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_33_57.png)
+    You can select headers from the list of suggested options (by double clicking on the **Name** cell) or enter another header of your interest. Refer to Supported HTTP Headers for more details.
     
     
     
      |
     | HTTP Body | 
     
-    The information that you want to transmit in this RESTful request object. You can enter directly or import content from external text files. ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_38_29.png)
+    The information that you want to transmit in this RESTful request object. You can enter directly or import content from external text files. 
     
     
     
@@ -63,10 +61,8 @@ Create REST Object
     
     The retrieved message from web service server when you click **Test Request**.
     
-    ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 13_58_30.png)
-    
     
     
      |
     
-4.  Save the service request object when you're done. The service request defined here can be utilized in other test cases. Refer to [Use WebService in Test Case](#RESTful(Pre-5.4)-UseWebServiceinTestCase) for more details.
+4.  Save the service request object when you're done. The service request defined here can be utilized in other test cases. Refer to Use WebService in Test Case for more details.

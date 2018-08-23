@@ -6,7 +6,7 @@ description:
 ---
 To set cookies for browsers:
 
-```groovy
+```
 import org.openqa.selenium.Cookie
 import org.openqa.selenium.WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory
@@ -19,6 +19,6 @@ driver.manage().addCookie(ck)
 
 **References:**
 
-*   [Open Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Open+Browser)
+*   Open Browser
 
-_Credit to [Ana Hong](https://forum.katalon.com/discussion/4607/how-can-i-set-cookies-for-my-browsers-in-katalon#Comment_9644)_
+_Credit to Ana Hong_

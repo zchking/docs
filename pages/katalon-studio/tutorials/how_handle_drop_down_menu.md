@@ -17,14 +17,10 @@ The below image shows what the sample select command has.
 2.  _Value:_ Thevalue of the “value” attribute.
 3.  _Label:_ The exactly displayed text of a particular option
 
-![DropDown Methods Explanation](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/DropDown_Methods_Explanation.png)
-
 Deselect All Options
 --------------------
 
 We have a multi-select drop down as the following, values in a multi-select combo box include Admin, HR, Networking, Developer, Tester. This drop-down allows users to select multiple items.
-
-![Multiple Attribute drop-down](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Multiple_Attribute_Image1.png)
 
 We already have several items selected, for example, and now we want all selected items to be deselected. How can we accomplish this using Katalon?
 
@@ -32,11 +28,9 @@ We have a keyword called “deselectAllOption”. This will deselect all the sel
 
 **Manual Mode:**
 
-![DeSelectAll Manual mode](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/DeSelectAll_Manual.png)
-
 **Script Mode:**
 
-```groovy
+```
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -70,15 +64,11 @@ This keyword returns a Count of number of options which are being selected in th
 
 For example, let’s say in the combo box below the values Admin, HR are selected. If we want to get the number of selected options, we can use the keyword ‘getNumberOfTotalOption’. In this case, it will return 2.
 
-![Get-Number-Of-Selected-Options-Example](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Get-Number-Of-Selected-Options-Example.png)
-
 **Manual Mode:**
-
-![Get_Number_of_Selected_Option_manual](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Get_Number_of_Selected_Option_manual.png)
 
 **Script Mode:**
 
-```groovy
+```
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -112,17 +102,13 @@ Example:
 
 We have a drop-down and want to get the total number of available options in a drop-down then we will use ‘getNumberOfTotalOption’.
 
-![Total_Options_Image](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Total_Options_Image.png)
-
 As it has 5 options in the dropdown it will return a value 5.
 
 **Manual Mode:**
 
-![Get Number of Total Options Manual](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Get_Number_of_Total_Options_Manual.png)
-
 **Script Mode:**
 
-```groovy
+```
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -150,11 +136,9 @@ It will select all options from the list.
 
 **Manual Mode:**
 
-![SelectAll Manual](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/SelectAll_Manual.png)
-
 **Script Mode:**
 
-```groovy
+```
 'Launch Browser'
  
 WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
@@ -188,15 +172,11 @@ If we want a select ‘Feb’ from the below drop down then we will pass input 2
 
 Here in this example, we are Validating verify Option Selected By Index Also.
 
-![Select by Index Example](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Select_by_Index_Example.png)
-
 **Manual Mode:**
-
-![SelectbyIndex manual](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/SelectbyIndex_manual.png)
 
 **Script Mode:**
 
-```groovy
+```
 'Open browser'
  
 WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
@@ -219,10 +199,6 @@ Example 2:
 
 If we want a select  Feb to Apr from the below combo box then we will pass input as Value 2-4 and Value type as String.
 
-![Select_options_by_passing_Range_value](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Select_options_by_passing_Range_value.png)
-
-![Input_Dialog_Box](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Input_Dialog_Box.png)
-
 Select Option By Label
 ----------------------
 
@@ -234,15 +210,11 @@ If we want to select ‘Apr’ from the drop-down then we need to pass exactly v
 
 In this Example we are also verifying the option is select by Label Value by using Verify option Selected By Label.
 
-![SelectByLabel_Expample](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/SelectByLabel_Expample.png)
-
 **Manual Mode:**
-
-![Select_option_By_label_Manual](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Select_option_By_label_Manual.png)
 
 **Script Mode:**
 
-```groovy
+```
 'Open browser'
  
 WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
@@ -274,15 +246,11 @@ If we want to select ‘Mar’ from the drop-down then we need to pass the value
 
 Here in this example we are Validating verify Option Selected By Value Also.
 
-![SelectByValue Example](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/SelectByValue_Exp.png)
-
 **Manual Mode:**
-
-![](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Select_By_Value_Manual.png)
 
 **Script Mode :**
 
-```groovy
+```
 'Open browser'
  
 WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
@@ -303,6 +271,6 @@ WebUI.closeBrowser()
 
 ```
 
-Using Katalon built-in keywords we can simple handle dropdowns, we will look into other scenarios of dropdowns such as ‘verifying dropdown values are in alphabetical’, ‘verifying expected and actual dropdown values’ using custom keywords. You may download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
+Using Katalon built-in keywords we can simple handle dropdowns, we will look into other scenarios of dropdowns such as ‘verifying dropdown values are in alphabetical’, ‘verifying expected and actual dropdown values’ using custom keywords. You may download the source code here.
 
-For further instructions and help, please refer to [Katalon Studio WebUI](https://docs.katalon.com/display/KD/%5BWebUI%5D+Combo+box) tutorials.
+For further instructions and help, please refer to Katalon Studio WebUI tutorials.

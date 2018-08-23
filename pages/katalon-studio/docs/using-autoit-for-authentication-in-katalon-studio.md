@@ -4,18 +4,16 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html 
 description: 
 ---
-[WebUI.authenticate](https://docs.katalon.com/display/KD/%5BWebUI%5D+Authenticate) keyword in Katalon Studio would work well on Firefox browser, but the function might not work on other browsers due to unknown reasons. This guide will provide you a workaround solution for handling authentication on different browsers is using autoIT.
+WebUI.authenticate keyword in Katalon Studio would work well on Firefox browser, but the function might not work on other browsers due to unknown reasons. This guide will provide you a workaround solution for handling authentication on different browsers is using autoIT.
 
 This would be applicable for Chrome, Firefox and Edge.
 
 **Requirements**
 
-*   Get the latest version of Katalon Studio: [https://www.katalon.com/](https://www.katalon.com/)
+*   Get the latest version of Katalon Studio: https://www.katalon.com/
     
-*   Install autoIT (Autoit Full Installation and AutoIt Script Editor) at [https://www.autoitscript.com/site/autoit/downloads/](https://www.autoitscript.com/site/autoit/downloads/)
+*   Install autoIT (Autoit Full Installation and AutoIt Script Editor) at https://www.autoitscript.com/site/autoit/downloads/
     
-
-![](../../images/katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio/wpMJM58XL4bJUF-zmJZPMKebEtKP5jEyWJJpawmha20-V2RugS)
 
 3\. **Steps Details:**
 
@@ -31,7 +29,7 @@ This would be applicable for Chrome, Firefox and Edge.
 
 Change your own credential at “Username” and “Password” fields
 
-```groovy
+```
 WinWaitActive("","Authentication Required","10")
 WinFlash("", "Authentication Required",4,500)
 If WinExists("","Authentication Required") Then
@@ -51,7 +49,7 @@ EndIf
              b. Adding steps to call autoIt (*.exe) file in Katalon Studio Script Mode
     
 
-```groovy
+```
 WebUI.openBrowser('') 
 autoit_prj = '[your_autoit_file_path].exe' 
 Runtime.getRuntime().exec(autoit_prj) 
@@ -61,7 +59,7 @@ WebUI.navigateToUrl('Your test site url')
 
 For example:
 
-```groovy
+```
 WebUI.openBrowser('')
  
 //Sample path. Change it to your saved location of autoIT script

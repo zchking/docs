@@ -17,19 +17,19 @@ Execute Katalon in CMD
     
     **Windows:**
     
-    ```groovy
+    ```
     katalon {option1} {option2} ... {optionN}
     ```
     
     **Mac OS:**
     
-    ```groovy
+    ```
     ./Katalon\ Studio.app/Contents/MacOS/katalon --args {option1} {option2} ... {optionN}
     ```
     
     **Linux**:
     
-    ```groovy
+    ```
     ./katalon {option1} {option2} ... {optionN}
     ```
     
@@ -39,11 +39,11 @@ Execute Katalon in CMD
     | Item | Description |
     | --- | --- |
     | katalon | The command of Katalon Studio to execute automation test. |
-    | {option(s)} | The additional [options](https://docs.katalon.com/display/KD/Console+Mode+Execution#ConsoleModeExecution-KatalonCommandLineoptions) for the execution. |
+    | {option(s)} | The additional options for the execution. |
     
     For example:
     
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2016-4-6 13_15_3.png)  
+      
       
     
 3.  Press Enter to start execution.
@@ -255,11 +255,11 @@ Specify the device's ID to execute test scripts using this device
 Y _(If -browserType=Android or -browserType=iOS is used)_
 
  |
-| -email | Registered email on [Katalon Studio](https://www.katalon.com/) page | N _(If Katalon Studio is already activated)_ |
+| -email | Registered email on Katalon Studio page | N _(If Katalon Studio is already activated)_ |
 | **These proxy options below must be used with --config parameter** |
 | -proxy.option | NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG | Y |
 | -proxy.server.type |  HTTP, HTTPS, or SOCKS | Y |
-| -proxy.server.address | Example: locahost, [http://katalon.com](http://katalon.com/) | Y |
+| -proxy.server.address | Example: locahost, http://katalon.com | Y |
 | -proxy.server.port | Example: 80, 8080, 9999 | Y |
 | -proxy.username | Example: MyProxyUsername | Optional (YES if your proxy server requires authentication) |
 | -proxy.password | Example: MyProxyPassword | Optional (YES if your proxy server requires authentication) |
@@ -270,7 +270,7 @@ Y _(If -browserType=Android or -browserType=iOS is used)_
 
 **Since 5.4**
 
-Specify the [execution profile](/pages/viewpage.action?pageId=13697476) to be executed with
+Specify the execution profile to be executed with
 
  | N |
 
@@ -280,11 +280,11 @@ Command Builder
 You can quickly generate commands to use in console mode by following the steps below:  
 
 1.  Click on **Build CMD** from the main toolbar.  
-    ![](../../images/katalon-studio/docs/console-mode-execution/Screenshot at Jun 20 15-42-46.png)  
+      
       
     
 2.  The **Generate Command for Console Mode** is displayed. Configure your options as needed.  
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9 11_44_30.png)  
+      
     where:
     
     | Section | Description |
@@ -293,21 +293,15 @@ You can quickly generate commands to use in console mode by following the steps 
     | Executed Platform | 
     The platform to execute the test on. Select an environment
     
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9 12_1_31.png)
-    
     
     
      |
     | Other Options | 
     
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-17 16_19_15.png)
-    
-    
-    
      |
     
 3.  Click **Generate Command** after you're done with the configuration.  
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-17 17_15_41.png)  
+      
       
     
 4.  You can **Copy to Clipboard** and paste to command prompt for execution.  
@@ -320,29 +314,29 @@ Use console.properties file
 We support running console mode using **console.properties** file where you can manually modify the content if needed. 
 
 1.  Generate **console.properties** file using our generator:  
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9 12_3_30.png)  
+      
       
     
 2.  The **console.properties** file will be generated at your preferred location. You can open and update the parameters manually as needed.   
     For example:  
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-20 10_30_2.png)  
+      
       
     
 3.  Run the **console.properties** file in console mode with the following syntax:
     
-    ```groovy
+    ```
     katalon -propertiesFile="<absolute path to console.properties file>" -runMode=console
     ```
     
     For example:
     
-    ```groovy
+    ```
     katalon -propertiesFile="D:\Katalon\Demo_Project\console.properties" -runMode=console
     ```
     
 4.  You can add extra Katalon command options if needed. Any option already defined in the **console.properties** file will be overwritten by the one declared in command line.  
     
-    ```groovy
+    ```
     katalon -propertiesFile="<absolute path to console.properties file" -runMode=console -browserType=IE 
     ```
     

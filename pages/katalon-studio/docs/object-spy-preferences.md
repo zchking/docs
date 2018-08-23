@@ -6,8 +6,6 @@ description:
 ---
 You can access this preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
 
-![](../../images/katalon-studio/docs/object-spy-preferences/image2017-11-27 11_4_34.png)
-
 ##### Pin Object Spy Window while spying
 
 Users can check/uncheck this option to pin Object Spy Window on top while spying for more convenience.

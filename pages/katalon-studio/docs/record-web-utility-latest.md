@@ -9,7 +9,7 @@ Record
 
 ### Record a New Test Case
 
-*   Without opening any test case, click on Web Record ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 09.41.37.png) icon to open Web Recorder
+*   Without opening any test case, click on Web Record  icon to open Web Recorder
 *   Katalon Studio default browser is Chrome, whose icon is displayed in the top right corner, but you can change this default browser in **Preferences → Katalon → Recorder → Default browser**. You can also click on the drop-down button to select the browser you want to use:
     
     | Type | Description | Note |
@@ -18,7 +18,7 @@ Record
     \- Firefox  
     \- Chrome  
     \- Internet Explorer (only on Windows) |
-    | Active Browsers | Use the current browser (only Chrome) | Katalon Studio will install [Katalon Recorder](https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid) as an add-on to help with recording for this type of browser  
+    | Active Browsers | Use the current browser (only Chrome) | Katalon Studio will install Katalon Recorder as an add-on to help with recording for this type of browser  
       
     **Supported browsers:**  
     \- Chrome  
@@ -28,9 +28,7 @@ Record
     
     *   The browser will highlight and display its correspondent Xpath when you hover the mouse on that element.
     *   Recorded steps will be generated in Recorded Actions.
-    *   When you type in a Password field, Web Recorder will automatically use '[Set Encrypted Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword and input's value will be encrypted to increase security.
-    
-    ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 10.05.19.png)
+    *   When you type in a Password field, Web Recorder will automatically use 'Set Encrypted Text' keyword and input's value will be encrypted to increase security.
     
 
 ### Record Using Existing Test Case
@@ -39,30 +37,24 @@ With the new Web Recorder, instead of having to create a brand new test case whe
 
 *   Open any existing Test Case you want to continue recording on.
 *   Click on Record icon to open Web Recorder.
-*   All the existing test steps will be imported as Recorded Actions and current [Test Case's variables](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Localvariables) will be imported into the Variables tab in Web Recorder. You won't have record the same test flow again.
-
-![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.23.30.png)
+*   All the existing test steps will be imported as Recorded Actions and current Test Case's variables will be imported into the Variables tab in Web Recorder. You won't have record the same test flow again.
 
 Modify Recorded Actions
 -----------------------
 
-Unlike previous Web Recorder's version , the list of available actions is the same with Katalon Studio [built-in keywords](https://docs.katalon.com/display/KD/Built-in+Keywords), so you can add whatever actions you want depending on your need. You can call another test case and use Custom Keyword as well.
-
-![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.30.37.png)
+Unlike previous Web Recorder's version , the list of available actions is the same with Katalon Studio built-in keywords, so you can add whatever actions you want depending on your need. You can call another test case and use Custom Keyword as well.
 
 Modify Recorded Objects
 -----------------------
 
-After you finish your recording, **Web Recorder** will export a list of test objects used in the test case. For more information on WebUI test objects, go [here](https://docs.katalon.com/x/tQTR). 
+After you finish your recording, **Web Recorder** will export a list of test objects used in the test case. For more information on WebUI test objects, go here. 
 
 When you are satisfied that your test case has been created correctly, click on **OK** to add the recorded steps to the test case. Choose the directory that you want your test objects to reside to continue. Here, Katalon Studio **automatically** **detect** similar **existing** objects in the Objects Reporsitory and ask you for further action. This will help the users optimize object repositories. 
-
-![](../../images/katalon-studio/docs/record-web-utility-latest/image2018-6-26 14_18_9.png)
 
 Variables
 ---------
 
-In the new Web Recorder interface, you can directly manage the [variables](https://docs.katalon.com/x/RoIw) directly related to your recording.
+In the new Web Recorder interface, you can directly manage the variables directly related to your recording.
 
 Execute
 -------
@@ -77,8 +69,6 @@ Two new things have been introduced:
 
 Execution comes with seeing execution logs, and in many cases you don't want to execute all steps, just only some of them. So that's why we have this new feature for Web Recorder. 
 
-![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.46.04.png)
-
 | Type of Run | Description |
 | --- | --- |
 | Run all steps | Execute ALL steps that are enabled on Web Recorder. |
@@ -86,8 +76,6 @@ Execution comes with seeing execution logs, and in many cases you don't want to 
 Execute only one or many selected steps.
 
 You can select many steps using either Ctrl or Shift key from your keyword. Selected steps will be highlighted e.g run step #2, #6, #9 and #11 are selected.
-
-![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.45.48.png)
 
 
 
@@ -100,17 +88,13 @@ You can select many steps using either Ctrl or Shift key from your keyword. Sele
 
 Execute the current selected step and all steps after selected one, e.g run step #4 and all steps after it.
 
-![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.51.07.png)
-
 
 
  |
 
 Upon selecting any types of Run to execute, there will be execution logs displayed on Logs tab
 
-![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.54.27.png)
-
 The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
 
-*   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
-*   [Control Statements](/display/KD/Control+Statements)
+*   Common Validation 
+*   Control Statements

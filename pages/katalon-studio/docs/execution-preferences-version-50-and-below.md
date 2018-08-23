@@ -15,8 +15,6 @@ General Execution Preferences
 
 You can configure general execution preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Execution**.
 
-![](../../images/katalon-studio/docs/execution-preferences-version-50-and-below/image2017-6-29 16_0_23.png)
-
 Where:
 
 | 
@@ -55,8 +53,8 @@ Post-Execution Options
 These options decide the actions that Katalon Studio will perform after finishing automation test.
 
 *   **Notify me**: Specify whether you want to send email notification.
-    *   Refer to [Emails Settings](/display/KD/Emails+Settings) for how to register the list of report recipients.
-    *   Refer to [Test suite > Manage execution information](/pages/viewpage.action?pageId=786668) for how to register a list of recipients who will be receiving the execution report of a specific test suite.
+    *   Refer to Emails Settings for how to register the list of report recipients.
+    *   Refer to Test suite > Manage execution information for how to register a list of recipients who will be receiving the execution report of a specific test suite.
 *   **Open report**: Specify whether the report generated after your test suite finishes its execution will also be open immediately.
 *   **Terminate drivers**: Specify whether any driver remains after execution will be terminated.
 
@@ -68,8 +66,6 @@ WebUI Preferences
 -----------------
 
 You can configure WebUI execution preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Execution > WebUI**.
-
-![](../../images/katalon-studio/docs/execution-preferences-version-50-and-below/image2017-6-29 16_1_20.png)
 
 Where:
 

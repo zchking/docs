@@ -19,6 +19,6 @@ Add additional parameters to console mode execution. You can use this parameters
 
 **Example**
 
-```groovy
+```
 katalon -runMode=console -consoleLog -projectPath="D:\Project\Katalon\Katalon_projects\Regression Test\RegressionTest\RegressionTest.prj" -retry=0 -testSuitePath="Test Suites/New Test Suite78" -browserType="Chrome" -email="vinhtest@gmail.com" -password="12345678"
 ```

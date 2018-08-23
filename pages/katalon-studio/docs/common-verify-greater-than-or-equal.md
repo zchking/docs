@@ -31,7 +31,7 @@ Description
 | --- | --- | --- | --- |
 | actualObject  | Object  | Required | Represent the actual object. |
 | expectedObject  | Object  | Required | Represent the expected object. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
  Returns 
 ---------
@@ -52,10 +52,10 @@ Example 
 You want to verify if the first number is greater than or equal to the second number.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/common-verify-greater-than-or-equal/image2017-3-3 17_30_33.png)
+    
 *   Script view 
     
-    ```groovy
+    ```
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
     import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

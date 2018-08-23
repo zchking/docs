@@ -11,43 +11,29 @@ New Features
 
 Katalon now requires users to activate the application before using it.
 
-![](../../images/katalon-studio/docs/version-40/image2016-9-7 17_54_17.png)
-
 ### Welcome Page
 
 Add **'Welcome'** page which will be displayed everytime Katalon is started
-
-![](../../images/katalon-studio/docs/version-40/image2016-9-7 11_37_5.png)
 
 ### Function Introduction
 
 Add **'Functions Introduction'** dialog which will be displayed first time after activation of Katalon
 
-![](../../images/katalon-studio/docs/version-40/image2016-9-7 11_38_13.png)
-
 ### Sample Projects
 
 You now have the option to select testing type on **'New Project**' dialog. Project template with pre-defined test artifacts will be created based on which testing type you have chosen.
-
-![](../../images/katalon-studio/docs/version-40/image2016-8-28 10_6_4.png)![](../../images/katalon-studio/docs/version-40/image2016-8-28 10_6_14.png)
 
 ### External Libraries settings
 
 External Libraries can now be added to Katalon through **Project -> Settings -> External Libraries**
 
-![](../../images/katalon-studio/docs/version-40/image2016-8-28 9_50_44.png)
-
 ### GIT Integration
 
-Katalon Studio now support [GIT Integration](/pages/viewpage.action?pageId=2261849)
-
-![](../../images/katalon-studio/docs/version-40/image2016-9-7 12_44_51.png)
+Katalon Studio now support GIT Integration
 
 ### Checkpoint
 
-Add new test artifact: [Checkpoint](/pages/viewpage.action?pageId=2261817)
-
-![](../../images/katalon-studio/docs/version-40/image2016-9-7 12_43_24.png)
+Add new test artifact: Checkpoint
 
 Improvements
 ------------
@@ -63,28 +49,24 @@ Improvements
 
 Display test artifact's information when hovering mouse on it:
 
-![](../../images/katalon-studio/docs/version-40/image2016-9-7 20_50_5.png)
-
 ### Test Case
 
-1.  Add **'Keyword Description'** link in Javadoc dialog. It will open [keyword's description](http://docs.katalon.com/display/KD/Keyword+Index) page with more details of how to use that keyword  
-    ![](../../images/katalon-studio/docs/version-40/image2016-8-28 9_52_28.png)
+1.  Add **'Keyword Description'** link in Javadoc dialog. It will open keyword's description page with more details of how to use that keyword  
+    
 2.  Reduce code complexity in scripting mode. 
 
 ### Settings
 
 ** 1. **Add option on 'Execution' settings to let Katalon terminate all running drivers after execution or not. Default option will be UNCHECKED
 
- ![](../../images/katalon-studio/docs/version-40/image2016-9-7 20_53_29.png)
+ 
 
 2. Add default page load timeout settings in **Projects > Settings > Execution > Default > Web UI**
-
-![](../../images/katalon-studio/docs/version-40/image2016-8-28 10_59_43.png)
 
 ### Record/Spy
 
 1.  **'Add'** and **'Delete'** button is added on Record dialog  
-    ![](../../images/katalon-studio/docs/version-40/image2016-8-28 9_55_52.png)  
+      
       
     
 2.  **Improve Web Object Spy**
@@ -92,7 +74,7 @@ Display test artifact's information when hovering mouse on it:
     2.  Add hotkey **Ctrl + Alt + ~ **(default) to let you load DOM map upon pressing
     3.  Improve the display of spy's instruction
     4.  Xpath value is now displayed when you mouse hover on an object  
-        ![](../../images/katalon-studio/docs/version-40/image2016-8-28 10_1_47.png)  
+          
           
         
 
@@ -101,13 +83,13 @@ Display test artifact's information when hovering mouse on it:
 Improve 'Mobile Object Spy':
 
 1.  1.  Objects from 'Object Repository' can now be added to 'Mobile Object Spy' through context menu: 'Add to Mobile Object Spy'. Upon adding, the object will be automatically inspected on current screen  
-        ![](../../images/katalon-studio/docs/version-40/image2016-8-28 12_2_5.png)
+        
     2.  Improve the display of 'Mobile Object Spy' form
     3.  'All Objects' panel is added to display all objects of current spied mobile application's screen
     4.  Selected objects from 'All Objects' panel will be automatically added to 'Captured Objects' panel
     5.  'Device View' form is now interactable. Click on an object in 'Device View' will highlight the object back to 'All Objects' panel
     6.  Captured objects and All objects will now have indication about object's status.   
-        ![](../../images/katalon-studio/docs/version-40/image2016-8-28 11_59_48.png)
+        
 
 Fixed Bugs
 ----------

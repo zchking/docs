@@ -21,14 +21,14 @@ URL of the page to navigate.
 | userName | String | Required | Username to authenticate. |
 | password | String | Required | Password to authenticate. |
 | timeout | int | Required | Time to wait since navigating to the page until entering username. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------
 
 You want to verify if 'Make Appointment' button has attribute id with value: 'btnMakeAppointment' 
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

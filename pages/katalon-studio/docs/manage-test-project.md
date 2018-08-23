@@ -4,12 +4,14 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-test-project.html 
 description: 
 ---
+Where to store your tests?
+
+Choose the location for your test where you have all Read & Write permission. **Don't** store your projects in the Katalon build folder.
+
 Create a test project
 ---------------------
 
 1.  Select **File > New > Project** from the main menu. The **New Project** dialog will be displayed.
-    
-    ![](../../images/katalon-studio/docs/manage-test-project/image2018-8-13 15_5_30.png)
     
 2.  Specify the **Name** and **Location** for the new project and click **OK**. Katalon will generate a project at defined location accordingly.
     
@@ -18,16 +20,14 @@ Open an existing test project
 -----------------------------
 
 1.  Select **File > Open Project** from the menu. Browse to the folder where your project is located and select it.  
-    ![](../../images/katalon-studio/docs/manage-test-project/image2016-10-31 14_19_48.png)
+    
 2.  You can also quickly open recent test project by selecting from a list displayed under the **File** menu:  
-    ![](../../images/katalon-studio/docs/manage-test-project/image2017-6-29 16_39_27.png)
+    
 
 Refresh project
 ---------------
 
 If the project files have been modified and they are yet to be reflected in Katalon Studio, you can refresh project to show up-to-date information, as illustrated below:
-
-![](../../images/katalon-studio/docs/manage-test-project/image2017-2-21 16_54_2.png)
 
 Clean up project
 ----------------
@@ -63,5 +63,3 @@ Mac
  |
 
 Select **Clean...** under the **File** menu as illustrated below:
-
-![](../../images/katalon-studio/docs/manage-test-project/image2017-6-29 16_41_18.png)

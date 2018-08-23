@@ -17,14 +17,14 @@ Parameters
 | to | TestObject | Required | Represent a mobile element. |
 | text | String | Required | The text to set on the mobile element. |
 | timeout | int | Required | maximum period of time (in seconds) that system will wait to return a result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
 
 You want to set text on textbox control.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

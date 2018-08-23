@@ -10,24 +10,24 @@ Improvements
 ### General
 
 *   The Default Browser for execution will be displayed with an indication  
-    ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_15_58.png)
+    
 *   Have options to let users open the previous working session when opening Katalon  
-    ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_10_5.png)
+    
 *   Automatically generate destination project's folder in case it's not existed yet when creating new Katalon Projects
 *   Support loading **.app** file on Mobile Object Spy (for iOS platform)  
-    ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_29_14.png)
+    
 *   Automatically focus into first field of some UI components:
     *   In Global Variables, focus on Name field of Add/Edit Variable Dialogs  
-        ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_14_15.png)
+        
     *   In Variable tab of Test Case editor, focus on Name field when adding new Variables   
-        ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_14_47.png)
+        
 
 ### Console mode
 
 *   Allow users to generate command to run in console mode  
-    ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_22_48.png)
+    
 *   Support the ability to auto send mail function parameters
-*   Revamp argument processing for console mode: [Console Mode Execution](/display/KD/Console+Mode+Execution)
+*   Revamp argument processing for console mode: Console Mode Execution
 
 ### Execution
 
@@ -38,12 +38,12 @@ Improvements
 ### Report
 
 *   Display 'Warning' filter in Katalon's generated report  
-    ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_35_1.png)
+    
 
 ### Object Spy
 
 *   \[Mobile Object Spy\] Support "Object Name" field in MOI  
-    ![](../../images/katalon-studio/docs/version-32/object_name.png)
+    
 
 ### Test Case
 
@@ -52,7 +52,7 @@ Improvements
 ### Record/Playback
 
 *   \[Record\] Add tooltip for recorded actions  
-    ![](../../images/katalon-studio/docs/version-32/image2016-4-6 12_38_25.png)
+    
 
 ### qTest Integration
 

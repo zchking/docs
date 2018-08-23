@@ -15,9 +15,9 @@ Parameters 
 | Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | response  | ResponseObject  | Required | Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header) |
-| locator  | String  | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it: [Handle Web Service Response object](#) |
+| locator  | String  | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it: Handle Web Service Response object |
 | text  | String  | Required | The expected text of element you want to verify in the responded data (usually is JSON/XML) |
-| flowControl  | FailureHandling  | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl  | FailureHandling  | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -29,7 +29,7 @@ Example
 
 You want to verify converted weight after sending request is correct or not.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

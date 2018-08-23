@@ -16,7 +16,7 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -34,7 +34,7 @@ Example
 
 You want to verify 'btn_Login' button to be visible in 10 seconds.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

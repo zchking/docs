@@ -13,7 +13,7 @@ description:
 *   isRegex - boolean (required): true if the label is a regular expression, false by default
 *   timeOut - int (required):  system will wait at most timeout (seconds) to return result
     
-*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are [here](https://docs.katalon.com/x/qAAM).
+*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are here.
 
 #### Returns
 
@@ -24,10 +24,8 @@ description:
 
 Manual: 
 
-![](../../images/katalon-studio/docs/webui-verify-option-not-selected-by-index/image2016-8-21 19_30_39.png)
-
 Script:
 
-```groovy
+```
 WebUI.verifyOptionNotSelectedByIndex(findTestObject('The Second Landing Page/select_js-intent'), 1, 5)
 ```

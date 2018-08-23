@@ -6,5 +6,5 @@ description:
 ---
 Katalon Studio supports 2 modes for viewing a test case:
 
-*   [Manual View](/display/KD/Manual+View)
-*   [Script View](/display/KD/Script+View)
+*   Manual View
+*   Script View

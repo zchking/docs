@@ -15,7 +15,7 @@ Parameters
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | timeout | int | Required | Timeout waiting for alert to NOT present. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -33,7 +33,7 @@ Example
 
 You want to verify if an alert is NOT present in 20 seconds.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

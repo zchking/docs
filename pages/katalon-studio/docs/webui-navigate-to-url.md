@@ -19,20 +19,20 @@ URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the t
 
 Example: 
 
-*   [http://katalon.com/;](http://katalon.com)
-*   [https://www.google.com;](https://www.google.com)
+*   http://katalon.com/;
+*   https://www.google.com;
 *   file:///D:Development/index.html;
 *   kms-technology.com => http://kms-tecnology.com
 
  |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------
 
-You want to navigate to '[http://demoaut.katalon.com](http://demoaut.katalon.com)' website.
+You want to navigate to 'http://demoaut.katalon.com' website.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

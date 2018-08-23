@@ -16,14 +16,14 @@ Parameters  
 | --- | --- | --- | --- |
 | appFile | String | Required | Absolute path or Relative path (since 5.0) of the application installation file. |
 | uninstallAfterCloseApp | boolean | Required | true if uninstalling the application automatically after run. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
 
 You want to start an application using absolute path and uninstall it after that.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -56,7 +56,7 @@ Mobile.closeApplication()
 
 You want to start application using relative path and uninstall it after that.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

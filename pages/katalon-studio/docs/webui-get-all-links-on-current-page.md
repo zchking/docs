@@ -16,14 +16,14 @@ Parameters
 | --- | --- | --- | --- |
 | isIncludedExternalLinks | boolean | Required | If false, only target to links on the same HOST. Otherwise, target to all links. |
 | excludedLinks | List | Required | A list of excluded links (URLs). |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------
 
-You want to get all links on '[http://demoaut.katalon.com](http://demoaut.katalon.com)' page.
+You want to get all links on 'http://demoaut.katalon.com' page.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

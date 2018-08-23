@@ -6,7 +6,7 @@ description:
 ---
 You can create a new Test Object in Object Repository during runtime using this custom keyword:
 
-```groovy
+```
 /**
 * Construct a Katalon-compatible TestObject in memory.
 * @param css (String) The CSS selector used to find the target element.
@@ -21,4 +21,4 @@ static TestObject makeTO(String css) {
 
 ```
 
-_Credit to [Russ Thomas](https://forum.katalon.com/discussion/6171/creation-of-test-object-in-object-repository-in-runtime#Comment_13991)_
+_Credit to Russ Thomas_

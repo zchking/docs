@@ -17,7 +17,7 @@ Parameters
 | responseObject | ResponseObject | Required | The object represents an HTTP Response, the user can get responded content type, header properties (sometimes the user may want to get cookies from response header) |
 | fromStatusCode | int | Required | From status code |
 | toStatusCode | int | Required | To status code |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -29,7 +29,7 @@ Example
 
 You want to verify if the response from "REST\_Status Codes/POST\_201" object returns a status code from 200 to 400.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpointimport static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

@@ -15,7 +15,7 @@ Since Katalon Studio V5.4
 Auto-update feature helps to ensure Katalon users are working with the newest version of Katalon Studio with latest updates and enhancements. By default, Katalon Studio will automatically check for new version everytime the application is started. 
 
 *   If there is a new version **available**, Katalon Studio will display the notification with options as shown below  
-    ![](../../images/katalon-studio/docs/auto-updater/Screen Shot 2018-04-12 at 21.46.21.png)  
+      
       
     
     | **Option** | **Description** |
@@ -29,6 +29,5 @@ Auto-update feature helps to ensure Katalon users are working with the newest ve
     Please note that it might take some time to complete the download depending on the current network connection.
     
       
-    ![](../../images/katalon-studio/docs/auto-updater/Screen Shot 2018-04-12 at 21.46.53.png)
     
 *   After the download process is finished, select '**Install and Re-launch**' option to install the new version and relaunch Katalon Studio after it is installed.

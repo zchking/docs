@@ -18,7 +18,7 @@ Represent a web element.
 
  |
 | expectedText | String | Required | Text of the element to verify. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop |
 
 Returns
 -------
@@ -35,7 +35,7 @@ Example
 
 You want to verify 'Make Appointment' button has the correct 'Make Appointment' label 
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpointfsdf
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

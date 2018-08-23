@@ -17,11 +17,11 @@ Given a sample test case with the steps as below:
 Follow these steps to automate the above test scenario in **Manual view**:
 
 1.  Select **File > New > Test Case** from the main menu. The **New Test Case** dialog will be displayed. Provide the name for the new test case, then click **OK** button.  
-    ![](../../images/katalon-studio/docs/manual-view/image2017-2-15 9_59_10.png)  
+      
       
     
 2.  Once a new test case is created, it is opened in **Manual view**. This view allows users to create automation tests easily with little programming skills required.  
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 13_53_45.png)  
+      
       
     
 3.  Select **Add > Web UI Keyword** from the command toolbar.
@@ -29,21 +29,21 @@ Follow these steps to automate the above test scenario in **Manual view**:
     **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
     
       
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 13_54_48.png)  
+      
       
     
       
     
-4.  Select the **[Open Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)  
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_1_24.png)  
+4.  Select the **Open Browser** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)  
+      
       
     
-5.  Add the **[Navigate To Url](https://docs.katalon.com/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.   
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_36_31.png)  
+5.  Add the **Navigate To Url** keyword. This keyword will navigate to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.   
+      
       
     
 6.  The **Input** dialog is displayed.   
-    ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_6_59.png)  
+      
     Where:
     
     | Field | Description |
@@ -51,11 +51,11 @@ Follow these steps to automate the above test scenario in **Manual view**:
     | No | The number of parameter for the selected keyword. |
     | Param Name | The name of the parameter. |
     | Param Type | The required data type for the parameter. |
-    | Value Type | The type of your input value (e.g. strings, [variables](https://docs.katalon.com/display/KD/Variable+Types), [data sources](https://docs.katalon.com/display/KD/Manage+Test+Data)...) |
+    | Value Type | The type of your input value (e.g. strings, variables, data sources...) |
     | Value | 
     The input value for this parameter.
     
-    Input value can be varied based on **Value Type**. Refer to [Value Types in Katalon](https://docs.katalon.com/display/KD/Value+Types) for more details.
+    Input value can be varied based on **Value Type**. Refer to Value Types in Katalon for more details.
     
     
     
@@ -66,27 +66,27 @@ Follow these steps to automate the above test scenario in **Manual view**:
      |
     
       
-    For now, enter the URL of Katalon demo AUT ([http://demoaut.katalon.com](http://demoaut.katalon.com)) into the **Value** column then click **OK**.   
+    For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the **Value** column then click **OK**.   
       
     
-7.  Add the **[Click](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.   
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_51_0.png)  
+7.  Add the **Click** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.   
+      
       
     
-8.  All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog (Refer to [Spy Object](/display/KD/Spy+Object) for details regarding how to capture objects). Select your object then click **OK**.  
-    ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_14_44.png)  
+8.  All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog (Refer to Spy Object for details regarding how to capture objects). Select your object then click **OK**.  
+      
       
     
-9.  Add the **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_54_15.png)  
+9.  Add the **Verify Element Present** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
+      
       
     
-10.  Add the **[Close Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_56_32.png)  
+10.  Add the **Close Browser** keyword and save your test case.  
+      
       
     
 11.  Click on **Run** in the main toolbar to execute the test case.   
-    ![](../../images/katalon-studio/docs/manual-view/image2017-8-11 10_57_37.png)  
+      
       
     Katalon Studio should be able to execute all the steps of the sample test case.
 
@@ -97,7 +97,7 @@ Recent Keywords
 
 Highlight _Step 4_. Click on **Recent Keywords** and select **_Verify Element Present_**. An extra step is added after _Step 4_ as illustrated below:
 
-![](../../images/katalon-studio/docs/manual-view/image2017-8-21 12_9_39.png)   ![](../../images/katalon-studio/docs/manual-view/image2017-8-21 12_13_31.png)
+   
 
 Recent Objects and Object Folders
 ---------------------------------
@@ -108,5 +108,3 @@ Recent list will have two sections: **Object Folder** and **Test Object**
 
 *   **Test Object:** Display the names of the last 5 selected objects
 *   **Object Folder:** Display the names of 5 folders that contain anyrecent used objects
-
-![](../../images/katalon-studio/docs/manual-view/image2017-8-25 17_29_39.png)

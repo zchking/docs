@@ -16,7 +16,7 @@ Parameters  
 | --- | --- | --- | --- |
 | to | TestObject  | Required | Represent a mobile element |
 | timeout  | int | Required | System will wait at most timeout (seconds) to return a result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -28,6 +28,6 @@ Example
 
 You want to verify if 'Go to TimePicker' button is NOT visible.
 
-```groovy
+```
 Mobile.verifyElementNotExist(findTestObject('android.widget.Button5 - Go to TimePicker'), 10)
 ```

@@ -6,7 +6,7 @@ description:
 ---
 To change a Test Object's CSS value at runtime:
 
-```groovy
+```
 import com.kms.katalon.core.testobject.SelectorMethod
 
 TestObject to = findTestObject('your_test_object_id')
@@ -20,7 +20,7 @@ to.setSelectorMethod(SelectorMethod.CSS)
 
 **References:**
 
-*   **[getSelectorCollection](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#getSelectorCollection())**
-*   **[getSelectorMethod](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#getSelectorMethod())**
-*   **[setSelectorMethod](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#setSelectorMethod(com.kms.katalon.core.testobject.SelectorMethod))**
-*   **[setSelectorValue](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#setSelectorValue(com.kms.katalon.core.testobject.SelectorMethod,%20java.lang.String))**
+*   **getSelectorCollection**
+*   **getSelectorMethod**
+*   **setSelectorMethod**
+*   **setSelectorValue**

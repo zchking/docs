@@ -34,41 +34,25 @@ Verifying text and objects within iframes can be a challenge. For example, even 
 
 1\. Given that you want to capture the Comment text field of a certain question in Katalon Forum (this text field is an iframe), you can use the Web Object Spy of Katalon and see that it can detect the iframe in the red highlighted area.
 
-![iframe issue](../../images/katalon-studio/tutorials/handling_iframe_issue/Web-Object-Spy.png)
-
 2\. Once the Comment iframe is captured, Katalon shows all of its child elements which you can see in the Object Spy dialog as below:
-
-![Object Spy dialog](../../images/katalon-studio/tutorials/handling_iframe_issue/Object-Spy-dialog-300x144.png)
 
 3\. As you save the captured object to Katalon Studio, its iframe is also included. This is illustrated in the following screenshot:
 
-![Captured object to Katalon Studio](../../images/katalon-studio/tutorials/handling_iframe_issue/captured-object.png)
-
 4\. Then, you can proceed to set the text to the Comment field by specifying the child element for the Set Text keyword as described below:
-
-![Set the text to the Comment field](../../images/katalon-studio/tutorials/handling_iframe_issue/Comment-field-1024x238.png)
 
 **Example #2**
 
 1\. Given that you want to capture the JQueryUI’s Drag and Drop example (this draggable control is an iframe), as shown in the screenshot below, you can drag the ‘Drag me around’ object to other areas of the iframe.
 
-![capture the JQueryUI's Drag and Drop example](../../images/katalon-studio/tutorials/handling_iframe_issue/JQueryUIs-Drag-and-Drop.png)
-
 2\. Use the Object Spy to capture the iframe as usual. The Object Spy can detect, capture the iframe, and show all of the iframe’s elements accordingly.
-
-![Object Spy to capture the iframe](../../images/katalon-studio/tutorials/handling_iframe_issue/Object-Spy.png)
 
 3\. As you save the captured object to Katalon Studio, the iframe is also included as the object’s parent element. This is illustrated in the following screenshot (Note that you can uncheck the option to use parent iframe if needed):
 
-![save the captured object to Katalon Studio](../../images/katalon-studio/tutorials/handling_iframe_issue/object%E2%80%99s-parent-element..png)
-
-4\. Given the situation where you opt not to specify the iframe parent for an element, in order to interact with the element, you need to use the keyword [Switch To Frame](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Frame) to have Katalon focus on the parent iframe before being able to interact with the element.
+4\. Given the situation where you opt not to specify the iframe parent for an element, in order to interact with the element, you need to use the keyword Switch To Frame to have Katalon focus on the parent iframe before being able to interact with the element.
 
 The sample code below shows how to switch to the parent frame before using the drag and drop action on the elements within the iframe:
 
-![how to switch to the parent frame before using the drag and drop action](../../images/katalon-studio/tutorials/handling_iframe_issue/sample-code_drag_n_drop.png)
-
-```groovy
+```
 import com.kms.katalon.core.annotation.SetUp as SetUp
  
 import com.kms.katalon.core.annotation.TearDown as TearDown
@@ -148,12 +132,11 @@ We can switch to frames using **switchTo()** method then perform the action on
 
 If we want to get text in the Text Area then we cannot get it directly by taking the Xpath of the element. As it is available in the iframe we need to switch to the frame first and then we can get text of the element.
 
-**Manual Mode:****  
-![switch to frame](../../images/katalon-studio/tutorials/handling_iframe_issue/switch-to-frame.png)**
+**Manual Mode:**
 
 **Script Mode:**
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -182,7 +165,7 @@ WebUI.verifyEqual(Text, 'Your content goes here.')
 
 ```
 
-_Note: _Please download the source code [here](https://github.com/katalon-studio/katalon-web-automation) and get the HTML [here](https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Frames.html).
+_Note: _Please download the source code here and get the HTML here.
 
 **Example #4: Switch to Default Content**
 
@@ -192,11 +175,9 @@ Switch used to switch back to the main window or parent window frame.
 
 **Manual Mode**:
 
-![Switch to Default Content](../../images/katalon-studio/tutorials/handling_iframe_issue/Switch-to-Default-Content.png)
-
 **Script Mode:**
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -235,10 +216,10 @@ WebUI.verifyEqual(Heading, 'An iframe containing the TinyMCE WYSIWYG Editor')
 
 ```
 
-_Note:_ Please download the source code [here](https://github.com/katalon-studio/katalon-web-automation) and get the HTML [here](https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Frames.html).
+_Note:_ Please download the source code here and get the HTML here.
 
 **Common exceptions**
 
 Noted that **NoSuchFrameException** or **InvalidSwitchToTargetException** exceptions are thrown when the target frame to be switched to doesn’t exist.
 
-If you need further support, join us on [Katalon Forum](https://forum.katalon.com/).
+If you need further support, join us on Katalon Forum.

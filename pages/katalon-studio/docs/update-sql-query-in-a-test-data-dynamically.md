@@ -6,7 +6,7 @@ description:
 ---
 To update SQL query in a Test Data dynamically, you can refer to sample code below:
 
-```groovy
+```
 DBData dbTestData = findTestData('######')
 dbTestData.fetchedData = dbTestData.fetchData()
 ```
@@ -15,6 +15,6 @@ dbTestData.fetchedData = dbTestData.fetchData()
 
 **References:**
 
-*   [DBData](https://api-docs.katalon.com/com/kms/katalon/core/testdata/DBData.html)
+*   DBData
 
-_Credit to [Trong Bui](https://forum.katalon.com/discussion/5799/dynamically-update-sql-generated-test-data-files-before-test-suite-case-execution#Comment_13181)_
+_Credit to Trong Bui_

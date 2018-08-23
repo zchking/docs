@@ -9,8 +9,6 @@ Description
 
 Deselect the options with the given value.
 
-![](../../images/katalon-studio/docs/webui-deselect-option-by-value/image2017-3-1 15_10_55.png)
-
 Parameters
 ----------
 
@@ -19,14 +17,14 @@ Parameters
 | to | TestObject | Required | Represent a web element. |
 | value | String | Required | Value of the options to be deselected. |
 | isRegex | boolean | Required | true if the label is a regular expression, otherwise false |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or st |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or st |
 
 Example
 -------
 
 You want to deselect option which value is "Hongkong CURA Healthcare Center" in the list.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

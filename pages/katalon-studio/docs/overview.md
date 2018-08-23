@@ -6,40 +6,40 @@ description:
 ---
 Katalon Studio is a simple and powerful automation solution built for testers everywhere. Katalon Studio revolutionizes the use of open-source test automation frameworks such as Selenium and Appium by eliminating their technical complexities to allow developers and QAs to efficiently set up, create, run, report, and manage their automated tests. It also offers a viable alternative to commercial test automation solutions that are not affordable to many small and medium-sized teams.
 
-If you are a first-time user, check out our **[Getting Started](/display/KD/Getting+Started)** page. Below are some links that may help you quickly navigate the Katalon resources. 
+If you are a first-time user, check out our **Getting Started** page. Below are some links that may help you quickly navigate the Katalon resources. 
 
 |   | Section |
 | --- | --- |
-| Tutorials | [**Learning Center** ](https://www.katalon.com/resources-center/tutorials/) |
-| Documentation | **[Katalon Studio](/display/KD/Overview)** |
-| Support | [**Katalon Community** ](https://forum.katalon.com/) |
+| Tutorials | **Learning Center**  |
+| Documentation | **Katalon Studio** |
+| Support | **Katalon Community**  |
 
-**[  
-Tutorials](https://www.katalon.com/resources-center/tutorials/)**
+**  
+Tutorials**
 
-The Katalon team has prepared some [sample projects](https://github.com/katalon-studio-samples) for you to try out before testing out your own products. [The Learning Center](https://www.katalon.com/resources-center/) hosts tutorials for you to follow along and get to know Katalon Studio features.
+The Katalon team has prepared some sample projects for you to try out before testing out your own products. The Learning Center hosts tutorials for you to follow along and get to know Katalon Studio features.
 
-**[Katalon Documentation](/display/KD/Overview)**
+**Katalon Documentation**
 
 Our documentation will help you with configurations, features utilization and important information to create a successful automation test.
 
-*   [Test Design](/display/KD/Test+Design) contains information on various components of a test case/test suite. Here, you can read more about Katalon Studio features that will assist you during test case construction. 
-*   After designing a test, [Test Execution](/display/KD/Test+Execution) shows you how to run your test cases/test suites. Before executing your tests, keep in mind Katalon Studio's supported [execution environments](/display/KD/Execute+a+test+case).
-*   [Test Report](/display/KD/Test+Report) provides a comprehensive view of your test results. You can also utilize our beta product, [Katalon Analytics](/display/KD/Katalon+Analytics+%28Beta%29+Integration), for visual analysis of the test reports.
+*   Test Design contains information on various components of a test case/test suite. Here, you can read more about Katalon Studio features that will assist you during test case construction. 
+*   After designing a test, Test Execution shows you how to run your test cases/test suites. Before executing your tests, keep in mind Katalon Studio's supported execution environments.
+*   Test Report provides a comprehensive view of your test results. You can also utilize our beta product, Katalon Analytics, for visual analysis of the test reports.
 
 Additionally, we also have other resources available to assist your automation testing process. 
 
 | Section | Description |
 | --- | --- |
-| [Built-in Keywords](/display/KD/Built-in+Keywords) | A comprehensive list of all built-in keywords for reference |
-| [Katalon Repository](https://github.com/katalon-studio-samples) | A Github repository of Katalon sample projects |
-| [Known Issues / Limitations](/pages/viewpage.action?pageId=3179464) | List of all currently known issues in Katalon Studio. |
-| [Tips and Tricks](https://docs.katalon.com/display/KD/Tips+and+Tricks) | Collection of quick tips and tricks from our [Community](https://forum.katalon.com/discussions) |
-| [API Documentation](https://api-docs.katalon.com/index.html) | List of all existing Katalon Studio APIs and its details information |
+| Built-in Keywords | A comprehensive list of all built-in keywords for reference |
+| Katalon Repository | A Github repository of Katalon sample projects |
+| Known Issues / Limitations | List of all currently known issues in Katalon Studio. |
+| Tips and Tricks | Collection of quick tips and tricks from our Community |
+| API Documentation | List of all existing Katalon Studio APIs and its details information |
 
-**[  
-Support](https://forum.katalon.com/)**
+**  
+Support**
 
-[The Katalon Community](https://forum.katalon.com/) with fellow users and experts will help you with any issues while utilizing Katalon products. Some issues, however, are documented [here](/pages/viewpage.action?pageId=3179464), which the Katalon team has planned to fix and improve in future releases. 
+The Katalon Community with fellow users and experts will help you with any issues while utilizing Katalon products. Some issues, however, are documented here, which the Katalon team has planned to fix and improve in future releases. 
 
-You can also suggest new features for [Katalon Studio](https://forum.katalon.com/categories/katalon-studio-feature-suggestions) and [Katalon Analytics](https://forum.katalon.com/categories/katalon-analytics-feature-suggestions) in the forum. The Katalon team are eager to see your suggestions to make our product better for our community.
+You can also suggest new features for Katalon Studio and Katalon Analytics in the forum. The Katalon team are eager to see your suggestions to make our product better for our community.

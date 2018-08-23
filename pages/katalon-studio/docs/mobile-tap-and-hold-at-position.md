@@ -17,14 +17,14 @@ Parameters
 | x | Number | Required | x position |
 | y | Number | Required | y position |
 | duration | Number | Required | Duration (in seconds) that the tap is held on the element, if set to <= 0 then will use default duration |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
 
 You want to tap at (200,400) position and hold it for 10 seconds.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

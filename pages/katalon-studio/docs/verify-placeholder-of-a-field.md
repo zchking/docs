@@ -6,11 +6,9 @@ description:
 ---
 In case you want to verify placeholder of a field, e.g:
 
-![](../../images/katalon-studio/docs/verify-placeholder-of-a-field/w5juifrptxou.jpg)
+Then using 'Get Attribute' keyword can help you to resolve this issue:
 
-Then using '[Get Attribute](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Attribute)' keyword can help you to resolve this issue:
-
-```groovy
+```
 String expectedPlaceholder = "Email"
 String placeholder = WebUI.getAttribute(emailTestObject, "placeholder")
 
@@ -19,4 +17,4 @@ if(expectedPlaceholder != placeholder) {
 }
 ```
 
-_Credit to [Marek Melocik](https://forum.katalon.com/discussion/7362/placeholder-visibility-verification#Comment_17113)_
+_Credit to Marek Melocik_

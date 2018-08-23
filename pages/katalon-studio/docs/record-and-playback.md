@@ -10,6 +10,6 @@ For beginners, these features help to understand what is included in a test case
 
 Katalon Studio currently supports two types of recording test as following:
 
-*   [Record Web Utility (latest)](/pages/viewpage.action?pageId=13699399)
-*   [Record Mobile Utility](/display/KD/Record+Mobile+Utility)
-*   [Pre-5.5 Versions](/display/KD/Pre-5.5+Versions)
+*   Record Web Utility (latest)
+*   Record Mobile Utility
+*   Pre-5.5 Versions

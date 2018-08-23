@@ -13,27 +13,22 @@ You can access the useful Desired Capabilities for Firefox through:
 3.  Search for 'browser' keys
 4.  Create a key called 'firefox_profile' in Katalon Studio settings and add your settings there.
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled.png)
-
 Some common Desired Capabilities:
 
 1.  Start Firefox at default page: browser.startup.homepage
     
-    ```groovy
+    ```
     {"FIREFOX_DRIVER":{"firefox_profile":{"browser.startup.homepage":"www.google.com"}}}
     ```
     
       
-    ![](../../images/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled2.png)
     
-2.   Never ask for file download for file MIME type mentioned. The list of MIME type can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types).
+2.   Never ask for file download for file MIME type mentioned. The list of MIME type can be found here.
 
-```groovy
+```
 {"FIREFOX_DRIVER":{"firefox_profile":{"browser.download.folderList":"2","browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}
 ```
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled.png)
-
   
 
-Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
+Code sample can be found in this project: https://github.com/katalon-studio-samples/tips-and-tricks

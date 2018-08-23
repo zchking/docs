@@ -4,19 +4,15 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_multi_touch_action.html
 description: "Multi-Touch action appears often in gaming applications. We will use MultiTouch Tester app to demonstrate automation testing on this common behavior."
 ---
-Multi-touch action appears often in gaming applications. We will use **MultiTouch Tester** app to demonstrate automation testing on this common behavior. Please download the app from [here](https://play.google.com/store/apps/details?id=com.the511plus.MultiTouchTester) or the direct apk file [here](https://www.appsapk.com/multitouch-tester/).
+Multi-touch action appears often in gaming applications. We will use **MultiTouch Tester** app to demonstrate automation testing on this common behavior. Please download the app from here or the direct apk file here.
 
 ### Scenario
 
 Perform multi-touch at 4 different points at the same time on **MultiTouch Tester** display.
 
-**![Handling Multi-touch Action in automation testing](../../images/katalon-studio/tutorials/handle_multi_touch_action/Handling-Multi-touch-Action.png)**
-
 ### Manual Mode
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input.** A new dialogue will appear. In appFile select **Value Type** as **Variable** and in **Value** passing the variable name as **path**.
-
-![Handling Multi-touch Action in automation testing](../../images/katalon-studio/tutorials/handle_multi_touch_action/Handling-Multi-touch-Action-1.png)
 
 *   Step 2: Add **Wait For Element Present** item.
 *   Step 3: Initializing Katalon Mobile Driver to Appium Driver
@@ -29,13 +25,11 @@ Perform multi-touch at 4 different points at the same time on **MultiTouch Teste
 *   Step 10: Add a **method call** statement and press** first action** with X, Y coordinates and **wait for 5 seconds** then release. Repeat for the three other actions.
 *   Step 11: The final step is to add a **method call** statement and **generate** multi-touch action chain.
 
-![Handling Multi-touch Action in automation testing](../../images/katalon-studio/tutorials/handle_multi_touch_action/Handling-Multi-touch-Action-2.png)
-
 As you can see from the step-by-step guide above, there are repeated steps that will be easier to create in **Script Mode**. Thus, we suggest the users utilize this feature where one can quickly automate the test scenario and easily manage test scripts.
 
 ### Script Mode
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
@@ -202,4 +196,4 @@ multiTouch.add(action1).add(action2).add(action3).add(action4).perform()
 
 ```
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).
+The source code is available here. For further instructions and help, please refer to Katalon User Guide or Katalon Forum.

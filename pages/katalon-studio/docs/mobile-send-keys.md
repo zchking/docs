@@ -16,14 +16,14 @@ Parameters 
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a mobile element. |
 | strKeys | String | Required | The combination of keys to type. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------
 
 You want to send 'Katalon Studio' keys into all element by pressing the value key-by-key.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

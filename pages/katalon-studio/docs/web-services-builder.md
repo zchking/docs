@@ -6,29 +6,29 @@ description:
 ---
 Since Katalon Studio 5.4
 
-**RestRequestObjectBuilder** class provides functions to create a RESTful object easily and quickly in scripting view. You can find details regarding to API docs specifications from this [page](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html).
+**RestRequestObjectBuilder** class provides functions to create a RESTful object easily and quickly in scripting view. You can find details regarding to API docs specifications from this page.
 
 | Type | Name and description |
 | --- | --- |
-| `[RequestObject](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RequestObject.html)` | `**[build](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#build())**()` |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withFileBodyContent](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withFileBodyContent(java.lang.String))**([String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") filePath)`  
+| `RequestObject` | `**build**()` |
+| `RestRequestObjectBuilder` | `**withFileBodyContent**(String filePath)`  
 Specify the binary body content |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withHttpHeaders](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withHttpHeaders(List%3CTestObjectProperty%3E))**([List](http://download.oracle.com/javase/6/docs/api/java/util/List.html "List")<[TestObjectProperty](https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObjectProperty.html "TestObjectProperty")> httpHeaderProperties)`  
+| `RestRequestObjectBuilder` | `**withHttpHeaders**(List<TestObjectProperty> httpHeaderProperties)`  
 Specify HTTP headers for the request object |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withMultipartFormDataBodyContent](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withMultipartFormDataBodyContent(List%3CFormDataBodyParameter%3E))**([List](http://download.oracle.com/javase/6/docs/api/java/util/List.html "List")<[FormDataBodyParameter](https://api-docs.katalon.com/com/kms/katalon/core/testobject/FormDataBodyParameter.html "FormDataBodyParameter")> parameters)`  
+| `RestRequestObjectBuilder` | `**withMultipartFormDataBodyContent**(List<FormDataBodyParameter> parameters)`  
 Specify the body content for multipart/form-data type, default charset UTF-8 |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withRestParameters](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withRestParameters(List%3CTestObjectProperty%3E))**([List](http://download.oracle.com/javase/6/docs/api/java/util/List.html "List")<[TestObjectProperty](https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObjectProperty.html "TestObjectProperty")> restParameters)`  
+| `RestRequestObjectBuilder` | `**withRestParameters**(List<TestObjectProperty> restParameters)`  
 Specify the REST parameters for the request object |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withRestRequestMethod](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withRestRequestMethod(java.lang.String))**([String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") requestMethod)`  
+| `RestRequestObjectBuilder` | `**withRestRequestMethod**(String requestMethod)`  
 Specify method for the request object |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withRestUrl](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withRestUrl(java.lang.String))**([String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") url)` |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withTextBodyContent](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withTextBodyContent(java.lang.String))**([String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") text)`  
+| `RestRequestObjectBuilder` | `**withRestUrl**(String url)` |
+| `RestRequestObjectBuilder` | `**withTextBodyContent**(String text)`  
 Specify the text body content, default charset UTF-8 |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withTextBodyContent](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withTextBodyContent(java.lang.String,%20java.lang.String))**([String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") text, [String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") charset)`  
+| `RestRequestObjectBuilder` | `**withTextBodyContent**(String text, String charset)`  
 Specify the text body content |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withUrlEncodedBodyContent](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withUrlEncodedBodyContent(List%3CUrlEncodedBodyParameter%3E))**([List](http://download.oracle.com/javase/6/docs/api/java/util/List.html "List")<[UrlEncodedBodyParameter](https://api-docs.katalon.com/com/kms/katalon/core/testobject/UrlEncodedBodyParameter.html "UrlEncodedBodyParameter")> parameters)`  
+| `RestRequestObjectBuilder` | `**withUrlEncodedBodyContent**(List<UrlEncodedBodyParameter> parameters)`  
 Specify the body content that composes of a list of url-encoded pairs, default charset UTF-8 |
-| `[RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)` | `**[withUrlEncodedBodyContent](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html#withUrlEncodedBodyContent(List%3CUrlEncodedBodyParameter%3E,%20java.lang.String))**([List](http://download.oracle.com/javase/6/docs/api/java/util/List.html "List")<[UrlEncodedBodyParameter](https://api-docs.katalon.com/com/kms/katalon/core/testobject/UrlEncodedBodyParameter.html "UrlEncodedBodyParameter")> parameters, [String](http://download.oracle.com/javase/6/docs/api/java/lang/String.html "String") charset)`  
+| `RestRequestObjectBuilder` | `**withUrlEncodedBodyContent**(List<UrlEncodedBodyParameter> parameters, String charset)`  
 Specify the body content that composes of a list of url-encoded pairs |
 
   
@@ -36,7 +36,7 @@ Examples regard how to use them:
 
 1.  **Create a 'GET' RESTful request:**
     
-    ```groovy
+    ```
     import com.kms.katalon.core.testobject.ConditionType as ConditionType
     import com.kms.katalon.core.testobject.RestRequestObjectBuilder
     import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
@@ -66,7 +66,7 @@ Examples regard how to use them:
     
 2.  **Create a 'POST' RESTful request:**
     
-    ```groovy
+    ```
     import com.kms.katalon.core.testobject.ConditionType as ConditionType
     import com.kms.katalon.core.testobject.RestRequestObjectBuilder
     import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty

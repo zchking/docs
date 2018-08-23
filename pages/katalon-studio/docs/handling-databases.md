@@ -12,7 +12,7 @@ Below is a sample demonstrating how to create custom keywords for:
 *   Executing data query
 *   Closing the connection
 
-```groovy
+```
 private static Connection connection = null;
 
 	/**
@@ -65,6 +65,4 @@ private static Connection connection = null;
 	}
 ```
 
-You can add the sample code above to your keyword file and modify the details as appropriated. 
-
-![](../../images/katalon-studio/docs/handling-databases/image2017-2-24 11_38_14.png)
+You can add the sample code above to your keyword file and modify the details as appropriated.

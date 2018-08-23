@@ -11,14 +11,12 @@ Modify Execution Information
 
 You can manage additional configurations for test suite execution by expanding the **Execution Information** section, as below:
 
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_49_29.png)
-
 | Field | Description |
 | --- | --- |
 | 
 Page load timeout:
 
- ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_56_48.png)
+ 
 
 
 
@@ -26,7 +24,7 @@ Page load timeout:
 
 The timeout period allowed to wait for a page to be loaded. You can choose among the following options:
 
-*   **Use default**: the default value defined will be used. Refer to [Execution Preferences (Version 5.0 and below)](/pages/viewpage.action?pageId=3179873) for more details.
+*   **Use default**: the default value defined will be used. Refer to Execution Preferences (Version 5.0 and below) for more details.
 *   **User-defined value**: the entered timeout value (in seconds) will be used.
 
 
@@ -35,8 +33,6 @@ The timeout period allowed to wait for a page to be loaded. You can choose among
 | 
 
 Retry:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_9_6.png)
 
 
 
@@ -51,15 +47,13 @@ The **maximum** number of retries for execution until it is successfully passed.
 
 Mail Recipients
 
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_12_46.png)
-
 
 
  | 
 
 The list of recipients who would receive the execution report once the test suite finishes its execution.
 
-There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to [Emails Settings](/display/KD/Emails+Settings) for more details.
+There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to Emails Settings for more details.
 
 
 
@@ -71,8 +65,6 @@ There’s also another list of recipients who will be receiving all the reports 
 | 
 
 Last run:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 15_14_55.png)
 
 
 
@@ -90,7 +82,6 @@ Manage Test Case List
 Using the Test Suite editor, you can add a test case into a test suite.
 
 Open a test suite, then select option to add **Add Test Case** from command toolbar.  
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 14_33_40.png)
 
 All test cases in Katalon Studio are displayed in the **Test Case Browser** dialog for you to select your preferred options. The selected test cases will be added in the test case list accordingly.  
   
@@ -100,27 +91,27 @@ The checkbox at the end of test case row is checked by default. It means that th
 Data-Driven Testing
 -------------------
 
-Katalon Studio provides users the ability to define test data that can be used later when executing automation test. Refer to the [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more detailed information about this function. This section shows how to design your automation test using predefined test data.
+Katalon Studio provides users the ability to define test data that can be used later when executing automation test. Refer to the Manage Test Data for more detailed information about this function. This section shows how to design your automation test using predefined test data.
 
 ### Test Data
 
 Using the test suite editor, you can add a predefined test data file object which will be used later in a test case execution by following the steps below:
 
 1.  In test suite editor, select a test case from the test case list. Click on **Show Data Binding** to load its data details.  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-24 17_54_22.png)  
+      
       
     
 2.  Katalon Studio will expand Data Binding Section with Test Data table and Variable Binding table  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_39_32.png)  
+      
       
     
 3.  In the expanded **Data Binding** section, select option to add **Test Data** from command toolbar.  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-6-30 21_47_37.png)  
+      
       
     
 4.  All test data will be displayed in **Test Data Browser**. Select the data for your test case to continue. The selected test data will be added to the list accordingly.
 5.  Double click on the **Data Iteration** cell to specify the data range to be used for execution.  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_5_49.png)  
+      
     where:
     
     | Option | Description |
@@ -137,8 +128,8 @@ Using the test suite editor, you can add a predefined test data file object whic
     
      |
     
-6.  Click on the **Type** cell to toggle its value. Refer to [Manage Test Data Relationship](#DesignaTestSuite-Managetestdatarelationship) for more details.  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_53_51.png)  
+6.  Click on the **Type** cell to toggle its value. Refer to Manage Test Data Relationship for more details.  
+      
       
     
 
@@ -161,8 +152,6 @@ Therefore, we can have the following combinations among data sets:
 | One to One | 
 Given there are two data sets as below:
 
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_47_9.png)
-
 Then the final data set used for test execution will be:
 
 *   a1 b1
@@ -174,8 +163,6 @@ Then the final data set used for test execution will be:
 | Many to Many | 
 
 Given there are two data sets as below:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_49_3.png)
 
 Then the final data set used for test execution will be:
 
@@ -192,8 +179,6 @@ Then the final data set used for test execution will be:
 | One to Many | 
 
 Given there are two data sets as below:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_50_53.png)
 
 Then the final data set used for test execution will be:
 
@@ -213,8 +198,6 @@ Then the final data set used for test execution will be:
 
 Given there are three data sets as below:
 
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 16_52_41.png)
-
 Then the final data set used for test execution will be:
 
 *   a1 b1 c1
@@ -228,34 +211,34 @@ Then the final data set used for test execution will be:
 
 ### Variable Binding
 
-If there’s any [public variable](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Publicvariables) defined in your test case, then you can manage variable binding for your test case executio--that is, to specify which value would be used for which variables during test execution.
+If there’s any public variable defined in your test case, then you can manage variable binding for your test case executio--that is, to specify which value would be used for which variables during test execution.
 
 Follow the steps below to manage variable binding for a test case within the test suite:
 
 1.  In test suite editor, select a test case from the test case list. Click on **Show Data Binding** to load its data details.  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-24 17_54_22.png)  
+      
       
     
 2.  All the public variables defined in that test case will be loaded into the **Variable Binding** section:  
       
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_55_3.png)
+    
 
 #### Bind Variable to Test Data
 
-This option allows you to associate the variables with configured [Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data)[](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-TestData).
+This option allows you to associate the variables with configured Test Data.
 
 1.  Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same** t**ype**. In this case Username and Password has the same type as Data Column. Simply highlight both rows. Click on **Set Type** and select **Data Column**:  
       
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 12_2_55.png)  
+      
       
     
 2.  Both rows are still highlighted. Click on **Set Test Data** to decide which test data from the list to be used for execution:  
       
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 12_4_41.png)  
+      
       
     
 3.  Click on **Value** cell to specify the data field of test data to be used.  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15 18_9_6.png)
+    
 4.  All headers of the related test data will be displayed. Select the header to be referred during execution. The selected header will be displayed accordingly in **Variable Binding** section.
 5.  Save the test suite when you're done.
 
@@ -264,8 +247,6 @@ In the above example, the global variable _Username_ will look up to the column 
 Quick tip
 
 Using the **Map All** button, users can quickly match Variables of the test case with respective columns in the test data:
-
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 14_33_23.png)
 
 In order for Katalon to automatically make the variable binding, the Variables need to have its respective columns in Test Data with **the same name**.
 
@@ -276,13 +257,13 @@ For example: the variables 'Username' and 'Password' of the selected test case c
 This option allows you to associate the variables with other scripting value.
 
 1.  Highlight rows No. 1 and No.2. Click **Set Type** and Select **Script Variable**:  
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 15_19_20.png)  
+      
       
     
 2.  Specify the data to be used in **Value** cell. This value will be utilized this data during execution.   
-    ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 15_21_10.png)
+    
 
 Execute a Test Suite
 --------------------
 
-Executing a test suite is more or less the same as executing a test case. Refer to [this documentation](/display/KD/Execute+a+Test+Case+or+a+Test+Suite) for more details.
+Executing a test suite is more or less the same as executing a test case. Refer to this documentation for more details.

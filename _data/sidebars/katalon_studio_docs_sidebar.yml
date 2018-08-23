@@ -11,6 +11,8 @@ entries:
       url: /katalon-studio/docs/version-561.html
     - title: "Manage Test Object"
       url: /katalon-studio/docs/manage-test-object.html
+    - title: "Manage Test Project"
+      url: /katalon-studio/docs/manage-test-project.html
     - title: "Configure JIRA Integration"
       url: /katalon-studio/docs/configure-jira-integration.html
     - title: "Custom Keywords"
@@ -89,8 +91,6 @@ entries:
       url: /katalon-studio/docs/version-56.html
     - title: "Katalon Help"
       url: /katalon-studio/docs/katalon-help.html
-    - title: "Manage Test Project"
-      url: /katalon-studio/docs/manage-test-project.html
     - title: "Execute a test case"
       url: /katalon-studio/docs/execute-a-test-case.html
     - title: "Recording WebUI Test"

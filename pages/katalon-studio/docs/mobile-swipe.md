@@ -20,14 +20,14 @@ Parameters
 Relative x position of startX |
 | endY | int | Required | Ending y position | Since 5.1.0.2  
 Relative y position of start Y |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |   |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |   |
 
 Example 
 --------
 
 You want to swipe from (200,300) position to (400,600) position on current screen.
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

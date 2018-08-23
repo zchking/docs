@@ -4,27 +4,23 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
 description: "In this tutorial, we will show you how to speed up your mobile apps testing project using Katalon Studio and Kobiton’s mobile devices on cloud."
 ---
-![Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/QS_high-08-1024x509.png)
-
-Scripting your first mobile automation test case can be quite confusing without a specialized tool or instruction. In this tutorial, we will show you how to speed up your automation project using Katalon Studio’s mobile recording utility and run your recorded test cases on hundreds of Kobiton’s mobile devices on the cloud. For this tutorial, we assume that you have already installed [Katalon Studio](https://www.katalon.com/), got familiar with its basic functions and registered a [Kobiton account](https://kobiton.com/).
+Scripting your first mobile automation test case can be quite confusing without a specialized tool or instruction. In this tutorial, we will show you how to speed up your automation project using Katalon Studio’s mobile recording utility and run your recorded test cases on hundreds of Kobiton’s mobile devices on the cloud. For this tutorial, we assume that you have already installed Katalon Studio, got familiar with its basic functions and registered a Kobiton account.
 
 Create mobile automation test cases using Katalon Studio’s recording utility
 ----------------------------------------------------------------------------
 
 Before starting, make sure that you have:
 
-*   Downloaded the target app under test – [Material Login Demo](https://github.com/katalon-studio/Material-Login-App-Test/blob/master/App%20Files/MaterialLoginExample.apk). This app provides a set of simple authentication features that will be automated as demonstrated below.
-*   [Configured your Katalon Studio instance for mobile testing.](https://docs.katalon.com/display/KD/Kobiton+Integration)
+*   Downloaded the target app under test – Material Login Demo. This app provides a set of simple authentication features that will be automated as demonstrated below.
+*   Configured your Katalon Studio instance for mobile testing.
 
-Katalon Studio provides two utilities to accelerate the automation process: Mobile Object Spy to quickly populate the project’s object repository and Mobile Recorder to generate automation scripts from recorded actions. As this tutorial mainly focuses on the functionalities of the Recorder utility, for more details, please refer to the [Object Spy user guide](https://docs.katalon.com/display/KD/Spy+Object/) available from [Katalon Studio Documentation](https://docs.katalon.com/display/KD/Spy+Object/) on how to use this utility.
+Katalon Studio provides two utilities to accelerate the automation process: Mobile Object Spy to quickly populate the project’s object repository and Mobile Recorder to generate automation scripts from recorded actions. As this tutorial mainly focuses on the functionalities of the Recorder utility, for more details, please refer to the Object Spy user guide available from Katalon Studio Documentation on how to use this utility.
 
 1\. Let’s open the sample project (already included in Katalon Studio) and create a new test case. Click on the Mobile Recorder button to open its dialog as shown below
 
-![sample project Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/1.png)
-
 Where
 
-<table><tbody><tr><td style="text-align: center; border: 1px solid black;"><b>Section</b></td><td style="text-align: center; border: 1px solid black;"><b>Explanation</b></td></tr><tr><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Device View</span></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Device inspector view. Preview of device UI will be displayed here. Click on any elements to select.</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Configurations</span></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Select setting for recording session</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">All Objects</span></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">The current mobile elements hierarchy on the device. Click to select an element and view its properties in Object Properties.</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Possible Actions</span></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">All available actions that can be performed on the device</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Object Properties</span></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">All properties of the selected element in All Objects.</span></td></tr><tr><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">Recorded Actions</span></td><td style="text-align: center; border: 1px solid black;"><span style="font-weight: 400;">All recorded actions appear here</span></td></tr></tbody></table>
+<table><tbody><tr><td><b>Section</b></td><td><b>Explanation</b></td></tr><tr><td><span>Device View</span></td><td><span>Device inspector view. Preview of device UI will be displayed here. Click on any elements to select.</span></td></tr><tr><td><span>Configurations</span></td><td><span>Select setting for recording session</span></td></tr><tr><td><span>All Objects</span></td><td><span>The current mobile elements hierarchy on the device. Click to select an element and view its properties in Object Properties.</span></td></tr><tr><td><span>Possible Actions</span></td><td><span>All available actions that can be performed on the device</span></td></tr><tr><td><span>Object Properties</span></td><td><span>All properties of the selected element in All Objects.</span></td></tr><tr><td><span>Recorded Actions</span></td><td><span>All recorded actions appear here</span></td></tr></tbody></table>
 
 2\. With the dialog opened, follow the following steps to configure your recording session:
 
@@ -40,8 +36,6 @@ Once the configuration is completed, the app appears as shown in the screenshot 
     Select the **_android.widget.TextView0_** object in the all objects tree. (Or you can tap the text on the Device view to focus on the object).
 *   Then click the **_Tap_** button to record the action. This action simulates a tap on the app.
 
-![Possible Action Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/2.png)
-
 You will be directed to the **_Create Account_** screen.
 
 *   Fill in the information to create an account.
@@ -51,13 +45,9 @@ Then click **Set Text** to perform the set text action on the Name text.
 
 Enter “name” for the text input as below. Click OK.
 
-![Text input Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/3.png)
-
 The text is set to the device, and the action is recorded in the Recorded actions table.
 
 *   Perform the same steps with the **_Address_** field, and enter “address” for this field_._
-
-![enter value Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/4.1-300x258.png)
 
 *   To enter the value for the **_Email_** field, we will need to hide the on-screen keyboard to make the field visible by pressing the **_Hide Keyboard_** action button. Select the **_Email_** field to perform the set text action using “email@domain.com”**_._**
 *   Follow the same steps for the **_Mobile Number_**, **_Password_** and **_Re-enter Password_** text fields.
@@ -66,17 +56,13 @@ The text is set to the device, and the action is recorded in the Recorded action
 
 The recorded actions should look like the following:
 
-![Recorded Action Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/5.png)
-
 *   Click **_OK_** to complete the recording and then choose a folder to store your captured objects. Click **_OK_** again for Katalon Studio to generate test scripts.
 
 4\. View your test case in the Manual mode or replay it to validate all recorded steps. Let’s now add validation points for this test case to verify whether the recorded inputs can set to the text fields successfully.
 
-*   Select the first **_Set Text _**from the **_Add_** toolbar or by clicking on **_Add_** from the context menu, add a Mobile Keyword step and choose the keyword **_Verify Element Attribute Value.![](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/new-test-case.png)_**
+*   Select the first **_Set Text _**from the **_Add_** toolbar or by clicking on **_Add_** from the context menu, add a Mobile Keyword step and choose the keyword **_Verify Element Attribute Value._**
 *   Select the test object representing the **_Name_** text field, which is **_widget.EditText0_**, as an object to verify.
 *   Double click on the input cell for the test step and set the following values.
-
-![Input Cell Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/6.png)
 
 *   Perform the same procedure for other **_Set Text_** actions.
 
@@ -87,29 +73,23 @@ Run your mobile automation test case on Kobiton’s cloud devices      
 
 1\. Upload the Material Login Demo app to Kobiton App Repository. From the Repository view, select the more actions button and select the **_Automation snippet._** Copy the app id (the one in bold, for example, **_Kobiton-store:184_** as shown below) and save it.
 
-![Kobiton App Repository](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/7-300x196.png)2\. Navigate to the Kobiton Devices page. Choose the devices on which you want to run your test and mark those devices as a favorite by clicking on the star icon.  
+2\. Navigate to the Kobiton Devices page. Choose the devices on which you want to run your test and mark those devices as a favorite by clicking on the star icon.  
 3\. Let’s enable Kobiton integration.
 
 *   Open Katalon Studio Preferences (**_Windows_** -\> **_Katalon Studio Preferences_**) then select **_Kobiton_**.
-
-![Katalon Studio Preferences](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/8.png)
 
 *   Enter your Kobiton username and password. Click **_Connect_** to test the connection and authentication. With a valid account, Katalon Studio automatically retrieves the API keys from Kobiton.
 *   Click **_Apply_** or **_OK_** to save the settings.
 
 4\. Open the test case created from the previous section, replace the input application path for the first step “**_Start Application”_** with the Kobiton app id saved in Step 1.
 
-![](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/tests-explorer.png)
-
 5\. A new menu option appears under the **_Execution_** toolbar as below. Click on **Kobiton Device** to open the Kobiton Favorite Device dialog.
-
-![menu options Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/9-200x300.png)
 
 6. Select your target device for execution from the Kobiton Favorite Device list. Click OK to start execution with that device. It may take some time to initialize the connection to Kobiton prior to the execution. You should be able to login to Kobiton sessions to view the result once the test execution completed.
 
-The combination of [Katalon Studio](https://www.katalon.com) and [Kobiton](https://kobiton.com) empowers automation engineers in validating the quality of mobile apps by allowing them to execute recorded test cases on hundreds of devices quickly. This solution does not only save them time but also maximizes test coverage. Katalon Studio is a FREE – a full-featured automation solution that can be downloaded at [www.katalon.com](https://www.katalon.com). Kobiton is a cloud-based mobile device farm that provides real devices for both manual and automation testing with an affordable price. You can register a [Kobiton account](https://kobiton.com) for free trial.
+The combination of Katalon Studio and Kobiton empowers automation engineers in validating the quality of mobile apps by allowing them to execute recorded test cases on hundreds of devices quickly. This solution does not only save them time but also maximizes test coverage. Katalon Studio is a FREE – a full-featured automation solution that can be downloaded at www.katalon.com. Kobiton is a cloud-based mobile device farm that provides real devices for both manual and automation testing with an affordable price. You can register a Kobiton account for free trial.
 
-For more details, please visit Katalon Studio [Resources Center](https://katalon.com/resources-center/tutorials/).
+For more details, please visit Katalon Studio Resources Center.
 
 **About the Author:**
 
@@ -117,4 +97,4 @@ Hieu Mai
 
 Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years’ experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
 
-Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)
+Contact him at hieumai@kms-technology.com

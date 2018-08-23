@@ -14,7 +14,7 @@ Parameters  
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -36,10 +36,10 @@ Example 
 You want to get device manufacturer of the current active mobile device, then store it into "manufacturer" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-device-manufacturer/image2017-3-3 11_29_20.png)
+    
 *   Script view 
     
-    ```groovy
+    ```
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
     import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

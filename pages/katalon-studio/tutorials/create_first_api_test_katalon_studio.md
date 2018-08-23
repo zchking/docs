@@ -4,11 +4,9 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_first_api_test_katalon_studio.html
 description: "API testing has become more important. This tutorial will demonstrate how to use Katalon Studio to create your first API test from scratch."
 ---
-**API testing** (or Web service testing in the context of a Web application) has become more important in software testing. The interest in API testing has been increasing over the last five years, according to [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=api%20testing). This trend possibly indicates that the demand for applying API testing has become more prevalent. Testing API or web services is no longer performed solely by the original developer. This activity is now a common practice among outsourcing teams who independently verify and validate their products.
+**API testing** (or Web service testing in the context of a Web application) has become more important in software testing. The interest in API testing has been increasing over the last five years, according to Google Trends. This trend possibly indicates that the demand for applying API testing has become more prevalent. Testing API or web services is no longer performed solely by the original developer. This activity is now a common practice among outsourcing teams who independently verify and validate their products.
 
 This tutorial will demonstrate how to use Katalon Studio to create your first API/Web service test from scratch with good practices. Before proceeding with API Testing, there are some basic terms about API testing object in Katalon Studio that we need to understand clearly.
-
-![api test object katalon studio](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/API-testing-object-in-Katalon-Studio.png)
 
 ### Test Case (or Test Scenario)
 
@@ -37,13 +35,9 @@ How to create a Web service (RESTful) test case from scratch using Katalon Studi
 
 Right-click on the Object Repository, select Web Service Request under New sub-menu to open new Web Service Request dialog.
 
-![Web-Service-Request-katalon-studio](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-Service-Request.png)
-
 _Figure 1: Web Service Request access menu_
 
 Input information into the new **Web Service Request** dialog
-
-![New Web Service Request dialog](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-Service-Request-dialog.png)
 
 _Figure 2: New Web Service Request dialog_
 
@@ -53,7 +47,7 @@ This is a free string to specify the name of created Web Service Request. There 
 
 **Request Type:**
 
-This provides important information about a request. In Katalon Studio, a Web Service Request can be either [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) or [SOAP](https://simple.wikipedia.org/wiki/SOAP_(protocol)). Since RESTful is becoming more and more popular, it is selected by default in the dialog.
+This provides important information about a request. In Katalon Studio, a Web Service Request can be either RESTful or SOAP. Since RESTful is becoming more and more popular, it is selected by default in the dialog.
 
 **URL:**
 
@@ -65,13 +59,9 @@ If needed, more information about the request can be specified in this area.
 
 Once all the information is specified, the new Web Service Request will be created after the OK button is clicked.
 
-![new Web Service Request](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/New-WS-Request-is-created-in-the-Tests-Explorer1.png)
-
 _Figure 3: New WS Request is created in the Tests Explorer_
 
 ### Step 2: Specify the WS Request’s settings
-
-![Web service object information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service-object-information.png)
 
 _Figure 4: Web service object information_
 
@@ -101,13 +91,11 @@ b. OAuth 1.0 method
 
 Before adding actual verification steps to test the service, Katalon Studio supports testing on-the-fly method: send the request and perform quick verification of the response.
 
-![Web service’s response information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service%E2%80%99s-response-information.png)
-
 _Figure 5: Web service’s response information_
 
 (1) Click to send the request to the Web server
 
-(2) The response code of the request. The code reflects the status of the request. Learn more about the [response code](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
+(2) The response code of the request. The code reflects the status of the request. Learn more about the response code.
 
 (3) Elapsed time demonstrates how much time Katalon Studio takes to get the response from the web server.
 
@@ -121,15 +109,11 @@ _Figure 5: Web service’s response information_
 
 The first 3 steps demonstrate how to create Web service end-point at Object Repository. This step will guide you through creating an actual test scenario for it.
 
-![Adding ‘Web Service Keyword” step](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%98Web-Service-Keyword%E2%80%9D-step.png)
-
 _Figure 6: Adding ‘Web Service Keyword” step_
 
 (1) Create a test case with a readable name. It is highly recommended that the test case name briefly describes the test scenario.
 
 (2) From the Test case editor, select ‘Add -> Web Service Keyword’ to add a new step.
-
-![Adding “Send request” keyword](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%9CSend-request%E2%80%9D-keyword.png)
 
 _Figure 7: Adding “Send request” keyword_
 
@@ -144,8 +128,6 @@ _Figure 7: Adding “Send request” keyword_
 ### Step 5: Add verification steps
 
 This step will guide you how to add verification steps into the Test Case.
-
-![Verification steps katalon studio](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Verification-steps.png)
 
 _Figure 8: Verification steps_
 
@@ -165,7 +147,7 @@ Executing an API Test case is exactly the same as executing a UI functional Test
 
 **Notes:**
 
-Source code: [https://github.com/katalon-studio-samples/jira-ui-tests](https://github.com/katalon-studio-samples/jira-ui-tests)
+Source code: https://github.com/katalon-studio-samples/jira-api-tests
 
 Project: Jira API
 

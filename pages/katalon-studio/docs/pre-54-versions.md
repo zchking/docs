@@ -6,5 +6,5 @@ description:
 ---
 In addition to the web and mobile testing, Katalon Studio also provides fundamental features for web service testing. Katalon Studio is compatible with both **RESTful** & **SOAP** services.
 
-*   [RESTful (Pre-5.4)](/pages/viewpage.action?pageId=5116880)
-*   [SOAP (Pre-5.4)](/pages/viewpage.action?pageId=5116882)
+*   RESTful (Pre-5.4)
+*   SOAP (Pre-5.4)

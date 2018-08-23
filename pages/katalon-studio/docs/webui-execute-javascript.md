@@ -18,7 +18,7 @@ Parameters  
 | --- | --- | --- | --- |
 | script | String | Required | The JavaScript to execute. |
 | argument | List | Required | The arguments to the script. Can be empty or null. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -29,27 +29,27 @@ Example 
 
 Make an alert on the web page
 
-```groovy
+```
 'Use Javascript to make an alert'
 WebUI.executeJavaScript("alert('This is an alert')", null)
 ```
 
 Return WebElement based on its id:
 
-```groovy
+```
 WebElement element = WebUI.executeJavaScript("return document.getElementById('someId');", null)
 ```
 
 Interact with returned WebElement
 
-```groovy
+```
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
 WebUI.executeJavaScript("arguments[0].style.border='3px solid blue'", Arrays.asList(element))
 ```
 
 Click on returned WebElement:
 
-```groovy
+```
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
 WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
 ```

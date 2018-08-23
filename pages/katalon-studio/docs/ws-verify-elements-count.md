@@ -30,9 +30,9 @@ Description
  |
 | --- | --- | --- | --- |
 | response | ResponseObject | Required | Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header) |
-| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide for how to write it: [Handle Web Service Response object](/display/KD/Introduction+to+Web+Services+Test+Object) |
+| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide for how to write it: Handle Web Service Response object |
 | count  | int  | Required | The expected number of element(s) should appear in the responded data (usually is JSON/XML) |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -44,7 +44,7 @@ Example
 
 You want to verify number of expected elements in the response is 3
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

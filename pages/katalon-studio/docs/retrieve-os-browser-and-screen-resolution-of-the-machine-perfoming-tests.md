@@ -6,7 +6,7 @@ description:
 ---
 During or after test executions, you may want to capture additional information about OS, browser, and screen resolution of the machine performing tests. Below are some sample custom keywords to help you with this task:
 
-```groovy
+```
 package com.mycompany
 
 import regular.stuff.here
@@ -41,12 +41,12 @@ def getScreenResolution() {
 }
 ```
 
-**References:**[ ](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/Capabilities.html)
+**References:** 
 
-*   [Capabilities](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/Capabilities.html)
+*   Capabilities
 
-*   [RemoteWebDriver  
-    ](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java)
-*   [D](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java)[riverFactory](https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html)
+*   RemoteWebDriver  
+    
+*   DriverFactory
 
-_Credit to [Drunda Ninbel](https://forum.katalon.com/discussion/6853/how-to-retrieve-os-browser-and-screen-resolution-of-the-machine-performing-my-test-suite#Comment_15742)_
+_Credit to Drunda Ninbel_

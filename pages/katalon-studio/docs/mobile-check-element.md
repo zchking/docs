@@ -16,14 +16,14 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | required | represent a mobile element |
 | timeout  | int | required | system will wait at most timeout (seconds) to return result |
-| flowControl  | FailureHandling  | optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl  | FailureHandling  | optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------
 
 You want to check on subscribe checkbox in 10 seconds timeout
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

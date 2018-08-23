@@ -16,14 +16,14 @@ Parameters  
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | fileAbsolutePath  | String | Required | Absolute path of the file on local machine. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Example  
 ---------
 
 You want to upload "test-photo.png" located in "D:\\" to the object "input_browse" on web page.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

@@ -9,8 +9,6 @@ Description
 
 Verify if the option with the given value does exist.
 
-![](../../images/katalon-studio/docs/webui-verify-option-present-by-value/label.jpg)
-
 Parameters
 ----------
 
@@ -20,7 +18,7 @@ Parameters
 | value | String | Required | Value of the options to be verified if being present. |
 | isRegex | boolean | Required | True if the label is a regular expression, false by default. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return the result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop |
 
 Returns
 -------
@@ -38,7 +36,7 @@ Example
 
 You want to verify if 'HongKong Cura Health Center' does present in the list.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData

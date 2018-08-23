@@ -10,15 +10,14 @@ Assert statement in Manual view
 -------------------------------
 
 1.  Open a test case in **Manual** view, then navigate to **Assert Statements** from command toolbar.  
-    ![](../../images/katalon-studio/docs/assert-statements/image2017-6-30 20_44_0.png)  
+      
       
     
 2.  A test step represents assert expression is added to the test case.  
-    ![](../../images/katalon-studio/docs/assert-statements/image2017-2-10 14_35_6.png)  
+      
       
     
 3.  Double click on the **Input** cell to edit the assertion.  
-    ![](../../images/katalon-studio/docs/assert-statements/image2017-2-10 15_2_25.png)
     
     Once a test step is added as **Assert Statement**, it will **not** be allowed to change into another keyword.
     
@@ -26,8 +25,6 @@ Assert statement in Manual view
 Assert statement in Scripting view
 ----------------------------------
 
-The **Script** view of test cases allows you to programmatically define and handle assertions easily using either Groovy or Java language. Refer to [http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html) for more details regarding assertions in Groovy.
+The **Script** view of test cases allows you to programmatically define and handle assertions easily using either Groovy or Java language. Refer to http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html for more details regarding assertions in Groovy.
 
 For example:
-
- ![](../../images/katalon-studio/docs/assert-statements/11.png)

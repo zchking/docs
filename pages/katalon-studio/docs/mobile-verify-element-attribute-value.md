@@ -18,7 +18,7 @@ Parameters
 | attributeName  | String  | Required | The value of the attribute to verify. |
 | attributeValue  | String  | Required | The value of the attribute to verify. |
 | timeout  | int | Required | System will wait at most timeout (seconds) to return a result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
@@ -30,7 +30,7 @@ Example
 
 You want to verify if 'App' control has an attribute with name = 'class' and value is 'android.widget.TextView'
 
-```groovy
+```
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

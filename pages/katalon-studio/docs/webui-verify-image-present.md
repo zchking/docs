@@ -15,7 +15,7 @@ Parameters 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent an image. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns 
 --------
@@ -35,7 +35,7 @@ Example 
 
 You want to verify if "img_KatalonLogo" is present on page.
 
-```groovy
+```
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -70,5 +70,3 @@ WebUI.closeBrowser()
 ```
 
 The test object needs to define a source image from the local machine for Katalon Studio to use it for verification
-
-![](../../images/katalon-studio/docs/webui-verify-image-present/define_image.jpg)

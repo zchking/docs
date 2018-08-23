@@ -11,7 +11,7 @@ An alert is a Javascript function which is used to notify users on a Web page. I
 
 The alert is a modal dialog that takes the focus away from the current window and forces the user to take action before performing other actions. It also prevents the user from accessing other parts of the page until the user performs the action presented in the dialog. For example, when the user clicks on the “Delete” button, an alert would be triggered asking user ‘Are you sure, you want to delete?’ The user has to take action on this dialog.
 
-Such an alert can be handled using Katalon Studio built-in keywords. This tutorial shows how to do so with HTML examples. You can get the HTML by clicking [here](https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Alerts2.html).
+Such an alert can be handled using Katalon Studio built-in keywords. This tutorial shows how to do so with HTML examples. You can get the HTML by clicking here.
 
 Handle Alerts using Katalon Studio
 ----------------------------------
@@ -27,11 +27,9 @@ This alert method is used to confirm an action performed by the user. You can ha
 *   Step 3: Clicking on button
 *   Step 4: Call the Accept alert method
 
-**![Handle Accept Alerts using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Handle-accept-alert.png)**
-
 **Script Mode**
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -65,11 +63,9 @@ This alert method is used to ask the user to cancel something.
 *   Step 3: Clicking on button
 *   Step 4: Call the Dismiss alert method
 
-**![Handle dismiss alerts using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Handle-dismiss-alert.png)**
-
 **Script Mode**
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -103,11 +99,9 @@ We can pass text to an **Alert** text message by using the **sendKeys()** method
 *   Step 3: Clicking on button
 *   Step 4: By sendKeys method passing the Text to an Alert
 
-![Send data to an alert dialog using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Send-data-to-an-alert-dialog.png)
-
 **Script Mode**
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
  
 import org.openqa.selenium.WebDriver as WebDriver
@@ -152,11 +146,9 @@ We can capture the message on Alert by using the getText() method.
 *   Step 4: Getting the text from the alert and storing it in Variable
 *   Step 5: Verifying the Actual and Expected text from Alert
 
-![Capture the alert message using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Capture-alert-message.png)
-
 **Script Mode**
 
-```groovy
+```
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.WebDriver as WebDriver
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
@@ -175,6 +167,6 @@ WebUI.verifyEqual(AlertText, 'Please enter your name')
 
 ```
 
-The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
+The source code is available to be downloaded here.
 
-For further instructions and help, refer to [WebUI Alert](https://docs.katalon.com/display/KD/%5BWebUI%5D+Alert)  and [Solving pop-up dialog issue with Katalon Studio](https://www.katalon.com/resources-center/tutorials/pop-up-dialog-issue/).
+For further instructions and help, refer to WebUI Alert  and Solving pop-up dialog issue with Katalon Studio.

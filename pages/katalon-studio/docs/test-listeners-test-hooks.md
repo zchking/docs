@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-listeners-test-hooks.html 
 description: 
 ---
-Available since Katalon Studio v[5.2](https://docs.katalon.com/display/KD/Version+5.2)
+Available since Katalon Studio v5.2
 
 Test Listeners is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, Test Listeners are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with Test Listeners.
 
@@ -15,19 +15,15 @@ Test Listeners can be treated the same as other test artifacts, which means you 
 
 **Right click** on Test Listeners in **Tests Explorer**. Select **New** \> **New Test Listener**.
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_3.png)
-
 When creating a new test listener, you can see there are 4 options in **New Test Listener** dialog:
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_38.png)
-
-<table class="relative-table wrapped confluenceTable" style="width: 71.0291%;"><tbody><tr class="xtr-0"><th class="xtd-0-0 confluenceTh">Generate sample Before Test Case method</th><td class="xtd-0-1 confluenceTd">A sample listener will be generated <strong>before every</strong> test case starts.</td></tr><tr class="xtr-1"><th class="xtd-1-0 confluenceTh">Generate sample After Test Case method</th><td class="xtd-1-1 confluenceTd">A sample listener <span>will be generated</span> <strong>after every</strong> test case ends.</td></tr><tr class="xtr-2"><th class="xtd-2-0 confluenceTh">Generate sample Before Test Suite method</th><td class="xtd-2-1 confluenceTd">A sample listener <span>will be generated</span> <strong>before every</strong> test suite starts.</td></tr><tr class="xtr-3"><th class="xtd-3-0 confluenceTh">Generate sample Before Test Suite method</th><td class="xtd-3-1 confluenceTd">A sample listener<span>will be generated </span><strong>after every</strong> test suite ends.</td></tr></tbody></table>
+<table><tbody><tr><th>Generate sample Before Test Case method</th><td>A sample listener will be generated <strong>before every</strong> test case starts.</td></tr><tr><th>Generate sample After Test Case method</th><td>A sample listener <span>will be generated</span> <strong>after every</strong> test case ends.</td></tr><tr><th>Generate sample Before Test Suite method</th><td>A sample listener <span>will be generated</span> <strong>before every</strong> test suite starts.</td></tr><tr><th>Generate sample Before Test Suite method</th><td>A sample listener<span>will be generated </span><strong>after every</strong> test suite ends.</td></tr></tbody></table>
 
 You can select **one** or **multiple** options. Once finished, Katalon Studio will generate a sample template accordingly:
 
 Expand source
 
-```groovy
+```
 class NewTestListener {
 	/**
 	 * Executes before every test case starts.
@@ -77,15 +73,13 @@ As you can see from the code above, a sample generated template has already adde
 Visualized Workflow
 -------------------
 
-To not get confused with [setUp and tearDown](https://docs.katalon.com/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
-
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-6-8 18_12_39.png)
+To not get confused with setUp and tearDown, the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
 
 ### Example
 
 Define multiple environments as different Global Variables by using Test Listeners. Simply change the environment variable to the preferred environment before test case execution.
 
-```groovy
+```
 /**
  * Executes before every test case starts.
  * @param testCaseContext related information of the executed test case.
