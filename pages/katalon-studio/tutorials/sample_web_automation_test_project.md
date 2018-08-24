@@ -38,7 +38,7 @@ The newly created test case is generated in form of a Groovy language script fil
 
 Please refer to the [Test Design page](https://docs.katalon.com/display/KD/Test+Design) for detailed instructions to compose test steps in various modes using different utilities. For a starter, we recommend using the Record – Playback function to get familiar with the scripting process. Katalon Studio is capable of generating test steps quickly.
 
-*   Click on the Record Toolbar button to open the Record dialog, then enter “[http://demoaut.katalon.com](http://demoaut.katalon.com)” for the URL field and select Chrome on the dialog to start recording.
+*   Click on the Record Toolbar button to open the Record dialog, then enter "[http://demoaut.katalon.com](http://demoaut.katalon.com)" for the URL field and select Chrome on the dialog to start recording.
 
 ![Katalon recording](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon5.png)
 
@@ -48,7 +48,7 @@ Please refer to the [Test Design page](https://docs.katalon.com/display/KD/Test+
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon8.png)
 
-*   Enter “John Doe” for username and “ThisIsNotAPassword” for password on the login page.
+*   Enter "John Doe" for username and "ThisIsNotAPassword" for password on the login page.
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon9.png)
 
@@ -68,13 +68,13 @@ Please refer to the [Test Design page](https://docs.katalon.com/display/KD/Test+
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon13.png)
 
-*   The recorded test scripts should run smoothly, but you will notice the test fails at Step 14 (Click on “a_Logout” element) with the error message “Unable to click on object ‘Object Repository/Page CURA Healthcare Service (3)/a Logout’”. Don’t worry, this can be fixed using the following steps.
+*   The recorded test scripts should run smoothly, but you will notice the test fails at Step 14 (Click on "a_Logout" element) with the error message "Unable to click on object 'Object Repository/Page CURA Healthcare Service (3)/a Logout'". Don't worry, this can be fixed using the following steps.
 
 ### Complete your first test case
 
-If you investigate to the failed message of the test execution, it includes the message “org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point”.
+If you investigate to the failed message of the test execution, it includes the message "org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point".
 
-It happens because when the Side Menu of CURA website is open, the animation causes the Logout element to appear slowly and so Katalon Studio’s playback is unable to recognize it. To fix this issue, we need to include a _Wait_ step right before the logout step using the keyword _waitForElementClickable_, use “a_Logout” element as the object and change the timeout input to 5 seconds.
+It happens because when the Side Menu of CURA website is open, the animation causes the Logout element to appear slowly and so Katalon Studio's playback is unable to recognize it. To fix this issue, we need to include a _Wait_ step right before the logout step using the keyword _waitForElementClickable_, use "a_Logout" element as the object and change the timeout input to 5 seconds.
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon14.png)
 
@@ -92,7 +92,7 @@ To generate test reports, we need to have a test suite. A test suite in Katalon 
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon16.png)
 
-*   From the test suite UI, click the Add button and check the “Basic” test case then click OK to add the selected test case to the test suit.
+*   From the test suite UI, click the Add button and check the "Basic" test case then click OK to add the selected test case to the test suit.
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon17.png)
 
@@ -100,7 +100,7 @@ Execute this test suite as we did with the test case by clicking on the Executio
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon18.png)
 
-The test report’s detail is shown as below (with “Show Test Case Details” selected)
+The test report's detail is shown as below (with "Show Test Case Details" selected)
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon19.png)
 
@@ -110,6 +110,6 @@ For additional tutorials and guidelines please visit Katalon Studio [documentati
 
 **Hieu Mai**
 
-Currently working as a senior full-stack developer for [KMS Technology](http://www.kms-technology.com/), Hieu Mai is one of the developers behind Katalon Studio. With 5 years’ experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
+Currently working as a senior full-stack developer for [KMS Technology](http://www.kms-technology.com/), Hieu Mai is one of the developers behind Katalon Studio. With 5 years' experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
 
 Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)

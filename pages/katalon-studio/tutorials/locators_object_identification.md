@@ -31,17 +31,17 @@ Identifying Object using Spy Mobile
 
 Click on any object from the hierarchical view and it will be highlighted in **Device View** accordingly.
 
-*   **Step 4:** Tap on “**OS**” (the green highlight will signify your selection).
+*   **Step 4:** Tap on "**OS**" (the green highlight will signify your selection).
 
 ![Mobile-Object-Spy-dialog-in-Katalon-Studio](../../images/katalon-studio/tutorials/locators_object_identification/Mobile-Object-Spy-dialog-in-Katalon-Studio-2.png)
 
-*   **Step 5:** Select the checkbox of the **OS** text of object in **Spy Dialog** box at **All Objects** frame. Rename the object name of **“OS”** to **text_OS.** It is a good practice to follow naming conventions for easy maintenance.
+*   **Step 5:** Select the checkbox of the **OS** text of object in **Spy Dialog** box at **All Objects** frame. Rename the object name of **"OS"** to **text_OS.** It is a good practice to follow naming conventions for easy maintenance.
 
 ![Mobile Object Spy dialog in Katalon Studio](../../images/katalon-studio/tutorials/locators_object_identification/Mobile-Object-Spy-dialog-in-Katalon-Studio-3.png)
 
 ![Mobile Object Spy dialog in Katalon Studio](../../images/katalon-studio/tutorials/locators_object_identification/Mobile-Object-Spy-dialog-in-Katalon-Studio-4.png)
 
-*   **Step 6:** In mobile screen window, **tap** on “**OS**” text, the user will be navigated to the next screen. To capture the screen objects click on **Capture** **Object** in **Spy Dialog Box**.
+*   **Step 6:** In mobile screen window, **tap** on "**OS**" text, the user will be navigated to the next screen. To capture the screen objects click on **Capture** **Object** in **Spy Dialog Box**.
 *   **Step 7:** Repeated the previous actions for any objects you want to identify. Once finished, click on **Stop** and **Add to Object Repository** to add captured objects into the repository.
 
 ![Object Repository in Katalon Studio](../../images/katalon-studio/tutorials/locators_object_identification/Object-Repository-in-Katalon-Studio.png)

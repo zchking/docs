@@ -18,7 +18,7 @@ We want to test the alert dialog which usually appears on mobile app when there 
 Manual Mode
 -----------
 
-*   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select ‘**Value Type**‘ as **Variable**. In **Value**, pass the variable name as ‘**path’**.
+*   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select '**Value Type**' as **Variable**. In **Value**, pass the variable name as '**path'**.
 
 ![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-1.png)
 

@@ -17,10 +17,10 @@ Git is a powerful and popular system for version control. It is one of the essen
 *   Git supports working offline
     *   Being to work offline makes your team more fail-safe. Each member can perform everything on his/her computer, independent from possible infrastructure downtime.
 *   Never losing data ever again
-    *   As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project’s complete change history.
-    *   If any backup breaks down: just restore it using any team member’s local repository or Git repository.
+    *   As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project's complete change history.
+    *   If any backup breaks down: just restore it using any team member's local repository or Git repository.
 
-With Git, a repository can be shared to multiple members in a team to help to improve the team’s collaboration and productivity.
+With Git, a repository can be shared to multiple members in a team to help to improve the team's collaboration and productivity.
 
 Katalon Studio integration with Git introduction
 ------------------------------------------------
@@ -50,15 +50,15 @@ Github is a popular service for source control using Git. In this tutorial, we w
 
 After logged in Github successfully, we can create a new repository with following steps:
 
-1.  Open ‘**Create a new repository**’ page from the menu bar
+1.  Open '**Create a new repository**' page from the menu bar
 
 ![Create git repository](../../images/katalon-studio/tutorials/git_integration_introduction/Create-GIT-repository.png)
 
-2. Enter ‘**Repository name**’, ‘**Description**’ (optional) and click ‘**Create repository**’.
+2. Enter '**Repository name**', '**Description**' (optional) and click '**Create repository**'.
 
 ![Create Git repository](../../images/katalon-studio/tutorials/git_integration_introduction/Create-git-repository-2.png)
 
-Repository name could be in lower-case, and ‘-’ as a naming convention.
+Repository name could be in lower-case, and '-' as a naming convention.
 
 3\. The Git repository is now ready to use.
 
@@ -71,7 +71,7 @@ A new Katalon Studio project can be created and integrated with Git by using the
 
 ![Clone Project feature](../../images/katalon-studio/tutorials/git_integration_introduction/Clone-Project.png)
 
-2\. Enter the Git repository’s URL and authentication information for accessing the Git remote repository.
+2\. Enter the Git repository's URL and authentication information for accessing the Git remote repository.
 
 ![Clone Git repository](../../images/katalon-studio/tutorials/git_integration_introduction/Clone-Project-with-Git.png)
 
@@ -98,7 +98,7 @@ The Commit option allows us to view all current changes and decide which changes
 ![Commit option from Git menu](../../images/katalon-studio/tutorials/git_integration_introduction/Commit-option-from-Git-menu.png)
 
 2\. The **Git Staging tab** will appear for configuration.  
-**Unstaged Changes**: Changes which have been made but haven’t been committed.  
+**Unstaged Changes**: Changes which have been made but haven't been committed.  
 **Staged Changes**: Selected changes from **Unstaged Changes**. These changes will be committed.  
 
 ![Git Staging tab](../../images/katalon-studio/tutorials/git_integration_introduction/Git-Staging-tab.png)

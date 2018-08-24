@@ -14,12 +14,12 @@ Why Utilizing Desired Capabilities?
 
 Through using Desired Capabilities, we can communicate with Appium server by sending a POST request. For example, a user would like to run mobile test with a preferred platform, browser, orientation of the app, etc. If the user has already set the desired capability preferences setting, Appium server will start a session with the capabilities that user has set initially.
 
-Desired capabilities is a JSON object (having keys and values pair). Within each desired capability, there are few inbuilt capabilities. We need to set the capability **name** as ‘**key**’ and **capability** value as ‘**value**’. The capabilities keys are **case-sensitive**.
+Desired capabilities is a JSON object (having keys and values pair). Within each desired capability, there are few inbuilt capabilities. We need to set the capability **name** as '**key**' and **capability** value as '**value**'. The capabilities keys are **case-sensitive**.
 
 Setting up Desired Capabilities for Mobile
 ------------------------------------------
 
-*   From the ‘**Project**‘ dropdown of Katalon Studio main toolbar, click on **Settings**
+*   From the '**Project**' dropdown of Katalon Studio main toolbar, click on **Settings**
 
 ![Desired Capabilities for Mobile](../../images/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio.png)
 
@@ -36,7 +36,7 @@ Setting up Desired Capabilities for Mobile
 
 ![Desired Capabilities for Mobile](../../images/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-4.png)
 
-*   Provide the name of the property that you’d like to configure, do the same for **Type** and **Value**.
+*   Provide the name of the property that you'd like to configure, do the same for **Type** and **Value**.
 
 Example 1
 ---------

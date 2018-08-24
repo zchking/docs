@@ -28,7 +28,7 @@ Create SOAP Object
 Supported HTTP Headers 
 -----------------------
 
-Here’s the list of HTTP headers initially supported in Katalon Studio:
+Here's the list of HTTP headers initially supported in Katalon Studio:
 
 | Header field name | Description |
 | --- | --- |
@@ -59,7 +59,7 @@ Here’s the list of HTTP headers initially supported in Katalon Studio:
 | Proxy-Authorization | Authorization credentials for connecting to a proxy. |
 | Proxy-Connection | Implemented as a misunderstanding of the HTTP specifications. Common because of mistakes in implementations of early HTTP versions. Has exactly the same functionality as standard Connection field. |
 | Range | Request only part of an entity. Bytes are numbered from 0. |
-| Referer | This is the address of the previous web page from which a link to the currently requested page was followed. (The word “referrer” has been misspelled in the RFC as well as in most implementations to the point that it has become standard usage and is considered correct terminology). |
+| Referer | This is the address of the previous web page from which a link to the currently requested page was followed. (The word "referrer" has been misspelled in the RFC as well as in most implementations to the point that it has become standard usage and is considered correct terminology). |
 | TE | The transfer encodings the user agent is willing to accept: the same values as for the response header field Transfer-Encoding can be used, plus the "trailers" value (related to the "chunked" transfer method) to notify the server it expects to receive additional fields in the trailer after the last, zero-sized, chunk. |
 | Upgrade | Ask the server to upgrade to another protocol. |
 | User-Agent | The user agent string of the user agent. |

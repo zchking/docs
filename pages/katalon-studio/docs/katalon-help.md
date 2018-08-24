@@ -32,6 +32,6 @@ If you are connected to the Internet, a list of available sample projects for yo
 
 **Recents**
 
-This tab will display any recent opened Katalon Studio projects. If you are new to Katalon Studio, this tab will display the message "You haven’t opened any projects recently."
+This tab will display any recent opened Katalon Studio projects. If you are new to Katalon Studio, this tab will display the message "You haven't opened any projects recently."
 
 ![](../../images/katalon-studio/docs/katalon-help/image2018-8-2 14_49_39.png)

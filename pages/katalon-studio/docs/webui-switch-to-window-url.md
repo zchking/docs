@@ -21,7 +21,7 @@ Parameters  
 Example 
 --------
 
-You want to switch to the window with URL “[https://docs.katalon.com/](https://docs.katalon.com/)”.
+You want to switch to the window with URL "[https://docs.katalon.com/](https://docs.katalon.com/)".
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint

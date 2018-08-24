@@ -99,7 +99,7 @@ public class WebUICustomKeywords {
 }
 ```
 
-*   *   In a test case, **use this custom keyword instead of ‘Open Browser’ keyword**, e.g:
+*   *   In a test case, **use this custom keyword instead of 'Open Browser' keyword**, e.g:
 
 ```groovy
 CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe', 

@@ -18,7 +18,7 @@ Users can perform certain actions on textbox such as clear text, type text and v
 *   Step 1: Launch Browser
 *   Step 2: Navigate to URL
 *   Step 3: Click on Make Appointment
-*   Step 4: Enter username as “Katalon”
+*   Step 4: Enter username as "Katalon"
 *   Step 5: Validate the Enter Username is correctly entered or not
 
 **Script Mode**
@@ -100,7 +100,7 @@ WebUI.closeBrowser()
 
 ![Handle textbox using Katalon Studio Manual mode](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-text-box.png)
 
-In the script mode above, **Def** is a keyword in Groovy used for declaration of variables. Username is a variable name, here storing the value “Katalon” in the **username** variable.
+In the script mode above, **Def** is a keyword in Groovy used for declaration of variables. Username is a variable name, here storing the value "Katalon" in the **username** variable.
 
 How to Handle Button and Checkbox
 ---------------------------------

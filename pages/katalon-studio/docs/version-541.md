@@ -10,8 +10,8 @@ Fixes bugs
 
 *   Fix an issue where Tests Explorer is not displayed when restoring last working session.
 *   Fix some issues regarding Test Suite Collection HTML report.
-*   Fix an issue where email report can’t be sent to recipients.
-*   Correct browser’s information in Test Suite HTML report when Microsoft Edge is used for execution.
+*   Fix an issue where email report can't be sent to recipients.
+*   Correct browser's information in Test Suite HTML report when Microsoft Edge is used for execution.
 *   Fix an issue where the executed browser is closed upon executing a test case.
 *   Fix migration issue of where HTTP Body with POST method is not transferred when opening project with version 5.4.
 *   Fix an issue of cannot send API Request due to NullPointerExeception using specific Request URL.

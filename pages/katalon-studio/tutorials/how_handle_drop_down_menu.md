@@ -14,7 +14,7 @@ This tutorial illustrates how to handle the drop-down list using Katalon Studio 
 The below image shows what the sample select command has.
 
 1.  _Index:_ The index of the option to be selected/deselected.
-2.  _Value:_ Thevalue of the “value” attribute.
+2.  _Value:_ Thevalue of the "value" attribute.
 3.  _Label:_ The exactly displayed text of a particular option
 
 ![DropDown Methods Explanation](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/DropDown_Methods_Explanation.png)
@@ -28,7 +28,7 @@ We have a multi-select drop down as the following, values in a multi-select comb
 
 We already have several items selected, for example, and now we want all selected items to be deselected. How can we accomplish this using Katalon?
 
-We have a keyword called “deselectAllOption”. This will deselect all the selected items in a combo box.
+We have a keyword called "deselectAllOption". This will deselect all the selected items in a combo box.
 
 **Manual Mode:**
 
@@ -63,12 +63,12 @@ WebUI.verifyEqual(NoOfSelectedOptions, 0)
 
 ```
 
-Get the number of selected options (‘getNumberOfTotalOption’)
+Get the number of selected options ('getNumberOfTotalOption')
 -------------------------------------------------------------
 
 This keyword returns a Count of number of options which are being selected in the combo box
 
-For example, let’s say in the combo box below the values Admin, HR are selected. If we want to get the number of selected options, we can use the keyword ‘getNumberOfTotalOption’. In this case, it will return 2.
+For example, let's say in the combo box below the values Admin, HR are selected. If we want to get the number of selected options, we can use the keyword 'getNumberOfTotalOption'. In this case, it will return 2.
 
 ![Get-Number-Of-Selected-Options-Example](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Get-Number-Of-Selected-Options-Example.png)
 
@@ -110,7 +110,7 @@ This keyword returns the number of options listed in the combo box.
 
 Example:
 
-We have a drop-down and want to get the total number of available options in a drop-down then we will use ‘getNumberOfTotalOption’.
+We have a drop-down and want to get the total number of available options in a drop-down then we will use 'getNumberOfTotalOption'.
 
 ![Total_Options_Image](../../images/katalon-studio/tutorials/how_handle_drop_down_menu/Total_Options_Image.png)
 
@@ -184,7 +184,7 @@ It will select the option at the given index. Index always starts from 0.
 
 Example 1:
 
-If we want a select ‘Feb’ from the below drop down then we will pass input 2 in the value.
+If we want a select 'Feb' from the below drop down then we will pass input 2 in the value.
 
 Here in this example, we are Validating verify Option Selected By Index Also.
 
@@ -230,7 +230,7 @@ It will select the option which has the exactly displayed text of a particular o
 
 **Example:**
 
-If we want to select ‘Apr’ from the drop-down then we need to pass exactly visible text from it.
+If we want to select 'Apr' from the drop-down then we need to pass exactly visible text from it.
 
 In this Example we are also verifying the option is select by Label Value by using Verify option Selected By Label.
 
@@ -266,11 +266,11 @@ WebUI.closeBrowser()
 Select Option by Value
 ----------------------
 
-It will Select the option which has value of the “value” attribute.
+It will Select the option which has value of the "value" attribute.
 
 Example:
 
-If we want to select ‘Mar’ from the drop-down then we need to pass the value as 3 as “Mar” has the value as 3 for Value attribute.
+If we want to select 'Mar' from the drop-down then we need to pass the value as 3 as "Mar" has the value as 3 for Value attribute.
 
 Here in this example we are Validating verify Option Selected By Value Also.
 
@@ -303,6 +303,6 @@ WebUI.closeBrowser()
 
 ```
 
-Using Katalon built-in keywords we can simple handle dropdowns, we will look into other scenarios of dropdowns such as ‘verifying dropdown values are in alphabetical’, ‘verifying expected and actual dropdown values’ using custom keywords. You may download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
+Using Katalon built-in keywords we can simple handle dropdowns, we will look into other scenarios of dropdowns such as 'verifying dropdown values are in alphabetical', 'verifying expected and actual dropdown values' using custom keywords. You may download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Katalon Studio WebUI](https://docs.katalon.com/display/KD/%5BWebUI%5D+Combo+box) tutorials.

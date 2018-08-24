@@ -11,7 +11,7 @@ What is File Upload in testing?
 
 The file upload widget is the input tag having attribute **type** equal to **file**. It allows us to upload all file formats (.jpg, .png, .txt…)
 
-Let’s work on the case in which we need to upload a file and validate whether the file is uploaded.
+Let's work on the case in which we need to upload a file and validate whether the file is uploaded.
 
 Steps:
 

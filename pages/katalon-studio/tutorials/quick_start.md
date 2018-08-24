@@ -54,13 +54,13 @@ A new project will be generated at specified location.
 
 –  A new test case will be created accordingly. The test case editor is also displayed for editing.
 
-–  You can compose the test case by recording, scripting or manually entering test steps. For now, let’s quickly generate the test script using **Record** feature. Click on the **Record** icon from the main Toolbar.
+–  You can compose the test case by recording, scripting or manually entering test steps. For now, let's quickly generate the test script using **Record** feature. Click on the **Record** icon from the main Toolbar.
 
 –  Click **Record** to launch the browser. During recording, actions performed on the browser will be captured and be generated into test steps.
 
 _Note: You can specify the target browser to be launched by selecting from the Record dropdownlist._
 
-–  Let’s create a simple script by going to Google Search and lookup for some keywords as illustrated on the screen above. Click **OK** of **Record** dialog when you finish recording.
+–  Let's create a simple script by going to Google Search and lookup for some keywords as illustrated on the screen above. Click **OK** of **Record** dialog when you finish recording.
 
 –  You are prompted to confirm saving all captured objects to Katalon Studio. Click **OK**.
 

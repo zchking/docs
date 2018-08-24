@@ -9,7 +9,7 @@ What is an alert?
 
 An alert is a Javascript function which is used to notify users on a Web page. It displays a dialog with a specified message and OK/Cancel buttons.
 
-The alert is a modal dialog that takes the focus away from the current window and forces the user to take action before performing other actions. It also prevents the user from accessing other parts of the page until the user performs the action presented in the dialog. For example, when the user clicks on the “Delete” button, an alert would be triggered asking user ‘Are you sure, you want to delete?’ The user has to take action on this dialog.
+The alert is a modal dialog that takes the focus away from the current window and forces the user to take action before performing other actions. It also prevents the user from accessing other parts of the page until the user performs the action presented in the dialog. For example, when the user clicks on the "Delete" button, an alert would be triggered asking user 'Are you sure, you want to delete?' The user has to take action on this dialog.
 
 Such an alert can be handled using Katalon Studio built-in keywords. This tutorial shows how to do so with HTML examples. You can get the HTML by clicking [here](https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Alerts2.html).
 

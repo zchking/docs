@@ -4,7 +4,7 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/integrate_with_kobiton.html
 description: "Using Katalon Studio, you can easily execute automated tests on Kobiton’s devices, thanks to the built-in integration feature supported by Katalon Studio."
 ---
-Mobile app cloud-based devices can be a good option for mobile testing teams that have limited access to real devices. Kobiton is a powerful mobile device platform offers real mobile devices for both testers and developers. Using Katalon Studio, you can easily execute automated tests on Kobiton’s devices, thanks to the built-in integration feature supported by Katalon Studio.
+Mobile app cloud-based devices can be a good option for mobile testing teams that have limited access to real devices. Kobiton is a powerful mobile device platform offers real mobile devices for both testers and developers. Using Katalon Studio, you can easily execute automated tests on Kobiton's devices, thanks to the built-in integration feature supported by Katalon Studio.
 
 This tutorial will walk you through basic steps to setup the integration between Katalon Studio and Kobiton.
 
@@ -14,7 +14,7 @@ Enable Kobiton Integration
 1\. Open Kobiton integration settings from the main menu at **Windows > Katalon Studio Preferences > Katalon > Kobiton**. Check **Enable Kobiton Integration**.  
 ![Enable Kobiton Integration](../../images/katalon-studio/tutorials/integrate_with_kobiton/Enable-Kobiton-Integration.png)
 
-2\. Enter your Kobiton account for authentication and click on  **Connect**. After establishing a successful connection with Kobition, the message “Retrieving Kobiton API Keys successfully” will be displayed. Katalon Studio automatically retrieve the information for Kobiton integration.
+2\. Enter your Kobiton account for authentication and click on  **Connect**. After establishing a successful connection with Kobition, the message "Retrieving Kobiton API Keys successfully" will be displayed. Katalon Studio automatically retrieve the information for Kobiton integration.
 
 ![information for Kobiton integration](../../images/katalon-studio/tutorials/integrate_with_kobiton/Connect.png)  
 Other fields in the Kobiton configuration dialog include:
@@ -33,10 +33,10 @@ Mobile testing with Kobiton devices
 
 2\. In Kobiton, upload your app to [Kobiton App Repository](https://docs.kobiton.com/#managing-apps).![Kobiton App Repository](../../images/katalon-studio/tutorials/integrate_with_kobiton/Kobiton-App-Repository.png)
 
-3\. From the Repository view, select ‘more actions’ and select **_Automation snippet._** Copy the app ID (the one in bold, for example, **_Kobiton-store:184_** as shown below) and save it.  
+3\. From the Repository view, select 'more actions' and select **_Automation snippet._** Copy the app ID (the one in bold, for example, **_Kobiton-store:184_** as shown below) and save it.  
 ![Automation snippet](../../images/katalon-studio/tutorials/integrate_with_kobiton/Automation-snippet.png)
 
-4\. Click on **Devices** menu and select your devices by “_Mark as favorite”._![Kobiton Devices menu](../../images/katalon-studio/tutorials/integrate_with_kobiton/Devices.png)
+4\. Click on **Devices** menu and select your devices by "_Mark as favorite"._![Kobiton Devices menu](../../images/katalon-studio/tutorials/integrate_with_kobiton/Devices.png)
 
 5\. In Katalon Studio, open your mobile test case and switch to Scripts view. Locate this line of code:
 
@@ -48,13 +48,13 @@ Mobile.startApplication(appPath,false).
 Next, replace the
 
 ```groovy
-"appPath”
+"appPath"
 
 ```
 
  with the **Kobiton **app **id **saved in Step 3 as shown below:
 
-![replace the "appPath” with the Kobiton app id](../../images/katalon-studio/tutorials/integrate_with_kobiton/Kobiton-app-id.png)
+![replace the "appPath" with the Kobiton app id](../../images/katalon-studio/tutorials/integrate_with_kobiton/Kobiton-app-id.png)
 
 ```groovy
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCaseMobile.comment('Story: Verify correct alarm message')Mobile.comment('Given that user has started an application')'Get full directory\'s path of android application'

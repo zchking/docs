@@ -27,7 +27,7 @@ Follow these basic steps to get familiar with the Record & Playback features for
     
 5.  Execute all your test steps on the browser. All of your actions performed on the browser will be recorded by Katalon Studio.   
     ![](../../images/katalon-studio/docs/recording-webui-test/image2017-6-28 16_14_6.png)  
-    For the scope of this tutorials, let’s access [demoaut.katalon.com](http://demoaut.katalon.com/), click on the Make Appointment button, then click on the Login button.  
+    For the scope of this tutorials, let's access [demoaut.katalon.com](http://demoaut.katalon.com/), click on the Make Appointment button, then click on the Login button.  
       
     
 6.  You can **Stop** or **Pause** recording if needed. When you are done with recording, click **OK** to save recorded actions into Katalon Studio.  

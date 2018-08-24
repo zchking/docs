@@ -22,8 +22,8 @@ Manual Mode
 
 *   Step 2: Add **Wait For Element Present** item.
 *   Step 3: Initializing Katalon Mobile Driver to Appium Driver
-*   Step 4: Call ‘**Get Device Height**‘ method and capture the **height** and store it in a variable ‘**device_Height**‘.
-*   Step 5: Call ‘**Get Device Width**‘ method and capture the **width** and store it in a variable ‘**device_Width**‘.
+*   Step 4: Call '**Get Device Height**' method and capture the **height** and store it in a variable '**device_Height**'.
+*   Step 5: Call '**Get Device Width**' method and capture the **width** and store it in a variable '**device_Width**'.
 *   Step 6: Add **binary statement** and get X, Y Coordinates for touch action 1 (**top left** side).
 *   Step 7: Repeat step 6 for touch action 2 (**top right** side), touch action 3 (**bottom left** side), and touch action 4 (**bottom right** side).
 *   Step 8: Create an object of **MultiTouchAction** class.

@@ -16,7 +16,7 @@ You can receive Katalon Studio notifications for Slack by enabling Slack Integra
     
     | Field | Description |
     | --- | --- |
-    | Authentication Token | The authentication token to make the connection to your Slack’s account. Follow this [help](https://docs.katalon.com/display/KD/Slack+Integration#SlackIntegration-ObtainSlackauthenticationtoken) to obtain the Slack authentication token. |
+    | Authentication Token | The authentication token to make the connection to your Slack's account. Follow this [help](https://docs.katalon.com/display/KD/Slack+Integration#SlackIntegration-ObtainSlackauthenticationtoken) to obtain the Slack authentication token. |
     | Channel/Group | The channel/group of Slack to get messages regarding activities from Katalon Studio. |
     | Post the message as the authenticated user | Katalon Studio will use your Slack username when posting messages to Slack. |
     | Bot Username | You can provide another name here which Katalon Studio will use instead of your Slack username. |
@@ -32,7 +32,7 @@ You can receive Katalon Studio notifications for Slack by enabling Slack Integra
     
 4.  Select your preferred actions to get the notification and click **OK** to save Slack configuration.
     
-    > All the above preferences are saved into the file “**com.kms.katalon.composer.integration.slack.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change how Katalon Studio works with Slack.
+    > All the above preferences are saved into the file "**com.kms.katalon.composer.integration.slack.prefs**" under the "**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**" location in your Katalon Studio build folder. You can manually modify the values in this file to change how Katalon Studio works with Slack.
     
 
 Obtain Slack authentication token

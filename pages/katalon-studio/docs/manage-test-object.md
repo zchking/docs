@@ -34,17 +34,17 @@ Add an object property
     | Field | Description |
     | --- | --- |
     | Name | The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted. |
-    | Match condition | The condition which will be used to search for the “_actual_” object in the application under test when executing automation tests. |
+    | Match condition | The condition which will be used to search for the "_actual_" object in the application under test when executing automation tests. |
     
     Click **OK** when you finish with configuring.
     
-3.  The new property is added to properties list as specified. Provide the value which will be used to search for the “_actual_” object in the application under test when executing automation tests.  
+3.  The new property is added to properties list as specified. Provide the value which will be used to search for the "_actual_" object in the application under test when executing automation tests.  
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-10-17 11_36_7.png)
 
 Manage parent object
 --------------------
 
-Nowadays, there are many web applications which render elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website’s **iframes** and select the correct **iframe** where the text and its object are present. In order to do so, you have to use '[Switch To Frame](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements. 
+Nowadays, there are many web applications which render elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website's **iframes** and select the correct **iframe** where the text and its object are present. In order to do so, you have to use '[Switch To Frame](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements. 
 
 Katalon Studio does support the ability to define parent iframe object within test object view, so you just only need to select the parent iframe and the execution will automatically switches to that iframe.
 

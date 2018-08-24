@@ -20,7 +20,7 @@ A Web table normally contains the following tags:
 
 ![basic web table](../../images/katalon-studio/tutorials/handle_web_tables/A-Basic-Webtable.png)
 
-**A basic web table’s HTML code looks like below:**
+**A basic web table's HTML code looks like below:**
 
 ![web table html](../../images/katalon-studio/tutorials/handle_web_tables/web-table%E2%80%99s-HTML-code.png)
 
@@ -31,7 +31,7 @@ Handle web tables with Katalon Studio
 
 ### Example 1: You want to get a text from a Web table and verify it.
 
-**Scenario:**  Let’s say we need to find out which country the ‘Pay talk’ company in the above table belongs to.
+**Scenario:**  Let's say we need to find out which country the 'Pay talk' company in the above table belongs to.
 
 First of all, we will find the location of table then we will store all table elements in the list. Next, we will run a loop and iterate through each row and column and capture the value in each cell.
 
@@ -104,7 +104,7 @@ Switch to **manual mode** tab to view test case step by step.
 
 **Scenario: **
 
-Let’s say we need to edit a student record that has the graduation year of 2018
+Let's say we need to edit a student record that has the graduation year of 2018
 
 **Script Mode:**
 

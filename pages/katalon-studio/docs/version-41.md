@@ -41,7 +41,7 @@ Improvements
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 11_35_10.png)  
       
     
-4.  Auto wraps text in ‘Message’ field of Log Viewer under Tree View  
+4.  Auto wraps text in 'Message' field of Log Viewer under Tree View  
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 14_13_26.png)  
       
     
@@ -91,7 +91,7 @@ Improvements
 
 ### Record/Spy
 
-1.  Automatically select all captured objects in ‘Add Element to Object Repository’ dialog  
+1.  Automatically select all captured objects in 'Add Element to Object Repository' dialog  
       
     ![](../../images/katalon-studio/docs/version-41/image2016-10-3 13_13_38.png)  
       

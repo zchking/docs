@@ -52,9 +52,9 @@ Data is exchanged via XML and JSON, so any language can be used for automation, 
 
 *   GUI independent
 
-We can perform API testing within the application prior to GUI testing. Early testing will get feedback sooner and improve the team’s productivity.
+We can perform API testing within the application prior to GUI testing. Early testing will get feedback sooner and improve the team's productivity.
 
-Core functionality can be tested to expose small errors and to evaluate a build’s strengths.
+Core functionality can be tested to expose small errors and to evaluate a build's strengths.
 
 *   Improved test coverage
 
@@ -125,7 +125,7 @@ Penetration testing is considered the second test in the process if auditing. In
 
 ### Fuzz Testing
 
-Fuzz testing is another step in the whole security audit process. In this testing type, a vast amount of random data (referred to as “noise” or “fuzz” ), will be input into the system with the aim to try a forced crash or any negative behavior. This fuzz test will help test the API in term of the limits to prepare for the “worst case scenarios.”
+Fuzz testing is another step in the whole security audit process. In this testing type, a vast amount of random data (referred to as "noise" or "fuzz" ), will be input into the system with the aim to try a forced crash or any negative behavior. This fuzz test will help test the API in term of the limits to prepare for the "worst case scenarios."
 
 API testing best practices
 --------------------------
@@ -134,7 +134,7 @@ API testing best practices
 
 ### Priorities
 
-When starting to develop test scenarios, some of us are relatively common to jump right into some of the negative test scenarios (to verify invalid information, validation on special characters, uncommon input, etc.). These types of verification might cause crashes and other interesting problems. In other words, easy bugs might be found quickly with negative test scenarios. Unfortunately, it is not necessarily the best use of a tester’s effort. It is suggested that mainline scenarios should be focus first with higher priority. A basic guideline is to identify the most common parameters and conditions that an end developer will use when calling the APIs and test these scenarios extensively.
+When starting to develop test scenarios, some of us are relatively common to jump right into some of the negative test scenarios (to verify invalid information, validation on special characters, uncommon input, etc.). These types of verification might cause crashes and other interesting problems. In other words, easy bugs might be found quickly with negative test scenarios. Unfortunately, it is not necessarily the best use of a tester's effort. It is suggested that mainline scenarios should be focus first with higher priority. A basic guideline is to identify the most common parameters and conditions that an end developer will use when calling the APIs and test these scenarios extensively.
 
 ### Functional and Non-functional testing priorities
 
@@ -203,17 +203,17 @@ To avoid these challenges, teams need to start the API testing in the early stag
 
 The schema (data formatting which handles requests and responses for the API) should be maintained during the testing process. Any changes in the program that create additional parameters for the API calls must be reflected in the schema configuration.
 
-In today’s API economy, the changes in API helps facilitate the demand, but those changes can cause downtime. To avoid this issue, the team needs to test the API in beta and alpha environments, which is seen to reduce 90% of the chances of issues happen.
+In today's API economy, the changes in API helps facilitate the demand, but those changes can cause downtime. To avoid this issue, the team needs to test the API in beta and alpha environments, which is seen to reduce 90% of the chances of issues happen.
 
 ### Testing Parameter Combinations
 
 APIs handle communication between systems by assigning data values to parameters and passing these parameters through data requests. Testing all possible parameter request combinations in the API is necessary to detect the problems regarding the specific configurations. A more significant project would end up assigning two different values to the same parameter, or create instances where numerical values appear when text values should be. Adding parameter will aggressively increase the number of possible combinations.
 
-This challenge can be solved by picking some applications that aren’t very critical to daily operations to utilize the API and release it to those applications only. By doing this, testers can know how the API is utilized and whether there are any changes should be done for a general availability release.
+This challenge can be solved by picking some applications that aren't very critical to daily operations to utilize the API and release it to those applications only. By doing this, testers can know how the API is utilized and whether there are any changes should be done for a general availability release.
 
 ### Sequencing the API Calls
 
-It is a challenge for testing teams when API needs to be in a specific order to work correctly. For instance, a call to return a user’s profile information goes through before the profile is created, the request will return an error. The process can become even more significantly difficult when involving more applications.
+It is a challenge for testing teams when API needs to be in a specific order to work correctly. For instance, a call to return a user's profile information goes through before the profile is created, the request will return an error. The process can become even more significantly difficult when involving more applications.
 
 To help overcome this issue, a flowchart is recommended to visualize the API calls. Developers then can build and integrate API calls faster with less unexpected problems.
 
@@ -238,7 +238,7 @@ Selecting the right API testing tool plays an essential role in the success of a
 
 ### Home-grown tools
 
-Home-grown tools are suitable for the application that present unique testing challenges, for the team members with skills, time, and inclination to write their own test framework or build one on top of an existing open source tool. While these internal solutions can require team’s efforts to develop, they are generally programmer-friendly, precisely customized, and effectively integrated with the existing process and other infrastructure.
+Home-grown tools are suitable for the application that present unique testing challenges, for the team members with skills, time, and inclination to write their own test framework or build one on top of an existing open source tool. While these internal solutions can require team's efforts to develop, they are generally programmer-friendly, precisely customized, and effectively integrated with the existing process and other infrastructure.
 
 ### Open source tools
 
@@ -246,15 +246,15 @@ Using open source tools (JMeter, Rest-Assured) can be lightweight and appropriat
 
 ### Vendor tools
 
-Commercial tools (SoapUI Pro, Tricentis Tosca) are perceived as a safe bet as they are likely to come with available manuals, support, and training. Unfortunately, they remain some drawbacks: vendor tools are historically programmer-unfriendly as they tend to use proprietary scripting languages that programmers don’t want to spend time learning; they also tend to be heavyweight; and test scripts may be brittle, easily broken by minor changes to the application.
+Commercial tools (SoapUI Pro, Tricentis Tosca) are perceived as a safe bet as they are likely to come with available manuals, support, and training. Unfortunately, they remain some drawbacks: vendor tools are historically programmer-unfriendly as they tend to use proprietary scripting languages that programmers don't want to spend time learning; they also tend to be heavyweight; and test scripts may be brittle, easily broken by minor changes to the application.
 
 Particularly, these tools are generally expensive to purchase and maintain the license.
 
 However, there are recently some vendor tools that can eliminate some disadvantages from the above vendor tools. For instance, [Katalon Studio](https://www.katalon.com/katalon-studio/) is a free tool with comparable features to commercial tools, or Postman is considered easy to setup and use compared the rest of commercial solutions. You can learn more about the top API testing tools here.
 
-Selecting the right API testing tool is challenging but you can shortlist the choice from the candidates above considering your requirements, pros and cons of each solution — try not too ambitious at the early stage and doing the POC with the top 3 relevant solutions. You will have a better understanding of your project’s critical factors and issues to eliminate tools or fine-tune your choice to the most suitable solution for your project.  
+Selecting the right API testing tool is challenging but you can shortlist the choice from the candidates above considering your requirements, pros and cons of each solution — try not too ambitious at the early stage and doing the POC with the top 3 relevant solutions. You will have a better understanding of your project's critical factors and issues to eliminate tools or fine-tune your choice to the most suitable solution for your project.  
 
-_**The interest in API testing has been trending up over the last five years, according to Google Trends. This growth possibly indicates that the demand for applying API testing has been increasing along with Agile and CI/CD adoption trends. Testing API and web services is no longer an activity taken solely by developers but gradually taken by the testing members who independently verify and validate API/services. So now it’s a good time for you to start learning API testing if you haven’t done so, it will be a valuable skillset with high demand for the future to come.**_
+_**The interest in API testing has been trending up over the last five years, according to Google Trends. This growth possibly indicates that the demand for applying API testing has been increasing along with Agile and CI/CD adoption trends. Testing API and web services is no longer an activity taken solely by developers but gradually taken by the testing members who independently verify and validate API/services. So now it's a good time for you to start learning API testing if you haven't done so, it will be a valuable skillset with high demand for the future to come.**_
 
 [![](../../images/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png)](https://www.katalon.com/download)
 

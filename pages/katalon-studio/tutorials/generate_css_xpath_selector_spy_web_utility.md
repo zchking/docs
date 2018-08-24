@@ -48,7 +48,7 @@ Katalon Studio will automatically capture all available properties of captured o
 
 ![Locate captured Xpath selector](../../images/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Locate-captured-objects.png)
 
-Katalon Studio allows users to select **Selection Method** to locate captured objects. **Basic mode** is recommended to manual testers who just started automation journey. With **Basic** mode, Katalon Studio’s intelligent selector generator will **automatically generate** a robust and unique XPath **selector** which combined all properties of captured objects.
+Katalon Studio allows users to select **Selection Method** to locate captured objects. **Basic mode** is recommended to manual testers who just started automation journey. With **Basic** mode, Katalon Studio's intelligent selector generator will **automatically generate** a robust and unique XPath **selector** which combined all properties of captured objects.
 
 For advanced testers who wish to **manually input selectors** have the option to select between **CSS** or **XPath mode**.
 
@@ -57,7 +57,7 @@ Click on **Add** to **Object Repository** from the command toolbar to save objec
 Working with XPath selector
 ---------------------------
 
-Katalon Studio’s object spy further allows advanced users to manually input object selectors with XPath or CSS Selection Method mode. Spy Utility will provide instant feedback by auto-detecting the numbers of matching element with provided selector and highlighting it.
+Katalon Studio's object spy further allows advanced users to manually input object selectors with XPath or CSS Selection Method mode. Spy Utility will provide instant feedback by auto-detecting the numbers of matching element with provided selector and highlighting it.
 
 XPath selector is commonly used to locate web element in Web UI testing. The following guide shows how to leverage Katalon Studio Spy Utility to locate web element with XPath selector.
 
@@ -152,7 +152,7 @@ This will select all ancestors (parent, grandparent, etc.) of the current node.
 
 Example:
 
-In the below screenshot we want to get the ancestors of the ‘ul ‘ tag highlighted in red. These ancestors are highlighted in blue.
+In the below screenshot we want to get the ancestors of the 'ul ' tag highlighted in red. These ancestors are highlighted in blue.
 
 Xpath:
 

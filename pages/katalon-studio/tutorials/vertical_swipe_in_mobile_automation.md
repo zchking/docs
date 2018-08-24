@@ -11,7 +11,7 @@ This tutorial illustrates **Vertical** **Swiping from Top to Bottom** action in 
 
 ### Scenario
 
-The screenshot of the app below has a listview containing ‘n’ number of rows. Our goal is to swipe vertically from top to bottom of the screen.
+The screenshot of the app below has a listview containing 'n' number of rows. Our goal is to swipe vertically from top to bottom of the screen.
 
 ![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation.png)
 
@@ -22,17 +22,17 @@ The screenshot of the app below has a listview containing ‘n’ number of rows
 ![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-1.png)
 
 *   Step 2: Add a **Wait For Element Present** item.
-*   Step 3: Call **Scroll To Text** from mobile keyword and pass input as ‘**Views’**. **Scroll To Text** accepts String type parameter (Text of the element to scroll to)
+*   Step 3: Call **Scroll To Text** from mobile keyword and pass input as '**Views'**. **Scroll To Text** accepts String type parameter (Text of the element to scroll to)
 
 ![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-3.png)
 
 *   Step 4: Tap on **Views**.
 *   Step 5: Use **Get Device Height** keyword to capture the height of the device and store it in a **device_height** variable. Select **Get Device Width** keyword to capture the width of the device and storing it in a **device_Width** variable.
-*   Step 6: Add a **binary statement**, and in the ‘startX’ value, store the device width divided by 2. In this illustration, the X-coordinates will stay constant.
-*   Step 7: Add a **binary statement**, assign ‘endX’ value to startX’.
-*   Step 8: Add a **binary statement**, in which the ‘startY’ variable is the device height multiplied by 0.30.
-*   Step 9: Add a **binary statement**, in which the ‘endY’ variable is the device height multiplied by 0.70.
-*   Step 10: Call the **swipe method** and select the **Value Type** as ‘**Variable**‘. Pass the startX, startY, endX, endY values to that method.
+*   Step 6: Add a **binary statement**, and in the 'startX' value, store the device width divided by 2. In this illustration, the X-coordinates will stay constant.
+*   Step 7: Add a **binary statement**, assign 'endX' value to startX'.
+*   Step 8: Add a **binary statement**, in which the 'startY' variable is the device height multiplied by 0.30.
+*   Step 9: Add a **binary statement**, in which the 'endY' variable is the device height multiplied by 0.70.
+*   Step 10: Call the **swipe method** and select the **Value Type** as '**Variable**'. Pass the startX, startY, endX, endY values to that method.
 
 ![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-10.png)
 

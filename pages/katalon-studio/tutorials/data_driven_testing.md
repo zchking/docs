@@ -18,7 +18,7 @@ What is Data-driven testing?
 
 This testing process is quite popular and normally applied right after the record and playback mode. In other words, once a set of testing object under a test case is captured, testers will need to add more input values from the external data files to ensure the application can handle the most number of scenarios in the future.
 
-In the control methodology, the external information is “read” from a database that can be any of the below data files.
+In the control methodology, the external information is "read" from a database that can be any of the below data files.
 
 *   Datapools
 *   Excel files
@@ -39,7 +39,7 @@ Data-driven framework can be best understood by the following diagram:
 *   The tester can avoid the irrelevant and unneeded duplication of testing scripts generated since we already carry a standard file using for testing inputs and verifying the data.
 *   All the outcomes from inputs, outputs to feasible testing results are collected and stored under a well-managed text records.
 *   Test cases will be handled under numerous set of data since it is the external information collected separately to the test case. The information is stored under external material which stems from Excel files, XML or any other texting sources.
-*   The test data can’t be impacted if the test scripts are changing since data-driven testing is running separately with the development. The tester will have no influence towards developers even though they make multiple changes.
+*   The test data can't be impacted if the test scripts are changing since data-driven testing is running separately with the development. The tester will have no influence towards developers even though they make multiple changes.
 *   It is a good news for tester if errors or bugs generated in future will be minimized to the lowest probability since there are multiple scenarios and inputs tested using data-driven framework approach.
 
 Data-driven testing approach with Katalon Studio
@@ -49,7 +49,7 @@ Katalon Studio supports data-driven testing which allows users to define data
 
 This tutorial will provide you a simple example of how to create an automation test case and execute it multiple times using different sets of data.
 
-**What You’ll Need**
+**What You'll Need**
 
 Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit Katalon Studio website to get the latest version.
 
@@ -59,7 +59,7 @@ Katalon Studio: available for free, running on both Windows and MacOS with a bet
 
 *   If you do **Web UI** testing, no additional settings are needed. Check [this list](https://docs.katalon.com/display/KD/Supported+Environments) for all supported browsers.
 *   In case of **Mobile** testing, you need to install **Appium** and enable **USB Debugging mode** on your device first. Please refer to our Mobile Setup [for Windows](https://docs.katalon.com/x/jwbR) or [for macOS](https://docs.katalon.com/x/9AXR).
-*   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven’t already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
+*   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
 ### The Data-Driven Testing Sample Project
 
@@ -76,7 +76,7 @@ You can use the following steps to automate the above test scenario.
 
 ### Prepare the Data
 
-Create a data file in Katalon containing three login accounts. Refer to [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more details on how to create test data from different sources. The following example shows the internal data file with three accounts for [http://demoaut.katalon.com](http://demoaut.katalon.com/profile.php#login) (note that only ‘**_John Doe_**_’_ is valid):
+Create a data file in Katalon containing three login accounts. Refer to [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more details on how to create test data from different sources. The following example shows the internal data file with three accounts for [http://demoaut.katalon.com](http://demoaut.katalon.com/profile.php#login) (note that only '**_John Doe_**_'_ is valid):
 
 ![prepare data](../../images/katalon-studio/tutorials/data_driven_testing/Picture1-300x132.png)
 
@@ -93,9 +93,9 @@ The generated test case should be similar to the following:
 
 ![Katalon Test case](../../images/katalon-studio/tutorials/data_driven_testing/2.-Katalon-test-case.png)
 
-You can see that the input values for username and password are hard-coded as what you typed during the recording (in this case it’s “admin”/”abc123”). In order to run this script multiple times using different accounts, you need to parameterize these values.
+You can see that the input values for username and password are hard-coded as what you typed during the recording (in this case it's "admin"/"abc123"). In order to run this script multiple times using different accounts, you need to parameterize these values.
 
-2\. Switch to the _Variables_ tab of the test case and create two variables named ‘demo\_usn’ and ‘demo\_pwd’. Pass in the default values as follows:
+2\. Switch to the _Variables_ tab of the test case and create two variables named 'demo\_usn' and 'demo\_pwd'. Pass in the default values as follows:
 
 ![Katalon Variables tab of the test case](../../images/katalon-studio/tutorials/data_driven_testing/3.-Katalon-Variables.png)
 
@@ -113,7 +113,7 @@ From here you can apply Data-driven using two methods, either using **Test Suit
 
 ![Katalon New test suite](../../images/katalon-studio/tutorials/data_driven_testing/6.-Katalon-Data-driven.png)
 
-2\. Add the data file to the Test Data section and proceed to bind the two variables ‘demo\_usr’ and ‘demo\_pwd’ to the respective columns of the data file. You may refer to [**Data for test** **execution**](https://docs.katalon.com/x/mAvR#DesignaTestSuite-Data-DrivenTesting) for more details about variable binding.
+2\. Add the data file to the Test Data section and proceed to bind the two variables 'demo\_usr' and 'demo\_pwd' to the respective columns of the data file. You may refer to [**Data for test** **execution**](https://docs.katalon.com/x/mAvR#DesignaTestSuite-Data-DrivenTesting) for more details about variable binding.
 
 ![Katalon Test Data driven testing section](../../images/katalon-studio/tutorials/data_driven_testing/7.-Katalon-test-data.png)
 
@@ -129,9 +129,9 @@ In which:
 *   For [statement to loop](https://www.katalon.com/resources-center/tutorials/common-condition-control-statements/) through all row of test data table which indicates how many times the test case will run
 *   To get a row value in test data table, use [getRowNumbers()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testdata/InternalData.html#getRowNumbers()) method syntax. For example:
 
-_Username field: data.internallyGetValue(“demo_usn”, index)_
+_Username field: data.internallyGetValue("demo_usn", index)_
 
-_Password field:  data.internallyGetValue(“demo_pwd”, index)\_
+_Password field:  data.internallyGetValue("demo_pwd", index)\_
 
 2\. When you have done in Scripts view, switch back to Manual view, the test case will be showed as the following screenshot:
 

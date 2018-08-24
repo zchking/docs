@@ -9,7 +9,7 @@ The source code can be downloaded [here](https://github.com/katalon-studio/katal
 Scenario
 --------
 
-Scroll down in Planet Spinner list and **select** “Pluto”. **Verify** selected value “Pluto”.
+Scroll down in Planet Spinner list and **select** "Pluto". **Verify** selected value "Pluto".
 
 ![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test.png)
 
@@ -28,15 +28,15 @@ Manual Mode
 *   Step 4: Call Tap method and pass the object of **Views.**
 *   Step 5: Call **Scroll To Text** from mobile keyword, pass the input as **Spinner.**
 *   Step 6: Tap on **Spinner.**
-*   Step 7: Here in this step after tapping on ‘Spinner’ we need to wait for Heading ‘Views/Spinner’ is visible on the screen.
-*   Step 8: Call **Tap** method and pass the object of  ‘Planet Spinner’ option.
+*   Step 7: Here in this step after tapping on 'Spinner' we need to wait for Heading 'Views/Spinner' is visible on the screen.
+*   Step 8: Call **Tap** method and pass the object of  'Planet Spinner' option.
 *   Step 9: Call **Scroll To Text** from mobile keyword, pass the input as **Pluto.**
 *   Step 10: Call **Tap** method and pass the object of **Pluto** option**.**
 *   Step 11: To verify that **Pluto** option has been selected, we are capturing the text of the selected object by calling **Get Text** keyword and storing it in a variable.
 
 ![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-11.png)
 
-*   Step 12: Call **‘Verify Match’** keyword to validate whether the value stored a variable is matched with the expected result.
+*   Step 12: Call **'Verify Match'** keyword to validate whether the value stored a variable is matched with the expected result.
 
 ![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-12.png)
 

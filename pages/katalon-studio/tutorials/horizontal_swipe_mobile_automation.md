@@ -21,18 +21,18 @@ The screenshot of the app contains a list of applications which are installed in
 
 **![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-1.png)**
 
-*   Step 2: After launching the application, call a **Wait For Element Present** method. Capture the status of an Alert presence in a variable ‘**alert_Status**‘. It returns true when an alert is present and false when alert is not present.
-*   Step 3: Adding an If statement, if ‘**alert_Status**‘ is true, tap on “Don’t show this message again” and tap OK**.**
+*   Step 2: After launching the application, call a **Wait For Element Present** method. Capture the status of an Alert presence in a variable '**alert_Status**'. It returns true when an alert is present and false when alert is not present.
+*   Step 3: Adding an If statement, if '**alert_Status**' is true, tap on "Don't show this message again" and tap OK**.**
 
 ![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-3.png)
 
 *   Step 4: Add another **Wait For Element Present** item to verify whether the mobile element pops up.
 *   Step 5: Use **Get Device Height** keyword to capture the height of the device and store it in a **device_height** variable. Select **Get Device Width** keyword to capture the width of the device and storing it in a **device_Width** variable.
-*   Step 6: Add a **binary statement** with the ‘startY’ divided by 2. Here, the y-coordinates are constant.
-*   Step 7: Add **binary statement**, here ‘endY’ and ‘startY’ values are the same for horizontal swiping, so re-assign ‘startY’ value to ‘endY’.
-*   Step 8: Add **binary statement** and multiply device width with 0.30 to store it in ‘startX’ variable.
-*   Step 9: Add **binary statement** and multiply device width with 0.70 to store it in ‘endX’ variable.
-*   Step 10: Call the **swipe method** and select the **Value Type** as ‘**Variable**‘. Pass the startX, startY, endX, endY values to that method
+*   Step 6: Add a **binary statement** with the 'startY' divided by 2. Here, the y-coordinates are constant.
+*   Step 7: Add **binary statement**, here 'endY' and 'startY' values are the same for horizontal swiping, so re-assign 'startY' value to 'endY'.
+*   Step 8: Add **binary statement** and multiply device width with 0.30 to store it in 'startX' variable.
+*   Step 9: Add **binary statement** and multiply device width with 0.70 to store it in 'endX' variable.
+*   Step 10: Call the **swipe method** and select the **Value Type** as '**Variable**'. Pass the startX, startY, endX, endY values to that method
 
 ![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-10.png)
 
@@ -63,7 +63,7 @@ Mobile.startApplication(path, false)
  
  
  
-'Wait for Element Present of checkbox Don’t Show this message again.\\r\\nif element present return true otherwise false.'
+'Wait for Element Present of checkbox Don't Show this message again.\\r\\nif element present return true otherwise false.'
  
 alert_Status = Mobile.waitForElementPresent(findTestObject('Swipe ListView Demos/checkbox_Dont show this message again'),
  

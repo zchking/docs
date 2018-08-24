@@ -10,7 +10,7 @@ Headless browser testing is simply testing a webpage functionality without a GUI
 Configuring Headless Browsers
 -----------------------------
 
-By default, executing automation tests using either [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) headless will add the necessary desired capabilities to the browsers. You don’t need to add any additional configurations. In case you really need to add more desired capabilities to the headless browsers, then:
+By default, executing automation tests using either [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) headless will add the necessary desired capabilities to the browsers. You don't need to add any additional configurations. In case you really need to add more desired capabilities to the headless browsers, then:
 
 *   Go to **Project -> Settings -> Execution -> ****Default** -\> Select either [Chrome (headless)](/pages/viewpage.action?pageId=13700170) or[Firefox (headless)](/pages/viewpage.action?pageId=13700172)
 *   Add your desired capabilities in these settings. For example, I want my Chrome (headless) to be started in smaller Window size:
@@ -40,7 +40,7 @@ Executing Automation Tests
     
 *   Add a Test Suite into this Test Suite Collection
     
-*   Select ‘Run with’ field and then select either Chrome (headless) or Firefox (headless)
+*   Select 'Run with' field and then select either Chrome (headless) or Firefox (headless)
     
 
 ![Execute Test Suite Collection](../../images/katalon-studio/docs/headless-browsers-execution/Execute-Test-Suite-Collection.png)

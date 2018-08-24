@@ -1,42 +1,12 @@
 items:
-  - title: "Web and Mobile Test Object"
-    tree:
-    - title: "Manage Test Object"
-      url: /katalon-studio/docs/manage-test-object.html
-    - title: "Working with Objects Selection Method for Spy/Record Web"
-      url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
-    - title: "Optimizing Object Identification and Tools"
-      url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
-    - title: "Working with Shadow DOM Objects"
-      url: /katalon-studio/docs/working-with-shadow-dom-objects.html
-  - title: "Test Projects"
-    tree:
-    - title: "Manage Test Project"
-      url: /katalon-studio/docs/manage-test-project.html
-  - title: "Test Design"
-    tree:
-    - title: "Verification Snippets"
-      url: /katalon-studio/docs/verification-snippets.html
-    - title: "Design a Test Suite"
-      url: /katalon-studio/docs/design-a-test-suite.html
-    - title: "Setup/Teardown for Test Suite and Test Case"
-      url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
-    - title: "Sample Projects"
-      url: /katalon-studio/docs/sample-projects.html
-  - title: "Linux Support"
-    tree:
-    - title: "Katalon Studio for Linux (Console Mode)"
-      url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
-    - title: "Katalon Studio GUI (beta) for Linux"
-      url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
   - title: "Parameterization"
     tree:
     - title: "Parameterize a Web Service Object"
       url: /katalon-studio/docs/parameterize-a-web-service-object.html
-    - title: "Manage Test Data"
-      url: /katalon-studio/docs/manage-test-data.html
     - title: "Parameterize Web/Mobile Test Object Properties"
       url: /katalon-studio/docs/parameterize-webmobile-test-object-properties.html
+    - title: "Manage Test Data"
+      url: /katalon-studio/docs/manage-test-data.html
     - title: "Execution Profile (v5.4+)"
       url: /katalon-studio/docs/execution-profile-v54.html
   - title: "Version 5.6"
@@ -153,12 +123,42 @@ items:
       url: /katalon-studio/docs/variable-types.html
     - title: "Value Types"
       url: /katalon-studio/docs/value-types.html
+  - title: "Web and Mobile Test Object"
+    tree:
+    - title: "Manage Test Object"
+      url: /katalon-studio/docs/manage-test-object.html
+    - title: "Working with Objects Selection Method for Spy/Record Web"
+      url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
+    - title: "Optimizing Object Identification and Tools"
+      url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
+    - title: "Working with Shadow DOM Objects"
+      url: /katalon-studio/docs/working-with-shadow-dom-objects.html
+  - title: "Test Projects"
+    tree:
+    - title: "Manage Test Project"
+      url: /katalon-studio/docs/manage-test-project.html
+  - title: "Test Design"
+    tree:
+    - title: "Verification Snippets"
+      url: /katalon-studio/docs/verification-snippets.html
+    - title: "Design a Test Suite"
+      url: /katalon-studio/docs/design-a-test-suite.html
+    - title: "Sample Projects"
+      url: /katalon-studio/docs/sample-projects.html
+    - title: "Setup/Teardown for Test Suite and Test Case"
+      url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
+  - title: "Linux Support"
+    tree:
+    - title: "Katalon Studio for Linux (Console Mode)"
+      url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
+    - title: "Katalon Studio GUI (beta) for Linux"
+      url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
   - title: "Test Execution"
     tree:
-    - title: "Execute a Test Case or a Test Suite"
-      url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
     - title: "Headless Browsers Execution"
       url: /katalon-studio/docs/headless-browsers-execution.html
+    - title: "Execute a Test Case or a Test Suite"
+      url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
     - title: "Test Suite Collection"
       url: /katalon-studio/docs/test-suite-collection.html
     - title: "Troubleshooting common issues related to interacting with an element"
@@ -173,106 +173,14 @@ items:
       url: /katalon-studio/docs/authorization.html
     - title: "Introduction to Web Services Test Object"
       url: /katalon-studio/docs/introduction-to-web-services-test-object.html
-    - title: "RESTful (latest)"
-      url: /katalon-studio/docs/restful-latest.html
     - title: "SOAP (latest)"
       url: /katalon-studio/docs/soap-latest.html
+    - title: "RESTful (latest)"
+      url: /katalon-studio/docs/restful-latest.html
     - title: "Web Services Builder"
       url: /katalon-studio/docs/web-services-builder.html
     - title: "Using Web Service in Test Case"
       url: /katalon-studio/docs/using-web-service-in-test-case.html
-  - title: "Jira Integration"
-    tree:
-    - title: "Configure JIRA Integration"
-      url: /katalon-studio/docs/configure-jira-integration.html
-    - title: "Working with JIRA"
-      url: /katalon-studio/docs/working-with-jira.html
-    - title: "Install and Use Katalon's JIRA add-on"
-      url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
-  - title: "Custom Keywords"
-    tree:
-    - title: "Introduction to Custom Keywords"
-      url: /katalon-studio/docs/introduction-to-custom-keywords.html
-    - title: "Handling Databases"
-      url: /katalon-studio/docs/handling-databases.html
-    - title: "Import/Export Keywords"
-      url: /katalon-studio/docs/importexport-keywords.html
-    - title: "Sample Custom Keywords"
-      url: /katalon-studio/docs/sample-custom-keywords.html
-  - title: "Desired Capabilities"
-    tree:
-    - title: "Desired Capabilities for Chrome/Chrome (headless)"
-      url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-    - title: "Desired Capabilities for Firefox/Firefox (headless)"
-      url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-    - title: "Desired Capabilities for Internet Explorer"
-      url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
-    - title: "Introduction to Desired Capabilities"
-      url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-    - title: "Remote Desired Capabilities"
-      url: /katalon-studio/docs/remote-desired-capabilities.html
-  - title: "Kobiton Integration"
-    tree:
-    - title: "Enable Kobiton Integration"
-      url: /katalon-studio/docs/enable-kobiton-integration.html
-    - title: "Desired capabilities for Kobiton devices"
-      url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
-  - title: "Integrations"
-    tree:
-    - title: "Slack Integration"
-      url: /katalon-studio/docs/slack-integration.html
-    - title: "VSTS integration"
-      url: /katalon-studio/docs/vsts-integration.html
-    - title: "SauceLabs Integration"
-      url: /katalon-studio/docs/saucelabs-integration.html
-    - title: "Git Integration"
-      url: /katalon-studio/docs/git-integration.html
-    - title: "BrowserStack Integration"
-      url: /katalon-studio/docs/browserstack-integration.html
-  - title: "qTest Integration"
-    tree:
-    - title: "Enable qTest Integration"
-      url: /katalon-studio/docs/enable-qtest-integration.html
-    - title: "Integrate test suite"
-      url: /katalon-studio/docs/integrate-test-suite.html
-    - title: "Upload test execution"
-      url: /katalon-studio/docs/upload-test-execution.html
-    - title: "Integrate test case"
-      url: /katalon-studio/docs/integrate-test-case.html
-  - title: "Installation and Setup"
-    tree:
-    - title: "Before You Start"
-      url: /katalon-studio/docs/before-you-start.html
-    - title: "Supported Environments"
-      url: /katalon-studio/docs/supported-environments.html
-    - title: "System Requirements"
-      url: /katalon-studio/docs/system-requirements.html
-  - title: "Environment Setup for Mobile Testing"
-    tree:
-    - title: "Mobile on Windows"
-      url: /katalon-studio/docs/mobile-on-windows.html
-    - title: "Mobile on macOS"
-      url: /katalon-studio/docs/mobile-on-macos.html
-    - title: "Installing WebDriverAgent for iOS devices"
-      url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
-    - title: "Troubleshooting automated mobile testing"
-      url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
-  - title: "Project Settings"
-    tree:
-    - title: "Emails Settings"
-      url: /katalon-studio/docs/emails-settings.html
-    - title: "Execution Settings"
-      url: /katalon-studio/docs/execution-settings.html
-    - title: "Web Locators Settings"
-      url: /katalon-studio/docs/web-locators-settings.html
-    - title: "Network Settings"
-      url: /katalon-studio/docs/network-settings.html
-    - title: "External Libraries"
-      url: /katalon-studio/docs/external-libraries.html
-    - title: "Database Settings"
-      url: /katalon-studio/docs/database-settings.html
-  - title: "Test Object"
-    tree:
   - title: "Test Execution within CI/CD Tools"
     tree:
     - title: "Console Mode Execution"
@@ -305,12 +213,102 @@ items:
       url: /katalon-studio/docs/record-web-utility-latest.html
     - title: "Record Mobile Utility"
       url: /katalon-studio/docs/record-mobile-utility.html
+  - title: "Jira Integration"
+    tree:
+    - title: "Configure JIRA Integration"
+      url: /katalon-studio/docs/configure-jira-integration.html
+    - title: "Working with JIRA"
+      url: /katalon-studio/docs/working-with-jira.html
+    - title: "Install and Use Katalon's JIRA add-on"
+      url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
+  - title: "Custom Keywords"
+    tree:
+    - title: "Introduction to Custom Keywords"
+      url: /katalon-studio/docs/introduction-to-custom-keywords.html
+    - title: "Handling Databases"
+      url: /katalon-studio/docs/handling-databases.html
+    - title: "Import/Export Keywords"
+      url: /katalon-studio/docs/importexport-keywords.html
+    - title: "Sample Custom Keywords"
+      url: /katalon-studio/docs/sample-custom-keywords.html
+  - title: "Desired Capabilities"
+    tree:
+    - title: "Remote Desired Capabilities"
+      url: /katalon-studio/docs/remote-desired-capabilities.html
+    - title: "Desired Capabilities for Chrome/Chrome (headless)"
+      url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
+    - title: "Desired Capabilities for Firefox/Firefox (headless)"
+      url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
+    - title: "Desired Capabilities for Internet Explorer"
+      url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
+    - title: "Introduction to Desired Capabilities"
+      url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+  - title: "Kobiton Integration"
+    tree:
+    - title: "Enable Kobiton Integration"
+      url: /katalon-studio/docs/enable-kobiton-integration.html
+    - title: "Desired capabilities for Kobiton devices"
+      url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+  - title: "Integrations"
+    tree:
+    - title: "Slack Integration"
+      url: /katalon-studio/docs/slack-integration.html
+    - title: "VSTS integration"
+      url: /katalon-studio/docs/vsts-integration.html
+    - title: "SauceLabs Integration"
+      url: /katalon-studio/docs/saucelabs-integration.html
+    - title: "Git Integration"
+      url: /katalon-studio/docs/git-integration.html
+    - title: "BrowserStack Integration"
+      url: /katalon-studio/docs/browserstack-integration.html
+  - title: "qTest Integration"
+    tree:
+    - title: "Enable qTest Integration"
+      url: /katalon-studio/docs/enable-qtest-integration.html
+    - title: "Integrate test suite"
+      url: /katalon-studio/docs/integrate-test-suite.html
+    - title: "Upload test execution"
+      url: /katalon-studio/docs/upload-test-execution.html
+    - title: "Integrate test case"
+      url: /katalon-studio/docs/integrate-test-case.html
   - title: "Update New Versions"
     tree:
     - title: "Update or Replace Web Browser Drivers and Selenium"
       url: /katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
     - title: "Auto-updater"
       url: /katalon-studio/docs/auto-updater.html
+  - title: "Installation and Setup"
+    tree:
+    - title: "Before You Start"
+      url: /katalon-studio/docs/before-you-start.html
+    - title: "Supported Environments"
+      url: /katalon-studio/docs/supported-environments.html
+    - title: "System Requirements"
+      url: /katalon-studio/docs/system-requirements.html
+  - title: "Environment Setup for Mobile Testing"
+    tree:
+    - title: "Mobile on Windows"
+      url: /katalon-studio/docs/mobile-on-windows.html
+    - title: "Mobile on macOS"
+      url: /katalon-studio/docs/mobile-on-macos.html
+    - title: "Installing WebDriverAgent for iOS devices"
+      url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+    - title: "Troubleshooting automated mobile testing"
+      url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
+  - title: "Project Settings"
+    tree:
+    - title: "Emails Settings"
+      url: /katalon-studio/docs/emails-settings.html
+    - title: "Execution Settings"
+      url: /katalon-studio/docs/execution-settings.html
+    - title: "Web Locators Settings"
+      url: /katalon-studio/docs/web-locators-settings.html
+    - title: "Network Settings"
+      url: /katalon-studio/docs/network-settings.html
+    - title: "External Libraries"
+      url: /katalon-studio/docs/external-libraries.html
+    - title: "Database Settings"
+      url: /katalon-studio/docs/database-settings.html
   - title: "Tips and Tricks"
     tree:
     - title: "Katalon with Winium for Desktop Applications"
@@ -377,6 +375,8 @@ items:
       url: /katalon-studio/docs/execute-xpath-functions.html
     - title: "Using Regex in Katalon Studio"
       url: /katalon-studio/docs/using-regex-in-katalon-studio.html
+  - title: "Test Object"
+    tree:
   - title: "Deprecated Documentation"
     tree:
     - title: "Execute a test case"

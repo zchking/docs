@@ -10,7 +10,7 @@ description: "This tutorial will show you how to upload Katalon Studio execution
 
 This tutorial will show you how to upload Katalon Studio execution reports to Katalon Analytics and answer the most important question in the QA process: how well does an execution perform? Being able to answer this question, you can improve the quality of your test scripts by reducing execution time, optimizing test suite, and quickly detecting unstable/flaky tests.
 
-For this tutorial, let’s assume that you have been using Katalon Studio as a test automation solution, and there are existing collections of Katalon Studio test execution reports. Great! Let’s get started.
+For this tutorial, let's assume that you have been using Katalon Studio as a test automation solution, and there are existing collections of Katalon Studio test execution reports. Great! Let's get started.
 
 Introduction to Katalon Analytics
 ---------------------------------
@@ -37,8 +37,8 @@ Create a new Project before uploading any Katalon Studio test execution reports.
 4.  Check the Enable integration box. The configuration setting will be enabled for editing. Enter the required information and click Connect.
 
 *   Server URL: https://analytics.katalon.com
-*   Email: Katalon Studio’s email
-*   Password: Katalon Studio’s password
+*   Email: Katalon Studio's email
+*   Password: Katalon Studio's password
 
 ![Check the Enable integration box](../../images/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics/2.png)
 
@@ -73,7 +73,7 @@ Uploading multiple execution reports from CLI
 
 2.  In Katalon Analytics, select **Settings** \> **Projects**. If you have already created a project, please note down its **ID**. If not, provide a name for a new project and click create. Once a new project is **created**, Katalon Analytics will generate a **Project ID**. _This tutorial uses the project whose ID is 6_.
 
-3.  Next, the local path of the Katalon Studio Reports folder is required. To get the path, in Katalon Studio, navigate to the **Reports** section of **Test Explorer** and select a preferred report folder. **Right** click > **Open Containing Folder**. You will be redirected to the Katalon Studio report folder on local drive. Copy the report folder’s path. For example, the folder is as follows _C:\\Users\\Katalon\\Katalon Studio\\Katalon Keywords\\Reports_
+3.  Next, the local path of the Katalon Studio Reports folder is required. To get the path, in Katalon Studio, navigate to the **Reports** section of **Test Explorer** and select a preferred report folder. **Right** click > **Open Containing Folder**. You will be redirected to the Katalon Studio report folder on local drive. Copy the report folder's path. For example, the folder is as follows _C:\\Users\\Katalon\\Katalon Studio\\Katalon Keywords\\Reports_
 
 4.  Start CLI. The Window Command Line is used for this tutorial. Enter the following syntax
 
@@ -90,12 +90,12 @@ Where
 
 | katalon-report-uploader-0.0.1-SNAPSHOT.jar | Jar file path can be an absolute path or relative path |
 | --- | --- |
-| projectID | Katalon Analytics Projects’ ID |
-| Path=” “ | Local path of the Katalon Studio Reports folder |
-| Email and Password | Your Katalon Studio account’s credentials |
+| projectID | Katalon Analytics Projects' ID |
+| Path=" " | Local path of the Katalon Studio Reports folder |
+| Email and Password | Your Katalon Studio account's credentials |
 
 ![Start CLI](../../images/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics/7.png)
 
 5.  Once finished, navigate back to Katalon Analytics to view the analyzed reports.
 
-Now you can upload execution reports from Katalon Studio and CI. It’s time to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas, detect flakiness tests and to have a better control of the product quality. Please refer to the tutorial **[Viewing test execution reports in Katalon Analytics](https://www.katalon.com/resources-center/tutorials/viewing-test-execution-reports-katalon-analytics/)**.
+Now you can upload execution reports from Katalon Studio and CI. It's time to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas, detect flakiness tests and to have a better control of the product quality. Please refer to the tutorial **[Viewing test execution reports in Katalon Analytics](https://www.katalon.com/resources-center/tutorials/viewing-test-execution-reports-katalon-analytics/)**.

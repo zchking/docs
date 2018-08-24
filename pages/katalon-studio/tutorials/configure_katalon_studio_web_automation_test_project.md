@@ -27,7 +27,7 @@ Skip this section if you do not wish to run your automated tests on Internet Exp
 
 – For IE 11, you need to set a registry entry on the target computer so that the Katalon driver can maintain a connection to the IE instances that it creates.
 
-1.Type ‘**_regedit_**‘ into **Command Prompt** to open **Registry Editor**
+1.Type '**_regedit_**' into **Command Prompt** to open **Registry Editor**
 
 2\. Locate the **FEATURE_BFCACHE** subkey (create the **FEATURE_BFCACHE** subkey in case it is not there):
 

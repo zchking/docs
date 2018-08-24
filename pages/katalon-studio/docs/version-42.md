@@ -34,7 +34,7 @@ This new option is available for web automation execution without launching the 
 
 > The following keywords are not supported with headless execution
 > 
-> <table><thead><tr><th>Keyword</th><th>Known Issues</th><th>Impact</th></tr></thead><tbody><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert" rel="nofollow">Accept Alert</a></td><td><p>Alert is not recognizable in headless execution</p><p>(<a class="external-link" href="https://github.com/MachinePublishers/jBrowserDriver/issues/147" rel="nofollow">https://github.com/MachinePublishers/jBrowserDriver/issues/147</a>)</p></td><td>Alert keywords can’t be used for verification</td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Dismiss+Alert" rel="nofollow">Dismiss Alert</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text" rel="nofollow">Get Alert Text</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Alert+Text" rel="nofollow">Set Alert Text</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present" rel="nofollow">Verify Alert Not Present</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Present" rel="nofollow">Verify Alert Present</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert" rel="nofollow">Wait For Alert</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Value" rel="nofollow">Select Option By Value</a></td><td><p>Wrong option is selected</p><p>(<a class="external-link" href="https://github.com/MachinePublishers/jBrowserDriver/issues/148" rel="nofollow">https://github.com/MachinePublishers/jBrowserDriver/issues/148</a>)</p></td><td>Options could not be selected as expected</td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label" rel="nofollow">Select Option By Label</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option" rel="nofollow">Select All Options</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index" rel="nofollow">Select Option By Index</a></td></tr></tbody></table>
+> <table><thead><tr><th>Keyword</th><th>Known Issues</th><th>Impact</th></tr></thead><tbody><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Accept+Alert" rel="nofollow">Accept Alert</a></td><td><p>Alert is not recognizable in headless execution</p><p>(<a class="external-link" href="https://github.com/MachinePublishers/jBrowserDriver/issues/147" rel="nofollow">https://github.com/MachinePublishers/jBrowserDriver/issues/147</a>)</p></td><td>Alert keywords can't be used for verification</td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Dismiss+Alert" rel="nofollow">Dismiss Alert</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Get+Alert+Text" rel="nofollow">Get Alert Text</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Alert+Text" rel="nofollow">Set Alert Text</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Not+Present" rel="nofollow">Verify Alert Not Present</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Alert+Present" rel="nofollow">Verify Alert Present</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert" rel="nofollow">Wait For Alert</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Value" rel="nofollow">Select Option By Value</a></td><td><p>Wrong option is selected</p><p>(<a class="external-link" href="https://github.com/MachinePublishers/jBrowserDriver/issues/148" rel="nofollow">https://github.com/MachinePublishers/jBrowserDriver/issues/148</a>)</p></td><td>Options could not be selected as expected</td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Label" rel="nofollow">Select Option By Label</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+All+Option" rel="nofollow">Select All Options</a></td></tr><tr><td><a class="external-link" href="http://docs.katalon.com/display/KD/%5BWebUI%5D+Select+Option+By+Index" rel="nofollow">Select Option By Index</a></td></tr></tbody></table>
 
 Improvements
 ------------
@@ -50,7 +50,7 @@ Improvements
 
 ### Test Project
 
-1.  Include ‘JRE’ settings on Preferences. Users can change to other JRE version if needed.  
+1.  Include 'JRE' settings on Preferences. Users can change to other JRE version if needed.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_15_42.png)
 2.  Add option in context menu of editors (Test Case, Test Suite, Test Suite Collection) to quickly navigate to selected test artifacts.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_19_24.png)  
@@ -59,7 +59,7 @@ Improvements
 
 ### Test Case
 
-1.  Support defining [closure](http://groovy-lang.org/closures.html) syntax of Groovy in test case’s manual.  
+1.  Support defining [closure](http://groovy-lang.org/closures.html) syntax of Groovy in test case's manual.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_24_9.png)  
       
     
@@ -67,14 +67,14 @@ Improvements
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_24_45.png)  
       
     
-3.  Support drag and drop test objects to ‘Object’ field of test case  
+3.  Support drag and drop test objects to 'Object' field of test case  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-4 14_23_23.png)  
       
     
 
 ### Test Suite Collection
 
-1.  Add ‘Run Configuration’ column to setup required information for the following execution modes:
+1.  Add 'Run Configuration' column to setup required information for the following execution modes:
     
     1.  Android
     2.  iOS
@@ -83,7 +83,7 @@ Improvements
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_32_35.png)  
       
     
-2.  Add ‘Custom’ configuration list on ‘Select Environment’ dialog to execute using defined custom configuration.  
+2.  Add 'Custom' configuration list on 'Select Environment' dialog to execute using defined custom configuration.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_34_38.png)  
       
     

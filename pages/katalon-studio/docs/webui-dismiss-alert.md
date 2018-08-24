@@ -8,7 +8,7 @@ description:
 Description
 -----------
 
-Simulate users clicking on “Cancel” button of an alert popup (alert, confirmation popup, prompt popup).
+Simulate users clicking on "Cancel" button of an alert popup (alert, confirmation popup, prompt popup).
 
 Parameters
 ----------

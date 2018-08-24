@@ -10,12 +10,12 @@ Drag and drop is a fairly popular approach in modern websites to improve their o
 
 In this tutorial, we will show how [**Katalon Studio**](https://www.katalon.com) is used to test the drag and drop feature in a web application.
 
-This tutorial assumes that you are familiar with the tool’s basic features. To have a quick idea of how it works or to review the interface please refer to [Kickstart your automation testing using Katalon Studio](https://www.katalon.com/tutorials/kickstart-automation-testing-using-katalon-studio/) or [Katalon Studio User Guides](https://docs.katalon.com/x/oArR).
+This tutorial assumes that you are familiar with the tool's basic features. To have a quick idea of how it works or to review the interface please refer to [Kickstart your automation testing using Katalon Studio](https://www.katalon.com/tutorials/kickstart-automation-testing-using-katalon-studio/) or [Katalon Studio User Guides](https://docs.katalon.com/x/oArR).
 
 There are different common implementation methods for the drag and drop feature, which each needs to be addressed differently when testing, including:
 
 *   Using pure JavaScript to handle drag and drop with popular JavaScript frameworks like [jQuery](http://jqueryui.com/droppable/#default).
-*   Using HTML5 Drag and Drop, which is detailed in w3schools’ HTML Drag and Drop tutorial.
+*   Using HTML5 Drag and Drop, which is detailed in w3schools' HTML Drag and Drop tutorial.
 
 Create automation tests for JavaScript Drag and Drop
 ----------------------------------------------------
@@ -26,9 +26,9 @@ For this section, we will use the [jQuery Droppable example page](http://jqueryu
 
 ![Droppable Katalon Studio](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop1.png)
 
-The example website provides a simple implementation of drag and drop with a draggable object containing the text “Drag me to my target” and a droppable object with the text “Drop here”.
+The example website provides a simple implementation of drag and drop with a draggable object containing the text "Drag me to my target" and a droppable object with the text "Drop here".
 
-When the draggable object is dragged into the droppable object, the target object’s text will be changed to “Dropped!” like the image below:
+When the draggable object is dragged into the droppable object, the target object's text will be changed to "Dropped!" like the image below:
 
 ![Drag & Drop Katalon Studio 2](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop2.png)
 
@@ -36,13 +36,13 @@ We are going to test this behavior using Katalon Studio.
 
 1.  Create a Katalon project with the name **_DragAndDrop_**.
 2.  Open the [Object Spy](https://docs.katalon.com/x/5BZO) dialog, start a spy object session and navigate to the AUT website at [http://jqueryui.com/droppable/#default](http://jqueryui.com/droppable/#default).
-3.  Use the object spy utility to capture both the droppable object and the draggable object mentioned above and import them into the project’s Object Repository. If you do it correctly, there will be 3 test objects as below in Object Repository and add navigation path:
+3.  Use the object spy utility to capture both the droppable object and the draggable object mentioned above and import them into the project's Object Repository. If you do it correctly, there will be 3 test objects as below in Object Repository and add navigation path:
 
 ![Tests Explorer Katalon Studio](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop3.png)
 
-The name of each object is self-explanatory, except for the **_iframe_demo-frame_** object which is the parent iframe of both draggable and droppable objects. Now let’s use those captured objects in a test script.
+The name of each object is self-explanatory, except for the **_iframe_demo-frame_** object which is the parent iframe of both draggable and droppable objects. Now let's use those captured objects in a test script.
 
-4.  Create a test case named “jQuery Drag And Drop”, open it, then change to Script mode and copy the following test scripts into it:  
+4.  Create a test case named "jQuery Drag And Drop", open it, then change to Script mode and copy the following test scripts into it:  
     
     ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -78,7 +78,7 @@ This happens because as of the day of this article (May 22, 2017), Selenium stil
 
 Therefore, as Katalon Studio utilizes Selenium for the automation execution, implementing the automated test for HTML5 Drag and Drop requires a little bit of workaround:
 
-1.  Capture the draggable and droppable objects into the project’s repository like above. If done correctly we have 2 test objects as below:
+1.  Capture the draggable and droppable objects into the project's repository like above. If done correctly we have 2 test objects as below:
 
 ![Test Explorer Katalon Studio](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop6.png)
 
@@ -189,6 +189,6 @@ We hope you enjoy the tutorial, please comment if you have any question or anoth
 
 **Hieu Mai**
 
-Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years’ experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
+Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years' experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
 
 Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)

@@ -34,7 +34,7 @@ Follow these basic steps to get familiar with the Record & Playback features for
       
     
 5.  Execute all your test steps on the browser. All of your actions performed on the browser will be recorded by Katalon Studio.   
-    For the scope of this tutorials, let’s access [demoaut.katalon.com](http://demoaut.katalon.com), click on the Make Appointment button, then click on the Login button.  
+    For the scope of this tutorials, let's access [demoaut.katalon.com](http://demoaut.katalon.com), click on the Make Appointment button, then click on the Login button.  
     ![](../../images/katalon-studio/docs/record-web-utility-version-50-to-54/image2017-10-17 17_6_25.png)  
       
     

@@ -35,7 +35,7 @@ It is difficult to identify a nested element, such as the <a> element in the scr
 How to identify nested elements?
 --------------------------------
 
-Identifying XPath is an effective way to find nested elements which can’t be identified by common properties such as **ID**, **Name**, or **Class.** There are two ways to find XPath:
+Identifying XPath is an effective way to find nested elements which can't be identified by common properties such as **ID**, **Name**, or **Class.** There are two ways to find XPath:
 
 *   **Detect XPath by other tools:** Web browsers usually have Adds-on support users to identify XPath. However, It can be a challenge since it depends on alot of the tools.
 
@@ -48,7 +48,7 @@ The example below illustrates how Katalon Studio generates and optimizes XPath a
 Deal with dynamically changing elements
 ---------------------------------------
 
-One of the challenging and time-consuming tasks in test automation is to modify test scripts when the AUT is changed, especially in the early stages of software development. Developers may change identifiers and elements quite often from one build to another. In addition, during the execution, the AUT’s elements may change dynamically.
+One of the challenging and time-consuming tasks in test automation is to modify test scripts when the AUT is changed, especially in the early stages of software development. Developers may change identifiers and elements quite often from one build to another. In addition, during the execution, the AUT's elements may change dynamically.
 
 To deal with these challenges, automation testers should not set fixed XPaths for elements in test cases, but instead scripting XPaths dynamically based on certain patterns. Katalon Studio supports all **[Xpath Axes](https://www.w3schools.com/xml/xpath_axes.asp)**, such as
 
@@ -60,8 +60,12 @@ To deal with these challenges, automation testers should not set fixed XPaths fo
 
 Here are a few examples:
 
-<table><thead><tr><th>Xpath value</th> <th>Description</th> </tr></thead><tbody><tr><td>.//h2[text()=’Make Appointment’] </td><td>Locate the <b>h2</b> tag element that has text matching exactly “Make Appointment”</td> </tr><tr><td>//*[contains(text(),’Login’)]</td> <td>Locate any element that contains the text “Login”</td> </tr><tr><td>//a[starts-with(@id=’LoginPanel’)]</td> <td>Locate the <b>a</b> tag element that has the ID starting with “LoginPanel”</td></tr></tbody></table>
+| Xpath value | Description |
+| --- | --- |
+| .//h2\[text()='Make Appointment'\] | Locate the **h2** tag element that has text matching exactly "Make Appointment" |
+| //*\[contains(text(),'Login')\] | Locate any element that contains the text "Login" |
+| //a\[starts-with(@id='LoginPanel')\] | Locate the **a** tag element that has the ID starting with "LoginPanel" |
 
-Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
+Next article "[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)" will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 
 For more information on XPath Axes, refer to **[XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp)** from **[www.w3schools.com](https://www.w3schools.com)**.

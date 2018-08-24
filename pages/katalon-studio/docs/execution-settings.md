@@ -18,7 +18,7 @@ Where:
 
 <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Default execution</td><td>The default environment that Katalon Studio will use to execute automation test.</td></tr><tr><td>Default implicit timeout</td><td>The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded when executing automation test.</td></tr><tr><td>Post-Execution Options</td><td><p>These options decide the actions that Katalon Studio will perform after finishing automation test.</p><ul><li><strong>Open report</strong>: Specify whether the report generated after your test suite finishes its execution will also be open immediately.</li><li><strong>Terminate drivers</strong>: Specify when any driver remains after execution will be terminated.</li></ul></td></tr></tbody></table>
 
-> All the above preferences are saved into **.prefs** files under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
+> All the above preferences are saved into **.prefs** files under the "**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**" location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
 
 WebUI Settings
 --------------
@@ -33,7 +33,7 @@ Where:
 
 <table><thead><tr><th>Preference Setting</th><th>Description</th></tr></thead><tbody><tr><td>Delay between actions</td><td>The time for Katalon Studio to wait between test steps when executing test cases</td></tr><tr><td>Default wait when IE hangs</td><td>Specify the default period of waiting that Katalon Studio should use in case IE hangs</td></tr><tr><td>Default page load timeout</td><td><ul><li><strong>Wait until the page is loaded</strong>: Katalon Studio will wait for web page to load completely</li><li><strong>Wait for (in seconds)</strong>: The default timeout period (in seconds) that Katalon Studio will wait for Web page to load</li></ul></td></tr></tbody></table>
 
-> All the above preferences are saved into **.prefs** files under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
+> All the above preferences are saved into **.prefs** files under the "**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**" location in your Katalon Studio build folder. You can manually modify the values in files to change these preference settings.
 
 Desired Capabilities 
 ---------------------
@@ -65,9 +65,9 @@ Custom execution is a bit different from other execution settings. Follow these 
 
 > Location of Desired Capabilities files
 > 
-> Defined configuration settings are saved in separated files under the “**<your test project location>\\settings\\internal**” location (or “**<your test project location>\\settings\\external\\execution**” in case of custom execution), as below:
+> Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
 > 
-> | Driver | Settings’ file |
+> | Driver | Settings' file |
 > | --- | --- |
 > | Chrome | com.kms.katalon.core.webui.chrome.properties |
 > | Firefox | com.kms.katalon.core.webui.firefox.properties |

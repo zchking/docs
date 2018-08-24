@@ -31,7 +31,7 @@ After you select the environment you want to modify its desired capabilities, th
 
 *   **Add**:
     *   Click the **Add** button of command toolbar above the Desired Capabilities list. A new row will be added to the list.
-    *   Provide the name of the property that you’d like to configure and its type under the Type column.
+    *   Provide the name of the property that you'd like to configure and its type under the Type column.
     *   Define value for the property. Refer to [Value Types](/display/KD/Value+Types) for details regarding how to input value for different types.
 *   **Delete**: This will delete selected records.
 *   **Clear**: This will clear all existing records

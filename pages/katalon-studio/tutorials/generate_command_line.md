@@ -34,14 +34,14 @@ The Mobile Device settings will be available when we choose to run with Android.
 
 ![Running tests from Command Line](../../images/katalon-studio/tutorials/generate_command_line/Running-tests-from-Command-Line-4.png)
 
-*   Step 5: By default, post-execution checkbox “**Send Summary Report to recipients**” will be **unchecked**.
+*   Step 5: By default, post-execution checkbox "**Send Summary Report to recipients**" will be **unchecked**.
 
-You can select the checkbox to enable email configuration to send report to your recipients’ list. Other options are available for you to configure the options for console log.
+You can select the checkbox to enable email configuration to send report to your recipients' list. Other options are available for you to configure the options for console log.
 
 ![Running tests from Command Line](../../images/katalon-studio/tutorials/generate_command_line/Running-tests-from-Command-Line-5.png)
 
 *   Step 6: **Retry Test Suite**: Here, you can set the number of times to run test cases in the test suite. There is also a checkbox for failed test cases only, which means test suite will rerun only for the failed tests.
-*   Step 7: Click on **Generate Command** once you’re done with the configuration. You can **Copy to Clipboard** and paste to command prompt for execution.
+*   Step 7: Click on **Generate Command** once you're done with the configuration. You can **Copy to Clipboard** and paste to command prompt for execution.
 
 ![Running tests from Command Line](../../images/katalon-studio/tutorials/generate_command_line/Running-tests-from-Command-Line-6.png)
 

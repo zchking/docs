@@ -8,7 +8,7 @@ Katalon Studio supports two methods to validate. One is using built-in keywords 
 
 **Validation with Captured Objects**
 
-All Katalon Studio built-in keywords used for validating will have a prefix “Verify…”. For example, in order to check whether a certain control presents on the page, Katalon uses **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword.
+All Katalon Studio built-in keywords used for validating will have a prefix "Verify…". For example, in order to check whether a certain control presents on the page, Katalon uses **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword.
 
 On the test case editor, you can add a validation keyword to validate a captured object. Follow these steps to add a validation point to your Katalon Test case:
 
@@ -36,7 +36,7 @@ First, you need to create a checkpoint instance. Refer to **[Manage Checkpoint](
 
 Katalon Studio supports many types of data source for checkpoints such as Excel, CSV, Database and checkpoint description.
 
-Then, you can use the **[Verify Checkpoint](https://docs.katalon.com/x/oIIi)** keyword to validate the state of the data. This keyword verifies if the data of a checkpoint matches its source data. The keyword’s parameters, returns and usage are described as follows:
+Then, you can use the **[Verify Checkpoint](https://docs.katalon.com/x/oIIi)** keyword to validate the state of the data. This keyword verifies if the data of a checkpoint matches its source data. The keyword's parameters, returns and usage are described as follows:
 
 Parameters
 

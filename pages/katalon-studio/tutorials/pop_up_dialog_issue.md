@@ -9,7 +9,7 @@ When performing automation testing, you may sometimes deal with pop-up dialog i
 What is a pop-up?
 -----------------
 
-A pop-up is a graphical display area, usually in a form of a small window that appears (“pop-up”) in the foreground of the current interface.
+A pop-up is a graphical display area, usually in a form of a small window that appears ("pop-up") in the foreground of the current interface.
 
 What are issues with pop-up?
 ----------------------------
@@ -33,7 +33,7 @@ Below are a few commonly used pop-ups which might cause problems in your test we
 
 **A suggested solution for handling pop-ups using Katalon Studio:**
 
-To handle such pop-ups as described, you need to capture them first using the Object Spy feature in Katalon Studio. After that, you use “**Switch To…**” keywords of Katalon Studio to set focus to the specified pop-up as needed.
+To handle such pop-ups as described, you need to capture them first using the Object Spy feature in Katalon Studio. After that, you use "**Switch To…**" keywords of Katalon Studio to set focus to the specified pop-up as needed.
 
 The following screenshot shows simple scripts on how to handle a pop-up using the [Switch To Window Title](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title) keyword.
 
@@ -80,7 +80,7 @@ If you want to switch back to the default window (parent), use the [Switch To D
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
  
 'Switch to iframe'
-WebUI.switchToWindowTitle(‘Share a link on Twitter’)
+WebUI.switchToWindowTitle('Share a link on Twitter')
  
 'Switch back to default content'
 WebUI.switchToDefaultContent()
@@ -97,11 +97,11 @@ Where:
 | [Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content) | Switch back to the default window, after working with iFrame windows. |
 
   
-To deal with Windows’ native dialogs such as uploading files, users use the [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
+To deal with Windows' native dialogs such as uploading files, users use the [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
 
 ```groovy
 'Open browser and navigate to a site that has upload control'
-WebUI.openBrowser(‘http://the-internet.herokuapp.com/upload’)
+WebUI.openBrowser('http://the-internet.herokuapp.com/upload')
  
 'Use Upload File keyword to deal with the dialog. Noted that the keyword will proceed to click on the Choose File button as specified'
 WebUI.uploadFile(findTestObject('choosefile_button'), 'D:\\test-photo.png')
@@ -113,9 +113,11 @@ WebUI.closeBrowser()
 
 Where:
 
-<table><thead><tr><th>Keyword</th> <th>Description</th> </tr></thead><tbody><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File">Upload File</a></td> <td>Specify the file for the upload dialog<b>.</b></td></tr></tbody></table>
+| Keyword | Description |
+| --- | --- |
+| [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) | Specify the file for the upload dialog**.** |
 
-Regarding the browser’s popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
+Regarding the browser's popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
 
 Example
 -------
@@ -249,6 +251,6 @@ That is some examples of how we handle window using Katalon Studio. You can down
 
 _**Exception**_
 
-_Noted that _**_NoSuchWindowException_**_ exception will be thrown when window target to be switched doesn’t exist._
+_Noted that _**_NoSuchWindowException_**_ exception will be thrown when window target to be switched doesn't exist._
 
 For further instructions and help, please refer to [\[WebUI\] Window](https://docs.katalon.com/x/RwnR) and join us on [Katalon Forum](https://forum.katalon.com/).

@@ -25,4 +25,4 @@ Katalon Studio also allows users to enable/disable one or more test steps before
 
 ![Enable/Disable steps](../../images/katalon-studio/tutorials/execute_debug_certain_steps/Enable_Disable-steps.png)
 
-As described above, users have two methods to specify steps to be executed. The first method allows users to quickly resume the existing execution, but it only supports Chrome sessions that are launched by Katalon Studio. On the other hand, the “enable/disable steps” method does not have this restriction but users may not be able to execute on specific context as wanted.
+As described above, users have two methods to specify steps to be executed. The first method allows users to quickly resume the existing execution, but it only supports Chrome sessions that are launched by Katalon Studio. On the other hand, the "enable/disable steps" method does not have this restriction but users may not be able to execute on specific context as wanted.

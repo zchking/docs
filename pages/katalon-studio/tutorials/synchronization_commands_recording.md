@@ -35,11 +35,11 @@ Provide the URL of application under test.
 
 ![ start recording the test case](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-4.png)
 
-**Step 5:** Once your application is launched, move the cursor to **‘Make Appointment’** and click on the button (wait for Login page gets loaded).
+**Step 5:** Once your application is launched, move the cursor to **'Make Appointment'** and click on the button (wait for Login page gets loaded).
 
 ![move the cursor to 'Make Appointment'](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-5.png)
 
-**Step 6:** You can add synchronization commands in runtime recording in the ‘**Recorded Actions**’ pane. Select a step at which the **synchronization commands** will be added. Click on Add.
+**Step 6:** You can add synchronization commands in runtime recording in the '**Recorded Actions**' pane. Select a step at which the **synchronization commands** will be added. Click on Add.
 
 ![add synchronization commands in runtime recording](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-6.png)
 
@@ -53,28 +53,28 @@ Provide the URL of application under test.
 
 ![Wait For Page Load keyword](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-9.png)
 
-**Step 10:** Here, we have selected ‘**Wait For Page Load**’ keyword
+**Step 10:** Here, we have selected '**Wait For Page Load**' keyword
 
-**Step 11:** We need to provide the expected time as an input for the command \[Katalon uses the default time of 30 seconds\]. Tap on ‘Action Data’ of **Wait For Page Load** and give 45 seconds \[as you typically need\] then click on **OK.**
+**Step 11:** We need to provide the expected time as an input for the command \[Katalon uses the default time of 30 seconds\]. Tap on 'Action Data' of **Wait For Page Load** and give 45 seconds \[as you typically need\] then click on **OK.**
 
-![Tap on ‘Action Data’ of Wait For Page Load](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-10.png)
+![Tap on 'Action Data' of Wait For Page Load](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-10.png)
 
 **Step 12:** It should display the **Wait For Page Load** command with the provided input as shown below. Now Katalon Studio will wait 45 secs for the page to gets fully loaded to execute next command. These synchronization commands avoid execution failures.  
 ![ Wait For Page Load command](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-12.png)
 
-**Step 13:** You can pause, resume the recording whenever you need it. Let us continue with recording few more actions. Switch to the browser in which you’re recording, move to **Make Appointment** button and click on **Make Appointment** button**.**
+**Step 13:** You can pause, resume the recording whenever you need it. Let us continue with recording few more actions. Switch to the browser in which you're recording, move to **Make Appointment** button and click on **Make Appointment** button**.**
 
 ![Make Appointment button](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-13.png)
 
-**Step 14:** Now to wait for specific element to be loaded and to perform action, we need to add ‘**Wait for Element Present’** command before click on ‘**Make Appointment**’ button. let us wait for the button loaded in the DOM
+**Step 14:** Now to wait for specific element to be loaded and to perform action, we need to add '**Wait for Element Present'** command before click on '**Make Appointment**' button. let us wait for the button loaded in the DOM
 
-**Step 15:** So here,  we have added two wait commands, one is to wait till page gets loaded and other is wait till element gets displayed as shown below**.** The reason behind adding two waits is that, though page has been loaded sometimes elements won’t be present in the DOM (referring to Ajax based applications mainly).
+**Step 15:** So here,  we have added two wait commands, one is to wait till page gets loaded and other is wait till element gets displayed as shown below**.** The reason behind adding two waits is that, though page has been loaded sometimes elements won't be present in the DOM (referring to Ajax based applications mainly).
 
 ![added two wait commands](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-15.png)
 
 **Step 16:** Having said that, we need to provide the expected time as an input for all the wait commands. Tap on Action Data of **Wait for Element Present** and provide 15 seconds as expected time interval and click on **OK** Button.
 
-**Step 17:** Recording pane should look like as shown below**.** Unlike **‘Wait for Page Load’** command ‘**Wait for Element Present**’ command need another parameter as web element for which we are waiting for.
+**Step 17:** Recording pane should look like as shown below**.** Unlike **'Wait for Page Load'** command '**Wait for Element Present**' command need another parameter as web element for which we are waiting for.
 
 **Step 18:** To provide web element as a parameter**,** click on **Element** column of **Wait for Element Present,** now it will display **Captured Objects** dialog box. Choose the object and click on **OK** Button.
 
@@ -82,7 +82,7 @@ Provide the URL of application under test.
 
 ![The recorded actions with synchronization commands ](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-17.png)
 
-**Step 20:** Let’s continue the recording, in the browser move the cursor to **Login Button** and click on **Login Button.**
+**Step 20:** Let's continue the recording, in the browser move the cursor to **Login Button** and click on **Login Button.**
 
 ![move the cursor to Login Button and click on Login Button](../../images/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-20.png)
 
@@ -102,7 +102,7 @@ Provide the URL of application under test.
 
 **Step 27:** Your recorded test script should be as shown below
 
-**Step 28:** You can stop recording anytime by clicking on ‘**Stop**‘. When you are done with recording, click **OK** to save recorded actions into Katalon Studio.
+**Step 28:** You can stop recording anytime by clicking on '**Stop**'. When you are done with recording, click **OK** to save recorded actions into Katalon Studio.
 
 **Step 29:** You will be prompted to **save** captured objects into **Object Repository** which can be reused whenever needed**.** You can also create a folder to maintain page objects in desired structure. Click **OK** to continue**.**
 

@@ -24,9 +24,9 @@ Manual Mode
 *   Step 4: Call **Tap** method and pass the object of **Views.**
 *   Step 5: Call **Scroll To Text** from mobile keyword, pass the input as **Radio Group.**
 *   Step 6: Tap on **Radio Group.**
-*   Step 7: After tapping on ‘Radio Group’, we want to **wait** for heading ‘**Views/Radio Group**‘ to be **visible** on the screen.
+*   Step 7: After tapping on 'Radio Group', we want to **wait** for heading '**Views/Radio Group**' to be **visible** on the screen.
 *   Step 8: Add a **binary statement** to initialize **Appium Driver** with Katalon **Mobile Driver**.
-*   Step 9: Add another **binary statement** to get all radio elements and store in a List. In **Left Expression**, select ‘**Variable**‘ as **Value Type** and pass ‘**elements**‘ in **Value**. In **Right expression**, select ‘**Method Call**‘ as **Value Type** and pass the list of radio buttons object information.
+*   Step 9: Add another **binary statement** to get all radio elements and store in a List. In **Left Expression**, select '**Variable**' as **Value Type** and pass '**elements**' in **Value**. In **Right expression**, select '**Method Call**' as **Value Type** and pass the list of radio buttons object information.
 
 ![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-92.png)
 
@@ -34,11 +34,11 @@ Manual Mode
 
 ![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-10.png)
 
-– Step 10.1: Add a **binary statement** to capture the text of each element in the list and store it in the “**actual_Text**” variable.
+– Step 10.1: Add a **binary statement** to capture the text of each element in the list and store it in the "**actual_Text**" variable.
 
-– Step 10.2: Add ‘**if**‘ statement and **verify** whether the actual **text** matches the expected text. When the actual text matches the expected text, perform click action on **Radio** button.
+– Step 10.2: Add '**if**' statement and **verify** whether the actual **text** matches the expected text. When the actual text matches the expected text, perform click action on **Radio** button.
 
-– Step 10.3: After performing click event, we need to **terminate** for each loop. Add a method call statement **‘break’** to achieve this.
+– Step 10.3: After performing click event, we need to **terminate** for each loop. Add a method call statement **'break'** to achieve this.
 
 ![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-11.png)
 

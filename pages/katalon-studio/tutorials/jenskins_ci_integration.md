@@ -35,7 +35,7 @@ Configuration Steps
 
 ![Create New item in Jenkins](../../images/katalon-studio/tutorials/jenskins_ci_integration/2.-Katalon-Jenkins-new-item.png)
 
-3\. Enter job name (e.g “Katalon Studio Tests”), and then choose “Freestyle Project”
+3\. Enter job name (e.g "Katalon Studio Tests"), and then choose "Freestyle Project"
 
 ![Freestyle Project Jenkins](../../images/katalon-studio/tutorials/jenskins_ci_integration/3.-Katalon-Jenskin-Freestyle-projectpng.png)
 
@@ -119,20 +119,20 @@ To check test execution report in Katalon. Please refer to this [guide](https://
 Publish JUnit reports
 ---------------------
 
-From [Katalon Studio 4.7](https://docs.katalon.com/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store, analyze and show results, please add the ‘[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)‘ item.
+From [Katalon Studio 4.7](https://docs.katalon.com/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store, analyze and show results, please add the '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
 
 ![Publish JUnit reports](../../images/katalon-studio/tutorials/jenskins_ci_integration/9.-Katalon-JUnit-reports.png)
 
-Set the ‘Test Report XMLs’ value to your Reports folder to fetch all generated JUnit reports.
+Set the 'Test Report XMLs' value to your Reports folder to fetch all generated JUnit reports.
 
 ![ fetch generated JUnit reports](../../images/katalon-studio/tutorials/jenskins_ci_integration/10.-Katalon-Test-report-XMLs.png)
 
-After executions from the Jenkins job, click on the ‘[Test Results Analyzer](https://wiki.jenkins.io/display/JENKINS/Test+Results+Analyzer+Plugin)‘ item.
+After executions from the Jenkins job, click on the '[Test Results Analyzer](https://wiki.jenkins.io/display/JENKINS/Test+Results+Analyzer+Plugin)' item.
 
 ![Test Results Analyzer](../../images/katalon-studio/tutorials/jenskins_ci_integration/11.-Katalon-Jenkins-Analyzer.png)
 
-All test executions from the folder you’ve specified will be summarized and visualized as follows.
+All test executions from the folder you've specified will be summarized and visualized as follows.
 
 ![Test Results Analyzer chart](../../images/katalon-studio/tutorials/jenskins_ci_integration/12.-Katalon-test-executions.png)
 
-For the visual tutorial on How to set up the integration with Jenkins and other CI tools, please check out the videos created by Katalon Studio’s user at:
+For the visual tutorial on How to set up the integration with Jenkins and other CI tools, please check out the videos created by Katalon Studio's user at:

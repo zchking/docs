@@ -44,11 +44,11 @@ Note: To make sure **Node.js** is installed correctly, you run the command **whi
 | npm install -g appium |
 | --- |
 
-*   Set Appium Directory to **“/usr/local/lib/node_modules/appium”** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
+*   Set Appium Directory to **"/usr/local/lib/node_modules/appium"** in Katalon Preferences (from Katalon menu, go to **Preferences > Katalon > Mobile)**
 
 You will need to install and configure [Xcode](https://developer.apple.com/xcode/) in case of testing on iOS devices. Please set up Xcode as follows:
 
-*   Open **Xcode > Preferences > Accounts**: Add developer’s Apple ID
+*   Open **Xcode > Preferences > Accounts**: Add developer's Apple ID
 
 ![Add-acocunt-in-Xcode](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Add-acocunt-in-Xcode.png)
 
@@ -69,7 +69,7 @@ sh ./Scripts/bootstrap.sh -d
 
 ![Select-target-WebDriverAgentLib](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Select-target-WebDriverAgentLib.png)
 
-*   Then on Xcode’s menu bar, select **Product > Build**
+*   Then on Xcode's menu bar, select **Product > Build**
 
 ![Select-Build](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Select-Build.png)
 
@@ -93,7 +93,7 @@ Setup Devices
 
 For Android devices:
 
-*   Turn on your Android device’s developer mode (go to **Settings** \> **Developer options**).
+*   Turn on your Android device's developer mode (go to **Settings** \> **Developer options**).
 *   Connect the device to your computer via a USB cable. Just confirm if prompted for accepting/trusting the device.
 
 For iOS devices:
@@ -107,7 +107,7 @@ For iOS devices:
 
 To test an iOS native application file (**.ipa** or **.app** file), make sure the file is already built and signed properly to deploy on the device. Follow these steps to check if an application file is already built and signed correctly:1\. Open **Xcode** and navigate to **Window/Devices  
 **2\. Choose your device from the Devices list  
-3\. Press the “+” button and choose your application file  
+3\. Press the "+" button and choose your application file  
   
 ![Choose-your-application-file](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Choose-your-application-file.png)
 

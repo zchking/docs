@@ -9,7 +9,7 @@ This tutorial is to test the **Pinch To Zoom In** action in the mobile app. The 
 Scenario
 --------
 
-In the screenshot below, we want to zoom into “Hello World” and verify the zoom-in action.
+In the screenshot below, we want to zoom into "Hello World" and verify the zoom-in action.
 
 ![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test.png)
 
@@ -31,15 +31,15 @@ Manual Mode
 ![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-10.png)
 
 *   Step 6: Call **Tap** method and pass the object of **WebView**
-*   Step 7: Add **wait commands** to wait for ‘**Hello world**‘ link to be visible.
-*   Step 8: Call ‘**Get Element Height**‘ method and capture the of “**Hello World**” height to store it in a variable named ‘**ele_Height**‘.
-*   Step 9: Call ‘**Get Element Width**‘ method and capture the of “**Hello World**” element **width** to store it in ‘**ele_Width**‘.   
-*   Step 10: Add ‘**Pinch To Zoom In At Position**‘ method from mobile keyword list and pass the following values in: **ele_Height**, **ele_Width**, **Offset** value.
+*   Step 7: Add **wait commands** to wait for '**Hello world**' link to be visible.
+*   Step 8: Call '**Get Element Height**' method and capture the of "**Hello World**" height to store it in a variable named '**ele_Height**'.
+*   Step 9: Call '**Get Element Width**' method and capture the of "**Hello World**" element **width** to store it in '**ele_Width**'.   
+*   Step 10: Add '**Pinch To Zoom In At Position**' method from mobile keyword list and pass the following values in: **ele_Height**, **ele_Width**, **Offset** value.
 
 ![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-11.png)
 
 *   Step 11: After zooming in, we need to **verify** that element has been zoomed. Thus, we need to re-capture the element Height and Width.
-*   Step 12: After zooming the element height and width **should be greater** than the existing height and width in the test. By using ‘**Verify Greater Than**‘ method, we can validate the element height and width.
+*   Step 12: After zooming the element height and width **should be greater** than the existing height and width in the test. By using '**Verify Greater Than**' method, we can validate the element height and width.
 
 ![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-12.png)
 

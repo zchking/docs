@@ -12,7 +12,7 @@ Set encrypted text into an input field. It also clears the previous value of the
 
 _Manual mode_
 
-The pop-up dialog has been shown when calling keyword “**Set Encrypted Text**”. Input raw text and select insert.
+The pop-up dialog has been shown when calling keyword "**Set Encrypted Text**". Input raw text and select insert.
 
 **_Script Mode_**
 

@@ -23,11 +23,11 @@ For this illustration, we could not provide an apk file but the behavior of this
 
 ![Capturing a picture from mobile camera - mobile automation testing](../../images/katalon-studio/tutorials/handle_images_mobile_app/Handling-images-in-mobile-applications.png)
 
-*   Step 2: Add wait a wait keyword **Wait for Element Present** and pass the object of **“Take Photo”**
+*   Step 2: Add wait a wait keyword **Wait for Element Present** and pass the object of **"Take Photo"**
 
 ![Capturing a Picture from Mobile Camera](../../images/katalon-studio/tutorials/handle_images_mobile_app/Capture-images-in-mobile-applications-testing.png)
 
-*   Step 3: **Tap** on **“Take Photo”**
+*   Step 3: **Tap** on **"Take Photo"**
 *   Step 4: Capture a picture
 
 ![Capturing a Picture from Mobile Camera - Mobile Automation Test](../../images/katalon-studio/tutorials/handle_images_mobile_app/Capture-images-in-mobile-applications-testing-4.png)
@@ -35,7 +35,7 @@ For this illustration, we could not provide an apk file but the behavior of this
 *   Step 5: Add a **Wait for Element Present** item.
 *   Step 6: **Tap** on save button. Image will be uploaded successfully.
 
-As a reminder, many applications require a short delay before executing the next step. Thus, throughout our tutorials, we add **Wait for Element Present** as a delaying step to mimic an application’s behavior.
+As a reminder, many applications require a short delay before executing the next step. Thus, throughout our tutorials, we add **Wait for Element Present** as a delaying step to mimic an application's behavior.
 
 It is quite simple to automate the same scenario from the **Script Mode**.
 
@@ -102,7 +102,7 @@ Android devices have a Gallery application installed by default which contains i
 To change the user profile picture by selecting an Image from the Gallery application:
 
 *   Step 1: **Tap** on profile edit button.
-*   Step 2: Select **“Choose From Image Gallery”** option.
+*   Step 2: Select **"Choose From Image Gallery"** option.
 *   Step 3: Choose **Image** in **Gallery** and exit.
 
 For this illustration, we could not provide an apk file but the behavior of this feature is similar across many applications. If the behavior does differ, please change the test steps accordingly.
@@ -112,7 +112,7 @@ For this illustration, we could not provide an apk file but the behavior of this
 ### Manual Mode
 
 *   Step 1: Call the **Tap** mobile **keyword** and **pass** the **object**
-*   Step 2: Checking whether the **‘Choose from image gallery’** has appeared on the screen through **Wait For Element Present** keyword
+*   Step 2: Checking whether the **'Choose from image gallery'** has appeared on the screen through **Wait For Element Present** keyword
 *   Step 3: **Tap** on **Choose from image gallery**
 *   Step 4: Add a **binary statement** to initialize **Katalon Mobile Driver** to **Appium** Driver
 *   Step 5: Capture all the images from Gallery to a **List**
@@ -121,7 +121,7 @@ For this illustration, we could not provide an apk file but the behavior of this
 *   Step 8: When the expected image is matched, **Click** on the image from the Gallery and **break** to exit from the loop.
 *   Step 9: Add a wait command **Wait For Element Present** and pass the object of camera icon
 
-As a reminder, many applications require a short delay before executing the next step. Thus, throughout our tutorials, we add **Wait for Element Present** as a delaying step to mimic an application’s behavior.
+As a reminder, many applications require a short delay before executing the next step. Thus, throughout our tutorials, we add **Wait for Element Present** as a delaying step to mimic an application's behavior.
 
 It is quite simple to automate the same scenario from the script mode.
 
@@ -209,12 +209,12 @@ We want to take Screenshot with Relative and Absolute paths and save them under 
 
 ### Manual Mode
 
-*   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select ‘**Value Type**‘ as **Variable**. In **Value**, pass the variable name as ‘**path’**.
+*   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select '**Value Type**' as **Variable**. In **Value**, pass the variable name as '**path'**.
 
 ![Capturing Screenshots in Mobile App](../../images/katalon-studio/tutorials/handle_images_mobile_app/Capturing-Screenshots-in-Mobile-App-1.png)
 
 *   Step 2: Add a **Wait For Element Present** item.
-*   Step 3: Call the **Take Screenshot** method and pass parameter name as fileName, which accepts ‘**String**‘ Value Type. Put ‘**.\\ScreenShots\\HomePage.png**‘ (Relative path) as Value. And click **OK**.
+*   Step 3: Call the **Take Screenshot** method and pass parameter name as fileName, which accepts '**String**' Value Type. Put '**.\\ScreenShots\\HomePage.png**' (Relative path) as Value. And click **OK**.
 
 **![Capturing Screenshots in Mobile App](../../images/katalon-studio/tutorials/handle_images_mobile_app/Capturing-Screenshots-in-Mobile-App-3.png)**
 
@@ -222,10 +222,10 @@ We want to take Screenshot with Relative and Absolute paths and save them under 
 
 ![Capturing Screenshots in Mobile App](../../images/katalon-studio/tutorials/handle_images_mobile_app/Capturing-Screenshots-in-Mobile-App-4.png)
 
-*   Step 5: Call the **Take Screenshot** method to capture .jpg image type. Pass the filename which accepts ‘**String**‘ **Value Type**, put ‘**.\\ScreenShots\\view.jpg**‘ (Relative path).as **Value**.
+*   Step 5: Call the **Take Screenshot** method to capture .jpg image type. Pass the filename which accepts '**String**' **Value Type**, put '**.\\ScreenShots\\view.jpg**' (Relative path).as **Value**.
 *   Step 6: **Tap** on the **Views** menu.
 *   Step 7: Call **Scroll To Text** from mobile keyword, pass **Input** as **Tabs**.
-*   Step 8: Call the **Take Screenshot** method to capture .jpg image type using absolute path. Pass the filename which accepts **‘String’ Value Type**, put  **‘.\\ScreenShots\\Tab.jpg’** (Absolute path) as **Value**. Your test case will look similar to the screenshot below.
+*   Step 8: Call the **Take Screenshot** method to capture .jpg image type using absolute path. Pass the filename which accepts **'String' Value Type**, put  **'.\\ScreenShots\\Tab.jpg'** (Absolute path) as **Value**. Your test case will look similar to the screenshot below.
 
 ![Capturing Screenshots in Mobile App](../../images/katalon-studio/tutorials/handle_images_mobile_app/Capturing-Screenshots-in-Mobile-App-8.png)
 

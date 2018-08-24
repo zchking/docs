@@ -32,7 +32,7 @@ There are instances in which the user wants to execute tests on different device
 
 ![Executing Tests on Multiple Devices in Parallel](../../images/katalon-studio/tutorials/execute_tests_parallelly_multiple_devices/Executing-Tests-on-Multiple-Devices-in-Parallel-8.png)
 
-*   Step 9: Select the radio button ‘**Parallel**‘ in the **Execution Information** section.
+*   Step 9: Select the radio button '**Parallel**' in the **Execution Information** section.
 *   Step 10: Click on **Execute**. It will execute tests parallelly on your selected mobile devices.
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation).  For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).

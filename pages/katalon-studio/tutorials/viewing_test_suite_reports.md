@@ -4,7 +4,7 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/viewing_test_suite_reports.html
 description: "This guide will give you an overview of test suite reports and related supported basic functions when testing with Katalon Studio."
 ---
-Katalon Studio is designed to ease many challenges that manual testers are facing. In a large project, there may be hundreds or even thousands of test cases and test executions. Test suite reports produced by Katalon Studio allow users to monitor their test status and have a better understanding of their project’s test coverage. This guide will give you an overview of reports and related supported basic functions.
+Katalon Studio is designed to ease many challenges that manual testers are facing. In a large project, there may be hundreds or even thousands of test cases and test executions. Test suite reports produced by Katalon Studio allow users to monitor their test status and have a better understanding of their project's test coverage. This guide will give you an overview of reports and related supported basic functions.
 
 Once a test suite finishes its execution, a historical report is automatically generated and stored in the Reports section of Tests Explorer. Test suite execution reports are placed in chronological order with the most recent one on top.
 
@@ -55,10 +55,10 @@ The fields include:
 | Start / End / Elapse | Execution start/end date time and duration |
 | Total TC | The total number of test cases, grouped into four status groups, Passed, Failed, Error, and Incomplete. |
 
-Test Case’s Log
+Test Case's Log
 ---------------
 
-**Test Case’s Log** shows the detail of a test case after execution. Users can view such details in three tabs **Test Log**, **Information**, and **Integration**. Double-click on a test case in **Test Cases Table** to display the **Test Case’s Log** window.
+**Test Case's Log** shows the detail of a test case after execution. Users can view such details in three tabs **Test Log**, **Information**, and **Integration**. Double-click on a test case in **Test Cases Table** to display the **Test Case's Log** window.
 
 ### Test Log Tab
 
@@ -67,7 +67,7 @@ Test Case’s Log
 
 Detail of the items:
 
-<table><thead><tr><th>Component</th> <th>Description</th> </tr></thead><tbody><tr><td>Log Information</td> <td>Information of the selected iteration in the <b>Test Case’s Log</b> section:<p></p><ul><li><ul><li><b>Name</b> of the test step (the name of the keyword used in the test step)</li><li>Execution <b>Start/End</b> date time and duration</li><li><b>Description</b> of the test step</li><li>Any system <b>Message</b> raised when the test step is executed.</li></ul></li></ul></td></tr><tr><td>Log Image</td> <td>The screenshot taken from the application under test, it is captured in either of the following situations:<p></p><ul><li><ul><li>An error occurs during test execution</li><li>The <a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot">Take Screenshot</a> keyword is used</li></ul></li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Component</th> <th>Description</th> </tr></thead><tbody><tr><td>Log Information</td> <td>Information of the selected iteration in the <b>Test Case's Log</b> section:<p></p><ul><li><ul><li><b>Name</b> of the test step (the name of the keyword used in the test step)</li><li>Execution <b>Start/End</b> date time and duration</li><li><b>Description</b> of the test step</li><li>Any system <b>Message</b> raised when the test step is executed.</li></ul></li></ul></td></tr><tr><td>Log Image</td> <td>The screenshot taken from the application under test, it is captured in either of the following situations:<p></p><ul><li><ul><li>An error occurs during test execution</li><li>The <a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot">Take Screenshot</a> keyword is used</li></ul></li></ul></td></tr></tbody></table>
 
 *   Users can easily determine which type of information to be displayed by using the provided filters:
 
@@ -84,7 +84,12 @@ Users can find the summary information of the test case in this tab.
 
 The items include:
 
-<table><thead><tr><th>Field</th> <th>Description</th> </tr></thead><tbody><tr><td>Test Case ID</td> <td>The ID of the executed test case in Katalon Studio. Once clicked, the system navigates users to the respective test case.</td> </tr><tr><td>Start / End / Elapse</td> <td>Execution start/end date time and duration.</td> </tr><tr><td>Description</td> <td>Description of the test case.</td> </tr><tr><td>Message</td> <td>Any system message raised when this <b>iteration</b> is executed.</td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| Test Case ID | The ID of the executed test case in Katalon Studio. Once clicked, the system navigates users to the respective test case. |
+| Start / End / Elapse | Execution start/end date time and duration. |
+| Description | Description of the test case. |
+| Message | Any system message raised when this **iteration** is executed. |
 
 ### Integration Tab
 
@@ -94,7 +99,11 @@ The information regarding qTest Integration of this iteration is displayed in th
 
 The fields include:
 
-<table><thead><tr><th>Field</th> <th>Description</th> </tr></thead><tbody><tr><td>Test Log ID</td> <td>The ID of the integrated qTest <b>Test Run</b>. Once clicked, the system navigates users to the respective qTest page. </td></tr><tr><td>Test Run Alias</td> <td>The alias of the integrated qTest <b>Test Run</b>.</td> </tr><tr><td>Attachment</td> <td>Indicate whether all execution logs and reports are placed in a zipped file to be sent to qTest as an attachment.</td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| Test Log ID | The ID of the integrated qTest **Test Run**. Once clicked, the system navigates users to the respective qTest page. |
+| Test Run Alias | The alias of the integrated qTest **Test Run**. |
+| Attachment | Indicate whether all execution logs and reports are placed in a zipped file to be sent to qTest as an attachment. |
 
 Export to other formats
 -----------------------
@@ -103,4 +112,4 @@ For the purpose of sharing, users can generate reports of test suites into other
 
 ![generate reports of test suites into other formats](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Export-to-other-formats.png)
 
-Katalon Studio’s Reports feature allows users to have an overview of test execution by providing most important details and necessary information from PASSED/FAILED result to details on the execution environment, test summary, or logs. Using this information, test managers and QAs can better manage and track test activities, resulting in improved testing productivity.
+Katalon Studio's Reports feature allows users to have an overview of test execution by providing most important details and necessary information from PASSED/FAILED result to details on the execution environment, test summary, or logs. Using this information, test managers and QAs can better manage and track test activities, resulting in improved testing productivity.

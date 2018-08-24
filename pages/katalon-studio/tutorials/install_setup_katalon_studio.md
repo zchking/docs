@@ -40,7 +40,7 @@ Once started, the application should display the splash screen similar to the fo
 Activate Katalon Studio
 -----------------------
 
-After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio. The username and password are the same as the one with which you’ve registered to download Katalon Studio from [https://www.katalon.com/](https://www.katalon.com/).
+After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio. The username and password are the same as the one with which you've registered to download Katalon Studio from [https://www.katalon.com/](https://www.katalon.com/).
 
 ![Katalon Studio Activation pop-up](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2017-2-16%2017%3A30%3A12.png)
 

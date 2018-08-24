@@ -7,7 +7,7 @@ description: "Git conflicts occur when two people make changes to the same file 
 Why do we have Git conflicts?
 -----------------------------
 
-In a source control system like Git, conflicts may occur when two or more people make changes to the same file concurrently. The conflicts may appear at a member’s local repository or Git remote repository. In order to avoid conflicts, the team must collaborate following several Git practices. For example, before pushing new source code to the Git remote repository, one must remember to fetch the latest version from Git remote repository, resolve any conflicts and merge the code with local version.  
+In a source control system like Git, conflicts may occur when two or more people make changes to the same file concurrently. The conflicts may appear at a member's local repository or Git remote repository. In order to avoid conflicts, the team must collaborate following several Git practices. For example, before pushing new source code to the Git remote repository, one must remember to fetch the latest version from Git remote repository, resolve any conflicts and merge the code with local version.  
 The chart below demonstrates how conflicts may occur when Tom and Emma are working in the same project. The conflicts occur when Tom and Emma try to push new code to the Git remote repository without updating the changes from each other.
 
 ![Git conflicts Katalon Studio](../../images/katalon-studio/tutorials/git_conflict_resolve/Git-conflict.png)
@@ -15,19 +15,19 @@ The chart below demonstrates how conflicts may occur when Tom and Emma are worki
 Resolve Git conflicts using Katalon Studio
 ------------------------------------------
 
-Let’s consider the following situation: Tom and Emma are working on the same test case in a test project. Emma added a new comment (“EMMA ADDED THIS COMMENT”), then committed and pushed the change to the Git remote repository.
+Let's consider the following situation: Tom and Emma are working on the same test case in a test project. Emma added a new comment ("EMMA ADDED THIS COMMENT"), then committed and pushed the change to the Git remote repository.
 
 ![Resolve Git Conflict Katalon Studio](../../images/katalon-studio/tutorials/git_conflict_resolve/Git-conflict-2.png)
 
-At almost the same time, Tom also added a  new comment (“TOM ADDED THIS COMMENT”), then committed and tried to push to the Git remote repository.
+At almost the same time, Tom also added a  new comment ("TOM ADDED THIS COMMENT"), then committed and tried to push to the Git remote repository.
 
 ![Resolve Git Conflict Katalon Studio](../../images/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-2.png)
 
-Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom’s local repository and therefore, Git rejected Tom’s  “push” action.
+Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository and therefore, Git rejected Tom's  "push" action.
 
 _What should Tom do to have push its change to the Git remote control?_
 
-First, Tom has to “pull” the code from the Git remote repository to his local machine.
+First, Tom has to "pull" the code from the Git remote repository to his local machine.
 
 ![](../../images/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-3.png)
 
@@ -35,13 +35,13 @@ Obviously, Tom will see a message about the conflict:
 
 ![Resolve Git conflict](../../images/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-4.png)
 
-In the “Script” mode of the test case “**TC2_Verify Successful Appointment**” in Tom’s Katalon Studio project, there are errors with indicators such as “<<<<<<<” (convention from Git). Let’s look at the script more carefully:
+In the "Script" mode of the test case "**TC2_Verify Successful Appointment**" in Tom's Katalon Studio project, there are errors with indicators such as "<<<<<<<" (convention from Git). Let's look at the script more carefully:
 
 ![Resolve Git conflict](../../images/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-5.png)
 
-Recall that the comments were added by Tom and Emma, and the “conflict” is now on Tom’s Katalon Studio project. Everything within **“<<<<<<< HEAD”** and **“=======”** is the change from Tom. And, everything within **“=======”** and **“>>>>>>\> branch ‘master’…”** comes from Emma, which is currently in the Git remote repository.
+Recall that the comments were added by Tom and Emma, and the "conflict" is now on Tom's Katalon Studio project. Everything within **"<<<<<<< HEAD"** and **"======="** is the change from Tom. And, everything within **"======="** and **">>>>>>\> branch 'master'…"** comes from Emma, which is currently in the Git remote repository.
 
-Now Tom has to decide which change is correct, or both are correct or wrong. Tom has to replace these lines of code by the correct one, e.g., “THIS IS THE CORRECT COMMENT”:
+Now Tom has to decide which change is correct, or both are correct or wrong. Tom has to replace these lines of code by the correct one, e.g., "THIS IS THE CORRECT COMMENT":
 
 ![Resolve Git conflict](../../images/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-6.png)
 
@@ -96,13 +96,13 @@ In case you have an existing Katalon Studio project and you want to add it to a 
 3 Add an existing Katalon Studio project into an existing Git repository
 ------------------------------------------------------------------------
 
-Very often we have a Git repository from development team for storing production code. The QA/Tester team is required to save automation test scripts into this repository under a _‘test’_ folder.
+Very often we have a Git repository from development team for storing production code. The QA/Tester team is required to save automation test scripts into this repository under a _'test'_ folder.
 
 You can apply the following steps to start a new Katalon Studio project and integrate it with the existing Git repository from the development team:
 
 ![Start Katalon project in existing Git](../../images/katalon-studio/tutorials/git_conflict_resolve/add-existing-Katalon-project-into-existing-Git.png)
 
-The situation is a bit more complicated if your automation team already works on a Katalon project for a while and tries to add it into an existing Git repository of the development team. In this case, you can apply the following workflow. In this workflow, you have to move the existing Katalon automation project into the test folder of the development’s local repository. You then open the Katalon project from Katalon Studio.
+The situation is a bit more complicated if your automation team already works on a Katalon project for a while and tries to add it into an existing Git repository of the development team. In this case, you can apply the following workflow. In this workflow, you have to move the existing Katalon automation project into the test folder of the development's local repository. You then open the Katalon project from Katalon Studio.
 
 ![add Katalon project into existing Git](../../images/katalon-studio/tutorials/git_conflict_resolve/add-Katalon-project-into-existing-Git.png)
 

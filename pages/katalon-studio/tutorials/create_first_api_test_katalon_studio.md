@@ -49,7 +49,7 @@ _Figure 2: New Web Service Request dialog_
 
 **Name:**
 
-This is a free string to specify the name of created Web Service Request. There is no special naming rule in this field. As a good practice, it is highly suggested that the request’s name is readable and briefly describes the request’s purpose.
+This is a free string to specify the name of created Web Service Request. There is no special naming rule in this field. As a good practice, it is highly suggested that the request's name is readable and briefly describes the request's purpose.
 
 **Request Type:**
 
@@ -69,7 +69,7 @@ Once all the information is specified, the new Web Service Request will be creat
 
 _Figure 3: New WS Request is created in the Tests Explorer_
 
-### Step 2: Specify the WS Request’s settings
+### Step 2: Specify the WS Request's settings
 
 ![Web service object information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service-object-information.png)
 
@@ -77,21 +77,21 @@ _Figure 4: Web service object information_
 
 (1) The Web service request item created with the specified name
 
-(2) The request’s method. If the request type is RESTful, one of following methods can be selected: GET, PUT, POST, DELETE. The request type depends on the Web service provider.
+(2) The request's method. If the request type is RESTful, one of following methods can be selected: GET, PUT, POST, DELETE. The request type depends on the Web service provider.
 
-(3) The request’s URL. It can be updated any time after the request is created.
+(3) The request's URL. It can be updated any time after the request is created.
 
 (4) The Authorization setting, which is used to connect to web server. Basic, OAuth 1.0 are the two most common types of authorization method.
 
 a. Basic method
 
 *   Specify the valid username and password
-*   Click “Update to HTTP Header” to apply the authorization configuration.
+*   Click "Update to HTTP Header" to apply the authorization configuration.
 
 b. OAuth 1.0 method
 
 *   Specify all configuration in the form
-*   Click “Update to HTTP Header” to apply the authorization configuration.
+*   Click "Update to HTTP Header" to apply the authorization configuration.
 
 (5) HTTP Header configuration.
 
@@ -101,9 +101,9 @@ b. OAuth 1.0 method
 
 Before adding actual verification steps to test the service, Katalon Studio supports testing on-the-fly method: send the request and perform quick verification of the response.
 
-![Web service’s response information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service%E2%80%99s-response-information.png)
+![Web service's response information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service%E2%80%99s-response-information.png)
 
-_Figure 5: Web service’s response information_
+_Figure 5: Web service's response information_
 
 (1) Click to send the request to the Web server
 
@@ -111,7 +111,7 @@ _Figure 5: Web service’s response information_
 
 (3) Elapsed time demonstrates how much time Katalon Studio takes to get the response from the web server.
 
-(4) The size of the response’s data.
+(4) The size of the response's data.
 
 (5) Response data.
 
@@ -121,25 +121,25 @@ _Figure 5: Web service’s response information_
 
 The first 3 steps demonstrate how to create Web service end-point at Object Repository. This step will guide you through creating an actual test scenario for it.
 
-![Adding ‘Web Service Keyword” step](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%98Web-Service-Keyword%E2%80%9D-step.png)
+![Adding 'Web Service Keyword" step](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%98Web-Service-Keyword%E2%80%9D-step.png)
 
-_Figure 6: Adding ‘Web Service Keyword” step_
+_Figure 6: Adding 'Web Service Keyword" step_
 
 (1) Create a test case with a readable name. It is highly recommended that the test case name briefly describes the test scenario.
 
-(2) From the Test case editor, select ‘Add -> Web Service Keyword’ to add a new step.
+(2) From the Test case editor, select 'Add -> Web Service Keyword' to add a new step.
 
-![Adding “Send request” keyword](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%9CSend-request%E2%80%9D-keyword.png)
+![Adding "Send request" keyword](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%9CSend-request%E2%80%9D-keyword.png)
 
-_Figure 7: Adding “Send request” keyword_
+_Figure 7: Adding "Send request" keyword_
 
-(1) In the Item drop-down list, select “Send Request” keyword
+(1) In the Item drop-down list, select "Send Request" keyword
 
-(2) Click on Object cell in the same row to open “Test Object input” dialog
+(2) Click on Object cell in the same row to open "Test Object input" dialog
 
-(3) Select “Test Object” from “Object Type” list
+(3) Select "Test Object" from "Object Type" list
 
-(4) Select the “Web Service Request” we’ve created from step 2
+(4) Select the "Web Service Request" we've created from step 2
 
 ### Step 5: Add verification steps
 
@@ -151,9 +151,9 @@ _Figure 8: Verification steps_
 
 (1) Web Service Request is added to the test case from the previous step.
 
-(2) In order to verify the content that the request return, we need to specify the output of the request. Just simply enter the ‘Output’ with the variable name we want to use later.
+(2) In order to verify the content that the request return, we need to specify the output of the request. Just simply enter the 'Output' with the variable name we want to use later.
 
-(3) Step 2 and step 3 of the test case are for verification. They are added in a similar way to “Send Request” step. Step 2 verifies the response code (200 if the request is sent successfully)
+(3) Step 2 and step 3 of the test case are for verification. They are added in a similar way to "Send Request" step. Step 2 verifies the response code (200 if the request is sent successfully)
 
 (4) Verify the response code is 200
 

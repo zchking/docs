@@ -4,7 +4,7 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/running_application_mobile_browsers.html
 description: "Learn how to execute Web application testing directly on a mobile device via a sample project on Chrome and Safari browser."
 ---
-What You’ll Learn
+What You'll Learn
 -----------------
 
 Katalon Studio supports executing the same test cases on both desktop browsers and mobile browsers. A test case created via recording, either in manual mode or script mode, on a desktop browser with Katalon Studio can be executed on a mobile browser as well. This tutorial will guide you step by step how to do that.
@@ -13,7 +13,7 @@ Katalon Studio supports executing the same test cases on both desktop browsers a
 *   Create a test case with Katalon Studio
 *   Execute the test case with mobile browser
 
-What You’ll Need
+What You'll Need
 ----------------
 
 *   Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit [Katalon Studio website](https://www.katalon.com/download) to get the latest version.
@@ -23,7 +23,7 @@ Before You Dive In
 
 First, you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
-After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven’t already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
+After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
 Web application testing can be directly executed on a mobile device. To do so, the user needs to connect their devices/emulators into the machine and run the test scripts. We need to make sure that Chrome application (on Android device) and Safari application (on an iOS device) must be installed so that test steps can execute properly.
 
@@ -41,7 +41,7 @@ Do not stress out when your test cases cannot execute properly on mobile browser
 Create a test case with Katalon Studio
 --------------------------------------
 
-After understanding your AUT, and you have decided to perform automation testing, let’s create a test case with Katalon Studio. Below is the test scenario and how to create the test case in manual mode.
+After understanding your AUT, and you have decided to perform automation testing, let's create a test case with Katalon Studio. Below is the test scenario and how to create the test case in manual mode.
 
 ### Scenario: Login
 
@@ -61,25 +61,25 @@ Step 1: Click on Add from Toolbar and select Web UI Keyword.
 
 Step 2: Select _Open Browser_ and pass the URL in the input field. Call _Wait for Page to Load_ and provide a timeout value in the input field.
 
-Step 3: Add _Wait for Element Visible_ keyword for button object “Make Appointment.”
+Step 3: Add _Wait for Element Visible_ keyword for button object "Make Appointment."
 
-Step 4: Before performing the click action, Verify whether the element is clickable using _Verify Element Clickable_ keyword, pass the object button “Make Appointment.”
+Step 4: Before performing the click action, Verify whether the element is clickable using _Verify Element Clickable_ keyword, pass the object button "Make Appointment."
 
-Step 5: Call _Click_ action to be performed on the “Make Appointment” button
+Step 5: Call _Click_ action to be performed on the "Make Appointment" button
 
-Step 6: _Wait for Element Visible_ “Login.”
+Step 6: _Wait for Element Visible_ "Login."
 
-Step 7: Add _Verify Element Clickable_ and pass the object as the “Login” button.
+Step 7: Add _Verify Element Clickable_ and pass the object as the "Login" button.
 
-Step 8: _Set Text_ for username as “John Doe”
+Step 8: _Set Text_ for username as "John Doe"
 
-Step 9:  _Set Text_ in the password as “ThisIsNotAPassword”
+Step 9:  _Set Text_ in the password as "ThisIsNotAPassword"
 
 Step 10: Add _Click_ action to be performed on the Login button.
 
-Step 11: _Wait for Element_ present of text “Make Appointment”.
+Step 11: _Wait for Element_ present of text "Make Appointment".
 
-Step12: Add _Get Text_ keyword to capture the Header “Make Appointment” and store it in a variable called “actual_Header”.
+Step12: Add _Get Text_ keyword to capture the Header "Make Appointment" and store it in a variable called "actual_Header".
 
 Step 13: Use the _Verify Match_ Keyword to verify the actual and expected texts.
 

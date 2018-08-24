@@ -11,7 +11,7 @@ description:
 
 [WebDriverAgent](https://github.com/facebook/WebDriverAgent) is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. You need to install and setup WebDriverAgent to allow Katalon Studio to automate iOS devices.
 
-*   Open **Xcode > Preferences > Accounts**: Add developer’s Apple ID 
+*   Open **Xcode > Preferences > Accounts**: Add developer's Apple ID 
 
 ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_4.png)
 

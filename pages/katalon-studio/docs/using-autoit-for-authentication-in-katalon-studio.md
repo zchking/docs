@@ -30,7 +30,7 @@ This would be applicable for Chrome, Firefox and Edge.
             *   Open (or create new) autoit file with contents:
                 
 
-> Change your own credential at “Username” and “Password” fields
+> Change your own credential at "Username" and "Password" fields
 
 ```groovy
 WinWaitActive("","Authentication Required","10")
@@ -47,7 +47,7 @@ ElseIf WinExists("","Windows Security") Then
 EndIf
 ```
 
-*   Save this file to your desired location. You would have a file with *au3 format. Right click on file and select “Compile Script” option to create .exe file.
+*   Save this file to your desired location. You would have a file with *au3 format. Right click on file and select "Compile Script" option to create .exe file.
     
              b. Adding steps to call autoIt (*.exe) file in Katalon Studio Script Mode
     
@@ -75,4 +75,4 @@ WebUI.navigateToUrl('http://the-internet.herokuapp.com/basic_auth')
 ```
 
   
-Now it’s all done. You can run your test case to see how it works.
+Now it's all done. You can run your test case to see how it works.

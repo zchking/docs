@@ -128,7 +128,7 @@ Refer to the following table for the usage of each statement:
 | Statement | Description |
 | --- | --- |
 | **Try** | This statement indicates that all steps within it will be monitored by exception handlers. |
-| **Throw** | Before you can catch an exception, some code must throw it. Regardless of what throws the exception, it’s always involved with the Throw statement. |
+| **Throw** | Before you can catch an exception, some code must throw it. Regardless of what throws the exception, it's always involved with the Throw statement. |
 | **Catch** | Katalon Studio executes all steps within the Catch block when there is any issue occurring during execution of the Try block. |
 | **Finally** | This is the last part of the Try-Catch-Finally structure and all steps within this block will be executed regardless of what exceptions and whether they are handled in the Catch block. |
 

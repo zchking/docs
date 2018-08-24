@@ -12,7 +12,7 @@ description: "This tutorial will show you how to leverage Katalon Analytics powe
 
 This tutorial will show you how to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas, detect flakiness tests and to have a better control of the product quality.
 
-For this tutorial, let’s assume that you already uploaded Katalon Studio execution reports to [Katalon Analytics](https://analytics.katalon.com). If not, refer to [this tutorial](https://www.katalon.com/resources-center/tutorials/upload-test-execution-reports-katalon-analytics/).
+For this tutorial, let's assume that you already uploaded Katalon Studio execution reports to [Katalon Analytics](https://analytics.katalon.com). If not, refer to [this tutorial](https://www.katalon.com/resources-center/tutorials/upload-test-execution-reports-katalon-analytics/).
 
 Status Report
 -------------
@@ -36,7 +36,7 @@ Duration Report
 
 The duration reports graph indicates how much time each execution took to complete. Any significant changes in execution time can be a sign to let you know that there are performance issues.
 
-Let’s take a look at Duration Report Graph of the Katalon Keywords project below, the execution #2 took more than 21 hrs to complete while the execution #5 took only 18 minutes. These differences indicate which execution needs to be reviewed.
+Let's take a look at Duration Report Graph of the Katalon Keywords project below, the execution #2 took more than 21 hrs to complete while the execution #5 took only 18 minutes. These differences indicate which execution needs to be reviewed.
 
 ![Duration Report Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/10.png)
 
@@ -58,7 +58,7 @@ Execution Detail View
 
 Katalon Analytics provides a detail view to help you have a better understanding of each execution. To view details, simply click on a preferred execution **ID**. A dashboard for the selected execution will be displayed.
 
-Let’s take Katalon Keywords as an example. By viewing the Result section, you can obtain a quick summary of the execution.
+Let's take Katalon Keywords as an example. By viewing the Result section, you can obtain a quick summary of the execution.
 
 ![Execution Detail View Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/13-1024x460.png)
 
@@ -104,7 +104,7 @@ Performance and History
 
 Katalon Analytics takes users even deeper into the performance and history of executions of test suites, test cases, and folders. Performance and history charts allow users to have a more comprehensive view of their tests in order to take actions concerning the quality of the application under test.
 
-Let’s continue with the Katalon Keywords project, click on **ID** of the test suite **TS_Alert Keywords** to view its detailed execution information. Next, click on **View all executions of this Test Suite**. Katalon Analytics will show the **History** dashboard of TS_Alert Keywords test suite where you can view its **Performance** graph and execution history.
+Let's continue with the Katalon Keywords project, click on **ID** of the test suite **TS_Alert Keywords** to view its detailed execution information. Next, click on **View all executions of this Test Suite**. Katalon Analytics will show the **History** dashboard of TS_Alert Keywords test suite where you can view its **Performance** graph and execution history.
 
 ![Performance graph and execution history Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/19-1024x366.png)
 
@@ -112,7 +112,7 @@ The Performance line graph shows the execution time of each run for the test sui
 
 ![Performance Report Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/20.png)
 
-Next, the **History** table displays the execution history of for the selected test suite where you can view execution environment, the number of test cases, and status. As shown above, the **TS_Alert Keyword**’s **Performance** graph indicates that the executions #21, #35 and #45 are all failed. The **History** table below provides  insights on why these test executions failed.
+Next, the **History** table displays the execution history of for the selected test suite where you can view execution environment, the number of test cases, and status. As shown above, the **TS_Alert Keyword**'s **Performance** graph indicates that the executions #21, #35 and #45 are all failed. The **History** table below provides  insights on why these test executions failed.
 
 ![History table Katalon Analytics](../../images/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics/21-1024x410.png)
 

@@ -43,7 +43,7 @@ Setting Up Your Devices
 
 ### Android
 
-*   Turn on the phone’s developer mode (go to **Settings **> **Developer options**).
+*   Turn on the phone's developer mode (go to **Settings **> **Developer options**).
 *   Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device.
 *   Install Android SDK: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine doesn't have it. Please allow Katalon Studio to install it in this case.
 
@@ -57,7 +57,7 @@ Setting Up Your Devices
 *   To test an iOS native application file (**.ipa** file), follow these steps to check if an application file is already built and signed correctly:
     1.  1.  Open **Xcode** and navigate to **Window/Devices**
         2.  Choose your device from the Devices list
-        3.  Press the “+” button and choose you application file  
+        3.  Press the "+" button and choose you application file  
             ![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8 14_31_5.png)
         4.  If installed successfully, the application will appear in the Installed Apps section as shown below.  
             **![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8 14_31_14.png)**

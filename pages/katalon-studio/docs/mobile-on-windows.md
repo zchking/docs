@@ -27,7 +27,7 @@ Due to the diifferences in computer environments, the Katalon download package d
 Setting Up Your Devices
 -----------------------
 
-*   Turn on the phone’s developer mode (go to **Settings **> **Developer options**).
+*   Turn on the phone's developer mode (go to **Settings **> **Developer options**).
 *   Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device.
 *   Install Android SDK: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine doesn't have it. Please allow Katalon Studio to install it in this case.
 

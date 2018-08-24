@@ -16,7 +16,7 @@ How to identify the iframe
 
 We can identify the iframes by below two ways by inspecting the element:
 
-1.  Right click on the element, if there is a **tag **name available with **‘iframe’ **then the element is said to be in a frame.
+1.  Right click on the element, if there is a **tag **name available with **'iframe' **then the element is said to be in a frame.
 2.  Right click on the page and if there is an option available with following options in the context menu then the element is available in frames.
 
 a) View frame source
@@ -28,7 +28,7 @@ c) This frame
 Why is it important to know how to test iframes?
 ------------------------------------------------
 
-Verifying text and objects within iframes can be a challenge. For example, even though you can see a text displayed in an iframe, automation tools may not be able to detect the text. You have to tell your script how to traverse through a website’s iframes structure and select the correct iframe where the text and its object are present.
+Verifying text and objects within iframes can be a challenge. For example, even though you can see a text displayed in an iframe, automation tools may not be able to detect the text. You have to tell your script how to traverse through a website's iframes structure and select the correct iframe where the text and its object are present.
 
 **Example #1**
 
@@ -50,15 +50,15 @@ Verifying text and objects within iframes can be a challenge. For example, even 
 
 **Example #2**
 
-1\. Given that you want to capture the JQueryUI’s Drag and Drop example (this draggable control is an iframe), as shown in the screenshot below, you can drag the ‘Drag me around’ object to other areas of the iframe.
+1\. Given that you want to capture the JQueryUI's Drag and Drop example (this draggable control is an iframe), as shown in the screenshot below, you can drag the 'Drag me around' object to other areas of the iframe.
 
 ![capture the JQueryUI's Drag and Drop example](../../images/katalon-studio/tutorials/handling_iframe_issue/JQueryUIs-Drag-and-Drop.png)
 
-2\. Use the Object Spy to capture the iframe as usual. The Object Spy can detect, capture the iframe, and show all of the iframe’s elements accordingly.
+2\. Use the Object Spy to capture the iframe as usual. The Object Spy can detect, capture the iframe, and show all of the iframe's elements accordingly.
 
 ![Object Spy to capture the iframe](../../images/katalon-studio/tutorials/handling_iframe_issue/Object-Spy.png)
 
-3\. As you save the captured object to Katalon Studio, the iframe is also included as the object’s parent element. This is illustrated in the following screenshot (Note that you can uncheck the option to use parent iframe if needed):
+3\. As you save the captured object to Katalon Studio, the iframe is also included as the object's parent element. This is illustrated in the following screenshot (Note that you can uncheck the option to use parent iframe if needed):
 
 ![save the captured object to Katalon Studio](../../images/katalon-studio/tutorials/handling_iframe_issue/object%E2%80%99s-parent-element..png)
 
@@ -239,6 +239,6 @@ _Note:_ Please download the source code [here](https://github.com/katalon-studi
 
 **Common exceptions**
 
-Noted that **NoSuchFrameException** or **InvalidSwitchToTargetException** exceptions are thrown when the target frame to be switched to doesn’t exist.
+Noted that **NoSuchFrameException** or **InvalidSwitchToTargetException** exceptions are thrown when the target frame to be switched to doesn't exist.
 
 If you need further support, join us on [Katalon Forum](https://forum.katalon.com/).

@@ -8,7 +8,7 @@ description:
 Description
 -----------
 
-Simulate users clicking on “OK” button of an alert popup (alert, confirmation popup, prompt popup).
+Simulate users clicking on "OK" button of an alert popup (alert, confirmation popup, prompt popup).
 
 Parameters
 ----------

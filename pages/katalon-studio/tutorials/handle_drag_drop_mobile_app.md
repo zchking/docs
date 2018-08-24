@@ -9,7 +9,7 @@ In this tutorial, we will see how to handle drag and drop action in a mobile app
 Scenario
 --------
 
-The scenario is to **drag and drop** a draggable object containing the text “**Brad Mehldau**” and a droppable object containing the text “**Kurt Rosenwinkel**”.
+The scenario is to **drag and drop** a draggable object containing the text "**Brad Mehldau**" and a droppable object containing the text "**Kurt Rosenwinkel**".
 
 *   Step 1: Start the Application (**Drag and Drop.apk**)
 *   Step 2: Tap on **Basic Usage playground** text
@@ -18,13 +18,13 @@ The scenario is to **drag and drop** a draggable object containing the text “*
 Manual Mode
 -----------
 
-*   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select ‘**Value Type**‘ as **Variable**. In **Value**, pass the variable name as ‘**path’**.
+*   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select '**Value Type**' as **Variable**. In **Value**, pass the variable name as '**path'**.
 
 ![Handling Drag and Drop in Mobile App](../../images/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App.png)
 
 *   Step 2: Add a **Wait For Element Present** item to wait for Basic Usage playground to pop up.
 *   Step 3: Select **Tap** from mobile keyword and pass the object of Basic Usage playground.
-*   Step 4: Similarly, add a **Wait For Element Present** item to wait for the ‘Brad Mehldau’ text.
+*   Step 4: Similarly, add a **Wait For Element Present** item to wait for the 'Brad Mehldau' text.
 *   Step 5: Select the **DragAndDrop** **keyword** to perform the drag and drop action.
 *   Step 6: The draggable object will be dragged into the droppable object.
 

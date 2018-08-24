@@ -14,7 +14,7 @@ Headless browser testing is simply testing a web pages functionality, without a 
 Configuring headless browsers
 -----------------------------
 
-By default, executing automation tests using either [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) headless will add necessary desired capabilities to the browsers. You don’t need to add any additional configurations.
+By default, executing automation tests using either [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome) headless will add necessary desired capabilities to the browsers. You don't need to add any additional configurations.
 
 In case you really need to add more desired capabilities to headless browsers, then:
 
@@ -43,7 +43,7 @@ Executing automation tests
 
 *   Open a test suite collection you want to execute
 *   Add a Test Suite into this Test Suite Collection
-*   Select ‘**Run with**’ field and then select either **Chrome** (**headless**) or **Firefox** (**headless**)
+*   Select '**Run with**' field and then select either **Chrome** (**headless**) or **Firefox** (**headless**)
 
 ![Execute Test Suite Collection](../../images/katalon-studio/tutorials/headless_browsers_execution/Execute-Test-Suite-Collection.png)
 

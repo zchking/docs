@@ -14,8 +14,8 @@ Recording your first test with Katalon Studio Mobile Recorder, an Example
 Sending a message
 
 1.  Launch the App under test (**ApiDemos.apk**)
-2.  Tap on “OS” text
-3.  Tap on “SMS Messaging” text
+2.  Tap on "OS" text
+3.  Tap on "SMS Messaging" text
 4.  Enter Recipient, Message Body and click on **Send**
 
 Follow the steps below to familiarize yourself with Mobile Recorder feature from Katalon Studio.
@@ -33,11 +33,11 @@ The **Record** dialog will be displayed.
 
 ![Mobile recorder in Katalon Studio](../../images/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-4.png)
 
-*   Step 5: Click on the **“OS”** button on your application. Katalon Mobile Recorder will find the object among the **All Objects** list and highlight your selection in green.
+*   Step 5: Click on the **"OS"** button on your application. Katalon Mobile Recorder will find the object among the **All Objects** list and highlight your selection in green.
 
 ![Katalon Mobile Recorder introduction](../../images/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-5.png)
 
-*   Step 6: Once the object is selected, the actions in Record dialog box will be enabled. Click on **“Tap”** action.
+*   Step 6: Once the object is selected, the actions in Record dialog box will be enabled. Click on **"Tap"** action.
 
 ![Katalon Mobile Recorder introduction](../../images/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-6.png)
 
@@ -45,8 +45,8 @@ The **Record** dialog will be displayed.
 
 ![Katalon Mobile Recorder introduction](../../images/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-7.png)
 
-*   Step 8: To continue, click on **“SMS Messaging”** button on the new app interface. Similarly, click on “**Tap**” action to add it in Recorded Actions.
-*   Step 9: Select the “**Recipient**” object in the actions in Record Dialog box or Mobile Screen. Click on “**Set Text**” action in a new popup where user needs to enter the input (“katalon”) and click on **OK**.
+*   Step 8: To continue, click on **"SMS Messaging"** button on the new app interface. Similarly, click on "**Tap**" action to add it in Recorded Actions.
+*   Step 9: Select the "**Recipient**" object in the actions in Record Dialog box or Mobile Screen. Click on "**Set Text**" action in a new popup where user needs to enter the input ("katalon") and click on **OK**.
 
 ![Katalon Mobile Recorder introduction](../../images/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-9.png)
 
@@ -56,7 +56,7 @@ The **Record** dialog will be displayed.
 
 ![Katalon Mobile Recorder introduction](../../images/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-101.png)
 
-*   Step 10: Select the **“Message Body”** object in the actions in Record Dialog box or Mobile Screen. Click on “**Set Text**” action to input “Mobile Automation” as text. **Set Text** action will be added in **Recorded Actions**.
+*   Step 10: Select the **"Message Body"** object in the actions in Record Dialog box or Mobile Screen. Click on "**Set Text**" action to input "Mobile Automation" as text. **Set Text** action will be added in **Recorded Actions**.
 
 Warning: The Katalon Sample App will not allow you to send the message through the Send button. Thus, our example ends here.
 

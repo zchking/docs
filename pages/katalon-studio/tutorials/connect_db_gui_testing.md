@@ -131,7 +131,7 @@ return result
 
 ```
 
-_Tips: Press “_**_Ctrl + Shift + o_**_“ to automatically import missing libraries in test scripts._
+_Tips: Press "_**_Ctrl + Shift + o_**_" to automatically import missing libraries in test scripts._
 
 The Custom Keywords file will look like the following:
 

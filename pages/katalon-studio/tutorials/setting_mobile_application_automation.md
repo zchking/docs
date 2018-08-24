@@ -16,7 +16,7 @@ This tutorial illustrates how to set up environment for mobile app automation on
 Installing Node.js
 ------------------
 
-Navigate to URL ‘[https://nodejs.org/en/download/](https://nodejs.org/en/download/)’ to download _Node.js_. Download the file according to the bit size of your operating system (32 bit or 64 bit) and install it.
+Navigate to URL '[https://nodejs.org/en/download/](https://nodejs.org/en/download/)' to download _Node.js_. Download the file according to the bit size of your operating system (32 bit or 64 bit) and install it.
 
 For more details on how to install Node.js, please refer to [http://blog.teamtreehouse.com/install-node-js-npm-windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 
@@ -46,14 +46,14 @@ Setting Up the Appium Directory
 2.  Select **Katalon Studio Preferences > Katalon > Mobile**
 3.  Set **Appium Directory** to the installed folder. User can browse or can paste the path.
 
-By default, it’s usually installed at _C:\\Users\\{user  login account}\\AppData\\Roaming\\npm\\node_modules\\appium._
+By default, it's usually installed at _C:\\Users\\{user  login account}\\AppData\\Roaming\\npm\\node_modules\\appium._
 
 How to Install a Mobile App Manually?
 -------------------------------------
 
 *   Step 1: Connect mobile device to the system
 *   Step 2: Open Command Prompt/Terminal
-*   Step 3: Type the command **adb install** “{**path of APK File**}”.
+*   Step 3: Type the command **adb install** "{**path of APK File**}".
 
 Refer to the screenshot below as an example.
 
@@ -69,7 +69,7 @@ How to Install a Mobile App in Katalon Studio?
 
 Katalon Studio installs the application automatically while in Spy mobile, Record mobile, Run, or Debug mode if the application is previously not installed on the device.
 
-As an example, let’s see how it works in record mode.
+As an example, let's see how it works in record mode.
 
 *   Step 1: Click on **Record Mobile**
 

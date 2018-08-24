@@ -11,13 +11,13 @@ Below is a general guide on how to configure Katalon Studio on VSO ([https://
 
 Follow setup guide: [https://www.visualstudio.com/en-us/docs/build/actions/agents/v2-windows](https://www.visualstudio.com/en-us/docs/build/actions/agents/v2-windows) to set up and run a local agent.
 
-Make sure the agent is in **‘Online’ **status. 
+Make sure the agent is in **'Online' **status. 
 
  ![](../../images/katalon-studio/docs/vsts-integration/Untitled.png)
 
 **2.****Setting up build steps:**
 
-Add a new build task: “Command Line”:
+Add a new build task: "Command Line":
 
  ![](../../images/katalon-studio/docs/vsts-integration/2.png)
 
@@ -31,7 +31,7 @@ Add a new build task: “Command Line”:
 
 3.    **Building your project with the agent:**
 
-Configure your project to be built with the agent. In this example, the agent is in ‘Default’ queue group, so we will choose ‘Default’ queue when selecting new build.
+Configure your project to be built with the agent. In this example, the agent is in 'Default' queue group, so we will choose 'Default' queue when selecting new build.
 
  ![](../../images/katalon-studio/docs/vsts-integration/4.png)
 
