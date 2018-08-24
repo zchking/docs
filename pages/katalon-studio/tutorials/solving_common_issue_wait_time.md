@@ -19,14 +19,12 @@ Here are some examples of test failure due to insufficient waiting time:
 
 Katalon provides keywords dedicated to delay explicitly. You can use the following options to address the situation:
 
-*   [**Wait For Page Load**](http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Page+Load) **–** This logic will wait for a page to completely load before running a step in your script.
+*   **Wait For Page Load** **–** This logic will wait for a page to completely load before running a step in your script.
 
-*   [**Wait For Element Present**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present) **–** It happens sometimes that web elements take longer time to appear on the page. This keyword pauses execution until the targeted element appears on the page. Once the element appears, the test continues to execute the next action.
-*   [**Global variable**](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Globalvariables) **–** This variable has the global scope, meaning that it is visible throughout the program. Thus, you can use this variable in your test scripts according to the response time of your web application. You may consider defining 3 kinds of global variable in your test scripts, for short, medium, and long waits.
+*   **Wait For Element Present** **–** It happens sometimes that web elements take longer time to appear on the page. This keyword pauses execution until the targeted element appears on the page. Once the element appears, the test continues to execute the next action.
+*   **Global variable** **–** This variable has the global scope, meaning that it is visible throughout the program. Thus, you can use this variable in your test scripts according to the response time of your web application. You may consider defining 3 kinds of global variable in your test scripts, for short, medium, and long waits.
 
-For example: The script below shows the usage of a global variable and the use of Katalon Studio built-in keyword [**Wait For Element Present**](http://docs.katalon.com/display/KD/%5BMobile%5D+Wait+For+Element+Present) to deliberately wait for a specific test element.
-
-![](../../images/katalon-studio/tutorials/solving_common_issue_wait_time/Wait-For-Element-Present.png)
+For example: The script below shows the usage of a global variable and the use of Katalon Studio built-in keyword **Wait For Element Present** to deliberately wait for a specific test element.
 
 **Figure 1: Katalon Studio test script**
 
@@ -102,4 +100,4 @@ WebUI.closeBrowser()
 
 Quite often test execution get failed due to the exceptions such as ‘**NoSuchElementException**‘, ‘**ElementNotFoundException**‘, ‘**ElementNotVisibleException**‘. In order to handle these exceptions, conditional Synchronization has to be implemented. Katalon Studio supports many built in “**Wait for….**” keywords to deal with such exceptions. For example:
 
-<table><thead><tr><th>Keyword</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present"><span>Wait For Element Present</span></a></td><td><span>Wait for the given element to present (appear) within the given time in seconds.</span></td></tr><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible"><span>Wait For Element Visible</span></a></td><td><span>Wait until the given web element is visible within timeout.</span></td></tr><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert"><span>Wait For Alert</span></a></td><td><span>Wait for a browser’s alert to present.</span></td></tr><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable"><span>Wait for Element Clickable</span></a></td><td><span>Wait for the given element to be clickable within the given time in seconds.</span></td></tr></tbody></table>
+<table><thead><tr><th>Keyword</th><th>Description</th></tr></thead><tbody><tr><td><a><span>Wait For Element Present</span></a></td><td><span>Wait for the given element to present (appear) within the given time in seconds.</span></td></tr><tr><td><a><span>Wait For Element Visible</span></a></td><td><span>Wait until the given web element is visible within timeout.</span></td></tr><tr><td><a><span>Wait For Alert</span></a></td><td><span>Wait for a browser’s alert to present.</span></td></tr><tr><td><a><span>Wait for Element Clickable</span></a></td><td><span>Wait for the given element to be clickable within the given time in seconds.</span></td></tr></tbody></table>

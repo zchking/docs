@@ -16,4 +16,4 @@ Please refer to some documents below as examples how to pass in desired capabil
 
 Note that this Remote option is applied for all executions which support this kind of remote execution, so you can apply them in this option as well.
 
-Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
+> Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)

@@ -11,7 +11,7 @@ Simulate users hovering a mouse over the given element with the relative positio
 
 Parameters
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><p><span>Represent a web element.</span></p></td></tr><tr><td>offsetX</td><td>int</td><td>Required</td><td><p class="p1">x position in relative to the element.</p></td></tr><tr><td>offsetY</td><td>int</td><td>Required</td><td><p class="p1">y position in relative to the element.</p></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><p><span>Represent a web element.</span></p></td></tr><tr><td>offsetX</td><td>int</td><td>Required</td><td><p>x position in relative to the element.</p></td></tr><tr><td>offsetY</td><td>int</td><td>Required</td><td><p>y position in relative to the element.</p></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 =======

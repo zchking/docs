@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-for-kobiton-devices.html 
 description: 
 ---
-Prerequisites
-
-Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to this [guide](https://docs.katalon.com/display/KD/Mobile+Testing+with+Kobiton+Devices) for more details.
+> Prerequisites
+> 
+> Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to this [guide](https://docs.katalon.com/display/KD/Mobile+Testing+with+Kobiton+Devices) for more details.
 
   
 There will be cases you want to use additional desired capabilities for Kobiton devices, such as using 'appWaitActivity' capability to troubleshoot issue related to starting an application (check it out [here](https://docs.katalon.com/display/KD/Troubleshooting+automated+mobile+testing)). The tips below can help you to overcome this issue and finding a workaround solution. 

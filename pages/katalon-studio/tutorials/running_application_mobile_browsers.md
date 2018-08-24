@@ -16,18 +16,18 @@ Katalon Studio supports executing the same test cases on both desktop browsers a
 What You’ll Need
 ----------------
 
-*   Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit [Katalon Studio website](https://www.katalon.com/download) to get the latest version.
+*   Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit Katalon Studio website to get the latest version.
 
 Before You Dive In
 ------------------
 
-First, you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
+First, you need to verify if your computer meets the System Requirements of Katalon Studio.
 
-After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven’t already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
+After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to https://www.katalon.com/. If you haven’t already, check out Quick Start to familiarize yourself with Katalon Studio.
 
 Web application testing can be directly executed on a mobile device. To do so, the user needs to connect their devices/emulators into the machine and run the test scripts. We need to make sure that Chrome application (on Android device) and Safari application (on an iOS device) must be installed so that test steps can execute properly.
 
-It is not an easy task and requires some knowledge on working with OS, Appium, and the device in use. Many people cannot implement this flow successfully because facing some issues in this task. Please refer to our Mobile Setup guide [for Windows](https://docs.katalon.com/x/jwbR) or [for macOS](https://docs.katalon.com/x/9AXR) and follow the instructions closely.
+It is not an easy task and requires some knowledge on working with OS, Appium, and the device in use. Many people cannot implement this flow successfully because facing some issues in this task. Please refer to our Mobile Setup guide for Windows or for macOS and follow the instructions closely.
 
 Understand your web application under test (AUT)
 ------------------------------------------------
@@ -57,8 +57,6 @@ Step 4: Verify login is successful.
 
 Step 1: Click on Add from Toolbar and select Web UI Keyword.
 
-![](../../images/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers1.png)
-
 Step 2: Select _Open Browser_ and pass the URL in the input field. Call _Wait for Page to Load_ and provide a timeout value in the input field.
 
 Step 3: Add _Wait for Element Visible_ keyword for button object “Make Appointment.”
@@ -84,8 +82,6 @@ Step12: Add _Get Text_ keyword to capture the Header “Make Appointment” and 
 Step 13: Use the _Verify Match_ Keyword to verify the actual and expected texts.
 
 Step 14: Close the browser.
-
-![](../../images/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers2.png)
 
 You can also achieve the desired test case by using **Script Mode**.
 
@@ -147,11 +143,9 @@ Execute the test case with mobile browser
 
 Double check again to ensure that the real device is connected, or virtual device is loaded, or cloud device is connected successfully. From Katalon Studio, select the test case and choose to execute with Android/iOS as follows:
 
-![](../../images/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers3.png)
-
 It may take a while before the browser can be loaded into the device.
 
 See Also
 --------
 
-_For further instructions and help, please refer to [Overview of Documentation](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_.
+_For further instructions and help, please refer to Overview of Documentation or Katalon Forum_.

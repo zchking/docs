@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-listeners-test-hooks.html 
 description: 
 ---
-Available since Katalon Studio v[5.2](https://docs.katalon.com/display/KD/Version+5.2)
+> Available since Katalon Studio v[5.2](https://docs.katalon.com/display/KD/Version+5.2)
 
 Test Listeners is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, Test Listeners are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with Test Listeners.
 
@@ -70,9 +70,9 @@ class NewTestListener {
 
 As you can see from the code above, a sample generated template has already added necessary annotations, libraries and supported functions to help you extend your current testing flows to a higher level. 
 
-*   There is **no limit** on Test Listeners. Users can create as **many** as preferred.
-*   If you have **more** than **one** Test Listener class, the classes themselves are instantiated in Katalon storage in alphabetically order, only then are the individual listener methods executed **top-down**.
-*   Execution **status** of any steps **within** Test Listers will **NOT** affect the **overall status** of the executed test case (e.g: if you have a FAILED output in any of your Test Listeners but final status of the executed test case is PASSED, then test case's status will be PASSED).
+> *   There is **no limit** on Test Listeners. Users can create as **many** as preferred.
+> *   If you have **more** than **one** Test Listener class, the classes themselves are instantiated in Katalon storage in alphabetically order, only then are the individual listener methods executed **top-down**.
+> *   Execution **status** of any steps **within** Test Listers will **NOT** affect the **overall status** of the executed test case (e.g: if you have a FAILED output in any of your Test Listeners but final status of the executed test case is PASSED, then test case's status will be PASSED).
 
 Visualized Workflow
 ===================

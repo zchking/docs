@@ -4,7 +4,7 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/connect_db_gui_testing.html
 description: "Katalon Studio allows users to create custom keywords to address specific needs. With custom keywords, you can connect and perform database testing."
 ---
-Katalon Studio allows users to [create custom keywords](https://www.katalon.com/resources-center/tutorials/advanced/create-custom-keyword/) to address specific needs. With custom keywords, you can connect to databases and perform database testing. This tutorial describes details on how to create custom keywords for database testing in Katalon Studio.
+Katalon Studio allows users to create custom keywords to address specific needs. With custom keywords, you can connect to databases and perform database testing. This tutorial describes details on how to create custom keywords for database testing in Katalon Studio.
 
 Below is a code sample demonstrating how to
 
@@ -135,15 +135,13 @@ _Tips: Press “_**_Ctrl + Shift + o_**_“ to automatically import missing libr
 
 The Custom Keywords file will look like the following:
 
-![Katalon Custom Keywords](../../images/katalon-studio/tutorials/connect_db_gui_testing/Test-Explorer_Custom-Keywords.png)
-
 You can add the sample code above to your keyword file and modify the details as appropriated. Refer to these links for the formats of database connection strings:
 
-*   For MSSQL: [https://www.connectionstrings.com/sql-server/](https://www.connectionstrings.com/sql-server/)
-*   For Oracle: [https://www.connectionstrings.com/oracle/](https://www.connectionstrings.com/oracle/)
+*   For MSSQL: https://www.connectionstrings.com/sql-server/
+*   For Oracle: https://www.connectionstrings.com/oracle/
 
 **Use Defined Keywords in Test Cases for DB Testing**
 
 1\. Create new custom keywords for database connection (see above).
 
-2\. Copy the DB script provided above and paste it into the new keyword editor as illustrated below:![Katalon Defined Keywords](../../images/katalon-studio/tutorials/connect_db_gui_testing/DB-Testing.png)
+2\. Copy the DB script provided above and paste it into the new keyword editor as illustrated below:

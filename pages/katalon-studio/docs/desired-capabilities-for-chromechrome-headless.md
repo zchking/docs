@@ -36,4 +36,4 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen Shot 2018-07-18 at 10.06.27.png)
 
-Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
+> Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)

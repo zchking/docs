@@ -62,8 +62,8 @@ Custom execution is a bit different from other execution settings. Follow these 
 7.  Click **OK** when you're done.  
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1 14_38_39.png)
 
-Location of Desired Capabilities files
-
-Defined configuration settings are saved in separated files under the “**<your test project location>\\settings\\internal**” location (or “**<your test project location>\\settings\\external\\execution**” in case of custom execution), as below:
-
-<table><thead><tr><th>Driver</th><th>Settings’ file</th></tr></thead><tbody><tr><td><p>Chrome</p></td><td><p>com.kms.katalon.core.webui.chrome.properties</p></td></tr><tr><td><p>Firefox</p></td><td><p>com.kms.katalon.core.webui.firefox.properties</p></td></tr><tr><td><p>IE</p></td><td><p>com.kms.katalon.core.webui.ie.properties</p></td></tr><tr><td><p>Safari</p></td><td><p>com.kms.katalon.core.webui.safari.properties</p></td></tr><tr><td><p>Edge</p></td><td><p>com.kms.katalon.core.webui.edge.properties</p></td></tr><tr><td>Remote Web</td><td>com.kms.katalon.core.webui.remote.properties</td></tr><tr><td><p>Android</p></td><td><p>com.kms.katalon.core.mobile.android.properties</p></td></tr><tr><td><p>iOS</p></td><td><p>com.kms.katalon.core.mobile.ios.properties</p></td></tr></tbody></table>
+> Location of Desired Capabilities files
+> 
+> Defined configuration settings are saved in separated files under the “**<your test project location>\\settings\\internal**” location (or “**<your test project location>\\settings\\external\\execution**” in case of custom execution), as below:
+> 
+> <table><thead><tr><th>Driver</th><th>Settings’ file</th></tr></thead><tbody><tr><td><p>Chrome</p></td><td><p>com.kms.katalon.core.webui.chrome.properties</p></td></tr><tr><td><p>Firefox</p></td><td><p>com.kms.katalon.core.webui.firefox.properties</p></td></tr><tr><td><p>IE</p></td><td><p>com.kms.katalon.core.webui.ie.properties</p></td></tr><tr><td><p>Safari</p></td><td><p>com.kms.katalon.core.webui.safari.properties</p></td></tr><tr><td><p>Edge</p></td><td><p>com.kms.katalon.core.webui.edge.properties</p></td></tr><tr><td>Remote Web</td><td>com.kms.katalon.core.webui.remote.properties</td></tr><tr><td><p>Android</p></td><td><p>com.kms.katalon.core.mobile.android.properties</p></td></tr><tr><td><p>iOS</p></td><td><p>com.kms.katalon.core.mobile.ios.properties</p></td></tr></tbody></table>

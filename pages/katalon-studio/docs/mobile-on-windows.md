@@ -16,9 +16,9 @@ Installing Dependencies
 
 Due to the diifferences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. Thus, in order to succesfully create and run a test case using Katalon Studio on Windows, you will need [Appium](http://appium.io/downloads.html).
 
-Attention
-
-Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+> Attention
+> 
+> Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
 
 Setting Up Your Devices
 =======================

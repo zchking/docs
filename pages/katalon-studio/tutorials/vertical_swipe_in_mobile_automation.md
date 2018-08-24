@@ -7,24 +7,18 @@ description: "This tutorial illustrates Vertical Swiping from Top to Bottom acti
 Swipe Vertically from Top to Bottom
 -----------------------------------
 
-This tutorial illustrates **Vertical** **Swiping from Top to Bottom** action in the mobile app.This demonstration uses **API Demos,** which you can download from [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). We will be using **Android O.S** for this tutorial, please make sure that your Android device **API** is greater than **18**.
+This tutorial illustrates **Vertical** **Swiping from Top to Bottom** action in the mobile app.This demonstration uses **API Demos,** which you can download from here. We will be using **Android O.S** for this tutorial, please make sure that your Android device **API** is greater than **18**.
 
 ### Scenario
 
 The screenshot of the app below has a listview containing ‘n’ number of rows. Our goal is to swipe vertically from top to bottom of the screen.
 
-![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation.png)
-
 ### Manual Mode
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input**, a new window will open. In **appFile**, select **Value Type** as **Variable**. In value, pass the variable name as **path**.
 
-![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-1.png)
-
 *   Step 2: Add a **Wait For Element Present** item.
 *   Step 3: Call **Scroll To Text** from mobile keyword and pass input as ‘**Views’**. **Scroll To Text** accepts String type parameter (Text of the element to scroll to)
-
-![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-3.png)
 
 *   Step 4: Tap on **Views**.
 *   Step 5: Use **Get Device Height** keyword to capture the height of the device and store it in a **device_height** variable. Select **Get Device Width** keyword to capture the width of the device and storing it in a **device_Width** variable.
@@ -33,8 +27,6 @@ The screenshot of the app below has a listview containing ‘n’ number of rows
 *   Step 8: Add a **binary statement**, in which the ‘startY’ variable is the device height multiplied by 0.30.
 *   Step 9: Add a **binary statement**, in which the ‘endY’ variable is the device height multiplied by 0.70.
 *   Step 10: Call the **swipe method** and select the **Value Type** as ‘**Variable**‘. Pass the startX, startY, endX, endY values to that method.
-
-![Vertical Swipe in Mobile Automation](../../images/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-10.png)
 
 The same thing can be achieved from the Script mode (switch to Script Mode by clicking on Script tab).
 
@@ -129,4 +121,4 @@ Mobile.swipe(startX, startY, endX, endY)
 
 ```
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Swipe](https://docs.katalon.com/display/KD/%5BMobile%5D+Swipe) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available here. For further instructions and help, please refer to Mobile Swipe guideline and join us on Katalon Forum.

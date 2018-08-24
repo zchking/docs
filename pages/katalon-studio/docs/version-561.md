@@ -12,6 +12,6 @@ Address the following issues:
 *   Fix an issue where current actions can't be recorded if pressing too long on an element
 *   Can't record/spy on Chrome/Firefox using a port different from 50000
 
-Want an older version?
-
-Refer to this [guide](https://docs.katalon.com/display/KD/Getting+Started#GettingStarted-Download) on how to download an older Katalon Studio version.
+> Want an older version?
+> 
+> Refer to this [guide](https://docs.katalon.com/display/KD/Getting+Started#GettingStarted-Download) on how to download an older Katalon Studio version.

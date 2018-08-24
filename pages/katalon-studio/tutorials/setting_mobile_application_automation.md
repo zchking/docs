@@ -15,15 +15,13 @@ This tutorial illustrates how to set up environment for mobile app automation on
 
 ### Installing Node.js
 
-Navigate to URL ‘[https://nodejs.org/en/download/](https://nodejs.org/en/download/)’ to download _Node.js_. Download the file according to the bit size of your operating system (32 bit or 64 bit) and install it.
+Navigate to URL ‘https://nodejs.org/en/download/’ to download _Node.js_. Download the file according to the bit size of your operating system (32 bit or 64 bit) and install it.
 
-For more details on how to install Node.js, please refer to [http://blog.teamtreehouse.com/install-node-js-npm-windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
+For more details on how to install Node.js, please refer to http://blog.teamtreehouse.com/install-node-js-npm-windows
 
 In order to successfully utilize Katalon Studio for mobile application automation, you will need to be able to run Node.js +6 and npm +3.  To make sure you have the appropriate version of **Node** and **npm** installed,
 
 Open Windows Command Prompt/MacOS Terminal and type node -v for Node and npm -v for npm.
-
-![run Node.js in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Install-Node.JS.png)
 
 ### Installing Appium
 
@@ -32,8 +30,6 @@ Open Command Prompt/Terminal and type the following command to install Appium:
 **npm install –g appium**
 
 To see if Appium is installed successfully, open Command Prompt/Terminal and type **appium**. This should show you the current version of your installed Appium (e.g: v1.6.5).
-
-![Installing Appium in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Install-Appium.png)
 
 Appium directory needs to be set after this installation.
 
@@ -53,11 +49,9 @@ By default, it’s usually installed at _C:\\Users\\{user  login account}\\AppD
 
 Refer to the screenshot below as an example.
 
-![Install a Mobile App Manually?](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Install-an-Mobile-App-Manually.png)
-
 ### Set up devices
 
-Refer to this [documentation](https://docs.katalon.com/display/KD/Mobile+on+Windows#MobileonWindows-SetupDevices) on setting test devices.
+Refer to this documentation on setting test devices.
 
 ### How to Install a Mobile App in Katalon Studio?
 
@@ -67,22 +61,12 @@ As an example, let’s see how it works in record mode.
 
 *   Step 1: Click on **Record Mobile**
 
-![record mode in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Record-Mobile-in-Katalon.png)
-
 *   Step 2: Mobile recorder window will be launched. Select **Device Name**
-
-![Mobile recorder window in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Device-Name.png)
 
 *   Step 3: Browse application file
 
-![Browse application file in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Browse-application-file.png)
-
 *   Step 4: Click on **Start**
-
-![Start-mobile-application-automation](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Start-mobile-application-automation.png)
 
 *   Step 5: Application will be installed on the selected device, and Device View pane will be launched as shown in the screenshot below.
 
-![Device View pane in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Device-View-pane-in-Katalon.png)
-
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile on Windows](https://docs.katalon.com/display/KD/Mobile+on+Windows) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available here. For further instructions and help, please refer to Mobile on Windows guideline and join us on Katalon Forum.

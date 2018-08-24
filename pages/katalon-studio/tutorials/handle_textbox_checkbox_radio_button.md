@@ -98,8 +98,6 @@ WebUI.closeBrowser()
 
 **Manual Mode**
 
-![Handle textbox using Katalon Studio Manual mode](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-text-box.png)
-
 In the script mode above, **Def** is a keyword in Groovy used for declaration of variables. Username is a variable name, here storing the value “Katalon” in the **username** variable.
 
 How to Handle Button and Checkbox
@@ -107,7 +105,7 @@ How to Handle Button and Checkbox
 
 **Scenario:** To make an appointment
 
-*   Step 1: Launch the application under test (URL: [http://demoaut.katalon.com/](http://demoaut.katalon.com/)).
+*   Step 1: Launch the application under test (URL: http://demoaut.katalon.com/).
 *   Step 2: Click on Make Appointment (verify the button and click operation).
 *   Step 3: Enter the valid username, password and click on Login button (verify the button and click operation).
 *   Step 4: Make an appointment (check, uncheck the **checkbox** and verify check, uncheck status).
@@ -225,8 +223,6 @@ WebUI.closeBrowser()
 
 **Manual Mode**
 
-**![Handle Button and Checkbox using Katalon Studio Manual mode ](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Button-and-Checkbox.png)**
-
 In the script above, the keyword **VerifyElementClickable** is used to validate whether the **Make Appointment Button** is clickable.
 
 The keywords **VerifyElementChecked** and **VerifyElementNotChecked** are used to validate whether an element is checked or unchecked, respectively.
@@ -237,7 +233,7 @@ How to Handle Radio Button
 Radio Button is a toggle-button that allows you to check the operations.  
 **Scenario:** To make an appointment
 
-*   Step 1: Launch the application under test (URL: [http://demoaut.katalon.com/](http://demoaut.katalon.com/)).
+*   Step 1: Launch the application under test (URL: http://demoaut.katalon.com/).
 *   Step 2: Click on Make Appointment (verify the button and click operation).
 *   Step 3: Enter a valid username, password and click on Login button (verify the button and click operation).
 *   Step 4: Make an appointment (check, uncheck the **Radio Button** and verify **radio button** check, uncheck status).
@@ -355,10 +351,8 @@ WebUI.closeBrowser()
 
 **Manual Mode**
 
-![Handle Radio Button using Katalon Studio Manual Mode](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Radio-Button.png)
+The source code is available to be downloaded here.
 
-The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
+For further instructions and help, refer to \[WebUI\] Text and \[WebUI\] Checkbox.
 
-For further instructions and help, refer to [\[WebUI\] Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Text) and [\[WebUI\] Checkbox](https://docs.katalon.com/display/KD/%5BWebUI%5D+Checkbox).
-
-You can also refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/) for more tutorials and discussions.
+You can also refer to Katalon Studio Tutorials and Katalon Forum for more tutorials and discussions.

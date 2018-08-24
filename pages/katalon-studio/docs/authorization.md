@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/authorization.html 
 description: 
 ---
-Be sure to click on 'update to HTTP Header' button to use current authentication information.
-
-![](../../images/katalon-studio/docs/authorization/image2018-8-8 11_24_47.png)
+> Be sure to click on 'update to HTTP Header' button to use current authentication information.
+> 
+> ![](../../images/katalon-studio/docs/authorization/image2018-8-8 11_24_47.png)
 
   
 The following authorizations are supported:
@@ -30,7 +30,7 @@ To learn, please refer to [this guide](https://swagger.io/docs/specification/au
 
 The following fields are supported in Katalon Studio:
 
-<table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>Consumer Key</td><td><span>The API key associated with the application (Twitter, Facebook, etc.). This key (or 'client ID', as Facebook calls it) is what identifies the client, which is a website/service that is trying to access an end-user's resources.</span></td></tr><tr><td>Consumer Secret</td><td><span>The client's password that is used to authenticate with the authentication server, which is a Twitter/Facebook/etc. server that authenticates the client.</span></td></tr><tr><td>Signature Method</td><td><span>The Consumer used this to sign the request <em>For signature method RSA-SHA1, only support OpenSSL RSA Private key with&nbsp;<strong>PKCS#8 or PKCS#1 format</strong></em></span></td></tr><tr><td>Token</td><td><span>What is issued to the client once the client successfully authenticates itself (using the consumer key &amp; secret). This access token defines the privileges of the client (what data the client can and cannot access)</span></td></tr><tr><td>Token Secret</td><td><span>The string sent with the access token as a password</span></td></tr><tr><td>Realm</td><td><span>The Provider basically decides if this is of any importance. It is the counterpart of the WWW-authenticate response header. If a server returns a WWW-authenticate header of 'OAuth realm="<a class="external-link" href="https://api.example.com/" rel="nofollow">https://api.example.com</a>"' then it probably parses that value from the Authenticate request header in the OAuth process.</span></td></tr></tbody></table>
+<table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>Consumer Key</td><td><span>The API key associated with the application (Twitter, Facebook, etc.). This key (or 'client ID', as Facebook calls it) is what identifies the client, which is a website/service that is trying to access an end-user's resources.</span></td></tr><tr><td>Consumer Secret</td><td><span>The client's password that is used to authenticate with the authentication server, which is a Twitter/Facebook/etc. server that authenticates the client.</span></td></tr><tr><td>Signature Method</td><td><span>The Consumer used this to sign the request <em>For signature method RSA-SHA1, only support OpenSSL RSA Private key with&nbsp;<strong>PKCS#8 or PKCS#1 format</strong></em></span></td></tr><tr><td>Token</td><td><span>What is issued to the client once the client successfully authenticates itself (using the consumer key &amp; secret). This access token defines the privileges of the client (what data the client can and cannot access)</span></td></tr><tr><td>Token Secret</td><td><span>The string sent with the access token as a password</span></td></tr><tr><td>Realm</td><td><span>The Provider basically decides if this is of any importance. It is the counterpart of the WWW-authenticate response header. If a server returns a WWW-authenticate header of 'OAuth realm="<a>https://api.example.com</a>"' then it probably parses that value from the Authenticate request header in the OAuth process.</span></td></tr></tbody></table>
 
 To know how to generate one of them, you can refer to this [testing site](http://term.ie/oauth/example/index.php) and apply it based on your service provider. See the example below how to use this information:
 

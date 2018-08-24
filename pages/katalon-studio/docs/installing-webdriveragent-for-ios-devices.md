@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/installing-webdriveragent-for-ios-devices.html 
 description: 
 ---
-Warning
-
-This setup process is **NOT** required if you use an Android device. Please go straight to this [step](https://docs.katalon.com/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
+> Warning
+> 
+> This setup process is **NOT** required if you use an Android device. Please go straight to this [step](https://docs.katalon.com/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
 
 [WebDriverAgent](https://github.com/facebook/WebDriverAgent) is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. You need to install and setup WebDriverAgent to allow Katalon Studio to automate iOS devices.
 
@@ -24,11 +24,11 @@ mkdir -p Resources/WebDriverAgent.bundle
 sh ./Scripts/bootstrap.sh -d
 ```
 
-Common issues
-
-Error code 13: re-run command with sudo: **sudo ./Scripts/bootstrap.sh -d**
-
-Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing paramter -d when running **./Scripts/bootstrap.sh**
+> Common issues
+> 
+> Error code 13: re-run command with sudo: **sudo ./Scripts/bootstrap.sh -d**
+> 
+> Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing paramter -d when running **./Scripts/bootstrap.sh**
 
 *   Login to Apple developer account and [register device](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal) to developer account.  
       

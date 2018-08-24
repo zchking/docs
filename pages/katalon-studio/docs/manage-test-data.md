@@ -81,7 +81,7 @@ With **Internal Data**, you can freely define the data in tabular format. It's 
 3.  Enter the connection details as well as data query then click **OK**.  
     ![](../../images/katalon-studio/docs/manage-test-data/image2017-2-6 11_17_36.png)
     
-    You can check **Use global database connection settings** to use the connection defined in project settings. Refer to [Database Settings](/display/KD/Database+Settings) for more details.
+    > You can check **Use global database connection settings** to use the connection defined in project settings. Refer to [Database Settings](/display/KD/Database+Settings) for more details.
     
 4.  Queried data will be fetched and load respectively into the **preview section** below.  
     ![](../../images/katalon-studio/docs/manage-test-data/image2017-2-6 11_19_41.png)  

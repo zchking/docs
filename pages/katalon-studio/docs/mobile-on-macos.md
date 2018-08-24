@@ -14,9 +14,9 @@ Installing Dependencies
 
 Due to the differences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. 
 
-Attention
-
-Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check you emulator's settings before proceeding with Appium installation.
+> Attention
+> 
+> Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check you emulator's settings before proceeding with Appium installation.
 
 Android
 -------

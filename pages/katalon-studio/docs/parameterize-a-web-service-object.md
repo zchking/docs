@@ -32,7 +32,7 @@ Having the ability to parameterized Web Services object allows user have more co
     
 *   Create a **REST** object with **GET** method and **Parameterized URL**. The **userID** is parameterized in the URL to receive any passing value from the Test Case.  
       
-    ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/Screen Shot 2018-06-05 at 2.17.14 PM.png)  
+    ![](../../images/katalon-studio/docs/parameterize-a-web-service-object/image2018-8-24 9_29_22.png)  
     
     Where
     

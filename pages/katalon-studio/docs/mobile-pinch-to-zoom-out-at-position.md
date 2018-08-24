@@ -12,7 +12,7 @@ Pinch to zoom out at a specific position on the screen of the mobile device.
 Parameters
 ==========
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>x</td><td>Number</td><td>Required</td><td>x position</td></tr><tr><td>y</td><td>Number</td><td>Required</td><td>y position</td></tr><tr><td>offset</td><td>Number</td><td>Required</td><td>The offset length to pinch</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>x</td><td>Number</td><td>Required</td><td>x position</td></tr><tr><td>y</td><td>Number</td><td>Required</td><td>y position</td></tr><tr><td>offset</td><td>Number</td><td>Required</td><td>The offset length to pinch</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example 
 ========

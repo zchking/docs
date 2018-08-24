@@ -60,17 +60,17 @@ In the **Test Reports View**, clicking on **Katalon Analytics **button and you
 
 ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 14_57_2.png)
 
-Forget to Integrate?
-
-If you haven't integrated with Katalon Analytics prior to clicking **Access Analytics**, an integration panel will appear. Enter your authentication information in the provided box.
-
-![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 10_55_23.png)
-
-When you are using Katalon Analytics for the first time, Katalon Studio will automatically create a new project and team to push your test reports. However, if you've already had teams and projects on Analytics, Katalon Studio will ask you to select the location to upload your test results.
-
-![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 10_56_2.png)
-
-You can change this setting later by going to **Project** > **Setting** > **Integration > Katalon Analytics**. 
+> Forget to Integrate?
+> 
+> If you haven't integrated with Katalon Analytics prior to clicking **Access Analytics**, an integration panel will appear. Enter your authentication information in the provided box.
+> 
+> ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 10_55_23.png)
+> 
+> When you are using Katalon Analytics for the first time, Katalon Studio will automatically create a new project and team to push your test reports. However, if you've already had teams and projects on Analytics, Katalon Studio will ask you to select the location to upload your test results.
+> 
+> ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31 10_56_2.png)
+> 
+> You can change this setting later by going to **Project** > **Setting** > **Integration > Katalon Analytics**. 
 
 View specific Test Case/Test Suite Execution History
 ----------------------------------------------------

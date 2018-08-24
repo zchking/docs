@@ -19,7 +19,7 @@ On the right panel of 'Verification' tab is the list of common pre-built snippet
 
 When you click on one of these labels, it will generate a snippet for you.
 
-The generated snippet is ONLY an example. DON'T try to use them immediately without adjustments matched your needs, otherwise it will not work.
+> The generated snippet is ONLY an example. DON'T try to use them immediately without adjustments matched your needs, otherwise it will not work.
 
 Using Verification Snippets
 ---------------------------

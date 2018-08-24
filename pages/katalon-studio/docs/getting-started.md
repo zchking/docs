@@ -11,21 +11,21 @@ Installation
 
 Go to [Katalon Download page](https://www.katalon.com/download/) to get Katalon Studio. A suitable version to your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
 
-Download older versions
-
-In case you want to download **[older versions](/display/KD/Release+Notes)** of Katalon Studio, please adjust the download link to follows the format below:
-
-*   Windows 64: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Windows_64-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
-*   Windows 32: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Windows_32-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
-*   macOS: [https://download.katalon.com/x.x.x/Katalon_Studio.dmg](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
-*   Linux 64: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Linux_64-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.ziphttps://download.katalon.com/x.x.x/Katalon_Studio_Linux_64-x.x.x.zip)
-
-Where x.x.x is the Katalon Studio version. For example, you want to download Katalon Studio 5.4.2:
-
-*   Windows 64: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Windows_64-**5.4.2**.zip](https://download.katalon.com/5.4.2/Katalon_Studio_Windows_64-5.4.2.zip)
-*   Windows 32: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Windows_32-**5.4.2**.zip](https://download.katalon.com/5.4.2/Katalon_Studio_Windows_32-5.4.2.zip)
-*   macOS: [https://download.katalon.com/**5.4.2**/Katalon_Studio.dmg](https://download.katalon.com/5.4.2/Katalon_Studio.dmg)
-*   Linux 64: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Linux_64-**5.4.2**.tar.gz](https://download.katalon.com/5.4.2/Katalon_Studio_Linux_64-5.4.2.tar.gz)
+> Download older versions
+> 
+> In case you want to download **[older versions](/display/KD/Release+Notes)** of Katalon Studio, please adjust the download link to follows the format below:
+> 
+> *   Windows 64: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Windows_64-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
+> *   Windows 32: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Windows_32-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
+> *   macOS: [https://download.katalon.com/x.x.x/Katalon_Studio.dmg](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
+> *   Linux 64: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Linux_64-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.ziphttps://download.katalon.com/x.x.x/Katalon_Studio_Linux_64-x.x.x.zip)
+> 
+> Where x.x.x is the Katalon Studio version. For example, you want to download Katalon Studio 5.4.2:
+> 
+> *   Windows 64: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Windows_64-**5.4.2**.zip](https://download.katalon.com/5.4.2/Katalon_Studio_Windows_64-5.4.2.zip)
+> *   Windows 32: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Windows_32-**5.4.2**.zip](https://download.katalon.com/5.4.2/Katalon_Studio_Windows_32-5.4.2.zip)
+> *   macOS: [https://download.katalon.com/**5.4.2**/Katalon_Studio.dmg](https://download.katalon.com/5.4.2/Katalon_Studio.dmg)
+> *   Linux 64: [https://download.katalon.com/**5.4.2**/Katalon\_Studio\_Linux_64-**5.4.2**.tar.gz](https://download.katalon.com/5.4.2/Katalon_Studio_Linux_64-5.4.2.tar.gz)
 
 ### Environment Requirement
 

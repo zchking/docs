@@ -16,4 +16,4 @@ Users can check/uncheck this option to pin Object Spy Window on top while spying
 
 Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid confliction with UAT hotkeys. 
 
-This ability to change hotkeys for Object Spy only affect Chrome browser. Other browsers will be considered for future releases.
+> This ability to change hotkeys for Object Spy only affect Chrome browser. Other browsers will be considered for future releases.

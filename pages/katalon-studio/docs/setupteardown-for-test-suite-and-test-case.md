@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html 
 description: 
 ---
-Available since Katalon Studio v5.3
-
-For full lifecycle of Tests in Katalon Studio, refer to this [documentation](https://docs.katalon.com/x/7zhO).
+> Available since Katalon Studio v5.3
+> 
+> For full lifecycle of Tests in Katalon Studio, refer to this [documentation](https://docs.katalon.com/x/7zhO).
 
 Every test suite from your projects now has been equipped with the ability to run either **SetUp** or **Teardown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another great extension besides [Test Listener](https://docs.katalon.com/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
 
@@ -14,7 +14,7 @@ There will a **new tab** called '**Script**' in **Test Suite**'s interface. This
 
 ![](../../images/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/image2018-1-8 16_25_42.png)**Supported methods**
 
-<table><thead><tr><th>Method</th><th>Description</th><th>Trigger Condition</th><th>Common Usages</th></tr></thead><tbody><tr><td><p>setUp</p></td><td><p>Setup test suite environment<br><br></p></td><td>Before executed test suites</td><td><p>Prepare testing environment</p><p>Call required test cases for the executed test suite</p></td></tr><tr><td>setUpTestCase</td><td>Run before each test case starts</td><td>Before executed test cases</td></tr><tr><td><p>tearDown</p></td><td><p class="p1">Clean test suites environment</p></td><td>After executed test suites</td><td><p>Clean-up testing environment</p><p>Call TearDown test cases for the executed test suite</p><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td><p class="p1">tearDownTestCase</p></td><td><p class="p1">Run after each test case ends</p></td><td><p class="p1">After executed test cases</p></td></tr></tbody></table>
+<table><thead><tr><th>Method</th><th>Description</th><th>Trigger Condition</th><th>Common Usages</th></tr></thead><tbody><tr><td><p>setUp</p></td><td><p>Setup test suite environment<br><br></p></td><td>Before executed test suites</td><td><p>Prepare testing environment</p><p>Call required test cases for the executed test suite</p></td></tr><tr><td>setUpTestCase</td><td>Run before each test case starts</td><td>Before executed test cases</td></tr><tr><td><p>tearDown</p></td><td><p>Clean test suites environment</p></td><td>After executed test suites</td><td><p>Clean-up testing environment</p><p>Call TearDown test cases for the executed test suite</p><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td><p>tearDownTestCase</p></td><td><p>Run after each test case ends</p></td><td><p>After executed test cases</p></td></tr></tbody></table>
 
 ### How it works
 

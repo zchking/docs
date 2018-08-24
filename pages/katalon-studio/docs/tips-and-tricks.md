@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/tips-and-tricks.html 
 description: 
 ---
-List of quick tips and tricks from users on [Forum](https://forum.katalon.com/discussions) and also from us.
-
-You can share your own tips and tricks when working with Katalon Studio [here](https://forum.katalon.com/categories/tips-and-tricks) and we will consolidate your posted one in this list.
+> List of quick tips and tricks from users on [Forum](https://forum.katalon.com/discussions) and also from us.
+> 
+> You can share your own tips and tricks when working with Katalon Studio [here](https://forum.katalon.com/categories/tips-and-tricks) and we will consolidate your posted one in this list.
 
 *   [Change CSS selector of an object at runtime](/display/KD/Change+CSS+selector+of+an+object+at+runtime)
 *   [Clicking multiple objects without starting over](/display/KD/Clicking+multiple+objects+without+starting+over)

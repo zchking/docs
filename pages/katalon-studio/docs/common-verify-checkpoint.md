@@ -12,7 +12,7 @@ Verify if checked data of checkpoint matches their source data.
 Parameters  
 ============
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>checkpoint</span></td><td><span>Checkpoint</span></td><td><span>Required</span></td><td><span>Represent the input checkpoint.</span></td></tr><tr><td><span>logChangedValues</span></td><td><span>Boolean</span></td><td><span>Required</span></td><td><span>true will log all the changed values between checkpoint data and the source, false will not log any changed value.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>checkpoint</span></td><td><span>Checkpoint</span></td><td><span>Required</span></td><td><span>Represent the input checkpoint.</span></td></tr><tr><td><span>logChangedValues</span></td><td><span>Boolean</span></td><td><span>Required</span></td><td><span>true will log all the changed values between checkpoint data and the source, false will not log any changed value.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 =======
