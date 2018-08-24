@@ -107,7 +107,7 @@ Manage Branches
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 15_2_3.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Source</td><td><div><p>Select either remote or local branch which will be your source branch.</p><p><span><img></span></p></div></td></tr><tr><td>Branch name</td><td>The name to be used for the new branch.</td></tr><tr><td>Checkout new branch</td><td>Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Source</td><td><div class="content-wrapper"><p>Select either remote or local branch which will be your source branch.</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/git-integration/image2017-2-22 16_8_31.png" data-image-src="/download/attachments/3178878/image2017-2-22%2016%3A8%3A31.png?version=1&amp;modificationDate=1487754511000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5112994" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-22 16:8:31.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178878" data-linked-resource-container-version="1"></span></p></div></td></tr><tr><td>Branch name</td><td>The name to be used for the new branch.</td></tr><tr><td>Checkout new branch</td><td>Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
     
 3.  Click **Finish** to create new branch.
 

@@ -13,12 +13,12 @@ Get current web page's width.
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
 -------
 
-<table><thead><tr><th><div>Param Type</div></th><th><div><span>Description</span></div></th></tr></thead><tbody><tr><td>int</td><td><span>Current web page's width.</span></td></tr></tbody></table>
+<table><thead><tr><th><div class="tablesorter-header-inner">Param Type</div></th><th><div class="tablesorter-header-inner"><span>Description</span></div></th></tr></thead><tbody><tr><td>int</td><td><span>Current web page's width.</span></td></tr></tbody></table>
 
 Example 
 --------
