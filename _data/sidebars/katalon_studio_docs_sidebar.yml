@@ -15,48 +15,38 @@ entries:
     folderitems:
     - title: "Manage Test Project"
       url: /katalon-studio/docs/manage-test-project.html
-    - title: "Project Settings"
-      url: /katalon-studio/docs/project-settings.html
   - title: "Test Design"
     folderitems:
     - title: "Verification Snippets"
       url: /katalon-studio/docs/verification-snippets.html
-    - title: "Custom Keywords"
-      url: /katalon-studio/docs/custom-keywords.html
     - title: "Design a Test Suite"
       url: /katalon-studio/docs/design-a-test-suite.html
     - title: "Setup/Teardown for Test Suite and Test Case"
       url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
     - title: "Sample Projects"
       url: /katalon-studio/docs/sample-projects.html
-    - title: "Advanced Topics"
-      url: /katalon-studio/docs/advanced-topics.html
-    - title: "Assertions"
-      url: /katalon-studio/docs/assertions.html
-    - title: "Viewing a Test Case"
-      url: /katalon-studio/docs/viewing-a-test-case.html
-    - title: "Writing Test Case"
-      url: /katalon-studio/docs/writing-test-case.html
-    - title: "Record & Playback"
-      url: /katalon-studio/docs/record-and-playback.html
-    - title: "Test Object"
-      url: /katalon-studio/docs/test-object.html
-    - title: "Spy Object"
-      url: /katalon-studio/docs/spy-object.html
   - title: "Linux Support"
     folderitems:
     - title: "Katalon Studio for Linux (Console Mode)"
       url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
     - title: "Katalon Studio GUI (beta) for Linux"
       url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
+  - title: "Parameterization"
+    folderitems:
+    - title: "Parameterize a Web Service Object"
+      url: /katalon-studio/docs/parameterize-a-web-service-object.html
+    - title: "Manage Test Data"
+      url: /katalon-studio/docs/manage-test-data.html
+    - title: "Parameterize Web/Mobile Test Object Properties"
+      url: /katalon-studio/docs/parameterize-webmobile-test-object-properties.html
+    - title: "Execution Profile (v5.4+)"
+      url: /katalon-studio/docs/execution-profile-v54.html
   - title: "Test Execution"
     folderitems:
     - title: "Execute a Test Case or a Test Suite"
       url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
     - title: "Headless Browsers Execution"
       url: /katalon-studio/docs/headless-browsers-execution.html
-    - title: "Desired Capabilities"
-      url: /katalon-studio/docs/desired-capabilities.html
     - title: "Test Suite Collection"
       url: /katalon-studio/docs/test-suite-collection.html
     - title: "Troubleshooting common issues related to interacting with an element"
@@ -75,8 +65,6 @@ entries:
       url: /katalon-studio/docs/restful-latest.html
     - title: "SOAP (latest)"
       url: /katalon-studio/docs/soap-latest.html
-    - title: "Pre-5.4 Versions"
-      url: /katalon-studio/docs/pre-54-versions.html
     - title: "Web Services Builder"
       url: /katalon-studio/docs/web-services-builder.html
     - title: "Using Web Service in Test Case"
@@ -123,12 +111,6 @@ entries:
       url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
   - title: "Integrations"
     folderitems:
-    - title: "Jira Integration"
-      url: /katalon-studio/docs/jira-integration.html
-    - title: "Kobiton Integration"
-      url: /katalon-studio/docs/kobiton-integration.html
-    - title: "qTest Integration"
-      url: /katalon-studio/docs/qtest-integration.html
     - title: "Slack Integration"
       url: /katalon-studio/docs/slack-integration.html
     - title: "VSTS integration"
@@ -151,58 +133,22 @@ entries:
       url: /katalon-studio/docs/integrate-test-case.html
   - title: "Test Object"
     folderitems:
-    - title: "Web Services Test Object"
-      url: /katalon-studio/docs/web-services-test-object.html
-    - title: "Web and Mobile Test Object"
-      url: /katalon-studio/docs/web-and-mobile-test-object.html
   - title: "Welcome to Katalon Products"
     folderitems:
     - title: "Getting Started"
       url: /katalon-studio/docs/getting-started.html
-    - title: "Installation and Setup"
-      url: /katalon-studio/docs/installation-and-setup.html
     - title: "Overview"
       url: /katalon-studio/docs/overview.html
-    - title: "Deprecated Documentation"
-      url: /katalon-studio/docs/deprecated-documentation.html
     - title: "Katalon Analytics (Beta) Integration"
       url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-    - title: "Working with Katalon Studio"
-      url: /katalon-studio/docs/working-with-katalon-studio.html
     - title: "Known Issues / Limitations"
       url: /katalon-studio/docs/known-issues-limitations.html
-    - title: "Parameterization"
-      url: /katalon-studio/docs/parameterization.html
-    - title: "Test Design"
-      url: /katalon-studio/docs/test-design.html
-    - title: "Test Execution within CI/CD Tools"
-      url: /katalon-studio/docs/test-execution-within-cicd-tools.html
     - title: "Test Listeners (Test Hooks)"
       url: /katalon-studio/docs/test-listeners-test-hooks.html
-    - title: "Built-in Keywords"
-      url: /katalon-studio/docs/built-in-keywords.html
-    - title: "Integrations"
-      url: /katalon-studio/docs/integrations.html
-    - title: "Test Report"
-      url: /katalon-studio/docs/test-report.html
-    - title: "Tips and Tricks"
-      url: /katalon-studio/docs/tips-and-tricks.html
-    - title: "Test Execution"
-      url: /katalon-studio/docs/test-execution.html
-    - title: "Release Notes"
-      url: /katalon-studio/docs/release-notes.html
   - title: "Installation and Setup"
     folderitems:
     - title: "Before You Start"
       url: /katalon-studio/docs/before-you-start.html
-    - title: "Environment Setup for Mobile Testing"
-      url: /katalon-studio/docs/environment-setup-for-mobile-testing.html
-    - title: "Update New Versions"
-      url: /katalon-studio/docs/update-new-versions.html
-    - title: "Environment Setup for Web Testing"
-      url: /katalon-studio/docs/environment-setup-for-web-testing.html
-    - title: "Linux Support"
-      url: /katalon-studio/docs/linux-support.html
     - title: "Supported Environments"
       url: /katalon-studio/docs/supported-environments.html
     - title: "System Requirements"
@@ -249,16 +195,6 @@ entries:
       url: /katalon-studio/docs/variable-types.html
     - title: "Value Types"
       url: /katalon-studio/docs/value-types.html
-  - title: "Parameterization"
-    folderitems:
-    - title: "Manage Test Data"
-      url: /katalon-studio/docs/manage-test-data.html
-    - title: "Parameterize Web/Mobile Test Object Properties"
-      url: /katalon-studio/docs/parameterize-webmobile-test-object-properties.html
-    - title: "Execution Profile (v5.4+)"
-      url: /katalon-studio/docs/execution-profile-v54.html
-    - title: "Parameterize a Web Service Object"
-      url: /katalon-studio/docs/parameterize-a-web-service-object.html
   - title: "Spy Object"
     folderitems:
     - title: "Spy Web Utility (latest)"
@@ -345,40 +281,22 @@ entries:
       url: /katalon-studio/docs/record-web-utility-latest.html
     - title: "Record Mobile Utility"
       url: /katalon-studio/docs/record-mobile-utility.html
-    - title: "Pre-5.5 Versions"
-      url: /katalon-studio/docs/pre-55-versions.html
   - title: "Release Notes"
     folderitems:
-    - title: "Version 5.0"
-      url: /katalon-studio/docs/version-50.html
-    - title: "Version 5.6"
-      url: /katalon-studio/docs/version-56.html
-    - title: "Version 4.7"
-      url: /katalon-studio/docs/version-47.html
-    - title: "Version 5.3"
-      url: /katalon-studio/docs/version-53.html
     - title: "Version 5.5"
       url: /katalon-studio/docs/version-55.html
-    - title: "Version 5.4"
-      url: /katalon-studio/docs/version-54.html
     - title: "Version 4.8"
       url: /katalon-studio/docs/version-48.html
-    - title: "Version 5.1"
-      url: /katalon-studio/docs/version-51.html
     - title: "Version 5.2"
       url: /katalon-studio/docs/version-52.html
     - title: "Version 3.1"
       url: /katalon-studio/docs/version-31.html
-    - title: "Version 3.2"
-      url: /katalon-studio/docs/version-32.html
     - title: "Version 3.3"
       url: /katalon-studio/docs/version-33.html
     - title: "Version 3.5"
       url: /katalon-studio/docs/version-35.html
     - title: "Version 3.6"
       url: /katalon-studio/docs/version-36.html
-    - title: "Version 4.0"
-      url: /katalon-studio/docs/version-40.html
     - title: "Version 4.2"
       url: /katalon-studio/docs/version-42.html
     - title: "Version 4.3"
@@ -397,10 +315,6 @@ entries:
       url: /katalon-studio/docs/katalon-help.html
     - title: "Toolbars and Views"
       url: /katalon-studio/docs/toolbars-and-views.html
-    - title: "Test Projects"
-      url: /katalon-studio/docs/test-projects.html
-    - title: "Katalon Studio Preferences"
-      url: /katalon-studio/docs/katalon-studio-preferences.html
   - title: "Deprecated Documentation"
     folderitems:
     - title: "Execute a test case"
@@ -417,28 +331,8 @@ entries:
       url: /katalon-studio/docs/auto-updater.html
   - title: "Web UI"
     folderitems:
-    - title: "[WebUI] Test Object API"
-      url: /katalon-studio/docs/webui-test-object-api.html
     - title: "[WebUI] Upload File"
       url: /katalon-studio/docs/webui-upload-file.html
-    - title: "[WebUI] Alert"
-      url: /katalon-studio/docs/webui-alert.html
-    - title: "[WebUI] Browser"
-      url: /katalon-studio/docs/webui-browser.html
-    - title: "[WebUI] Checkbox"
-      url: /katalon-studio/docs/webui-checkbox.html
-    - title: "[WebUI] Combo box"
-      url: /katalon-studio/docs/webui-combo-box.html
-    - title: "[WebUI] Element"
-      url: /katalon-studio/docs/webui-element.html
-    - title: "[WebUI] Form"
-      url: /katalon-studio/docs/webui-form.html
-    - title: "[WebUI] Frame"
-      url: /katalon-studio/docs/webui-frame.html
-    - title: "[WebUI] Image"
-      url: /katalon-studio/docs/webui-image.html
-    - title: "[WebUI] Text"
-      url: /katalon-studio/docs/webui-text.html
   - title: "[WebUI] Alert"
     folderitems:
     - title: "[WebUI] Accept Alert"
@@ -849,10 +743,6 @@ entries:
       url: /katalon-studio/docs/mobile-take-screenshot.html
   - title: "Web Service"
     folderitems:
-    - title: "[WS] Response"
-      url: /katalon-studio/docs/ws-response.html
-    - title: "[WS] Request"
-      url: /katalon-studio/docs/ws-request.html
   - title: "[WS] Response"
     folderitems:
     - title: "[WS] Verify Element Property Value"
@@ -873,16 +763,6 @@ entries:
       url: /katalon-studio/docs/ws-send-request.html
   - title: "Built-in Keywords"
     folderitems:
-    - title: "Utilities"
-      url: /katalon-studio/docs/utilities.html
-    - title: "Common Assertions"
-      url: /katalon-studio/docs/common-assertions.html
-    - title: "Web UI"
-      url: /katalon-studio/docs/web-ui.html
-    - title: "Mobile"
-      url: /katalon-studio/docs/mobile.html
-    - title: "Web Service"
-      url: /katalon-studio/docs/web-service.html
   - title: "Utilities"
     folderitems:
     - title: "[Common] Comment"
@@ -919,10 +799,6 @@ entries:
       url: /katalon-studio/docs/version-541.html
   - title: "Writing Test Case"
     folderitems:
-    - title: "Code Reuse"
-      url: /katalon-studio/docs/code-reuse.html
-    - title: "Variables and Values"
-      url: /katalon-studio/docs/variables-and-values.html
     - title: "Working with Sensitive Text"
       url: /katalon-studio/docs/working-with-sensitive-text.html
     - title: "Handle Response Messages"
@@ -989,18 +865,6 @@ entries:
       url: /katalon-studio/docs/version-321.html
   - title: "Mobile"
     folderitems:
-    - title: "[Mobile] Application"
-      url: /katalon-studio/docs/mobile-application.html
-    - title: "[Mobile] Element"
-      url: /katalon-studio/docs/mobile-element.html
-    - title: "[Mobile] Notification"
-      url: /katalon-studio/docs/mobile-notification.html
-    - title: "[Mobile] Screen"
-      url: /katalon-studio/docs/mobile-screen.html
-    - title: "[Mobile] Device"
-      url: /katalon-studio/docs/mobile-device.html
-    - title: "[Mobile] Text"
-      url: /katalon-studio/docs/mobile-text.html
   - title: "Version 4.0"
     folderitems:
     - title: "Version 4.0.1"
