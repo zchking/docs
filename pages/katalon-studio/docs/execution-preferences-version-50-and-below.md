@@ -12,7 +12,7 @@ description:
 All the preferences under **Execution** are for default behaviors that Katalon Studio should perform during test execution. 
 
 General Execution Preferences
-=============================
+-----------------------------
 
 You can configure general execution preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Execution**.
 
@@ -25,7 +25,7 @@ Where:
 All the above preferences are saved into the file “**com.kms.katalon.composer.execution.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.
 
 WebUI Preferences
-=================
+-----------------
 
 You can configure WebUI execution preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Execution > WebUI**.
 

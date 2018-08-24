@@ -8,7 +8,8 @@ Test recording is the fastest way for users to automate applications. However, i
 
 This tutorial shows you a step-by-step introduction to utilizing Katalon Mobile Recorder.
 
-### Recording your first test with Katalon Studio Mobile Recorder, an Example
+Recording your first test with Katalon Studio Mobile Recorder, an Example
+-------------------------------------------------------------------------
 
 Sending a message
 
@@ -73,7 +74,8 @@ Warning: The Katalon Sample App will not allow you to send the message through t
 
 For your reference, Katalon Studio generates a test script for the recorded actions, you can view it by switching to **Script mode**.
 
-### Script mode
+Script mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

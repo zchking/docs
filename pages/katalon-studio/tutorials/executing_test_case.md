@@ -10,8 +10,7 @@ Currently, Katalon Studio supports executing automation test in the following en
 
 <table><thead><tr><th>Execution Environment</th><th>Description</th></tr></thead><tbody><tr><td><span>Chrome</span></td><td><span>Execute a test case in Chrome, using the Desired Capabilities settings defined in </span><a><span>Execution Settings</span></a><span>.</span></td></tr><tr><td><span>Firefox</span></td><td><span>Execute a test case in Firefox, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>IE</span></td><td><span>Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Safari</span></td><td><span>Execute a test case in Safari, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Edge</span></td><td><span>Execute a test case in Edge, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Remote</span></td><td><span>Execute a test case in a remote environment, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Headless</span></td><td><span>Execute a test case in headless mode, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Android</span></td><td><span>Execute a test case on Android device, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>iOS</span></td><td><span>Execute a test case on an iOS device, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Custom</span></td><td><span>Execute a test case in a custom environment, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr></tbody></table>
 
-Execute on Web
----------------
+### Execute on Web
 
 1\. Open a test case, then select the web browser (Chrome, Firefox, IE, Safari or Edge) to run the test case from the **Run** command of the main toolbar.
 
@@ -19,8 +18,7 @@ Note: If you simply click on **Run**, the test case will be executed using the 
 
 2\. The test case is executed using the selected web browser.
 
-Execute in a remote environment
--------------------------------
+### Execute in a remote environment
 
 1\. Access the Remote Web setting from **Main Menu > Project > Settings > Execution > Default > Web UI > Remote Web**.
 
@@ -32,16 +30,14 @@ Execute in a remote environment
 
 4\. The test case is executed on the predefined remote environment.
 
-Execute in the headless mode
-----------------------------
+### Execute in the headless mode
 
 1\. Open a test case, then select the Headless option to run it from the **Run** command of the main toolbar.  
 ![Headless option in Katalon Studio](../../images/katalon-studio/tutorials/executing_test_case/select-the-Headless.png)
 
 2\. The test case is executed without launching any browser.
 
-Execute on mobile
------------------
+### Execute on mobile
 
 1\. Open a test case, then select the Android (or iOS) option to run it from the **Run** command of the main toolbar (the iOS option is only available on macOS).  
 ![Select the Android (or iOS) option](../../images/katalon-studio/tutorials/executing_test_case/select-the-Android.png)
@@ -52,8 +48,7 @@ Note: If there is no device in the list, please make sure that the Developer Mod
 
 3\. The test case is executed on the selected mobile device.
 
-Execute in a custom environment
--------------------------------
+### Execute in a custom environment
 
 1\. Access the Custom setting from **Main Menu > Project > Settings > Execution > Custom**.
 
@@ -65,8 +60,7 @@ Execute in a custom environment
 
 4\. The test case is executed in the selected custom environment.
 
-Job Progress
-------------
+### Job Progress
 
 The Job Progress window will be triggered automatically to show the progress while your test case is being executed. You can switch the Job Progress of different executions to review their details accordingly.
 

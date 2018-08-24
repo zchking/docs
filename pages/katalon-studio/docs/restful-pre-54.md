@@ -6,7 +6,7 @@ redirect_from: "/pages/viewpage.action?pageId=5116880"
 description: 
 ---
 Create REST Object
-==================
+------------------
 
 1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed.  
     ![](../../images/katalon-studio/docs/restful-pre-54/image2017-2-13 11_22_17.png)  

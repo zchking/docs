@@ -10,7 +10,7 @@ Currently, Katalon Studio supports executing automation test in following enviro
 <table><thead><tr><th>Execution Environment</th><th>Description</th></tr></thead><tbody><tr><td><p>Chrome</p></td><td><p>Execute a test case in Chrome, using the Desired Capabilities settings defined in <a>Execution Settings</a>.</p></td></tr><tr><td><p>Firefox</p></td><td><p>Execute a test case in Firefox, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr><tr><td><p>IE</p></td><td><p>Execute a test case in Internet Explorer, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr><tr><td><p>Safari</p></td><td><p>Execute a test case in Safari, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr><tr><td><p>Remote</p></td><td><p>Execute a test case in a remote environment, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr><tr><td><p>Android</p></td><td><p>Execute a test case on Android device, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr><tr><td><p>iOS</p></td><td><p>Execute a test case on an iOS device, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr><tr><td><p>Custom</p></td><td><p>Execute a test case in a custom environment, <span>using the Desired Capabilities settings defined in <a>Execution Settings</a>.</span></p></td></tr></tbody></table>
 
 Execute on a web application
-============================
+----------------------------
 
 1.  Open a test case, then select the web browser (Chrome, Firefox, IE, Safari or Edge) to run the test case from **Run** command of the main toolbar.
     
@@ -22,7 +22,7 @@ Execute on a web application
     
 
 Execute in a remote environment
-===============================
+-------------------------------
 
 1.  Setup default configuration for the remote environment in project settings. Refer to [Execution Settings](/display/KD/Execution+Settings) for more details.  
     ![](../../images/katalon-studio/docs/execute-a-test-case/image2017-6-30 20_53_9.png)  
@@ -34,7 +34,7 @@ Execute in a remote environment
 3.  The test case will be executed on a predefined remote environment.
 
 Execute on a mobile application
-===============================
+-------------------------------
 
 1.  Open a test case, then select the preferred mobile OS to run the test case from **Run** command of main toolbar (iOS option is only available in macOS).  
     ![](../../images/katalon-studio/docs/execute-a-test-case/image2018-8-2 15_18_26.png)  
@@ -50,7 +50,7 @@ Execute on a mobile application
 3.  The test case will be executed using selected mobile device.
 
 Execute on a custom environment
-===============================
+-------------------------------
 
 1.  Setup desired capabilities for custom execution in project settings. Refer to [Execution Settings](/display/KD/Execution+Settings) for more details.  
     ![](../../images/katalon-studio/docs/execute-a-test-case/image2017-6-30 20_53_51.png)  
@@ -63,7 +63,7 @@ Execute on a custom environment
 3.  The test case will be executed on selected custom option.
 
 Job Progress
-============
+------------
 
 The Job Progress will be triggered automatically to show the progress while your test case is being executed.
 

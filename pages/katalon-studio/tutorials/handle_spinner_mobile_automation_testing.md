@@ -6,13 +6,15 @@ description: "A step-by-step guide on how to handle spinner in mobile automation
 ---
 The source code can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). This behavior is very common in mobile software development. An example is choosing a location out of a list of US states and territories.
 
-### Scenario
+Scenario
+--------
 
 Scroll down in Planet Spinner list and **select** “Pluto”. **Verify** selected value “Pluto”.
 
 ![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test.png)
 
-### Manual Mode
+Manual Mode
+-----------
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input.** A dialog will be displayed. In **appFile**, select **Value Type** as **Variable**. In **Value**, pass the variable name as **path**.
 
@@ -40,7 +42,8 @@ Scroll down in Planet Spinner list and **select** “Pluto”. **Verify** select
 
 The step-by-step guide can also be achieved through **Script Mode**. We suggest using the Script feature in Katalon to automate the process faster.
 
-### Script Mode
+Script Mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

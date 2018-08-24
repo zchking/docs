@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BMobile%5D+Tap+And+Hold"
 description: 
 ---
 Description
-===========
+-----------
 
 Tap and hold on a mobile element for a duration
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject&nbsp;</span></td><td><span>Required</span></td><td>Represent a mobile element.</td></tr><tr><td><span>duration</span></td><td><span>Number&nbsp;</span></td><td><span>Required</span></td><td>Duration (in seconds) that the tap is held on the element, if set to &lt;= 0 then will use default duration.</td></tr><tr><td><span>timeout&nbsp;</span></td><td><span>int</span></td><td><p><span>Required</span></p></td><td>System will wait at most timeout (seconds) to return the result.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to tap on 'App' control and hold it for 10 seconds.
 

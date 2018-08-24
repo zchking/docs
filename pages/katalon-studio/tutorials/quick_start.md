@@ -8,18 +8,15 @@ description: "A quick guide to set up and start your first automation test with 
 
 **Read full guideline [https://docs.katalon.com/x/l4Ei](https://docs.katalon.com/x/l4Ei)**
 
-Introduction
-------------
+### Introduction
 
 This Getting Started Guide gives you a quick introduction to Katalon Studio, from downloading to activation and running your first automation test.
 
-Download Katalon Studio
------------------------
+### Download Katalon Studio
 
 Katalon Studio is available for free, supporting both Windows and Mac. Visit [Katalon Studio website](https://www.katalon.com/) to download the latest version.
 
-Environment Configuration
--------------------------
+### Environment Configuration
 
 First you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
@@ -27,34 +24,29 @@ If you do **Web UI** testing, then no additional settings are needed except maki
 
 In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
 
-Start Katalon Studio
---------------------
+### Start Katalon Studio
 
 To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows) or **katalon** (Mac) file in the directory where you unpack Katalon Studio.
 
 Once started, the application should display a splash screen.
 
-Activate Katalon Build
-----------------------
+### Activate Katalon Build
 
 After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio Instance. The username and password are the ones used to login to [https://www.katalon.com](https://www.katalon.com)
 
-Feature Introduction
---------------------
+### Feature Introduction
 
 When your build is activated, the **Quick Guide** screen is displayed to guide you through all major features. You can skip this and view the Quick Guide later from the **Help** menu.
 
 At the end of the introduction, Katalon Studio suggests to create a new project. Click **OK**.
 
-Create a Project
-----------------
+### Create a Project
 
 Enter the name of your new project and the location to store the project data on your machine. Click **OK**.
 
 A new project will be generated at specified location.
 
-Create your first Test Case
----------------------------
+### Create your first Test Case
 
 –  Select option to create **New Test Case** from the main Toolbar.
 

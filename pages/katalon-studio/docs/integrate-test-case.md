@@ -8,12 +8,11 @@ description:
 **Test cases folder** must be registered in [**Test Case Repositories**](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload test cases to qTest.
 
 Upload test cases to qTest
-==========================
+--------------------------
 
 You have two methods to upload a test case to predefined qTest Module
 
-Upload a single test case
--------------------------
+### Upload a single test case
 
 1.    
     1.  Navigate to the **Integration** tab of the test case. Click on the **Upload** button.  
@@ -48,8 +47,7 @@ Upload a single test case
       
     
 
-Upload test case folder
------------------------
+### Upload test case folder
 
 **Test cases folder** must be registered in [**Test Case Repositories**](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload test cases to qTest.
 
@@ -68,7 +66,7 @@ Upload test case folder
   
 
 Download qTest test case
-========================
+------------------------
 
 1.  Select Test Design in qTest, move any **test cases** to be downloaded into the integrated **qTest module**. Refer to [Enable qTest Integration](/display/KD/Enable+qTest+Integration) for details about setting up an integrated qTest Module in Katalon Studio.  
       
@@ -93,12 +91,11 @@ Download qTest test case
     ![](../../images/katalon-studio/docs/integrate-test-case/image2017-8-5 16_56_37.png)
 
 Disintegrate test cases
-=======================
+-----------------------
 
 Remove the connection between **Katalon test cases** and **qTest test cases**.
 
-Disintegrate a test case from qTest
------------------------------------
+### Disintegrate a test case from qTest
 
 1.  You have two methods to break the connection between a test case and qTest:  
       
@@ -115,8 +112,7 @@ Disintegrate a test case from qTest
       
     
 
-Disintegrate a test case folder from qTest
-------------------------------------------
+### Disintegrate a test case folder from qTest
 
 You can break the connection between a Katalon Studio test case folder (together with **all** its **test cases**) and qTest system by following the steps below:
 

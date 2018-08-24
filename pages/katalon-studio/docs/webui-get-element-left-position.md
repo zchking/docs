@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Get+Element+Left+Position"
 description: 
 ---
 Description  
-=============
+-------------
 
 Get the left position of web element.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td>Represent a web element.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>int</td><td><span>Left position of web element.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to get the left position of the object "txt_UserName", then store it into "leftPosition" variable.
 

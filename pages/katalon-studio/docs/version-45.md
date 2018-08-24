@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Version+4.5"
 description: 
 ---
 General Improvement
-===================
+-------------------
 
 **Help links to documentation **
 
@@ -41,7 +41,7 @@ Added option to let users close the current project.
 ![](../../images/katalon-studio/docs/version-45/image2017-2-21 13_46_40.png)
 
 Script Mode
-===========
+-----------
 
 **Improved Content Assist when scripting**
 
@@ -50,7 +50,7 @@ Autocomplete now support more suggestion during typing for **Keywords Libraries*
 ![](../../images/katalon-studio/docs/version-45/image2017-2-21 11_9_19.png)
 
 Manual Mode
-===========
+-----------
 
 **Improve usability**
 
@@ -59,14 +59,14 @@ Use **TAB** (or **Shift+TAB**) to navigate to next/previous cells. 
 ![](../../images/katalon-studio/docs/version-45/image2017-2-21 11_34_17.png)
 
 Execution
-=========
+---------
 
 **Parallel Execution**
 
 You can now manually start multiple web automation tests on different connected iPhone devices for parallel execution.
 
 Test Suite
-==========
+----------
 
 **Reorganizing Test Suite UI **
 
@@ -75,7 +75,7 @@ Added option to expand/collapse **Data Binding section** to simplify layout and 
 ![](../../images/katalon-studio/docs/version-45/image2017-2-21 13_18_28.png)
 
 Report
-======
+------
 
 ****Reorganizing Report UI** **
 

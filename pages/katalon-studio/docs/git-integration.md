@@ -8,7 +8,7 @@ description:
 > The Git integration feature is based on **EGit**. You can refer to [http://wiki.eclipse.org/EGit/User_Guide](http://wiki.eclipse.org/EGit/User_Guide) for detailed user guide regarding EGit.
 
 Configuration
-=============
+-------------
 
 1.  **Enable Git Integration.** In order to access all Git features, you need to enable Git Integration first. The option is available at following settings: **Window > Katalon Studio Preferences > Katalon > Git**. Once enabled, you can start using Git at Katalon Studio main toolbar.  
     ![](../../images/katalon-studio/docs/git-integration/image2017-6-29 16_55_50.png)  
@@ -18,7 +18,7 @@ Configuration
     
 
 Clone Project
-=============
+-------------
 
 After enabling Git Integration, you can clone an existing **Git repository** into a newly created directory on the local machine.
 
@@ -53,7 +53,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     
 
 Share Project
-=============
+-------------
 
 **Share Project** is a step to make your Katalon project associated with Git.
 
@@ -75,7 +75,7 @@ Share Project
     
 
 Commit
-======
+------
 
 The **Commit** option allows users to view all current changes and decide which changes to be stored in local branch. Refer to [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit) for detailed Git documentation regarding Commit command.
 
@@ -95,10 +95,9 @@ The **Commit** option allows users to view all current changes and decide which 
 4.  Enter your comments into the **Commit Message** then click on **Commit** to store your staged changes into the local branch.
 
 Manage Branches
-===============
+---------------
 
-New Branch
-----------
+### New Branch
 
 1.  Select the **New Branch** option from **Git** menu of the main toolbar.   
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_57_48.png)  
@@ -112,8 +111,7 @@ New Branch
     
 3.  Click **Finish** to create new branch.
 
-Checkout Branch
----------------
+### Checkout Branch
 
 The **Checkout Branch** option allow you to switch from one branch to another.
 
@@ -127,8 +125,7 @@ The **Checkout Branch** option allow you to switch from one branch to another.
     
 3.  Click **OK** to finish checking out to new local branch.
 
-Delete Branch
--------------
+### Delete Branch
 
 1.  Select the **Delete Branch** option from **Git** menu of the main toolbar.   
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 15_10_10.png)  
@@ -138,7 +135,7 @@ Delete Branch
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 16_6_37.png)
 
 Fetch
-=====
+-----
 
 Retrieve all information about changes occurred in remote branches. Refer to [https://git-scm.com/docs/git-fetch](https://git-scm.com/docs/git-fetch) for detailed Git documentation regarding Fetch command
 
@@ -158,7 +155,7 @@ Retrieve all information about changes occurred in remote branches. Refer to [
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 17_6_5.png)
 
 Pull
-====
+----
 
 Incorporate changes from a remote repository into the current branch. Refer to [https://git-scm.com/docs/git-pull](https://git-scm.com/docs/git-pull) for detailed Git documentation regarding Pull command
 
@@ -174,7 +171,7 @@ Incorporate changes from a remote repository into the current branch. Refer to 
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 15_56_21.png)
 
 Push
-====
+----
 
 Update remote branch using the local branch. Refer to [https://git-scm.com/docs/git-push](https://git-scm.com/docs/git-push) for detailed Git documentation regarding Push command
 

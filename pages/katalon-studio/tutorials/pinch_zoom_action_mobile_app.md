@@ -6,13 +6,15 @@ description: "This tutorial is to test the pinch zoom action in the mobile app w
 ---
 This tutorial is to test the **Pinch To Zoom In** action in the mobile app. The app used for this demonstration can be downloaded here. We will be using Android O.S for this tutorial, so please make sure that your Android device **API** is **greater** than **18**.
 
-### Scenario
+Scenario
+--------
 
 In the screenshot below, we want to zoom into “Hello World” and verify the zoom-in action.
 
 ![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test.png)
 
-### Manual Mode
+Manual Mode
+-----------
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** it will open a window, where for appFile select **Value Type** as **Variable** and in **Value**, pass the variable name as **path** and click **OK.**
 
@@ -43,7 +45,8 @@ In the screenshot below, we want to zoom into “Hello World” and verify the z
 
 As you can see from the step-by-step guide above, there are repeated steps that will be easier to create in **Script Mode**. Thus, we suggest the users to utilize this feature where one can quickly automate the test scenario and easily manage test scripts.
 
-### Script Mode
+Script Mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

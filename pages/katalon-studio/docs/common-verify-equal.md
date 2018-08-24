@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BCommon%5D+Verify+Equal"
 description: 
 ---
 Description 
-============
+------------
 
 Verify if two objects are equal. 
 
 Parameters 
-===========
+-----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>actualObject&nbsp;</span></td><td><span>Object&nbsp;</span></td><td>Required</td><td><span>Represent the actual object.</span></td></tr><tr><td><span>expectedObject&nbsp;</span></td><td><span>Object&nbsp;</span></td><td>Required</td><td><span>Represent the expected object.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li><p><span><strong>true</strong>&nbsp;if the actual number and the expected number are equal.</span></p></li><li><p><span><strong>false</strong>&nbsp;if the actual number and the expected number are NOT equal.</span></p></li></ul></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to verify if two given numbers are equal.
 

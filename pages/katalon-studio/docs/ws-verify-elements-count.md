@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWS%5D+Verify+Elements+Count"
 description: 
 ---
 Description
-===========
+-----------
 
 Verify the number of expected elements (JSON/XML) in the response (output) of a web service call.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th><div>Param</div></th><th><div>Param Type</div></th><th><div>Mandatory</div></th><th><div>Description</div></th></tr></thead><tbody><tr><td><span>response</span></td><td><span>ResponseObject</span></td><td>Required</td><td><span>Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header)</span></td></tr><tr><td><span>locator</span></td><td><span>String</span></td><td>Required</td><td><span>An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide for how to write it:&nbsp;</span><a>Handle Web Service Response object</a></td></tr><tr><td><span>count&nbsp;</span></td><td><span>int&nbsp;</span></td><td>Required</td><td><span><span>T</span><span>he expected number of element(s) should appear in the responded data (usually is JSON/XML)</span></span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 **true**, if your expectation is met, otherwise; **false**.
 
 Example
-=======
+-------
 
 You want to verify number of expected elements in the response is 3
 

@@ -8,13 +8,15 @@ An alert dialog box is used to send a message to the user. An alert box displays
 
 The .apk file can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk). Start the app. Select **App** \> **Alert Dialogs**.
 
-### Scenario
+Scenario
+--------
 
 We want to test the alert dialog which usually appears on mobile app when there are suspicious/potentially dangerous actions.
 
 ![Handling Alert Dialog in Mobile App](../../images/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App.png)
 
-### Manual Mode
+Manual Mode
+-----------
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select ‘**Value Type**‘ as **Variable**. In **Value**, pass the variable name as ‘**path’**.
 
@@ -42,7 +44,8 @@ We want to test the alert dialog which usually appears on mobile app when there 
 
 *   Step 13: **Tap** on **OK** Button.
 
-### Script Mode
+Script Mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

@@ -4,11 +4,13 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/store_mobile_elements_to_validate_data.html
 description: "To select a mobile element (ex: Radio button) from a List, we need to capture all the button elements in a collection and pick the desired Radio button."
 ---
-### Scenario
+Scenario
+--------
 
 We want to select a Radio button from a List. In order to do so, we need to capture all the button elements in a collection and pick the desired Radio button.
 
-### Manual Mode
+Manual Mode
+-----------
 
 *   Step 1**:** Select **Start Application** from Mobile keyword and click on **Input** it will open a window. In **appFile**, select **Value Type** as **Variable**. In **Value**, pass the variable name as **path**.
 
@@ -42,7 +44,8 @@ We want to select a Radio button from a List. In order to do so, we need to capt
 
 The step-by-step guide can also be achieved through **Script Mode**. We suggest using the Script feature in Katalon to automate the process faster.
 
-### Script Mode
+Script Mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

@@ -6,7 +6,7 @@ redirect_from: "/display/KD/%5BWebUI%5D+Close+Window+Index"
 description: 
 ---
 Description  
-=============
+-------------
 
 Close window with the given index.
 
@@ -15,12 +15,12 @@ Close window with the given index.
 > *   If users close current window, system will switch to the first window. If current window happens to be the first window, system will switch to the new first window. However we strongly recommend users switch to another window before closing current window to prevent any confusion.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>index</span></td><td><span>Object</span></td><td><span>Required</span></td><td><span>The index of the window to close, index is 0-based number.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to close the window that has index 1.
 

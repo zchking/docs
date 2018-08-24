@@ -8,7 +8,7 @@ description:
 Method Call statement allows you to make calls to other methods provided by the built-in libraries of Katalon Studio.
 
 Method call statement in Manual view
-====================================
+------------------------------------
 
 1.  Open a test case in **Manual** view, then navigate to **Method Call Statement** from command toolbar.  
     ![](../../images/katalon-studio/docs/method-call-statements/image2017-6-30 20_44_47.png)  
@@ -28,7 +28,7 @@ Method call statement in Manual view
     
 
 Method call statement in Scripting view
-=======================================
+---------------------------------------
 
 The **Script** View of a test case allows you to programmatically define and handle method calls easily using either Groovy or Java language.
 

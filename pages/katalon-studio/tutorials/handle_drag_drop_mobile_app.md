@@ -6,7 +6,8 @@ description: "This tutorial demonstrates how to handle drag and drop action in a
 ---
 In this tutorial, we will see how to handle drag and drop action in a mobile application using Katalon Studio. The source code can be downloaded [here](https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/Drag%20and%20Drop.apk).
 
-### Scenario
+Scenario
+--------
 
 The scenario is to **drag and drop** a draggable object containing the text “**Brad Mehldau**” and a droppable object containing the text “**Kurt Rosenwinkel**”.
 
@@ -14,7 +15,8 @@ The scenario is to **drag and drop** a draggable object containing the text “*
 *   Step 2: Tap on **Basic Usage playground** text
 *   Step 3: Drag **Brad Mehldau** text to drop at **Kurt Rosenwinkel** text
 
-### Manual Mode
+Manual Mode
+-----------
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select ‘**Value Type**‘ as **Variable**. In **Value**, pass the variable name as ‘**path’**.
 
@@ -30,7 +32,8 @@ The scenario is to **drag and drop** a draggable object containing the text “*
 
 You can utilize our **Script** feature to automate the test.
 
-### Script Mode
+Script Mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Get+Url"
 description: 
 ---
 Description  
-=============
+-------------
 
 Get URL of the current window.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th><div>Param Type</div></th><th><div><span>Description</span></div></th></tr></thead><tbody><tr><td>String</td><td><span>URL of current window.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to get URL of the current window. The output is stored into variable "url".
 

@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BMobile%5D+Switch+To+Landscape"
 description: 
 ---
 Description  
-=============
+-------------
 
 Switch the current device's mode to landscape mode.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to switch the current device's mode to landscape mode.
 

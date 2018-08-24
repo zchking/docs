@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable"
 description: 
 ---
 Description
-===========
+-----------
 
 Wait for the given element to be clickable within the given time (in seconds).
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><p><span>Represent a web element.</span></p></td></tr><tr><td>timeout</td><td>int</td><td>Required</td><td><span>System will wait at most timeout (seconds) to return result</span></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true: </strong>the element is present and clickable.</li><li><strong>false: </strong>the element is neither present or clickable.</li></ul></td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to wait for 'Make Appointment' button is clickable in 20 seconds.
 

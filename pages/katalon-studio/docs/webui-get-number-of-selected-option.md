@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Get+Number+Of+Selected+Option"
 description: 
 ---
 Description
-===========
+-----------
 
 Count the number of options which are being selected the given web element has.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>int</td><td>The number of selected option.</td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to count the number of SELECTED options in the list.
 

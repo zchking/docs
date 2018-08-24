@@ -8,7 +8,7 @@ description:
 A Test Suite Collection contains a list of test suites to allow users more options for planning their test execution. 
 
 Manage Execution Information
-============================
+----------------------------
 
 You can manage additional configurations for test suite collection execution by expanding the **Execution Information** section, as below:
 
@@ -19,7 +19,7 @@ where:
 <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><div><p><span><img></span></p></div></td><td><p>The order to execute test suites within the collection.</p><ul><li><strong>Sequential</strong>: the test suites will be executed one after another.</li><li><strong>Parallel</strong>: the test suites will be executed at the same time.</li></ul></td></tr></tbody></table>
 
 Manage Test Suite List
-======================
+----------------------
 
 You can add a test suite into a collection by following the steps below:
 
@@ -43,7 +43,7 @@ You can add a test suite into a collection by following the steps below:
     
 
 Execute a Test Suite Collection
-===============================
+-------------------------------
 
 1.  To run a Test Suite Collection, click **Execute** at toolbar as illustrated below:  
     ![](../../images/katalon-studio/docs/test-suite-collection/image2018-5-7 16_3_11.png)  

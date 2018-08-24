@@ -6,17 +6,15 @@ redirect_from: "/display/KD/Version+4.2"
 description: 
 ---
 New Features
-============
+------------
 
-JIRA Integration
-----------------
+### JIRA Integration
 
 Bugs can be submitted directly fromKatalonStudio failed test results using embedded native JIRA interface. Teststeps,captured screenshots and logs will be attached automatically to the JIRA ticket. Failed execution results can also be created as sub-task or associated with an existing JIRA ID. Ticket status' synced back toKatalonStudio providing necessary information for validation.  
 
 ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_9_57.png)
 
-Undo Actions
-------------
+### Undo Actions
 
 Support Undo/Redo actions (within 20 steps) for following objects:
 
@@ -28,8 +26,7 @@ Support Undo/Redo actions (within 20 steps) for following objects:
 ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_10_53.png)  
   
 
-Headless execution
-------------------
+### Headless execution
 
 This new option is available for web automation execution without launching the browser interface which increases execution performance and time.
 
@@ -40,10 +37,9 @@ The following keywords are not supported with headless execution
 <table><thead><tr><th>Keyword</th><th>Known Issues</th><th>Impact</th></tr></thead><tbody><tr><td><p><a>Accept Alert</a></p></td><td><p>Alert is not recognizable in headless execution</p><p>(<a>https://github.com/MachinePublishers/jBrowserDriver/issues/147</a>)</p></td><td><p>Alert keywords can’t be used for verification</p></td></tr><tr><td><p><a>Dismiss Alert</a></p></td></tr><tr><td><a>Get Alert Text</a></td></tr><tr><td><p><a>Set Alert Text</a></p></td></tr><tr><td><a>Verify Alert Not Present</a></td></tr><tr><td><p><a>Verify Alert Present</a></p></td></tr><tr><td><a>Wait For Alert</a></td></tr><tr><td><p><a>Select Option By Value</a></p></td><td><p>Wrong option is selected</p><p>(<a>https://github.com/MachinePublishers/jBrowserDriver/issues/148</a>)</p></td><td><p>Options could not be selected as expected</p></td></tr><tr><td><p><a>Select Option By Label</a></p></td></tr><tr><td><p><a>Select All Options</a></p></td></tr><tr><td><p><a>Select Option By Index</a></p></td></tr></tbody></table>
 
 Improvements
-============
+------------
 
-General
--------
+### General
 
 1.  Address keywords incompatible issues with Firefox 47+ (as mentioned in [Version 3.5](/display/KD/Version+3.5)).
 2.  Update ChromeDriver's version to 2.25 to resolve execution issue with Chrome 54.
@@ -52,8 +48,7 @@ General
       
     
 
-Test Project
-------------
+### Test Project
 
 1.  Include ‘JRE’ settings on Preferences. Users can change to other JRE version if needed.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_15_42.png)
@@ -62,8 +57,7 @@ Test Project
       
     
 
-Test Case
----------
+### Test Case
 
 1.  Support defining [closure](http://groovy-lang.org/closures.html) syntax of Groovy in test case’s manual.  
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_24_9.png)  
@@ -78,8 +72,7 @@ Test Case
       
     
 
-Test Suite Collection
----------------------
+### Test Suite Collection
 
 1.  Add ‘Run Configuration’ column to setup required information for the following execution modes:
     
@@ -98,7 +91,7 @@ Test Suite Collection
     ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_36_24.png)
 
 Known Issues
-============
+------------
 
 Appium 1.6 is not supported. Besides of that, Appium has problem running tests on the latest iOS as reported at: 
 

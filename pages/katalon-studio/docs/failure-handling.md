@@ -12,7 +12,7 @@ Currently, Katalon Studio supports the following failure handling options:
 <table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td><p>Stop on Failure</p></td><td><p>Katalon Studio will stop execution should there be any error occurs.</p><p>The step with errors will have <strong>Failed</strong> status.</p></td></tr><tr><td><p>Continue on Failure</p></td><td><p>Katalon Studio will continue in spite of any error during its execution.</p><p><span>The step with errors will have <strong>Failed</strong> status</span>.</p></td></tr><tr><td><p>Optional</p></td><td><p><span><span>Katalon Studio will continue in spite of any error during its execution.</span></span></p><p><span><span>&nbsp;</span><span>The step with errors will have </span></span><strong>Warning</strong> status.</p></td></tr></tbody></table>
 
 Default failure handling behavior
-=================================
+---------------------------------
 
 Follow these steps to define the default behavior for failure handling to be applied across your project:
 
@@ -26,12 +26,11 @@ Follow these steps to define the default behavior for failure handling to be app
     
 
 Override failure handling behavior
-==================================
+----------------------------------
 
 You can override the default failure handling behavior for each test step manually in either **Manual view** or **Scripting view** of test case. 
 
-In Manual View
---------------
+### In Manual View
 
 1.  Right click on the step that you want to change the failure handling behavior to trigger its context menu  
     ![](../../images/katalon-studio/docs/failure-handling/image2017-8-18 15_13_36.png)  
@@ -39,8 +38,7 @@ In Manual View
     
 2.  Select the preferred failure handling option and save your test case.  
 
-In Scripting View
------------------
+### In Scripting View
 
 For all built-in keywords in Katalon Studio, you can add _FailureHandling_ as the last parameter.When editing a keyword in Scripting mode, use any of these option to specify its behavior.
 

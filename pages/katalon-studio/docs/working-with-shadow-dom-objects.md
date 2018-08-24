@@ -20,7 +20,7 @@ For example, the following test execution log shows Katalon Studio tried to find
 ![](../../images/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24 16_4_40.png)
 
 Limitation
-==========
+----------
 
 *   Only for **[Chrome](http://caniuse.com/#feat=shadowdom)** browser (53 to latest Version). Other browsers will be considered for future releases.
 *   Only allow 1 level of nested Shadow DOM parent

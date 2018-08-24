@@ -6,10 +6,9 @@ redirect_from: "/display/KD/Version+3.2.1"
 description: 
 ---
 Improvements
-============
+------------
 
-General
--------
+### General
 
 *   Auto detect JRE library based on JAVA_HOME on MAC
 *   Add 'Cancel' button to cancel delete action on references form
@@ -17,14 +16,12 @@ General
 *   \[Settings\] Config option for wrapping text in Manual Mode
 *   Display details warning messages with word wrapping format
 
-Mobility
---------
+### Mobility
 
 *   Refactor mobility code
 *   Fix 'openNotifications' and 'closeNotifications' keyword to work on specific MAC environment
 
-Test Case
----------
+### Test Case
 
 *   Automatically allow editing the Keyword cell after adding new keyword
 *   Improve code base for Test Case manual Mode
@@ -33,7 +30,7 @@ Test Case
 *   \[Script View\] Context Menu to apply Text Wrapping
 
 Fixed Bugs
-==========
+----------
 
 *   \[Log Viewer\] Test Case's status is marked as PASSED in case of using setUp/tearDown method and import wrong library
 *   \[Test Case\] 'Call Test Case' allow users to call current test case from object's form
@@ -43,7 +40,7 @@ Fixed Bugs
 *   Failed to select iOS .ipa file
 
 Customer Requests
-=================
+-----------------
 
 *   \[CoreInformatics\]\[Test Case\]  - Javadoc displayed wrong function in case custom keywords contained params with default values
 *   \[Core Informatics\] Support the ability to update browser's preferences directly in test script

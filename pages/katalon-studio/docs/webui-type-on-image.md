@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Type+On+Image"
 description: 
 ---
 Description
-===========
+-----------
 
 Type on an image on the web page.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td><span>TestObject</span></td><td>Required</td><td>Represent an image.</td></tr><tr><td><span>text</span></td><td><span>String&nbsp;</span></td><td>Required</td><td><span>Text to type on the image.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to type "Your text here" on "img_Logo".
 

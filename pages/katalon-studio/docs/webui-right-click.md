@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Right+Click"
 description: 
 ---
 Description
-===========
+-----------
 
 Right-click on the given element.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><p><span>Represent a web element.</span></p></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to right-click on 'Make Appointment' button.
 

@@ -8,7 +8,7 @@ description:
 A method consists of instructions to perform a specific task. Defined methods can be called for reused later. Refer to [Method Call Statements](/display/KD/Method+Call+Statements) for more details regarding how to call a defined method.
 
 Define a method in Manual view
-==============================
+------------------------------
 
 1.  Open a test case in **Manual** view, then select to add **Method** from command toolbar.  
     ![](../../images/katalon-studio/docs/define-method/image2017-6-30 20_45_48.png)  
@@ -31,8 +31,7 @@ Define a method in Manual view
     Once a test step is defined as **Method**, it will **not** be allowed to change into another keyword.
     
 
-SetUp() and TearDown() in Manual view
--------------------------------------
+### SetUp() and TearDown() in Manual view
 
 Automation testers usually want to specify prerequisite and clean-up configuration for their test cases.
 
@@ -45,7 +44,7 @@ This can be achieved using the setup() and teardown() methods. 
 The SetUp()/TearDown() methods will have **Error** status if there is any issue occurred during their execution. The only exception to this is when _AssertionError_ Class is used or the methods are skipped.
 
 Define a method in Scripting view
-=================================
+---------------------------------
 
 The **Script** view of a test case allows you to programmatically define and handle methods easily using either Groovy or Java language. Refer to [http://groovy-lang.org/structure.html#_methods](http://groovy-lang.org/structure.html#_methods) for details about methods in Groovy.
 
@@ -53,8 +52,7 @@ For example:
 
 ![](../../images/katalon-studio/docs/define-method/1.png)
 
-SetUp() and TearDown() in Scripting view
-----------------------------------------
+### SetUp() and TearDown() in Scripting view
 
 You can declare a method as setup() or teardown() method using the appropriated annotation above it:
 

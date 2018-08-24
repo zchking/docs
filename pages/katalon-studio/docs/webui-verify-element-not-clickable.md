@@ -10,22 +10,22 @@ This keyword only works with Element has **tag** _<input>_ with attribute **disa
 _![](../../images/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
 
 Description
-===========
+-----------
 
 Verify if the given element is NOT clickable. 
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td>TestObject</td><td>Required</td><td><div><p>&nbsp;</p><p><span>Represent a web element.</span></p></div></td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><p><strong>true: </strong>the element is present and NOT clickable.</p></li><li><strong>false: </strong>the element is present and clickable.</li></ul></td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to verify if 'Make Appointment' button is NOT clickable.
 

@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Verify+Image+Present"
 description: 
 ---
 Description 
-============
+------------
 
 Verify if an image is present on page.
 
 Parameters 
-===========
+-----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent an image.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns 
-========
+--------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li><p><span>true&nbsp;if the image if present.</span></p></li><li><p><span>false&nbsp;if the image is not present.</span><span>&nbsp;</span></p></li></ul></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to verify if "img_KatalonLogo" is present on page.
 

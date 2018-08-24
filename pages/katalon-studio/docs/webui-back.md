@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Back"
 description: 
 ---
 Description
-===========
+-----------
 
 Simulate users clicking "back" button on their browser.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to back to the previous page after successful navigation.
 

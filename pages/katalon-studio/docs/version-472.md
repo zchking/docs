@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Version+4.7.2"
 description: 
 ---
 JIRA Integration
-================
+----------------
 
 *   New icon on main toolbar to indicate status of JIRA integration and help users quickly access relevant function as needed.  
     ![](../../images/katalon-studio/docs/version-472/image2017-8-10 16_36_58.png)  

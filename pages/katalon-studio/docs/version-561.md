@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Version+5.6.1"
 description: 
 ---
 Hotfix release
-==============
+--------------
 
 Address the following issues:
 

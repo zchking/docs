@@ -6,24 +6,24 @@ redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Angular+Load"
 description: 
 ---
 Description
-===========
+-----------
 
 Wait for Angular/AJAX to load within the given time in second unit.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>ParamType</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>seconds</td><td>int</td><td>Required</td><td>&nbsp;The number of seconds to wait</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 **true** if Angular/AJAX is ready. Otherwise, **false**.
 
 > Checking of whether Angular/AJAX is loaded or used in your current web application is based on this [approach](http://www.swtestacademy.com/selenium-wait-javascript-angular-ajax/).
 
 Example
-=======
+-------
 
 Wait for Angular to ready on Angular site in 30 seconds.
 

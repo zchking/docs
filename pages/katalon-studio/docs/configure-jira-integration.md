@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Configure+JIRA+Integration"
 description: 
 ---
 Configuration
-=============
+-------------
 
 You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
 
@@ -28,7 +28,7 @@ You need to enable JIRA Integration in order to submit issues to JIRA. This sett
     
 
 Submit issue to JIRA
-====================
+--------------------
 
 Submit options will be available in Test Reports after JIRA Integration setup is done.
 

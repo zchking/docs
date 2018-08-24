@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Maximize+Window"
 description: 
 ---
 Description  
-=============
+-------------
 
 Resize the current window to take up the entire screen.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to maximize the window.
 

@@ -17,7 +17,8 @@ Below are listed locators for a mobile automation test:
 
 In order to use spy mobile to identify objects, the environment for mobile testing will need to be set up. Refer to [Installation and Setup](https://docs.katalon.com/display/KD/Installation+and+Setup) guide for more details. This demonstration utilizes the sample project provided by the Katalon Team, which comes with your product installation.
 
-### Identifying Object using Spy Mobile
+Identifying Object using Spy Mobile
+-----------------------------------
 
 *   **Step 1**: Click on Spy Mobile option from Katalon main toolbar. As shown below, Object Spy window will be displayed.
 

@@ -6,24 +6,24 @@ redirect_from: "/display/KD/%5BWebUI%5D+Verify+Options+Present"
 description: 
 ---
 Description
-===========
+-----------
 
 Verify if all expected options are present within the given test object.
 
 ![](../../images/katalon-studio/docs/webui-verify-options-present/label.jpg)
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>expectedOptions</td><td>List</td><td>Required</td><td>The list of all expected options for the given web element.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong>&nbsp;if all expected options are present.</li><li><strong>false:</strong>&nbsp;if <span>one of the expected options are NOT present.</span></li></ul></td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to verify if 'HongKong Cura Health Center' is present in the list.
 

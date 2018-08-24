@@ -8,7 +8,7 @@ description:
 A test suite contains a list of test cases that are intended for testing certain aspects of the application under test.
 
 Modify Execution Information
-============================
+----------------------------
 
 You can manage additional configurations for test suite execution by expanding the **Execution Information** section, as below:
 
@@ -17,7 +17,7 @@ You can manage additional configurations for test suite execution by expanding t
 <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><div><p>Page load timeout:</p><p>&nbsp;<span><img></span></p></div></td><td><div><p>The timeout period allowed to wait for a page to be loaded. You can choose among the following options:</p><ul><li><strong>Use default</strong>: the default value defined will be used. Refer to <a>Execution Preferences (Version 5.0 and below)</a> for more details.</li><li><strong>User-defined value</strong>: the entered timeout value (in seconds) will be used.</li></ul><p>&nbsp;</p></div></td></tr><tr><td><div><p>Retry:</p><p><span><img></span></p></div></td><td><div><p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases.</p><p>&nbsp;</p></div></td></tr><tr><td><div><p>Mail Recipients</p><p><span><img></span></p></div></td><td><div><p>The list of recipients who would receive the execution report once the test suite finishes its execution.</p><div><span></span><div><p>There’s also another list of recipients who will be receiving all the reports from Katalon by default. Refer to <a>Emails Settings</a> for more details.</p></div></div></div></td></tr><tr><td><div><p>Last run:</p><p><span><img></span></p></div></td><td><div><p>The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the <strong>Last run</strong> hyperlink.</p><p>&nbsp;</p></div></td></tr></tbody></table>
 
 Manage Test Case List
-=====================
+---------------------
 
 Using the Test Suite editor, you can add a test case into a test suite.
 
@@ -30,12 +30,11 @@ All test cases in Katalon Studio are displayed in the **Test Case Browser** dial
 The checkbox at the end of test case row is checked by default. It means that the test case will be executed when running a test suite.
 
 Data-Driven Testing
-===================
+-------------------
 
 Katalon Studio provides users the ability to define test data that can be used later when executing automation test. Refer to the [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more detailed information about this function. This section shows how to design your automation test using predefined test data.
 
-Test Data
----------
+### Test Data
 
 Using the test suite editor, you can add a predefined test data file object which will be used later in a test case execution by following the steps below:
 
@@ -63,7 +62,7 @@ Using the test suite editor, you can add a predefined test data file object whic
       
     
 
-### Manage test data relationship
+#### Manage test data relationship
 
 If you are specifying multiple test data, then you can further define the relationship among them to decide how the final data set used in the test execution will be. There are two types of relationship supported in Katalon Studio:
 
@@ -73,8 +72,7 @@ Therefore, we can have the following combinations among data sets:
 
 <table><thead><tr><th>Relationship</th><th>Example</th></tr></thead><tbody><tr><td>One to One</td><td><div><p>Given there are two data sets as below:</p><p><span><img></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1</li><li>a2 b2</li></ul></div></td></tr><tr><td>Many to Many</td><td><div><p>Given there are two data sets as below:</p><p><span><img></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1</li><li>a1 b2</li><li>a2 b1</li><li>a2 b2</li><li>a3 b1</li><li>a3 b2</li></ul></div></td></tr><tr><td>One to Many</td><td><div><p>Given there are two data sets as below:</p><p><span><img></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1</li><li>a2 b1</li><li>a3 b1</li><li>a4 b1</li><li>a1 b2</li><li>a2 b2</li><li>a3 b2</li><li>a4 b2</li></ul></div></td></tr><tr><td><div><p>Given there are three data sets as below:</p><p><span><img></span></p><p>Then the final data set used for test execution will be:</p><ul><li>a1 b1 c1</li><li>a1 b1 c2</li><li>a2 b2 c1</li><li>a2 b2 c2</li></ul></div></td></tr></tbody></table>
 
-Variable Binding
-----------------
+### Variable Binding
 
 If there’s any [public variable](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Publicvariables) defined in your test case, then you can manage variable binding for your test case executio--that is, to specify which value would be used for which variables during test execution.
 
@@ -88,7 +86,7 @@ Follow the steps below to manage variable binding for a test case within the te
       
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 11_55_3.png)
 
-### Bind Variable to Test Data
+#### Bind Variable to Test Data
 
 This option allows you to associate the variables with configured [Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data)[](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-TestData).
 
@@ -119,7 +117,7 @@ In the above example, the global variable _Username_ will look up to the column 
 > 
 > For example: the variables 'Username' and 'Password' of the selected test case can be mapped automatically with columns 'Username' and 'Password' of the test data by Katalon Studio when user clicks on the **Map All** button.
 
-### Bind to Scripting value
+#### Bind to Scripting value
 
 This option allows you to associate the variables with other scripting value.
 
@@ -131,6 +129,6 @@ This option allows you to associate the variables with other scripting value.
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31 15_21_10.png)
 
 Execute a Test Suite
-====================
+--------------------
 
 Executing a test suite is more or less the same as executing a test case. Refer to [this documentation](/display/KD/Execute+a+Test+Case+or+a+Test+Suite) for more details.

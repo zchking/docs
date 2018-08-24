@@ -10,7 +10,7 @@ description:
 ![](../../images/katalon-studio/docs/katalon-addon-for-chrome/image2017-11-8 14_56_19.png)
 
 Port Configuration
-==================
+------------------
 
 This configuration allows you to decide which port to be used for sending data between Katalon Automation Recorder and Katalon Studio.
 

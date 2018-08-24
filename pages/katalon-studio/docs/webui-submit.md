@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Submit"
 description: 
 ---
 Description
-===========
+-----------
 
 If the current element is a form or an element within a form, then this will be submitted. If this causes the current page to change, then this method will block until the new page is loaded.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td><span>TestObject</span></td><td><span>Required</span></td><td>Represent a web element.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span>ify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to submit a form after entering username and password.
 

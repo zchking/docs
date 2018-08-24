@@ -6,13 +6,15 @@ description: "Multi-Touch action appears often in gaming applications. We will u
 ---
 Multi-touch action appears often in gaming applications. We will use **MultiTouch Tester** app to demonstrate automation testing on this common behavior. Please download the app from [here](https://play.google.com/store/apps/details?id=com.the511plus.MultiTouchTester) or the direct apk file [here](https://www.appsapk.com/multitouch-tester/).
 
-### Scenario
+Scenario
+--------
 
 Perform multi-touch at 4 different points at the same time on **MultiTouch Tester** display.
 
 **![Handling Multi-touch Action in automation testing](../../images/katalon-studio/tutorials/handle_multi_touch_action/Handling-Multi-touch-Action.png)**
 
-### Manual Mode
+Manual Mode
+-----------
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input.** A new dialogue will appear. In appFile select **Value Type** as **Variable** and in **Value** passing the variable name as **path**.
 
@@ -33,7 +35,8 @@ Perform multi-touch at 4 different points at the same time on **MultiTouch Teste
 
 As you can see from the step-by-step guide above, there are repeated steps that will be easier to create in **Script Mode**. Thus, we suggest the users utilize this feature where one can quickly automate the test scenario and easily manage test scripts.
 
-### Script Mode
+Script Mode
+-----------
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject

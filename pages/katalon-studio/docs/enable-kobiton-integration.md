@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Enable+Kobiton+Integration"
 description: 
 ---
 Enable Kobiton Integration
-==========================
+--------------------------
 
 1.  Open Kobiton integration settings from the main menu at **Windows > Katalon Studio Preferences > Katalon > Kobiton**. Check on the **Enable Kobiton Integration** checkbox.  
     ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29 16_53_33.png)  

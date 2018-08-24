@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWS%5D+Verify+Element+Text"
 description: 
 ---
 Description
-===========
+-----------
 
 Verify that there is an element with expected text appeared in the returned data from a web service call.
 
 Parameters 
-===========
+-----------
 
 <table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>response&nbsp;</span></td><td><span>ResponseObject&nbsp;</span></td><td><span>Required</span></td><td><span>Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header)</span></td></tr><tr><td><span>locator&nbsp;</span></td><td><span>String&nbsp;</span></td><td><span>Required</span></td><td><span>An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it:&nbsp;</span><a>Handle Web Service Response object</a></td></tr><tr><td><span>text&nbsp;</span></td><td><span>String&nbsp;</span></td><td><span>Required</span></td><td><span>The expected text of element you want to verify in the responded data (usually is JSON/XML)</span></td></tr><tr><td><span>flowControl&nbsp;</span></td><td><span>FailureHandling&nbsp;</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 *   **true**, if your element text is found, otherwise; **false**.
 
 Example
-=======
+-------
 
 You want to verify converted weight after sending request is correct or not.
 

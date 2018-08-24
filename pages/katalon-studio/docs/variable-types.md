@@ -12,7 +12,7 @@ There are three types of variables supported in Katalon Studio, as below:
 Refer to the subsequence sections for how to define a variable of each type.
 
 Private variables
-=================
+-----------------
 
 Variables defined in **Scripting view** of Test Cases are classified as private variables. These variables will only be accessible within the scope of your Groovy class. For example:
 
@@ -29,7 +29,7 @@ Variables defined in **Scripting view** of Test Cases are classified as private 
 ```
 
 Local variables
-===============
+---------------
 
 You can manage the list of public variables of your test case by using the **Variables** tab in your **Test Case Editor**.
 
@@ -44,7 +44,7 @@ You can manage the list of public variables of your test case by using the **Var
 3.  Variables defined in this list can be utilized as parameters for the test case in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding))
 
 Global variables
-================
+----------------
 
 *   Only for version **5.3** and **below**.
 *   Since version **5.4** and **above**, Global Variables are called **Execution Profile**. For more details, refer to this [documentaion](https://docs.katalon.com/x/xAHR).

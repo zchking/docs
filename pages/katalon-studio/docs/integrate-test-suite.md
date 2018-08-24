@@ -8,7 +8,7 @@ description:
 The selected **Katalon test suites folder** must be registered in [**Test Suite Repositories** settings](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload the test suites within to qTest.
 
 Register qTest location for test suite
-======================================
+--------------------------------------
 
 1.  Navigate to the **Integration** tab of the test suite. Click on the **New parent** button.  
       
@@ -43,12 +43,11 @@ Register qTest location for test suite
     ![](../../images/katalon-studio/docs/integrate-test-suite/image2016-11-21 18_12_57.png)
 
 Upload test suites to qTest
-===========================
+---------------------------
 
 Katalon Studio test suites are usually uploaded automatically by selected options in **Creation Option** when registering.There is a way to upload Katalon Studio test suite manually. Below instruction shows how to do it for a single test suite or test suite folder:
 
-Upload single test suite
-------------------------
+### Upload single test suite
 
 1.  You have two methods to upload a **test suite** to predefined **qTest location**:  
       
@@ -73,8 +72,7 @@ Upload single test suite
       
     ![](../../images/katalon-studio/docs/integrate-test-suite/image2016-11-22 14_34_18.png)
 
-Upload test suite folder
-------------------------
+### Upload test suite folder
 
 1.  In the **Tests Explorer** view, right click on the test suite folder to trigger its context menu. Select the **qTest > Upload** option.
     
@@ -93,12 +91,11 @@ Upload test suite folder
     ![](../../images/katalon-studio/docs/integrate-test-suite/image2016-11-22 17_49_23.png)
 
 Disintegrate test suites
-========================
+------------------------
 
 Remove the integration between **Katalon test suites** and its registered **qTest locations**.
 
-Disintegrate a test suite from qTest
-------------------------------------
+### Disintegrate a test suite from qTest
 
 1.  You have two methods to remove the connection between a test suite and registered qTest locations:
     1.  Navigate to the **Integration** tab of the test suite. Select a **qTest location** and click on the **Disintegrate** button.  
@@ -109,8 +106,7 @@ Disintegrate a test suite from qTest
         
 2.  Click **OK** on the Confirmation dialog. The integration between this test suite and all registered qTest locations will be removed.
 
-Disintegrate a test suite folder from qTest
--------------------------------------------
+### Disintegrate a test suite folder from qTest
 
 You can remove the integration between a test suite folder (together with all its test suites) and all registered qTest locations by following the steps below:
 

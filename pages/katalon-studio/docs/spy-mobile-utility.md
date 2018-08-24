@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Spy+Mobile+Utility"
 description: 
 ---
 Capture objects using Spy Mobile Utility
-========================================
+----------------------------------------
 
 Before capturing test objects on the mobile application, make sure that you have successfully configured the environment for mobile testing. Refer to [Before You Start](/display/KD/Before+You+Start) for more details.
 

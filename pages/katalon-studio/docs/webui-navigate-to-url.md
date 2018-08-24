@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Navigate+to+Url"
 description: 
 ---
 Description
-===========
+-----------
 
 Navigate to the specified web page.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>rawUrl</td><td>String</td><td>Required</td><td><p>URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the&nbsp;the protocol<span>&nbsp;will be&nbsp;</span><a>http://.</a></p><p><span>Example:&nbsp;</span></p><ul><li><span>&nbsp;</span><a>http://katalon.com/;</a><span>&nbsp;</span></li><li><span>&nbsp;</span><a>https://www.google.com;</a><span>&nbsp;</span></li><li><span>f</span><span>ile:///D:Development/index.html;</span></li><li><span>kms-technology.com =&gt; http://kms-tecnology.com</span></li></ul></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to navigate to '[http://demoaut.katalon.com](http://demoaut.katalon.com)' website.
 

@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BMobile%5D+Get+Device+Width"
 description: 
 ---
 Description  
-=============
+-------------
 
 Get the device's physical width.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns 
-========
+--------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>int</td><td><span>Device's physical <span>width</span>.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to get mobile device's physical width, then store it into "width" variable.
 

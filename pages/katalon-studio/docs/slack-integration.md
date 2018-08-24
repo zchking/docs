@@ -6,7 +6,7 @@ redirect_from: "/display/KD/Slack+Integration"
 description: 
 ---
 General Settings
-================
+----------------
 
 You can receive Katalon Studio notifications for Slack by enabling Slack Integration. This setting is available at **Window > Katalon Studio Preferences > Katalon > Team Collaboration**.
 
@@ -31,7 +31,7 @@ You can receive Katalon Studio notifications for Slack by enabling Slack Integra
     
 
 Obtain Slack authentication token
-=================================
+---------------------------------
 
 Follow the steps below to obtain the Slack authentication token:
 
@@ -56,7 +56,7 @@ Follow the steps below to obtain the Slack authentication token:
 ![](../../images/katalon-studio/docs/slack-integration/Screen Shot 2018-08-06 at 1.07.16 PM.png)
 
 Verify posted messages in Slack
-===============================
+-------------------------------
 
 You can verify whether the messages are correctly sent to your Slack team space from your Katalon Studio, as below:
 

@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Image+Present"
 description: 
 ---
 Description
-===========
+-----------
 
 Wait for an image to be present on page.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent an image.</td></tr><tr><td><span>timeOutInSeconds&nbsp;</span></td><td><span>int&nbsp;</span></td><td>Required</td><td><span>Maximum period of time (in seconds) that system will wait to return result.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li>true&nbsp;if the image is presented.</li><li>false&nbsp;if the image is NOT presented.</li></ul></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to wait for "img_KatalonLogo" to be present on page.
 

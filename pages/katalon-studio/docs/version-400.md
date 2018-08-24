@@ -6,84 +6,73 @@ redirect_from: "/display/KD/Version+4.0.0"
 description: 
 ---
 New Features
-============
+------------
 
-Product Activation
-------------------
+### Product Activation
 
 Katalon now requires users to activate the application before using it.
 
 ![](../../images/katalon-studio/docs/version-400/image2016-9-7 17_54_17.png)
 
-Welcome Page
-------------
+### Welcome Page
 
 Add **'Welcome'** page which will be displayed everytime Katalon is started
 
 ![](../../images/katalon-studio/docs/version-400/image2016-9-7 11_37_5.png)
 
-Function Introduction
----------------------
+### Function Introduction
 
 Add **'Functions Introduction'** dialog which will be displayed first time after activation of Katalon
 
 ![](../../images/katalon-studio/docs/version-400/image2016-9-7 11_38_13.png)
 
-Sample Projects
----------------
+### Sample Projects
 
 You now have the option to select testing type on **'New Project**' dialog. Project template with pre-defined test artifacts will be created based on which testing type you have chosen.
 
 ![](../../images/katalon-studio/docs/version-400/image2016-8-28 10_6_4.png)![](../../images/katalon-studio/docs/version-400/image2016-8-28 10_6_14.png)
 
-External Libraries settings
----------------------------
+### External Libraries settings
 
 External Libraries can now be added to Katalon through **Project -> Settings -> External Libraries**
 
 ![](../../images/katalon-studio/docs/version-400/image2016-8-28 9_50_44.png)
 
-GIT Integration
----------------
+### GIT Integration
 
 Katalon Studio now support [GIT Integration](/pages/viewpage.action?pageId=2261849)
 
 ![](../../images/katalon-studio/docs/version-400/image2016-9-7 12_44_51.png)
 
-Checkpoint
-----------
+### Checkpoint
 
 Add new test artifact: [Checkpoint](/pages/viewpage.action?pageId=2261817)
 
 ![](../../images/katalon-studio/docs/version-400/image2016-9-7 12_43_24.png)
 
 Improvements
-============
+------------
 
-General
--------
+### General
 
 1.  Update ChromeDriver's version to 2.23
 2.  Include JRE8 into Katalon's application. You don't need to setup Java environment anymore
 3.  Improve performance when opening test case
 4.  Add dialog message to warn users about NodeJS and Appium if they haven't set it up properly
 
-Test Explorers
---------------
+### Test Explorers
 
 Display test artifact's information when hovering mouse on it:
 
 ![](../../images/katalon-studio/docs/version-400/image2016-9-7 20_50_5.png)
 
-Test Case
----------
+### Test Case
 
 1.  Add **'Keyword Description'** link in Javadoc dialog. It will open [keyword's description](http://docs.katalon.com/display/KD/Keyword+Index) page with more details of how to use that keyword  
     ![](../../images/katalon-studio/docs/version-400/image2016-8-28 9_52_28.png)
 2.  Reduce code complexity in scripting mode. 
 
-Settings
---------
+### Settings
 
 ** 1. **Add option on 'Execution' settings to let Katalon terminate all running drivers after execution or not. Default option will be UNCHECKED
 
@@ -93,8 +82,7 @@ Settings
 
 ![](../../images/katalon-studio/docs/version-400/image2016-8-28 10_59_43.png)
 
-Record/Spy
-----------
+### Record/Spy
 
 1.  **'Add'** and **'Delete'** button is added on Record dialog  
     ![](../../images/katalon-studio/docs/version-400/image2016-8-28 9_55_52.png)  
@@ -109,8 +97,7 @@ Record/Spy
           
         
 
-Mobile Object Spy
------------------
+### Mobile Object Spy
 
 Improve 'Mobile Object Spy':
 
@@ -124,7 +111,7 @@ Improve 'Mobile Object Spy':
         ![](../../images/katalon-studio/docs/version-400/image2016-8-28 11_59_48.png)
 
 Fixed Bugs
-==========
+----------
 
 *   \[Test Case\] Can't edit Object and Input value on manual mode when input value's type is not matched with current built-in keyword
 *   \[Test Case\] 'Item' field is not highlighted with gray color as disabled step
@@ -150,6 +137,6 @@ Fixed Bugs
 *   \[Object Spy\] Object spy is not working on Firefox 48+
 
 Other Changes
-=============
+-------------
 
 Replace** <type>SCRIPT<type>** to **<type>SCRIPT_VARIABLE</type>** in test suite (.ts) file.

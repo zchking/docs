@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Switch+To+Frame"
 description: 
 ---
 Description
-===========
+-----------
 
 Switch the current context into an iframe.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td><span>timeOut&nbsp;</span></td><td><span>Integer</span></td><td>Required</td><td><span>Maximum period of time (in seconds) that system will wait to return result</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 *   **true** if the current context is switched to the iframe.
     
@@ -24,7 +24,7 @@ Returns
     
 
 Example 
-========
+--------
 
 You want to switch to "ifr_TextArea" iframe (timeout 5 seconds) to set a text to the textarea.
 

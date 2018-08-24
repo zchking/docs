@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Take+Screenshot"
 description: 
 ---
 Description  
-=============
+-------------
 
 Take a screenshot of the browser.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>fileName</td><td>String</td><td>Optional</td><td>The captured file path.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 1.  You want to take a screenshot of the current browser after logging in and store it in the temp folder
 

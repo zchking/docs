@@ -6,7 +6,7 @@ redirect_from: "/pages/viewpage.action?pageId=13697545"
 description: 
 ---
 RESTful Request
-===============
+---------------
 
 Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed where you can input your RESTful URL directly on this dialog.  
 ![](../../images/katalon-studio/docs/restful-latest/image2018-4-1 18_11_47.png)  
@@ -35,12 +35,11 @@ where:
 <table><thead><tr><th><div>Field</div></th><th><div>Description</div></th></tr></thead><tbody><tr><td>Request method</td><td><span>The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: GET, POST, PUT, DELETE.</span></td></tr><tr><td>Request URL</td><td>The URL registered for the RESTful web services.</td></tr><tr><td>Parameters</td><td>Any parameter to be passed along with the RESTful request object. These values are generated automatically based on the Request URL or can be manually added.</td></tr><tr><td><div><p>Authorization</p></div></td><td><div><p>Credentials for HTTP authentication.&nbsp;</p><p>Type:&nbsp;<strong>Basic, OAuth 1.0,&nbsp;</strong>or&nbsp;<strong>No Authorization</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p></div></td></tr><tr><td>HTTP Headers</td><td><div><p>The header information to be included to transmit in the RESTful request object. '<strong>Content-Type</strong>' value is generated automatically based on the HTTP Body.</p><p>You can also select headers from the list of suggested options (by double-clicking on the&nbsp;<strong>Name</strong>&nbsp;cell) or enter another header of your interest. Refer to&nbsp;<a>Supported HTTP Headers</a>&nbsp;for more details.</p></div></td></tr><tr><td>HTTP Body</td><td><div><p>The body information to be included to transmit in the RESTful request object. Katalon Studio supports the following transmit types:</p><ul><li>Text</li><li>x-www-form-urlencoded</li><li>form-data</li><li>file</li></ul><p>And the following format types:</p><ul><li>Text</li><li>JSON</li><li>XML</li><li>HTML</li><li>Javascript</li></ul><p><span><img></span></p></div></td></tr></tbody></table>
 
 RESTful Response
-================
+----------------
 
 Since version 5.4, Katalon Studio provides Web Services Response in a separate window pane, which contains more details information of the Request as shown below
 
-Body
-----
+### Body
 
 ![](../../images/katalon-studio/docs/restful-latest/image2018-4-1 19_4_42.png)
 
@@ -62,8 +61,7 @@ At the bottom of the** Body** section, different types of Response format can 
 *   HTML
 *   JavaScript
 
-Header
-------
+### Header
 
 The response's header information is displayed in the **Header** tab
 

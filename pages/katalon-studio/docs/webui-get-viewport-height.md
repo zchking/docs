@@ -6,22 +6,22 @@ redirect_from: "/display/KD/%5BWebUI%5D+Get+Viewport+Height"
 description: 
 ---
 Description  
-=============
+-------------
 
 Get current viewport's height value.
 
 Parameters  
-============
+------------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a>failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Returns
-=======
+-------
 
 <table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>int</span></td><td><p><span>Current viewport's height.</span></p></td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to get viewport height value of web browser. The output is stored in variable "viewport_height".
 

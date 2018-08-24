@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BWebUI%5D+Drag+And+Drop+To+Object"
 description: 
 ---
 Description
-===========
+-----------
 
 Drag an object and drop it onto another object.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>sourceObject</span></td><td>TestObject</td><td>Required</td><td><p><span>The source object.</span></p></td></tr><tr><td>destinationObject</td><td>TestObject</td><td>Required</td><td>The destination object.</td></tr><tr><td><span>flowControl</span></td><td>FailureHandling</td><td>Optional</td><td>Specify <a>failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
-=======
+-------
 
 You want to drag 'Drop me to target' div and drop it to 'Drop here' div
 

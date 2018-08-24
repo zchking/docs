@@ -6,7 +6,7 @@ redirect_from: "/display/KD/%5BWebUI%5D+Set+Encrypted+Text"
 description: 
 ---
 Description
-===========
+-----------
 
 Set encrypted text into an input field. It also clears the previous value of the input field. To encrypt raw text, go to **Help > Encrypt Text**.
 
@@ -19,12 +19,12 @@ The pop-up dialog has been shown when calling keyword “**Set Encrypted Text**�
 Go to **Help > Encrypt Text**, input raw text to encrypt. Next, copy and paste encrypted text into the test scripts.
 
  Parameters
-===========
+-----------
 
 <table><thead><tr><th><div>Param</div></th><th><div>Param Type</div></th><th><div>Mandatory</div></th><th><div>Description</div></th></tr></thead><tbody><tr><td><span>to&nbsp;</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td><span>Represent a web element.</span></td></tr><tr><td><span>text</span></td><td><span>String</span></td><td><span><span>Required</span></span></td><td><span><span><span>The encrypted text.</span></span></span></td></tr><tr><td><span><span>flowControl</span></span></td><td><span><span>FailureHandling</span></span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
 
 Example
-=======
+-------
 
 Set the encrypted text to txt_Password of a login form.
 

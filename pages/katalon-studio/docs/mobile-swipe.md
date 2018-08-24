@@ -6,17 +6,17 @@ redirect_from: "/display/KD/%5BMobile%5D+Swipe"
 description: 
 ---
 Description
-===========
+-----------
 
 Simulate swiping fingers on the mobile device.
 
 Parameters
-==========
+----------
 
 <table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th><th>Note</th></tr></thead><tbody><tr><td>startX</td><td>int</td><td>Required</td><td>Starting x position</td><td>&nbsp;</td></tr><tr><td>startY</td><td>int</td><td>Required</td><td>Starting y position</td><td>&nbsp;</td></tr><tr><td>endX</td><td>int</td><td>Required</td><td>Ending x position</td><td>Since 5.1.0.2:<br>Relative x position of startX</td></tr><tr><td>endY</td><td>int</td><td>Required</td><td>Ending y position</td><td>Since 5.1.0.2<br>Relative y position of start Y</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a>failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td><td>&nbsp;</td></tr></tbody></table>
 
 Example 
-========
+--------
 
 You want to swipe from (200,300) position to (400,600) position on current screen.
 
