@@ -2,6 +2,7 @@
 title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html 
+redirect_from: "/pages/viewpage.action?pageId=13698416" 
 description: 
 ---
 There will be cases that Katalon Studio failed to start Chrome or Firefox when you run Record/Spy. The only way to retrieve its logs directly is using the approach below:

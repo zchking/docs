@@ -2,6 +2,7 @@
 title: "[WebUI] Switch To Window Index" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-switch-to-window-index.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Switch+To+Window+Index" 
 description: 
 ---
 Description  

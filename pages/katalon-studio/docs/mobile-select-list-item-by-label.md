@@ -2,6 +2,7 @@
 title: "[Mobile] Select List Item By Label" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-select-list-item-by-label.html 
+redirect_from: "/display/KD/%5BMobile%5D+Select+List+Item+By+Label" 
 description: 
 ---
 Description

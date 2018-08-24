@@ -2,6 +2,7 @@
 title: "Parameterize Web/Mobile Test Object Properties" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/parameterize-webmobile-test-object-properties.html 
+redirect_from: "/pages/viewpage.action?pageId=12419075" 
 description: 
 ---
 Warning

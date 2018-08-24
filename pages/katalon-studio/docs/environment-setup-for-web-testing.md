@@ -2,6 +2,7 @@
 title: "Environment Setup for Web Testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/environment-setup-for-web-testing.html 
+redirect_from: "/display/KD/Environment+Setup+for+Web+Testing" 
 description: 
 ---
 *   [Internet Explorer Configurations](/display/KD/Internet+Explorer+Configurations)

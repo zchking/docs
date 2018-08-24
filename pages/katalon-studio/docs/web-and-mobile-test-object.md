@@ -2,6 +2,7 @@
 title: "Web and Mobile Test Object" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-and-mobile-test-object.html 
+redirect_from: "/display/KD/Web+and+Mobile+Test+Object" 
 description: 
 ---
 *   [Manage Test Object](/display/KD/Manage+Test+Object)

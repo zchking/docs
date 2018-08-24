@@ -2,6 +2,7 @@
 title: "[Mobile] Drag And Drop" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-drag-and-drop.html 
+redirect_from: "/display/KD/%5BMobile%5D+Drag+And+Drop" 
 description: 
 ---
 Description

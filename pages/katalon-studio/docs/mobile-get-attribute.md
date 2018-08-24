@@ -2,6 +2,7 @@
 title: "[Mobile] Get Attribute" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-attribute.html 
+redirect_from: "/display/KD/%5BMobile%5D+Get+Attribute" 
 description: 
 ---
 Description  

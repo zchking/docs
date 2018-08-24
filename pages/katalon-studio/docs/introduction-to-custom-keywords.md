@@ -2,6 +2,7 @@
 title: "Introduction to Custom Keywords" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/introduction-to-custom-keywords.html 
+redirect_from: "/display/KD/Introduction+to+Custom+Keywords" 
 description: 
 ---
 In addition to built-in keywords, users can define custom keywords to extend the capability of Katalon Studio. Once created, custom keywords can be used when implementing test cases just like other built-in keywords. 

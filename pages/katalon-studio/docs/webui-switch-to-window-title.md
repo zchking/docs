@@ -2,6 +2,7 @@
 title: "[WebUI] Switch To Window Title" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-switch-to-window-title.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Switch+To+Window+Title" 
 description: 
 ---
 Description  

@@ -2,6 +2,7 @@
 title: "Design a Test Suite" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/design-a-test-suite.html 
+redirect_from: "/display/KD/Design+a+Test+Suite" 
 description: 
 ---
 A test suite contains a list of test cases that are intended for testing certain aspects of the application under test.

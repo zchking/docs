@@ -2,6 +2,7 @@
 title: "[WebUI] Get All Links On Current Page" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-all-links-on-current-page.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Get+All+Links+On+Current+Page" 
 description: 
 ---
 Description

@@ -2,6 +2,7 @@
 title: "[Mobile] Switch To Portrait" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-switch-to-portrait.html 
+redirect_from: "/display/KD/%5BMobile%5D+Switch+To+Portrait" 
 description: 
 ---
 Description  

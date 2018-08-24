@@ -2,6 +2,7 @@
 title: "Parameterize a Web Service Object" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/parameterize-a-web-service-object.html 
+redirect_from: "/display/KD/Parameterize+a+Web+Service+Object" 
 description: 
 ---
 Since version 5.4

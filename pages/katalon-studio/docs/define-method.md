@@ -2,6 +2,7 @@
 title: "Define method" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/define-method.html 
+redirect_from: "/display/KD/Define+method" 
 description: 
 ---
 A method consists of instructions to perform a specific task. Defined methods can be called for reused later. Refer to [Method Call Statements](/display/KD/Method+Call+Statements) for more details regarding how to call a defined method.

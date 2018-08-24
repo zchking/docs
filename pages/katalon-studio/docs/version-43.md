@@ -2,6 +2,7 @@
 title: "Version 4.3" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-43.html 
+redirect_from: "/display/KD/Version+4.3" 
 description: 
 ---
 Object Spy

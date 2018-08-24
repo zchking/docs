@@ -2,6 +2,7 @@
 title: "[WebUI] Verify Element Not Has Attribute" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-element-not-has-attribute.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Verify+Element+Not+Has+Attribute" 
 description: 
 ---
 Description

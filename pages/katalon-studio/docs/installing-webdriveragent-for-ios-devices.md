@@ -2,6 +2,7 @@
 title: "Installing WebDriverAgent for iOS devices" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/installing-webdriveragent-for-ios-devices.html 
+redirect_from: "/display/KD/Installing+WebDriverAgent+for+iOS+devices" 
 description: 
 ---
 > Warning

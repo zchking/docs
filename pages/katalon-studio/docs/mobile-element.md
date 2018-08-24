@@ -2,6 +2,7 @@
 title: "[Mobile] Element" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-element.html 
+redirect_from: "/display/KD/%5BMobile%5D+Element" 
 description: 
 ---
 *   [\[Mobile\] Check Element](/display/KD/%5BMobile%5D+Check+Element)

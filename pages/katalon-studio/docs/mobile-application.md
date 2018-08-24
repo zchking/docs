@@ -2,6 +2,7 @@
 title: "[Mobile] Application" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-application.html 
+redirect_from: "/display/KD/%5BMobile%5D+Application" 
 description: 
 ---
 *   [\[Mobile\] Close Application](/display/KD/%5BMobile%5D+Close+Application)

@@ -2,6 +2,7 @@
 title: "RESTful (latest)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/restful-latest.html 
+redirect_from: "/pages/viewpage.action?pageId=13697545" 
 description: 
 ---
 RESTful Request

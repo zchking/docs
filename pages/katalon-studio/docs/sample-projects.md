@@ -2,6 +2,7 @@
 title: "Sample Projects" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/sample-projects.html 
+redirect_from: "/display/KD/Sample+Projects" 
 description: 
 ---
 To help you get familiar with Katalon Studio, the Katalon Team has created various sample projects packaged with your installation and available on GitHub. 

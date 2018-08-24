@@ -2,6 +2,7 @@
 title: "[WebUI] Image" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-image.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Image" 
 description: 
 ---
 *   [\[WebUI\] Click Image](/display/KD/%5BWebUI%5D+Click+Image)

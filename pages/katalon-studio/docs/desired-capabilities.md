@@ -2,6 +2,7 @@
 title: "Desired Capabilities" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities.html 
+redirect_from: "/display/KD/Desired+Capabilities" 
 description: 
 ---
 *   [Introduction to Desired Capabilities](/display/KD/Introduction+to+Desired+Capabilities)

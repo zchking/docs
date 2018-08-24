@@ -2,6 +2,7 @@
 title: "[Common] Comment" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-comment.html 
+redirect_from: "/display/KD/%5BCommon%5D+Comment" 
 description: 
 ---
 Description  

@@ -2,6 +2,7 @@
 title: "[Mobile] Text" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-text.html 
+redirect_from: "/display/KD/%5BMobile%5D+Text" 
 description: 
 ---
 *   [\[Mobile\] Clear Text](/display/KD/%5BMobile%5D+Clear+Text)

@@ -2,6 +2,7 @@
 title: "[WebUI] Wait For Page Load" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-page-load.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Page+Load" 
 description: 
 ---
 Description

@@ -2,6 +2,7 @@
 title: "Binary Statements" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/binary-statements.html 
+redirect_from: "/display/KD/Binary+Statements" 
 description: 
 ---
 Binary Statements represent expressions consist of two **operand**s (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !...).

@@ -2,6 +2,7 @@
 title: "Installation and Setup" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/installation-and-setup.html 
+redirect_from: "/display/KD/Installation+and+Setup" 
 description: 
 ---
 *   [Before You Start](/display/KD/Before+You+Start)

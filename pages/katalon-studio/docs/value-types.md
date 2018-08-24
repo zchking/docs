@@ -2,6 +2,7 @@
 title: "Value Types" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/value-types.html 
+redirect_from: "/display/KD/Value+Types" 
 description: 
 ---
 While designing automation test in Katalon Studio, users usually need to configure data for certain test steps, such as:

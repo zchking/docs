@@ -2,6 +2,7 @@
 title: "Execute Windows commands" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execute-windows-commands.html 
+redirect_from: "/display/KD/Execute+Windows+commands" 
 description: 
 ---
 To execute Windows command line, simply use this script in your test case:

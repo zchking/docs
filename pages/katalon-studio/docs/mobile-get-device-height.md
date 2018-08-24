@@ -2,6 +2,7 @@
 title: "[Mobile] Get Device Height" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-device-height.html 
+redirect_from: "/display/KD/%5BMobile%5D+Get+Device+Height" 
 description: 
 ---
 Description  

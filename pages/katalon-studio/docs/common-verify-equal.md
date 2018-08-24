@@ -2,6 +2,7 @@
 title: "[Common] Verify Equal" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-equal.html 
+redirect_from: "/display/KD/%5BCommon%5D+Verify+Equal" 
 description: 
 ---
 Description 

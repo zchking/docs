@@ -2,6 +2,7 @@
 title: "Katalon Analytics (Beta) Integration" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-analytics-beta-integration.html 
+redirect_from: "/display/KD/Katalon+Analytics+%28Beta%29+Integration" 
 description: 
 ---
 [Katalon Analytics (Beta)](/display/KA) is a cloud-based application provides in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon Analytics supports integration with Katalon Studio for better test report management.

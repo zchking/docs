@@ -2,6 +2,7 @@
 title: "Variable Types" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/variable-types.html 
+redirect_from: "/display/KD/Variable+Types" 
 description: 
 ---
 There are three types of variables supported in Katalon Studio, as below:

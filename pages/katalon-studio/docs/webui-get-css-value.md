@@ -2,6 +2,7 @@
 title: "[WebUI] Get CSS Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-css-value.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Get+CSS+Value" 
 description: 
 ---
 Description

@@ -2,6 +2,7 @@
 title: "[WebUI] Browser" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-browser.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Browser" 
 description: 
 ---
 *   [\[WebUI\] Authenticate](/display/KD/%5BWebUI%5D+Authenticate)

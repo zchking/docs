@@ -2,6 +2,7 @@
 title: "Web UI" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-ui.html 
+redirect_from: "/display/KD/Web+UI" 
 description: 
 ---
 *   [\[WebUI\] Alert](/display/KD/%5BWebUI%5D+Alert)

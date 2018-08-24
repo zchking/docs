@@ -2,6 +2,7 @@
 title: "Setup/Teardown for Test Suite and Test Case" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html 
+redirect_from: "/pages/viewpage.action?pageId=12419091" 
 description: 
 ---
 > Available since Katalon Studio v5.3

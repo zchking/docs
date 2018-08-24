@@ -2,6 +2,7 @@
 title: "[WebUI] Alert" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-alert.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Alert" 
 description: 
 ---
 *   [\[WebUI\] Accept Alert](/display/KD/%5BWebUI%5D+Accept+Alert)

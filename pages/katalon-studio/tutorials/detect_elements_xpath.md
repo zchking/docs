@@ -43,12 +43,14 @@ Identifying XPath is an effective way to find nested elements which can’t be i
 
 The example below illustrates how Katalon Studio generates and optimizes XPath automatically when you spy on the **Sign up now** object (a nested object).
 
+![detecting elements with Xpath by Katalon Studio](../../images/katalon-studio/tutorials/detect_elements_xpath/Sign-up-now.png)
+
 Deal with dynamically changing elements
 ---------------------------------------
 
 One of the challenging and time-consuming tasks in test automation is to modify test scripts when the AUT is changed, especially in the early stages of software development. Developers may change identifiers and elements quite often from one build to another. In addition, during the execution, the AUT’s elements may change dynamically.
 
-To deal with these challenges, automation testers should not set fixed XPaths for elements in test cases, but instead scripting XPaths dynamically based on certain patterns. Katalon Studio supports all **Xpath Axes**, such as
+To deal with these challenges, automation testers should not set fixed XPaths for elements in test cases, but instead scripting XPaths dynamically based on certain patterns. Katalon Studio supports all **[Xpath Axes](https://www.w3schools.com/xml/xpath_axes.asp)**, such as
 
 *   following-sibling
 *   preceding-sibling
@@ -60,6 +62,6 @@ Here are a few examples:
 
 <table><thead><tr><th>Xpath value</th><th>Description</th></tr></thead><tbody><tr><td><span>.//h2[text()=’Make Appointment’]</span></td><td><span>Locate the </span><b>h2</b><span> tag element that has text matching exactly “Make Appointment”</span></td></tr><tr><td><span>//*[contains(text(),’Login’)]</span></td><td><span>Locate any element that contains the text “Login”</span></td></tr><tr><td><span>//a[starts-with(@id=’LoginPanel’)]</span></td><td><span>Locate the </span><b>a</b><span> tag element that has the ID starting with “LoginPanel”</span></td></tr></tbody></table>
 
-Next article “Generating reliable object selector using Spy Web utility” will show you how to input and edit XPath or CSS object to identify objects on Web UI via Spy Web Utility
+Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 
-For more information on XPath Axes, refer to **XPath Axes** from **www.w3schools.com**.
+For more information on XPath Axes, refer to **[XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp)** from **[www.w3schools.com](https://www.w3schools.com)**.

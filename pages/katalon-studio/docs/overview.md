@@ -2,6 +2,7 @@
 title: "Overview" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/overview.html 
+redirect_from: "/display/KD/Overview" 
 description: 
 ---
 Katalon Studio is a simple and powerful automation solution built for testers everywhere. Katalon Studio revolutionizes the use of open-source test automation frameworks such as Selenium and Appium by eliminating their technical complexities to allow developers and QAs to efficiently set up, create, run, report, and manage their automated tests. It also offers a viable alternative to commercial test automation solutions that are not affordable to many small and medium-sized teams.

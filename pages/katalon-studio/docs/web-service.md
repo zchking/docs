@@ -2,6 +2,7 @@
 title: "Web Service" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-service.html 
+redirect_from: "/display/KD/Web+Service" 
 description: 
 ---
 **List of built-in keywords used for web service testing**

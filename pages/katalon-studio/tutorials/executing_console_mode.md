@@ -11,6 +11,8 @@ Execute Katalon in CMD
 
 1\. Open the command prompt and navigate to the Katalon Studio folder that contains **katalon.exe** file. For example:
 
+![open Katalon.exe](../../images/katalon-studio/tutorials/executing_console_mode/command-prompt.png)
+
 2\. Enter the following syntax to execute automation test:
 
 ```groovy
@@ -46,16 +48,18 @@ Command Builder
 ---------------
 
 Instead of typing directly in the command prompt, you can quickly generate commands to execute test suites by following the steps below:    
-1\. Click on **Build CMD** from the main toolbar.
+1\. Click on **Build CMD** from the main toolbar.  
+![Build CMD Katalon Studio](../../images/katalon-studio/tutorials/executing_console_mode/Build-CMD.png)
 
 2\. The **Generate Command for Console Mode** dialog is displayed as below. Configure your options as needed.
 
-  
+![Generate Command for Console Mode](../../images/katalon-studio/tutorials/executing_console_mode/Generate-Command-for-Console-Mode.png)  
 This dialog has the following options:
 
 <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td><span>Test Suite</span></td><td><span>The Test Suite or Test Suite Collection to be executed</span></td></tr><tr><td><span>Executed Platform</span></td><td><p><span>The platform used to execute the test:</span></p><p><img></p><p><b>Remote Web Driver URL</b><span>&nbsp;is&nbsp;enabled if&nbsp;you choose to run with a&nbsp;</span><b>Remote</b><span>&nbsp;option.</span></p><p><b>Mobile Device</b><span>&nbsp;is enabled if you choose to run with&nbsp;</span><b>Android</b><span>&nbsp;or&nbsp;</span><b>iOS</b><span>.</span></p><p><b>Custom Execution</b><span>&nbsp;is enabled if you choose to run with&nbsp;</span><b>Custom&nbsp;</b><span>option.</span></p></td></tr><tr><td><span>Report Configuration</span></td><td><p><span>Extra settings for&nbsp;report&nbsp;after the execution is completed:</span></p><p><img></p><p><b>Output Location</b><span>: the local folder to export the report.</span></p><p><b>Use relative path to current project</b><span>: display the relative path to the output location, starting from the current project location.</span></p><p><b>Report File Name</b><span>: the name for your generated report.</span></p><p><b>Send Summary Report to recipients below</b><span>: enable sending the summary report to recipients who emails are specified Mail Recipients.</span></p></td></tr><tr><td><span>Other Options</span></td><td><img></td></tr></tbody></table>
 
 3\. Click on **Generate Command **after you complete the configuration. The command is generated and shown in a dialog as below  
+![Generate Command Katalon Studio](../../images/katalon-studio/tutorials/executing_console_mode/Generate-Command.png)
 
 4\. You can **Copy to Clipboard** and paste it into the command prompt for execution.
 
@@ -65,8 +69,9 @@ Use console.properties file
 Instead of specifying command settings for each execution, you can place all settings in the **console.properties** and use this file in the command prompt. This file can be generated using the same Command Builder as above.  
 1\. Generate **console.properties** file using Command Builder
 
-  
+![Command Builder Katalon Studio](../../images/katalon-studio/tutorials/executing_console_mode/console.properties.png)  
 2\. The **console.properties** file will be generated to your preferred location. You can open and update the parameters manually as needed.For example:  
+![open and update the parameters manually](../../images/katalon-studio/tutorials/executing_console_mode/console_properties.png)
 
 3\. Run the **console.properties** file in the console mode using the following syntax:
 

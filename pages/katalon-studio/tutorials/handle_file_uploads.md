@@ -21,6 +21,8 @@ Steps:
 
 **Manual Mode**:
 
+![Handle File Uploads testing Manual Mode](../../images/katalon-studio/tutorials/handle_file_uploads/Handle-File-Uploads-Manual-Mode-1024x167.png)
+
 We can also use the **script mode**. Below script is the code to upload a file and validate the uploaded file.
 
 **Script Mode:**
@@ -55,6 +57,8 @@ Steps:
 
 **Manual Mode:**
 
+![File Uploads using send key](../../images/katalon-studio/tutorials/handle_file_uploads/Sendkeys_Upload_file_Manual-1024x208.png)
+
 **Script Mode:**
 
 ```groovy
@@ -82,6 +86,8 @@ Verify a Downloaded File
 After downloading a file from the application we need to verify whether the file is successfully downloaded and saved in a folder.
 
 For that, we need to set preferences for Firefox, as shown in the Image below.
+
+![Verify a Downloaded file](../../images/katalon-studio/tutorials/handle_file_uploads/Verify-a-Downloaded-File.png)
 
 **Script Mode:**
 
@@ -132,6 +138,6 @@ return flag
 
 ```
 
-We have just learned how to handle file uploads and verify downloaded files using Katalon Studio. You can download the source code here.
+We have just learned how to handle file uploads and verify downloaded files using Katalon Studio. You can download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to Upload File guideline.
+For further instructions and help, please refer to [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) guideline.

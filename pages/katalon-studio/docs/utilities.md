@@ -2,6 +2,7 @@
 title: "Utilities" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/utilities.html 
+redirect_from: "/display/KD/Utilities" 
 description: 
 ---
 *   [\[Common\] Call Test Case](/display/KD/%5BCommon%5D+Call+Test+Case)

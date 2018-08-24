@@ -2,6 +2,7 @@
 title: "Upload test execution" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/upload-test-execution.html 
+redirect_from: "/display/KD/Upload+test+execution" 
 description: 
 ---
 In order for a test execution to be uploaded to qTest, the following conditions need to be fulfilled:

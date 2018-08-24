@@ -2,6 +2,7 @@
 title: "Use additional desired capabilities for Kobiton devices" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html 
+redirect_from: "/display/KD/Use+additional+desired+capabilities+for+Kobiton+devices" 
 description: 
 ---
 > Prerequisites

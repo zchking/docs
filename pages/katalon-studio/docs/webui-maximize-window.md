@@ -2,6 +2,7 @@
 title: "[WebUI] Maximize Window" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-maximize-window.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Maximize+Window" 
 description: 
 ---
 Description  

@@ -2,6 +2,7 @@
 title: "Handling Databases" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handling-databases.html 
+redirect_from: "/display/KD/Handling+Databases" 
 description: 
 ---
 With custom keywords, you can connect to a database as well as perform other data queries. 

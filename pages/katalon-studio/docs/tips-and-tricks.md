@@ -2,6 +2,7 @@
 title: "Tips and Tricks" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/tips-and-tricks.html 
+redirect_from: "/display/KD/Tips+and+Tricks" 
 description: 
 ---
 > List of quick tips and tricks from users on [Forum](https://forum.katalon.com/discussions) and also from us.
@@ -14,6 +15,7 @@ description:
 *   [Create Global Variables on the fly](/display/KD/Create+Global+Variables+on+the+fly)
 *   [Creation of Test Object in Object Repository in Runtime](/display/KD/Creation+of+Test+Object+in+Object+Repository+in+Runtime)
 *   [Execute Windows commands](/display/KD/Execute+Windows+commands)
+*   [Execute Xpath functions](/display/KD/Execute+Xpath+functions)
 *   [Force stop execution](/display/KD/Force+stop+execution)
 *   [Get generated Reports location at runtime](/display/KD/Get+generated+Reports+location+at+runtime)
 *   [Get SQL query results as variables](/display/KD/Get+SQL+query+results+as+variables)
@@ -36,7 +38,6 @@ description:
 *   [Type @ character on Internet Explorer](/display/KD/Type+@+character+on+Internet+Explorer)
 *   [Update SQL query in a Test Data dynamically](/display/KD/Update+SQL+query+in+a+Test+Data+dynamically)
 *   [Use additional desired capabilities for Kobiton devices](/display/KD/Use+additional+desired+capabilities+for+Kobiton+devices)
+*   [Using Regex in Katalon Studio](/display/KD/Using+Regex+in+Katalon+Studio)
 *   [Verify placeholder of a field](/display/KD/Verify+placeholder+of+a+field)
 *   [Write data into Excel file at runtime during test execution](/display/KD/Write+data+into+Excel+file+at+runtime+during+test+execution)
-*   [Execute Xpath functions](/display/KD/Execute+Xpath+functions)
-*   [Using Regex in Katalon Studio](/display/KD/Using+Regex+in+Katalon+Studio)

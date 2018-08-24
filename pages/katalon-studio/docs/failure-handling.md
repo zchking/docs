@@ -2,6 +2,7 @@
 title: "Failure Handling" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/failure-handling.html 
+redirect_from: "/display/KD/Failure+Handling" 
 description: 
 ---
 Failure handling settings allow users to decide whether Katalon Studio will continue running or not in case of errors occurs during execution.

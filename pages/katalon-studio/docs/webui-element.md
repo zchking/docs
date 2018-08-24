@@ -2,6 +2,7 @@
 title: "[WebUI] Element" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-element.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Element" 
 description: 
 ---
 *   [\[WebUI\] Click](/display/KD/%5BWebUI%5D+Click)

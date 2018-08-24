@@ -2,6 +2,7 @@
 title: "Spy Object" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-object.html 
+redirect_from: "/display/KD/Spy+Object" 
 description: 
 ---
 *   [Spy Web Utility (latest)](/pages/viewpage.action?pageId=5117668)

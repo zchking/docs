@@ -2,6 +2,7 @@
 title: "Open Chrome with extensions" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/open-chrome-with-extensions.html 
+redirect_from: "/display/KD/Open+Chrome+with+extensions" 
 description: 
 ---
 To start Chrome with your own extensions, you need to pass in some desired capabilities in Project Settings of Katalon Studio:

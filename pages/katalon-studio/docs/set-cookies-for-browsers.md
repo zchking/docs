@@ -2,6 +2,7 @@
 title: "Set cookies for browsers" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/set-cookies-for-browsers.html 
+redirect_from: "/display/KD/Set+cookies+for+browsers" 
 description: 
 ---
 To set cookies for browsers:

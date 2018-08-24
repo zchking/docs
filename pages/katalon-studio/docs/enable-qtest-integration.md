@@ -2,6 +2,7 @@
 title: "Enable qTest Integration" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/enable-qtest-integration.html 
+redirect_from: "/display/KD/Enable+qTest+Integration" 
 description: 
 ---
 Enable qTest Integration

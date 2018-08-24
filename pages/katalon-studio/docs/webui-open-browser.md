@@ -2,6 +2,7 @@
 title: "[WebUI] Open Browser" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-open-browser.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Open+Browser" 
 description: 
 ---
 Description

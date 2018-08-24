@@ -2,6 +2,7 @@
 title: "[Mobile] Uncheck Element" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-uncheck-element.html 
+redirect_from: "/display/KD/%5BMobile%5D+Uncheck+Element" 
 description: 
 ---
 Description

@@ -2,6 +2,7 @@
 title: "VSTS integration" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/vsts-integration.html 
+redirect_from: "/display/KD/VSTS+integration" 
 description: 
 ---
 Below is a general guide on how to configure Katalon Studio on VSO ([https://visualstudio.microsoft.com/team-services/](https://visualstudio.microsoft.com/team-services/)) with the assumptions that you are already familiar with common VSO terms such as _agent, build, task_......

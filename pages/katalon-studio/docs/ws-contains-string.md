@@ -2,6 +2,7 @@
 title: "[WS] Contains String" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ws-contains-string.html 
+redirect_from: "/display/KD/%5BWS%5D+Contains+String" 
 description: 
 ---
 Description

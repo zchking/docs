@@ -2,6 +2,7 @@
 title: "Spy Web Utility (latest)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-web-utility-latest.html 
+redirect_from: "/pages/viewpage.action?pageId=5117668" 
 description: 
 ---
 *   Available since version 5.0

@@ -2,6 +2,7 @@
 title: "Creation of Test Object in Object Repository in Runtime" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html 
+redirect_from: "/display/KD/Creation+of+Test+Object+in+Object+Repository+in+Runtime" 
 description: 
 ---
 You can create a new Test Object in Object Repository during runtime using this custom keyword:

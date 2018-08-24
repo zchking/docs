@@ -2,6 +2,7 @@
 title: "Manage Test Project" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-test-project.html 
+redirect_from: "/display/KD/Manage+Test+Project" 
 description: 
 ---
 Where to store your tests?

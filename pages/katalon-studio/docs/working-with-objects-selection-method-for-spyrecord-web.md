@@ -2,6 +2,7 @@
 title: "Working with Objects Selection Method for Spy/Record Web" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html 
+redirect_from: "/pages/viewpage.action?pageId=5118311" 
 description: 
 ---
 Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. **Enhanced **Object Properties allows users to choose objects locating method with Basic or Advanced options, select only preferred object's properties, and manually input XPath or CSS locator. 

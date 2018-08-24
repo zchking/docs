@@ -2,6 +2,7 @@
 title: "Force stop execution" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/force-stop-execution.html 
+redirect_from: "/display/KD/Force+stop+execution" 
 description: 
 ---
 When developing lengthy Test Cases, it's useful to be able to stop execution to examine the state of the browser.  True, you could use the debugger, but many times it's overkill and I don't actually want to examine the test code.  

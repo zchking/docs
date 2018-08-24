@@ -2,6 +2,7 @@
 title: "Built-in Keywords" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/built-in-keywords.html 
+redirect_from: "/display/KD/Built-in+Keywords" 
 description: 
 ---
 *   [Web UI](/display/KD/Web+UI)

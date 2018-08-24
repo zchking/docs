@@ -2,6 +2,7 @@
 title: "Version 5.4.2" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-542.html 
+redirect_from: "/display/KD/Version+5.4.2" 
 description: 
 ---
 Enhancements

@@ -2,6 +2,7 @@
 title: "Katalon with Winium for Desktop Applications" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-with-winium-for-desktop-applications.html 
+redirect_from: "/display/KD/Katalon+with+Winium+for+Desktop+Applications" 
 description: 
 ---
 As you may know, Katalon Studio only supports WebUI, Mobile, and API automation testing. However, there is a workaround solution to this problem, utilizing Winium .jar package in order to test desktop applications.

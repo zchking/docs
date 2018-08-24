@@ -2,6 +2,7 @@
 title: "Record Web Utility (latest)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-web-utility-latest.html 
+redirect_from: "/pages/viewpage.action?pageId=13699399" 
 description: 
 ---
 Record

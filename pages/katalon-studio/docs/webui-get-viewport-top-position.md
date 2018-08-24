@@ -2,6 +2,7 @@
 title: "[WebUI] Get Viewport Top Position" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-viewport-top-position.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Get+Viewport+Top+Position" 
 description: 
 ---
 Description  

@@ -2,6 +2,7 @@
 title: "Working with Sensitive Text" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-sensitive-text.html 
+redirect_from: "/display/KD/Working+with+Sensitive+Text" 
 description: 
 ---
 **Since Katalon Studio v5.4**

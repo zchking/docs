@@ -2,6 +2,7 @@
 title: "Retrieve mobile's session" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/retrieve-mobiles-session.html 
+redirect_from: "/display/KD/Retrieve+mobile%27s+session" 
 description: 
 ---
 To get current mobile's session after using 'Start Application' built-in keyword, use the sample code below:

@@ -2,6 +2,7 @@
 title: "[WebUI] Verify Element Visible In Viewport" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-element-visible-in-viewport.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Verify+Element+Visible+In+Viewport" 
 description: 
 ---
 Description

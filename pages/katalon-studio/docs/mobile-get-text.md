@@ -2,6 +2,7 @@
 title: "[Mobile] Get Text" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-text.html 
+redirect_from: "/display/KD/%5BMobile%5D+Get+Text" 
 description: 
 ---
 Description

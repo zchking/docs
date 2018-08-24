@@ -2,6 +2,7 @@
 title: "Record & Playback" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-and-playback.html 
+redirect_from: "/pages/viewpage.action?pageId=5115212" 
 description: 
 ---
 Record and Playback feature allows you to quickly create and run test scripts. It's highly recommended that you start with this when first using Katalon Studio.
@@ -12,4 +13,3 @@ Katalon Studio currently supports two types of recording test as following:
 
 *   [Record Web Utility (latest)](/pages/viewpage.action?pageId=13699399)
 *   [Record Mobile Utility](/display/KD/Record+Mobile+Utility)
-*   [Pre-5.5 Versions](/display/KD/Pre-5.5+Versions)

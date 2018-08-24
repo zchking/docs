@@ -2,6 +2,7 @@
 title: "[Mobile] Verify Is Landscape" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-verify-is-landscape.html 
+redirect_from: "/display/KD/%5BMobile%5D+Verify+Is+Landscape" 
 description: 
 ---
 Description  

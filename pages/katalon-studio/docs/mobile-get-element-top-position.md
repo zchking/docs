@@ -2,6 +2,7 @@
 title: "[Mobile] Get Element Top Position" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-element-top-position.html 
+redirect_from: "/display/KD/%5BMobile%5D+Get+Element+Top+Position" 
 description: 
 ---
 Description  

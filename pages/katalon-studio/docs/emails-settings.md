@@ -2,6 +2,7 @@
 title: "Emails Settings" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/emails-settings.html 
+redirect_from: "/display/KD/Emails+Settings" 
 description: 
 ---
 *   **Send test email** button only available once **Mail Server Settings** and **Recipients** are filled correctly.

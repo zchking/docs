@@ -2,6 +2,7 @@
 title: "[Mobile] Screen" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-screen.html 
+redirect_from: "/display/KD/%5BMobile%5D+Screen" 
 description: 
 ---
 *   [\[Mobile\] Pinch To Zoom In At Position](/display/KD/%5BMobile%5D+Pinch+To+Zoom+In+At+Position)

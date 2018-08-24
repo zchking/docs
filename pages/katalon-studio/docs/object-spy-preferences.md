@@ -2,6 +2,7 @@
 title: "Object Spy Preferences" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/object-spy-preferences.html 
+redirect_from: "/display/KD/Object+Spy+Preferences" 
 description: 
 ---
 You can access this preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**

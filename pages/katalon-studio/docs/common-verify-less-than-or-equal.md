@@ -2,6 +2,7 @@
 title: "[Common] Verify Less Than Or Equal" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-less-than-or-equal.html 
+redirect_from: "/display/KD/%5BCommon%5D+Verify+Less+Than+Or+Equal" 
 description: 
 ---
 Description  

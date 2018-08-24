@@ -2,6 +2,7 @@
 title: "[WebUI] Verify All Links On Current Page Accessible" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Verify+All+Links+On+Current+Page+Accessible" 
 description: 
 ---
 Description

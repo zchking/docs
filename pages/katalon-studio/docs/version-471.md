@@ -2,6 +2,7 @@
 title: "Version 4.7.1" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-471.html 
+redirect_from: "/display/KD/Version+4.7.1" 
 description: 
 ---
 General Improvement

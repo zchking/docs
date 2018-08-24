@@ -2,6 +2,7 @@
 title: "[WebUI] Verify Element Not Clickable" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-element-not-clickable.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Verify+Element+Not+Clickable" 
 description: 
 ---
 This keyword only works with Element has **tag** _<input>_ with attribute **disable.**

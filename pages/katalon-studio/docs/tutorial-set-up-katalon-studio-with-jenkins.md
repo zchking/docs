@@ -2,6 +2,7 @@
 title: "Tutorial: Set up Katalon Studio with Jenkins" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/tutorial-set-up-katalon-studio-with-jenkins.html 
+redirect_from: "/display/KD/Tutorial%3A+Set+up+Katalon+Studio+with+Jenkins" 
 description: 
 ---
 Prerequisites

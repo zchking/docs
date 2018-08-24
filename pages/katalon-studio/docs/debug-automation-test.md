@@ -2,6 +2,7 @@
 title: "Debug Automation Test" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/debug-automation-test.html 
+redirect_from: "/display/KD/Debug+Automation+Test" 
 description: 
 ---
 The Debug mode allows users investigating the issues that cause failure for their automation test. 

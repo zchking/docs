@@ -2,6 +2,7 @@
 title: "Execution Settings" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execution-settings.html 
+redirect_from: "/display/KD/Execution+Settings" 
 description: 
 ---
 Execution settings help users to set preferred behaviors for Katalon Studio during test execution. 

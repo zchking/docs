@@ -2,6 +2,7 @@
 title: "Test Listeners (Test Hooks)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-listeners-test-hooks.html 
+redirect_from: "/pages/viewpage.action?pageId=5126383" 
 description: 
 ---
 > Available since Katalon Studio v[5.2](https://docs.katalon.com/display/KD/Version+5.2)

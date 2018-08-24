@@ -2,6 +2,7 @@
 title: "[WebUI] Verify Options Present" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-options-present.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Verify+Options+Present" 
 description: 
 ---
 Description

@@ -2,6 +2,7 @@
 title: "Integrate test case" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integrate-test-case.html 
+redirect_from: "/display/KD/Integrate+test+case" 
 description: 
 ---
 **Test cases folder** must be registered in [**Test Case Repositories**](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload test cases to qTest.

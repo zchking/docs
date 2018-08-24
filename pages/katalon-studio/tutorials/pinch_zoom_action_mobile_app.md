@@ -10,15 +10,23 @@ This tutorial is to test the **Pinch To Zoom In** action in the mobile app. The 
 
 In the screenshot below, we want to zoom into “Hello World” and verify the zoom-in action.
 
+![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test.png)
+
 ### Manual Mode
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** it will open a window, where for appFile select **Value Type** as **Variable** and in **Value**, pass the variable name as **path** and click **OK.**
 
+![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-1.png)
+
 *   Step 2: Add a **Wait For Element Present** item for API Demos to show up.
 *   Step 3: Call **Scroll To Text** from mobile keyword, pass **Views** as Input. **Scroll To Text** accepts String type parameter (Text of the element to scroll to)
 
+![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-3.png)
+
 *   Step 4: Call **Tap** method and pass the object of **Views.**
 *   Step 5: Select **Scroll To Text** keyword and pass the **Tabs** text.
+
+![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-10.png)
 
 *   Step 6: Call **Tap** method and pass the object of **WebView**
 *   Step 7: Add **wait commands** to wait for ‘**Hello world**‘ link to be visible.
@@ -26,8 +34,12 @@ In the screenshot below, we want to zoom into “Hello World” and verify the z
 *   Step 9: Call ‘**Get Element Width**‘ method and capture the of “**Hello World**” element **width** to store it in ‘**ele_Width**‘.   
 *   Step 10: Add ‘**Pinch To Zoom In At Position**‘ method from mobile keyword list and pass the following values in: **ele_Height**, **ele_Width**, **Offset** value.
 
+![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-11.png)
+
 *   Step 11: After zooming in, we need to **verify** that element has been zoomed. Thus, we need to re-capture the element Height and Width.
 *   Step 12: After zooming the element height and width **should be greater** than the existing height and width in the test. By using ‘**Verify Greater Than**‘ method, we can validate the element height and width.
+
+![Performing Pinch to Zoom In in automation test](../../images/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-12.png)
 
 As you can see from the step-by-step guide above, there are repeated steps that will be easier to create in **Script Mode**. Thus, we suggest the users to utilize this feature where one can quickly automate the test scenario and easily manage test scripts.
 
@@ -120,4 +132,4 @@ Mobile.closeApplication()
 
 ```
 
-The source code is available here. For further instructions and help, please refer to Pinch To Zoom In At Position guide and join us on Katalon Forum.
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Pinch To Zoom In At Position](https://docs.katalon.com/display/KD/%5BMobile%5D+Pinch+To+Zoom+In+At+Position) guide and join us on [Katalon Forum](http://forum.katalon.com/).

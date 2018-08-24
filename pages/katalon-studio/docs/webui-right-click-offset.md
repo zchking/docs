@@ -2,6 +2,7 @@
 title: "[WebUI] Right Click Offset" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-right-click-offset.html 
+redirect_from: "/display/KD/%5BWebUI%5D+Right+Click+Offset" 
 description: 
 ---
 Description
