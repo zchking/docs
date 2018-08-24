@@ -15,6 +15,9 @@ kramdown:
 
 incremental: true
 
+plugins:
+  - jekyll-redirect-from
+
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
 defaults:
