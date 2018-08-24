@@ -13,7 +13,11 @@ Upload file to an input with type = "file"**.**
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td><span>fileAbsolutePath&nbsp;</span></td><td><span>String</span></td><td>Required</td><td><span>Absolute path of the file on local machine.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element. |
+| fileAbsolutePath  | String | Required | Absolute path of the file on local machine. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example  
 ---------

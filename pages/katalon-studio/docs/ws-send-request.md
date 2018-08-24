@@ -13,12 +13,17 @@ Send an HTTP Request to a web server.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>request&nbsp;</span></td><td><span>RequestObject&nbsp;</span></td><td><span>Required</span></td><td><span>Represent a HTTP Request, user needs to define it from Object Repository &gt; New &gt; Web Service Request</span></td></tr><tr><td><span>flowControl&nbsp;</span></td><td><span>FailureHandling&nbsp;</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| request  | RequestObject  | Required | Represent a HTTP Request, user needs to define it from Object Repository > New > Web Service Request |
+| flowControl  | FailureHandling  | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>ResponseObject</td><td>A response object</td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| ResponseObject | A response object |
 
 Example
 -------

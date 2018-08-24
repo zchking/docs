@@ -29,7 +29,14 @@ Support Proxy in Console Mode Execution
 
 Allow users to pass Proxy settings in Console Mode command
 
-<table><thead><tr><th>Option Name</th><th>Value Type</th><th>Value</th><th>Mandatory?</th></tr></thead><tbody><tr><td>proxy.option</td><td>Fixed</td><td>NO_PROXY, USE_SYSTEM, MANUAL_CONFIG</td><td>YES</td></tr><tr><td>proxy.server.type</td><td>Fixed</td><td>&nbsp;HTTP, HTTPS, or SOCKS</td><td>YES</td></tr><tr><td>proxy.server.address</td><td>String</td><td>Example: http://192.168.12.32,&nbsp;<a class="external-link" href="http://katalon.com/" rel="nofollow">http://katalon.com</a></td><td>YES</td></tr><tr><td>proxy.server.port</td><td>Integer</td><td>Example: 80, 8080, 9999</td><td>YES</td></tr><tr><td>proxy.username</td><td>String</td><td>Example:&nbsp;MyProxyUsername</td><td>Optional <span>(YES if your proxy server requires authentication)</span></td></tr><tr><td>proxy.password</td><td>String</td><td><span>Example: MyProxyPassword</span></td><td>Optional (YES if your proxy server requires authentication)</td></tr></tbody></table>
+| Option Name | Value Type | Value | Mandatory? |
+| --- | --- | --- | --- |
+| proxy.option | Fixed | NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG | YES |
+| proxy.server.type | Fixed |  HTTP, HTTPS, or SOCKS | YES |
+| proxy.server.address | String | Example: http://192.168.12.32, [http://katalon.com](http://katalon.com/) | YES |
+| proxy.server.port | Integer | Example: 80, 8080, 9999 | YES |
+| proxy.username | String | Example: MyProxyUsername | Optional (YES if your proxy server requires authentication) |
+| proxy.password | String | Example: MyProxyPassword | Optional (YES if your proxy server requires authentication) |
 
 **Example:**
 

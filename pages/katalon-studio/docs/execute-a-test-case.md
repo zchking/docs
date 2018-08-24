@@ -7,7 +7,16 @@ description:
 ---
 Currently, Katalon Studio supports executing automation test in following environments:
 
-<table><thead><tr><th>Execution Environment</th><th>Description</th></tr></thead><tbody><tr><td><p>Chrome</p></td><td><p>Execute a test case in Chrome, using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</p></td></tr><tr><td><p>Firefox</p></td><td><p>Execute a test case in Firefox, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr><td><p>IE</p></td><td><p>Execute a test case in Internet Explorer, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr><td><p>Safari</p></td><td><p>Execute a test case in Safari, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr><td><p>Remote</p></td><td><p>Execute a test case in a remote environment, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr><td><p>Android</p></td><td><p>Execute a test case on Android device, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr><td><p>iOS</p></td><td><p>Execute a test case on an iOS device, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr><tr><td><p>Custom</p></td><td><p>Execute a test case in a custom environment, <span>using the Desired Capabilities settings defined in <a href="/display/KD/Execution+Settings">Execution Settings</a>.</span></p></td></tr></tbody></table>
+| Execution Environment | Description |
+| --- | --- |
+| Chrome | Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| Firefox | Execute a test case in Firefox, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| IE | Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| Safari | Execute a test case in Safari, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| Remote | Execute a test case in a remote environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| Android | Execute a test case on Android device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| iOS | Execute a test case on an iOS device, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
+| Custom | Execute a test case in a custom environment, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
 
 Execute on a web application
 ----------------------------

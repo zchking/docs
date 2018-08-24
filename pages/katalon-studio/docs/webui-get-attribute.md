@@ -13,12 +13,18 @@ Get the attribute of a web element.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element</td></tr><tr><td>attribute</td><td>String</td><td>Required</td><td>Name of the attribute</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element |
+| attribute | String | Required | Name of the attribute |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>String</td><td>Value of the object's attribute</td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| String | Value of the object's attribute |
 
 Example
 -------

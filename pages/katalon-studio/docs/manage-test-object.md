@@ -31,7 +31,10 @@ Add an object property
     
     where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted.</td></tr><tr><td>Match condition</td><td>The condition which will be used to search for the “<em>actual</em>” object in the application under test when executing automation tests.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Name | The name of the object property. The dropdownlist provide some common option for your selection (xpath, css, class, id, title) or you can enter manually if wanted. |
+    | Match condition | The condition which will be used to search for the “_actual_” object in the application under test when executing automation tests. |
     
     Click **OK** when you finish with configuring.
     
@@ -156,4 +159,9 @@ The **Script View** of Test Case allows you to programmatically define and han
 
 The following API docs may prove useful when working with test objects:
 
-<table><thead><tr><th>Class</th><th>Method</th><th>Description</th></tr></thead><tbody><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html" rel="nofollow">Test Object</a></strong></td><td><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)" rel="nofollow">addProperty(String name, ConditionType condition, String value)</a></td><td>Add a new property to the test object</td></tr><tr><td><a class="in-cell-link" rel="nofollow">setProperties(List&lt;TestObjectProperty&gt; properties)</a></td><td>Set the properties of the test object</td></tr><tr><td><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()" rel="nofollow">getObjectId()</a></td><td>Get object ID.</td></tr><tr><td><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)" rel="nofollow">findPropertyValue(String name, boolean caseSensitive)</a></td><td>Find the value of a property using the property name</td></tr></tbody></table>
+| Class | Method | Description |
+| --- | --- | --- |
+| **[Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html)** | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String, com.kms.katalon.core.testobject.ConditionType, java.lang.String)) | Add a new property to the test object |
+| setProperties(List<TestObjectProperty> properties) | Set the properties of the test object |
+| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get object ID. |
+| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String, boolean)) | Find the value of a property using the property name |

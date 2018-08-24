@@ -79,34 +79,6 @@ items:
       url: /katalon-studio/docs/version-471.html
     - title: "Version 4.7.2"
       url: /katalon-studio/docs/version-472.html
-  - title: "Release Notes"
-    tree:
-    - title: "Version 5.5"
-      url: /katalon-studio/docs/version-55.html
-    - title: "Version 4.8"
-      url: /katalon-studio/docs/version-48.html
-    - title: "Version 5.2"
-      url: /katalon-studio/docs/version-52.html
-    - title: "Version 3.1"
-      url: /katalon-studio/docs/version-31.html
-    - title: "Version 3.3"
-      url: /katalon-studio/docs/version-33.html
-    - title: "Version 3.5"
-      url: /katalon-studio/docs/version-35.html
-    - title: "Version 3.6"
-      url: /katalon-studio/docs/version-36.html
-    - title: "Version 4.1"
-      url: /katalon-studio/docs/version-41.html
-    - title: "Version 4.3"
-      url: /katalon-studio/docs/version-43.html
-    - title: "Version 4.4"
-      url: /katalon-studio/docs/version-44.html
-    - title: "Version 4.2"
-      url: /katalon-studio/docs/version-42.html
-    - title: "Version 4.6"
-      url: /katalon-studio/docs/version-46.html
-    - title: "Version 4.5"
-      url: /katalon-studio/docs/version-45.html
   - title: "Version 4.0"
     tree:
     - title: "Version 4.0.0"
@@ -135,6 +107,52 @@ items:
       url: /katalon-studio/docs/katalon-help.html
     - title: "Toolbars and Views"
       url: /katalon-studio/docs/toolbars-and-views.html
+  - title: "Release Notes"
+    tree:
+    - title: "Version 5.5"
+      url: /katalon-studio/docs/version-55.html
+    - title: "Version 5.2"
+      url: /katalon-studio/docs/version-52.html
+    - title: "Version 4.8"
+      url: /katalon-studio/docs/version-48.html
+    - title: "Version 4.6"
+      url: /katalon-studio/docs/version-46.html
+    - title: "Version 3.6"
+      url: /katalon-studio/docs/version-36.html
+    - title: "Version 3.5"
+      url: /katalon-studio/docs/version-35.html
+    - title: "Version 4.3"
+      url: /katalon-studio/docs/version-43.html
+    - title: "Version 4.2"
+      url: /katalon-studio/docs/version-42.html
+    - title: "Version 4.4"
+      url: /katalon-studio/docs/version-44.html
+    - title: "Version 4.1"
+      url: /katalon-studio/docs/version-41.html
+    - title: "Version 4.5"
+      url: /katalon-studio/docs/version-45.html
+    - title: "Version 3.3"
+      url: /katalon-studio/docs/version-33.html
+    - title: "Version 3.1"
+      url: /katalon-studio/docs/version-31.html
+  - title: "Welcome to Katalon Products"
+    tree:
+    - title: "Getting Started"
+      url: /katalon-studio/docs/getting-started.html
+    - title: "Overview"
+      url: /katalon-studio/docs/overview.html
+    - title: "Katalon Analytics (Beta) Integration"
+      url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+    - title: "Known Issues / Limitations"
+      url: /katalon-studio/docs/known-issues-limitations.html
+    - title: "Test Listeners (Test Hooks)"
+      url: /katalon-studio/docs/test-listeners-test-hooks.html
+  - title: "Variables and Values"
+    tree:
+    - title: "Variable Types"
+      url: /katalon-studio/docs/variable-types.html
+    - title: "Value Types"
+      url: /katalon-studio/docs/value-types.html
   - title: "Test Execution"
     tree:
     - title: "Execute a Test Case or a Test Suite"
@@ -253,18 +271,6 @@ items:
       url: /katalon-studio/docs/external-libraries.html
     - title: "Database Settings"
       url: /katalon-studio/docs/database-settings.html
-  - title: "Welcome to Katalon Products"
-    tree:
-    - title: "Getting Started"
-      url: /katalon-studio/docs/getting-started.html
-    - title: "Overview"
-      url: /katalon-studio/docs/overview.html
-    - title: "Katalon Analytics (Beta) Integration"
-      url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-    - title: "Known Issues / Limitations"
-      url: /katalon-studio/docs/known-issues-limitations.html
-    - title: "Test Listeners (Test Hooks)"
-      url: /katalon-studio/docs/test-listeners-test-hooks.html
   - title: "Test Object"
     tree:
   - title: "Test Execution within CI/CD Tools"
@@ -279,12 +285,6 @@ items:
       url: /katalon-studio/docs/docker-images.html
     - title: "Tutorial: Setup Katalon Studio with VSO"
       url: /katalon-studio/docs/tutorial-setup-katalon-studio-with-vso.html
-  - title: "Variables and Values"
-    tree:
-    - title: "Variable Types"
-      url: /katalon-studio/docs/variable-types.html
-    - title: "Value Types"
-      url: /katalon-studio/docs/value-types.html
   - title: "Spy Object"
     tree:
     - title: "Spy Web Utility (latest)"

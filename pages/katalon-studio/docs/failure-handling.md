@@ -9,7 +9,7 @@ Failure handling settings allow users to decide whether Katalon Studio will cont
 
 Currently, Katalon Studio supports the following failure handling options:
 
-<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td><p>Stop on Failure</p></td><td><p>Katalon Studio will stop execution should there be any error occurs.</p><p>The step with errors will have <strong>Failed</strong> status.</p></td></tr><tr><td><p>Continue on Failure</p></td><td><p>Katalon Studio will continue in spite of any error during its execution.</p><p><span>The step with errors will have <strong>Failed</strong> status</span>.</p></td></tr><tr><td><p>Optional</p></td><td><p><span><span>Katalon Studio will continue in spite of any error during its execution.</span></span></p><p><span><span>&nbsp;</span><span>The step with errors will have </span></span><strong>Warning</strong> status.</p></td></tr></tbody></table>
+<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Stop on Failure</td><td><p>Katalon Studio will stop execution should there be any error occurs.</p><p>The step with errors will have <strong>Failed</strong> status.</p></td></tr><tr><td>Continue on Failure</td><td><p>Katalon Studio will continue in spite of any error during its execution.</p><p>The step with errors will have <strong>Failed</strong> status.</p></td></tr><tr><td>Optional</td><td><p>Katalon Studio will continue in spite of any error during its execution.</p><p>&nbsp;The step with errors will have <strong>Warning</strong> status.</p></td></tr></tbody></table>
 
 Default failure handling behavior
 ---------------------------------

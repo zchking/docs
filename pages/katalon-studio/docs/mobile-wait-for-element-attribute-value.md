@@ -13,12 +13,18 @@ Wait until the given mobile element has an attribute with the specified name and
 Parameters 
 -----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td><p><span>Represent a mobile element.</span></p></td></tr><tr><td><span>attributeName</span></td><td><span>String</span></td><td><span>Required</span></td><td><span>The name of the attribute to wait for.</span></td></tr><tr><td><span>attributeValue</span></td><td><span>String</span></td><td><span>Required</span></td><td><span>The value of the attribute to wait for.</span></td></tr><tr><td><span>timeout</span></td><td><span>int</span></td><td><span>Required</span></td><td><span>System will wait at most timeout (seconds) to return a result</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a mobile element. |
+| attributeName | String | Required | The name of the attribute to wait for. |
+| attributeValue | String | Required | The value of the attribute to wait for. |
+| timeout | int | Required | System will wait at most timeout (seconds) to return a result |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>boolean</span></td><td><ul><li><span><strong>true:</strong> the element has the attribute with the specified name and value in the given timeout.</span></li><li><span><strong>false:</strong> the element doesn't have the attribute with the specified name and value in the given timeout.</span></li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element has the attribute with the specified name and value in the given timeout.</li><li><strong>false:</strong> the element doesn't have the attribute with the specified name and value in the given timeout.</li></ul></td></tr></tbody></table>
 
 Example
 -------

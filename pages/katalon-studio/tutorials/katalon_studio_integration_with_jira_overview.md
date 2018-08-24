@@ -24,7 +24,13 @@ You need to enable JIRA Integration in order to submit issues to JIRA. This sett
 ![Submit Options](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Submit-Options.png)  
 The fields for setting include:
 
-<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><span>Default JIRA Project</span></td><td><span>The default JIRA project to submit tickets.</span></td></tr><tr><td><span>Default JIRA Issue Type</span></td><td><span>The default JIRA Issue type to create when submitting tickets.</span></td></tr><tr><td><span>Use Test Case name as Summary for JIRA ticket</span></td><td><span>The Katalon Test Case Name will be used as a summary for submitted tickets.</span></td></tr><tr><td><span>Attach Screenshot to JIRA ticket</span></td><td><span>Any taken screenshot during execution will be included in submitted tickets.</span></td></tr><tr><td><span>Attach Log to JIRA ticket</span></td><td><span>The execution log will be included in submitted tickets.</span></td></tr></tbody></table>
+| Field | Description |
+| --- | --- |
+| Default JIRA Project | The default JIRA project to submit tickets. |
+| Default JIRA Issue Type | The default JIRA Issue type to create when submitting tickets. |
+| Use Test Case name as Summary for JIRA ticket | The Katalon Test Case Name will be used as a summary for submitted tickets. |
+| Attach Screenshot to JIRA ticket | Any taken screenshot during execution will be included in submitted tickets. |
+| Attach Log to JIRA ticket | The execution log will be included in submitted tickets. |
 
 4\. Click **OK** button to complete the JIRA Integration setup.
 
@@ -42,7 +48,7 @@ Bug submission options will be available in Test Reports after JIRA Integration 
 ![Create new Jira ticket](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Add-command.png)  
 The bug submission options include:
 
-<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td><span>Create as New</span></td><td><span>A new Issue will be submitted to JIRA.</span></td></tr><tr><td><span>Create as Sub Issue</span></td><td><span>A sub-task for an existing JIRA issue will be created. You will be asked to provide the </span><b>ID</b><span> of the existing JIRA issue to create a sub-task within.</span><p></p><p><img class="init-size alignleft wp-image-2277 " src="../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/JIRA-sub-task.png" alt="" width="471" height="252"></p></td></tr><tr><td><span>Link to existing Issue</span></td><td><span>This option will append execution details to an existing JIRA issue. You will be asked to provide the ID of the existing JIRA issue for this.</span><p></p><p><img class="init-size alignleft wp-image-2278" src="../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Link-to-existing-Issue.png" alt="the ID of the existing JIRA issue" width="478" height="256" srcset="https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2017/04/23161230/Link-to-existing-Issue.png 521w, https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2017/04/23161230/Link-to-existing-Issue-300x161.png 300w" sizes="(max-width: 478px) 100vw, 478px"></p></td></tr></tbody></table>
+<table><thead><tr><th>Option</th> <th>Description</th> </tr></thead><tbody><tr><td>Create as New</td> <td>A new Issue will be submitted to JIRA.</td> </tr><tr><td>Create as Sub Issue</td> <td>A sub-task for an existing JIRA issue will be created. You will be asked to provide the <b>ID</b> of the existing JIRA issue to create a sub-task within.<p></p><p><img src="../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/JIRA-sub-task.png"></p></td></tr><tr><td>Link to existing Issue</td> <td>This option will append execution details to an existing JIRA issue. You will be asked to provide the ID of the existing JIRA issue for this.<p></p><p><img src="../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Link-to-existing-Issue.png"></p></td></tr></tbody></table>
 
 4\. In case of creating a new JIRA issue (or Sub-task), a **JIRA native submission form** will be displayed. The following is an example form for creating a new JIRA issue:  
 ![JIRA native submission form](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/JIRA-native-submission-form.png)

@@ -45,4 +45,7 @@ For example:
 
 The following API docs may prove useful when working with web service objects:
 
-<table><thead><tr><th>Class</th><th>Description</th></tr></thead><tbody><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/RequestObject.html" rel="nofollow">Request Object</a></strong></td><td>Describe all available methods for Request Object</td></tr><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/ResponseObject.html" rel="nofollow">Response Object</a></strong></td><td><span>Describe all available methods for Response Object</span></td></tr></tbody></table>
+| Class | Description |
+| --- | --- |
+| **[Request Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/RequestObject.html)** | Describe all available methods for Request Object |
+| **[Response Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/ResponseObject.html)** | Describe all available methods for Response Object |

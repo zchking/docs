@@ -13,12 +13,16 @@ Get displayed text of an alert popup (alert, confirmation popup, prompt popup)
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>text</span></td><td><span>String</span></td><td>Text of an alert popup</td></tr></tbody></table>
+| Param | Param Type | Description |
+| --- | --- | --- |
+| text | String | Text of an alert popup |
 
 Example
 -------

@@ -67,7 +67,7 @@ Note: You can specify the target browser to be launched by selecting from the Re
 
 ![](../../images/katalon-studio/docs/getting-started/-e5RJZMAYlg84pGRsjHlYtjxIB_p_TzHrOU8uzszJEr4DKFseW)
 
-Katalon Studio will provide a **Job Progress **tab to show the status of your execution as well as **Log Viewer** to let you identify any potential problems occurred.
+Katalon Studio will provide a **Job Progress **tab to show the status of your execution as well as the **Log Viewer** to let you identify any potential problems occurred.
 
 That’s it! You now can open a project and execute a test using Katalon Studio. You can also modify parts of these provided sample projects to get you familiar with the tool.
 

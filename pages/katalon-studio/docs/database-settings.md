@@ -11,4 +11,4 @@ These settings allow you to define global database connection to be used in othe
 
 Where:
 
-<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Username</td><td>The username to authenticate with connected database server</td></tr><tr><td>Password</td><td><span>The password to authenticate with connected database server</span></td></tr><tr><td>Connection URL</td><td><p>The connection string of database server. Katalon Studio supports following databases:</p><ul><li>MySQL</li><li>SQLServer</li><li>Oracle</li><li>Postgre</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Username</td><td>The username to authenticate with connected database server</td></tr><tr><td>Password</td><td>The password to authenticate with connected database server</td></tr><tr><td>Connection URL</td><td><p>The connection string of database server. Katalon Studio supports following databases:</p><ul><li>MySQL</li><li>SQLServer</li><li>Oracle</li><li>Postgre</li></ul></td></tr></tbody></table>

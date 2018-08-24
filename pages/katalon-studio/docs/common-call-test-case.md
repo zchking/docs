@@ -13,12 +13,18 @@ Call another test case and execute it separately.
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>arg0</span></td><td><span>TestCase</span></td><td><span>Required</span></td><td><span>Represent the called test case's path.</span></td></tr><tr><td><span>arg1</span></td><td><span>Map&lt;String,Object&gt;</span></td><td><span>Required</span></td><td><span>Represent the list of parameters will be used in the called test case.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| arg0 | TestCase | Required | Represent the called test case's path. |
+| arg1 | Map<String,Object> | Required | Represent the list of parameters will be used in the called test case. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Object</span></td><td><p><span>Value of called test case if any.</span></p></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| Object | Value of called test case if any. |
 
 Example 
 --------

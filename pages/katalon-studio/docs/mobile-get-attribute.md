@@ -13,12 +13,19 @@ Get a specific attribute of a mobile element.
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td><span>Represent a mobile element.</span></td></tr><tr><td><span>name</span></td><td><span>String</span></td><td><span>Required</span></td><td><span>Name of the attribute to get.</span></td></tr><tr><td><span>timeout</span></td><td><span>int</span></td><td><span>Required</span></td><td><span>Maximum period of time (in seconds) that system will wait to return a result.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a mobile element. |
+| name | String | Required | Name of the attribute to get. |
+| timeout | int | Required | Maximum period of time (in seconds) that system will wait to return a result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th><div class="tablesorter-header-inner">Param Type</div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><span>String</span></td><td><p>Value<span>&nbsp;of the attribute.</span></p></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| String | Value of the attribute. |
 
 Example 
 --------

@@ -13,12 +13,16 @@ Verify if the web element is visible in current [viewport](https://www.w3school
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td><span>Represent a web element.</span></td></tr><tr><td><span>timeOut&nbsp;</span></td><td><span>int&nbsp;</span></td><td><span>Required</span></td><td><span>Maximum period of time (in seconds) that system will wait to return the result.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Specify <span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a></span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element. |
+| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return the result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li><span><strong>true:</strong>&nbsp;the element is visible in current viewport.</span></li><li><span><strong>false:</strong> the element is NOT visible in current viewport.</span></li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><ul><li><strong>true:</strong>&nbsp;the element is visible in current viewport.</li><li><strong>false:</strong> the element is NOT visible in current viewport.</li></ul></td></tr></tbody></table>
 
 Example
 -------

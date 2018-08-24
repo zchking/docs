@@ -13,12 +13,18 @@ Verify if the given text is NOT present anywhere in the page source.
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>text</span></td><td><span>String</span></td><td><span>Required</span></td><td><span>Text to be verified if NOT presenting anywhere in the page source.</span></td></tr><tr><td><span>isRegex</span></td><td><span>Boolean</span></td><td><span>Required</span></td><td><span>Indicate whether the expected text is a regular expression.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| text | String | Required | Text to be verified if NOT presenting anywhere in the page source. |
+| isRegex | Boolean | Required | Indicate whether the expected text is a regular expression. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><p>true, if&nbsp;the text&nbsp;is NOT present anywhere in the page source; otherwise,&nbsp;false</p></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| Boolean | true, if the text is NOT present anywhere in the page source; otherwise, false |
 
 Example 
 --------

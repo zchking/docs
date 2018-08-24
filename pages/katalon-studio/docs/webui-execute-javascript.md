@@ -15,7 +15,11 @@ Execute JavaScript on the currently selected frame or window. The provided scrip
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>script</span></td><td><span>String</span></td><td><span>Required</span></td><td>The JavaScript to execute.</td></tr><tr><td>argument</td><td>List</td><td><span>Required</span></td><td>The arguments to the script. Can be empty or null.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td>Specify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> <span>schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| script | String | Required | The JavaScript to execute. |
+| argument | List | Required | The arguments to the script. Can be empty or null. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

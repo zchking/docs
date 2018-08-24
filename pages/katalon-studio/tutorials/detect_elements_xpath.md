@@ -60,7 +60,7 @@ To deal with these challenges, automation testers should not set fixed XPaths fo
 
 Here are a few examples:
 
-<table><thead><tr><th>Xpath value</th><th>Description</th></tr></thead><tbody><tr><td><span>.//h2[text()=’Make Appointment’]</span></td><td><span>Locate the </span><b>h2</b><span> tag element that has text matching exactly “Make Appointment”</span></td></tr><tr><td><span>//*[contains(text(),’Login’)]</span></td><td><span>Locate any element that contains the text “Login”</span></td></tr><tr><td><span>//a[starts-with(@id=’LoginPanel’)]</span></td><td><span>Locate the </span><b>a</b><span> tag element that has the ID starting with “LoginPanel”</span></td></tr></tbody></table>
+<table><thead><tr><th>Xpath value</th> <th>Description</th> </tr></thead><tbody><tr><td>.//h2[text()=’Make Appointment’] </td><td>Locate the <b>h2</b> tag element that has text matching exactly “Make Appointment”</td> </tr><tr><td>//*[contains(text(),’Login’)]</td> <td>Locate any element that contains the text “Login”</td> </tr><tr><td>//a[starts-with(@id=’LoginPanel’)]</td> <td>Locate the <b>a</b> tag element that has the ID starting with “LoginPanel”</td></tr></tbody></table>
 
 Next article “[Generating reliable object selector using Spy Web utility](https://www.katalon.com/resources-center/tutorials/generate-css-xpath-selector-spy-web-utility/)” will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
 

@@ -39,7 +39,7 @@ You have two methods to upload a test case to predefined qTest Module
       
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Test Case ID</td><td>The ID of the integrated qTest test case.</td></tr><tr><td>Alias</td><td>The alias of the integrated qTest test case.</td></tr><tr><td>Parent ID</td><td><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" width="500" src="../../images/katalon-studio/docs/integrate-test-case/image2017-8-9 16_27_25.png" data-image-src="/download/attachments/3178914/image2017-8-9%2016%3A27%3A25.png?version=1&amp;modificationDate=1504084817000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5116962" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-8-9 16:27:25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178914" data-linked-resource-container-version="1"></span></p><p>The ID of the integrated qTest module.</p></div></td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Test Case ID</td><td>The ID of the integrated qTest test case.</td></tr><tr><td>Alias</td><td>The alias of the integrated qTest test case.</td></tr><tr><td>Parent ID</td><td><p><img src="../../images/katalon-studio/docs/integrate-test-case/image2017-8-9 16_27_25.png"></p><p>The ID of the integrated qTest module.</p></td></tr></tbody></table>
     
       
     

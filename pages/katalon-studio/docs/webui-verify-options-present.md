@@ -15,12 +15,16 @@ Verify if all expected options are present within the given test object.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>expectedOptions</td><td>List</td><td>Required</td><td>The list of all expected options for the given web element.</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a web element. |
+| expectedOptions | List | Required | The list of all expected options for the given web element. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong>&nbsp;if all expected options are present.</li><li><strong>false:</strong>&nbsp;if <span>one of the expected options are NOT present.</span></li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong>&nbsp;if all expected options are present.</li><li><strong>false:</strong>&nbsp;if one of the expected options are NOT present.</li></ul></td></tr></tbody></table>
 
 Example
 -------

@@ -22,7 +22,11 @@ Before capturing test objects on the mobile application, make sure that you have
     
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Device Name</td><td>The smartphone to capture objects from. All of your connected devices should be displayed in this list.</td></tr><tr><td>Application Type</td><td>Currently, Katalon Studio only support native mobile applications.</td></tr><tr><td>Application File</td><td>The absolute path to your mobile application file (<strong>.apk</strong> file for Android or <strong>.ipa</strong> file for iOS).</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Device Name | The smartphone to capture objects from. All of your connected devices should be displayed in this list. |
+    | Application Type | Currently, Katalon Studio only support native mobile applications. |
+    | Application File | The absolute path to your mobile application file (**.apk** file for Android or **.ipa** file for iOS). |
     
     Click **Start** when you're done with the settings.
     

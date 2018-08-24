@@ -22,7 +22,11 @@ When creating a new test listener, you can see there are 4 options in **New Test
 
 ![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_38.png)
 
-<table><thead><tr><th>Generate sample Before Test Case method</th><th>A sample listener will be generated before every test case starts.</th></tr></thead><tbody><tr><th>Generate sample After Test Case method</th><td>A sample listener <span>will be generated</span> <strong>after every</strong> test case ends.</td></tr><tr><th>Generate sample Before Test Suite method</th><td>A sample listener <span>will be generated</span> <strong>before every</strong> test suite starts.</td></tr><tr><th>Generate sample Before Test Suite method</th><td>A sample listener<span>will be generated </span><strong>after every</strong> test suite ends.</td></tr></tbody></table>
+| Generate sample Before Test Case method | A sample listener will be generated before every test case starts. |
+| --- | --- |
+| Generate sample After Test Case method | A sample listener will be generated **after every** test case ends. |
+| Generate sample Before Test Suite method | A sample listener will be generated **before every** test suite starts. |
+| Generate sample Before Test Suite method | A sample listenerwill be generated **after every** test suite ends. |
 
 You can select **one** or **multiple** options. Once finished, Katalon Studio will generate a sample template accordingly:
 

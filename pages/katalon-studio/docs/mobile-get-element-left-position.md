@@ -13,12 +13,18 @@ Get the left position of a mobile element.
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>to</span></td><td><span>TestObject</span></td><td><span>Required</span></td><td>Represent a mobile element.</td></tr><tr><td><span>timeout</span></td><td><span>int</span></td><td><span>Required</span></td><td>Maximum period of time (in seconds) that system will wait to return a result</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a mobile element. |
+| timeout | int | Required | Maximum period of time (in seconds) that system will wait to return a result |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>int</td><td><span>The left position of the mobile element.</span></td></tr></tbody></table>
+| Param Type | Description |
+| --- | --- |
+| int | The left position of the mobile element. |
 
 Example 
 --------

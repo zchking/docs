@@ -8,7 +8,18 @@ Katalon Studio supports executing automation tests in multiple environments, all
 
 Currently, Katalon Studio supports executing automation test in the following environments:
 
-<table><thead><tr><th>Execution Environment</th><th>Description</th></tr></thead><tbody><tr><td><span>Chrome</span></td><td><span>Execute a test case in Chrome, using the Desired Capabilities settings defined in </span><a href="https://docs.katalon.com/display/KD/Execution+Settings" target="_blank" rel="noopener noreferrer"><span>Execution Settings</span></a><span>.</span></td></tr><tr><td><span>Firefox</span></td><td><span>Execute a test case in Firefox, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>IE</span></td><td><span>Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Safari</span></td><td><span>Execute a test case in Safari, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Edge</span></td><td><span>Execute a test case in Edge, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Remote</span></td><td><span>Execute a test case in a remote environment, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Headless</span></td><td><span>Execute a test case in headless mode, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Android</span></td><td><span>Execute a test case on Android device, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>iOS</span></td><td><span>Execute a test case on an iOS device, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr><tr><td><span>Custom</span></td><td><span>Execute a test case in a custom environment, using the Desired Capabilities settings defined in </span><span>Execution Settings</span><span>.</span></td></tr></tbody></table>
+| Execution Environment | Description |
+| --- | --- |
+| Chrome | Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings). |
+| Firefox | Execute a test case in Firefox, using the Desired Capabilities settings defined in Execution Settings. |
+| IE | Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in Execution Settings. |
+| Safari | Execute a test case in Safari, using the Desired Capabilities settings defined in Execution Settings. |
+| Edge | Execute a test case in Edge, using the Desired Capabilities settings defined in Execution Settings. |
+| Remote | Execute a test case in a remote environment, using the Desired Capabilities settings defined in Execution Settings. |
+| Headless | Execute a test case in headless mode, using the Desired Capabilities settings defined in Execution Settings. |
+| Android | Execute a test case on Android device, using the Desired Capabilities settings defined in Execution Settings. |
+| iOS | Execute a test case on an iOS device, using the Desired Capabilities settings defined in Execution Settings. |
+| Custom | Execute a test case in a custom environment, using the Desired Capabilities settings defined in Execution Settings. |
 
 ### Execute on Web
 

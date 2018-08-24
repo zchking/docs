@@ -13,7 +13,12 @@ Verify that there is an element with expected property value appeared in the ret
 Parameters
 ----------
 
-<table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>response</span></td><td><span>ResponseObject</span></td><td>Required</td><td><span>Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header)</span></td></tr><tr><td><span>locator</span></td><td><span>String</span></td><td><span>Required</span></td><td><span>An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it:&nbsp;</span><a href="https://docs.katalon.com/display/KD/Handle+Response+Messages" rel="nofollow">Handle Web Service Response object</a></td></tr><tr><td><span>value&nbsp;</span></td><td><span>String</span></td><td><span>Required</span></td><td><span><span>T</span></span><span>he expected value of element you want to verify in the responded data (usually is JSON/XML)</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Parameter | Parameter Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| response | ResponseObject | Required | Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header) |
+| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it: [Handle Web Service Response object](https://docs.katalon.com/display/KD/Handle+Response+Messages) |
+| value  | String | Required | The expected value of element you want to verify in the responded data (usually is JSON/XML) |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

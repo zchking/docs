@@ -13,7 +13,7 @@ These settings allow you to define global email configurations to be used in oth
 
 Where:
 
-<table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_25_39.png" data-image-src="/download/attachments/5112244/image2018-3-1%2017%3A25%3A39.png?version=1&amp;modificationDate=1519899940000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="13697365" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2018-3-1 17:25:39.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5112244" data-linked-resource-container-version="6"></span></p></div></td><td><p>This section defines the mail server which Katalon Studio will use to send emails.</p><ul><li><strong>Host</strong>: the domain name of the mail server</li><li><strong>Port</strong>: the port to be used for that server</li><li><strong>Username &amp; Password</strong>: the account to authenticate with the server</li><li><strong>Protocol</strong>: the protocol to communicate with the mail server</li><li><strong>Encrypt authentication data</strong> is recommended for sensitive data protection</li></ul></td></tr><tr><td><div class="content-wrapper"><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/emails-settings/image2017-11-15 9_43_0.png" data-image-src="/download/attachments/5112244/image2017-11-15%209%3A43%3A0.png?version=1&amp;modificationDate=1510713781000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5119082" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-11-15 9:43:0.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="5112244" data-linked-resource-container-version="6"></span></p></div></td><td><p>This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click <strong>Edit Template</strong>.</p><p>Selecting <strong>Include report as email attachment</strong> will enable all the options to include <span><strong>execution log</strong> and <strong>report format</strong> of the test suite will be sent as attachments in the notification email.</span></p></td></tr></tbody></table>
+<table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="../../images/katalon-studio/docs/emails-settings/image2018-3-1 17_25_39.png"></p></td><td><p>This section defines the mail server which Katalon Studio will use to send emails.</p><ul><li><strong>Host</strong>: the domain name of the mail server</li><li><strong>Port</strong>: the port to be used for that server</li><li><strong>Username &amp; Password</strong>: the account to authenticate with the server</li><li><strong>Protocol</strong>: the protocol to communicate with the mail server</li><li><strong>Encrypt authentication data</strong> is recommended for sensitive data protection</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/emails-settings/image2017-11-15 9_43_0.png"></p></td><td><p>This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click <strong>Edit Template</strong>.</p><p>Selecting <strong>Include report as email attachment</strong> will enable all the options to include <strong>execution log</strong> and <strong>report format</strong> of the test suite will be sent as attachments in the notification email.</p></td></tr></tbody></table>
 
 Configure Email Settings in Email Preferences
 ---------------------------------------------
@@ -72,4 +72,16 @@ You can customize the content of email here. All fields in template is editable.
 
 Where:
 
-<table><thead><tr><th>Variable</th><th>Description</th></tr></thead><tbody><tr><td>hostName</td><td>Host's name</td></tr><tr><td>os</td><td>Operating system</td></tr><tr><td>Browser</td><td>Browser name and version</td></tr><tr><td>deviceId</td><td>Id of executed device</td></tr><tr><td>deviceName</td><td>Name of executed device</td></tr><tr><td>suiteId</td><td>Id of test suite</td></tr><tr><td>suiteName</td><td>Name of test suite</td></tr><tr><td>totalTestCases</td><td>total executed test cases</td></tr><tr><td>totalPassed</td><td>total passed test cases</td></tr><tr><td>totalFailed</td><td>total failed test cases</td></tr><tr><td>totalError</td><td>total error test cases</td></tr></tbody></table>
+| Variable | Description |
+| --- | --- |
+| hostName | Host's name |
+| os | Operating system |
+| Browser | Browser name and version |
+| deviceId | Id of executed device |
+| deviceName | Name of executed device |
+| suiteId | Id of test suite |
+| suiteName | Name of test suite |
+| totalTestCases | total executed test cases |
+| totalPassed | total passed test cases |
+| totalFailed | total failed test cases |
+| totalError | total error test cases |

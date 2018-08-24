@@ -11,4 +11,8 @@ description:
 *   Fix an issue where 'Workbench auto-save job' message is displayed when users leave Katalon Studio in an idle state for a while.
 *   Support Appium 1.7. Due to this change, '[Swipe](https://docs.katalon.com/display/KD/%5BMobile%5D+Swipe)' keyword has been adjusted:
     
-    <table><thead><tr><th>&nbsp;</th><th>Current</th><th>Changed</th></tr></thead><tbody><tr><th>Behavior</th><td>Swipe from (startx, startY) position to <strong>extract</strong> (endX,endY) position.<strong></strong></td><td>Swipe from (startX, startY) position to <strong>relative position</strong> of (startX, endY) position.<strong></strong></td></tr><tr><th>Example</th><td><span>Swipe from (100,200) position to (200,300) position</span></td><td><span>Swipe from (100,200) position to (200,300) position =&gt; (endX,endY) position in this case will be (startX + 100, endX + 100)</span></td></tr><tr><th>Script</th><td>Mobile.swipe(100, 200, 200, 300)</td><td><span>Mobile.swipe(100, 200, 100, 100)</span></td></tr></tbody></table>
+    |   | Current | Changed |
+    | --- | --- | --- |
+    | Behavior | Swipe from (startx, startY) position to **extract** (endX,endY) position. | Swipe from (startX, startY) position to **relative position** of (startX, endY) position. |
+    | Example | Swipe from (100,200) position to (200,300) position | Swipe from (100,200) position to (200,300) position => (endX,endY) position in this case will be (startX + 100, endX + 100) |
+    | Script | Mobile.swipe(100, 200, 200, 300) | Mobile.swipe(100, 200, 100, 100) |

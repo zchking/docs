@@ -20,7 +20,20 @@ Improvements
 
 ### New MOBILE  built-in keywords
 
-<table><thead><tr><th>No.</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td><p>Select Item in List by Index</p></td><td><p>Select item of list view control by its index. Have not implemented for Android because its list view is async loaded</p></td></tr><tr><td>2</td><td><p>Select Item in List by Label</p></td><td><p>Select item of list view control by its label.</p></td></tr><tr><td>3</td><td><p>Pinch to Zoom In by Position</p></td><td><p>Pinch to zoom in at a specific position on the screen of the mobile device</p></td></tr><tr><td>4</td><td><p>Pinch to Zoom Out by Position</p></td><td><p>Pinch to zoom out at a specific position on the screen of the mobile device</p></td></tr><tr><td>5</td><td>Tap At Position</td><td><p>Tap at a specific position on the screen of the mobile device</p></td></tr><tr><td>6</td><td><p>Get Element Top Position</p></td><td><p>Get the top position of mobile element</p></td></tr><tr><td>&nbsp;7</td><td><span>Get Element Left Position</span></td><td><span>Get the left position of mobile element</span></td></tr><tr><td>8&nbsp;</td><td><span>Get Element Width</span></td><td><p>Get the width of mobile element</p></td></tr><tr><td>9</td><td><p>Get Element Height</p></td><td><p>Get the height of mobile element</p></td></tr><tr><td>10</td><td>Long Press</td><td><p>Tap and hold at a specific position on the screen of the mobile device</p></td></tr><tr><td>11</td><td>Set Slider Value</td><td><p>Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage</p></td></tr><tr><td>12</td><td>Unlock Screen</td><td><p>Unlock device scree</p></td></tr></tbody></table>
+| No. | Name | Description |
+| --- | --- | --- |
+| 1 | Select Item in List by Index | Select item of list view control by its index. Have not implemented for Android because its list view is async loaded |
+| 2 | Select Item in List by Label | Select item of list view control by its label. |
+| 3 | Pinch to Zoom In by Position | Pinch to zoom in at a specific position on the screen of the mobile device |
+| 4 | Pinch to Zoom Out by Position | Pinch to zoom out at a specific position on the screen of the mobile device |
+| 5 | Tap At Position | Tap at a specific position on the screen of the mobile device |
+| 6 | Get Element Top Position | Get the top position of mobile element |
+|  7 | Get Element Left Position | Get the left position of mobile element |
+| 8  | Get Element Width | Get the width of mobile element |
+| 9 | Get Element Height | Get the height of mobile element |
+| 10 | Long Press | Tap and hold at a specific position on the screen of the mobile device |
+| 11 | Set Slider Value | Set the value for Slider control (android.widget.SeekBar for Android, UIASlider for iOS) at specific percentage |
+| 12 | Unlock Screen | Unlock device scree |
 
 ### Object Spy
 

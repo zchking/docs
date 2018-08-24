@@ -11,6 +11,3 @@ topnav:
       parenturl: /katalon-studio/tutorials
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html
-    - title: Test
-      url: /test/mydoc_index.html
-      parenturl: /test

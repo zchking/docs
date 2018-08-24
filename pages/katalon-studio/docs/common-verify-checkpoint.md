@@ -13,12 +13,16 @@ Verify if checked data of checkpoint matches their source data.
 Parameters  
 ------------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td><span>checkpoint</span></td><td><span>Checkpoint</span></td><td><span>Required</span></td><td><span>Represent the input checkpoint.</span></td></tr><tr><td><span>logChangedValues</span></td><td><span>Boolean</span></td><td><span>Required</span></td><td><span>true will log all the changed values between checkpoint data and the source, false will not log any changed value.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td><span>Optional</span></td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| checkpoint | Checkpoint | Required | Represent the input checkpoint. |
+| logChangedValues | Boolean | Required | true will log all the changed values between checkpoint data and the source, false will not log any changed value. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li><span><strong>true</strong>, if checked data of checkpoint matches their source data.</span></li><li><span><strong>false</strong>, if checked data of checkpoint NOT matches their source data.</span></li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><ul><li><strong>true</strong>, if checked data of checkpoint matches their source data.</li><li><strong>false</strong>, if checked data of checkpoint NOT matches their source data.</li></ul></td></tr></tbody></table>
 
 Example 
 --------

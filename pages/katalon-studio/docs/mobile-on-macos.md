@@ -8,7 +8,11 @@ description:
 Katalon Studio Supported Environment on macOS
 ---------------------------------------------
 
-<table><thead><tr><th>&nbsp;</th><th>Version</th></tr></thead><tbody><tr><td>Appium</td><td>1.6, 1.7</td></tr><tr><td>Android</td><td>6.x, 7.x</td></tr><tr><td>iOS</td><td>9, 10,11</td></tr></tbody></table>
+|   | Version |
+| --- | --- |
+| Appium | 1.6, 1.7 |
+| Android | 6.x, 7.x |
+| iOS | 9, 10,11 |
 
 Installing Dependencies
 -----------------------

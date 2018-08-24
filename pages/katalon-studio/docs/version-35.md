@@ -33,7 +33,15 @@ Improvements
 
 ### New mobile keywords
 
-<table><thead><tr><th>No.</th><th>Keyword's name</th><th>Description</th></tr></thead><tbody><tr><td>1</td><td>Tap And Hold</td><td>Tap and hold on a mobile element for a duration</td></tr><tr><td>2</td><td>Check Element</td><td>Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)</td></tr><tr><td>3</td><td>Uncheck Element</td><td>Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS)</td></tr><tr><td>4</td><td>Hide Keyboard</td><td>Hide a keyboard if it is showing</td></tr><tr><td>5</td><td>Verify Element Checked</td><td>Verify if a mobile element is checked</td></tr><tr><td>6</td><td>Verify Element Not Checked</td><td>Verify of a mobile element is not checked</td></tr><tr><td>7</td><td>Drag and Drop</td><td>Drag and drop an element into another element</td></tr></tbody></table>
+| No. | Keyword's name | Description |
+| --- | --- | --- |
+| 1 | Tap And Hold | Tap and hold on a mobile element for a duration |
+| 2 | Check Element | Check a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
+| 3 | Uncheck Element | Unheck a check-box mobile element (android.widget.checkbox for Android, UIASwitch for iOS) |
+| 4 | Hide Keyboard | Hide a keyboard if it is showing |
+| 5 | Verify Element Checked | Verify if a mobile element is checked |
+| 6 | Verify Element Not Checked | Verify of a mobile element is not checked |
+| 7 | Drag and Drop | Drag and drop an element into another element |
 
 ### Record/Playback
 

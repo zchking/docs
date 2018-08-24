@@ -34,7 +34,11 @@ Manual Setup
     ![](../../images/katalon-studio/docs/enable-qtest-integration/image2017-8-1 17_3_41.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Automatically submit test run result</td><td><span>Results of executed test cases will be uploaded automatically to qTest.</span></td></tr><tr><td>Submit test run result to latest approved version</td><td><span>Test run result will be submitted to latest&nbsp;</span><strong>approved</strong><span>&nbsp;version of mapped qTest test case.</span></td></tr><tr><td>Report format</td><td><span>Additional attachments for reports to be upload to qTest.</span></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Automatically submit test run result | Results of executed test cases will be uploaded automatically to qTest. |
+    | Submit test run result to latest approved version | Test run result will be submitted to latest **approved** version of mapped qTest test case. |
+    | Report format | Additional attachments for reports to be upload to qTest. |
     
       
     

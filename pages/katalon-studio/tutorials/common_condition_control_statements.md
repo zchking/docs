@@ -26,11 +26,15 @@ Open a test case in the **Manual** view, then navigate to **Decision-making** S
 
 Refer to the following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th></tr></thead><tbody><tr><td>If</td><td>This statement requires a boolean condition as input value. Katalon Studio will execute all the steps within once the condition&nbsp;is triggered.</td></tr><tr><td>&nbsp;Else If</td><td>Using Else If after If, you can create a combination of conditions where the steps within the <em>first </em>satisfied condition will be executed.</td></tr><tr><td>&nbsp;Else</td><td>&nbsp;This statement serves as the conclusion of the If – Else If – Else structure. The steps within this statement will be executed if all the conditions above it are not triggered.</td></tr></tbody></table>
+| Statement | Description |
+| --- | --- |
+| If | This statement requires a boolean condition as input value. Katalon Studio will execute all the steps within once the condition is triggered. |
+|  Else If | Using Else If after If, you can create a combination of conditions where the steps within the _first_ satisfied condition will be executed. |
+|  Else |  This statement serves as the conclusion of the If – Else If – Else structure. The steps within this statement will be executed if all the conditions above it are not triggered. |
 
 ![you can create a combination of conditions](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2014%3A23%3A17.png)
 
-<table><thead><tr><th>Statement</th><th>Description</th></tr></thead><tbody><tr><td>Switch</td><td>This statement requires an expression, which is often referred to as the control expression (or control variable), as input value.</td></tr><tr><td>Case</td><td>The Cases indicate the assumed value for the control expression, with the corresponding steps to be executed when a match occurs.<br>Each Case will have a Break by default which should be positioned at the end of the Case block to mark the end of it.</td></tr><tr><td>Default</td><td>This statement is included automatically within every Switch statement. In situations where there is no case matched, all the steps under default will be executed.</td></tr></tbody></table>
+<table><thead><tr><th>Statement</th> <th>Description</th> </tr></thead><tbody><tr><td>Switch</td> <td>This statement requires an expression, which is often referred to as the control expression (or control variable), as input value.</td> </tr><tr><td>Case</td> <td>The Cases indicate the assumed value for the control expression, with the corresponding steps to be executed when a match occurs.<br>Each Case will have a Break by default which should be positioned at the end of the Case block to mark the end of it.</td> </tr><tr><td>Default</td> <td>This statement is included automatically within every Switch statement. In situations where there is no case matched, all the steps under default will be executed.</td></tr></tbody></table>
 
 ![Common Condition and Control statements with Katalon Studio](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2014%3A47%3A59.png)
 
@@ -40,7 +44,7 @@ The Script view of test cases allows you to programmatically define and handle I
 
 For example:
 
-<table><thead><tr><th>Decision-making statement</th><th>Screenshot</th></tr></thead><tbody><tr><td><strong>If – Else If – Else</strong></td><td><div class="content-wrapper"><p>Here is an example on how to use <strong>if-else if-else </strong>in the Script View where the Click action will be carried out based on the condition</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image alignleft" src="../../images/katalon-studio/tutorials/common_condition_control_statements/10.png" alt="Script View Katalon Studio" width="577" height="85" data-image-src="/download/attachments/786604/10.png?version=1&amp;modificationDate=1452064114000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787287" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="10.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="41"></span></p></div></td></tr><tr><td><strong>Switch – Case</strong></td><td><div class="content-wrapper"><p>Here is an example on how to use <strong>switch-case </strong>in the Script View where <i><span>varB</span></i>&nbsp;is calculated based on the passing value of&nbsp;<i><span>varA.</span></i></p></div><div class="content-wrapper"><img class="init-size wp-image-1988 size-thumbnail alignleft" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Katalon-switch-case-150x150.png" alt="switch-case in the Script View" width="150" height="150"></div></td></tr></tbody></table>
+<table><thead><tr><th>Decision-making statement</th> <th>Screenshot</th> </tr></thead><tbody><tr><td><strong>If – Else If – Else</strong></td><td><p>Here is an example on how to use <strong>if-else if-else </strong>in the Script View where the Click action will be carried out based on the condition</p><p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/10.png"></p></td></tr><tr><td><strong>Switch – Case</strong></td><td><p>Here is an example on how to use <strong>switch-case </strong>in the Script View where <i>varB</i>&nbsp;is calculated based on the passing value of&nbsp;<i>varA.</i></p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Katalon-switch-case-150x150.png"> </td> </tr> </tbody> </table> 
 
 Looping statements
 ------------------
@@ -53,11 +57,15 @@ Open a test case in Manual view, then navigate to **Looping Statements** from th
 
 Refer to the following table for the usage of each statement:
 
-<table><thead><tr><th><div class="tablesorter-header-inner"><strong>Statement</strong></div></th><th><div class="tablesorter-header-inner"><strong>Description</strong></div></th></tr></thead><tbody><tr><td><strong>For</strong></td><td>This statement accepts a <em>range</em>,<em> list</em> or <em>array</em> as input value so that Katalon Studio knows how many times to execute all steps within the For structure.</td></tr></tbody></table>
+| **Statement** | **Description** |
+| --- | --- |
+| **For** | This statement accepts a _range_, _list_ or _array_ as input value so that Katalon Studio knows how many times to execute all steps within the For structure. |
 
 ![how many times to execute all steps within the For structure](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2015%3A49%3A5.png)
 
-<table><thead><tr><th><div class="tablesorter-header-inner">Statement</div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><strong>While</strong></td><td>This statement requires a boolean condition as input value so that Katalon Studio will keep executing all steps within until the condition fails.</td></tr></tbody></table>
+| Statement | Description |
+| --- | --- |
+| **While** | This statement requires a boolean condition as input value so that Katalon Studio will keep executing all steps within until the condition fails. |
 
 ![ Katalon Studio will keep executing all steps within until the condition fails](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2015%3A53%3A44.png)
 
@@ -67,7 +75,7 @@ The Script View of test cases allows you to programmatically define and handle F
 
 For example:
 
-<table><thead><tr><th>Looping statement</th><th>Screenshot</th></tr></thead><tbody><tr><td><strong>For</strong></td><td><div class="content-wrapper"><p>Here is an example on how to use <strong>For </strong>in the Script View where the <em>acceptAlert </em>keyword will be executed 10 times</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image alignnone" src="../../images/katalon-studio/tutorials/common_condition_control_statements/24.png" alt="how to use For in the Script View" width="300" height="32" data-image-src="/download/attachments/786604/24.png?version=1&amp;modificationDate=1452064128000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787301" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="24.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="41"></span></p></div></td></tr><tr><td><strong>While</strong></td><td><div class="content-wrapper"><p>Here is an example on how to use <strong>For </strong>in the Script View where the value of <strong>varA </strong>is <strong>true</strong></p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image alignnone" src="../../images/katalon-studio/tutorials/common_condition_control_statements/25.png" alt="how to use For in the Script View" width="492" height="53" data-image-src="/download/attachments/786604/25.png?version=1&amp;modificationDate=1452064129000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="787302" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="25.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="786604" data-linked-resource-container-version="41"></span></p></div></td></tr></tbody></table>
+<table><thead><tr><th>Looping statement</th> <th>Screenshot</th> </tr></thead><tbody><tr><td><strong>For</strong></td><td><p>Here is an example on how to use <strong>For </strong>in the Script View where the <em>acceptAlert </em>keyword will be executed 10 times</p><p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/24.png"></p></td></tr><tr><td><strong>While</strong></td><td><p>Here is an example on how to use <strong>For </strong>in the Script View where the value of <strong>varA </strong>is <strong>true</strong></p><p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/25.png"></p></td></tr></tbody></table>
 
 Branching statements
 --------------------
@@ -80,15 +88,21 @@ Open a test case in the Manual view, then navigate to **Branching Statements** f
 
 Refer to the following table for the usage of each statement:
 
-<table><thead><tr><th><div class="tablesorter-header-inner"><strong>Statement</strong></div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><strong>Break</strong></td><td>Katalon Studio exits the current code block and continues to the next code block/test step.</td></tr></tbody></table>
+| **Statement** | Description |
+| --- | --- |
+| **Break** | Katalon Studio exits the current code block and continues to the next code block/test step. |
 
 ![the next code block/test step](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A36%3A37.png)
 
-<table><thead><tr><th><div class="tablesorter-header-inner">Statement</div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><strong>Continue</strong></td><td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td></tr></tbody></table>
+| Statement | Description |
+| --- | --- |
+| **Continue** | Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop. |
 
 ![ the next iteration of the loop.](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A42%3A13.png)
 
-<table><thead><tr><th><div class="tablesorter-header-inner"><strong>Statement</strong></div></th><th><div class="tablesorter-header-inner"><strong>Description</strong></div></th></tr></thead><tbody><tr><td><strong>Return</strong></td><td>Katalon exits from the current method/step, and the flow control is returned to where the method/step <span>is previously invoked</span>.</td></tr></tbody></table>
+| **Statement** | **Description** |
+| --- | --- |
+| **Return** | Katalon exits from the current method/step, and the flow control is returned to where the method/step is previously invoked. |
 
 ![the flow control is returned](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A47%3A44.png)
 
@@ -98,7 +112,7 @@ The Script view of test cases allows you to programmatically define and handle B
 
 For example:
 
-<table><thead><tr><th>Decision-making statement</th><th>Screenshot</th></tr></thead><tbody><tr><td><strong>Break</strong></td><td><div class="content-wrapper"><p>Here is an example on how to use <strong>Break </strong>in the Scripts View in order to exit current code block and move to next code block.</p></div><div class="content-wrapper"><img class="init-size alignnone wp-image-2371 size-full" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Break-in-the-Scripts-Katalon-Studio.png" alt="Break-in-the-Scripts-Katalon-Studio" width="260" height="144"></div></td></tr><tr><td><strong>Continue</strong></td><td><div class="content-wrapper">Here is an example on how to use <strong>Continue </strong>in the Script View in order to skip the remainder of the current loop and continue with the next iteration of the loop.</div><div class="content-wrapper"><img class="init-size alignnone wp-image-2370 size-full" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Continue-in-the-Script-View.png" alt="how to use Continue in the Script View" width="263" height="143"></div></td></tr><tr><td><strong>Return</strong></td><td><div class="content-wrapper"><p>Here is an example on how to use <strong>Return </strong>in the Script View in order to exit from the current method, and the flow control is returned to where the method was invoked.</p></div><div class="content-wrapper"><img class="init-size alignnone wp-image-2369 size-full" src="../../images/katalon-studio/tutorials/common_condition_control_statements/Return-in-the-Script-View.png" alt="how to use Return in the Script View" width="263" height="143"></div></td></tr></tbody></table>
+<table><thead><tr><th>Decision-making statement</th> <th>Screenshot</th> </tr></thead><tbody><tr><td><strong>Break</strong></td><td><p>Here is an example on how to use <strong>Break </strong>in the Scripts View in order to exit current code block and move to next code block.</p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Break-in-the-Scripts-Katalon-Studio.png"> </td> </tr> <tr> <td><strong>Continue</strong></td> <td> Here is an example on how to use <strong>Continue </strong>in the Script View in order to skip the remainder of the current loop and continue with the next iteration of the loop. <img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Continue-in-the-Script-View.png"> </td> </tr> <tr> <td><strong>Return</strong></td> <td><p>Here is an example on how to use <strong>Return </strong>in the Script View in order to exit from the current method, and the flow control is returned to where the method was invoked.</p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Return-in-the-Script-View.png"> </td> </tr> </tbody> </table> 
 
 Exception handling block
 ------------------------
@@ -111,7 +125,12 @@ Open a test case in Manual view, then navigate to **Exception Handling Statement
 
 Refer to the following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th></tr></thead><tbody><tr><td><strong>Try</strong></td><td>This statement indicates that all steps within it will be monitored by exception handlers.</td></tr><tr><td><strong>Throw</strong></td><td>Before you can catch an exception, some code must throw it. Regardless of what throws the exception, it’s always involved with the Throw statement.</td></tr><tr><td><strong>Catch</strong></td><td>Katalon Studio executes all steps within <span>the Catch block when there is any issue occurring during execution of the Try block</span>.</td></tr><tr><td><strong>Finally</strong></td><td><span>This is the last part of the Try-Catch-Finally structure and all steps within this block will be executed regardless of what exceptions and whether they are handled in the Catch block.</span></td></tr></tbody></table>
+| Statement | Description |
+| --- | --- |
+| **Try** | This statement indicates that all steps within it will be monitored by exception handlers. |
+| **Throw** | Before you can catch an exception, some code must throw it. Regardless of what throws the exception, it’s always involved with the Throw statement. |
+| **Catch** | Katalon Studio executes all steps within the Catch block when there is any issue occurring during execution of the Try block. |
+| **Finally** | This is the last part of the Try-Catch-Finally structure and all steps within this block will be executed regardless of what exceptions and whether they are handled in the Catch block. |
 
 ![the usage of each statement](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-28%2011%3A51%3A55.png)
 

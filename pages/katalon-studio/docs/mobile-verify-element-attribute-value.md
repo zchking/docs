@@ -13,7 +13,13 @@ Verify if the element has an attribute with the specified name and value  
 Parameters
 ----------
 
-<table><thead><tr><th>Parameter</th><th>Parameter Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject&nbsp;</td><td>Required</td><td>Represent a mobile element.</td></tr><tr><td>attributeName&nbsp;</td><td>String&nbsp;</td><td>Required</td><td>The value of the attribute to verify.</td></tr><tr><td>attributeValue&nbsp;</td><td>String&nbsp;</td><td>Required</td><td>The value of the attribute to verify.</td></tr><tr><td>timeout&nbsp;</td><td>int</td><td>Required</td><td>System will wait at most timeout (seconds) to return a result.</td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Parameter | Parameter Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject  | Required | Represent a mobile element. |
+| attributeName  | String  | Required | The value of the attribute to verify. |
+| attributeValue  | String  | Required | The value of the attribute to verify. |
+| timeout  | int | Required | System will wait at most timeout (seconds) to return a result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

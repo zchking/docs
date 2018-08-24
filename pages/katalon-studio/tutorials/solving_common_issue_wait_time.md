@@ -102,4 +102,9 @@ WebUI.closeBrowser()
 
 Quite often test execution get failed due to the exceptions such as ‘**NoSuchElementException**‘, ‘**ElementNotFoundException**‘, ‘**ElementNotVisibleException**‘. In order to handle these exceptions, conditional Synchronization has to be implemented. Katalon Studio supports many built in “**Wait for….**” keywords to deal with such exceptions. For example:
 
-<table><thead><tr><th>Keyword</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present"><span>Wait For Element Present</span></a></td><td><span>Wait for the given element to present (appear) within the given time in seconds.</span></td></tr><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible"><span>Wait For Element Visible</span></a></td><td><span>Wait until the given web element is visible within timeout.</span></td></tr><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert"><span>Wait For Alert</span></a></td><td><span>Wait for a browser’s alert to present.</span></td></tr><tr><td><a href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable"><span>Wait for Element Clickable</span></a></td><td><span>Wait for the given element to be clickable within the given time in seconds.</span></td></tr></tbody></table>
+| Keyword | Description |
+| --- | --- |
+| [Wait For Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present) | Wait for the given element to present (appear) within the given time in seconds. |
+| [Wait For Element Visible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible) | Wait until the given web element is visible within timeout. |
+| [Wait For Alert](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert) | Wait for a browser’s alert to present. |
+| [Wait for Element Clickable](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable) | Wait for the given element to be clickable within the given time in seconds. |

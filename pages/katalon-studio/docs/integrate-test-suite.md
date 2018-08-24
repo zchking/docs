@@ -23,7 +23,7 @@ Register qTest location for test suite
       
     From the test structure, select the location to be integrated with the Katalon test suite then click **OK** to continue. Further options are as following:
     
-    <table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td><p>Create only</p></td><td><ul><li>Create association between the Katalon test suite and the selected qTest location.</li></ul></td></tr><tr><td><p>Create and upload</p></td><td><ul><li>Create association between the Katalon test suite and the selected qTest location.</li><li>Upload the Katalon test suite to the selected qTest location.</li></ul></td></tr><tr><td><p>Create, upload and set as default</p></td><td><ul><li>Create association between the Katalon test suite and the selected qTest location.</li><li>Upload the Katalon test suite to the selected qTest location.</li><li>Set the qTest location as default for uploading execution result of the Katalon test suite.</li></ul></td></tr></tbody></table>
+    <table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Create only</td><td><ul><li>Create association between the Katalon test suite and the selected qTest location.</li></ul></td></tr><tr><td>Create and upload</td><td><ul><li>Create association between the Katalon test suite and the selected qTest location.</li><li>Upload the Katalon test suite to the selected qTest location.</li></ul></td></tr><tr><td>Create, upload and set as default</td><td><ul><li>Create association between the Katalon test suite and the selected qTest location.</li><li>Upload the Katalon test suite to the selected qTest location.</li><li>Set the qTest location as default for uploading execution result of the Katalon test suite.</li></ul></td></tr></tbody></table>
     
 3.  Once integrated, Katalon Studio will provide details information such as location and name of parent folder on qTest, integration information ( Parent IID, Test Suite ID, and Alias) as shown below:
     
@@ -32,11 +32,18 @@ Register qTest location for test suite
     
     Where:
     
-    <table><thead><tr><th>Icon</th><th>Description</th></tr></thead><tbody><tr><td><div class="content-wrapper"><span class="confluence-embedded-file-wrapper"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/integrate-test-suite/84.png" data-image-src="/download/attachments/3178951/84.png?version=1&amp;modificationDate=1477638259000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="3178941" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="84.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178951" data-linked-resource-container-version="1"></span></span></div></td><td><p>The Katalon test suite is integrated to the qTest location.</p></td></tr><tr><td><div class="content-wrapper"><span class="confluence-embedded-file-wrapper"><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/integrate-test-suite/85.png" data-image-src="/download/attachments/3178951/85.png?version=1&amp;modificationDate=1477638259000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="3178942" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="85.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178951" data-linked-resource-container-version="1"></span></span></div></td><td><p>The Katalon test suite is not integrated to the qTest location.</p></td></tr></tbody></table>
+    | Icon | Description |
+    | --- | --- |
+    | ![](../../images/katalon-studio/docs/integrate-test-suite/84.png) | The Katalon test suite is integrated to the qTest location. |
+    | ![](../../images/katalon-studio/docs/integrate-test-suite/85.png) | The Katalon test suite is not integrated to the qTest location. |
     
     If the selected **qTest location** is integrated, then the related information can be viewed in the **Integration Information** section where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><p>Test Suite ID</p></td><td><p>The ID of the integrated qTest test suite.</p></td></tr><tr><td><p>Alias</p></td><td><p>The alias of the integrated qTest test suite.</p></td></tr><tr><td><p>Parent ID</p></td><td><p>The ID of the integrated qTest location.</p></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Test Suite ID | The ID of the integrated qTest test suite. |
+    | Alias | The alias of the integrated qTest test suite. |
+    | Parent ID | The ID of the integrated qTest location. |
     
 4.  You can also quickly navigate to **qTest** **parent** folder where the test suite(s) is uploaded by clicking on the **Navigate** button.  
       

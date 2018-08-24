@@ -32,11 +32,11 @@ On the test case editor, you can add a validation keyword to validate a captured
 
 If you want to verify whether a data set is still the same, you can use checkpoints.
 
-First, you need to create a checkpoint instance. Refer to **[Manage Checkpoint](https://docs.katalon.com/display/KD/Manage+Checkpoint)** for more details.
+First, you need to create a checkpoint instance. Refer to **[Manage Checkpoint](https://docs.katalon.com/x/XYIw)** for more details.
 
 Katalon Studio supports many types of data source for checkpoints such as Excel, CSV, Database and checkpoint description.
 
-Then, you can use the **[Verify Checkpoint](https://docs.katalon.com/display/KD/%5BCommon%5D+Verify+Checkpoint)** keyword to validate the state of the data. This keyword verifies if the data of a checkpoint matches its source data. The keyword’s parameters, returns and usage are described as follows:
+Then, you can use the **[Verify Checkpoint](https://docs.katalon.com/x/oIIi)** keyword to validate the state of the data. This keyword verifies if the data of a checkpoint matches its source data. The keyword’s parameters, returns and usage are described as follows:
 
 Parameters
 

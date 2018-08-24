@@ -9,7 +9,11 @@ Katalon Studio is a simple and powerful automation solution built for testers ev
 
 If you are a first-time user, check out our **[Getting Started](/display/KD/Getting+Started)** page. Below are some links that may help you quickly navigate the Katalon resources. 
 
-<table><thead><tr><th>&nbsp;</th><th>Section</th></tr></thead><tbody><tr><td>Tutorials</td><td><a class="external-link" href="https://www.katalon.com/resources-center/tutorials/" rel="nofollow"><strong>Learning Center</strong>&nbsp;</a></td></tr><tr><td>Documentation</td><td><strong><a href="/display/KD/Overview">Katalon Studio</a></strong></td></tr><tr><td>Support</td><td><a class="external-link" href="https://forum.katalon.com/" rel="nofollow"><strong>Katalon Community</strong>&nbsp;</a></td></tr></tbody></table>
+|   | Section |
+| --- | --- |
+| Tutorials | [**Learning Center** ](https://www.katalon.com/resources-center/tutorials/) |
+| Documentation | **[Katalon Studio](/display/KD/Overview)** |
+| Support | [**Katalon Community** ](https://forum.katalon.com/) |
 
 **[  
 Tutorials](https://www.katalon.com/resources-center/tutorials/)**
@@ -26,7 +30,13 @@ Our documentation will help you with configurations, features utilization and im
 
 Additionally, we also have other resources available to assist your automation testing process. 
 
-<table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td><a href="/display/KD/Built-in+Keywords">Built-in Keywords</a></td><td>A comprehensive list of all built-in keywords for reference</td></tr><tr><td><a class="external-link" href="https://github.com/katalon-studio-samples" rel="nofollow">Katalon Repository</a></td><td>A Github repository of Katalon sample projects</td></tr><tr><td><a href="/pages/viewpage.action?pageId=3179464">Known Issues / Limitations</a></td><td>List of all currently known issues in Katalon Studio.</td></tr><tr><td><a href="https://docs.katalon.com/display/KD/Tips+and+Tricks" rel="nofollow">Tips and Tricks</a></td><td>Collection of quick tips and tricks from our <a class="external-link" href="https://forum.katalon.com/discussions" rel="nofollow">Community</a></td></tr><tr><td><a class="external-link" href="https://api-docs.katalon.com/index.html" rel="nofollow">API Documentation</a></td><td>List of all existing Katalon Studio APIs and its details information</td></tr></tbody></table>
+| Section | Description |
+| --- | --- |
+| [Built-in Keywords](/display/KD/Built-in+Keywords) | A comprehensive list of all built-in keywords for reference |
+| [Katalon Repository](https://github.com/katalon-studio-samples) | A Github repository of Katalon sample projects |
+| [Known Issues / Limitations](/pages/viewpage.action?pageId=3179464) | List of all currently known issues in Katalon Studio. |
+| [Tips and Tricks](https://docs.katalon.com/display/KD/Tips+and+Tricks) | Collection of quick tips and tricks from our [Community](https://forum.katalon.com/discussions) |
+| [API Documentation](https://api-docs.katalon.com/index.html) | List of all existing Katalon Studio APIs and its details information |
 
 **[  
 Support](https://forum.katalon.com/)**

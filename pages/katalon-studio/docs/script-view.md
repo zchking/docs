@@ -69,7 +69,12 @@ Follow these steps to automate the above test scenario in **Script view**:
       
     The following API docs may prove useful when working in Script view:
     
-    <table><thead><tr><th><div class="tablesorter-header-inner">Class</div></th><th><div class="tablesorter-header-inner">Description</div></th></tr></thead><tbody><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html" rel="nofollow">Builtin Keywords</a></strong></td><td>List of common built-in keywords</td></tr><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html" rel="nofollow">WebUI Builtin Keywords</a></strong></td><td>List of Web UI built-in keywords</td></tr><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html" rel="nofollow">Web Service Builtin Keywords</a></strong></td><td>List of Web Service built-in keywords</td></tr><tr><td><strong><a class="external-link" href="http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html" rel="nofollow">Mobile Builtin Keywords</a></strong></td><td>List of Mobile built-in keywords</td></tr></tbody></table>
+    | Class | Description |
+    | --- | --- |
+    | **[Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html)** | List of common built-in keywords |
+    | **[WebUI Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html)** | List of Web UI built-in keywords |
+    | **[Web Service Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html)** | List of Web Service built-in keywords |
+    | **[Mobile Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html)** | List of Mobile built-in keywords |
     
       
       

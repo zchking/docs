@@ -13,12 +13,16 @@ Wait for the given mobile element to present within the given time (in seconds)
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a mobile element.</td></tr><tr><td><span>timeOut&nbsp;</span></td><td><span>int&nbsp;</span></td><td>Required</td><td><span>Maximum period of time (in seconds) that system will wait to return a result.</span></td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span><span>ify </span><a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a><span> schema to determine whether the execution should be allowed to continue or stop.</span></td></tr></tbody></table>
+| Param | Param Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| to | TestObject | Required | Represent a mobile element. |
+| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return a result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td><span>Boolean</span></td><td><ul><li><span><strong>true</strong>:&nbsp;the element is present&nbsp;within&nbsp;the timeout.</span></li><li><span><strong>false</strong>: the element is NOT present within&nbsp;</span>the timeout.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>Boolean</td><td><ul><li><strong>true</strong>:&nbsp;the element is present&nbsp;within&nbsp;the timeout.</li><li><strong>false</strong>: the element is NOT present within&nbsp;the timeout.</li></ul></td></tr></tbody></table>
 
 Example 
 --------

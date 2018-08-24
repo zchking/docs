@@ -29,7 +29,11 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_3_4.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Repository URL</td><td>The URL to your Git repository (Should be in HTTPS protocol).</td></tr><tr><td>Username</td><td>The username to access the Git repository.</td></tr><tr><td>Password</td><td>The password to access the Git repository.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Repository URL | The URL to your Git repository (Should be in HTTPS protocol). |
+    | Username | The username to access the Git repository. |
+    | Password | The password to access the Git repository. |
     
     Enter all required information and click the **Next** button to let Katalon Studio gets details about your repository.
     
@@ -47,7 +51,10 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Directory</td><td><span>The local storage location you want to store your Git's repository.</span></td></tr><tr><td>Initial branch</td><td><span>All selected branches from the previous step will be displayed here. Select the branch to be used initially from this list.</span></td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Directory | The local storage location you want to store your Git's repository. |
+    | Initial branch | All selected branches from the previous step will be displayed here. Select the branch to be used initially from this list. |
     
 5.  Click **Finish** when you are done. Katalon Studio will automatically open your cloned project. 
     
@@ -87,7 +94,10 @@ The **Commit** option allows users to view all current changes and decide which 
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 14_41_43.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Unstaged Changes</td><td>Changes which have been made.</td></tr><tr><td>Staged Changes</td><td>Selected changes from&nbsp;<strong>Unstaged Changes.</strong>&nbsp;These changes will be committed.</td></tr></tbody></table>
+    | Field | Description |
+    | --- | --- |
+    | Unstaged Changes | Changes which have been made. |
+    | Staged Changes | Selected changes from **Unstaged Changes.** These changes will be committed. |
     
 3.  From the **Unstaged Changes** list, select the changes to be committed, then right-click on them and select **Add To Index**. Selected changes will be added to the **Staged Changes** list.  
       
@@ -107,7 +117,7 @@ Manage Branches
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 15_2_3.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Source</td><td><div class="content-wrapper"><p>Select either remote or local branch which will be your source branch.</p><p><span class="confluence-embedded-file-wrapper"><img class="confluence-embedded-image" src="../../images/katalon-studio/docs/git-integration/image2017-2-22 16_8_31.png" data-image-src="/download/attachments/3178878/image2017-2-22%2016%3A8%3A31.png?version=1&amp;modificationDate=1487754511000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="5112994" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2017-2-22 16:8:31.png" data-base-url="https://docs.katalon.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="3178878" data-linked-resource-container-version="1"></span></p></div></td></tr><tr><td>Branch name</td><td>The name to be used for the new branch.</td></tr><tr><td>Checkout new branch</td><td>Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Source</td><td><p>Select either remote or local branch which will be your source branch.</p><p><img src="../../images/katalon-studio/docs/git-integration/image2017-2-22 16_8_31.png"></p></td></tr><tr><td>Branch name</td><td>The name to be used for the new branch.</td></tr><tr><td>Checkout new branch</td><td>Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
     
 3.  Click **Finish** to create new branch.
 

@@ -19,7 +19,7 @@ Follow these basic steps to get familiar with the Record & Playback features for
     ![](../../images/katalon-studio/docs/record-mobile-utility/image2017-8-21 14_0_0.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><span>Device Name</span></td><td><span>The smartphone to capture objects from. All of your connected devices should be displayed in this list.</span></td></tr><tr><td><span>Application Type</span></td><td><span>Katalon Studio supports native (local) mobile devices and cloud-based Kobiton devices.<br></span></td></tr><tr><td><span>Application File</span></td><td><span>The absolute path to your mobile application file (<strong>.apk</strong>&nbsp;file for Android or&nbsp;<strong>.ipa</strong>&nbsp;file for iOS).</span></td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Device Name</td><td>The smartphone to capture objects from. All of your connected devices should be displayed in this list.</td></tr><tr><td>Application Type</td><td>Katalon Studio supports native (local) mobile devices and cloud-based Kobiton devices.<br></td></tr><tr><td>Application File</td><td>The absolute path to your mobile application file (<strong>.apk</strong>&nbsp;file for Android or&nbsp;<strong>.ipa</strong>&nbsp;file for iOS).</td></tr></tbody></table>
     
     Click **Start** when you're done with the settings.
     

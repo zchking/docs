@@ -13,7 +13,10 @@ Wait for jQuery to load within the given time in second unit.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>ParamType</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>seconds</td><td>int</td><td>Required</td><td>&nbsp;The number of seconds to wait</td></tr><tr><td><span>flowControl</span></td><td><span>FailureHandling</span></td><td>Optional</td><td><span>Spec</span>ify <a href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+| Param | ParamType | Mandatory | Description |
+| --- | --- | --- | --- |
+| seconds | int | Required |  The number of seconds to wait |
+| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
