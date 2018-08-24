@@ -32,7 +32,7 @@ All test cases in Katalon Studio are displayed in the **Test Case Browser** dial
 Data-Driven Testing
 -------------------
 
-Katalon Studio provides users the ability to define test data that can be used later when executing automation test. Refer to the [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more detailed information about this function. This section shows how to design your automation test using predefined test data.
+Katalon Studio provides users the ability to define test data that can be used later when executing automation test. Refer to the [Manage Test Data](/display/KD/Manage+Test+Data) for more detailed information about this function. This section shows how to design your automation test using predefined test data.
 
 ### Test Data
 
@@ -77,7 +77,7 @@ Therefore, we can have the following combinations among data sets:
 
 ### Variable Binding
 
-If there's any [public variable](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Publicvariables) defined in your test case, then you can manage variable binding for your test case executio--that is, to specify which value would be used for which variables during test execution.
+If there's any [public variable](/display/KD/Variable+Types#VariableTypes-Publicvariables) defined in your test case, then you can manage variable binding for your test case executio--that is, to specify which value would be used for which variables during test execution.
 
 Follow the steps below to manage variable binding for a test case within the test suite:
 
@@ -91,7 +91,7 @@ Follow the steps below to manage variable binding for a test case within the te
 
 #### Bind Variable to Test Data
 
-This option allows you to associate the variables with configured [Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data)[](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-TestData).
+This option allows you to associate the variables with configured [Test Data](/display/KD/Manage+Test+Data)[](/display/KD/Execute+a+test+suite#Executeatestsuite-TestData).
 
 1.  Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same** t**ype**. In this case Username and Password has the same type as Data Column. Simply highlight both rows. Click on **Set Type** and select **Data Column**:  
       

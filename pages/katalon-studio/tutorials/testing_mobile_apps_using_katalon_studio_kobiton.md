@@ -14,9 +14,9 @@ Create mobile automation test cases using Katalon Studio's recording utility
 Before starting, make sure that you have:
 
 *   Downloaded the target app under test – [Material Login Demo](https://github.com/katalon-studio/Material-Login-App-Test/blob/master/App%20Files/MaterialLoginExample.apk). This app provides a set of simple authentication features that will be automated as demonstrated below.
-*   [Configured your Katalon Studio instance for mobile testing.](https://docs.katalon.com/display/KD/Kobiton+Integration)
+*   [Configured your Katalon Studio instance for mobile testing.](/display/KD/Kobiton+Integration)
 
-Katalon Studio provides two utilities to accelerate the automation process: Mobile Object Spy to quickly populate the project's object repository and Mobile Recorder to generate automation scripts from recorded actions. As this tutorial mainly focuses on the functionalities of the Recorder utility, for more details, please refer to the [Object Spy user guide](https://docs.katalon.com/display/KD/Spy+Object/) available from [Katalon Studio Documentation](https://docs.katalon.com/display/KD/Spy+Object/) on how to use this utility.
+Katalon Studio provides two utilities to accelerate the automation process: Mobile Object Spy to quickly populate the project's object repository and Mobile Recorder to generate automation scripts from recorded actions. As this tutorial mainly focuses on the functionalities of the Recorder utility, for more details, please refer to the [Object Spy user guide](/display/KD/Spy+Object/) available from [Katalon Studio Documentation](/display/KD/Spy+Object/) on how to use this utility.
 
 1\. Let's open the sample project (already included in Katalon Studio) and create a new test case. Click on the Mobile Recorder button to open its dialog as shown below
 

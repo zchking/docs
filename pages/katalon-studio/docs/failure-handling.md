@@ -22,7 +22,7 @@ Follow these steps to define the default behavior for failure handling to be app
     
 2.  Select the preferred option for the default behavior of **Failure Handling**. Click **OK** when you're done.
     
-    > The selected option will be applied to new test steps only. For the steps already existed in your test cases, their failure handling option will not be affected by this change. Thus, you may need to [update them manually](https://docs.katalon.com/display/KD/Failure+handling#Failurehandling-Overridefailurehandlingbehavior).
+    > The selected option will be applied to new test steps only. For the steps already existed in your test cases, their failure handling option will not be affected by this change. Thus, you may need to [update them manually](/display/KD/Failure+handling#Failurehandling-Overridefailurehandlingbehavior).
     
 
 Override failure handling behavior

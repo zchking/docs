@@ -10,7 +10,7 @@ Currently, Katalon Studio supports executing automation test in the following en
 
 | Execution Environment | Description |
 | --- | --- |
-| Chrome | Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings). |
+| Chrome | Execute a test case in Chrome, using the Desired Capabilities settings defined in [Execution Settings](/display/KD/Execution+Settings). |
 | Firefox | Execute a test case in Firefox, using the Desired Capabilities settings defined in Execution Settings. |
 | IE | Execute a test case in Internet Explorer, using the Desired Capabilities settings defined in Execution Settings. |
 | Safari | Execute a test case in Safari, using the Desired Capabilities settings defined in Execution Settings. |
@@ -25,7 +25,7 @@ Currently, Katalon Studio supports executing automation test in the following en
 
 1\. Open a test case, then select the web browser (Chrome, Firefox, IE, Safari or Edge) to run the test case from the **Run** command of the main toolbar.
 
-Note: If you simply click on **Run**, the test case will be executed using the default browser specified in [Execution Preferences](https://docs.katalon.com/pages/viewpage.action?pageId=3179873).
+Note: If you simply click on **Run**, the test case will be executed using the default browser specified in [Execution Preferences](/pages/viewpage.action?pageId=3179873).
 
 2\. The test case is executed using the selected web browser.
 
@@ -33,7 +33,7 @@ Note: If you simply click on **Run**, the test case will be executed using the 
 
 1\. Access the Remote Web setting from **Main Menu > Project > Settings > Execution > Default > Web UI > Remote Web**.
 
-2\. Setup default configuration for the remote environment in Project Settings. Refer to [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings) for more details.  
+2\. Setup default configuration for the remote environment in Project Settings. Refer to [Execution Settings](/display/KD/Execution+Settings) for more details.  
 ![Project Settings](../../images/katalon-studio/tutorials/executing_test_case/Execution-Settings.png)
 
 3\. Open a test case, then select **Remote** to run the test case from the **Run** command of the main toolbar.  
@@ -55,7 +55,7 @@ Note: If you simply click on **Run**, the test case will be executed using the 
 
 2\. Select the device from the listed devices.  
 ![Select the device for executing test case](../../images/katalon-studio/tutorials/executing_test_case/Select-the-device.png)  
-Note: If there is no device in the list, please make sure that the Developer Mode on the device is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device, make sure you accept it (Refer to [Mobile on Windows](https://docs.katalon.com/display/KD/Mobile+on+Windows) & [Mobile on macOS](https://docs.katalon.com/display/KD/Mobile+on+macOS) for more details).
+Note: If there is no device in the list, please make sure that the Developer Mode on the device is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device, make sure you accept it (Refer to [Mobile on Windows](/display/KD/Mobile+on+Windows) & [Mobile on macOS](/display/KD/Mobile+on+macOS) for more details).
 
 3\. The test case is executed on the selected mobile device.
 
@@ -63,7 +63,7 @@ Note: If there is no device in the list, please make sure that the Developer Mod
 
 1\. Access the Custom setting from **Main Menu > Project > Settings > Execution > Custom**.
 
-2\. Configure Desired Capabilities for custom execution in Project Settings. Refer to [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings) for more details.  
+2\. Configure Desired Capabilities for custom execution in Project Settings. Refer to [Execution Settings](/display/KD/Execution+Settings) for more details.  
 ![Custom execution in Project Settings](../../images/katalon-studio/tutorials/executing_test_case/Execution-Settings-2.png)
 
 3\. Open a test case, then select your preferred custom option to run the test case from the **Run** command of the main toolbar.  

@@ -17,7 +17,7 @@ Parameters  
 | --- | --- | --- | --- |
 | width | int | Required | The target viewport width. |
 | height | int | Required | The target viewport height. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/display/KD/Failure+handling) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------

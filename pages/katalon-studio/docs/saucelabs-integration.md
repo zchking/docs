@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/saucelabs-integration.html
 redirect_from: "/display/KD/SauceLabs+Integration" 
 description: 
 ---
-To integrate with Saucelabs, you need to execute your test scripts using '[Remote](https://docs.katalon.com/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
+To integrate with Saucelabs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
 1.  Login to SauceLabs.
 2.  Navigate to 'Account' page after logged in and note/copy your 'Access Key'value  
@@ -18,7 +18,7 @@ To integrate with Saucelabs, you need to execute your test scripts using '[Remot
 
 ![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7 11_40_51.png)
 
-4.In Katalon Studio, open ['Remote' ](https://docs.katalon.com/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
+4.In Katalon Studio, open ['Remote' ](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
 
 *   Remote Web Server URL: `"https://``USERNAME:ACCESS_KEY``@ondemand.saucelabs.com:443/wd/hub", `e.g: `https://toi5``:a4r6trgfd87gdsadfdss``@ondemand.saucelabs.com:443/wd/hub`
 *   Other settings are gotten from step #3.

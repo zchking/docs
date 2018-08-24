@@ -8,7 +8,7 @@ If the users want to run a test case, they can utilize either the command-line r
 
 **Command line** is the quickest way to launch programs and execute the tests. It is convenient for those users who have familiarity with coding and command-line experience.
 
-Before executing the tests from command line, user needs to create test suite/test suite collection. Refer to the [Katalon documentation](https://docs.katalon.com/x/A4Ew) to get an idea of test suite/test suite collection.
+Before executing the tests from command line, user needs to create test suite/test suite collection. Refer to the [Katalon documentation](/x/A4Ew) to get an idea of test suite/test suite collection.
 
 You can quickly generate commands to use in console mode by following the steps below:
 
@@ -57,4 +57,4 @@ You can select the checkbox to enable email configuration to send report to your
 
 ![Running tests from Command Line](../../images/katalon-studio/tutorials/generate_command_line/Running-tests-from-Command-Line-10.png)
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution) guide and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Console Mode Execution](/display/KD/Console+Mode+Execution) guide and join us on [Katalon Forum](http://forum.katalon.com/).

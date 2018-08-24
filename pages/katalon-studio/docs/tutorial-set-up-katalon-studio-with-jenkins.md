@@ -76,7 +76,7 @@ Below is the list of exit codes after console mode execution:
 Publish JUnit reports
 ---------------------
 
-From [Katalon Studio 4.7](https://docs.katalon.com/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store , analyze and show results, please add '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
+From [Katalon Studio 4.7](/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store , analyze and show results, please add '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
 
 ![](../../images/katalon-studio/docs/tutorial-set-up-katalon-studio-with-jenkins/Screen Shot 2017-07-11 at 11.53.43.png)  
 

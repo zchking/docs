@@ -59,4 +59,4 @@ The example below shows the desired capabilities settings for Android to enable 
 
 ![Design Capabilities for Mobile](../../images/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-7.png)
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Execution Settings](/display/KD/Execution+Settings) guideline and join us on [Katalon Forum](http://forum.katalon.com/).

@@ -67,6 +67,6 @@ Executing automation tests
 
 Furthermore, using Headless browser in console mode execution is recommended for CI/CD process to help project team faster quality releases and continuously.
 
-Refer to this [guide](https://docs.katalon.com/pages/viewpage.action?pageId=786527) for leveraging Katalon Studio in CI/CD process.
+Refer to this [guide](/pages/viewpage.action?pageId=786527) for leveraging Katalon Studio in CI/CD process.
 
 For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

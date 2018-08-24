@@ -25,7 +25,7 @@ This command includes:
 | Item | Description |
 | --- | --- |
 | katalon | The command of Katalon Studio to execute automation test. |
-| {option(s)} | The additional [options](https://docs.katalon.com/display/KD/Console+Mode+Execution#ConsoleModeExecution-KatalonCommandLineoptions) for the execution (see the description below for details). |
+| {option(s)} | The additional [options](/display/KD/Console+Mode+Execution#ConsoleModeExecution-KatalonCommandLineoptions) for the execution (see the description below for details). |
 
 For example:
 

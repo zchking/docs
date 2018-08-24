@@ -13,7 +13,7 @@ Desired Capabilities are key/value pairs that tell the browser properties such a
 *   In mobile application automation, where the browser properties and the device properties can be set.
 *   In web application automation, where additional settings can be added to the browser.
 
-Katalon Studio allows you to define these Desired Capabilities in [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings).
+Katalon Studio allows you to define these Desired Capabilities in [Execution Settings](/display/KD/Execution+Settings).
 
 Understand the Settings
 -----------------------
@@ -22,7 +22,7 @@ Before adding Desired Capabilities in Katalon Studio, you need to identify which
 
 <table><thead><tr><th>Settings</th><th>Description</th></tr></thead><tbody><tr><td><p><strong>Project &gt; Settings &gt; Execution &gt; Custom</strong></p></td><td><p>Define a custom option for execution along with its Desired Capabilities.</p></td></tr><tr><td><p><strong>Project &gt; Settings &gt; Execution &gt; Default &gt; WebUI &gt; Chrome</strong> (Firefox, IE, Safari, Edge)</p></td><td><p>Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari or Edge.</p></td></tr><tr><td><p><strong><strong>Project &gt; Settings &gt; </strong>Execution &gt; Default &gt; WebUI &gt; Remote Web</strong></p></td><td><p>Define Desired Capabilities for execution on a remote web server.</p></td></tr><tr><td><p><strong><strong>Project &gt; Settings &gt; </strong>Execution &gt; Default &gt; Mobile &gt; Android</strong> (iOS is only available in macOS)</p></td><td><p>Define Desired Capabilities for execution with Android and iOS devices.</p></td></tr><tr><td><p><strong><strong>Project &gt; Settings &gt; </strong>Execution &gt; Default &gt; WebUI &gt; Chrome (Headless)</strong></p></td><td><p>Define Desired Capabilities for execution with a headless instance using Chrome.</p></td></tr><tr><td><strong><strong>Project &gt; Settings &gt; </strong>Execution &gt; Default &gt; WebUI &gt; Firefox (Headless) </strong></td><td>Define Desired Capabilities for execution with a headless instance using Firefox.</td></tr></tbody></table>
 
-> As indicated above, any changes made '**Default**' settings will apply to the current environment immediately when you [execute a test](https://docs.katalon.com/display/KD/Execute+a+Test+Case+or+a+Test+Suite#ExecuteaTestCaseoraTestSuite-ExecuteanEntireTestCaseorTestSuite). If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
+> As indicated above, any changes made '**Default**' settings will apply to the current environment immediately when you [execute a test](/display/KD/Execute+a+Test+Case+or+a+Test+Suite#ExecuteaTestCaseoraTestSuite-ExecuteanEntireTestCaseorTestSuite). If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
 
 Modify Desired Capabilities in Katalon Studio
 ---------------------------------------------

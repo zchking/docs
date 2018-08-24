@@ -32,11 +32,11 @@ In this tutorial, we create a test case to test the following flow:
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon4.png)
 
-The newly created test case is generated in form of a Groovy language script file (also called test script) which can be viewed and edited in Katalon Studio by one of two view modes: [Manual View](https://docs.katalon.com/x/9YEw) and [Script View](https://docs.katalon.com/x/Y4Iw).
+The newly created test case is generated in form of a Groovy language script file (also called test script) which can be viewed and edited in Katalon Studio by one of two view modes: [Manual View](/x/9YEw) and [Script View](/x/Y4Iw).
 
 ### Composing automation test case
 
-Please refer to the [Test Design page](https://docs.katalon.com/display/KD/Test+Design) for detailed instructions to compose test steps in various modes using different utilities. For a starter, we recommend using the Record – Playback function to get familiar with the scripting process. Katalon Studio is capable of generating test steps quickly.
+Please refer to the [Test Design page](/display/KD/Test+Design) for detailed instructions to compose test steps in various modes using different utilities. For a starter, we recommend using the Record – Playback function to get familiar with the scripting process. Katalon Studio is capable of generating test steps quickly.
 
 *   Click on the Record Toolbar button to open the Record dialog, then enter "[http://demoaut.katalon.com](http://demoaut.katalon.com)" for the URL field and select Chrome on the dialog to start recording.
 
@@ -104,7 +104,7 @@ The test report's detail is shown as below (with "Show Test Case Details" select
 
 ![Image title](../../images/katalon-studio/tutorials/sample_web_automation_test_project/Katalon19.png)
 
-For additional tutorials and guidelines please visit Katalon Studio [documentation](https://docs.katalon.com). If you have any question, feel free to join the [Forum](https://forum.katalon.com) and chat with other users.
+For additional tutorials and guidelines please visit Katalon Studio documentation. If you have any question, feel free to join the [Forum](https://forum.katalon.com) and chat with other users.
 
 **About the Author:**
 

@@ -23,7 +23,7 @@ Test Design 
 
 ### Sensitive Text Encryption
 
-Privacy and Security are crucial than ever to the software industry. **Text encryption** feature is introduced via the built-in "**[setEncryptedText](https://docs.katalon.com/x/6AHR)**" keyword. It allows users to encrypt any sensitive text right in the test case and capable to decrypt on-the-fly at runtime. Thus, the project team can collaborate and share test artifacts among members and stakeholder without any security concerns.
+Privacy and Security are crucial than ever to the software industry. **Text encryption** feature is introduced via the built-in "**[setEncryptedText](/x/6AHR)**" keyword. It allows users to encrypt any sensitive text right in the test case and capable to decrypt on-the-fly at runtime. Thus, the project team can collaborate and share test artifacts among members and stakeholder without any security concerns.
 
 ![](../../images/katalon-studio/docs/version-540/image2018-4-9 16_42_34.png)
 

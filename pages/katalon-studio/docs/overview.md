@@ -35,7 +35,7 @@ Additionally, we also have other resources available to assist your automation t
 | [Built-in Keywords](/display/KD/Built-in+Keywords) | A comprehensive list of all built-in keywords for reference |
 | [Katalon Repository](https://github.com/katalon-studio-samples) | A Github repository of Katalon sample projects |
 | [Known Issues / Limitations](/pages/viewpage.action?pageId=3179464) | List of all currently known issues in Katalon Studio. |
-| [Tips and Tricks](https://docs.katalon.com/display/KD/Tips+and+Tricks) | Collection of quick tips and tricks from our [Community](https://forum.katalon.com/discussions) |
+| [Tips and Tricks](/display/KD/Tips+and+Tricks) | Collection of quick tips and tricks from our [Community](https://forum.katalon.com/discussions) |
 | [API Documentation](https://api-docs.katalon.com/index.html) | List of all existing Katalon Studio APIs and its details information |
 
 **[  

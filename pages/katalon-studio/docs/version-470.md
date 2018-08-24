@@ -56,10 +56,10 @@ Keywords
 
 | Keyword | Description |
 | --- | --- |
-| [\[WebUI\] Verify Element Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Text) | Verify text of an element. |
-| [\[WebUI\] Verify Options Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Options+Present) | Verify if all expected options are present within the given test object. |
-| [\[WebUI\] Click Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click+Offset) | Click on the given element with the relative position (x, y) from the top-left corner of that element |
-| [\[WebUI\] Right Click Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Right+Click+Offset) | Right click on the given element with the relative position (x, y) from the top-left corner of that element |
-| [\[WebUI\] Mouse Over Offset](https://docs.katalon.com/display/KD/%5BWebUI%5D+Mouse+Over+Offset) | Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element. |
-| [\[Mobile\] Send Keys](https://docs.katalon.com/display/KD/%5BMobile%5D+Send+Keys) | Simulates keystroke events on the specified element, as though you typed the value key-by-key.  |
-| [\[Mobile\] Verify Element Text](https://docs.katalon.com/display/KD/%5BMobile%5D+Verify+Element+Text) | Verify text of an element. |
+| [\[WebUI\] Verify Element Text](/display/KD/%5BWebUI%5D+Verify+Element+Text) | Verify text of an element. |
+| [\[WebUI\] Verify Options Present](/display/KD/%5BWebUI%5D+Verify+Options+Present) | Verify if all expected options are present within the given test object. |
+| [\[WebUI\] Click Offset](/display/KD/%5BWebUI%5D+Click+Offset) | Click on the given element with the relative position (x, y) from the top-left corner of that element |
+| [\[WebUI\] Right Click Offset](/display/KD/%5BWebUI%5D+Right+Click+Offset) | Right click on the given element with the relative position (x, y) from the top-left corner of that element |
+| [\[WebUI\] Mouse Over Offset](/display/KD/%5BWebUI%5D+Mouse+Over+Offset) | Simulate users hovering a mouse over the given element with the relative position (x, y) from the top-left corner of that element. |
+| [\[Mobile\] Send Keys](/display/KD/%5BMobile%5D+Send+Keys) | Simulates keystroke events on the specified element, as though you typed the value key-by-key.  |
+| [\[Mobile\] Verify Element Text](/display/KD/%5BMobile%5D+Verify+Element+Text) | Verify text of an element. |

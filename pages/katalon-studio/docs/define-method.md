@@ -22,7 +22,7 @@ Define a method in Manual view
     
     Click **OK** after configuring the method details.
     
-3.  A test step representing the recently defined method is added to the test case. You can switch to **Script** view to [define content for the method](https://docs.katalon.com/display/KD/Define+method#Definemethod-DefineamethodinScriptingview).  
+3.  A test step representing the recently defined method is added to the test case. You can switch to **Script** view to [define content for the method](/display/KD/Define+method#Definemethod-DefineamethodinScriptingview).  
     ![](../../images/katalon-studio/docs/define-method/image2017-2-28 14_55_16.png)  
       
     

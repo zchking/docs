@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/test-listeners-test-hooks.html
 redirect_from: "/pages/viewpage.action?pageId=5126383" 
 description: 
 ---
-> Available since Katalon Studio v[5.2](https://docs.katalon.com/display/KD/Version+5.2)
+> Available since Katalon Studio v[5.2](/display/KD/Version+5.2)
 
 Test Listeners is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, Test Listeners are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with Test Listeners.
 
@@ -82,7 +82,7 @@ As you can see from the code above, a sample generated template has already adde
 Visualized Workflow
 -------------------
 
-To not get confused with [setUp and tearDown](https://docs.katalon.com/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
+To not get confused with [setUp and tearDown](/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
 
 ![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-6-8 18_12_39.png)
 

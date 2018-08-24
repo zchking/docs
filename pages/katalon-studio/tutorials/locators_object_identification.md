@@ -15,7 +15,7 @@ Below are listed locators for a mobile automation test:
 5.  E) Xpath: Locate an element using an XPath expression.
 6.  F) AndroidUIAutomator: Locate an element using an AndroidUIAutomator attribute.
 
-In order to use spy mobile to identify objects, the environment for mobile testing will need to be set up. Refer to [Installation and Setup](https://docs.katalon.com/display/KD/Installation+and+Setup) guide for more details. This demonstration utilizes the sample project provided by the Katalon Team, which comes with your product installation.
+In order to use spy mobile to identify objects, the environment for mobile testing will need to be set up. Refer to [Installation and Setup](/display/KD/Installation+and+Setup) guide for more details. This demonstration utilizes the sample project provided by the Katalon Team, which comes with your product installation.
 
 Identifying Object using Spy Mobile
 -----------------------------------
@@ -52,4 +52,4 @@ The object repository will look similar to the screenshot below, with your newly
 
 ![Object Spy locators in Katalon Studio](../../images/katalon-studio/tutorials/locators_object_identification/Object-Spy-locators-in-Katalon-Studio.png)
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Object Spy](https://docs.katalon.com/x/3QBO) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Object Spy](/x/3QBO) guideline and join us on [Katalon Forum](http://forum.katalon.com/).

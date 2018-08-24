@@ -305,4 +305,4 @@ WebUI.closeBrowser()
 
 Using Katalon built-in keywords we can simple handle dropdowns, we will look into other scenarios of dropdowns such as 'verifying dropdown values are in alphabetical', 'verifying expected and actual dropdown values' using custom keywords. You may download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Katalon Studio WebUI](https://docs.katalon.com/display/KD/%5BWebUI%5D+Combo+box) tutorials.
+For further instructions and help, please refer to [Katalon Studio WebUI](/display/KD/%5BWebUI%5D+Combo+box) tutorials.

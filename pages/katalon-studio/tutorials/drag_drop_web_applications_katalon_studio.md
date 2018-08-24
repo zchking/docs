@@ -10,7 +10,7 @@ Drag and drop is a fairly popular approach in modern websites to improve their o
 
 In this tutorial, we will show how [**Katalon Studio**](https://www.katalon.com) is used to test the drag and drop feature in a web application.
 
-This tutorial assumes that you are familiar with the tool's basic features. To have a quick idea of how it works or to review the interface please refer to [Kickstart your automation testing using Katalon Studio](https://www.katalon.com/tutorials/kickstart-automation-testing-using-katalon-studio/) or [Katalon Studio User Guides](https://docs.katalon.com/x/oArR).
+This tutorial assumes that you are familiar with the tool's basic features. To have a quick idea of how it works or to review the interface please refer to [Kickstart your automation testing using Katalon Studio](https://www.katalon.com/tutorials/kickstart-automation-testing-using-katalon-studio/) or [Katalon Studio User Guides](/x/oArR).
 
 There are different common implementation methods for the drag and drop feature, which each needs to be addressed differently when testing, including:
 
@@ -20,7 +20,7 @@ There are different common implementation methods for the drag and drop feature,
 Create automation tests for JavaScript Drag and Drop
 ----------------------------------------------------
 
-Testing the pure JavaScript implemented drag and drop function is quite straightforward with Katalon Studio as its built-in keyword [**_dragAndDropObjectToObject_**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Drag+And+Drop+To+Object) was designed to handle the JavaScript action natively.
+Testing the pure JavaScript implemented drag and drop function is quite straightforward with Katalon Studio as its built-in keyword [**_dragAndDropObjectToObject_**](/display/KD/%5BWebUI%5D+Drag+And+Drop+To+Object) was designed to handle the JavaScript action natively.
 
 For this section, we will use the [jQuery Droppable example page](http://jqueryui.com/droppable/#default) as the application under test (AUT).
 
@@ -35,7 +35,7 @@ When the draggable object is dragged into the droppable object, the target objec
 We are going to test this behavior using Katalon Studio.
 
 1.  Create a Katalon project with the name **_DragAndDrop_**.
-2.  Open the [Object Spy](https://docs.katalon.com/x/5BZO) dialog, start a spy object session and navigate to the AUT website at [http://jqueryui.com/droppable/#default](http://jqueryui.com/droppable/#default).
+2.  Open the [Object Spy](/x/5BZO) dialog, start a spy object session and navigate to the AUT website at [http://jqueryui.com/droppable/#default](http://jqueryui.com/droppable/#default).
 3.  Use the object spy utility to capture both the droppable object and the draggable object mentioned above and import them into the project's Object Repository. If you do it correctly, there will be 3 test objects as below in Object Repository and add navigation path:
 
 ![Tests Explorer Katalon Studio](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop3.png)

@@ -44,7 +44,7 @@ Once the verification snippets are generated, you can use it in either in your c
       
     It will send the current request and also execute verification snippets. Verification logs executed using verification snippets will be displayed on '**Verification Log**' tab. If you don't want to send a test request using current verification snippets, then just click on '**Play'** button.  
     ![](../../images/katalon-studio/docs/verification-snippets/Untitled.png)
-*   _In test case_:  Use '[Send Request and Verify](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request+And+Verify)' keyword. This will also send the current request and execute verification snippets. 
+*   _In test case_:  Use '[Send Request and Verify](/display/KD/%5BWS%5D+Send+Request+And+Verify)' keyword. This will also send the current request and execute verification snippets. 
     
     ```groovy
     WS.sendRequestAndVerify(findTestObject('REST_CommentDetails'))

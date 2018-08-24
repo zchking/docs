@@ -17,7 +17,7 @@ Introduction to Katalon Analytics
 
 ![Katalon Analytics logo](../../images/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics/logo-KA-tagline%402x.png)
 
-[**Katalon Analytics (Beta)**](https://docs.katalon.com/pages/viewpage.action?pageId=5118810) brings users to the next level of visualizing Katalon Studio test execution reports. This web-based application provides an in-depth understanding of test execution through powerful visualization of charts, graphs, and reports. Thus, users can make informed decisions on the quality of application build.
+[**Katalon Analytics (Beta)**](/pages/viewpage.action?pageId=5118810) brings users to the next level of visualizing Katalon Studio test execution reports. This web-based application provides an in-depth understanding of test execution through powerful visualization of charts, graphs, and reports. Thus, users can make informed decisions on the quality of application build.
 
 Katalon Analytics is designed to allow users to upload execution reports from both Katalon Studio and CLI (recommended for uploading multiple execution reports)
 

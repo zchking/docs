@@ -57,8 +57,8 @@ Katalon Studio: available for free, running on both Windows and MacOS with a bet
 
 **Before You Dive In**
 
-*   If you do **Web UI** testing, no additional settings are needed. Check [this list](https://docs.katalon.com/display/KD/Supported+Environments) for all supported browsers.
-*   In case of **Mobile** testing, you need to install **Appium** and enable **USB Debugging mode** on your device first. Please refer to our Mobile Setup [for Windows](https://docs.katalon.com/x/jwbR) or [for macOS](https://docs.katalon.com/x/9AXR).
+*   If you do **Web UI** testing, no additional settings are needed. Check [this list](/display/KD/Supported+Environments) for all supported browsers.
+*   In case of **Mobile** testing, you need to install **Appium** and enable **USB Debugging mode** on your device first. Please refer to our Mobile Setup [for Windows](/x/jwbR) or [for macOS](/x/9AXR).
 *   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
 ### The Data-Driven Testing Sample Project
@@ -76,7 +76,7 @@ You can use the following steps to automate the above test scenario.
 
 ### Prepare the Data
 
-Create a data file in Katalon containing three login accounts. Refer to [Manage Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data) for more details on how to create test data from different sources. The following example shows the internal data file with three accounts for [http://demoaut.katalon.com](http://demoaut.katalon.com/profile.php#login) (note that only '**_John Doe_**_'_ is valid):
+Create a data file in Katalon containing three login accounts. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details on how to create test data from different sources. The following example shows the internal data file with three accounts for [http://demoaut.katalon.com](http://demoaut.katalon.com/profile.php#login) (note that only '**_John Doe_**_'_ is valid):
 
 ![prepare data](../../images/katalon-studio/tutorials/data_driven_testing/Picture1-300x132.png)
 
@@ -113,7 +113,7 @@ From here you can apply Data-driven using two methods, either using **Test Suit
 
 ![Katalon New test suite](../../images/katalon-studio/tutorials/data_driven_testing/6.-Katalon-Data-driven.png)
 
-2\. Add the data file to the Test Data section and proceed to bind the two variables 'demo\_usr' and 'demo\_pwd' to the respective columns of the data file. You may refer to [**Data for test** **execution**](https://docs.katalon.com/x/mAvR#DesignaTestSuite-Data-DrivenTesting) for more details about variable binding.
+2\. Add the data file to the Test Data section and proceed to bind the two variables 'demo\_usr' and 'demo\_pwd' to the respective columns of the data file. You may refer to [**Data for test** **execution**](/x/mAvR#DesignaTestSuite-Data-DrivenTesting) for more details about variable binding.
 
 ![Katalon Test Data driven testing section](../../images/katalon-studio/tutorials/data_driven_testing/7.-Katalon-test-data.png)
 

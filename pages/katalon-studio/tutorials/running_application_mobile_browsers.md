@@ -27,7 +27,7 @@ After launching Katalon Studio, provide your registered username and password to
 
 Web application testing can be directly executed on a mobile device. To do so, the user needs to connect their devices/emulators into the machine and run the test scripts. We need to make sure that Chrome application (on Android device) and Safari application (on an iOS device) must be installed so that test steps can execute properly.
 
-It is not an easy task and requires some knowledge on working with OS, Appium, and the device in use. Many people cannot implement this flow successfully because facing some issues in this task. Please refer to our Mobile Setup guide [for Windows](https://docs.katalon.com/x/jwbR) or [for macOS](https://docs.katalon.com/x/9AXR) and follow the instructions closely.
+It is not an easy task and requires some knowledge on working with OS, Appium, and the device in use. Many people cannot implement this flow successfully because facing some issues in this task. Please refer to our Mobile Setup guide [for Windows](/x/jwbR) or [for macOS](/x/9AXR) and follow the instructions closely.
 
 Understand your web application under test (AUT)
 ------------------------------------------------
@@ -154,4 +154,4 @@ It may take a while before the browser can be loaded into the device.
 See Also
 --------
 
-_For further instructions and help, please refer to [Overview of Documentation](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_.
+_For further instructions and help, please refer to [Overview of Documentation](/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_.

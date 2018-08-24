@@ -64,12 +64,12 @@ The activities involve performing one or more commands on Katalon Studio and Git
 
 **1\. Katalon Studio:**
 
-*   [Register & Download Katalon Studio](https://docs.katalon.com/display/KD/Getting+Started)
-*   [Enable Git integration](https://docs.katalon.com/display/KD/Git+Integration)
-*   [Open the existing project](https://docs.katalon.com/display/KD/Manage+Test+Project)
-*   [Share project](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-ShareProject)
-*   [Clone Project](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-CloneProject)
-*   [Make change/commit/merge/push](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-Commit)
+*   [Register & Download Katalon Studio](/display/KD/Getting+Started)
+*   [Enable Git integration](/display/KD/Git+Integration)
+*   [Open the existing project](/display/KD/Manage+Test+Project)
+*   [Share project](/display/KD/Git+Integration#GitIntegration-ShareProject)
+*   [Clone Project](/display/KD/Git+Integration#GitIntegration-CloneProject)
+*   [Make change/commit/merge/push](/display/KD/Git+Integration#GitIntegration-Commit)
 
 **2\. Git:**
 
@@ -89,7 +89,7 @@ Below is a recommended workflow for starting a new Katalon Studio project and in
 2 Add an existing Katalon Studio project into a new Git repository
 ------------------------------------------------------------------
 
-In case you have an existing Katalon Studio project and you want to add it to a Git repository and share with team members, you can apply the following workflow. This workflow involves [Commit and Push](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-Commit) changes to Git.
+In case you have an existing Katalon Studio project and you want to add it to a Git repository and share with team members, you can apply the following workflow. This workflow involves [Commit and Push](/display/KD/Git+Integration#GitIntegration-Commit) changes to Git.
 
 ![add-Katalon-project-into-new-Git](../../images/katalon-studio/tutorials/git_conflict_resolve/add-Katalon-project-into-new-Git.png)
 

@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/update-or-replace-web-browser-drivers-and-seleniu
 redirect_from: "/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium" 
 description: 
 ---
-For manually replacing and updating other versions of WebDrivers and Selenium, please refer to this [guide](https://docs.katalon.com/x/1xtO). 
+For manually replacing and updating other versions of WebDrivers and Selenium, please refer to this [guide](/x/1xtO). 
 
 > Katalon Studio team strongly suggest users **NOT** to manually replace or update any WebDrivers. Any changes in drivers may cause runtime bugs for Katalon Studio application.
 

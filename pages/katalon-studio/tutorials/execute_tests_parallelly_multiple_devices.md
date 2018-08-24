@@ -6,8 +6,8 @@ description: "There are instances in which the user wants to execute tests on di
 ---
 There are instances in which the user wants to execute tests on different devices at the same time. Below is the how-to guide for these instances.
 
-*   Step 1: Create **two** Test suites. Refer to the [Katalon documentatio](https://docs.katalon.com/x/mAvR)[n](https://docs.katalon.com/x/7AAM) for a quick guide to creating test suites.
-*   Step 2: Create **one** Test Suite Collection. Refer to the [Katalon documentation](https://docs.katalon.com/x/NgvR) for a quick guide to creating test suite collections.
+*   Step 1: Create **two** Test suites. Refer to the [Katalon documentatio](/x/mAvR)[n](/x/7AAM) for a quick guide to creating test suites.
+*   Step 2: Create **one** Test Suite Collection. Refer to the [Katalon documentation](/x/NgvR) for a quick guide to creating test suite collections.
 *   Step 3: When we add a test suite a test suite collection, by default, the execution will be running on Firefox browser. The user can change their desired browsers as needed.
 
 ![Executing Tests on Multiple Devices in Parallel ](../../images/katalon-studio/tutorials/execute_tests_parallelly_multiple_devices/Executing-Tests-on-Multiple-Devices-in-Parallel-3.png)
@@ -35,4 +35,4 @@ There are instances in which the user wants to execute tests on different device
 *   Step 9: Select the radio button '**Parallel**' in the **Execution Information** section.
 *   Step 10: Click on **Execute**. It will execute tests parallelly on your selected mobile devices.
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation).  For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation).  For further instructions and help, please refer to [Katalon User Guide](/x/oArR) or [Katalon Forum](https://forum.katalon.com/).

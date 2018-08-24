@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/browserstack-integration.html
 redirect_from: "/display/KD/BrowserStack+Integration" 
 description: 
 ---
-To integrate with BrowserStack, you need to execute your test scripts using '[Remote](https://docs.katalon.com/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on BrowserStack provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
+To integrate with BrowserStack, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on BrowserStack provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
 1.  Login to BrowserStack
 2.  On the left side of BrowserStack account page, you will see Username and Access Key value. These values are needed for remote connection using their BrowserStack remote URL
@@ -21,7 +21,7 @@ To integrate with BrowserStack, you need to execute your test scripts using '[Re
 4.  Select desired capabilities you would like to use, in my case I select iOS and device's name is: iPhone 6S Plus. Desired capabilities values are generated upon your selection.  
     ![](../../images/katalon-studio/docs/browserstack-integration/Screen Shot 2017-10-04 at 10.07.23.png)
 
-4.In Katalon Studio, open ['Remote' ](https://docs.katalon.com/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
+4.In Katalon Studio, open ['Remote' ](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
 
 *   Remote Web Server URL (retrieved from step #2): 
     

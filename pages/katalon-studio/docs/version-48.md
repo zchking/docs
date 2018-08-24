@@ -14,7 +14,7 @@ Introducing brand new Katalon Help page for Katalon Studio application. Users ca
 
 **![](../../images/katalon-studio/docs/version-48/image2017-9-1 17_8_59.png)**
 
-**[Support Shadow DOM](https://docs.katalon.com/display/KD/Working+with+Shadow+DOM+Objects)**
+**[Support Shadow DOM](/display/KD/Working+with+Shadow+DOM+Objects)**
 
 Katalon Studio Version 4.8 supports objects with Shadow DOM in Web Testing. Users can identify Shadow DOM objects by specifying the Shadow Root Parent in the Object settings tab.
 
@@ -23,7 +23,7 @@ Katalon Studio Version 4.8 supports objects with Shadow DOM in Web Testing. User
 Test Suite
 ----------
 
-[**Video Capturing**](https://docs.katalon.com/display/KD/Video+Capturing)
+[**Video Capturing**](/display/KD/Video+Capturing)
 
 > [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play Katalon Studio test execution video.
 
@@ -31,7 +31,7 @@ Introducing Katalon Studio **new** feature **video capturing** for Test Suite re
 
 ![](../../images/katalon-studio/docs/version-48/image2017-8-25 14_9_49.png)
 
-[**Variable Binding**](https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding)
+[**Variable Binding**](/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding)
 
 Variable Binding has been improved to allow users to set or update **Type** and **Test Data **column of multiple rows at once.This improvement aims to save testing time and to eliminate several repetitive procedures.
 
@@ -57,7 +57,7 @@ JIRA Integration
 Mobile Testing
 --------------
 
-[Record](https://docs.katalon.com/display/KD/Recording+Mobile+Test) and [Spy](https://docs.katalon.com/display/KD/Mobile+Object+Spy) Mobile is improved to support Kobiton devices, a cloud-based devices platform. Testing team can run test automation on hundreds of Kobiton devices.
+[Record](/display/KD/Recording+Mobile+Test) and [Spy](/display/KD/Mobile+Object+Spy) Mobile is improved to support Kobiton devices, a cloud-based devices platform. Testing team can run test automation on hundreds of Kobiton devices.
 
 *   Users can choose 2 options in **Device Types**:
     *   Local devices: This will list out all local devices and simulators.
@@ -71,18 +71,18 @@ Test Case
 
 Introducing **Recent Keywords** and **Recent Objects** features in **Manual** mode when writing a test case. This will optimize time and reduce repetitive tasks for users.
 
-**[Recent Keywords](https://docs.katalon.com/display/KD/Test+Case+Manual+View#TestCaseManualView-RecentKeywords)** feature allows users to select and add any of the 10 last used **keywords** to Item list.
+**[Recent Keywords](/display/KD/Test+Case+Manual+View#TestCaseManualView-RecentKeywords)** feature allows users to select and add any of the 10 last used **keywords** to Item list.
 
 ![](../../images/katalon-studio/docs/version-48/image2017-8-18 17_19_14.png)
 
-**[Recent objects](https://docs.katalon.com/display/KD/Test+Case+Manual+View#TestCaseManualView-RecentObjectsandObjectFolders)** feature in _Test Object Input_ dialog allows users to select and add any of the 10 last used **Test Objects.** Users can also quickly jump to **Recent Object Folder** that has recent used objects accordingly.
+**[Recent objects](/display/KD/Test+Case+Manual+View#TestCaseManualView-RecentObjectsandObjectFolders)** feature in _Test Object Input_ dialog allows users to select and add any of the 10 last used **Test Objects.** Users can also quickly jump to **Recent Object Folder** that has recent used objects accordingly.
 
 ![](../../images/katalon-studio/docs/version-48/image2017-8-25 17_29_39.png)
 
 Web Services
 ------------
 
-**[Support OAuth 1.0 authorization](https://docs.katalon.com/display/KD/RESTful)  
+**[Support OAuth 1.0 authorization](/display/KD/RESTful)  
 **
 
 Katalon Studio now supports OAuth 1.0 authorization for Web Services Testing.  OAuth (Open Standard for Authorization) is an open token-based protocol authentication and authorization that allows application to capture protected information without exposing end user credentials. Testing teams can leverage this support to test any Web Services project that required OAuth 1.0 authorization with Katalon Studio.
@@ -92,7 +92,7 @@ Katalon Studio now supports OAuth 1.0 authorization for Web Services Testing.  
 Project Settings
 ----------------
 
-**[Email](https://docs.katalon.com/display/KD/Emails+Settings)**
+**[Email](/display/KD/Emails+Settings)**
 
 This version of Katalon Studio improved **Email** configuration in Project setting. Users able to customize Mail Server, send to multiple recipients, editable subject field.
 
@@ -105,7 +105,7 @@ New **Template** under Email section allows users to customize test execution r
 Katalon Studio Console Mode for Linux OS
 ----------------------------------------
 
-Katalon Studio for Linux is now available. Users can execute test automation in Linux environment by using command line mode. Refer to this guide for [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution).
+Katalon Studio for Linux is now available. Users can execute test automation in Linux environment by using command line mode. Refer to this guide for [Console Mode Execution](/display/KD/Console+Mode+Execution).
 
 > *   Tested on Ubuntu, other OSes might have its own problem.
 > *   Only Chrome, Firefox and Remote options are supported for console mode execution using Linux version.
@@ -119,8 +119,8 @@ New built-in keywords to help users check for broken links or images.
 
 | Keywords | Description |
 | --- | --- |
-| [Get All Links On Current Page](https://docs.katalon.com/display/KD/%5BWebUI%5D+Get+All+Links+On+Current+Page) | Get all links on current page |
-| [Verify Response Status Code](https://docs.katalon.com/display/KD/%5BWS%5D+Verify+Response+Status+Code) | Verify status code in the returned data from a web service call |
-| [Verify Response Status Code In Range](https://docs.katalon.com/display/KD/%5BWS%5D+Verify+Response+Status+Code+In+Range) | Verify status code valid in a range of status codes in the returned data from a web service call |
-| [Verify Links Accessible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Links+Accessible) | Verify a list of links (URLs) are accessible |
-| [Verify All Links On Current Page Accessible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+All+Links+On+Current+Page+Accessible) | Verify all links (URLs) on the current page are accessible |
+| [Get All Links On Current Page](/display/KD/%5BWebUI%5D+Get+All+Links+On+Current+Page) | Get all links on current page |
+| [Verify Response Status Code](/display/KD/%5BWS%5D+Verify+Response+Status+Code) | Verify status code in the returned data from a web service call |
+| [Verify Response Status Code In Range](/display/KD/%5BWS%5D+Verify+Response+Status+Code+In+Range) | Verify status code valid in a range of status codes in the returned data from a web service call |
+| [Verify Links Accessible](/display/KD/%5BWebUI%5D+Verify+Links+Accessible) | Verify a list of links (URLs) are accessible |
+| [Verify All Links On Current Page Accessible](/display/KD/%5BWebUI%5D+Verify+All+Links+On+Current+Page+Accessible) | Verify all links (URLs) on the current page are accessible |

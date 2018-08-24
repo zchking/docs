@@ -7,7 +7,7 @@ description:
 ---
 > Warning
 > 
-> This setup process is **NOT** required if you use an Android device. Please go straight to this [step](https://docs.katalon.com/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
+> This setup process is **NOT** required if you use an Android device. Please go straight to this [step](/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
 
 [WebDriverAgent](https://github.com/facebook/WebDriverAgent) is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. You need to install and setup WebDriverAgent to allow Katalon Studio to automate iOS devices.
 

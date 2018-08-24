@@ -19,7 +19,7 @@ Parameters
 | attributeName | String | Required | The name of the attribute to verify. |
 | attributeValue | String | Required | The value of the attribute to verify. |
 | timeout | int | Required | System will wait at most timeout (seconds) to return result |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

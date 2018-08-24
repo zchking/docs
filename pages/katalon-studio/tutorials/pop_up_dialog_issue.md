@@ -35,7 +35,7 @@ Below are a few commonly used pop-ups which might cause problems in your test we
 
 To handle such pop-ups as described, you need to capture them first using the Object Spy feature in Katalon Studio. After that, you use "**Switch To…**" keywords of Katalon Studio to set focus to the specified pop-up as needed.
 
-The following screenshot shows simple scripts on how to handle a pop-up using the [Switch To Window Title](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title) keyword.
+The following screenshot shows simple scripts on how to handle a pop-up using the [Switch To Window Title](/display/KD/%5BWebUI%5D+Switch+To+Window+Title) keyword.
 
 ![Solving Pop-up dialog issue](../../images/katalon-studio/tutorials/pop_up_dialog_issue/Switch-To-Window-Title-keyword..png)
 
@@ -69,11 +69,11 @@ Where:
 
 | Keyword | Description |
 | --- | --- |
-| [Switch To Window Title](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Title) | Switch to the window identified by a given title. |
-| [Switch To Window Index](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Index) | Switch to the window identified by a given index. |
-| [Switch To Window Url](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Window+Url) | Switch to the window identified by a given URL. |
+| [Switch To Window Title](/display/KD/%5BWebUI%5D+Switch+To+Window+Title) | Switch to the window identified by a given title. |
+| [Switch To Window Index](/display/KD/%5BWebUI%5D+Switch+To+Window+Index) | Switch to the window identified by a given index. |
+| [Switch To Window Url](/display/KD/%5BWebUI%5D+Switch+To+Window+Url) | Switch to the window identified by a given URL. |
 
-If you want to switch back to the default window (parent), use the [Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content) keyword. For example_:_
+If you want to switch back to the default window (parent), use the [Switch To Default Content](/display/KD/%5BWebUI%5D+Switch+To+Default+Content) keyword. For example_:_
 
 ```groovy
 'Open browser and navigate to a site that has an iframe'
@@ -94,10 +94,10 @@ Where:
 
 | Keyword | Description |
 | --- | --- |
-| [Switch To Default Content](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Default+Content) | Switch back to the default window, after working with iFrame windows. |
+| [Switch To Default Content](/display/KD/%5BWebUI%5D+Switch+To+Default+Content) | Switch back to the default window, after working with iFrame windows. |
 
   
-To deal with Windows' native dialogs such as uploading files, users use the [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
+To deal with Windows' native dialogs such as uploading files, users use the [Upload File](/display/KD/%5BWebUI%5D+Upload+File) keyword. For example:
 
 ```groovy
 'Open browser and navigate to a site that has upload control'
@@ -115,9 +115,9 @@ Where:
 
 | Keyword | Description |
 | --- | --- |
-| [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) | Specify the file for the upload dialog**.** |
+| [Upload File](/display/KD/%5BWebUI%5D+Upload+File) | Specify the file for the upload dialog**.** |
 
-Regarding the browser's popups as mentioned above, you can [modify Desired Capabilities](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
+Regarding the browser's popups as mentioned above, you can [modify Desired Capabilities](/display/KD/Execution+Settings#ExecutionSettings-DesiredCapabilities) of the browser to prevent them from displaying. You can refer to [this ticket](https://forum.katalon.com/discussion/1417/disable-chrome-password-manager) for an example on how to disable the Chrome password manager.
 
 Example
 -------
@@ -253,4 +253,4 @@ _**Exception**_
 
 _Noted that _**_NoSuchWindowException_**_ exception will be thrown when window target to be switched doesn't exist._
 
-For further instructions and help, please refer to [\[WebUI\] Window](https://docs.katalon.com/x/RwnR) and join us on [Katalon Forum](https://forum.katalon.com/).
+For further instructions and help, please refer to [\[WebUI\] Window](/x/RwnR) and join us on [Katalon Forum](https://forum.katalon.com/).

@@ -17,7 +17,7 @@ Parameters  
 | --- | --- | --- | --- |
 | checkpoint | Checkpoint | Required | Represent the input checkpoint. |
 | logChangedValues | Boolean | Required | true will log all the changed values between checkpoint data and the source, false will not log any changed value. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

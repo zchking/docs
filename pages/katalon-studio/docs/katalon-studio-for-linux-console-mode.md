@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/katalon-studio-for-linux-console-mode.html
 redirect_from: "/pages/viewpage.action?pageId=13697253" 
 description: 
 ---
-Currently, Katalon Studio for Linux has a **Lite** version (Ubuntu tested) which supports only [console mode execution](https://docs.katalon.com/display/KD/Console+Mode+Execution). Katalon Studio IDE is **not** supported yet. This guide will cover basic setups and installation steps for the **Linux** version.
+Currently, Katalon Studio for Linux has a **Lite** version (Ubuntu tested) which supports only [console mode execution](/display/KD/Console+Mode+Execution). Katalon Studio IDE is **not** supported yet. This guide will cover basic setups and installation steps for the **Linux** version.
 
 Download
 --------
@@ -29,7 +29,7 @@ You can find installation steps from here: [http://openjdk.java.net/install/](h
 ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-07 at 11.50.50.png)  
 To execute tests, follow the following steps:  
 - **Prepare project**: If you have an existing project from **Windows** or **MacOS** or from your **source control**, be **SURE** to delete **.project** file first **after** it is delivered on Linux machine.  
-- **Generate**[console mode command](https://docs.katalon.com/display/KD/Console+Mode+Execution#ConsoleModeExecution-CommandBuilder). This command line builder is **NOT** available in Linux version due to lack of IDE UI. Users can generate CMD directly using either Katalon Studio on **Windows** or **Mac OS**.  
+- **Generate**[console mode command](/display/KD/Console+Mode+Execution#ConsoleModeExecution-CommandBuilder). This command line builder is **NOT** available in Linux version due to lack of IDE UI. Users can generate CMD directly using either Katalon Studio on **Windows** or **Mac OS**.  
 \- After a console mode command is generated or built, ensure to adjust the first parameter to be ./katalon . The correct command should look like as below:
 
 ```groovy

@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/integrate-test-case.html
 redirect_from: "/display/KD/Integrate+test+case" 
 description: 
 ---
-> **Test cases folder** must be registered in [**Test Case Repositories**](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload test cases to qTest.
+> **Test cases folder** must be registered in [**Test Case Repositories**](/display/KD/qTest+Integration) before you can upload test cases to qTest.
 
 Upload test cases to qTest
 --------------------------
@@ -49,7 +49,7 @@ You have two methods to upload a test case to predefined qTest Module
 
 ### Upload test case folder
 
-> **Test cases folder** must be registered in [**Test Case Repositories**](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload test cases to qTest.
+> **Test cases folder** must be registered in [**Test Case Repositories**](/display/KD/qTest+Integration) before you can upload test cases to qTest.
 
 1.  In the **Tests Explorer** view, right click on the test case folder to trigger its context menu. Select the **qTest > Upload** option.  
     ![](../../images/katalon-studio/docs/integrate-test-case/image2017-8-9 16_34_22.png)  

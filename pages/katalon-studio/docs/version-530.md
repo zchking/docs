@@ -21,7 +21,7 @@ General
 Test Suite
 ----------
 
-Implement [**Setup** / **Teardown**](https://docs.katalon.com/pages/viewpage.action?pageId=12419091) for Test Suite. This feature is another great extension besides [Test Listener](https://docs.katalon.com/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
+Implement [**Setup** / **Teardown**](/pages/viewpage.action?pageId=12419091) for Test Suite. This feature is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
 
 ![](../../images/katalon-studio/docs/version-530/image2018-1-8 16_25_42.png)
 
@@ -50,7 +50,7 @@ Web UI Testing
     ![](../../images/katalon-studio/docs/version-530/image2018-1-8 16_44_6.png)  
       
     
-*   **[Default locators](https://docs.katalon.com/x/MwDR)** for captured objects in Record/Spy now can be set in **Project Setting**. Selected locators will be added automatically while Recording or Spying the application under test.  
+*   **[Default locators](/x/MwDR)** for captured objects in Record/Spy now can be set in **Project Setting**. Selected locators will be added automatically while Recording or Spying the application under test.  
       
     ![](../../images/katalon-studio/docs/version-530/image2018-1-25 16_56_26.png)
 

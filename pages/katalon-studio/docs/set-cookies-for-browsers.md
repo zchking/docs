@@ -20,6 +20,6 @@ driver.manage().addCookie(ck)
 
 **References:**
 
-*   [Open Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Open+Browser)
+*   [Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)
 
 _Credit to [Ana Hong](https://forum.katalon.com/discussion/4607/how-can-i-set-cookies-for-my-browsers-in-katalon#Comment_9644)_

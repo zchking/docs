@@ -42,7 +42,7 @@ description:
 **Notes:**
 
 *   In Spy/Record dialog, there is no "On top" option. To make it work, please select the Spy/Record dialog -> Right click then choose "Always On Top" option.
-*   Generated command line ([https://docs.katalon.com/display/KD/Console+Mode+Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution)) need to be adjusted manually to run on Linux environment.
+*   Generated command line ([https://docs.katalon.com/display/KD/Console+Mode+Execution](/display/KD/Console+Mode+Execution)) need to be adjusted manually to run on Linux environment.
     
     ```groovy
     ./katalon {option1} {option2} ... {optionN}

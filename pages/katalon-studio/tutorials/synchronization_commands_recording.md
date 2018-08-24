@@ -134,4 +134,4 @@ WebUI.closeBrowser()
 
 It is recommended to add synchronization while recording automation test cases in the [manual mode](https://www.katalon.com/resources-center/tutorials/create-test-case-using-manual-mode/) or [script mode](https://www.katalon.com/resources-center/tutorials/create-test-case-using-script-mode/). It is also a good practice to use wait commands to avoid execution failures. Download source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Recording WebUI Test](https://docs.katalon.com/x/Y4Iw) tutorial.
+For further instructions and help, please refer to [Recording WebUI Test](/x/Y4Iw) tutorial.

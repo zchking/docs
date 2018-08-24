@@ -19,7 +19,7 @@ After you've created a request successfully, there will be a small **icon** next
 2\. In the opened editor of the new service request object, there will be two separate sections for the **Request **(left pane window) and **Response** (right pane window)  
 ![](../../images/katalon-studio/docs/restful-latest/image2018-4-1 18_41_6.png)
 
-> Web Services Request can be parameterized. Refer to this [documentation](https://docs.katalon.com/x/egLR).
+> Web Services Request can be parameterized. Refer to this [documentation](/x/egLR).
 
 We will take a look at the **Request** section using the sample REST URL
 

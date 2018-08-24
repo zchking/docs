@@ -4,14 +4,14 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/jenskins_ci_integration.html
 description: "Katalon Studio supports console mode execution which can be utilized for integration with popular CI tools such as Jenkins and TeamCity."
 ---
-Katalon Studio supports [console mode execution ](https://docs.katalon.com/display/KD/Console+Mode+Execution)which can be utilized for integration with popular CI tools such as Jenkins and TeamCity. This tutorial shows you the basic steps to set up integration with a Jenkins server for scheduling Katalon execution.
+Katalon Studio supports [console mode execution ](/display/KD/Console+Mode+Execution)which can be utilized for integration with popular CI tools such as Jenkins and TeamCity. This tutorial shows you the basic steps to set up integration with a Jenkins server for scheduling Katalon execution.
 
 Prerequisites
 -------------
 
 Here are the requirements to be prepared for Jenkins integration:
 
-1. The Katalon Studio command for console mode execution. Refer to the section [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution) for how to create a Katalon command. Here is the basic command template:
+1. The Katalon Studio command for console mode execution. Refer to the section [Console Mode Execution](/display/KD/Console+Mode+Execution) for how to create a Katalon command. Here is the basic command template:
 
 ```groovy
 katalon -runMode=console -projectPath="<YOUR PROJECT>" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath=<YOUR TEST SUITE PATH> -browserType="Chrome"
@@ -114,12 +114,12 @@ Below is the list of exit codes:
 *   3: the execution has failed test cases and erroneous test cases.
 *   4: the execution cannot start because of invalid arguments.
 
-To check test execution report in Katalon. Please refer to this [guide](https://docs.katalon.com/display/KD/Test+Report).
+To check test execution report in Katalon. Please refer to this [guide](/display/KD/Test+Report).
 
 Publish JUnit reports
 ---------------------
 
-From [Katalon Studio 4.7](https://docs.katalon.com/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store, analyze and show results, please add the '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
+From [Katalon Studio 4.7](/display/KD/Version+4.7), JUnit report is generated when you execute a test suite. In order for Jenkins to store, analyze and show results, please add the '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
 
 ![Publish JUnit reports](../../images/katalon-studio/tutorials/jenskins_ci_integration/9.-Katalon-JUnit-reports.png)
 

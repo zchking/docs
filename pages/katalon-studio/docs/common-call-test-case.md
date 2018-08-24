@@ -17,7 +17,7 @@ Parameters  
 | --- | --- | --- | --- |
 | arg0 | TestCase | Required | Represent the called test case's path. |
 | arg1 | Map<String,Object> | Required | Represent the list of parameters will be used in the called test case. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

@@ -15,21 +15,21 @@ Follow the steps below in order to use web service object in **Manual** view:
       
     
 2.  A Web Service step is added to the test case.   
-    To send a request to Web Service, you need to use **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword. Select the **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword now.  
+    To send a request to Web Service, you need to use **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword. Select the **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword now.  
     ![](../../images/katalon-studio/docs/using-web-service-in-test-case/image2017-6-30 20_50_17.png)  
       
     
-3.  Double click on object cell to specify the web service object to **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)**.  
+3.  Double click on object cell to specify the web service object to **[Send Request](/display/KD/%5BWS%5D+Send+Request)**.  
     ![](../../images/katalon-studio/docs/using-web-service-in-test-case/image2017-2-14 11_16_9.png)  
       
     
-4.  The output of **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword could be validated if needed using different **[Verify...](https://docs.katalon.com/display/KD/Web+Service)** keywords depending on your situation.  
+4.  The output of **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword could be validated if needed using different **[Verify...](/display/KD/Web+Service)** keywords depending on your situation.  
     ![](../../images/katalon-studio/docs/using-web-service-in-test-case/image2017-6-30 20_50_56.png)
 
 In Scripting View
 -----------------
 
-You can use the **[Send Request](https://docs.katalon.com/display/KD/%5BWS%5D+Send+Request)** keyword for Web Service object and the **[Verify...](https://docs.katalon.com/display/KD/Web+Service)** keywords to verify the web service response. You may want to refer to [Handle Response messages](#UsingWebServiceinTestCase-HandleResponsemessages) for more details regarding **Element Locator**:
+You can use the **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword for Web Service object and the **[Verify...](/display/KD/Web+Service)** keywords to verify the web service response. You may want to refer to [Handle Response messages](#UsingWebServiceinTestCase-HandleResponsemessages) for more details regarding **Element Locator**:
 
 ```groovy
 //Send a SOAP request and returns its response

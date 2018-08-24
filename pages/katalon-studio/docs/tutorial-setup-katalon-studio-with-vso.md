@@ -22,7 +22,7 @@ Add new build task: "Command Line":
 ![](../../images/katalon-studio/docs/tutorial-setup-katalon-studio-with-vso/image2018-6-15 10_49_54.png)
 
 *   · **Tool:** katalon.exe
-*   · **Arguments:** Generated command line from Katalon Studio (WITHOUT katalon prefix) to be used in console mode ([https://docs.katalon.com/display/KD/Console+Mode+Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution))
+*   · **Arguments:** Generated command line from Katalon Studio (WITHOUT katalon prefix) to be used in console mode ([https://docs.katalon.com/display/KD/Console+Mode+Execution](/display/KD/Console+Mode+Execution))
     *   o -projectPath value uses VSO build variable to get project location, e.g: -**runMode=console -projectPath="$(Build.SourcesDirectory)\\Sample Web Testing Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome" -noSplash**
 *   · **Advanced:**
     *   o Working folder: Select Katalon Studio folder, e.g: C:\\4.6\\Katalon Studio Windows 64

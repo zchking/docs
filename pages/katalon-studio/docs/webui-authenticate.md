@@ -19,7 +19,7 @@ Parameters
 | userName | String | Required | Username to authenticate. |
 | password | String | Required | Password to authenticate. |
 | timeout | int | Required | Time to wait since navigating to the page until entering username. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------

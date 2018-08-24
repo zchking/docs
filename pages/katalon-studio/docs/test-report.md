@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/test-report.html
 redirect_from: "/display/KD/Test+Report" 
 description: 
 ---
-Test Report provides a comprehensive view of your test results. You can also utilize our beta product, [Katalon Analytics](https://docs.katalon.com/display/KD/Katalon+Analytics+%28Beta%29+Integration), for visual analysis of the test reports. 
+Test Report provides a comprehensive view of your test results. You can also utilize our beta product, [Katalon Analytics](/display/KD/Katalon+Analytics+%28Beta%29+Integration), for visual analysis of the test reports. 
 
 *   [Test Suite Report](/display/KD/Test+Suite+Report)
 *   [Test Suite Collection Report](/display/KD/Test+Suite+Collection+Report)

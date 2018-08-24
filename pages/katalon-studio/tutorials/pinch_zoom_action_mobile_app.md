@@ -135,4 +135,4 @@ Mobile.closeApplication()
 
 ```
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Pinch To Zoom In At Position](https://docs.katalon.com/display/KD/%5BMobile%5D+Pinch+To+Zoom+In+At+Position) guide and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Pinch To Zoom In At Position](/display/KD/%5BMobile%5D+Pinch+To+Zoom+In+At+Position) guide and join us on [Katalon Forum](http://forum.katalon.com/).

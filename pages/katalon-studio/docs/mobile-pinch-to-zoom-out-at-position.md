@@ -18,7 +18,7 @@ Parameters
 | x | Number | Required | x position |
 | y | Number | Required | y position |
 | offset | Number | Required | The offset length to pinch |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------

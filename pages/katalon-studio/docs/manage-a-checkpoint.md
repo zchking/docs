@@ -17,7 +17,7 @@ Create a Checkpoint from Test Data
     ![](../../images/katalon-studio/docs/manage-a-checkpoint/image2017-2-6 13_54_6.png)  
       
     
-2.  In the next dialog, click **Browse** to select from the list of existing [Data Files](https://docs.katalon.com/display/KD/Manage+Test+Data) defined in Katalon Studio. Click **Finish**.  
+2.  In the next dialog, click **Browse** to select from the list of existing [Data Files](/display/KD/Manage+Test+Data) defined in Katalon Studio. Click **Finish**.  
     ![](../../images/katalon-studio/docs/manage-a-checkpoint/image2017-2-6 13_58_28.png)  
       
     

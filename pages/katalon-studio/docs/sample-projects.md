@@ -7,7 +7,7 @@ description:
 ---
 To help you get familiar with Katalon Studio, the Katalon Team has created various sample projects packaged with your installation and available on GitHub. 
 
-When you open Katalon Studio, a **Katalon Help** page will appear. If you are not connected to the Internet, only the default sample projects will be shown. Otherwise, a link to Katalon GitHub repositories will be available. You can also directly access our sample projects [here](https://github.com/katalon-studio-samples) and refer to this [guide](https://docs.katalon.com/x/foEw#GitIntegration-CloneProject) to clone the projects. 
+When you open Katalon Studio, a **Katalon Help** page will appear. If you are not connected to the Internet, only the default sample projects will be shown. Otherwise, a link to Katalon GitHub repositories will be available. You can also directly access our sample projects [here](https://github.com/katalon-studio-samples) and refer to this [guide](/x/foEw#GitIntegration-CloneProject) to clone the projects. 
 
 Default Sample Projects
 -----------------------
@@ -31,13 +31,13 @@ Each GitHub repository will have its own README that will guide you through the 
 
 ### Prerequisites
 
-*   [Katalon Studio](https://www.katalon.com/) - [Installation and Setup](https://docs.katalon.com/x/HwAM)
+*   [Katalon Studio](https://www.katalon.com/) - [Installation and Setup](/x/HwAM)
 *   Permission access to [Jira System](https://katalon.atlassian.net/) (provided in the sample code)
 
 ### Setting Up
 
 *   [Check out](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) the code from your desired Git repository. 
-*   [Open the project](https://docs.katalon.com//display/KD/Manage+Test+Project) from Katalon Studio
+*   [Open the project](//display/KD/Manage+Test+Project) from Katalon Studio
 
 ### Executing a Test Case
 

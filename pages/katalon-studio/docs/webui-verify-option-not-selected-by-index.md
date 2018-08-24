@@ -14,7 +14,7 @@ description:
 *   isRegex - boolean (required): true if the label is a regular expression, false by default
 *   timeOut - int (required):  system will wait at most timeout (seconds) to return result
     
-*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are [here](https://docs.katalon.com/x/qAAM).
+*   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are [here](/x/qAAM).
 
 Returns
 -------

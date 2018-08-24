@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/script-view.html
 redirect_from: "/display/KD/Script+View" 
 description: 
 ---
-In addition to the [Manual view](https://docs.katalon.com/display/KD/Test+Case+Manual+View), Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily modify the test script as needed.
+In addition to the [Manual view](/display/KD/Test+Case+Manual+View), Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily modify the test script as needed.
 
 Given a sample test case with the steps as below:
 
@@ -36,15 +36,15 @@ Follow these steps to automate the above test scenario in **Script view**:
     ![](../../images/katalon-studio/docs/script-view/image2017-6-30 19_25_5.png)  
       
     
-4.  Select the **[Open Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. Selected keywords will have their description displayed along for reference.  
+4.  Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. Selected keywords will have their description displayed along for reference.  
     ![](../../images/katalon-studio/docs/script-view/image2017-6-30 19_28_19.png)  
       
     
-5.  Enter the **[Navigate To Url](https://docs.katalon.com/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. For now, enter the URL of Katalon Studio ([katalon.com](http://katalon.com)) as an input parameter.  
+5.  Enter the **[Navigate To Url](/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. For now, enter the URL of Katalon Studio ([katalon.com](http://katalon.com)) as an input parameter.  
     ![](../../images/katalon-studio/docs/script-view/image2017-6-30 19_29_21.png)  
       
     
-6.  Enter the **[Click](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. You need to specify an object for this action.    
+6.  Enter the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. You need to specify an object for this action.    
     ![](../../images/katalon-studio/docs/script-view/image2017-6-30 19_29_41.png)  
       
     
@@ -60,11 +60,11 @@ Follow these steps to automate the above test scenario in **Script view**:
     > 
     > ![](../../images/katalon-studio/docs/script-view/image2017-2-15 13_18_7.png)
     
-8.  Enter the **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
+8.  Enter the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
     ![](../../images/katalon-studio/docs/script-view/image2017-2-15 13_26_9.png)  
       
     
-9.  Add the **[Close Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
+9.  Add the **[Close Browser](/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
     ![](../../images/katalon-studio/docs/script-view/image2017-2-15 13_27_9.png)  
       
     The following API docs may prove useful when working in Script view:

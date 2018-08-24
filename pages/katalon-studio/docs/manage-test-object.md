@@ -44,7 +44,7 @@ Add an object property
 Manage parent object
 --------------------
 
-Nowadays, there are many web applications which render elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website's **iframes** and select the correct **iframe** where the text and its object are present. In order to do so, you have to use '[Switch To Frame](https://docs.katalon.com/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements. 
+Nowadays, there are many web applications which render elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website's **iframes** and select the correct **iframe** where the text and its object are present. In order to do so, you have to use '[Switch To Frame](/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements. 
 
 Katalon Studio does support the ability to define parent iframe object within test object view, so you just only need to select the parent iframe and the execution will automatically switches to that iframe.
 
@@ -54,8 +54,8 @@ Properties used for detecting object
 ------------------------------------
 
 > *   Available since version 5.0
-> *   [How to get Web objects XPath or CSS Locator](https://docs.katalon.com/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
-> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   [How to get Web objects XPath or CSS Locator](/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
+> *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 
 ##### Selection Method
 

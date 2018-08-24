@@ -18,7 +18,7 @@ Parameters  
 | fromObject  | TestObject  | required | represent the drag-able mobile element |
 | toObject  | TestObject | required | represent the drop-able mobile element |
 | timeout  | int | required | system will wait at most timeout (seconds) to return result |
-| flowControl  | FailureHandling  | optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl  | FailureHandling  | optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------

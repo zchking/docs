@@ -44,7 +44,7 @@ Click **OK** to complete. 
 Upload Reports
 --------------
 
-See details document [here](https://docs.katalon.com/x/wBxO).
+See details document [here](/x/wBxO).
 
 Access Katalon Analytics to View Reports
 ----------------------------------------

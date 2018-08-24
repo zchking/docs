@@ -14,7 +14,7 @@ Katalon Studio supports parameterized the following information for Web Services
 *   **HTTP Header**
 *   **URL**
 
-Having the ability to parameterized Web Services object allows user have more control of the web services request object and fulfill all the testing requirements. The approach is the same with [Web UI object](https://docs.katalon.com/x/A4C9)
+Having the ability to parameterized Web Services object allows user have more control of the web services request object and fulfill all the testing requirements. The approach is the same with [Web UI object](/x/A4C9)
 
 **Example:**
 

@@ -20,7 +20,7 @@ The new Web Recorder will have a similar interface to Test Case View. With the n
 Beginner Friendly
 -----------------
 
-We've been working hard to make additional sample projects on our public [Katalon GitHub repository](https://github.com/katalon-studio-samples). The Welcome page will list all of these projects automatically and you can select which sample project you would like to refer. The Katalon Team aims to give you a richer experience with Katalon Studio by utilizing these dynamic sample projects, along with the lists of [Tips and Tricks](https://docs.katalon.com/x/PgXR) that we have curated.
+We've been working hard to make additional sample projects on our public [Katalon GitHub repository](https://github.com/katalon-studio-samples). The Welcome page will list all of these projects automatically and you can select which sample project you would like to refer. The Katalon Team aims to give you a richer experience with Katalon Studio by utilizing these dynamic sample projects, along with the lists of [Tips and Tricks](/x/PgXR) that we have curated.
 
 ![](../../images/katalon-studio/docs/version-55/image2018-7-6 11_35_3.png)
 

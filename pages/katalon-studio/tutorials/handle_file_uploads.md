@@ -140,4 +140,4 @@ return flag
 
 We have just learned how to handle file uploads and verify downloaded files using Katalon Studio. You can download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Upload File](https://docs.katalon.com/display/KD/%5BWebUI%5D+Upload+File) guideline.
+For further instructions and help, please refer to [Upload File](/display/KD/%5BWebUI%5D+Upload+File) guideline.

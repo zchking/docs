@@ -100,4 +100,4 @@ Mobile.closeApplication()
 
 **Note:** This scenario can be also handled by capturing the values in a list and tapping on the desired value from spinner.
 
-_The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)._
+_The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Katalon User Guide](/x/oArR) or [Katalon Forum](https://forum.katalon.com/)._

@@ -5,8 +5,8 @@ permalink: katalon-studio/docs/record-web-utility-version-50-to-54.html
 redirect_from: "/pages/viewpage.action?pageId=5118055" 
 description: 
 ---
-> *   [Working with Object Properties](https://docs.katalon.com/x/ZxlO)
-> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   [Working with Object Properties](/x/ZxlO)
+> *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 
 Enhanced Record Web utility allows users to **select** preferred objects'**properties** and specify the **locator** methodbefore adding to the object repository. The improved design allows the users have the capability to **show/hide** captured objects window to make record utility more compact. Users can also pin/unpin the record window for more conveniences while recording.
 
@@ -43,7 +43,7 @@ Follow these basic steps to get familiar with the Record & Playback features for
       
     
 7.  Users are **allowed** to **modify** objects **properties** and its **locator**. To change properties, click on any preferred object in **Captured Objects** window, its details properties will be populated and displayed in **Objects Properties** section.   
-    Next, you can **checked/unchecked** any displayed properties. You can also add new properties by simply click on **Add** icon. For more details, see [this](https://docs.katalon.com/x/ZxlO) guide.   
+    Next, you can **checked/unchecked** any displayed properties. You can also add new properties by simply click on **Add** icon. For more details, see [this](/x/ZxlO) guide.   
       
     ![](../../images/katalon-studio/docs/record-web-utility-version-50-to-54/image2017-10-17 17_16_28.png)  
       

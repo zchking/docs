@@ -17,7 +17,7 @@ Parameters
 | to | TestObject | Required | Represent a web element. |
 | offsetX | int | Required | x position in relative to the element. |
 | offsetY | int | Required | y position in relative to the element. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------

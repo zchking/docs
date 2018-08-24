@@ -7,9 +7,9 @@ description:
 ---
 > Available since Katalon Studio v5.3
 > 
-> For full lifecycle of Tests in Katalon Studio, refer to this [documentation](https://docs.katalon.com/x/7zhO).
+> For full lifecycle of Tests in Katalon Studio, refer to this [documentation](/x/7zhO).
 
-Every test suite from your projects now has been equipped with the ability to run either **SetUp** or **Teardown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another great extension besides [Test Listener](https://docs.katalon.com/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
+Every test suite from your projects now has been equipped with the ability to run either **SetUp** or **Teardown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
 
 There will a **new tab** called '**Script**' in **Test Suite**'s interface. This interface will generate sample **Setup** and **TearDown** methods to be used.
 

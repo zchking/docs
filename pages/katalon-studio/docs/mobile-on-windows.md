@@ -8,7 +8,7 @@ description:
 Katalon Studio Supported Environment on Windows
 -----------------------------------------------
 
-> Unfortunately, you can only test an **iOS** application using **macOS**. If you wish to setup your macOS environment for Katalon Studio, please refer to [this guide](https://docs.katalon.com/x/9AXR).
+> Unfortunately, you can only test an **iOS** application using **macOS**. If you wish to setup your macOS environment for Katalon Studio, please refer to [this guide](/x/9AXR).
 
 |   | Version |
 | --- | --- |
@@ -59,4 +59,4 @@ Once setting up successfully, follow the following guides to perform mobile test
 Troubleshooting Common Issues
 -----------------------------
 
-_**Please refer to [this](https://docs.katalon.com/display/KD/Troubleshooting+automated+mobile+testing) troubleshooting tutorial**_
+_**Please refer to [this](/display/KD/Troubleshooting+automated+mobile+testing) troubleshooting tutorial**_

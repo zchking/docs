@@ -9,7 +9,7 @@ Katalon Studio **Object Properties** makes Spying and Recording Web feature eas
 
 > *   Available since version 5.0
 > *   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**
-> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 
 Basic Mode
 ----------

@@ -9,10 +9,10 @@ Katalon Studio provides the ability to dictate the logical flow of execution by 
 
 The following control statements are supported in Katalon Studio:
 
-*   [Decision-making statements](https://docs.katalon.com/display/KD/Control+Statements#ControlStatements-Decision-makingstatements) 
-*   [Looping statements](https://docs.katalon.com/display/KD/Control+Statements#ControlStatements-Loopingstatements)
-*   [Branching statements](https://docs.katalon.com/display/KD/Control+Statements#ControlStatements-Branchingstatements)
-*   [Exception handling block](https://docs.katalon.com/display/KD/Control+Statements#ControlStatements-Exceptionhandlingblock)
+*   [Decision-making statements](/display/KD/Control+Statements#ControlStatements-Decision-makingstatements) 
+*   [Looping statements](/display/KD/Control+Statements#ControlStatements-Loopingstatements)
+*   [Branching statements](/display/KD/Control+Statements#ControlStatements-Branchingstatements)
+*   [Exception handling block](/display/KD/Control+Statements#ControlStatements-Exceptionhandlingblock)
 
 > Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 

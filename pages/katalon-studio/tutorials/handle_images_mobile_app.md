@@ -303,4 +303,4 @@ def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
 
 ```
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [\[Mobile\] Take Screenshot](https://docs.katalon.com/display/KD/%5BMobile%5D+Take+Screenshot) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [\[Mobile\] Take Screenshot](/display/KD/%5BMobile%5D+Take+Screenshot) guideline and join us on [Katalon Forum](http://forum.katalon.com/).

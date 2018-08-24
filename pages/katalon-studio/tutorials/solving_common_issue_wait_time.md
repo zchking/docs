@@ -21,8 +21,8 @@ Katalon provides keywords dedicated to delay explicitly. You can use the followi
 
 *   [**Wait For Page Load**](http://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Page+Load) **–** This logic will wait for a page to completely load before running a step in your script.
 
-*   [**Wait For Element Present**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present) **–** It happens sometimes that web elements take longer time to appear on the page. This keyword pauses execution until the targeted element appears on the page. Once the element appears, the test continues to execute the next action.
-*   [**Global variable**](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Globalvariables) **–** This variable has the global scope, meaning that it is visible throughout the program. Thus, you can use this variable in your test scripts according to the response time of your web application. You may consider defining 3 kinds of global variable in your test scripts, for short, medium, and long waits.
+*   [**Wait For Element Present**](/display/KD/%5BWebUI%5D+Wait+For+Element+Present) **–** It happens sometimes that web elements take longer time to appear on the page. This keyword pauses execution until the targeted element appears on the page. Once the element appears, the test continues to execute the next action.
+*   [**Global variable**](/display/KD/Variable+Types#VariableTypes-Globalvariables) **–** This variable has the global scope, meaning that it is visible throughout the program. Thus, you can use this variable in your test scripts according to the response time of your web application. You may consider defining 3 kinds of global variable in your test scripts, for short, medium, and long waits.
 
 For example: The script below shows the usage of a global variable and the use of Katalon Studio built-in keyword [**Wait For Element Present**](http://docs.katalon.com/display/KD/%5BMobile%5D+Wait+For+Element+Present) to deliberately wait for a specific test element.
 
@@ -104,7 +104,7 @@ Quite often test execution get failed due to the exceptions such as '**NoSuchEle
 
 | Keyword | Description |
 | --- | --- |
-| [Wait For Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Present) | Wait for the given element to present (appear) within the given time in seconds. |
-| [Wait For Element Visible](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Visible) | Wait until the given web element is visible within timeout. |
-| [Wait For Alert](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Alert) | Wait for a browser's alert to present. |
-| [Wait for Element Clickable](https://docs.katalon.com/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable) | Wait for the given element to be clickable within the given time in seconds. |
+| [Wait For Element Present](/display/KD/%5BWebUI%5D+Wait+For+Element+Present) | Wait for the given element to present (appear) within the given time in seconds. |
+| [Wait For Element Visible](/display/KD/%5BWebUI%5D+Wait+For+Element+Visible) | Wait until the given web element is visible within timeout. |
+| [Wait For Alert](/display/KD/%5BWebUI%5D+Wait+For+Alert) | Wait for a browser's alert to present. |
+| [Wait for Element Clickable](/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable) | Wait for the given element to be clickable within the given time in seconds. |

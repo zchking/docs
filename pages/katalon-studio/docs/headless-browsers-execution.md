@@ -63,4 +63,4 @@ Executing Automation Tests
 *   Execute your tests in console mode using the generated CMD script from Katalon Studio.
     
 
-![Execute using console mode execution](../../images/katalon-studio/docs/headless-browsers-execution/Execute-using-console-mode-execution-2.png)Note: Browsers will NOT be displayed while executing (Headless Browsers)Furthermore, using Headless browsers in console mode execution is recommended for CI/CD process to help project team faster quality releases and continuously. Refer to this [guide](https://docs.katalon.com/pages/viewpage.action?pageId=786527) for leveraging Katalon Studio in CI/CD process.
+![Execute using console mode execution](../../images/katalon-studio/docs/headless-browsers-execution/Execute-using-console-mode-execution-2.png)Note: Browsers will NOT be displayed while executing (Headless Browsers)Furthermore, using Headless browsers in console mode execution is recommended for CI/CD process to help project team faster quality releases and continuously. Refer to this [guide](/pages/viewpage.action?pageId=786527) for leveraging Katalon Studio in CI/CD process.

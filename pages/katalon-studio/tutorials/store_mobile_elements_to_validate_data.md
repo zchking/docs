@@ -160,4 +160,4 @@ for (WebElement radio : elements) {
 
 The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation).
 
-_For further instructions and help, please refer to [Katalon User Guide](https://docs.katalon.com/x/oArR) or [Katalon Forum](https://forum.katalon.com/)._
+_For further instructions and help, please refer to [Katalon User Guide](/x/oArR) or [Katalon Forum](https://forum.katalon.com/)._

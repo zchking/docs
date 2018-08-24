@@ -25,7 +25,7 @@ Go to **Help > Encrypt Text**, input raw text to encrypt. Next, copy and paste e
 | --- | --- | --- | --- |
 | to  | TestObject | Required | Represent a web element. |
 | text | String | Required | The encrypted text. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------

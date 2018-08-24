@@ -23,4 +23,4 @@ AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 
 **References:**
 
-*   [Start Application](https://docs.katalon.com/display/KD/%5BMobile%5D+Start+Application)
+*   [Start Application](/display/KD/%5BMobile%5D+Start+Application)

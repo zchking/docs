@@ -33,7 +33,7 @@ Additionally, if you want to test iOS applications, you will need to download th
 
 1.  [Xcode](https://itunes.apple.com/vn/app/xcode/id497799835?mt=12)
 2.  [Command-line tool for Xcode](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
-3.  [WebDriverAgent](/display/KD/Installing+WebDriverAgent+for+iOS+devices)[](https://docs.katalon.com/x/TwbR)[](https://docs.katalon.com/x/9AXR#MobileonmacOS-InstallingWebDriverAgenttoiOSdevices)[ ](https://github.com/facebook/WebDriverAgent)
+3.  [WebDriverAgent](/display/KD/Installing+WebDriverAgent+for+iOS+devices)[](/x/TwbR)[](/x/9AXR#MobileonmacOS-InstallingWebDriverAgenttoiOSdevices)[ ](https://github.com/facebook/WebDriverAgent)
 4.  [Appium](http://appium.io/downloads.html)
 
 The Katalon Team suggests using [homebrew](https://brew.sh/) to install these dependencies. 
@@ -92,4 +92,4 @@ Once setting up successfully, follow the following guides to perform mobile test
 Troubleshooting Common Issues
 -----------------------------
 
-_**Please refer to [this](https://docs.katalon.com/display/KD/Troubleshooting+automated+mobile+testing) troubleshooting tutorial**_
+_**Please refer to [this](/display/KD/Troubleshooting+automated+mobile+testing) troubleshooting tutorial**_

@@ -41,7 +41,7 @@ Enhanced [Record Web](/pages/viewpage.action?pageId=5118055) feature allows use
 Spy Web
 -------
 
-Enhanced [Spy Web](https://docs.katalon.com/x/5BZO) feature for more compact and more intelligent.
+Enhanced [Spy Web](/x/5BZO) feature for more compact and more intelligent.
 
 *   Users are **allowed** to select preferred properties and locators for captured objects
 *   Built-in **Verify and Highlight** feature to make sure Katalon Studio can locate the captured objects
@@ -52,7 +52,7 @@ Enhanced [Spy Web](https://docs.katalon.com/x/5BZO) feature for more compact an
 Import preferences
 ------------------
 
-Adding new [Import Settings](https://docs.katalon.com/x/eYEw) feature that help users to
+Adding new [Import Settings](/x/eYEw) feature that help users to
 
 *   Freely upgrade to any new versions of Katalon Studio while retaining **preferences** setting from previous versions by copying the **config** folder.
 *   Smoothly migrate Katalon Studio **preferences** setting to other team members.
@@ -62,20 +62,20 @@ Adding new [Import Settings](https://docs.katalon.com/x/eYEw) feature that help
 Execution
 ---------
 
-Enhanced current headless browser [execution mode](https://docs.katalon.com/x/sxVO) with **Chrome headless** browser. Headless mode is great solution for automated web testing and server environments where UI components are invisible. Thus, testing process is more efficient. 
+Enhanced current headless browser [execution mode](/x/sxVO) with **Chrome headless** browser. Headless mode is great solution for automated web testing and server environments where UI components are invisible. Thus, testing process is more efficient. 
 
 ![](../../images/katalon-studio/docs/version-500/image2017-10-18 15_44_34.png)
 
 Test Suite Collection
 ---------------------
 
-Katalon Studio supports **Kobiton's devices** as part of [Test Suite Collection](https://docs.katalon.com/display/KD/Mobile+Testing+with+Kobiton+Devices#MobileTestingwithKobitonDevices-ExecuteTestSuiteCollection) environment configuration. Users can **select** preferred **Kobiton devices** for each test suite in test suite collection.
+Katalon Studio supports **Kobiton's devices** as part of [Test Suite Collection](/display/KD/Mobile+Testing+with+Kobiton+Devices#MobileTestingwithKobitonDevices-ExecuteTestSuiteCollection) environment configuration. Users can **select** preferred **Kobiton devices** for each test suite in test suite collection.
 
 ![](../../images/katalon-studio/docs/version-500/image2017-10-11 13_21_53.png)
 
 Keywords
 --------
 
-*   Improving "**[Start Application](https://docs.katalon.com/x/zo0Y)**" keyword for Mobile testing. Users are allowed to input both **relative **and **absolute** path for _appFile_ parameter.
+*   Improving "**[Start Application](/x/zo0Y)**" keyword for Mobile testing. Users are allowed to input both **relative **and **absolute** path for _appFile_ parameter.
 
-*   Add new keyword '**[Execute JavaScript'](https://docs.katalon.com/display/KD/%5BWebUI%5D+Execute+JavaScript)** to execute Javascript on the currently selected frame or window
+*   Add new keyword '**[Execute JavaScript'](/display/KD/%5BWebUI%5D+Execute+JavaScript)** to execute Javascript on the currently selected frame or window

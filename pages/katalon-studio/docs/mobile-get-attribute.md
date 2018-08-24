@@ -18,7 +18,7 @@ Parameters  
 | to | TestObject | Required | Represent a mobile element. |
 | name | String | Required | Name of the attribute to get. |
 | timeout | int | Required | Maximum period of time (in seconds) that system will wait to return a result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

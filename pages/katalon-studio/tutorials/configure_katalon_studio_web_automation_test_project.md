@@ -42,7 +42,7 @@ Skip this section if you do not wish to run your automated tests on Internet Exp
 Katalon Addon for Chrome
 ------------------------
 
-Katalon Utility, a [**Katalon addon**](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid) for Chrome, is required if capturing objects on your active Chrome browsers. You can install this Katalon addon for Chrome from [here](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid). Refer to [Web Object Spy](https://docs.katalon.com/x/5BZO) and [Record & Playback](https://docs.katalon.com/x/RwnR) for more details.
+Katalon Utility, a [**Katalon addon**](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid) for Chrome, is required if capturing objects on your active Chrome browsers. You can install this Katalon addon for Chrome from [here](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid). Refer to [Web Object Spy](/x/5BZO) and [Record & Playback](/x/RwnR) for more details.
 
 ![Katalon Utility](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/5.-Katalon-Addon.png)
 
@@ -88,7 +88,7 @@ The example below show a desired capabilities setting for the web browser to dis
 
 Refer to [https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities) to know which properties of each web browser are supported by Selenium.
 
-Notes: in case you want to have more configuration about desired capabilities (e.g., setup desired capabilities for specific web execution on remote machines), please refer to [Execution Settings](https://docs.katalon.com/display/KD/Execution+Settings#ExecutionSettings-CustomExecution) for more details.
+Notes: in case you want to have more configuration about desired capabilities (e.g., setup desired capabilities for specific web execution on remote machines), please refer to [Execution Settings](/display/KD/Execution+Settings#ExecutionSettings-CustomExecution) for more details.
 
 External Library
 ----------------
@@ -100,14 +100,14 @@ With this setting, you can add or remove your external libraries. Please access 
 *   **Add**: Click and browse your .jar file to add a library to your external libraries. The selected library will be copied to the **Drivers** folder in the Katalon project.
 *   **Remove:** Click to remove existing libraries. They will be removed from the **Drivers** folder for a Katalon project
 
-The added libraries can be imported and utilized in the [Script View](https://docs.katalon.com/x/Y4Iw) of test cases:
+The added libraries can be imported and utilized in the [Script View](/x/Y4Iw) of test cases:
 
 ![Katalon Studio Script View](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/12.-Katalon-Script-view.png)
 
 Database Settings
 -----------------
 
-These settings allow you to define the global database connection to be used in several features of Katalon Studio such as defining [Test Data](https://docs.katalon.com/display/KD/Manage+Test+Data#ManageTestData-CreateaDatabaseData) or [Checkpoints](https://docs.katalon.com/x/XYIw). You can access these settings from **Project > Settings > Database**.
+These settings allow you to define the global database connection to be used in several features of Katalon Studio such as defining [Test Data](/display/KD/Manage+Test+Data#ManageTestData-CreateaDatabaseData) or [Checkpoints](/x/XYIw). You can access these settings from **Project > Settings > Database**.
 
 ![Katalon Database Settings](../../images/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project/13.-Katalon-Database.png)
 
@@ -118,7 +118,7 @@ The dialog includes the following fields:
 Git Integration
 ---------------
 
-Katalon Studio supports Git integration to facilitate team collaboration. Refer to this [guide](https://docs.katalon.com/display/KD/Git+Integration#GitIntegration-Configuration) on how to enable it.
+Katalon Studio supports Git integration to facilitate team collaboration. Refer to this [guide](/display/KD/Git+Integration#GitIntegration-Configuration) on how to enable it.
 
 Post-execution options
 ----------------------
@@ -129,4 +129,4 @@ Users can specify what to do next when a test execution finishes. The setting ca
 
 The options include:
 
-<table><thead><tr><th>Field</th> <th>Description</th> </tr></thead><tbody><tr><td>Default execution</td> <td>The default environment that Katalon Studio will use to execute automation test.</td> </tr><tr><td>Default load timeout</td> <td>The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests.</td> </tr><tr><td>Post-Execution Options</td> <td>These options determine the actions that Katalon Studio will perform after executing tests.<p></p><ul><li><b>Notify me</b>: Specify whether you want to send email notification.</li></ul><ul><li>Refer to <a href="https://docs.katalon.com/display/KD/Emails+Settings">Emails Settings</a> on how to register the list of report recipients.</li><li>Refer to <a href="https://docs.katalon.com/display/KD/Execute+a+test+suite#Executeatestsuite-Manageexecutioninformation">Test suite &gt; Manage execution information</a> on how to register a list of recipients who will be receiving the execution report of a specific test suite.</li></ul><ul><li><b>Open report</b>: Specify whether the report generated is opened immediately.</li></ul><p><b>Terminate drivers</b>: Specify whether any driver remaining after execution will be terminated.</p></td></tr></tbody></table>
+<table><thead><tr><th>Field</th> <th>Description</th> </tr></thead><tbody><tr><td>Default execution</td> <td>The default environment that Katalon Studio will use to execute automation test.</td> </tr><tr><td>Default load timeout</td> <td>The default timeout period (in seconds) that Katalon Studio will wait for the application under test to be loaded during the execution of tests.</td> </tr><tr><td>Post-Execution Options</td> <td>These options determine the actions that Katalon Studio will perform after executing tests.<p></p><ul><li><b>Notify me</b>: Specify whether you want to send email notification.</li></ul><ul><li>Refer to <a href="/display/KD/Emails+Settings">Emails Settings</a> on how to register the list of report recipients.</li><li>Refer to <a href="/display/KD/Execute+a+test+suite#Executeatestsuite-Manageexecutioninformation">Test suite &gt; Manage execution information</a> on how to register a list of recipients who will be receiving the execution report of a specific test suite.</li></ul><ul><li><b>Open report</b>: Specify whether the report generated is opened immediately.</li></ul><p><b>Terminate drivers</b>: Specify whether any driver remaining after execution will be terminated.</p></td></tr></tbody></table>

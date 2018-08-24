@@ -9,7 +9,7 @@ description:
 
 Katalon Studio v5.4 introduces another flexible way to extend your current automation test scripts to cover multiple and different environments with ease. We call it '**Execution Profile**'. You can find below the changes related to this improvement:
 
-*   The current [Global Variables](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Globalvariables) list now become the **Default Profile**. There will be **NO** 'Global Variables' interface anymore and you will need to create Global Variables in the profile you want.
+*   The current [Global Variables](/display/KD/Variable+Types#VariableTypes-Globalvariables) list now become the **Default Profile**. There will be **NO** 'Global Variables' interface anymore and you will need to create Global Variables in the profile you want.
 *   By **default**, Katalon Studio will use a **default profile** as indicated on the top right of Katalon Studio's interface. There is also a drop-down menu that allows you to select any available execution profile.  
     Just like any other test artifacts, you can quickly _create_, _rename_, _copy_, _cut_ your profile directly from _Test Explorers_.   
     ![](../../images/katalon-studio/docs/execution-profile-v54/Untitled3.png)  
@@ -27,7 +27,7 @@ Katalon Studio v5.4 introduces another flexible way to extend your current autom
         ![](../../images/katalon-studio/docs/execution-profile-v54/4.png)  
           
         
-    *   **For [Console Mode](https://docs.katalon.com/display/KD/Console+Mode+Execution) execution**: Select your desired profile on Profile field.  
+    *   **For [Console Mode](/display/KD/Console+Mode+Execution) execution**: Select your desired profile on Profile field.  
         ![](../../images/katalon-studio/docs/execution-profile-v54/5.png)  
           
         The generated command line will have '**executionProfile**' parameter so that you can change it manually, e.g

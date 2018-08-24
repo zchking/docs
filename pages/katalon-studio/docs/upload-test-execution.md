@@ -20,7 +20,7 @@ description:
 Upload test results automatically
 ---------------------------------
 
-> The test result from Katalon Studio will be upload to qTest automatically in case the **Automatically submit test run result** option is **checked** in [qTest Integration settings](https://docs.katalon.com/display/KD/qTest+Integration).
+> The test result from Katalon Studio will be upload to qTest automatically in case the **Automatically submit test run result** option is **checked** in [qTest Integration settings](/display/KD/qTest+Integration).
 
 1.  Execute an integrated Katalon test suite.
 2.  Open the generated test execution report.

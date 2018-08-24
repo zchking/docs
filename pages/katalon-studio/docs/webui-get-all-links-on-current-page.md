@@ -17,7 +17,7 @@ Parameters
 | --- | --- | --- | --- |
 | isIncludedExternalLinks | boolean | Required | If false, only target to links on the same HOST. Otherwise, target to all links. |
 | excludedLinks | List | Required | A list of excluded links (URLs). |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
 -------

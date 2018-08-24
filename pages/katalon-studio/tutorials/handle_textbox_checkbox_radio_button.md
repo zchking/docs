@@ -359,6 +359,6 @@ WebUI.closeBrowser()
 
 The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, refer to [\[WebUI\] Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Text) and [\[WebUI\] Checkbox](https://docs.katalon.com/display/KD/%5BWebUI%5D+Checkbox).
+For further instructions and help, refer to [\[WebUI\] Text](/display/KD/%5BWebUI%5D+Text) and [\[WebUI\] Checkbox](/display/KD/%5BWebUI%5D+Checkbox).
 
 You can also refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/) for more tutorials and discussions.

@@ -19,7 +19,7 @@ Record
     
     > *   The browser will highlight and display its correspondent Xpath when you hover the mouse on that element.
     > *   Recorded steps will be generated in Recorded Actions.
-    > *   When you type in a Password field, Web Recorder will automatically use '[Set Encrypted Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword and input's value will be encrypted to increase security.
+    > *   When you type in a Password field, Web Recorder will automatically use '[Set Encrypted Text](/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword and input's value will be encrypted to increase security.
     > 
     > ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 10.05.19.png)
     
@@ -30,21 +30,21 @@ With the new Web Recorder, instead of having to create a brand new test case whe
 
 *   Open any existing Test Case you want to continue recording on.
 *   Click on Record icon to open Web Recorder.
-*   All the existing test steps will be imported as Recorded Actions and current [Test Case's variables](https://docs.katalon.com/display/KD/Variable+Types#VariableTypes-Localvariables) will be imported into the Variables tab in Web Recorder. You won't have record the same test flow again.
+*   All the existing test steps will be imported as Recorded Actions and current [Test Case's variables](/display/KD/Variable+Types#VariableTypes-Localvariables) will be imported into the Variables tab in Web Recorder. You won't have record the same test flow again.
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.23.30.png)
 
 Modify Recorded Actions
 -----------------------
 
-Unlike previous Web Recorder's version , the list of available actions is the same with Katalon Studio [built-in keywords](https://docs.katalon.com/display/KD/Built-in+Keywords), so you can add whatever actions you want depending on your need. You can call another test case and use Custom Keyword as well.
+Unlike previous Web Recorder's version , the list of available actions is the same with Katalon Studio [built-in keywords](/display/KD/Built-in+Keywords), so you can add whatever actions you want depending on your need. You can call another test case and use Custom Keyword as well.
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.30.37.png)
 
 Modify Recorded Objects
 -----------------------
 
-After you finish your recording, **Web Recorder** will export a list of test objects used in the test case. For more information on WebUI test objects, go [here](https://docs.katalon.com/x/tQTR). 
+After you finish your recording, **Web Recorder** will export a list of test objects used in the test case. For more information on WebUI test objects, go [here](/x/tQTR). 
 
 When you are satisfied that your test case has been created correctly, click on **OK** to add the recorded steps to the test case. Choose the directory that you want your test objects to reside to continue. Here, Katalon Studio **automatically** **detect** similar **existing** objects in the Objects Reporsitory and ask you for further action. This will help the users optimize object repositories. 
 
@@ -53,7 +53,7 @@ When you are satisfied that your test case has been created correctly, click on�
 Variables
 ---------
 
-In the new Web Recorder interface, you can directly manage the [variables](https://docs.katalon.com/x/RoIw) directly related to your recording.
+In the new Web Recorder interface, you can directly manage the [variables](/x/RoIw) directly related to your recording.
 
 Execute
 -------

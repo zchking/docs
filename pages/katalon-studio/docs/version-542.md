@@ -8,7 +8,7 @@ description:
 Enhancements
 ------------
 
-*   Product activation is NOT required after **auto-updated** using **[updater](https://docs.katalon.com/x/lQPR)**.
+*   Product activation is NOT required after **auto-updated** using **[updater](/x/lQPR)**.
 *   Support an ability to debug external libraries during debug session.
 
 Fixes

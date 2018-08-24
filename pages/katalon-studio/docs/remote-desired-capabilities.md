@@ -11,9 +11,9 @@ There will be cases you need to connect and execute your tests on a remote envi
 
 Please refer to some documents below as examples how to pass in desired capabilities from these providers:
 
-1.  [Kobiton](https://docs.katalon.com/display/KD/Desired+capabilities+for+Kobiton+devices)
-2.  [SauceLabs](https://docs.katalon.com/display/KD/SauceLabs+Integration)
-3.  [BrowserStack](https://docs.katalon.com/display/KD/BrowserStack+Integration)
+1.  [Kobiton](/display/KD/Desired+capabilities+for+Kobiton+devices)
+2.  [SauceLabs](/display/KD/SauceLabs+Integration)
+3.  [BrowserStack](/display/KD/BrowserStack+Integration)
 
 Note that this Remote option is applied for all executions which support this kind of remote execution, so you can apply them in this option as well.
 

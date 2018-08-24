@@ -17,7 +17,7 @@ Parameters
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return the result. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

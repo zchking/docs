@@ -16,7 +16,7 @@ Environment Configuration
 
 First you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to automate using Katalon Studio.
 
-For **Web UI** automation, no additional settings are needed except making sure the required browsers are installed. Check [this list](https://docs.katalon.com/x/dAAM) for all supported browsers.
+For **Web UI** automation, no additional settings are needed except making sure the required browsers are installed. Check [this list](/x/dAAM) for all supported browsers.
 
 Note: in case you are Windows users, you may want to disable the **User Access Control (UAC)** settings so that Katalon Studio can launch Chrome/Firefox browsers properly. Refer to [this guide](https://www.howtogeek.com/howto/windows-vista/disable-user-account-control-uac-the-easy-way-on-windows-vista/) for steps to disable the UAC settings on different Windows.
 
@@ -44,7 +44,7 @@ After launching Katalon Studio, provide your registered username and password to
 
 ![Katalon Studio Activation pop-up](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2017-2-16%2017%3A30%3A12.png)
 
-If you have troubles activating Katalon Studio due to proxy issues, you can click on [Config Proxy](https://docs.katalon.com/display/KD/Proxy+Preferences) to configure the proxy setting accordingly.
+If you have troubles activating Katalon Studio due to proxy issues, you can click on [Config Proxy](/display/KD/Proxy+Preferences) to configure the proxy setting accordingly.
 
 If you are unable to access the Internet for activation, you can select Offline Activation to activate offline. You need to request an Offline Activation Code [here](https://www.katalon.com/activation/).
 

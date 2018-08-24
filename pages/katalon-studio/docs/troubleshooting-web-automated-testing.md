@@ -61,7 +61,7 @@ In case you want Katalon Studio to use different versions besides the current in
 *   Use custom keywords
 
 *   *   These Firefox instances should be installed on your machine first.
-    *   Create a [custom keyword](https://docs.katalon.com/display/KD/Define+custom+keywords) to open the browser. Press Ctrl + Shift + O to automatically import necessary packages: 
+    *   Create a [custom keyword](/display/KD/Define+custom+keywords) to open the browser. Press Ctrl + Shift + O to automatically import necessary packages: 
 
 ```groovy
 package com.example
@@ -111,4 +111,4 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 ```
 
 *   Downgrade browser's version:  
-    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: [https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium](https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium)
+    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: [https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium](/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium)

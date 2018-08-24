@@ -297,4 +297,4 @@ b) We cannot reuse the code wherever we need it. And it is quite challenging for
 
 You can download source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Recording WebUI Test](https://docs.katalon.com/x/RwnR) and [Record and Playback](https://www.katalon.com/videos/tutorial-videos/create-test-case-record-playback/) tutorials.
+For further instructions and help, please refer to [Recording WebUI Test](/x/RwnR) and [Record and Playback](https://www.katalon.com/videos/tutorial-videos/create-test-case-record-playback/) tutorials.

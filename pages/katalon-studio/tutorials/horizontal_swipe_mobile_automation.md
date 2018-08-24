@@ -136,4 +136,4 @@ Mobile.swipe(startX, startY, endX, endY)
 
 ```
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Swipe](https://docs.katalon.com/display/KD/%5BMobile%5D+Swipe) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile Swipe](/display/KD/%5BMobile%5D+Swipe) guideline and join us on [Katalon Forum](http://forum.katalon.com/).

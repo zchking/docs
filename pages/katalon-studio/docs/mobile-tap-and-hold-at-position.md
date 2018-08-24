@@ -18,7 +18,7 @@ Parameters
 | x | Number | Required | x position |
 | y | Number | Required | y position |
 | duration | Number | Required | Duration (in seconds) that the tap is held on the element, if set to <= 0 then will use default duration |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example 
 --------

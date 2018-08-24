@@ -19,7 +19,7 @@ Parameters  
 | --- | --- | --- | --- |
 | script | String | Required | The JavaScript to execute. |
 | argument | List | Required | The arguments to the script. Can be empty or null. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](https://docs.katalon.com/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------

@@ -35,11 +35,11 @@ Follow these steps to automate the above test scenario in **Manual view**:
     
       
     
-4.  Select the **[Open Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)  
+4.  Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)  
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_1_24.png)  
       
     
-5.  Add the **[Navigate To Url](https://docs.katalon.com/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.   
+5.  Add the **[Navigate To Url](/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.   
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_36_31.png)  
       
     
@@ -47,13 +47,13 @@ Follow these steps to automate the above test scenario in **Manual view**:
     ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_6_59.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>No</td><td>The number of parameter for the selected keyword.</td></tr><tr><td>Param Name</td><td>The name of the parameter.</td></tr><tr><td>Param Type</td><td>The required data type for the parameter.</td></tr><tr><td>Value Type</td><td>The type of your input value (e.g. strings, <a href="https://docs.katalon.com/display/KD/Variable+Types" rel="nofollow">variables</a>, <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow">data sources</a>...)</td></tr><tr><td>Value</td><td><p>The input value for this parameter.</p><blockquote class="important"><p>Input value can be varied based on&nbsp;<strong>Value Type</strong>. Refer to&nbsp;<a href="https://docs.katalon.com/display/KD/Value+Types" rel="nofollow">Value Types in Katalon</a>&nbsp;for more details.</p></blockquote></td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>No</td><td>The number of parameter for the selected keyword.</td></tr><tr><td>Param Name</td><td>The name of the parameter.</td></tr><tr><td>Param Type</td><td>The required data type for the parameter.</td></tr><tr><td>Value Type</td><td>The type of your input value (e.g. strings, <a href="/display/KD/Variable+Types" rel="nofollow">variables</a>, <a href="/display/KD/Manage+Test+Data" rel="nofollow">data sources</a>...)</td></tr><tr><td>Value</td><td><p>The input value for this parameter.</p><blockquote class="important"><p>Input value can be varied based on&nbsp;<strong>Value Type</strong>. Refer to&nbsp;<a href="/display/KD/Value+Types" rel="nofollow">Value Types in Katalon</a>&nbsp;for more details.</p></blockquote></td></tr></tbody></table>
     
       
     For now, enter the URL of Katalon demo AUT ([http://demoaut.katalon.com](http://demoaut.katalon.com)) into the **Value** column then click **OK**.   
       
     
-7.  Add the **[Click](https://docs.katalon.com/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.   
+7.  Add the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.   
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_51_0.png)  
       
     
@@ -61,11 +61,11 @@ Follow these steps to automate the above test scenario in **Manual view**:
     ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_14_44.png)  
       
     
-9.  Add the **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
+9.  Add the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_54_15.png)  
       
     
-10.  Add the **[Close Browser](https://docs.katalon.com/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
+10.  Add the **[Close Browser](/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_56_32.png)  
       
     

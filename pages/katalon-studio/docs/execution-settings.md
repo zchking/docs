@@ -38,7 +38,7 @@ Where:
 Desired Capabilities 
 ---------------------
 
-Desired Capabilities are essential in an automation test project. For more information, refer to [this guide](https://docs.katalon.com/x/ywbR). 
+Desired Capabilities are essential in an automation test project. For more information, refer to [this guide](/x/ywbR). 
 
 Custom Execution
 ----------------

@@ -20,7 +20,7 @@ Create an Excel Test Data
     ![](../../images/katalon-studio/docs/manage-test-data/image2017-1-24 16_17_6.png)  
       
     
-4.  Save the Test Data when you're done. The data set defined here can be utilized in other configurations (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/x/7AAM) when setting up test suites...)
+4.  Save the Test Data when you're done. The data set defined here can be utilized in other configurations (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/x/7AAM) when setting up test suites...)
 
 Create a CSV Test Data
 ----------------------

@@ -89,4 +89,4 @@ def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
 
 ```
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Scroll to Text](https://docs.katalon.com/display/KD/%5BMobile%5D+Scroll+To+Text) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Scroll to Text](/display/KD/%5BMobile%5D+Scroll+To+Text) guideline and join us on [Katalon Forum](http://forum.katalon.com/).

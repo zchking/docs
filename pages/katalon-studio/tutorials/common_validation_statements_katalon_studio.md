@@ -8,7 +8,7 @@ Katalon Studio supports two methods to validate. One is using built-in keywords 
 
 **Validation with Captured Objects**
 
-All Katalon Studio built-in keywords used for validating will have a prefix "Verify…". For example, in order to check whether a certain control presents on the page, Katalon uses **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword.
+All Katalon Studio built-in keywords used for validating will have a prefix "Verify…". For example, in order to check whether a certain control presents on the page, Katalon uses **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword.
 
 On the test case editor, you can add a validation keyword to validate a captured object. Follow these steps to add a validation point to your Katalon Test case:
 
@@ -32,17 +32,17 @@ On the test case editor, you can add a validation keyword to validate a captured
 
 If you want to verify whether a data set is still the same, you can use checkpoints.
 
-First, you need to create a checkpoint instance. Refer to **[Manage Checkpoint](https://docs.katalon.com/x/XYIw)** for more details.
+First, you need to create a checkpoint instance. Refer to **[Manage Checkpoint](/x/XYIw)** for more details.
 
 Katalon Studio supports many types of data source for checkpoints such as Excel, CSV, Database and checkpoint description.
 
-Then, you can use the **[Verify Checkpoint](https://docs.katalon.com/x/oIIi)** keyword to validate the state of the data. This keyword verifies if the data of a checkpoint matches its source data. The keyword's parameters, returns and usage are described as follows:
+Then, you can use the **[Verify Checkpoint](/x/oIIi)** keyword to validate the state of the data. This keyword verifies if the data of a checkpoint matches its source data. The keyword's parameters, returns and usage are described as follows:
 
 Parameters
 
 *   **checkpoint – Checkpoint (required): specifies the input checkpoint.**
 *   **logChangedValues – boolean (required): specifies whether changed values between the checkpoint data and the source will be logged.**
-*   **flowControl – FailureHandling (optional): specifies failure handling schema to determine whether the execution should be allowed to continue or stop. More details can be found in **[Failure handling](https://docs.katalon.com/display/KD/Failure+handling)**.**
+*   **flowControl – FailureHandling (optional): specifies failure handling schema to determine whether the execution should be allowed to continue or stop. More details can be found in **[Failure handling](/display/KD/Failure+handling)**.**
 
 Returns
 

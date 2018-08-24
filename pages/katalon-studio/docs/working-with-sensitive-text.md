@@ -12,7 +12,7 @@ Katalon Studio supports text encryption and set them right into the test script
 Manual Mode
 -----------
 
-*   Select [**setEncryptedText**](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Encrypted+Text) from the built-in keywords dropdown list. Click on **Input** field and a pop-up will be displayed to help encrypt any raw text.  
+*   Select [**setEncryptedText**](/display/KD/%5BWebUI%5D+Set+Encrypted+Text) from the built-in keywords dropdown list. Click on **Input** field and a pop-up will be displayed to help encrypt any raw text.  
       
     
 *   Next, enter the raw text and select **Insert**. Katalon Studio will **automatically** encrypt and insert into the test step. 
@@ -28,6 +28,6 @@ Script Mode
 
 ![](../../images/katalon-studio/docs/working-with-sensitive-text/image2018-3-26 17_52_37.png)
 
-*   In Script Mode, simply paste the encrypted text as param of the **[setEncryptedText](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Encrypted+Text)** built-in keyword
+*   In Script Mode, simply paste the encrypted text as param of the **[setEncryptedText](/display/KD/%5BWebUI%5D+Set+Encrypted+Text)** built-in keyword
 
 ![](../../images/katalon-studio/docs/working-with-sensitive-text/image2018-4-2 14_55_30.png)
