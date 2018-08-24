@@ -24,9 +24,9 @@ Create a Custom Keyword
 
 1.  Select **File > New > Keyword** from the main menu. The **New Keyword** dialog will be displayed. Enter the name for your keyword and specify a **package** for the keyword. Click **OK**.
     
-    Since version 5.4, Katalon Studio provides user option to generate sample custom keywords for Web, Mobile and API Testing.
-    
-    Refer to this guide: [https://docs.katalon.com/x/3QHR](https://docs.katalon.com/x/3QHR)
+    > Since version 5.4, Katalon Studio provides user option to generate sample custom keywords for Web, Mobile and API Testing.
+    > 
+    > Refer to this guide: [https://docs.katalon.com/x/3QHR](https://docs.katalon.com/x/3QHR)
     
       
     ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2018-4-2 14_37_16.png)

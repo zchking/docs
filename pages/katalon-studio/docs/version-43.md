@@ -23,10 +23,10 @@ Ability to continue executing your test scripts on any browser or mobile session
 
 ![](../../images/katalon-studio/docs/version-43/image2016-11-29 17_59_48.png)
 
-Limitations
-
-*   Does not support Safari
-*   Only support 1 session for Microsoft Edge
+> Limitations
+> 
+> *   Does not support Safari
+> *   Only support 1 session for Microsoft Edge
 
 **Select any test step for execution**
 

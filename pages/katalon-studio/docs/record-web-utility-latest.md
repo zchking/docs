@@ -76,7 +76,7 @@ Upon selecting any types of Run to execute, there will be execution logs display
 
 ![](../../images/katalon-studio/docs/record-web-utility-latest/Screen Shot 2018-06-27 at 11.54.27.png)
 
-The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
-
-*   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
-*   [Control Statements](/display/KD/Control+Statements)
+> The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
+> 
+> *   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
+> *   [Control Statements](/display/KD/Control+Statements)

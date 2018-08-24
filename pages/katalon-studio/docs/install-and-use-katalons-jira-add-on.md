@@ -19,7 +19,7 @@ The add-on is listed at [Atlassian Marketplace](https://marketplace.atlassian.co
 Gherkin custom field
 --------------------
 
-Only availabe for JIRA Server Version
+> Only availabe for JIRA Server Version
 
 This add-on adds a custom field type to JIRA called Katalon Gherkin. This custom field lets you write descriptions for your test cases and stories in Gherkin syntax. Gherkin keywords such as _Given_, _When_, _Then_ will be highlighted automatically. Once imported to Katalon Studio, the content of Katalon Gherkin field will be populated into test cases description.  
 

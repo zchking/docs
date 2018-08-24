@@ -27,7 +27,7 @@ Follow these steps to automate the above test scenario in **Manual view**:
     
 3.  Select **Add > Web UI Keyword** from the command toolbar.
     
-    **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
+    > **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
     
       
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 13_54_48.png)  
@@ -47,7 +47,7 @@ Follow these steps to automate the above test scenario in **Manual view**:
     ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_6_59.png)  
     Where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>No</td><td>The number of parameter for the selected keyword.</td></tr><tr><td>Param Name</td><td>The name of the parameter.</td></tr><tr><td>Param Type</td><td>The required data type for the parameter.</td></tr><tr><td>Value Type</td><td>The type of your input value (e.g. strings, <a href="https://docs.katalon.com/display/KD/Variable+Types" rel="nofollow">variables</a>, <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow">data sources</a>...)</td></tr><tr><td>Value</td><td><div class="content-wrapper"><p>The input value for this parameter.</p><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p><span>Input value can be varied based on&nbsp;</span><strong>Value Type</strong><span>. Refer to&nbsp;</span><a href="https://docs.katalon.com/display/KD/Value+Types" rel="nofollow">Value Types in Katalon</a><span>&nbsp;for more details.</span></p></div></div></div></td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>No</td><td>The number of parameter for the selected keyword.</td></tr><tr><td>Param Name</td><td>The name of the parameter.</td></tr><tr><td>Param Type</td><td>The required data type for the parameter.</td></tr><tr><td>Value Type</td><td>The type of your input value (e.g. strings, <a href="https://docs.katalon.com/display/KD/Variable+Types" rel="nofollow">variables</a>, <a href="https://docs.katalon.com/display/KD/Manage+Test+Data" rel="nofollow">data sources</a>...)</td></tr><tr><td>Value</td><td><div class="content-wrapper"><p>The input value for this parameter.</p><div class="confluence-information-macro confluence-information-macro-note conf-macro output-block" data-hasbody="true" data-macro-name="note"><blockquote class="important"><span class="aui-icon aui-icon-small aui-iconfont-warning confluence-information-macro-icon"></span><div class="confluence-information-macro-body"><p><span>Input value can be varied based on&nbsp;</span><strong>Value Type</strong><span>. Refer to&nbsp;</span><a href="https://docs.katalon.com/display/KD/Value+Types" rel="nofollow">Value Types in Katalon</a><span>&nbsp;for more details.</span></p></div></blockquote></div></div></td></tr></tbody></table>
     
       
     For now, enter the URL of Katalon demo AUT ([http://demoaut.katalon.com](http://demoaut.katalon.com)) into the **Value** column then click **OK**.   

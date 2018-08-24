@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/emails-settings.html
 redirect_from: "/display/KD/Emails+Settings" 
 description: 
 ---
-*   **Send test email** button only available once **Mail Server Settings** and **Recipients** are filled correctly.
+> *   **Send test email** button only available once **Mail Server Settings** and **Recipients** are filled correctly.
 
 These settings allow you to define global email configurations to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Email**. 
 

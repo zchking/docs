@@ -7,9 +7,9 @@ description:
 ---
 Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. **Enhanced **Object Properties allows users to choose objects locating method with Basic or Advanced options, select only preferred object's properties, and manually input XPath or CSS locator. 
 
-*   Available since version 5.0
-*   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**
-*   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   Available since version 5.0
+> *   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**
+> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
 
 Basic Mode
 ----------

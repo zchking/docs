@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/working-with-sensitive-text.html
 redirect_from: "/display/KD/Working+with+Sensitive+Text" 
 description: 
 ---
-**Since Katalon Studio v5.4**
+> **Since Katalon Studio v5.4**
 
 Katalon Studio supports text encryption and set them right into the test script. This feature is useful in case of project team need to share tests that contain sensitive information with other team members or key stakeholders. There are two ways to leverage this feature in **Manual Mode** and **Scripts Mode**:
 
@@ -22,7 +22,7 @@ Manual Mode
 Script Mode
 -----------
 
-Raw text must be encrypted before using in Script Mode
+> Raw text must be encrypted before using in Script Mode
 
 *   Select **Help > Encrypt Text** on the Main Menu. Enter the Raw Text and Click Copy and Close
 

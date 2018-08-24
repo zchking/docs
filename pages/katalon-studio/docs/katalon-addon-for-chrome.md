@@ -21,6 +21,6 @@ This configuration allows you to decide which port to be used for sending data b
 2.  Open preferences for Katalon Automation Recorder in Katalon Studio by accessing **Window > Preferences > Katalon > Utility Addon**. Enter the port to be used when communicating with Katalon Automation Recorder. (It should be the same port as specified in the previous step)  
     ![](../../images/katalon-studio/docs/katalon-addon-for-chrome/image2017-6-29 14_54_19.png)
     
-    When [Record Test Case](/pages/viewpage.action?pageId=3179014) and [Spy Object](/pages/viewpage.action?pageId=5111951) using **Active Browser** option, Katalon Studio will give a warning for installing Katalon Utility by default. You can select the **Do not show this dialog again** to prevent this dialog from showing up next time.
-    
-    ![](../../images/katalon-studio/docs/katalon-addon-for-chrome/image2017-2-22 13_47_31.png)
+    > When [Record Test Case](/pages/viewpage.action?pageId=3179014) and [Spy Object](/pages/viewpage.action?pageId=5111951) using **Active Browser** option, Katalon Studio will give a warning for installing Katalon Utility by default. You can select the **Do not show this dialog again** to prevent this dialog from showing up next time.
+    > 
+    > ![](../../images/katalon-studio/docs/katalon-addon-for-chrome/image2017-2-22 13_47_31.png)

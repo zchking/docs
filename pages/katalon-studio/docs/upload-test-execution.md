@@ -5,17 +5,17 @@ permalink: katalon-studio/docs/upload-test-execution.html
 redirect_from: "/display/KD/Upload+test+execution" 
 description: 
 ---
-In order for a test execution to be uploaded to qTest, the following conditions need to be fulfilled:
-
-\+ The associated **test case** is integrated to qTest. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
-
-\+ The associated **test suite** is integrated to qTest. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
-
-\+ The integrated **qTest location** is set as **default**. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
-
-\+ The version of **qTest test case** need to be at least **1.0**. For example:
-
-![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 16_15_25.png)
+> In order for a test execution to be uploaded to qTest, the following conditions need to be fulfilled:
+> 
+> \+ The associated **test case** is integrated to qTest. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
+> 
+> \+ The associated **test suite** is integrated to qTest. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
+> 
+> \+ The integrated **qTest location** is set as **default**. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
+> 
+> \+ The version of **qTest test case** need to be at least **1.0**. For example:
+> 
+> ![](../../images/katalon-studio/docs/upload-test-execution/image2017-8-7 16_15_25.png)
 
 Upload test results automatically
 ---------------------------------

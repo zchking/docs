@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/console-mode-execution.html
 redirect_from: "/display/KD/Console+Mode+Execution" 
 description: 
 ---
-Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version.**
+> Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version.**
 
 You can execute automation test without launching Katalon Studio by using command line mode execution. 
 

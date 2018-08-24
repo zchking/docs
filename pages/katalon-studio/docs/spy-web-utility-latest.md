@@ -5,9 +5,9 @@ permalink: katalon-studio/docs/spy-web-utility-latest.html
 redirect_from: "/pages/viewpage.action?pageId=5117668" 
 description: 
 ---
-*   Available since version 5.0
-*   [Working with Object Properties](https://docs.katalon.com/x/ZxlO)
-*   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   Available since version 5.0
+> *   [Working with Object Properties](https://docs.katalon.com/x/ZxlO)
+> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
 
 Enhanced Spy Web Utility is more compact and more intelligent for capturing objects. Object **properties** and **locating method** can be specified by users. Built-in **Verify and Highlight** feature provide users the assurance that Katalon Studio can locate the objects. Spy Web Utility window can be **pinned** or **unpinned** for users convenience while spying.
 
@@ -62,7 +62,7 @@ Define additional objects manually
 1.  **Add a Page element**: Web objects need a web page to hold it. Click on **New page** from toolbar to add a new Page element manually.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-16 10_44_25.png)
     
-    The **name** of the manually added **Page element** is generated automatically by Katalon Studio.
+    > The **name** of the manually added **Page element** is generated automatically by Katalon Studio.
     
       
       
@@ -70,7 +70,7 @@ Define additional objects manually
 2.  **Add a Frame element**: If new object is a nested object, a frame is needed to locate the element. Frames are web elements that usually contain many other web objects. Click on **New frame** from toolbar to manually add a new Frame element.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-16 10_44_47.png)
     
-    The **name** of the newly added **Frame element** is generated automatically by Katalon Studio. 
+    > The **name** of the newly added **Frame element** is generated automatically by Katalon Studio. 
     
       
       
@@ -78,7 +78,7 @@ Define additional objects manually
 3.  **Add an Object element**: Click on the **New object** from the toolbar to manually add a web object.  
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-16 10_45_22.png)
     
-    The name of the newly added Object element is generated automatically by Katalon Studio.
+    > The name of the newly added Object element is generated automatically by Katalon Studio.
     
 4.  Click **Delete** to remove any element.   
     ![](../../images/katalon-studio/docs/spy-web-utility-latest/image2017-10-16 10_47_20.png)  

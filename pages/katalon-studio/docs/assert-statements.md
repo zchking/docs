@@ -21,7 +21,7 @@ Assert statement in Manual view
 3.  Double click on the **Input** cell to edit the assertion.  
     ![](../../images/katalon-studio/docs/assert-statements/image2017-2-10 15_2_25.png)
     
-    Once a test step is added as **Assert Statement**, it will **not** be allowed to change into another keyword.
+    > Once a test step is added as **Assert Statement**, it will **not** be allowed to change into another keyword.
     
 
 Assert statement in Scripting view

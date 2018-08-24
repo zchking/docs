@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/web-services-builder.html
 redirect_from: "/display/KD/Web+Services+Builder" 
 description: 
 ---
-Since Katalon Studio 5.4
+> Since Katalon Studio 5.4
 
 **RestRequestObjectBuilder** class provides functions to create a RESTful object easily and quickly in scripting view. You can find details regarding to API docs specifications from this [page](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html).
 

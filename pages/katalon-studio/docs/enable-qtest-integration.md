@@ -50,7 +50,7 @@ Manual Setup
     ![](../../images/katalon-studio/docs/enable-qtest-integration/image2016-11-15 15_37_55.png)  
       
     
-    You should select test suites that contain those test cases defined in **Test Case Repositories** settings
+    > You should select test suites that contain those test cases defined in **Test Case Repositories** settings
     
 
 Wizard Setup

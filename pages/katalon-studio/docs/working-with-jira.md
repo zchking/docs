@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/working-with-jira.html
 redirect_from: "/display/KD/Working+with+JIRA" 
 description: 
 ---
-JIRA icon will be available in Menu Bar after JIRA Integration setup is done.
+> JIRA icon will be available in Menu Bar after JIRA Integration setup is done.
 
 Integrate Test Case
 -------------------

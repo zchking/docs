@@ -15,7 +15,7 @@ Prerequisites
     ```
     
 
-Your command should NOT include -noExit and -consoleLog parameters so that CI logs can be displayed directly from the job view
+> Your command should NOT include -noExit and -consoleLog parameters so that CI logs can be displayed directly from the job view
 
 2\. CI tool is installed and setup properly. In this example, we will use [Jenkins](https://jenkins.io/), which is a popular CI and easy to integrate with.
 

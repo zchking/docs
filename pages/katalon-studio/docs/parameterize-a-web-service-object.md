@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/parameterize-a-web-service-object.html
 redirect_from: "/display/KD/Parameterize+a+Web+Service+Object" 
 description: 
 ---
-Since version 5.4
+> Since version 5.4
 
   
 Katalon Studio supports parameterized the following information for Web Services object:

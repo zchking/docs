@@ -21,7 +21,7 @@ Follow the steps below in order to make a call to another test case in **Manual 
 3.  A **Call Test Case** step will be added with the selected test case above as its target.   
     ![](../../images/katalon-studio/docs/call-test-case/image2017-2-9 10_6_5.png)
     
-    Once a test step is added as **Call Test Case**, it will not be allowed to change into another keyword.
+    > Once a test step is added as **Call Test Case**, it will not be allowed to change into another keyword.
     
 
 Call Test Case in Scripting view

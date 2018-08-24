@@ -34,7 +34,7 @@ Test Execution
 
 ### Execution Profile
 
-**Global Variables** interface is moved to be a **default profile,** so please check **'default' profile** for any existing **Global Variables** 
+> **Global Variables** interface is moved to be a **default profile,** so please check **'default' profile** for any existing **Global Variables** 
 
 Test execution is more versatile in Katalon Studio v5.4. Automation tests can be executed dynamically by configurable **profiles**, defined by a combination of multiple attributes (environments, test data, platforms). **Execution profiles** enable Functional and API test execution integrated into the CI pipeline regardless of the test requirement complexity to meet the rapid demand of Agile software project.
 

@@ -14,7 +14,7 @@ The following control statements are supported in Katalon Studio:
 *   [Branching statements](https://docs.katalon.com/display/KD/Control+Statements#ControlStatements-Branchingstatements)
 *   [Exception handling block](https://docs.katalon.com/display/KD/Control+Statements#ControlStatements-Exceptionhandlingblock)
 
-Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
+> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
 Decision-making statements 
 ---------------------------

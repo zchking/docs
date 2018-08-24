@@ -24,7 +24,7 @@ Binary statement in Manual view
     
 4.  Save the test case when you're done.
     
-    Once a test step is added as any of the **Binary Statements**, it will **not** be allowed to change it into another keyword.
+    > Once a test step is added as any of the **Binary Statements**, it will **not** be allowed to change it into another keyword.
     
 
 Binary statement in Scripting view

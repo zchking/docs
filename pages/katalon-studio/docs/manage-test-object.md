@@ -20,7 +20,7 @@ Create a Test Object
 Add an object property
 ----------------------
 
-There cannot be two properties with the same name existed in the same test object.
+> There cannot be two properties with the same name existed in the same test object.
 
 1.  In the **Test Object Editor**, click on the **Add** command.  
     ![](../../images/katalon-studio/docs/manage-test-object/image2017-10-17 11_33_4.png)  
@@ -50,9 +50,9 @@ Katalon Studio does support the ability to define parent iframe object within te
 Properties used for detecting object
 ------------------------------------
 
-*   Available since version 5.0
-*   [How to get Web objects XPath or CSS Locator](https://docs.katalon.com/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
-*   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   Available since version 5.0
+> *   [How to get Web objects XPath or CSS Locator](https://docs.katalon.com/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
+> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
 
 ##### Selection Method
 

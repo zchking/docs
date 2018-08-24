@@ -5,11 +5,11 @@ permalink: katalon-studio/docs/parameterize-webmobile-test-object-properties.htm
 redirect_from: "/pages/viewpage.action?pageId=12419075" 
 description: 
 ---
-Warning
-
-Parameterizing Web/Mobile Test Object Properties is only available with **Basic** Selection Method.
-
-When working with Test Objects in Katalon Studio, there will be many cases you want to update its locators dynamically. Katalon Studio does support this feature. Refer to this [documentation](https://docs.katalon.com/x/HoUw#ManageTestObject-ParameterizingTestObject).
+> Warning
+> 
+> Parameterizing Web/Mobile Test Object Properties is only available with **Basic** Selection Method.
+> 
+> When working with Test Objects in Katalon Studio, there will be many cases you want to update its locators dynamically. Katalon Studio does support this feature. Refer to this [documentation](https://docs.katalon.com/x/HoUw#ManageTestObject-ParameterizingTestObject).
 
   
 Some use cases you can apply this feature is:

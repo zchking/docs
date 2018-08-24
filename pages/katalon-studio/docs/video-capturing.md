@@ -7,12 +7,12 @@ description:
 ---
 Compatibilty
 
-*   [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play Katalon Studio test execution video
-*   Support Test Suite level execution
-*   Support all browsers **except** Remote | Headless | Kobiton | Custom
-
-*   Recording **parallel execution is NOT** **supported** yet
-    
+> *   [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play Katalon Studio test execution video
+> *   Support Test Suite level execution
+> *   Support all browsers **except** Remote | Headless | Kobiton | Custom
+> 
+> *   Recording **parallel execution is NOT** **supported** yet
+>     
 
 Debugging can be time consuming and challenging tasks to many automation testers. Katalon Studio helps solve this problem by supporting users the ability to capture test execution via video format. Users can simply enable video capturing feature in Project Settings.
 

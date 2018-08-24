@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/integrate-test-suite.html
 redirect_from: "/display/KD/Integrate+test+suite" 
 description: 
 ---
-The selected **Katalon test suites folder** must be registered in [**Test Suite Repositories** settings](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload the test suites within to qTest.
+> The selected **Katalon test suites folder** must be registered in [**Test Suite Repositories** settings](https://docs.katalon.com/display/KD/qTest+Integration) before you can upload the test suites within to qTest.
 
 Register qTest location for test suite
 --------------------------------------
@@ -60,13 +60,13 @@ Katalon Studio test suites are usually uploaded automatically by selected option
         
         ![](../../images/katalon-studio/docs/integrate-test-suite/image2016-11-22 14_19_18.png)
         
-        The **Upload** option is available only when:
-        
-        \+ There must be **at least one** **registered** qTest location as **Parent** of Katalon Studio's test suite
-        
-        \+ Selected qTest location is **NOT** integrated yet.
-        
-        _Please be cautious_: **Katalon test suite** will be uploaded to all **qTest locations** that meet the above criteria accordingly.
+        > The **Upload** option is available only when:
+        > 
+        > \+ There must be **at least one** **registered** qTest location as **Parent** of Katalon Studio's test suite
+        > 
+        > \+ Selected qTest location is **NOT** integrated yet.
+        > 
+        > _Please be cautious_: **Katalon test suite** will be uploaded to all **qTest locations** that meet the above criteria accordingly.
         
 2.  Once the uploading process finishes, you can go to qTest to verify that the **Katalon test suite** is uploaded to the registered **qTest location**.  
       
@@ -78,13 +78,13 @@ Katalon Studio test suites are usually uploaded automatically by selected option
     
     ![](../../images/katalon-studio/docs/integrate-test-suite/image2016-11-22 14_57_33.png)
     
-    The **Upload** option is available only when:
-    
-    \+ There must be **at least one** **registered** qTest location as **Parent** of Katalon Studio's test suite
-    
-    \+ Selected qTest location is **NOT** integrated yet.
-    
-    _Please be cautious_: **Katalon test suite folder** will be uploaded to all **qTest locations** that meet the above criteria accordingly.
+    > The **Upload** option is available only when:
+    > 
+    > \+ There must be **at least one** **registered** qTest location as **Parent** of Katalon Studio's test suite
+    > 
+    > \+ Selected qTest location is **NOT** integrated yet.
+    > 
+    > _Please be cautious_: **Katalon test suite folder** will be uploaded to all **qTest locations** that meet the above criteria accordingly.
     
 2.  Once the uploading process finishes, you can go to qTest to verify that the **Katalon test suites** within the selected folder are uploaded to the registered **qTest locations**.  
       

@@ -5,9 +5,9 @@ permalink: katalon-studio/docs/webui-verify-element-not-clickable.html
 redirect_from: "/display/KD/%5BWebUI%5D+Verify+Element+Not+Clickable" 
 description: 
 ---
-This keyword only works with Element has **tag** _<input>_ with attribute **disable.**
-
-_![](../../images/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
+> This keyword only works with Element has **tag** _<input>_ with attribute **disable.**
+> 
+> _![](../../images/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
 
 Description
 -----------

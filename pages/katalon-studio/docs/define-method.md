@@ -28,7 +28,7 @@ Define a method in Manual view
     
 4.  Save the test case when you're done.
     
-    Once a test step is defined as **Method**, it will **not** be allowed to change into another keyword.
+    > Once a test step is defined as **Method**, it will **not** be allowed to change into another keyword.
     
 
 ### SetUp() and TearDown() in Manual view
@@ -41,7 +41,7 @@ This can be achieved using the setup() and teardown() methods. 
 
 <table><thead><tr><th>Method</th><th>Description</th><th>Common Usage</th></tr></thead><tbody><tr><td><p>Set Up</p></td><td><p>This method is always called <strong>first</strong> prior to executing main test steps.<br><br></p></td><td><p>Prepare testing environment such as:</p><ul><li>Starting new browser with clean cookies</li><li>Creating temporary &amp; proxy databases, directories</li><li>Starting a server process</li><li>...</li></ul></td></tr><tr><td><p>Tear Down If Failed</p></td><td><p>This method will be called after executing all steps of the test case <strong>and</strong><span> one of those steps has <strong>Failed</strong> status.</span></p></td><td><p>Clean-up testing environment such as:</p><ul><li>Closing browsers</li><li>Disclosing opened connections to database or server</li><li>...</li></ul><p>&nbsp;</p></td></tr><tr><td><p>Tear Down If Passed</p></td><td><p><span><span>This method will be called after executing all steps of the test case <strong>and</strong></span><span> all of those steps have <strong>Pass</strong> status.</span></span></p></td></tr><tr><td><p>Tear Down If Error</p></td><td><p><span>This method will be called after executing all steps of the test case </span><strong>and</strong><span> one of those steps has <strong>Error</strong> status.</span></p></td></tr><tr><td><p>Tear Down</p></td><td><p>This method will be called <strong>finally</strong>.</p></td></tr></tbody></table>
 
-The SetUp()/TearDown() methods will have **Error** status if there is any issue occurred during their execution. The only exception to this is when _AssertionError_ Class is used or the methods are skipped.
+> The SetUp()/TearDown() methods will have **Error** status if there is any issue occurred during their execution. The only exception to this is when _AssertionError_ Class is used or the methods are skipped.
 
 Define a method in Scripting view
 ---------------------------------

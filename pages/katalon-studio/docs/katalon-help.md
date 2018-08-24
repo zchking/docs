@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/katalon-help.html
 redirect_from: "/display/KD/Katalon+Help" 
 description: 
 ---
-Katalon Help has the ability to remember your last selected tab before closing Katalon Studio app
+> Katalon Help has the ability to remember your last selected tab before closing Katalon Studio app
 
 Katalon Studio has you covered. Katalon Team has designed a central help page just for you from **Tutorial**, **FAQs**, **User Guides** to Katalon Studio built-in **Sample Projects** or **Recently** opened projects.
 

@@ -8,7 +8,7 @@ description:
 Toolbar
 -------
 
-Since version 5.6
+> Since version 5.6
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1 14_57_20.png)
 

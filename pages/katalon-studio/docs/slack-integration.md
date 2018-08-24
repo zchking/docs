@@ -27,7 +27,7 @@ You can receive Katalon Studio notifications for Slack by enabling Slack Integra
     
 4.  Select your preferred actions to get the notification and click **OK** to save Slack configuration.
     
-    All the above preferences are saved into the file “**com.kms.katalon.composer.integration.slack.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change how Katalon Studio works with Slack.
+    > All the above preferences are saved into the file “**com.kms.katalon.composer.integration.slack.prefs**” under the “**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**” location in your Katalon Studio build folder. You can manually modify the values in this file to change how Katalon Studio works with Slack.
     
 
 Obtain Slack authentication token

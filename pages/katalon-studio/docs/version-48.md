@@ -25,7 +25,7 @@ Test Suite
 
 [**Video Capturing**](https://docs.katalon.com/display/KD/Video+Capturing)
 
-[K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play Katalon Studio test execution video.
+> [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play Katalon Studio test execution video.
 
 Introducing Katalon Studio **new** feature **video capturing** for Test Suite reports. Users will be able to video capture test suite execution and replay to review how each test case was executed. Description of test steps will be added as subtitle for users convenience. **Video capturing** feature can be enable in **Project Settings**.
 
@@ -107,8 +107,8 @@ Katalon Studio Console Mode for Linux OS
 
 Katalon Studio for Linux is now available. Users can execute test automation in Linux environment by using command line mode. Refer to this guide for [Console Mode Execution](https://docs.katalon.com/display/KD/Console+Mode+Execution).
 
-*   Tested on Ubuntu, other OSes might have its own problem.
-*   Only Chrome, Firefox and Remote options are supported for console mode execution using Linux version.
+> *   Tested on Ubuntu, other OSes might have its own problem.
+> *   Only Chrome, Firefox and Remote options are supported for console mode execution using Linux version.
 
 **Linux OS:** [http://download.katalon.com/4.8.0/Katalon\_Studio\_Linux_64-4.8.tar.gz](http://download.katalon.com/4.8.0/Katalon_Studio_Linux_64-4.8.tar.gz)
 

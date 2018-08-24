@@ -33,11 +33,11 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     
     Enter all required information and click the **Next** button to let Katalon Studio gets details about your repository.
     
-    If you cannot access the repository after clicking **Next** button, the connection may have issues with SSL verification. You can use below command to bypass SSL verification (NOT recommended):
-    
-    ```groovy
-    git config --global http.sslVerify false
-    ```
+    > If you cannot access the repository after clicking **Next** button, the connection may have issues with SSL verification. You can use below command to bypass SSL verification (NOT recommended):
+    > 
+    > ```groovy
+    > git config --global http.sslVerify false
+    > ```
     
 3.  At **Branch Selection**screen, you can choose which branches to be checked out as local branches. Click the **Next** button to continue.  
     ![](../../images/katalon-studio/docs/git-integration/image2017-2-22 16_30_51.png)

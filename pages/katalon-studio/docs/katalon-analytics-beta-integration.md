@@ -7,7 +7,7 @@ description:
 ---
 [Katalon Analytics (Beta)](/display/KA) is a cloud-based application provides in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon Analytics supports integration with Katalon Studio for better test report management.
 
-Test Reports are only available for **Test Suite/Test Suite Collection** level execution.
+> Test Reports are only available for **Test Suite/Test Suite Collection** level execution.
 
 Settings 
 ---------

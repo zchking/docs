@@ -47,7 +47,7 @@ Follow these basic steps to get familiar with the Record & Playback features for
       
     
 
-The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
-
-*   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
-*   [Control Statements](/pages/viewpage.action?pageId=5124781)
+> The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
+> 
+> *   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
+> *   [Control Statements](/pages/viewpage.action?pageId=5124781)

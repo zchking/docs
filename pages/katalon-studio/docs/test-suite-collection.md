@@ -39,7 +39,7 @@ You can add a test suite into a collection by following the steps below:
     
       
     
-    You can add one test suite to the collection multiple times. This is particularly helpful when the users want to execute the same suite on different environments.
+    > You can add one test suite to the collection multiple times. This is particularly helpful when the users want to execute the same suite on different environments.
     
 
 Execute a Test Suite Collection

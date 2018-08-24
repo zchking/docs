@@ -30,7 +30,7 @@ This would be applicable for Chrome, Firefox and Edge.
             *   Open (or create new) autoit file with contents:
                 
 
-Change your own credential at “Username” and “Password” fields
+> Change your own credential at “Username” and “Password” fields
 
 ```groovy
 WinWaitActive("","Authentication Required","10")

@@ -24,7 +24,7 @@ Method call statement in Manual view
     
 4.  Save the test case when you're done.
     
-    Once a test step is added as **Method Call Statement**, it will **not** be allowed to change into another keyword.
+    > Once a test step is added as **Method Call Statement**, it will **not** be allowed to change into another keyword.
     
 
 Method call statement in Scripting view

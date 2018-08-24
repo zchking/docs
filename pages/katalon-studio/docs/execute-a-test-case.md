@@ -16,7 +16,7 @@ Execute on a web application
     
     ![](../../images/katalon-studio/docs/execute-a-test-case/image2018-8-2 15_14_24.png)
     
-    If you simply click on the **Run** button, the test case will be executed using the default browser defined in [Execution Preferences (Version 5.0 and below)](/pages/viewpage.action?pageId=3179873).
+    > If you simply click on the **Run** button, the test case will be executed using the default browser defined in [Execution Preferences (Version 5.0 and below)](/pages/viewpage.action?pageId=3179873).
     
 2.  The test case will be executed using the selected web browser.
     
@@ -43,9 +43,9 @@ Execute on a mobile application
 2.  Select the device from the listed devices.  
     ![](../../images/katalon-studio/docs/execute-a-test-case/image2018-1-26 18_54_41.png)
     
-    If there is no device in the list, please make sure the Developer Mode on the phone is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device, make sure you accepted it (Refer to [Mobile on Windows](/pages/viewpage.action?pageId=1606325) & [Mobile on macOS](/display/KD/Mobile+on+macOS) for more details).  
-    
-    ![](../../images/katalon-studio/docs/execute-a-test-case/image2018-8-2 15_18_54.png)
+    > If there is no device in the list, please make sure the Developer Mode on the phone is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device, make sure you accepted it (Refer to [Mobile on Windows](/pages/viewpage.action?pageId=1606325) & [Mobile on macOS](/display/KD/Mobile+on+macOS) for more details).  
+    > 
+    > ![](../../images/katalon-studio/docs/execute-a-test-case/image2018-8-2 15_18_54.png)
     
 3.  The test case will be executed using selected mobile device.
 

@@ -5,9 +5,9 @@ permalink: katalon-studio/docs/manage-test-project.html
 redirect_from: "/display/KD/Manage+Test+Project" 
 description: 
 ---
-Where to store your tests?
-
-Choose the location for your test where you have all Read & Write permission. **Don't** store your projects in the Katalon build folder.
+> Where to store your tests?
+> 
+> Choose the location for your test where you have all Read & Write permission. **Don't** store your projects in the Katalon build folder.
 
 Create a test project
 ---------------------

@@ -56,7 +56,7 @@ Define additional objects manually
 1.  **Add a Page element**: Whenever activities are taken on a new web page, that page will be captured into the **Object Spy** dialog. Click on **New page** from toolbar to add a new Page element manually.  
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-1-3 11_50_2.png)
     
-    The **name** of the manually added Page element is generated automatically by Katalon Studio.
+    > The **name** of the manually added Page element is generated automatically by Katalon Studio.
     
       
       
@@ -64,7 +64,7 @@ Define additional objects manually
 2.  **Add a Frame element**: Frames are web elements that usually contain many other web objects. Click on **New frame** from toolbar to manually add a new Frame element.  
     ![](../../images/katalon-studio/docs/spy-web-utility-version-48-and-below/image2017-1-3 13_56_48.png)
     
-    The **name** of the newly added Frame element is generated automatically by Katalon Studio. 
+    > The **name** of the newly added Frame element is generated automatically by Katalon Studio. 
     
       
       

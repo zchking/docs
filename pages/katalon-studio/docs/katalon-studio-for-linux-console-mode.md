@@ -22,7 +22,7 @@ Since **only console mode** execution is supported, users **DON'T** need to act
 Execution
 ---------
 
-Be sure to install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
+> Be sure to install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
 
 You can find installation steps from here: [http://openjdk.java.net/install/](http://openjdk.java.net/install/). Make sure that after installation, your OpenJDK information is displayed when you execute 'java -version' command:
 

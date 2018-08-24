@@ -5,8 +5,8 @@ permalink: katalon-studio/docs/record-web-utility-version-50-to-54.html
 redirect_from: "/pages/viewpage.action?pageId=5118055" 
 description: 
 ---
-*   [Working with Object Properties](https://docs.katalon.com/x/ZxlO)
-*   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   [Working with Object Properties](https://docs.katalon.com/x/ZxlO)
+> *   [Object Identification Best Practices](https://docs.katalon.com/display/KD/Optimizing+Object+Identification+and+Tools)
 
 Enhanced Record Web utility allows users to **select** preferred objects'**properties** and specify the **locator** methodbefore adding to the object repository. The improved design allows the users have the capability to **show/hide** captured objects window to make record utility more compact. Users can also pin/unpin the record window for more conveniences while recording.
 
@@ -61,7 +61,7 @@ Follow these basic steps to get familiar with the Record & Playback features for
       
     
 
-The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
-
-*   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
-*   [Control Statements](/display/KD/Control+Statements)
+> The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
+> 
+> *   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
+> *   [Control Statements](/display/KD/Control+Statements)

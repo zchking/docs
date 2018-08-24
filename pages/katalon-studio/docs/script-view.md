@@ -56,9 +56,9 @@ Follow these steps to automate the above test scenario in **Script view**:
     
     Where **Object ID** is the ID of that object in Katalon Studio.
     
-    You can find object ID from its Properties dialog. For example:
-    
-    ![](../../images/katalon-studio/docs/script-view/image2017-2-15 13_18_7.png)
+    > You can find object ID from its Properties dialog. For example:
+    > 
+    > ![](../../images/katalon-studio/docs/script-view/image2017-2-15 13_18_7.png)
     
 8.  Enter the **[Verify Element Present](https://docs.katalon.com/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
     ![](../../images/katalon-studio/docs/script-view/image2017-2-15 13_26_9.png)  
