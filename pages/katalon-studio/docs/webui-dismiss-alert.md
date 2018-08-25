@@ -2,7 +2,9 @@
 title: "[WebUI] Dismiss Alert" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-dismiss-alert.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Dismiss+Alert" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Dismiss+Alert"
+    - "/x/4YcY"
 description: 
 ---
 Description

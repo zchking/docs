@@ -2,7 +2,9 @@
 title: "[WebUI] Combo box" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-combo-box.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Combo+box" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Combo+box"
+    - "/x/H4MY"
 description: 
 ---
 *   [\[WebUI\] Deselect All Option](/display/KD/%5BWebUI%5D+Deselect+All+Option)

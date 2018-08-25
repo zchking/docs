@@ -2,7 +2,9 @@
 title: "Script View" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/script-view.html 
-redirect_from: "/display/KD/Script+View" 
+redirect_from:
+    - "/display/KD/Script+View"
+    - "/x/Y4Iw"
 description: 
 ---
 In addition to the [Manual view](/display/KD/Test+Case+Manual+View), Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily modify the test script as needed.

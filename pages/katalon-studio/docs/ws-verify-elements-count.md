@@ -2,7 +2,9 @@
 title: "[WS] Verify Elements Count" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ws-verify-elements-count.html 
-redirect_from: "/display/KD/%5BWS%5D+Verify+Elements+Count" 
+redirect_from:
+    - "/display/KD/%5BWS%5D+Verify+Elements+Count"
+    - "/x/pJQY"
 description: 
 ---
 Description

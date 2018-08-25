@@ -2,7 +2,9 @@
 title: "Internet Explorer Configurations" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/internet-explorer-configurations.html 
-redirect_from: "/display/KD/Internet+Explorer+Configurations" 
+redirect_from:
+    - "/display/KD/Internet+Explorer+Configurations"
+    - "/x/iwEo"
 description: 
 ---
 In order to run automation test on Internet Explorer, you need the following setup:

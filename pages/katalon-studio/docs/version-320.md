@@ -2,7 +2,9 @@
 title: "Version 3.2.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-320.html 
-redirect_from: "/display/KD/Version+3.2.0" 
+redirect_from:
+    - "/display/KD/Version+3.2.0"
+    - "/x/XoIY"
 description: 
 ---
 Improvements

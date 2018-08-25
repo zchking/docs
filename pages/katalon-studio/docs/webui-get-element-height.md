@@ -2,7 +2,9 @@
 title: "[WebUI] Get Element Height" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-element-height.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Get+Element+Height" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Element+Height"
+    - "/x/WQpO"
 description: 
 ---
 Description  

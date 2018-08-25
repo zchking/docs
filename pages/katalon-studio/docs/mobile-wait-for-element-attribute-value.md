@@ -2,7 +2,9 @@
 title: "[Mobile] Wait For Element Attribute Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-wait-for-element-attribute-value.html 
-redirect_from: "/display/KD/%5BMobile%5D+Wait+For+Element+Attribute+Value" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Wait+For+Element+Attribute+Value"
+    - "/x/-ZEY"
 description: 
 ---
 Description

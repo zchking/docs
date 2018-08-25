@@ -2,7 +2,9 @@
 title: "Tips and Tricks" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/tips-and-tricks.html 
-redirect_from: "/display/KD/Tips+and+Tricks" 
+redirect_from:
+    - "/display/KD/Tips+and+Tricks"
+    - "/x/PgXR"
 description: 
 ---
 > List of quick tips and tricks from users on [Forum](https://forum.katalon.com/discussions) and also from us.

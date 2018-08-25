@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Option Not Selected By Index" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-not-selected-by-index.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Index" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Index"
+    - "/x/XJIY"
 description: 
 ---
 **Verify if the options at the given indices are not selected**

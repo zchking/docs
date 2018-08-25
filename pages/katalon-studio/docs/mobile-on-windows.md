@@ -2,7 +2,9 @@
 title: "Mobile on Windows" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-on-windows.html 
-redirect_from: "/display/KD/Mobile+on+Windows" 
+redirect_from:
+    - "/display/KD/Mobile+on+Windows"
+    - "/x/jwbR"
 description: 
 ---
 Katalon Studio Supported Environment on Windows

@@ -2,7 +2,9 @@
 title: "Integrate test suite" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integrate-test-suite.html 
-redirect_from: "/display/KD/Integrate+test+suite" 
+redirect_from:
+    - "/display/KD/Integrate+test+suite"
+    - "/x/x4Ew"
 description: 
 ---
 > The selected **Katalon test suites folder** must be registered in [**Test Suite Repositories** settings](/display/KD/qTest+Integration) before you can upload the test suites within to qTest.

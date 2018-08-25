@@ -2,7 +2,9 @@
 title: "[WebUI] Select Option By Index" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-select-option-by-index.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Select+Option+By+Index" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Select+Option+By+Index"
+    - "/x/JZIY"
 description: 
 ---
 Description

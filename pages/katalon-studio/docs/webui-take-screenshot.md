@@ -2,7 +2,9 @@
 title: "[WebUI] Take Screenshot" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-take-screenshot.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Take+Screenshot" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Take+Screenshot"
+    - "/x/2IoY"
 description: 
 ---
 Description  

@@ -2,7 +2,9 @@
 title: "Release Notes" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/release-notes.html 
-redirect_from: "/display/KD/Release+Notes" 
+redirect_from:
+    - "/display/KD/Release+Notes"
+    - "/x/HAAM"
 description: 
 ---
 *   [Version 5.6](/display/KD/Version+5.6)

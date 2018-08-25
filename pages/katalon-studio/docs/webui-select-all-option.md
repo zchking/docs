@@ -2,7 +2,9 @@
 title: "[WebUI] Select All Option" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-select-all-option.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Select+All+Option" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Select+All+Option"
+    - "/x/IZIY"
 description: 
 ---
 Description

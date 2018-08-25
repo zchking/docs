@@ -2,7 +2,9 @@
 title: "[WebUI] Click Offset" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-click-offset.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Click+Offset" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Click+Offset"
+    - "/x/eA5O"
 description: 
 ---
 Description

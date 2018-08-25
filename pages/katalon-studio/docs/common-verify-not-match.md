@@ -2,7 +2,9 @@
 title: "[Common] Verify Not Match" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-not-match.html 
-redirect_from: "/display/KD/%5BCommon%5D+Verify+Not+Match" 
+redirect_from:
+    - "/display/KD/%5BCommon%5D+Verify+Not+Match"
+    - "/x/tJMY"
 description: 
 ---
 Description  

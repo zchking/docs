@@ -2,7 +2,8 @@
 title: "Known Issues / Limitations" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/known-issues-limitations.html 
-redirect_from: "/pages/viewpage.action?pageId=3179464" 
+redirect_from:
+    - "/x/yIMw"
 description: 
 ---
 *   '**Click Offset**', '**Right Click Offset**' and '**Mouse Over Offset**' keywords do not work on Safari.

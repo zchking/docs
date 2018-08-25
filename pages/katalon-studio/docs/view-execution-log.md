@@ -2,7 +2,9 @@
 title: "View Execution Log" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/view-execution-log.html 
-redirect_from: "/display/KD/View+Execution+Log" 
+redirect_from:
+    - "/display/KD/View+Execution+Log"
+    - "/x/6ANO"
 description: 
 ---
 Once your test cases/test suites finish execution, you can review the results on the **Log Viewer** views.

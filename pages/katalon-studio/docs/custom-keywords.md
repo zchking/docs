@@ -2,7 +2,9 @@
 title: "Custom Keywords" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/custom-keywords.html 
-redirect_from: "/display/KD/Custom+Keywords" 
+redirect_from:
+    - "/display/KD/Custom+Keywords"
+    - "/x/gQ-R"
 description: 
 ---
 *   [Introduction to Custom Keywords](/display/KD/Introduction+to+Custom+Keywords)

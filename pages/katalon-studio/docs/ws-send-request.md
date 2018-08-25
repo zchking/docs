@@ -2,7 +2,9 @@
 title: "[WS] Send Request" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ws-send-request.html 
-redirect_from: "/display/KD/%5BWS%5D+Send+Request" 
+redirect_from:
+    - "/display/KD/%5BWS%5D+Send+Request"
+    - "/x/f5QY"
 description: 
 ---
 Description

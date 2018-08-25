@@ -2,7 +2,9 @@
 title: "Manual View" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manual-view.html 
-redirect_from: "/display/KD/Manual+View" 
+redirect_from:
+    - "/display/KD/Manual+View"
+    - "/x/9YEw"
 description: 
 ---
 KatalonStudio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the applications under test. 

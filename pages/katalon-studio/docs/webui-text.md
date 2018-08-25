@@ -2,7 +2,9 @@
 title: "[WebUI] Text" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-text.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Text" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Text"
+    - "/x/LYMY"
 description: 
 ---
 *   [\[WebUI\] Get Text](/display/KD/%5BWebUI%5D+Get+Text)

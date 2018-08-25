@@ -2,7 +2,9 @@
 title: "Auto-updater" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/auto-updater.html 
-redirect_from: "/display/KD/Auto-updater" 
+redirect_from:
+    - "/display/KD/Auto-updater"
+    - "/x/lQPR"
 description: 
 ---
 > Since Katalon Studio V5.4

@@ -2,7 +2,9 @@
 title: "Version 5.1.0.2" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-5102.html 
-redirect_from: "/display/KD/Version+5.1.0.2" 
+redirect_from:
+    - "/display/KD/Version+5.1.0.2"
+    - "/x/BB1O"
 description: 
 ---
 *   Fix an issue where desired capabilities are not working on Chrome.

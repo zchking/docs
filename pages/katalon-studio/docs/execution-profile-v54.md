@@ -2,7 +2,8 @@
 title: "Execution Profile (v5.4+)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execution-profile-v54.html 
-redirect_from: "/pages/viewpage.action?pageId=13697476" 
+redirect_from:
+    - "/x/xAHR"
 description: 
 ---
 > Available since Katalon Studio v5.4

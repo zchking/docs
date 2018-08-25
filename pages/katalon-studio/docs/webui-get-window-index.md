@@ -2,7 +2,9 @@
 title: "[WebUI] Get Window Index" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-window-index.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Get+Window+Index" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Window+Index"
+    - "/x/UowY"
 description: 
 ---
 Description  

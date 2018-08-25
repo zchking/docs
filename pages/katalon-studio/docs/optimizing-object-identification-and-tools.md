@@ -2,7 +2,9 @@
 title: "Optimizing Object Identification and Tools" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/optimizing-object-identification-and-tools.html 
-redirect_from: "/display/KD/Optimizing+Object+Identification+and+Tools" 
+redirect_from:
+    - "/display/KD/Optimizing+Object+Identification+and+Tools"
+    - "/x/fhlO"
 description: 
 ---
 > **If your test execution encounters errors related to your Test Object can't be found due to some specific reasons, you can refer to troubleshooting guide [here](/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element) first before trying to optimize your Test Object's properties**

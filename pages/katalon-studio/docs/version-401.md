@@ -2,7 +2,9 @@
 title: "Version 4.0.1" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-401.html 
-redirect_from: "/display/KD/Version+4.0.1" 
+redirect_from:
+    - "/display/KD/Version+4.0.1"
+    - "/x/AoAr"
 description: 
 ---
 **General**

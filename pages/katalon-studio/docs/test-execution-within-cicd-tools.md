@@ -2,7 +2,8 @@
 title: "Test Execution within CI/CD Tools" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-execution-within-cicd-tools.html 
-redirect_from: "/pages/viewpage.action?pageId=13698218" 
+redirect_from:
+    - "/x/qgTR"
 description: 
 ---
 *   [Export Test Results in JUnit Format](/display/KD/Export+Test+Results+in+JUnit+Format)

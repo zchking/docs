@@ -2,7 +2,9 @@
 title: "Mobile" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile.html 
-redirect_from: "/display/KD/Mobile" 
+redirect_from:
+    - "/display/KD/Mobile"
+    - "/x/N4MY"
 description: 
 ---
 List of built-in keywords used for mobile testing

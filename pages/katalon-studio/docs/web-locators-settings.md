@@ -2,7 +2,9 @@
 title: "Web Locators Settings" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-locators-settings.html 
-redirect_from: "/display/KD/Web+Locators+Settings" 
+redirect_from:
+    - "/display/KD/Web+Locators+Settings"
+    - "/x/MwDR"
 description: 
 ---
 Since v5.3, Katalon Studio has allowed users to set default Web Locator in **Project Setting** > **Test Design** > **Web Locator**.

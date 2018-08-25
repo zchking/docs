@@ -2,7 +2,9 @@
 title: "Test Execution" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-execution.html 
-redirect_from: "/display/KD/Test+Execution" 
+redirect_from:
+    - "/display/KD/Test+Execution"
+    - "/x/A4Ew"
 description: 
 ---
 After designing a test, Test Execution shows you how to run your test cases/test suites. Before executing your tests, keep in mind Katalon Studio's supported execution environments.

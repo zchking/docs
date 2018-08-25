@@ -2,7 +2,9 @@
 title: "Version 4.8" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-48.html 
-redirect_from: "/display/KD/Version+4.8" 
+redirect_from:
+    - "/display/KD/Version+4.8"
+    - "/x/yRBO"
 description: 
 ---
 General Improvement

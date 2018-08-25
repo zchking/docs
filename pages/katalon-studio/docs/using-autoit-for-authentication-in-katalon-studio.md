@@ -2,7 +2,9 @@
 title: "Using autoIT for authentication in Katalon Studio" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html 
-redirect_from: "/display/KD/Using+autoIT+for+authentication+in+Katalon+Studio" 
+redirect_from:
+    - "/display/KD/Using+autoIT+for+authentication+in+Katalon+Studio"
+    - "/x/9xxO"
 description: 
 ---
 [WebUI.authenticate](/display/KD/%5BWebUI%5D+Authenticate) keyword in Katalon Studio would work well on Firefox browser, but the function might not work on other browsers due to unknown reasons. This guide will provide you a workaround solution for handling authentication on different browsers is using autoIT.

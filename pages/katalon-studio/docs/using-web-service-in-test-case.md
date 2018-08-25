@@ -2,7 +2,9 @@
 title: "Using Web Service in Test Case" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-web-service-in-test-case.html 
-redirect_from: "/display/KD/Using+Web+Service+in+Test+Case" 
+redirect_from:
+    - "/display/KD/Using+Web+Service+in+Test+Case"
+    - "/x/ARRO"
 description: 
 ---
 In Manual View

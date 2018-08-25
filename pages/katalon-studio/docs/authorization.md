@@ -2,7 +2,9 @@
 title: "Authorization" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/authorization.html 
-redirect_from: "/display/KD/Authorization" 
+redirect_from:
+    - "/display/KD/Authorization"
+    - "/x/Ew-R"
 description: 
 ---
 > Be sure to click on 'update to HTTP Header' button to use current authentication information.

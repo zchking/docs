@@ -2,7 +2,9 @@
 title: "[Mobile] Set Slider Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-set-slider-value.html 
-redirect_from: "/display/KD/%5BMobile%5D+Set+Slider+Value" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Set+Slider+Value"
+    - "/x/6IgY"
 description: 
 ---
 Description

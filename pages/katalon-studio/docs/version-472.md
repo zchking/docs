@@ -2,7 +2,9 @@
 title: "Version 4.7.2" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-472.html 
-redirect_from: "/display/KD/Version+4.7.2" 
+redirect_from:
+    - "/display/KD/Version+4.7.2"
+    - "/x/IxJO"
 description: 
 ---
 JIRA Integration

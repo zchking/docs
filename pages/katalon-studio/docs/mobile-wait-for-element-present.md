@@ -2,7 +2,9 @@
 title: "[Mobile] Wait For Element Present" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-wait-for-element-present.html 
-redirect_from: "/display/KD/%5BMobile%5D+Wait+For+Element+Present" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Wait+For+Element+Present"
+    - "/x/iZIY"
 description: 
 ---
 Description

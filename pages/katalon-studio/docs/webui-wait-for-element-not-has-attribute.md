@@ -2,7 +2,9 @@
 title: "[WebUI] Wait For Element Not Has Attribute" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-element-not-has-attribute.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Element+Not+Has+Attribute" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Not+Has+Attribute"
+    - "/x/TYwY"
 description: 
 ---
 Description

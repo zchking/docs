@@ -2,7 +2,9 @@
 title: "Test Suite Collection Report" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-suite-collection-report.html 
-redirect_from: "/display/KD/Test+Suite+Collection+Report" 
+redirect_from:
+    - "/display/KD/Test+Suite+Collection+Report"
+    - "/x/7gAM"
 description: 
 ---
 Once a test suite collection finishes its execution, a historical report will be automatically generated and stored in Reports. 

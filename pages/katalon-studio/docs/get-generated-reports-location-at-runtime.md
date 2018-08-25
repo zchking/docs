@@ -2,7 +2,9 @@
 title: "Get generated Reports location at runtime" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/get-generated-reports-location-at-runtime.html 
-redirect_from: "/display/KD/Get+generated+Reports+location+at+runtime" 
+redirect_from:
+    - "/display/KD/Get+generated+Reports+location+at+runtime"
+    - "/x/ewXR"
 description: 
 ---
 To retrieve current generated reports location, you can use the sample code below:

@@ -2,7 +2,9 @@
 title: "Using the WebDriver Object" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-the-webdriver-object.html 
-redirect_from: "/display/KD/Using+the+WebDriver+Object" 
+redirect_from:
+    - "/display/KD/Using+the+WebDriver+Object"
+    - "/x/OAXR"
 description: 
 ---
 To use the current session created by Katalon Studio, you can refer to example code below:  

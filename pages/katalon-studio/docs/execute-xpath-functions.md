@@ -2,7 +2,9 @@
 title: "Execute Xpath functions" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execute-xpath-functions.html 
-redirect_from: "/display/KD/Execute+Xpath+functions" 
+redirect_from:
+    - "/display/KD/Execute+Xpath+functions"
+    - "/x/ewzR"
 description: 
 ---
 How to execute xpath functions inside Katalon to we can use built-in capabilities of browser like count(), more than 1 objects on the page directly in scripts.

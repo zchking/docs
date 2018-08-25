@@ -2,7 +2,9 @@
 title: "Version 5.4.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-540.html 
-redirect_from: "/display/KD/Version+5.4.0" 
+redirect_from:
+    - "/display/KD/Version+5.4.0"
+    - "/x/lQHR"
 description: 
 ---
 Katalon Studio version 5.4 has finally arrived! introducing all-new UI and features to fully support API testing in conjunction with the Functional automation component.

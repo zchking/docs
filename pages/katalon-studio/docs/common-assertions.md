@@ -2,7 +2,9 @@
 title: "Common Assertions" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-assertions.html 
-redirect_from: "/display/KD/Common+Assertions" 
+redirect_from:
+    - "/display/KD/Common+Assertions"
+    - "/x/2ATR"
 description: 
 ---
 *   [\[Common\] Verify Checkpoint](/display/KD/%5BCommon%5D+Verify+Checkpoint)

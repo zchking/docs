@@ -2,7 +2,9 @@
 title: "[Mobile] Device" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-device.html 
-redirect_from: "/display/KD/%5BMobile%5D+Device" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Device"
+    - "/x/pYcY"
 description: 
 ---
 *   [\[Mobile\] Get Current Orientation](/display/KD/%5BMobile%5D+Get+Current+Orientation)

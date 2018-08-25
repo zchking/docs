@@ -2,7 +2,9 @@
 title: "Method Call Statements" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/method-call-statements.html 
-redirect_from: "/display/KD/Method+Call+Statements" 
+redirect_from:
+    - "/display/KD/Method+Call+Statements"
+    - "/x/sgAM"
 description: 
 ---
 Method Call statement allows you to make calls to other methods provided by the built-in libraries of Katalon Studio.

@@ -2,7 +2,8 @@
 title: "SOAP (latest)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/soap-latest.html 
-redirect_from: "/pages/viewpage.action?pageId=13697583" 
+redirect_from:
+    - "/x/LwLR"
 description: 
 ---
 1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed. Select 'SOAP' from Request Type list to create a new SOAP object.  

@@ -2,7 +2,9 @@
 title: "Test Report" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-report.html 
-redirect_from: "/display/KD/Test+Report" 
+redirect_from:
+    - "/display/KD/Test+Report"
+    - "/x/E4Ew"
 description: 
 ---
 Test Report provides a comprehensive view of your test results. You can also utilize our beta product, [Katalon Analytics](/display/KD/Katalon+Analytics+%28Beta%29+Integration), for visual analysis of the test reports. 

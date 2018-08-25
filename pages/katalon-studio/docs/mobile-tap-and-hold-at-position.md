@@ -2,7 +2,9 @@
 title: "[Mobile] Tap And Hold At Position" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-tap-and-hold-at-position.html 
-redirect_from: "/display/KD/%5BMobile%5D+Tap+And+Hold+At+Position" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Tap+And+Hold+At+Position"
+    - "/x/N5MY"
 description: 
 ---
 Description

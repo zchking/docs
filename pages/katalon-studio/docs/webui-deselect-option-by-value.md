@@ -2,7 +2,9 @@
 title: "[WebUI] Deselect Option By Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-deselect-option-by-value.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Deselect+Option+By+Value" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Deselect+Option+By+Value"
+    - "/x/EZIY"
 description: 
 ---
 Description

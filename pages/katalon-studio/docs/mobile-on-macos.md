@@ -2,7 +2,9 @@
 title: "Mobile on macOS" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-on-macos.html 
-redirect_from: "/display/KD/Mobile+on+macOS" 
+redirect_from:
+    - "/display/KD/Mobile+on+macOS"
+    - "/x/9AXR"
 description: 
 ---
 Katalon Studio Supported Environment on macOS

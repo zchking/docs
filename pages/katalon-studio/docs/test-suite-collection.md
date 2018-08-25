@@ -2,7 +2,9 @@
 title: "Test Suite Collection" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-suite-collection.html 
-redirect_from: "/display/KD/Test+Suite+Collection" 
+redirect_from:
+    - "/display/KD/Test+Suite+Collection"
+    - "/x/NgvR"
 description: 
 ---
 A Test Suite Collection contains a list of test suites to allow users more options for planning their test execution. 

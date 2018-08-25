@@ -2,7 +2,9 @@
 title: "Write data into Excel file at runtime during test execution" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/write-data-into-excel-file-at-runtime-during-test-execution.html 
-redirect_from: "/display/KD/Write+data+into+Excel+file+at+runtime+during+test+execution" 
+redirect_from:
+    - "/display/KD/Write+data+into+Excel+file+at+runtime+during+test+execution"
+    - "/x/WAXR"
 description: 
 ---
 To write data into Excel file at runtime during test execution, you need to write your own script to handle this case. The current capabilities of Katalon Studio do provide you functions to handle it:

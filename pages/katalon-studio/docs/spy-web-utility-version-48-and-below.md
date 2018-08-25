@@ -2,7 +2,8 @@
 title: "Spy Web Utility (version 4.8 and below)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-web-utility-version-48-and-below.html 
-redirect_from: "/pages/viewpage.action?pageId=5111951" 
+redirect_from:
+    - "/x/jwBO"
 description: 
 ---
 Capture objects using Web Object Spy

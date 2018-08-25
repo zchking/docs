@@ -2,7 +2,9 @@
 title: "External Libraries" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/external-libraries.html 
-redirect_from: "/display/KD/External+Libraries" 
+redirect_from:
+    - "/display/KD/External+Libraries"
+    - "/x/wQAo"
 description: 
 ---
 In this setting, you can manage your external libraries by adding new ones or remove existing ones.

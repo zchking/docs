@@ -2,7 +2,9 @@
 title: "Version 5.6.1" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-561.html 
-redirect_from: "/display/KD/Version+5.6.1" 
+redirect_from:
+    - "/display/KD/Version+5.6.1"
+    - "/x/8Q-R"
 description: 
 ---
 Hotfix release

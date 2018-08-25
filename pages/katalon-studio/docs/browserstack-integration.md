@@ -2,7 +2,9 @@
 title: "BrowserStack Integration" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/browserstack-integration.html 
-redirect_from: "/display/KD/BrowserStack+Integration" 
+redirect_from:
+    - "/display/KD/BrowserStack+Integration"
+    - "/x/mRdO"
 description: 
 ---
 To integrate with BrowserStack, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on BrowserStack provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.

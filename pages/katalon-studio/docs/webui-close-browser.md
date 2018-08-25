@@ -2,7 +2,9 @@
 title: "[WebUI] Close Browser" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-close-browser.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Close+Browser" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Close+Browser"
+    - "/x/zYgY"
 description: 
 ---
 Description

@@ -2,7 +2,9 @@
 title: "Manage Test Data" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-test-data.html 
-redirect_from: "/display/KD/Manage+Test+Data" 
+redirect_from:
+    - "/display/KD/Manage+Test+Data"
+    - "/x/W4Iw"
 description: 
 ---
 Create an Excel Test Data

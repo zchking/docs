@@ -2,7 +2,9 @@
 title: "Working with JIRA" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-jira.html 
-redirect_from: "/display/KD/Working+with+JIRA" 
+redirect_from:
+    - "/display/KD/Working+with+JIRA"
+    - "/x/MhBO"
 description: 
 ---
 > JIRA icon will be available in Menu Bar after JIRA Integration setup is done.

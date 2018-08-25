@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Option Not Present By Label" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-not-present-by-label.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Option+Not+Present+By+Label" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Present+By+Label"
+    - "/x/PpIY"
 description: 
 ---
 Description

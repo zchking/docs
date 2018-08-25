@@ -2,7 +2,9 @@
 title: "Version 5.2" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-52.html 
-redirect_from: "/display/KD/Version+5.2" 
+redirect_from:
+    - "/display/KD/Version+5.2"
+    - "/x/kh1O"
 description: 
 ---
 Mobile Testing

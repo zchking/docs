@@ -2,7 +2,9 @@
 title: "Version 4.0.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-400.html 
-redirect_from: "/display/KD/Version+4.0.0" 
+redirect_from:
+    - "/display/KD/Version+4.0.0"
+    - "/x/CYMi"
 description: 
 ---
 New Features

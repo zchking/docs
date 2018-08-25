@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Option Present By Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-present-by-value.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Option+Present+By+Value" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Present+By+Value"
+    - "/x/lJIY"
 description: 
 ---
 Description

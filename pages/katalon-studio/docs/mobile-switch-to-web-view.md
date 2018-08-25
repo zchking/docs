@@ -2,7 +2,9 @@
 title: "[Mobile] Switch To Web View" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-switch-to-web-view.html 
-redirect_from: "/display/KD/%5BMobile%5D+Switch+To+Web+View" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Switch+To+Web+View"
+    - "/x/wJAY"
 description: 
 ---
 Description  

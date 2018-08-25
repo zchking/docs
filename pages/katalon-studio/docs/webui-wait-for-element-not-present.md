@@ -2,7 +2,9 @@
 title: "[WebUI] Wait For Element Not Present" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-element-not-present.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Element+Not+Present" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Not+Present"
+    - "/x/cowY"
 description: 
 ---
 Description

@@ -2,7 +2,9 @@
 title: "[WebUI] Select Option By Label" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-select-option-by-label.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Select+Option+By+Label" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Select+Option+By+Label"
+    - "/x/KZIY"
 description: 
 ---
 Description

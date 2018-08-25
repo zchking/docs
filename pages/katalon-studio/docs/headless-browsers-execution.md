@@ -2,7 +2,9 @@
 title: "Headless Browsers Execution" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/headless-browsers-execution.html 
-redirect_from: "/display/KD/Headless+Browsers+Execution" 
+redirect_from:
+    - "/display/KD/Headless+Browsers+Execution"
+    - "/x/CQ-R"
 description: 
 ---
 Headless browser testing is simply testing a webpage functionality without a GUI present. One of the biggest reasons for using a headless browser/carrying out headless testing is effificiency since it lets you run tests more quickly in a real browser environment. Headless Browsers can save project team the tremendous amount of time and smoothly integrate into the CD/CI process.

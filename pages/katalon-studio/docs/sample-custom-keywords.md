@@ -2,7 +2,9 @@
 title: "Sample Custom Keywords" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/sample-custom-keywords.html 
-redirect_from: "/display/KD/Sample+Custom+Keywords" 
+redirect_from:
+    - "/display/KD/Sample+Custom+Keywords"
+    - "/x/3QHR"
 description: 
 ---
 Since Katalon Studio 5.4

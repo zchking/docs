@@ -2,7 +2,9 @@
 title: "Version 5.5" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-55.html 
-redirect_from: "/display/KD/Version+5.5" 
+redirect_from:
+    - "/display/KD/Version+5.5"
+    - "/x/jAnR"
 description: 
 ---
 Improved Web Recorder

@@ -2,7 +2,9 @@
 title: "Project Settings" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/project-settings.html 
-redirect_from: "/display/KD/Project+Settings" 
+redirect_from:
+    - "/display/KD/Project+Settings"
+    - "/x/eYEw"
 description: 
 ---
 Each Katalon project has its own settings. You can be accessed the project settings by selecting **Project > Settings**from the menu.

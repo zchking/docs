@@ -2,7 +2,9 @@
 title: "Version 5.0.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-500.html 
-redirect_from: "/display/KD/Version+5.0.0" 
+redirect_from:
+    - "/display/KD/Version+5.0.0"
+    - "/x/PRVO"
 description: 
 ---
 Welcome to the version 5.0.0 release of Katalon Studio. In this release, Katalon team is excited to announce a brand new web application tool, Katalon Analytics and made significant features enhancement for Katalon Studio. Here's some highlights:

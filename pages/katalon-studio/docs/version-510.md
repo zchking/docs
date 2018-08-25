@@ -2,7 +2,9 @@
 title: "Version 5.1.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-510.html 
-redirect_from: "/display/KD/Version+5.1.0" 
+redirect_from:
+    - "/display/KD/Version+5.1.0"
+    - "/x/zBtO"
 description: 
 ---
 Drivers Update

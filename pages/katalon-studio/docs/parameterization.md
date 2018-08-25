@@ -2,7 +2,9 @@
 title: "Parameterization" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/parameterization.html 
-redirect_from: "/display/KD/Parameterization" 
+redirect_from:
+    - "/display/KD/Parameterization"
+    - "/x/pgTR"
 description: 
 ---
 *   [Parameterize Web/Mobile Test Object Properties](/pages/viewpage.action?pageId=12419075)

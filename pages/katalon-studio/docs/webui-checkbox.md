@@ -2,7 +2,9 @@
 title: "[WebUI] Checkbox" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-checkbox.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Checkbox" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Checkbox"
+    - "/x/HYMY"
 description: 
 ---
 *   [\[WebUI\] Check](/display/KD/%5BWebUI%5D+Check)

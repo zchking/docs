@@ -2,7 +2,9 @@
 title: "[WebUI] Wait For Element Visible" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-element-visible.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Element+Visible" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Visible"
+    - "/x/vocY"
 description: 
 ---
 Description

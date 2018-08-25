@@ -2,7 +2,8 @@
 title: "Katalon Studio for Linux (Console Mode)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-studio-for-linux-console-mode.html 
-redirect_from: "/pages/viewpage.action?pageId=13697253" 
+redirect_from:
+    - "/x/5QDR"
 description: 
 ---
 Currently, Katalon Studio for Linux has a **Lite** version (Ubuntu tested) which supports only [console mode execution](/display/KD/Console+Mode+Execution). Katalon Studio IDE is **not** supported yet. This guide will cover basic setups and installation steps for the **Linux** version.

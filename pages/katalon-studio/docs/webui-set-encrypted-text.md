@@ -2,7 +2,9 @@
 title: "[WebUI] Set Encrypted Text" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-set-encrypted-text.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Set+Encrypted+Text" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Set+Encrypted+Text"
+    - "/x/6AHR"
 description: 
 ---
 Description

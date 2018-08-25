@@ -2,7 +2,9 @@
 title: "[WebUI] Get Page Height" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-page-height.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Get+Page+Height" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Page+Height"
+    - "/x/VYsY"
 description: 
 ---
 Description  

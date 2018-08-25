@@ -2,7 +2,9 @@
 title: "[Common] Verify Greater Than Or Equal" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-greater-than-or-equal.html 
-redirect_from: "/display/KD/%5BCommon%5D+Verify+Greater+Than+Or+Equal" 
+redirect_from:
+    - "/display/KD/%5BCommon%5D+Verify+Greater+Than+Or+Equal"
+    - "/x/4IEi"
 description: 
 ---
 Description 

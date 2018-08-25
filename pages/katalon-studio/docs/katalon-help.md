@@ -2,7 +2,9 @@
 title: "Katalon Help" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-help.html 
-redirect_from: "/display/KD/Katalon+Help" 
+redirect_from:
+    - "/display/KD/Katalon+Help"
+    - "/x/sRRO"
 description: 
 ---
 > Katalon Help has the ability to remember your last selected tab before closing Katalon Studio app

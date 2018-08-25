@@ -2,7 +2,9 @@
 title: "[Common] Delay" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-delay.html 
-redirect_from: "/display/KD/%5BCommon%5D+Delay" 
+redirect_from:
+    - "/display/KD/%5BCommon%5D+Delay"
+    - "/x/XYIi"
 description: 
 ---
 Description  

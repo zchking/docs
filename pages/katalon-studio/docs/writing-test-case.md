@@ -2,7 +2,9 @@
 title: "Writing Test Case" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/writing-test-case.html 
-redirect_from: "/display/KD/Writing+Test+Case" 
+redirect_from:
+    - "/display/KD/Writing+Test+Case"
+    - "/x/VhVO"
 description: 
 ---
 *   [Binary Statements](/display/KD/Binary+Statements)

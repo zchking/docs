@@ -2,7 +2,9 @@
 title: "[Common] Call Test Case" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-call-test-case.html 
-redirect_from: "/display/KD/%5BCommon%5D+Call+Test+Case" 
+redirect_from:
+    - "/display/KD/%5BCommon%5D+Call+Test+Case"
+    - "/x/roIi"
 description: 
 ---
 Description  

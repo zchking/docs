@@ -2,7 +2,9 @@
 title: "[WS] Verify Element Property Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ws-verify-element-property-value.html 
-redirect_from: "/display/KD/%5BWS%5D+Verify+Element+Property+Value" 
+redirect_from:
+    - "/display/KD/%5BWS%5D+Verify+Element+Property+Value"
+    - "/x/bZQY"
 description: 
 ---
 Description

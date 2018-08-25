@@ -2,7 +2,9 @@
 title: "Version 5.6.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-560.html 
-redirect_from: "/display/KD/Version+5.6.0" 
+redirect_from:
+    - "/display/KD/Version+5.6.0"
+    - "/x/dA3R"
 description: 
 ---
 Enhance In-app Support

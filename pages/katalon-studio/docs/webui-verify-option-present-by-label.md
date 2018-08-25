@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Option Present By Label" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-present-by-label.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Option+Present+By+Label" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Present+By+Label"
+    - "/x/kJIY"
 description: 
 ---
 Description

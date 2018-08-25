@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Option Selected By Label" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-selected-by-label.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Option+Selected+By+Label" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Selected+By+Label"
+    - "/x/n5IY"
 description: 
 ---
 Description

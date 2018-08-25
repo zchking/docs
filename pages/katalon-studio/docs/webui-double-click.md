@@ -2,7 +2,9 @@
 title: "[WebUI] Double Click" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-double-click.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Double+Click" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Double+Click"
+    - "/x/OokY"
 description: 
 ---
 Description

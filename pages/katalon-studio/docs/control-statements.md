@@ -2,7 +2,9 @@
 title: "Control Statements" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/control-statements.html 
-redirect_from: "/display/KD/Control+Statements" 
+redirect_from:
+    - "/display/KD/Control+Statements"
+    - "/x/rAAM"
 description: 
 ---
 Katalon Studio provides the ability to dictate the logical flow of execution by supporting **control statements** such as _If/Else_, _for/while_ or _Try/Catch_… which are very common concepts in programming language.

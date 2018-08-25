@@ -2,7 +2,9 @@
 title: "Version 5.3.1" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/version-531.html 
-redirect_from: "/display/KD/Version+5.3.1" 
+redirect_from:
+    - "/display/KD/Version+5.3.1"
+    - "/x/JAHR"
 description: 
 ---
 Integration and Email Accounts Encryption

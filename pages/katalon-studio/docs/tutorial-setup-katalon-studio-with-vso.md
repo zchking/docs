@@ -2,7 +2,9 @@
 title: "Tutorial: Setup Katalon Studio with VSO" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/tutorial-setup-katalon-studio-with-vso.html 
-redirect_from: "/display/KD/Tutorial%3A+Setup+Katalon+Studio+with+VSO" 
+redirect_from:
+    - "/display/KD/Tutorial%3A+Setup+Katalon+Studio+with+VSO"
+    - "/x/QQbR"
 description: 
 ---
 Below is a general guide on how to configure Katalon Studio on VSO with the assumptions that you guys know VSO terms such as agent, build, task......

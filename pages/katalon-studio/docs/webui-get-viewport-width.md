@@ -2,7 +2,9 @@
 title: "[WebUI] Get Viewport Width" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-viewport-width.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Get+Viewport+Width" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Viewport+Width"
+    - "/x/KowY"
 description: 
 ---
 Description  

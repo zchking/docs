@@ -2,7 +2,9 @@
 title: "[WebUI] Type On Image" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-type-on-image.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Type+On+Image" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Type+On+Image"
+    - "/x/RYgY"
 description: 
 ---
 Description

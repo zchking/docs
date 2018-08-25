@@ -2,7 +2,9 @@
 title: "Record Mobile Utility" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-mobile-utility.html 
-redirect_from: "/display/KD/Record+Mobile+Utility" 
+redirect_from:
+    - "/display/KD/Record+Mobile+Utility"
+    - "/x/qgxO"
 description: 
 ---
 Follow these basic steps to get familiar with the Record & Playback features for Mobile Tests:

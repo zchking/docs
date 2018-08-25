@@ -2,7 +2,9 @@
 title: "Troubleshooting common issues related to interacting with an element" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html 
-redirect_from: "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element" 
+redirect_from:
+    - "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element"
+    - "/x/awXR"
 description: 
 ---
  There are many cases which can happen to an element. These quick tips and tricks will help you to troubleshoot some common issues and how to handle them as a workaround solution:

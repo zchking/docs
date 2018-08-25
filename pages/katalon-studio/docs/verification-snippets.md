@@ -2,7 +2,9 @@
 title: "Verification Snippets" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/verification-snippets.html 
-redirect_from: "/display/KD/Verification+Snippets" 
+redirect_from:
+    - "/display/KD/Verification+Snippets"
+    - "/x/EwjR"
 description: 
 ---
 Katalon Studio now supports the ability to write verification scripts directly in Web Service object's details. This support will greatly reduce the time for you to add scripts and verify response on the fly.

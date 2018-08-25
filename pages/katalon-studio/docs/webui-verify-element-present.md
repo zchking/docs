@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Element Present" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-element-present.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Element+Present" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Element+Present"
+    - "/x/MYoY"
 description: 
 ---
 Description

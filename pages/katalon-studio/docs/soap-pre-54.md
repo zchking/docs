@@ -2,7 +2,8 @@
 title: "SOAP (Pre-5.4)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/soap-pre-54.html 
-redirect_from: "/pages/viewpage.action?pageId=5116882" 
+redirect_from:
+    - "/x/0hNO"
 description: 
 ---
 Create SOAP Object

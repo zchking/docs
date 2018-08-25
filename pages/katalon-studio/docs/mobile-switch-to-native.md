@@ -2,7 +2,9 @@
 title: "[Mobile] Switch To Native" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-switch-to-native.html 
-redirect_from: "/display/KD/%5BMobile%5D+Switch+To+Native" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Switch+To+Native"
+    - "/x/T5AY"
 description: 
 ---
 Description  

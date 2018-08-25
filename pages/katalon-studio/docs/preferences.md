@@ -2,7 +2,9 @@
 title: "Preferences" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/preferences.html 
-redirect_from: "/display/KD/Preferences" 
+redirect_from:
+    - "/display/KD/Preferences"
+    - "/x/lhDR"
 description: 
 ---
 *   [Katalon Studio Preferences](/display/KD/Katalon+Studio+Preferences)

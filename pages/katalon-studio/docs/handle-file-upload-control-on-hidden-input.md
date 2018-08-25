@@ -2,7 +2,9 @@
 title: "Handle file upload control on hidden input" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handle-file-upload-control-on-hidden-input.html 
-redirect_from: "/display/KD/Handle+file+upload+control+on+hidden+input" 
+redirect_from:
+    - "/display/KD/Handle+file+upload+control+on+hidden+input"
+    - "/x/eQXR"
 description: 
 ---
 Hidden input controls have CSS display property of [none](https://www.w3schools.com/css/css_display_visibility.asp). To handle this case, we have two approaches below:

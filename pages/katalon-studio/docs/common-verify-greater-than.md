@@ -2,7 +2,9 @@
 title: "[Common] Verify Greater Than" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-greater-than.html 
-redirect_from: "/display/KD/%5BCommon%5D+Verify+Greater+Than" 
+redirect_from:
+    - "/display/KD/%5BCommon%5D+Verify+Greater+Than"
+    - "/x/2IEi"
 description: 
 ---
 Description  

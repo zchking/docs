@@ -2,7 +2,9 @@
 title: "[WebUI] Mouse Over" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-mouse-over.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Mouse+Over" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Mouse+Over"
+    - "/x/S4kY"
 description: 
 ---
 Description

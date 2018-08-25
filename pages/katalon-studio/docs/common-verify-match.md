@@ -2,7 +2,9 @@
 title: "[Common] Verify Match" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-match.html 
-redirect_from: "/display/KD/%5BCommon%5D+Verify+Match" 
+redirect_from:
+    - "/display/KD/%5BCommon%5D+Verify+Match"
+    - "/x/RYIi"
 description: 
 ---
 Description  

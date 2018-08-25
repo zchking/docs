@@ -2,7 +2,9 @@
 title: "[WebUI] Execute JavaScript" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-execute-javascript.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Execute+JavaScript" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Execute+JavaScript"
+    - "/x/XhdO"
 description: 
 ---
 Description  

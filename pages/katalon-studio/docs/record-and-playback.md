@@ -2,7 +2,8 @@
 title: "Record & Playback" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-and-playback.html 
-redirect_from: "/pages/viewpage.action?pageId=5115212" 
+redirect_from:
+    - "/x/TA1O"
 description: 
 ---
 Record and Playback feature allows you to quickly create and run test scripts. It's highly recommended that you start with this when first using Katalon Studio.

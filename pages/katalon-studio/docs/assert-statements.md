@@ -2,7 +2,9 @@
 title: "Assert Statements" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/assert-statements.html 
-redirect_from: "/display/KD/Assert+Statements" 
+redirect_from:
+    - "/display/KD/Assert+Statements"
+    - "/x/sAAM"
 description: 
 ---
 An assert statement contains a **boolean expression** where this condition must hold true for the test execution to continue. Thus, execution of the assertion causes evaluation of the **boolean expression** and an error is reported if the expression evaluates as **false**.

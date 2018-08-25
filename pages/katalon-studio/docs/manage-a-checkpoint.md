@@ -2,7 +2,9 @@
 title: "Manage a Checkpoint" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-a-checkpoint.html 
-redirect_from: "/display/KD/Manage+a+Checkpoint" 
+redirect_from:
+    - "/display/KD/Manage+a+Checkpoint"
+    - "/x/XYIw"
 description: 
 ---
 What is Checkpoint

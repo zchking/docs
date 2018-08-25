@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Option Not Selected By Value" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-not-selected-by-value.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Value" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Value"
+    - "/x/RJIY"
 description: 
 ---
 Description

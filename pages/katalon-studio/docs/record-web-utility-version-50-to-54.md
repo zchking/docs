@@ -2,7 +2,8 @@
 title: "Record Web Utility (version 5.0 to 5.4)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-web-utility-version-50-to-54.html 
-redirect_from: "/pages/viewpage.action?pageId=5118055" 
+redirect_from:
+    - "/x/ZxhO"
 description: 
 ---
 > *   [Working with Object Properties](/x/ZxlO)

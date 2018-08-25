@@ -2,7 +2,8 @@
 title: "Import/Export Keywords" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/importexport-keywords.html 
-redirect_from: "/pages/viewpage.action?pageId=13698840" 
+redirect_from:
+    - "/x/GAfR"
 description: 
 ---
 Katalon Studio allows the users to **import**/**export** for quick and better management of custom keywords. This feature minimizes the risk of moving test artifacts across different test projects. 

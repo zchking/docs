@@ -2,7 +2,9 @@
 title: "Manage Test Object" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-test-object.html 
-redirect_from: "/display/KD/Manage+Test+Object" 
+redirect_from:
+    - "/display/KD/Manage+Test+Object"
+    - "/x/HoUw"
 description: 
 ---
 Create a Test Object

@@ -2,7 +2,9 @@
 title: "[WebUI] Right Click" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-right-click.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Right+Click" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Right+Click"
+    - "/x/T4kY"
 description: 
 ---
 Description

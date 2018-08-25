@@ -2,7 +2,9 @@
 title: "Troubleshooting web automated testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-web-automated-testing.html 
-redirect_from: "/display/KD/Troubleshooting+web+automated+testing" 
+redirect_from:
+    - "/display/KD/Troubleshooting+web+automated+testing"
+    - "/x/5BpO"
 description: 
 ---
 The following article will help you troubleshoot some problems during web automated testing using Katalon Studio.

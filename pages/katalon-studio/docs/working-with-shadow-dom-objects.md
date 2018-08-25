@@ -2,7 +2,9 @@
 title: "Working with Shadow DOM Objects" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-shadow-dom-objects.html 
-redirect_from: "/display/KD/Working+with+Shadow+DOM+Objects" 
+redirect_from:
+    - "/display/KD/Working+with+Shadow+DOM+Objects"
+    - "/x/SBNO"
 description: 
 ---
 [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM) provides a powerful and useful solution for Web Developers. However, it becomes a challenge for automation testing because Shadow DOM elements inside a shadow root technically do not exist in the main document. Therefore, test automation frameworks that relying on XPath or querySelector to discover elements will not work with Shadow DOM.

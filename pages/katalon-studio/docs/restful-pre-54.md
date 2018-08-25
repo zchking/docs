@@ -2,7 +2,8 @@
 title: "RESTful (Pre-5.4)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/restful-pre-54.html 
-redirect_from: "/pages/viewpage.action?pageId=5116880" 
+redirect_from:
+    - "/x/0BNO"
 description: 
 ---
 Create REST Object

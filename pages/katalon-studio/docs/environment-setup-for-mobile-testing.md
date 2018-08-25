@@ -2,7 +2,9 @@
 title: "Environment Setup for Mobile Testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/environment-setup-for-mobile-testing.html 
-redirect_from: "/display/KD/Environment+Setup+for+Mobile+Testing" 
+redirect_from:
+    - "/display/KD/Environment+Setup+for+Mobile+Testing"
+    - "/x/hgTR"
 description: 
 ---
 *   [Mobile on Windows](/display/KD/Mobile+on+Windows)

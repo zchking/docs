@@ -2,7 +2,9 @@
 title: "Handle Response Messages" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handle-response-messages.html 
-redirect_from: "/display/KD/Handle+Response+Messages" 
+redirect_from:
+    - "/display/KD/Handle+Response+Messages"
+    - "/x/BxRO"
 description: 
 ---
 Most of the keywords for handling web service result will ask for a **ResponseObject** (return from the keyword _WSBuiltInKeywords.sendRequest_) or an **element locator**.

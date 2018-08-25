@@ -2,7 +2,9 @@
 title: "Integrations" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integrations.html 
-redirect_from: "/display/KD/Integrations" 
+redirect_from:
+    - "/display/KD/Integrations"
+    - "/x/SBVO"
 description: 
 ---
 *   [Git Integration](/display/KD/Git+Integration)

@@ -2,7 +2,9 @@
 title: "[WebUI] Wait For Image Present" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-image-present.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Wait+For+Image+Present" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Wait+For+Image+Present"
+    - "/x/sIgY"
 description: 
 ---
 Description

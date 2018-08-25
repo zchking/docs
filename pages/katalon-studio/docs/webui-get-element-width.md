@@ -2,7 +2,9 @@
 title: "[WebUI] Get Element Width" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-element-width.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Get+Element+Width" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Element+Width"
+    - "/x/lApO"
 description: 
 ---
 Description  

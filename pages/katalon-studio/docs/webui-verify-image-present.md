@@ -2,7 +2,9 @@
 title: "[WebUI] Verify Image Present" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-image-present.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Verify+Image+Present" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Image+Present"
+    - "/x/WIgY"
 description: 
 ---
 Description 

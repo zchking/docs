@@ -2,7 +2,9 @@
 title: "[Mobile] Start Application" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-start-application.html 
-redirect_from: "/display/KD/%5BMobile%5D+Start+Application" 
+redirect_from:
+    - "/display/KD/%5BMobile%5D+Start+Application"
+    - "/x/zo0Y"
 description: 
 ---
 Description  

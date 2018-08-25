@@ -2,7 +2,9 @@
 title: "[WebUI] Send Keys" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-send-keys.html 
-redirect_from: "/display/KD/%5BWebUI%5D+Send+Keys" 
+redirect_from:
+    - "/display/KD/%5BWebUI%5D+Send+Keys"
+    - "/x/vIgY"
 description: 
 ---
 Description 
