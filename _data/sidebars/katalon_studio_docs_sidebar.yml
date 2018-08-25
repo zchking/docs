@@ -109,8 +109,6 @@ items:
     tree:
     - title: "Getting Started"
       url: /katalon-studio/docs/getting-started.html
-    - title: "Overview"
-      url: /katalon-studio/docs/overview.html
     - title: "Katalon Analytics (Beta) Integration"
       url: /katalon-studio/docs/katalon-analytics-beta-integration.html
     - title: "Known Issues / Limitations"
@@ -123,36 +121,6 @@ items:
       url: /katalon-studio/docs/variable-types.html
     - title: "Value Types"
       url: /katalon-studio/docs/value-types.html
-  - title: "Web and Mobile Test Object"
-    tree:
-    - title: "Manage Test Object"
-      url: /katalon-studio/docs/manage-test-object.html
-    - title: "Working with Objects Selection Method for Spy/Record Web"
-      url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
-    - title: "Optimizing Object Identification and Tools"
-      url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
-    - title: "Working with Shadow DOM Objects"
-      url: /katalon-studio/docs/working-with-shadow-dom-objects.html
-  - title: "Test Projects"
-    tree:
-    - title: "Manage Test Project"
-      url: /katalon-studio/docs/manage-test-project.html
-  - title: "Test Design"
-    tree:
-    - title: "Verification Snippets"
-      url: /katalon-studio/docs/verification-snippets.html
-    - title: "Design a Test Suite"
-      url: /katalon-studio/docs/design-a-test-suite.html
-    - title: "Sample Projects"
-      url: /katalon-studio/docs/sample-projects.html
-    - title: "Setup/Teardown for Test Suite and Test Case"
-      url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
-  - title: "Linux Support"
-    tree:
-    - title: "Katalon Studio for Linux (Console Mode)"
-      url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
-    - title: "Katalon Studio GUI (beta) for Linux"
-      url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
   - title: "Test Execution"
     tree:
     - title: "Headless Browsers Execution"
@@ -181,6 +149,36 @@ items:
       url: /katalon-studio/docs/web-services-builder.html
     - title: "Using Web Service in Test Case"
       url: /katalon-studio/docs/using-web-service-in-test-case.html
+  - title: "Web and Mobile Test Object"
+    tree:
+    - title: "Manage Test Object"
+      url: /katalon-studio/docs/manage-test-object.html
+    - title: "Working with Objects Selection Method for Spy/Record Web"
+      url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
+    - title: "Optimizing Object Identification and Tools"
+      url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
+    - title: "Working with Shadow DOM Objects"
+      url: /katalon-studio/docs/working-with-shadow-dom-objects.html
+  - title: "Test Projects"
+    tree:
+    - title: "Manage Test Project"
+      url: /katalon-studio/docs/manage-test-project.html
+  - title: "Test Design"
+    tree:
+    - title: "Verification Snippets"
+      url: /katalon-studio/docs/verification-snippets.html
+    - title: "Sample Projects"
+      url: /katalon-studio/docs/sample-projects.html
+    - title: "Design a Test Suite"
+      url: /katalon-studio/docs/design-a-test-suite.html
+    - title: "Setup/Teardown for Test Suite and Test Case"
+      url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
+  - title: "Linux Support"
+    tree:
+    - title: "Katalon Studio for Linux (Console Mode)"
+      url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
+    - title: "Katalon Studio GUI (beta) for Linux"
+      url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
   - title: "Test Execution within CI/CD Tools"
     tree:
     - title: "Console Mode Execution"
@@ -271,12 +269,6 @@ items:
       url: /katalon-studio/docs/upload-test-execution.html
     - title: "Integrate test case"
       url: /katalon-studio/docs/integrate-test-case.html
-  - title: "Update New Versions"
-    tree:
-    - title: "Update or Replace Web Browser Drivers and Selenium"
-      url: /katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
-    - title: "Auto-updater"
-      url: /katalon-studio/docs/auto-updater.html
   - title: "Installation and Setup"
     tree:
     - title: "Before You Start"
@@ -501,8 +493,6 @@ items:
       url: /katalon-studio/docs/webui-scroll-to-element.html
     - title: "[WebUI] Verify Element Attribute Value"
       url: /katalon-studio/docs/webui-verify-element-attribute-value.html
-    - title: "[WebUI] Verify Element Present"
-      url: /katalon-studio/docs/webui-verify-element-present.html
     - title: "[WebUI] Verify Element Clickable"
       url: /katalon-studio/docs/webui-verify-element-clickable.html
     - title: "[WebUI] Verify Element Visible"
@@ -545,6 +535,8 @@ items:
       url: /katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html
     - title: "[WebUI] Verify Links Accessible"
       url: /katalon-studio/docs/webui-verify-links-accessible.html
+    - title: "[WebUI] Verify Element Present"
+      url: /katalon-studio/docs/webui-verify-element-present.html
   - title: "[Mobile] Element"
     tree:
     - title: "[Mobile] Check Element"
@@ -869,6 +861,12 @@ items:
       url: /katalon-studio/docs/katalon-addon-for-chrome.html
     - title: "Troubleshooting web automated testing"
       url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
+  - title: "Update New Versions"
+    tree:
+    - title: "Auto-updater"
+      url: /katalon-studio/docs/auto-updater.html
+    - title: "Update or Replace Web Browser Drivers and Selenium"
+      url: /katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
   - title: "Test Report"
     tree:
     - title: "Video Capturing"
@@ -887,3 +885,39 @@ items:
       url: /katalon-studio/docs/define-method.html
   - title: "Mobile"
     tree:
+  - title: "Overview"
+    tree:
+    - title: "Upload Reports"
+      url: /katalon-studio/docs/upload-reports.html
+    - title: "Integration with Katalon Studio"
+      url: /katalon-studio/docs/integration-with-katalon-studio.html
+    - title: "Project and Execution Deletion"
+      url: /katalon-studio/docs/project-and-execution-deletion.html
+    - title: "Quick Start"
+      url: /katalon-studio/docs/quick-start.html
+    - title: "User Management"
+      url: /katalon-studio/docs/user-management.html
+    - title: "Samples"
+      url: /katalon-studio/docs/samples.html
+    - title: "GUI Overview"
+      url: /katalon-studio/docs/gui-overview.html
+    - title: "Writing Custom Script Formatter"
+      url: /katalon-studio/docs/writing-custom-script-formatter.html
+    - title: "Acknowledgments"
+      url: /katalon-studio/docs/acknowledgments.html
+    - title: "FAQ & Troubleshooting Instructions"
+      url: /katalon-studio/docs/faq-and-troubleshooting-instructions.html
+    - title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions"
+      url: /katalon-studio/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html
+    - title: "Katalon Recorder Helper Tool"
+      url: /katalon-studio/docs/katalon-recorder-helper-tool.html
+    - title: "Katalon Recorder vs Katalon Studio"
+      url: /katalon-studio/docs/katalon-recorder-vs-katalon-studio.html
+    - title: "Selenese (Selenium IDE) Commands Reference"
+      url: /katalon-studio/docs/selenese-selenium-ide-commands-reference.html
+  - title: "Access Reports"
+    tree:
+    - title: "View Reports"
+      url: /katalon-studio/docs/view-reports.html
+    - title: "Filter and Sort"
+      url: /katalon-studio/docs/filter-and-sort.html
