@@ -115,3 +115,11 @@ items:
       url: /katalon-studio/tutorials/running_application_mobile_browsers.html
     - title: "Running tests from Command Line"
       url: /katalon-studio/tutorials/generate_command_line.html
+    - title: "Executing Tests on Multiple Devices in Parallel"
+      url: /katalon-studio/tutorials/execute_tests_parallelly_multiple_devices.html
+    - title: "How to Perform Multi-touch Actions in Mobile App"
+      url: /katalon-studio/tutorials/handle_multi_touch_action.html
+    - title: "Performing Pinch to Zoom In Action"
+      url: /katalon-studio/tutorials/pinch_zoom_action_mobile_app.html
+    - title: "How to setup the integration with Jenkins and other CI tools"
+      url: /katalon-studio/tutorials/jenskins_ci_integration.html
