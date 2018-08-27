@@ -56,17 +56,13 @@
                     </a>
                 </div>
                 <div class="navbar-collapse" style="height: 1px;">
-                    <div class="search-form" id="search-div">
-                        <form class="search-form form-inline ng-pristine ng-valid" id="searchForm" action="/search/">
-                            <input class="search-field form-control ds-input" id="st-search-input" value="" name="q" placeholder="{{site.data.strings.search_placeholder_text}}" type="search" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top;">
-                            <div id="autocompleteContainer">
-                                <div id="autocompleteResults">
-                                    <div id="autoContainer">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+                    <div id="search-box">
                     </div>
+
+                    <div class="post-list" id="search-hits">
+                    </div>
+
+
                     <div class="sidebar-toggle">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                             <span class="sr-only">{{site.data.strings.button_toggle_navigation}}</span>
@@ -187,6 +183,7 @@
                 </div>
             </div>
         </div>
+        {% include algolia.html %}
     </div>
     <footer class="footer">
         <div class="container">
