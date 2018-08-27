@@ -59,7 +59,7 @@ Follow these steps to automate the above test scenario in **Manual view**:
     ![](../../images/katalon-studio/docs/manual-view/image2017-8-18 14_51_0.png)  
       
     
-8.  All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog (Refer to [Spy Object](/display/KD/Spy+Object) for details regarding how to capture objects). Select your object then click **OK**.  
+8.  All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog (Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for details regarding how to capture objects). Select your object then click **OK**.  
     ![](../../images/katalon-studio/docs/manual-view/image2017-6-30 19_14_44.png)  
       
     

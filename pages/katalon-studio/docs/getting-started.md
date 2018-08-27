@@ -33,7 +33,7 @@ Go to [Katalon Download page](https://www.katalon.com/download/) to get Katalo
 ### Environment Requirement
 
 *   If you do** Web Testing**, make sure to install your preferred web browsers. Refer to the list of [supported browsers](/display/KD/Supported+Environments) for more details.
-    *   **Katalon Automation Recorder** extension is required for capturing objects in **Active Browser** (refer to [Spy Web Utility](/x/5BZO#SpyWebUtility(sinceversion5.0.0)-CaptureobjectsusingWebObjectSpy) and [Record & Playback](/pages/viewpage.action?pageId=13699399) for more details). Refer to this [guide](/x/JYgw).
+    *   **Katalon Automation Recorder** extension is required for capturing objects in **Active Browser** (refer to [Spy Web Utility](/x/5BZO#SpyWebUtility(sinceversion5.0.0)-CaptureobjectsusingWebObjectSpy) and [Record & Playback](/display/KD/Record+Web+Utility) for more details). Refer to this [guide](/x/JYgw).
     *   **Internet Explorer** must be configured to run automation test with Katalon Studio. Refer to [IE configurations guide](/x/iwEo). 
 *   If you do **Mobile Testing**, please refers to following guidelines:
     *   [Mobile on Windows](/display/KD/Mobile+on+Windows)
