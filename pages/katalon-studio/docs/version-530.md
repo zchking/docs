@@ -30,7 +30,7 @@ Implement [**Setup** / **Teardown**](/pages/viewpage.action?pageId=12419091) for
 Execution
 ---------
 
-Introduce all new [**Headless** execution mode for **Firefox**](https://www.katalon.com/resources-center/tutorials/headless-browsers-execution/)  supports user in Continuous Delivery process, UI regression and quick environment coverage. Tests execution will be much faster and more effective.
+Introduce all new [**Headless** execution mode for **Firefox**](/tutorials/headless-browsers-execution/)  supports user in Continuous Delivery process, UI regression and quick environment coverage. Tests execution will be much faster and more effective.
 
 ![](../../images/katalon-studio/docs/version-530/image2018-1-8 16_48_32.png)
 

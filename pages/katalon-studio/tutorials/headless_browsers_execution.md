@@ -69,4 +69,4 @@ Furthermore, using Headless browser in console mode execution is recommended for
 
 Refer to this [guide](/pages/viewpage.action?pageId=786527) for leveraging Katalon Studio in CI/CD process.
 
-For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
+For further instructions and help, please refer to [Katalon Studio Tutorials](/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

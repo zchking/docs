@@ -1,9 +1,9 @@
 ---
-title: "Call test case" 
+title: "Call Test Case" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/call-test-case.html 
 redirect_from:
-    - "/display/KD/Call+test+case"
+    - "/display/KD/Call+Test+Case"
     - "/x/qgAM"
 description: 
 ---

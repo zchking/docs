@@ -73,9 +73,9 @@ The activities involve performing one or more commands on Katalon Studio and Git
 
 **2\. Git:**
 
-*   [Choose Git remote repository](https://www.katalon.com/resources-center/tutorials/git-integration-introduction/#git-remote-repository)
-*   [Create Git repository](https://www.katalon.com/resources-center/tutorials/git-integration-introduction/#git-repository)
-*   [Get Git repository URL](https://www.katalon.com/resources-center/tutorials/git-integration-introduction/#clone-project)
+*   [Choose Git remote repository](/tutorials/git-integration-introduction/#git-remote-repository)
+*   [Create Git repository](/tutorials/git-integration-introduction/#git-repository)
+*   [Get Git repository URL](/tutorials/git-integration-introduction/#clone-project)
 
 Below are some good practices in using Katalon Studio integration with Git.
 
@@ -106,4 +106,4 @@ The situation is a bit more complicated if your automation team already works on
 
 ![add Katalon project into existing Git](../../images/katalon-studio/tutorials/git_conflict_resolve/add-Katalon-project-into-existing-Git.png)
 
-For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
+For further instructions and help, please refer to [Katalon Studio Tutorials](/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

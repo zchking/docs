@@ -54,7 +54,7 @@ When your build is activated, the **Quick Guide** screen is displayed to guide y
 
 You have successfully downloaded and activated Katalon Studio. Next, please refer to the following  guides to setup your test project:
 
-*   [Setting up Web automation project](https://www.katalon.com/resources-center/tutorials/get-started/kickstart-automation-testing-using-katalon-studio/)
-*   [Setting up Mobile automation project in Windows](https://www.katalon.com/resources-center/tutorials/get-started/set-up-mobile-automation-project-windows/)
-*   [Setting up Mobile automation project in macOS](https://www.katalon.com/resources-center/tutorials/get-started/set-up-mobile-automation-project-macos/)
-*   [Setting up API automation project](https://www.katalon.com/resources-center/tutorials/get-started/set-up-api-testing-project/)
+*   [Setting up Web automation project](/tutorials/get-started/kickstart-automation-testing-using-katalon-studio/)
+*   [Setting up Mobile automation project in Windows](/tutorials/get-started/set-up-mobile-automation-project-windows/)
+*   [Setting up Mobile automation project in macOS](/tutorials/get-started/set-up-mobile-automation-project-macos/)
+*   [Setting up API automation project](/tutorials/get-started/set-up-api-testing-project/)

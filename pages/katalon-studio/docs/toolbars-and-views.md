@@ -97,7 +97,7 @@ General information about the test case is displayed in this tab.
 
 ### Test Object Editor
 
-When you open a test object, its detailed information including properties and object identification mechanism is displayed in the Test Object editor. Refer to [Spy Object](/display/KD/Spy+Object) for more details.
+When you open a test object, its detailed information including properties and object identification mechanism is displayed in the Test Object editor. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-10-11 13_34_57.png)
 
@@ -111,7 +111,7 @@ When you open a RESTful request object, its detailed information including the r
 
 #### SOAP Request Object Editor
 
-When you open a SOAP request object, its detailed information including the resource URL, request methods, parameters... is displayed in the editor. Refer to [SOAP](/pages/viewpage.action?pageId=13697583) for more details.
+When you open a SOAP request object, its detailed information including the resource URL, request methods, parameters... is displayed in the editor. Refer to [SOAP](/display/KD/SOAP) for more details.
 
 ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-6-29 15_42_43.png)
 
@@ -159,7 +159,7 @@ When you open a data file, its detailed information including the data source an
 
 ### Checkpoint Editor
 
-When you open a checkpoint, its detailed information including the data source and its taken snapshot... is displayed in the editor. Refer to [Manage a Checkpoint](/display/KD/Manage+a+Checkpoint) for more details.
+When you open a checkpoint, its detailed information including the data source and its taken snapshot... is displayed in the editor. Refer to [Manage Checkpoints](/display/KD/Manage+Checkpoints) for more details.
 
 *   If the data source is from an Excel file:  
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-28 15_46_42.png)

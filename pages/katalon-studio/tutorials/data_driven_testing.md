@@ -59,7 +59,7 @@ Katalon Studio: available for free, running on both Windows and MacOS with a bet
 
 *   If you do **Web UI** testing, no additional settings are needed. Check [this list](/display/KD/Supported+Environments) for all supported browsers.
 *   In case of **Mobile** testing, you need to install **Appium** and enable **USB Debugging mode** on your device first. Please refer to our Mobile Setup [for Windows](/x/jwbR) or [for macOS](/x/9AXR).
-*   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
+*   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
 ### The Data-Driven Testing Sample Project
 
@@ -82,7 +82,7 @@ Create a data file in Katalon containing three login accounts. Refer to [Manage 
 
 ### Create a new test case using Web Record function
 
-1\. Create a new test case and generate the steps needed to run data-driven testing. You can utilize the [Web Record function](https://www.katalon.com/resources-center/tutorials/create-test-case-using-record-playback/) to quickly generate your test case:
+1\. Create a new test case and generate the steps needed to run data-driven testing. You can utilize the [Web Record function](/tutorials/create-test-case-using-record-playback/) to quickly generate your test case:
 
 *   Access [http://demoaut.katalon.com/profile.php#login](http://demoaut.katalon.com/profile.php#login) (_the Katalon demo AUT website)_
 *   Enter username/password
@@ -126,7 +126,7 @@ From here you can apply Data-driven using two methods, either using **Test Suit
 In which:
 
 *   Import InternalData class from Katalon built-in library and define **_data_** variable to locate test data table
-*   For [statement to loop](https://www.katalon.com/resources-center/tutorials/common-condition-control-statements/) through all row of test data table which indicates how many times the test case will run
+*   For [statement to loop](/tutorials/common-condition-control-statements/) through all row of test data table which indicates how many times the test case will run
 *   To get a row value in test data table, use [getRowNumbers()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testdata/InternalData.html#getRowNumbers()) method syntax. For example:
 
 _Username field: data.internallyGetValue("demo_usn", index)_

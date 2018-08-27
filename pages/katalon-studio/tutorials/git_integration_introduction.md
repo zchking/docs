@@ -143,4 +143,4 @@ Click **Finish **after finished selecting your remote branch. The code is now 
 
 After taking Commit, Push, and Pull actions, our Katalon Studio project is now synced with those of other team members.
 
-For further instructions and help, please refer to [Katalon Studio Tutorials](https://www.katalon.com/resources-center/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
+For further instructions and help, please refer to [Katalon Studio Tutorials](/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

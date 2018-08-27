@@ -8,4 +8,4 @@ redirect_from:
 description: 
 ---
 *   [Enable Kobiton Integration](/display/KD/Enable+Kobiton+Integration)
-*   [Desired capabilities for Kobiton devices](/display/KD/Desired+capabilities+for+Kobiton+devices)
+*   [Desired Capabilities for Kobiton Devices](/display/KD/Desired+Capabilities+for+Kobiton+Devices)

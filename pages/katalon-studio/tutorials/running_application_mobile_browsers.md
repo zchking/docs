@@ -23,7 +23,7 @@ Before You Dive In
 
 First, you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
-After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](https://www.katalon.com/resources-center/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
+After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
 Web application testing can be directly executed on a mobile device. To do so, the user needs to connect their devices/emulators into the machine and run the test scripts. We need to make sure that Chrome application (on Android device) and Safari application (on an iOS device) must be installed so that test steps can execute properly.
 

@@ -13,4 +13,4 @@ This tutorial includes screenshots and explanation about:
 
 That's all about Katalon Studio's GUI. Hope you are ready to create your first test case with Katalon Studio.
 
-But first, let's [download the tool](https://www.katalon.com) and read more useful tutorial articles from [Katalon Studio Resource Center](https://www.katalon.com/resources-center/tutorials/).
+But first, let's [download the tool](https://www.katalon.com) and read more useful tutorial articles from [Katalon Studio Resource Center](/tutorials/).

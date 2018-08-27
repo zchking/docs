@@ -174,7 +174,7 @@ This method will help us preventing missing test endpoints, and test scenarios.
 
 ### Endpoint as a template
 
-   This endpoint is a part of the [data-driven approach](https://www.katalon.com/resources-center/tutorials/data-driven-testing/), which relates to data models more than input data. One of the most challenging issues in API testing is test data mapping with data models, subsets of data models. For examples:
+   This endpoint is a part of the [data-driven approach](/tutorials/data-driven-testing/), which relates to data models more than input data. One of the most challenging issues in API testing is test data mapping with data models, subsets of data models. For examples:
 
    An API creating new Jira issue requires an input data model having required fields (such as Project Key, Summary) and non-required fields (such as Description, Assignee, etc.). All the combination of required and non-required fields should be tested to ensure that all the test scenarios are covered. For each combination, we then apply data-driven to test with different data set.
 

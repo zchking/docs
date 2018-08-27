@@ -28,7 +28,7 @@ where:
 Test Cases List
 ---------------
 
-*   The Test Case Table displays the list of all executed test cases in a test suite. If [data-driven testing](https://www.katalon.com/resources-center/tutorials/data-driven-testing/) is used, each test case will be executed through a number of times (iterations) that are defined in the Data Iteration column of the current test suite as shown in the steps No. 5 to 7 below.
+*   The Test Case Table displays the list of all executed test cases in a test suite. If [data-driven testing](/tutorials/data-driven-testing/) is used, each test case will be executed through a number of times (iterations) that are defined in the Data Iteration column of the current test suite as shown in the steps No. 5 to 7 below.
 
 ![Katalon Studio Test Case Table](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Test-Cases-List.png)
 
