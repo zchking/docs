@@ -88,19 +88,19 @@ img.inline {
     float: left;
     margin: 5px 0 0px;
     // width: 200px;
-    & input[type=text] {
-        background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
-        background-position: 10px 9px;
-        border: 0;
-        color: #0C5176;
-        border-radius: 0px;
-        margin: 0;
-        transition: all 0.2s ease;
-        width: 230px;
-    }
+    // & input[type=text] {
+    //     background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
+    //     background-position: 10px 9px;
+    //     border: 0;
+    //     color: #0C5176;
+    //     border-radius: 0px;
+    //     margin: 0;
+    //     transition: all 0.2s ease;
+    //     width: 230px;
+    // }
 }
 
-.nav-secondary-tabs .search-form input[type=search] {
+.nav-secondary-tabs .search-form input[type=text] {
     background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
     background-position: 10px 9px;
     border: 0;
@@ -127,12 +127,12 @@ input[type=text],
     margin: 0;
 }
 
-.nav-secondary-tabs .search-form input[type=search]:focus {
+.nav-secondary-tabs .search-form input[type=text]:focus {
     background: rgba(255, 255, 255, 0.17) url(/images/search.png) no-repeat;
     background-position: 10px 9px;
 }
 
-.nav-secondary-tabs.affix input[type=search],
+.nav-secondary-tabs.affix .search-form input[type=text],
 input[type=text] {
     background: rgba(0, 0, 0, 0.17) url(/images/search.png) no-repeat;
     background-position: 10px 9px;
@@ -141,7 +141,7 @@ input[type=text] {
     transition: all 0.2s ease;
 }
 
-.nav-secondary input[type=search] {
+.nav-secondary .search-form input[type=text] {
     background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
     background-position: 10px 9px;
     border: 0;
@@ -155,29 +155,29 @@ input[type=text] {
     padding: 0px 0 0 35px;
 }
 
-.nav-secondary .search-form input[type=search]:focus {
+.nav-secondary .search-form input[type=text]:focus {
     background: rgba(255,255,255,0.17) url(/images/search.png) no-repeat;
     background-position: 10px 9px;
 }
 
-.search-form input[type=search]::-webkit-input-placeholder {
+.search-form input[type=text]::-webkit-input-placeholder {
     color: #fff;
     opacity: 1;
 }
 
-.search-form input[type=search]:-moz-placeholder {
+.search-form input[type=text]:-moz-placeholder {
     /* Firefox 18- */
     color: #fff;
     opacity: 1;
 }
 
-.search-form input[type=search]::-moz-placeholder {
+.search-form input[type=text]::-moz-placeholder {
     /* Firefox 19+ */
     color: #fff;
     opacity: 1;
 }
 
-.search-form input[type=search]:-ms-input-placeholder {
+.search-form input[type=text]:-ms-input-placeholder {
     color: #fff;
     opacity: 1;
 }

@@ -176,4 +176,89 @@ $(function() {
             }
         });
     })();
+
+    // search
+
+    (function search() {
+        // Instanciating InstantSearch.js with Algolia credentials
+        const search = instantsearch({
+            appId: '{{ site.algolia.application_id }}',
+            indexName: '{{ site.algolia.index_name }}',
+            apiKey: '{{ site.algolia.search_only_api_key }}',
+            searchFunction: function(helper) {
+                if (helper.state.query !== "") {
+                    helper.search();
+                }
+            }
+        });
+
+        const hitTemplate = function(hit) {
+            // let date = '';
+            // if (hit.date) {
+            //     date = moment.unix(hit.date).format('MMM D, YYYY');
+            // }
+            let url = `{{ site.baseurl }}${hit.url}`;
+            if (hit.anchor) {
+                url += `#${hit.anchor}`;
+            }
+            const title = hit._highlightResult.title.value;
+            // let breadcrumbs = '';
+            // if (hit._highlightResult.headings) {
+            //     breadcrumbs = hit._highlightResult.headings.map(match => {
+            //         return `<span class="post-breadcrumb">${match.value}</span>`
+            //     }).join(' > ')
+            // }
+
+            const html = hit._highlightResult.html;
+            // const content = html && html.value;
+            // <li id="autoDescription0" class="autocompleteDescription">${content}</li>
+            return `
+                <div class="autoCompleteResult">
+                    <ul class="autocompleteList">
+                        <li id="autoTitle0" class="autocompleteTitle"><a href="${url}"></a>${title}</li>
+                    </ul>
+                </div>
+                <div class="autoCompleteResult algolia-logo">
+                    <div class="ais-search-box--powered-by">
+                        Search by <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=localhost&amp;utm_campaign=poweredby" target="_blank">Algolia</a>
+                    </div>
+                </div>
+            `;
+        }
+        search.addWidget(
+            instantsearch.widgets.searchBox({
+                container: '#search-box',
+                placeholder: 'Search the docs',
+                magnifier: false,
+                wrapInput: false,
+                autofocus: false,
+                poweredBy: false,
+                cssClasses: {
+                    input: "search-field form-control ds-input"
+                }
+            })
+        );
+        search.addWidget(
+            instantsearch.widgets.hits({
+                container: '#autocompleteContainer',
+                templates: {
+                    empty: 'No results',
+                    item: hitTemplate
+                },
+                cssClasses: {
+                    root: "autocompleteResults listResult",
+                    empty: "emptyResult"
+                }
+            })
+        );
+        search.addWidget(
+            instantsearch.widgets.hitsPerPageSelector({
+                container: '#hits-per-page-selector',
+                items: [
+                    {value: 3, label: '5 per page', default: true}
+                ]
+            })
+        );
+        search.start();
+    })();
 });

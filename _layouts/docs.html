@@ -28,6 +28,8 @@
     <meta property="article:published_time" itemprop="datePublished" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/pygments/perldoc.css">
@@ -184,7 +186,6 @@
                 </div>
             </div>
         </div>
-        {% include algolia.html %}
     </div>
     <footer class="footer">
         <div class="container">
@@ -206,11 +207,16 @@
         </div>
     </footer>
 
+    <div style="display: none">
+        <div id="hits-per-page-selector"></div>
+    </div>
+
     <script src="/js/jquery.min.js"></script>
     <script src="/js/stickyfill.min.js"></script>
     <script src="/js/jquery.cookie.min.js"></script>
     <script src="/js/jquery.navgoco.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
     <script src="/js/customscripts.js"></script>
 </body>
 </html>

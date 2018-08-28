@@ -11,3 +11,19 @@
 .button {
   font-family: inherit;
 }
+
+.autocompleteResults.listResult.emptyResult {
+  display: none
+}
+
+.autocompleteResults.listResult {
+  display: block
+}
+
+.algolia-logo {
+  display: none;
+}
+
+.ais-hits--item:last-child .algolia-logo {
+  display: block;
+}
