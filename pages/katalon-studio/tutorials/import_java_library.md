@@ -24,4 +24,4 @@ Manually copy .jar files to the Drivers folder
 
 You can also manually copy your .jar file (and its dependencies if any) into **Drivers** folder. You have to restart Katalon (shutdown and open it again) to reload its class paths.
 
-When your .jar library is recognized by Katalon, you should be able to use it in your code. Refer to the topic **[How to create a Custom Keyword](/tutorials/create-custom-keyword/)** for information on how to use the email validation functionality from Apache open source library **commons-validator-1.5.1.jar.**
+When your .jar library is recognized by Katalon, you should be able to use it in your code. Refer to the topic **[How to create a Custom Keyword](/katalon-studio/tutorials/create-custom-keyword/)** for information on how to use the email validation functionality from Apache open source library **commons-validator-1.5.1.jar.**

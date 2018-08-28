@@ -98,4 +98,4 @@ Where
 
 5.  Once finished, navigate back to Katalon Analytics to view the analyzed reports.
 
-Now you can upload execution reports from Katalon Studio and CI. It's time to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas, detect flakiness tests and to have a better control of the product quality. Please refer to the tutorial **[Viewing test execution reports in Katalon Analytics](/tutorials/viewing-test-execution-reports-katalon-analytics/)**.
+Now you can upload execution reports from Katalon Studio and CI. It's time to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas, detect flakiness tests and to have a better control of the product quality. Please refer to the tutorial **[Viewing test execution reports in Katalon Analytics](/katalon-studio/tutorials/viewing-test-execution-reports-katalon-analytics/)**.

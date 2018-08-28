@@ -13,14 +13,14 @@ If you are a first-time user, check out our **[Getting Started](/display/KD/Gett
 
 |   | Section |
 | --- | --- |
-| Tutorials | [**Learning Center** ](/tutorials/) |
+| Tutorials | [**Learning Center** ](/katalon-studio/tutorials/) |
 | Documentation | **[Katalon Studio](/display/KD/Overview)** |
 | Support | [**Katalon Community** ](https://forum.katalon.com/) |
 
 **[  
-Tutorials](/tutorials/)**
+Tutorials](/katalon-studio/tutorials/)**
 
-The Katalon team has prepared some [sample projects](https://github.com/katalon-studio-samples) for you to try out before testing out your own products. [The Learning Center](/) hosts tutorials for you to follow along and get to know Katalon Studio features.
+The Katalon team has prepared some [sample projects](https://github.com/katalon-studio-samples) for you to try out before testing out your own products. [The Learning Center](/katalon-studio/) hosts tutorials for you to follow along and get to know Katalon Studio features.
 
 **[Katalon Documentation](/display/KD/Overview)**
 

@@ -177,4 +177,4 @@ Switch to **manual mode** tab to view test case step by step.
 
 Examples above provide a basic understanding on how to handle web tables in Katalon Studio. If you are new to automation testing, it is recommended to take advantage of Manual Mode in Katalon Studio. For advanced testers, Script Mode provides you flexibility in creating and manipulating tests. Please download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Katalon Studio Tutorials](/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
+For further instructions and help, please refer to [Katalon Studio Tutorials](/katalon-studio/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

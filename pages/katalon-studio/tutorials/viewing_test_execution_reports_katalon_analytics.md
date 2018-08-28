@@ -12,7 +12,7 @@ description: "This tutorial will show you how to leverage Katalon Analytics powe
 
 This tutorial will show you how to leverage Katalon Analytics powerful dashboard to pivot your test automation strategy, focus on the high-risk areas, detect flakiness tests and to have a better control of the product quality.
 
-For this tutorial, let's assume that you already uploaded Katalon Studio execution reports to [Katalon Analytics](https://analytics.katalon.com). If not, refer to [this tutorial](/tutorials/upload-test-execution-reports-katalon-analytics/).
+For this tutorial, let's assume that you already uploaded Katalon Studio execution reports to [Katalon Analytics](https://analytics.katalon.com). If not, refer to [this tutorial](/katalon-studio/tutorials/upload-test-execution-reports-katalon-analytics/).
 
 Status Report
 -------------

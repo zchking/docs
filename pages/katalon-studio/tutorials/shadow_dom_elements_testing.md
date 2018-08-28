@@ -33,7 +33,7 @@ Automate Testing Shadow DOM with Katalon Studio
 
 We use the demo site above as the application under test. Consider a simple scenario: when the user clicks on **Buy at Amazon**, a new window is opened to show the corresponding book on Amazon. We will test if this window is opened successfully.
 
-We assume that you are already familiar with Katalon Studio. If you need to get started with its basic functions instead, please visit [Katalon Studio tutorials center](/tutorials/#resource-get-started).
+We assume that you are already familiar with Katalon Studio. If you need to get started with its basic functions instead, please visit [Katalon Studio tutorials center](/katalon-studio/tutorials/#resource-get-started).
 
 1\. First, create a new Katalon Studio project, and let's name it as **Shadow DOM Testing.**
 

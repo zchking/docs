@@ -212,4 +212,4 @@ Xpath:
 
 The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
 
-For further instructions and help, please refer to [Katalon Studio Tutorials](/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
+For further instructions and help, please refer to [Katalon Studio Tutorials](/katalon-studio/tutorials/) and [Katalon Forum](https://forum.katalon.com/).

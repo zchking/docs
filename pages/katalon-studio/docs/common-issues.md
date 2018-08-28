@@ -15,7 +15,7 @@ An account is required to download and activate your copy. If you don't have an 
 Q: Some features on my website need some time to load. How do I address this? 
 ------------------------------------------------------------------------------
 
-Katalon Studio has several keywords to address this situation comprehensively. For more information on how to address this issue, refer to [Solving Wait-time issue using Katalon Studio](/tutorials/solving-common-issue-wait-time/).
+Katalon Studio has several keywords to address this situation comprehensively. For more information on how to address this issue, refer to [Solving Wait-time issue using Katalon Studio](/katalon-studio/tutorials/solving-common-issue-wait-time/).
 
 Q: How do I deal with objects that can't be handled by Katalon Studio?
 ----------------------------------------------------------------------
@@ -25,4 +25,4 @@ There are situations in which Katalon Studio cannot interact with certain object
 Q: How to deal with iFrame?
 ---------------------------
 
-Katalon Studio has prepared a tutorial that walks you through each step of working with iFrame. Please visit [this link](/tutorials/handling-iframe-issue/).
+Katalon Studio has prepared a tutorial that walks you through each step of working with iFrame. Please visit [this link](/katalon-studio/tutorials/handling-iframe-issue/).

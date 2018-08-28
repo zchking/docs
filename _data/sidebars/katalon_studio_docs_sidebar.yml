@@ -657,14 +657,14 @@ items:
       url: /katalon-studio/docs/test-listeners-test-hooks.html
     - title: "Integrations"
       tree:
-      - title: "BrowserStack Integration"
-        url: /katalon-studio/docs/browserstack-integration.html
       - title: "Kobiton Integration"
-        tree:
-      - title: "qTest Integration"
         tree:
       - title: "SauceLabs Integration"
         url: /katalon-studio/docs/saucelabs-integration.html
+      - title: "BrowserStack Integration"
+        url: /katalon-studio/docs/browserstack-integration.html
+      - title: "qTest Integration"
+        tree:
       - title: "Slack Integration"
         url: /katalon-studio/docs/slack-integration.html
       - title: "Git Integration"
@@ -673,108 +673,108 @@ items:
         tree:
       - title: "Jira Integration"
         tree:
-        - title: "Configure JIRA Integration"
-          url: /katalon-studio/docs/configure-jira-integration.html
-        - title: "Enable qTest Integration"
-          url: /katalon-studio/docs/enable-qtest-integration.html
         - title: "Enable Kobiton Integration"
           url: /katalon-studio/docs/enable-kobiton-integration.html
+        - title: "Enable qTest Integration"
+          url: /katalon-studio/docs/enable-qtest-integration.html
+        - title: "Configure JIRA Integration"
+          url: /katalon-studio/docs/configure-jira-integration.html
+        - title: "Desired Capabilities for Kobiton Devices"
+          url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
         - title: "Install and Use Katalon's JIRA add-on"
           url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
         - title: "Integrate test case"
           url: /katalon-studio/docs/integrate-test-case.html
-        - title: "Desired Capabilities for Kobiton Devices"
-          url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
         - title: "Integrate test suite"
           url: /katalon-studio/docs/integrate-test-suite.html
         - title: "Working with JIRA"
           url: /katalon-studio/docs/working-with-jira.html
         - title: "Upload test execution"
           url: /katalon-studio/docs/upload-test-execution.html
-        - title: "VSTS/TFS/VSO Integration"
-          url: /katalon-studio/docs/vststfsvso-integration.html
         - title: "Jenkins Integration"
           url: /katalon-studio/docs/jenkins-integration.html
-        - title: "Docker"
-          url: /katalon-studio/docs/docker.html
         - title: "Export Test Results in JUnit Format"
           url: /katalon-studio/docs/export-test-results-in-junit-format.html
+        - title: "VSTS/TFS/VSO Integration"
+          url: /katalon-studio/docs/vststfsvso-integration.html
+        - title: "Docker"
+          url: /katalon-studio/docs/docker.html
         - title: "Console Mode Execution"
           url: /katalon-studio/docs/console-mode-execution.html
     - title: "Katalon Analytics (Beta) Integration"
       url: /katalon-studio/docs/katalon-analytics-beta-integration.html
     - title: "Tips and Tricks"
       tree:
-      - title: "Write data into Excel file at runtime during test execution"
-        url: /katalon-studio/docs/write-data-into-excel-file-at-runtime-during-test-execution.html
-      - title: "Get generated Reports location at runtime"
-        url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
-      - title: "Using autoIT for authentication in Katalon Studio"
-        url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
+      - title: "Execute Xpath functions"
+        url: /katalon-studio/docs/execute-xpath-functions.html
       - title: "Force stop execution"
         url: /katalon-studio/docs/force-stop-execution.html
-      - title: "Manage Android's permission"
-        url: /katalon-studio/docs/manage-androids-permission.html
+      - title: "Using autoIT for authentication in Katalon Studio"
+        url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
+      - title: "Set cookies for browsers"
+        url: /katalon-studio/docs/set-cookies-for-browsers.html
       - title: "Mark test's status for a Custom Keyword"
         url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
+      - title: "Open Chrome with extensions"
+        url: /katalon-studio/docs/open-chrome-with-extensions.html
       - title: "Troubleshooting common issues related to interacting with an element"
         url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
       - title: "Optimizing Object Identification and Tools"
         url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
+      - title: "Schedule tests to execute"
+        url: /katalon-studio/docs/schedule-tests-to-execute.html
+      - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
+        url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
       - title: "Retrieve mobile's session"
         url: /katalon-studio/docs/retrieve-mobiles-session.html
       - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
         url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
-      - title: "Override desired capabilities at runtime"
-        url: /katalon-studio/docs/override-desired-capabilities-at-runtime.html
-      - title: "Katalon with Winium for Desktop Applications"
-        url: /katalon-studio/docs/katalon-with-winium-for-desktop-applications.html
-      - title: "Open Chrome with extensions"
-        url: /katalon-studio/docs/open-chrome-with-extensions.html
       - title: "Execute Windows commands"
         url: /katalon-studio/docs/execute-windows-commands.html
+      - title: "Override desired capabilities at runtime"
+        url: /katalon-studio/docs/override-desired-capabilities-at-runtime.html
       - title: "Creation of Test Object in Object Repository in Runtime"
         url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
-      - title: "Using Regex in Katalon Studio"
-        url: /katalon-studio/docs/using-regex-in-katalon-studio.html
-      - title: "Create Global Variables on the fly"
-        url: /katalon-studio/docs/create-global-variables-on-the-fly.html
+      - title: "Katalon with Winium for Desktop Applications"
+        url: /katalon-studio/docs/katalon-with-winium-for-desktop-applications.html
       - title: "Use additional desired capabilities for Kobiton devices"
         url: /katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html
+      - title: "Change CSS selector of an object at runtime"
+        url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
       - title: "Update SQL query in a Test Data dynamically"
         url: /katalon-studio/docs/update-sql-query-in-a-test-data-dynamically.html
-      - title: "Verify placeholder of a field"
-        url: /katalon-studio/docs/verify-placeholder-of-a-field.html
-      - title: "Set cookies for browsers"
-        url: /katalon-studio/docs/set-cookies-for-browsers.html
-      - title: "Schedule tests to execute"
-        url: /katalon-studio/docs/schedule-tests-to-execute.html
-      - title: "Execute Xpath functions"
-        url: /katalon-studio/docs/execute-xpath-functions.html
+      - title: "Write data into Excel file at runtime during test execution"
+        url: /katalon-studio/docs/write-data-into-excel-file-at-runtime-during-test-execution.html
+      - title: "Start browsers in private mode"
+        url: /katalon-studio/docs/start-browsers-in-private-mode.html
+      - title: "Type @ character on Internet Explorer"
+        url: /katalon-studio/docs/type-character-on-internet-explorer.html
       - title: "How to use different browser versions"
         url: /katalon-studio/docs/how-to-use-different-browser-versions.html
       - title: "Import Custom Keywords classes recursively"
         url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
       - title: "Install Chrome extensions at runtime"
         url: /katalon-studio/docs/install-chrome-extensions-at-runtime.html
-      - title: "Type @ character on Internet Explorer"
-        url: /katalon-studio/docs/type-character-on-internet-explorer.html
-      - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
-        url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
+      - title: "Manage Android's permission"
+        url: /katalon-studio/docs/manage-androids-permission.html
       - title: "Swipe action on iOS device"
         url: /katalon-studio/docs/swipe-action-on-ios-device.html
       - title: "Handle file upload control on hidden input"
         url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
+      - title: "Create Global Variables on the fly"
+        url: /katalon-studio/docs/create-global-variables-on-the-fly.html
+      - title: "Using Regex in Katalon Studio"
+        url: /katalon-studio/docs/using-regex-in-katalon-studio.html
+      - title: "Verify placeholder of a field"
+        url: /katalon-studio/docs/verify-placeholder-of-a-field.html
+      - title: "Clicking multiple objects without starting over"
+        url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
       - title: "Get SQL query results as variables"
         url: /katalon-studio/docs/get-sql-query-results-as-variables.html
       - title: "Connect to SQL using Windows Authentication"
         url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
-      - title: "Change CSS selector of an object at runtime"
-        url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
-      - title: "Clicking multiple objects without starting over"
-        url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
-      - title: "Start browsers in private mode"
-        url: /katalon-studio/docs/start-browsers-in-private-mode.html
+      - title: "Get generated Reports location at runtime"
+        url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
     - title: "Release Notes"
       tree:
       - title: "Version 5.6"
