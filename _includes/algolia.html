@@ -41,6 +41,7 @@ search.addWidget(
     placeholder: 'Search into posts...',
     magnifier: false,
     wrapInput: false,
+    autofocus: false,
     cssClasses: {
       input: "search-field form-control ds-input"
     }
@@ -48,10 +49,14 @@ search.addWidget(
 );
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '#autocompleteResults',
+    container: '#autocompleteContainer',
     templates: {
       empty: 'No results',
       item: hitTemplate
+    },
+    cssClasses: {
+      root: "autocompleteResults listResult",
+      empty: "emptyResult"
     }
   })
 );
@@ -59,4 +64,10 @@ search.start();
 </script>
 
 <style>
+  .autocompleteResults.listResult.emptyResult {
+    display: none
+  }
+  .autocompleteResults.listResult {
+    display: block
+  }
 </style>

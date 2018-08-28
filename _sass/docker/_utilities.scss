@@ -206,11 +206,11 @@ input[type=text] {
   *
   */
 
-div#autocompleteResults {
+div.autocompleteResults {
     display: none;
 }
 
-div#autocompleteResults {
+div.autocompleteResults {
     background: #E6F5FD;
     border: 1px solid #eee;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.28);
@@ -229,7 +229,7 @@ ul.autocompleteList {
     padding: 5px 0 7px 0;
 }
 
-div#autocompleteResults span {
+div.autocompleteResults span {
     background: transparent!important;
     color: #518cad;
 }
@@ -301,7 +301,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     {
       display: none !important;
     }
-    #ratings-div 
+    #ratings-div
     {
       display: none !important;
     }
