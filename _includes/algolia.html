@@ -8,16 +8,7 @@
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   indexName: '{{ site.algolia.index_name }}',
-  apiKey: '{{ site.algolia.search_only_api_key }}',
-  searchFunction: function(helper) {
-    var searchResults = $('.search-results');
-    if (helper.state.query === '') {
-      searchResults.hide();
-      return;
-    }
-    helper.search();
-    searchResults.show();
-  }
+  apiKey: '{{ site.algolia.search_only_api_key }}'
 });
 
 const hitTemplate = function(hit) {
@@ -37,7 +28,7 @@ const hitTemplate = function(hit) {
   return `
     <div class="autoCompleteResult" id="autoCompleteResult0"">
       <ul class="autocompleteList">
-        <li id="autoTitle0" class="autocompleteTitle"><a href="${url}">${title}</li>
+        <li id="autoTitle0" class="autocompleteTitle"><a href="${url}"></a>${title}</li>
         <li id="autoUrl0" class="autocompleteUrl">${url}</li>
         <li id="autoDescription0" class="autocompleteDescription"><b>Description</b>: ${content}</li>
       </ul>
@@ -47,12 +38,17 @@ const hitTemplate = function(hit) {
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-box',
-    placeholder: 'Search into posts...'
+    placeholder: 'Search into posts...',
+    magnifier: false,
+    wrapInput: false,
+    cssClasses: {
+      input: "search-field form-control ds-input"
+    }
   })
 );
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '#autoContainer',
+    container: '#autocompleteResults',
     templates: {
       empty: 'No results',
       item: hitTemplate
@@ -63,36 +59,4 @@ search.start();
 </script>
 
 <style>
-.ais-search-box {
-  max-width: 100%;
-  margin-bottom: 15px;
-}
-.post-item {
-  margin-bottom: 30px;
-}
-.post-link .ais-Highlight {
-  color: #111;
-  font-style: normal;
-  text-decoration: underline;
-}
-.post-breadcrumbs {
-  color: #424242;
-  display: block;
-}
-.post-breadcrumb {
-  font-size: 18px;
-  color: #424242;
-}
-.post-breadcrumb .ais-Highlight {
-  font-weight: bold;
-  font-style: normal;
-}
-.post-snippet .ais-Highlight {
-  color: #2a7ae2;
-  font-style: normal;
-  font-weight: bold;
-}
-.post-snippet img {
-  display: none;
-}
 </style>
