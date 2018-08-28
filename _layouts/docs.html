@@ -56,23 +56,17 @@
                     </a>
                 </div>
                 <div class="navbar-collapse" style="height: 1px;">
-                    <div class="search-form" id="search-box">
+                    <div class="search-form" id="search-div" style="visibility: visible;">
+                        <form class="search-form form-inline ng-pristine ng-valid" id="searchForm" style="visibility: visible;">
+                            <div id="search-box"></div>
+                            <div id="autocompleteContainer">
+                                <div id="autocompleteResults" style="display: block">
+                                    <div id="autoContainer">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-
-                    <div class="post-list" id="search-hits">
-                        {% for post in site.posts %}
-                        <div class="post-item">
-                            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                            <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-                            <h2>
-                            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                            </h2>
-                            <div class="post-snippet">{{ post.excerpt }}</div>
-                        </div>
-                        {% endfor %}
-                    </div>
-
 
                     <div class="sidebar-toggle">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">

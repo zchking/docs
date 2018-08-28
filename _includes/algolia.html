@@ -35,25 +35,26 @@ const hitTemplate = function(hit) {
   }
   const content = hit._highlightResult.html.value;
   return `
-    <div class="post-item">
-      <span class="post-meta">${date}</span>
-      <h2><a class="post-link" href="${url}">${title}</a></h2>
-      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
-      <div class="post-snippet">${content}</div>
+    <div class="autoCompleteResult" id="autoCompleteResult0"">
+      <ul class="autocompleteList">
+        <li id="autoTitle0" class="autocompleteTitle"><a href="${url}">${title}</li>
+        <li id="autoUrl0" class="autocompleteUrl">${url}</li>
+        <li id="autoDescription0" class="autocompleteDescription"><b>Description</b>: ${content}</li>
+      </ul>
     </div>
   `;
 }
 search.addWidget(
   instantsearch.widgets.searchBox({
     container: '#search-box',
-    placeholder: 'Search into posts...',
-    poweredBy: true
+    placeholder: 'Search into posts...'
   })
 );
 search.addWidget(
   instantsearch.widgets.hits({
-    container: '#search-hits',
+    container: '#autoContainer',
     templates: {
+      empty: 'No results',
       item: hitTemplate
     }
   })
