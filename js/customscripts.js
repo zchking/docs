@@ -210,7 +210,7 @@ $(function() {
                 content = '';
             }
 
-            var result = '<div class="autoCompleteResult"><ul class="autocompleteProperties"><li class="autocompleteTitle"><a href="' + url + '">' + title + '</a></li>' + content + '</ul></div>';
+            return '<div class="autoCompleteResult"><ul class="autocompleteProperties"><li class="autocompleteTitle"><a href="' + url + '">' + title + '</a></li>' + content + '</ul></div>';
         }
 
         var resultsTemplate = function(result) {
