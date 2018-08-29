@@ -224,11 +224,18 @@ $(function() {
         const resultsTemplate = (result) => {
             const hits = result.hits;
             let content = ""
+
             hits.forEach(
                 hit => content =  content + hitTemplate(hit) + "\n"
             );
             content = content + powerByTemplate();
-            return content;
+
+            let html = `
+                <div class="autocompleteResults" style="display:block;">
+                    ${content}
+                </div>
+            `;
+            return html;
         }
 
         const powerByTemplate = () => {
@@ -260,10 +267,6 @@ $(function() {
                 templates: {
                     empty: 'No results',
                     allItems: resultsTemplate
-                },
-                cssClasses: {
-                    root: "autocompleteResults listResult",
-                    empty: "emptyResult"
                 }
             })
         );
