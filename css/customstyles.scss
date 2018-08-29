@@ -35,10 +35,6 @@ div#autocompleteResults {
       list-style-type: none;
       margin: 0;
 
-      p {
-        margin: 0;
-      }
-
       .autocompleteTitle, .autocompleteDescription {
         font-size: 1em;
         font-weight: normal;
@@ -84,5 +80,14 @@ div#autocompleteResults {
   ais-search-box--input {
     position: relative;
     vertical-align: top;
+  }
+}
+
+@media only screen
+    and (min-width : 376px)
+    and (max-width : 1150px) {
+
+  .nav-secondary  {
+      overflow: visible;
   }
 }

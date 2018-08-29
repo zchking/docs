@@ -202,7 +202,7 @@ $(function() {
             var url = '{{ site.baseurl }}' + hit.url;
             var title = hit._highlightResult.title.value;
 
-            var html = hit._highlightResult.html;
+            var html = hit._highlightResult.content;
             var content = html && html.value;
 
             return '<div class="autoCompleteResult"><ul class="autocompleteProperties"><li class="autocompleteTitle"><a href="' + url + '">' + title + '</a></li><li class="autocompleteDescription">' + content + '</li></ul></div>';
