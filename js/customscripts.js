@@ -218,13 +218,29 @@ $(function() {
                         <li id="autoTitle0" class="autocompleteTitle"><a href="${url}"></a>${title}</li>
                     </ul>
                 </div>
-                <div class="autoCompleteResult algolia-logo">
-                    <div class="ais-search-box--powered-by">
-                        Search by <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=localhost&amp;utm_campaign=poweredby" target="_blank">Algolia</a>
-                    </div>
-                </div>
             `;
         }
+
+        const resultsTemplate = (result) => {
+            const hits = result.hits;
+            let content = ""
+            hits.forEach(
+                hit => content =  content + hitTemplate(hit) + "\n"
+            );
+            content = content + powerByTemplate();
+            return content;
+        }
+
+        const powerByTemplate = () => {
+            return `
+            <div class="autoCompleteResult algolia-logo">
+                <div class="ais-search-box--powered-by">
+                    Search by <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=localhost&amp;utm_campaign=poweredby" target="_blank">Algolia</a>
+                </div>
+            </div>
+            `;
+        }
+
         search.addWidget(
             instantsearch.widgets.searchBox({
                 container: '#search-box',
@@ -243,7 +259,7 @@ $(function() {
                 container: '#autocompleteContainer',
                 templates: {
                     empty: 'No results',
-                    item: hitTemplate
+                    allItems: resultsTemplate
                 },
                 cssClasses: {
                     root: "autocompleteResults listResult",
