@@ -199,35 +199,31 @@ $(function() {
             // if (hit.date) {
             //     date = moment.unix(hit.date).format('MMM D, YYYY');
             // }
-            var url = `{{ site.baseurl }}${hit.url}`;
-            if (hit.anchor) {
-                url += `#${hit.anchor}`;
-            }
+            var url = '{{ site.baseurl }}' + hit.url;
             var title = hit._highlightResult.title.value;
-            // var breadcrumbs = '';
-            // if (hit._highlightResult.headings) {
-            //     breadcrumbs = hit._highlightResult.headings.map(match => {
-            //         return `<span class="post-breadcrumb">${match.value}</span>`
-            //     }).join(' > ')
-            // }
 
             var html = hit._highlightResult.html;
             var content = html && html.value;
 
-            var logo = $('.ais-search-box--powered-by').html();
-
-            return `
-                <div class="autoCompleteResult">
-                    <ul class="autocompleteProperties">
-                        <li class="autocompleteTitle"><a href="${url}">${title}</a></li>
-                        <li class="autocompleteDescription">${content}</li>
-                    </ul>
-                </div>
-                <div class="autoCompleteResult algolia-logo">
-                    ${logo}
-                </div>
-            `;
+            return '<div class="autoCompleteResult"><ul class="autocompleteProperties"><li class="autocompleteTitle"><a href="' + url + '">' + title + '</a></li><li class="autocompleteDescription">' + content + '</li></ul></div>';
         }
+
+        var resultsTemplate = function(result) {
+            var hits = result.hits;
+            var content = ""
+
+            hits.forEach(function(hit) {
+                content += hitTemplate(hit);
+            });
+            content += powerByTemplate();
+
+            return '<div class="autocompleteResults">' + content + '</div>';
+        }
+
+        var powerByTemplate = function() {
+            return '<div class="autoCompleteResult"><div class="algolia-logo">' + $('.ais-search-box--powered-by').html() + '</div></div>';
+        }
+
         search.addWidget(
             instantsearch.widgets.searchBox({
                 container: '#search-box',
@@ -247,11 +243,7 @@ $(function() {
                 container: '#autoContainer',
                 templates: {
                     empty: 'No results',
-                    item: hitTemplate
-                },
-                cssClasses: {
-                    root: "listResult",
-                    empty: "emptyResult"
+                    allItems: resultsTemplate
                 }
             })
         );
