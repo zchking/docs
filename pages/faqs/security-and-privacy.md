@@ -1,11 +1,8 @@
 ---
-title: "Security and Privacy" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/security-and-privacy.html 
-redirect_from:
-    - "/display/KD/Security+and+Privacy"
-    - "/x/WBDR"
-description: 
+title: "Security and Privacy"
+sidebar: faqs_sidebar
+permalink: faqs/security-and-privacy.html
+description:
 ---
 Q: How does Katalon Studio collect/store the data? 
 ---------------------------------------------------

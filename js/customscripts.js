@@ -204,8 +204,13 @@ $(function() {
 
             var html = hit._highlightResult.content;
             var content = html && html.value;
+            if (content) {
+                content = '<li class="autocompleteDescription">' + content + '</li>';
+            } else {
+                content = '';
+            }
 
-            return '<div class="autoCompleteResult"><ul class="autocompleteProperties"><li class="autocompleteTitle"><a href="' + url + '">' + title + '</a></li><li class="autocompleteDescription">' + content + '</li></ul></div>';
+            var result = '<div class="autoCompleteResult"><ul class="autocompleteProperties"><li class="autocompleteTitle"><a href="' + url + '">' + title + '</a></li>' + content + '</ul></div>';
         }
 
         var resultsTemplate = function(result) {

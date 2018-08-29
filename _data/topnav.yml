@@ -9,5 +9,8 @@ topnav:
     - title: Tutorials
       url: /katalon-studio/tutorials/quick_start.html
       parenturl: /katalon-studio/tutorials
+    - title: FAQs
+      url: /faqs/licensing.html
+      parenturl: /faqs
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html

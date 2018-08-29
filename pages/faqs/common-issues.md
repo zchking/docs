@@ -1,11 +1,8 @@
 ---
-title: "Common Issues" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-issues.html 
-redirect_from:
-    - "/display/KD/Common+Issues"
-    - "/x/WhDR"
-description: 
+title: "Common Issues"
+sidebar: faqs_sidebar
+permalink: faqs/common-issues.html
+description:
 ---
 Q: I can't activate my Katalon Studio
 -------------------------------------

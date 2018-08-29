@@ -1,11 +1,8 @@
 ---
-title: "Licensing" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/licensing.html 
-redirect_from:
-    - "/display/KD/Licensing"
-    - "/x/TxDR"
-description: 
+title: "Licensing"
+sidebar: faqs_sidebar
+permalink: faqs/licensing.html
+description:
 ---
 Q: Is Katalon Studio open-source, how can I download the source code?
 ---------------------------------------------------------------------

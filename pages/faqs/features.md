@@ -1,11 +1,8 @@
 ---
-title: "Features" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/features.html 
-redirect_from:
-    - "/display/KD/Features"
-    - "/x/UxDR"
-description: 
+title: "Features"
+sidebar: faqs_sidebar
+permalink: faqs/features.html
+description:
 ---
 Q: What is Katalon Studio's scripting language? 
 ------------------------------------------------

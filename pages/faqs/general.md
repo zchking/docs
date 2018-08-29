@@ -1,11 +1,8 @@
 ---
-title: "General" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/general.html 
-redirect_from:
-    - "/display/KD/General"
-    - "/x/URDR"
-description: 
+title: "General"
+sidebar: faqs_sidebar
+permalink: faqs/general.html
+description:
 ---
 Q: How is Katalon Studio different from Selenium or Appium? 
 ------------------------------------------------------------

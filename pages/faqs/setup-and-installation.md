@@ -1,11 +1,8 @@
 ---
-title: "Setup and Installation" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/setup-and-installation.html 
-redirect_from:
-    - "/display/KD/Setup+and+Installation"
-    - "/x/VRDR"
-description: 
+title: "Setup and Installation"
+sidebar: faqs_sidebar
+permalink: faqs/setup-and-installation.html
+description:
 ---
 Q: Do I need to install any automation test frameworks like TestNG or JUnit for Katalon Studio to work?
 -------------------------------------------------------------------------------------------------------

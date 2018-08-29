@@ -1,11 +1,8 @@
 ---
-title: "Test Service" 
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/test-service.html 
-redirect_from:
-    - "/display/KD/Test+Service"
-    - "/x/XRDR"
-description: 
+title: "Test Service"
+sidebar: faqs_sidebar
+permalink: faqs/test-service.html
+description:
 ---
 Q: How can I get help?
 ----------------------

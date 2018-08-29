@@ -60,12 +60,7 @@ div#autocompleteResults {
     }
 
     .algolia-logo {
-      display: none;
       font-size: 0.875em;
-    }
-
-    &:last-child .algolia-logo {
-      display: block;
     }
   }
 }
