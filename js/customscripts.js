@@ -181,47 +181,50 @@ $(function() {
 
     (function search() {
         // Instanciating InstantSearch.js with Algolia credentials
-        const search = instantsearch({
+        var search = instantsearch({
             appId: '{{ site.algolia.application_id }}',
             indexName: '{{ site.algolia.index_name }}',
             apiKey: '{{ site.algolia.search_only_api_key }}',
             searchFunction: function(helper) {
-                if (helper.state.query !== "") {
+                if (helper.state.query === "") {
+                    $('#autoContainer').empty();
+                } else {
                     helper.search();
                 }
             }
         });
 
-        const hitTemplate = function(hit) {
-            // let date = '';
+        var hitTemplate = function(hit) {
+            // var date = '';
             // if (hit.date) {
             //     date = moment.unix(hit.date).format('MMM D, YYYY');
             // }
-            let url = `{{ site.baseurl }}${hit.url}`;
+            var url = `{{ site.baseurl }}${hit.url}`;
             if (hit.anchor) {
                 url += `#${hit.anchor}`;
             }
-            const title = hit._highlightResult.title.value;
-            // let breadcrumbs = '';
+            var title = hit._highlightResult.title.value;
+            // var breadcrumbs = '';
             // if (hit._highlightResult.headings) {
             //     breadcrumbs = hit._highlightResult.headings.map(match => {
             //         return `<span class="post-breadcrumb">${match.value}</span>`
             //     }).join(' > ')
             // }
 
-            const html = hit._highlightResult.html;
-            // const content = html && html.value;
-            // <li id="autoDescription0" class="autocompleteDescription">${content}</li>
+            var html = hit._highlightResult.html;
+            var content = html && html.value;
+
+            var logo = $('.ais-search-box--powered-by').html();
+
             return `
                 <div class="autoCompleteResult">
-                    <ul class="autocompleteList">
-                        <li id="autoTitle0" class="autocompleteTitle"><a href="${url}"></a>${title}</li>
+                    <ul class="autocompleteProperties">
+                        <li class="autocompleteTitle"><a href="${url}">${title}</a></li>
+                        <li class="autocompleteDescription">${content}</li>
                     </ul>
                 </div>
                 <div class="autoCompleteResult algolia-logo">
-                    <div class="ais-search-box--powered-by">
-                        Search by <a class="ais-search-box--powered-by-link" href="https://www.algolia.com/?utm_source=instantsearch.js&amp;utm_medium=website&amp;utm_content=localhost&amp;utm_campaign=poweredby" target="_blank">Algolia</a>
-                    </div>
+                    ${logo}
                 </div>
             `;
         }
@@ -232,7 +235,8 @@ $(function() {
                 magnifier: false,
                 wrapInput: false,
                 autofocus: false,
-                poweredBy: false,
+                poweredBy: true,
+                reset: false,
                 cssClasses: {
                     input: "search-field form-control ds-input"
                 }
@@ -240,13 +244,13 @@ $(function() {
         );
         search.addWidget(
             instantsearch.widgets.hits({
-                container: '#autocompleteContainer',
+                container: '#autoContainer',
                 templates: {
                     empty: 'No results',
                     item: hitTemplate
                 },
                 cssClasses: {
-                    root: "autocompleteResults listResult",
+                    root: "listResult",
                     empty: "emptyResult"
                 }
             })
@@ -255,10 +259,21 @@ $(function() {
             instantsearch.widgets.hitsPerPageSelector({
                 container: '#hits-per-page-selector',
                 items: [
-                    {value: 3, label: '5 per page', default: true}
+                    {value: 4, label: '', default: true}
                 ]
             })
         );
         search.start();
+
+        var interval = setInterval(
+            function() {
+                var searchInput = $('.ais-search-box--input');
+                if (searchInput.length > 0) {
+                    searchInput.attr('type', 'search');
+                    clearInterval(interval);
+                }
+            },
+            100
+        )
     })();
 });

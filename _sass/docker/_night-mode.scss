@@ -43,20 +43,20 @@ body.night {
     .nav-secondary {
         background: $bg-secondary-night;
     }
-    .nav-secondary input[type=text] {
+    .nav-secondary input[type=search] {
         background: rgba(76, 76, 76, 0.47) url(/images/search.png) no-repeat;
         background-position: 10px 9px;
         color: $white;
     }
-    .nav-secondary-tabs .search-form input[type=text] {
+    .nav-secondary-tabs .search-form input[type=search] {
         background: rgba(16, 28, 41, 0.6) url(/images/search.png) no-repeat;
         background-position: 10px 9px;
     }
-    .nav-secondary-tabs .search-form input[type=text]:focus {
+    .nav-secondary-tabs .search-form input[type=search]:focus {
         background: rgba(255,255,255,0.17) url(/images/search.png) no-repeat;
         background-position: 10px 9px;
     }
-    .nav-secondary .search-form input[type=text]:focus {
+    .nav-secondary .search-form input[type=search]:focus {
         background: rgba(255, 255, 255, 0.17) url(/images/search.png) no-repeat!important;
         background-position: 10px 9px!important;
     }
@@ -167,7 +167,7 @@ body.night {
     .hljs-subst {
         color: #f5f5f5!important;
     }
-    div.autocompleteResults {
+    div#autocompleteResults {
         background: $bg-search-results-night;
         border: 1px solid $black;
         color: $white;
@@ -183,7 +183,7 @@ body.night {
         color: #b4c3d2;
         padding: 5px 0 7px 0;
     }
-    div.autocompleteResults span {
+    div#autocompleteResults span {
         color: #b7a4de;
     }
     .autocompleteTitle {

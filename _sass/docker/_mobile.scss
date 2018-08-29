@@ -4,9 +4,9 @@
 *
 */
 
-@media only screen
+@media only screen 
     and (min-width : 376px)
-    and (max-width : 1150px) {
+    and (max-width : 1150px) {  
     .nav-primary,
     .hero-text,
     .banner,
@@ -41,7 +41,7 @@
     h4 {
         font-size: 16px;
     }
-    .nav-secondary-tabs .search-form input[type=text] {
+    .nav-secondary-tabs .search-form input[type=search] {
         min-width: auto;
     }
     .nav-container,
@@ -55,9 +55,9 @@
     }
   }
 
-@media only screen
+@media only screen 
     and (min-width : 376px)
-    and (max-width : 900px) {
+    and (max-width : 900px) {  
     .sidebar {
         position: fixed;
         width: 100%;
@@ -76,8 +76,8 @@
 */
 
 /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 320px)
+@media only screen 
+  and (min-device-width: 320px) 
   and (max-device-width: 670px)  {
     .logo,
     .hero-text,
@@ -92,8 +92,8 @@
 }
 
 /* Portrait */
-@media only screen
-  and (min-device-width: 320px)
+@media only screen 
+  and (min-device-width: 320px) 
   and (max-device-width: 667px)
   and (orientation: portrait) {
     h1,
@@ -213,9 +213,9 @@
 }
 
 /* Landscape */
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 667px)
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) 
   and (orientation: landscape) {
     h1,
     h2,
@@ -285,8 +285,8 @@
 */
 
 
-@media only screen
-  and (min-device-width: 768px)
+@media only screen 
+  and (min-device-width: 768px) 
   and (max-device-width: 1110px) {
     .logo {
         margin: 12px 10px 0 10px;
@@ -317,9 +317,9 @@
 }
 
 /* Portrait */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
   and (orientation: portrait) {
     .nav-secondary input[type=search] {
         background: rgba(255, 255, 255, 0.17) url(/images/search.png) no-repeat;
@@ -328,9 +328,9 @@
 }
 
 /* Landscape */
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
   and (orientation: landscape) {
     .search-form {
         float: left;

@@ -12,18 +12,77 @@
   font-family: inherit;
 }
 
-.autocompleteResults.listResult.emptyResult {
-  display: none
-}
-
-.autocompleteResults.listResult {
-  display: block
-}
-
-.algolia-logo {
-  display: none;
-}
-
-.ais-hits--item:last-child .algolia-logo {
+div#autocompleteResults {
   display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+#autoContainer {
+
+  border: none;
+
+  .emptyResult {
+    padding: 7px 15px;
+  }
+
+  .ais-hits--item {
+
+    .autocompleteProperties {
+
+      -webkit-padding-start: 0;
+      list-style-type: none;
+      margin: 0;
+
+      p {
+        margin: 0;
+      }
+
+      .autocompleteTitle, .autocompleteDescription {
+        font-size: 1em;
+        font-weight: normal;
+      }
+
+      .autocompleteDescription {
+
+        &, * {
+          font-size: 1em;
+          color: #63676d;
+        }
+      }
+
+      .ais-Highlight {
+        box-shadow: inset 0 -2px 0 0 rgba(69,142,225,.8);
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+    }
+
+    .algolia-logo {
+      display: none;
+      font-size: 0.875em;
+    }
+
+    &:last-child .algolia-logo {
+      display: block;
+    }
+  }
+}
+
+
+#search-box {
+
+  .ais-search-box--powered-by {
+    display: none;
+  }
+
+  ais-search-box--input {
+    position: relative;
+    vertical-align: top;
+  }
 }
