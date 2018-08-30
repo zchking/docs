@@ -1,6 +1,6 @@
 ---
 title: "Overview" 
-sidebar: katalon_analytics_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/overview.html 
 redirect_from:
     - "/display/KA/Overview"

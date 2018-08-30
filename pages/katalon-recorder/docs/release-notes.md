@@ -1,6 +1,6 @@
 ---
 title: "Release Notes" 
-sidebar: katalon_recorder_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/release-notes.html 
 redirect_from:
     - "/display/KR/Release+Notes"

@@ -1,6 +1,6 @@
 ---
 title: "Upload Reports" 
-sidebar: katalon_analytics_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/upload-reports.html 
 redirect_from:
     - "/display/KA/Upload+Reports"

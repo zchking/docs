@@ -1,6 +1,6 @@
 ---
 title: "Integration with Katalon Studio" 
-sidebar: katalon_analytics_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/integration-with-katalon-studio.html 
 redirect_from:
     - "/display/KA/Integration+with+Katalon+Studio"

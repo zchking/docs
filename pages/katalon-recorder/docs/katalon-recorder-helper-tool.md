@@ -1,6 +1,6 @@
 ---
 title: "Katalon Recorder Helper Tool" 
-sidebar: katalon_recorder_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/katalon-recorder-helper-tool.html 
 redirect_from:
     - "/display/KR/Katalon+Recorder+Helper+Tool"

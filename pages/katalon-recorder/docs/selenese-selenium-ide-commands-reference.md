@@ -1,6 +1,6 @@
 ---
 title: "Selenese (Selenium IDE) Commands Reference" 
-sidebar: katalon_recorder_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/selenese-selenium-ide-commands-reference.html 
 redirect_from:
     - "/display/KR/Selenese+%28Selenium+IDE%29+Commands+Reference"

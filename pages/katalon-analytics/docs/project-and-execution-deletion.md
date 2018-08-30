@@ -1,6 +1,6 @@
 ---
 title: "Project and Execution Deletion" 
-sidebar: katalon_analytics_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-and-execution-deletion.html 
 redirect_from:
     - "/display/KA/Project+and+Execution+Deletion"
