@@ -2,7 +2,7 @@
 title: "How To Apply Data Driven By Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/apply_data_driven_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/qRS1mKP_lz4?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

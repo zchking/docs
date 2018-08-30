@@ -2,7 +2,7 @@
 title: "Configuring the Iframe in Test Object"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/configuring_iframe_test_object.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/xJZPrZ06qug?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

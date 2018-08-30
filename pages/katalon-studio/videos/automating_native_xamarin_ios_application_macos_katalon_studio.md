@@ -2,7 +2,7 @@
 title: "Automating Native Xamarin iOS application in MacOS with Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/automating_native_xamarin_ios_application_macos_katalon_studio.html
-description: ""
+description: 
 ---
 **Part A:**
 

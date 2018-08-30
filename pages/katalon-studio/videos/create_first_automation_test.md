@@ -2,7 +2,7 @@
 title: "How to create First Automation Test"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_first_automation_test.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/0COATg2BsCY?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

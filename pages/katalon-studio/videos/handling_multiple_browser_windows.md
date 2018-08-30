@@ -2,7 +2,7 @@
 title: "Handling Multiple Browser Windows"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/handling_multiple_browser_windows.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/RJRzBbbfkCQ?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

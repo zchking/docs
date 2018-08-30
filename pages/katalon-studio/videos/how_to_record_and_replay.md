@@ -2,7 +2,7 @@
 title: "How to Record and Replay"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/how_to_record_and_replay.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/zsWBND0pxjs?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

@@ -2,7 +2,7 @@
 title: "Katalon Studio 23: How to Create Environments | Execution Profiles"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_environment_profile.html
-description: ""
+description: 
 ---
 <iframe width="840" height="473" src="https://www.youtube.com/embed/fPuaDNKjNYQ?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 

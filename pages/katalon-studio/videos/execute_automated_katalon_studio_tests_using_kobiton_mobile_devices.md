@@ -2,7 +2,7 @@
 title: "Execute automated Katalon Studio tests using Kobiton mobile devices"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/execute_automated_katalon_studio_tests_using_kobiton_mobile_devices.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/oXszVaDerTE?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

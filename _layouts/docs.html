@@ -103,8 +103,8 @@
                         </div>
                         <div id="gta" class="ctrl-right hidden-xs hidden-sm">
                             <ul class="tabs">
-                                <li>
-                                    <a href="https://www.katalon.com" target="_blank">katalon.com</a>
+                                <li class="cta">
+                                    <a href="https://www.katalon.com" target="_blank">Free Download</a>
                                 </li>
                             </ul>
                         </div>
@@ -120,15 +120,15 @@
                     <main class="col-content content">
                         <section class="section">
                             <h1>{{ page.title }}</h1>
-                            <span class="reading-time" title="Estimated reading time">
-                                <span class="reading-time-label">Estimated reading time: </span>
+                            <p class="reading-time" title="Estimated reading time">
+                                <span class="reading-time-label">{{site.data.strings.reading_time}}: </span>
                                 {% assign words = content | number_of_words %}
                                 {% if words < 360 %}
                                   1 minute
                                 {% else %}
                                   {{ words | divided_by:180 }} minutes
                                 {% endif %}
-                            </span>
+                            </p>
                             {{content}}
                         </section>
                     </main>

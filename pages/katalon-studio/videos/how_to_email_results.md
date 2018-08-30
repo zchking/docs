@@ -2,7 +2,7 @@
 title: "How to Email results"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/how_to_email_results.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/AzBsIRPPbs4?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

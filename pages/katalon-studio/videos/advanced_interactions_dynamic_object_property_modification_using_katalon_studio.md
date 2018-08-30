@@ -2,7 +2,7 @@
 title: "Advanced interactions and Dynamic object property modification using Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/advanced_interactions_dynamic_object_property_modification_using_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/ApT368lbrJg?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

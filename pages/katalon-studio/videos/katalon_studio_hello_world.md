@@ -2,7 +2,7 @@
 title: "Katalon Studio Hello World"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/katalon_studio_hello_world.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/EstQc5ZE72I?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

@@ -2,7 +2,7 @@
 title: "Integration with GIT (Part-2)"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/integration_git_part_2.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/WEs6gIGEFkE?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

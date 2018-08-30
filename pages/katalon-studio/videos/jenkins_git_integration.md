@@ -2,7 +2,7 @@
 title: "Jenkins + Git Integration"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/jenkins_git_integration.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/NVJZmNcOMCw?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

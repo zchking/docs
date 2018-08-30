@@ -2,7 +2,7 @@
 title: "Test Suite Collection – How to run Test Suites in parallel"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/test_suite_collection_run_test_suites_parallel.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/A8KuASkuI6U?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

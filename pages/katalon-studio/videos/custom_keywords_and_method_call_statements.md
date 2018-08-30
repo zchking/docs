@@ -2,7 +2,7 @@
 title: "Custom Keywords and Method call statements in Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/custom_keywords_and_method_call_statements.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/2zc2x1BcRMo?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

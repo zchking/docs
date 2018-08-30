@@ -2,7 +2,7 @@
 title: "How to Install Katalon Studio?"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/how_to_install_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/Yyjvea9nMZw?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

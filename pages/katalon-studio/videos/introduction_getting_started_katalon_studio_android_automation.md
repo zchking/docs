@@ -2,7 +2,7 @@
 title: "Introduction and getting started with Katalon studio for Android Automation"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/introduction_getting_started_katalon_studio_android_automation.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/ej_xay0acDY?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

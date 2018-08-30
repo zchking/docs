@@ -2,7 +2,7 @@
 title: "Introducing Kobiton with Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/introducing_kobiton_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe width="840" height="473" src="https://www.youtube.com/embed/FVg-KxwtE_w?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 

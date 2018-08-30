@@ -2,7 +2,7 @@
 title: "Katalon WebService Training"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/katalon_webservice_training.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/_eu01D0Mzn0?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

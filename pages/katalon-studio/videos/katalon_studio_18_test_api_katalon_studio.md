@@ -2,7 +2,7 @@
 title: "Katalon Studio 18: How to test API with Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/katalon_studio_18_test_api_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe width="840" height="630" src="https://www.youtube.com/embed/Evikp4eQSGs?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 

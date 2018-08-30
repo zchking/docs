@@ -2,7 +2,7 @@
 title: "Record & playback, Data Driven and Cross browser testing with Katalon Studio for Web UI"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/record_playback_data_driven_cross_browser_testing_katalon_studio_web_ui.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/e7mqteaOu6o?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

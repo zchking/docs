@@ -2,7 +2,7 @@
 title: "iOS and Android setup on macOS"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/ios_android_setup_macos_2.html
-description: ""
+description: 
 ---
 <iframe src="https://www.youtube.com/embed/PZkaaDZMBwc?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

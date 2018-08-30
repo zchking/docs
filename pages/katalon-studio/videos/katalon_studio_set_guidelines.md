@@ -2,7 +2,7 @@
 title: "Katalon Studio Set Up Guidelines"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/katalon_studio_set_guidelines.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/q1xTVAV4558?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

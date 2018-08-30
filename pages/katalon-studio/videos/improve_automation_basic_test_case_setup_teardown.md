@@ -2,7 +2,7 @@
 title: "Improve a automation basic test case: Setup & Teardown"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/improve_automation_basic_test_case_setup_teardown.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/VyoCGbxD7gs?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

@@ -2,7 +2,7 @@
 title: "How To Create A Basic Automation Test Case By Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_basic_automation_test_case_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/8aKNOG60dcw?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

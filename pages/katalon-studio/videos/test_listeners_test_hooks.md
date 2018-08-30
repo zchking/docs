@@ -2,7 +2,7 @@
 title: "Working with Test Listeners (Test Hooks) in Katalon Studio v5.2"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/test_listeners_test_hooks.html
-description: ""
+description: 
 ---
 <iframe width="840" height="473" src="https://www.youtube.com/embed/SbUnGM7Xlkc?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 

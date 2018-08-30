@@ -2,7 +2,7 @@
 title: "How to create and run Test Suite"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_run_test_suite.html
-description: ""
+description: 
 ---
 <iframe width="840" height="473" src="https://www.youtube.com/embed/dniwCknLG4s?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 

@@ -88,3 +88,13 @@ div#autocompleteResults {
       overflow: visible;
   }
 }
+
+.tabs li.cta a {
+  background-color: #ff6c37 !important;
+  border-bottom: 4px solid #ff6c37;
+
+  &:hover {
+    background-color: #F4815B !important;
+    border-bottom-color: #ff6c37;
+  }
+}

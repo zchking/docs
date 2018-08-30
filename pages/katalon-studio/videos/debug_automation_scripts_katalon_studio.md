@@ -2,7 +2,7 @@
 title: "Debug Automation Scripts By Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/debug_automation_scripts_katalon_studio.html
-description: ""
+description: 
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/d4aUi_CDaGk?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
