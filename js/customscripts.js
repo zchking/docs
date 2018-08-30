@@ -203,8 +203,7 @@ $(function() {
             var url = '{{ site.baseurl }}' + hit.url;
             var title = hit._highlightResult.title.value;
 
-            var html = hit._highlightResult.content;
-            var content = html && html.value;
+            var content = hit._snippetResult && hit._snippetResult.content && hit._snippetResult.content.value;
             if (content) {
                 content = '<li class="autocompleteDescription">' + content + '</li>';
             } else {
