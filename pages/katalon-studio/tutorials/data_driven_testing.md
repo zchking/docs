@@ -2,7 +2,7 @@
 title: "Data-driven testing approach with Katalon Studio"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/data_driven_testing.html
-description: "Data-driven testing is a testing method using the tables of test data. Once a set of testing object under a test case is captured, testers will need to add more input values from the external data files to ensure the application can handle the most number of scenarios in the future."
+description: "Data-driven testing is a testing method using the tables of test data. This article will show you how to apply data-driven testing using Katalon Studio."
 ---
 1.  [What is Data-driven testing?](#what-is-data-driven-testing)
     *   [The Advantages of Data-driven testing](#data-driven-testing-advantages)
@@ -143,6 +143,8 @@ _Password field:  data.internallyGetValue("demo_pwd", index)\_
 
 Tutorial video is contributed by Shiva Raj
 ------------------------------------------
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O95RSICQjus" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
 Learn more:
 

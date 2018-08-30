@@ -4,7 +4,7 @@ sidebar: katalon_analytics_docs_sidebar
 permalink: katalon-analytics/docs/overview.html 
 redirect_from:
     - "/display/KA/Overview"
-    - "/x/WhtO"
+    - "/x/6RHR"
 description: 
 ---
 What is Katalon Analytics?
@@ -51,10 +51,3 @@ Katalon Analytics **official** portal: [analytics.katalon.com](http://analyti
 
 User Guide
 ----------
-
-*   [Quick Start](/display/KA/Quick+Start)
-*   [Upload Reports](/display/KA/Upload+Reports)
-*   [Access Reports](/display/KA/Access+Reports)
-*   [Project and Execution Deletion](/display/KA/Project+and+Execution+Deletion)
-*   [User Management](/display/KA/User+Management)
-*   [Integration with Katalon Studio](/display/KA/Integration+with+Katalon+Studio)

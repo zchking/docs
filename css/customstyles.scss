@@ -17,6 +17,7 @@ div#autocompleteResults {
   padding-top: 0;
   padding-bottom: 0;
   border: none;
+  width: 500px !important;
 }
 
 #autoContainer {
@@ -34,6 +35,7 @@ div#autocompleteResults {
       -webkit-padding-start: 0;
       list-style-type: none;
       margin: 0;
+      font-size: 0.875em;
 
       .autocompleteTitle, .autocompleteDescription {
         font-size: 1em;

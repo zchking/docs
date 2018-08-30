@@ -9,6 +9,9 @@ topnav:
     - title: Tutorials
       url: /katalon-studio/tutorials/quick_start.html
       parenturl: /katalon-studio/tutorials
+    - title: Videos
+      url: /katalon-studio/videos/katalon_studio_5_5_beta.html
+      parenturl: /katalon-studio/videos
     - title: FAQs
       url: /faqs/licensing.html
       parenturl: /faqs

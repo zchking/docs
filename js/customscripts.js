@@ -19,6 +19,7 @@ $(function() {
                 openClass: 'in',
             })
             .find('li.active')
+            .first()
             .each(function () {
                 var li = $(this);
                 nav.navgoco('toggle', true, li.parent().data('index'));

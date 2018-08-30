@@ -1,5 +1,5 @@
 ---
-title: "How to Handle Textbox, Checkbox and Radio Button"
+title: "How to Handle Textbox Checkbox and Radio Button"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handle_textbox_checkbox_radio_button.html
 description: "This article will help you to discover what is textbox, checkbox, radio button and how to handle them using Katalon Studio in particular scenarios."

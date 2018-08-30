@@ -4,6 +4,8 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/quick_start.html
 description: "A quick guide to set up and start your first automation test with Katalon Studio that helps you start automation testing on web and mobile in no times."
 ---
+<iframe width="560" height="349" src="https://www.youtube.com/embed/Q80JTXYIteU?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+
 **A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
 **Read full guideline [https://docs.katalon.com/x/l4Ei](/x/l4Ei)**

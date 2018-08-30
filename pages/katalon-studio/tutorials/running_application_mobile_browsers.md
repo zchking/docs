@@ -1,5 +1,5 @@
 ---
-title: "Running an Application on Mobile Browsers"
+title: "Testing Web App on Mobile Browsers"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/running_application_mobile_browsers.html
 description: "Learn how to execute Web application testing directly on a mobile device via a sample project on Chrome and Safari browser."
