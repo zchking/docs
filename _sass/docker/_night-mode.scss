@@ -34,7 +34,7 @@ body.night {
         animation: none!important;
     }
     hr {
-        border-top: 1px solid #4f6071;
+        border-top-color: #4f6071;
     }
     .hero-text h1,
     div#side-toc-title {
@@ -74,8 +74,8 @@ body.night {
     }
     .nav-secondary-tabs {
         background-color: rgba(15, 28, 42, 0.35);
-        border-top: 1px solid rgba(68, 77, 87, 0.38);
-        border-bottom: 1px solid #29343f;
+        border-top-color: rgba(68, 77, 87, 0.38);
+        border-bottom-color: #29343f;
     }
     .nav-secondary-tabs.affix {
         background: $bg-secondary-night;
@@ -85,14 +85,14 @@ body.night {
     .toc-nav li a.active {
         color: $active-sidebar-night;
         background: #0a151a;
-        border-left: 4px solid #077CBC;//add to variables
+        border-left-color: #077CBC;//add to variables
     }
     .tabs li.active a {
-        border-bottom: 4px solid #077CBC;//add to variables
+        border-bottom-color: #077CBC;//add to variables
     }
     .slider {
         background-color: #344658;
-        border: 1px solid #192837;
+        border-color: #192837;
     }
     ul {
         color: $body-text-night;
@@ -101,7 +101,7 @@ body.night {
         background: #1f3341;
     }
     table {
-        border: 1px solid #1b1a1a;
+        border-color: #1b1a1a;
         color: #cbdbe6;
     }
     table>tbody>tr:nth-of-type(even) {
@@ -111,42 +111,42 @@ body.night {
         background: #2b4252;
     }
     pre {
-        display: block;
-        padding: 9.5px;
-        margin: 0 0 10px;
-        font-size: 13px;
-        line-height: 1.42857143;
+        // display: block;
+        // padding: 9.5px;
+        // margin: 0 0 10px;
+        // font-size: 13px;
+        // line-height: 1.42857143;
         color: #f3f3f3;
-        word-break: break-all;
-        word-wrap: break-word;
+        // word-break: break-all;
+        // word-wrap: break-word;
         background-color: #0a121b !important;
-        border: 1px solid $black;
-        border-radius: 4px;
+        border-color: $black;
+        // border-radius: 4px;
     }
     code {
-        padding: 3px 7px;
+        // padding: 3px 7px;
         color: #c1f1f0 !important;
-        border-radius: 2px;
+        // border-radius: 2px;
         background: #0a121b !important;
     }
-    pre>code {
-        padding: 0px;
-    }
+    // pre>code {
+    //     padding: 0px;
+    // }
     .nav-secondary .dropdown-btn {
         color: #d0e8ff;
     }
     .outline-btn {
         background: #101c29;
-        border: 1px solid;
+        // border: 1px solid;
         border-color: #37404a;
         text-decoration: none;
-        margin: 0;
+        // margin: 0;
     }
     a.button.outline-btn {
         color: #a7e2ff;
-        float: none;
-        margin-bottom: 30px;
-        display: inline-block;
+        // float: none;
+        // margin-bottom: 30px;
+        // display: inline-block;
     }
     .component img, .component-full-icon img {
         opacity: 1;
@@ -160,7 +160,7 @@ body.night {
     .hljs-name,
     .hljs-attribute {
         color: #e3e3f2!important;
-        font-weight: normal;
+        // font-weight: normal;
     }
     .hljs-keyword,
     .hljs-selector-tag,
@@ -169,35 +169,35 @@ body.night {
     }
     div#autocompleteResults {
         background: $bg-search-results-night;
-        border: 1px solid $black;
+        border-color: $black;
         color: $white;
-        padding: 20px 0 15px 0px;
-        margin: 10px 0 0 0;
-        position: absolute;
-        width: 800px;
+        // padding: 20px 0 15px 0px;
+        // margin: 10px 0 0 0;
+        // position: absolute;
+        // width: 800px;
     }
-    ul.autocompleteList {
-        list-style: none;
-    }
+    // ul.autocompleteList {
+    //     list-style: none;
+    // }
     .autocompleteList li {
         color: #b4c3d2;
-        padding: 5px 0 7px 0;
+        // padding: 5px 0 7px 0;
     }
     div#autocompleteResults span {
         color: #b7a4de;
     }
-    .autocompleteTitle {
-        font-weight: bold;
-    }
-    .autocompleteUrl,
-    .autocompleteKeywords,
-    .autocompleteDescription {
-        line-height: normal;
-    }
+    // .autocompleteTitle {
+        // font-weight: bold;
+    // }
+    // .autocompleteUrl,
+    // .autocompleteKeywords,
+    // .autocompleteDescription {
+    //     line-height: normal;
+    // }
     span.reading-time {
-        font-style: italic;
-        font-size: 12px;
-        display: block;
+        // font-style: italic;
+        // font-size: 12px;
+        // display: block;
         color: #bfabe5;
     }
     /** for google results styles - forgive us css gods **/
@@ -232,18 +232,18 @@ body.night {
     .transparent-btn {
         background-color: rgb(0, 135, 200);
         box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-color: rgba(0, 0, 0, 0.1);
         text-shadow: 0 1px rgba(0, 0, 0, 0.2);
     }
     .footer {
         background-color: $bg-footer-night;
-        border-top: 1px solid rgb(31, 52, 66);
+        border-top-color: rgb(31, 52, 66);
     }
     .footer_links li a {
         color: #b2b2b2;
     }
     .bottom_footer {
-        border-top: 1px solid rgb(78, 93, 106);
+        border-top-color: rgb(78, 93, 106);
     }
     .footer_social_nav ul li a {
         background-color: #2f2f2f;
@@ -299,7 +299,7 @@ body.night {
     /* accordion */
 .panel {
     color: #d3d4d4;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     background-color: #24394c;
     }
     .panel-default {
@@ -311,7 +311,7 @@ body.night {
         }
     }
     .panel-body {
-        padding: 15px;
+        // padding: 15px;
         background: rgb(35, 54, 72);
         color: #bcbfc3;
     }
@@ -321,9 +321,9 @@ body.night {
     }
     .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
         color: $white;
-        cursor: default;
+        // cursor: default;
         background-color: #4e6071;
-        border: 1px solid transparent;
+        border-color: transparent;
         border-bottom-color: transparent;
     }
     .popover {
