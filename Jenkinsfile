@@ -1,8 +1,10 @@
-#!/usr/bin/env groovy
-node {
-    stage('build') {
-        steps {
-            echo "mvn --version"
+pipeline {
+    agent any
+    stages {
+        stage('build') {
+            steps {
+                echo "mvn --version"
+            }
         }
     }
 }
