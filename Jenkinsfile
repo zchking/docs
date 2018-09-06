@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker { 
             image 'jekyll/jekyll:latest'
-            args --rm --volume="/C:/D/work/docs:/srv/jekyll"
+            args '--rm --volume="/C:/D/work/docs:/srv/jekyll"'
         }
     }
     stages {
