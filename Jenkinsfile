@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo "Hi"
+                    sh 'bundle exec jekyll serve'
                 }
             }
         }
