@@ -1,12 +1,11 @@
 pipeline {
-    agent any
-
+    agent {
+        docker { image 'jekyll/jekyll' }
+    }
     stages {
         stage('Build') {
             steps {
-                script {
-                    bat 'bundle exec jekyll serve'
-                }
+                sh 'jekyll --version'
             }
         }
     }
