@@ -1,14 +1,11 @@
 pipeline {
     agent {
-        docker { 
-            image 'jekyll/jekyll' 
-            args '--rm --volume="/C:/D/work/docs:/srv/jekyll"'
-        }
+        docker { image 'node:7-alpine' }
     }
     stages {
-        stage('Build') {
+        stage('Test') {
             steps {
-                echo 'hello'
+                sh 'node --version'
             }
         }
     }
