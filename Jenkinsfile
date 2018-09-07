@@ -1,13 +1,11 @@
 pipeline {
     agent {
-        docker { 
-            image 'jekyll/jekyll:latest'
-        }
+        docker { image 'node:7-alpine' }
     }
     stages {
         stage('Test') {
             steps {
-                sh 'pwd'
+                sh 'node --version'
             }
         }
     }
