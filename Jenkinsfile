@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                jekyll build
+                sh 'jekyll build'
             }
         }
     }
