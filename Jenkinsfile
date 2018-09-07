@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'bundle --version'
+                sh 'bundle install'
             }
         }
     }
