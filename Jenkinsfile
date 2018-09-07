@@ -2,13 +2,12 @@ pipeline {
     agent {
         docker { 
             image 'jekyll/jekyll:latest'
-            args '--rm'
         }
     }
     stages {
         stage('Test') {
             steps {
-                sh 'jekyll build'
+                sh 'bundle exec jekyll build'
             }
         }
     }
