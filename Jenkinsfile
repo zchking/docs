@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'jekyll --version'
+                sh 'pwd'
             }
         }
     }
