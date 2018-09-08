@@ -4,7 +4,9 @@ pipeline {
         stage('Build Docker') {
             steps {
                 script {
-                    sh 'docker run --rm -it jekyll/jekyll jekyll build'
+                    docker.image('jekyll/jekyll').inside {
+                        sh 'bundle --version'
+                    }
                 }
             }
         }
