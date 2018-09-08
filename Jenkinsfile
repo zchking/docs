@@ -6,7 +6,7 @@ pipeline {
                 script {
                     docker.image('jekyll/jeyll').inside {
                         sh 'pwd'
-                        bundle --version
+                        sh 'bundle --version'
                     }
                 }
             }
