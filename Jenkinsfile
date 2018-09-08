@@ -4,8 +4,9 @@ pipeline {
         stage('Build Docker') {
             steps {
                 script {
-                    docker.image('node:7-alpine').inside {
-                        sh 'node --version'
+                    docker.image('jekyll/jeyll').inside {
+                        sh 'pwd'
+                        bundle --version
                     }
                 }
             }
