@@ -1,11 +1,13 @@
 pipeline {
-    agent {
-        docker { image 'jekyll/jekyll' }
-    }
+    agent any
     stages {
-        stage('Test') {
+        stage('Build Docker') {
             steps {
-                sh 'bundle install'
+                script {
+                    docker.image('node:7-alpine').inside {
+                        sh 'node --version'
+                    }
+                }
             }
         }
     }
