@@ -1,7 +1,8 @@
 pipeline {
     agent any
     stages {
-        stage('Build Docker', false) {
+        stage('Build Docker') {
+            when { branch 'master' }
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside{
