@@ -12,5 +12,16 @@ pipeline {
                 }
             }
         }
+        
+        stage('Upload S3') {
+            steps {
+                script {
+                    withAWS(region: 'ap-southeast-1', credentials: 'aws') {
+                        files = s3FindFiles(bucket:'katalon-analytics-local')
+                        echo files
+                    }
+                }
+            }
+        }
     }
 }
