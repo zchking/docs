@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build Docker') {
+        stage('Build Docker', false) {
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside{
@@ -18,7 +18,7 @@ pipeline {
                 script {
                     withAWS(region: 'ap-southeast-1', credentials: 'aws') {
                         files = s3FindFiles(bucket:'katalon-analytics-local')
-                        echo files
+                        echo files.length
                     }
                 }
             }
