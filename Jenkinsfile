@@ -4,7 +4,7 @@ pipeline {
         stage('Build Docker') {
             steps {
                 script {
-                    docker.image('jekyll/jekyll').inside {
+                    docker.image('jekyll/jekyll').inside('--volume="$PWD:/srv/jekyll"') {
                         sh 'bundle --version'
                     }
                 }
