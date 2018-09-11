@@ -23,7 +23,7 @@ Tests Explorer View
 
 The **Tests Explorer** view allows you to browse the structure of your projects and access all test artifacts quickly. Using the context menu on the view, you can create new artifacts, organize the view's items or drag and drop them to certain editor views if needed.
 
-![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3 15_38_1.png)
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-9-6 10_36_14.png)
 
 where:
 
@@ -36,7 +36,8 @@ where:
 | Checkpoints | List all [checkpoints](/display/KD/Manage+Checkpoint) of the current project |
 | Keywords | List all [custom keywords](/display/KD/Introduction+to+Custom+Keywords) of the current project |
 | Reports | List all generated [reports](/display/KD/Test+Report) of the current project |
-| Profiles | List all execution profiles of the current project |
+| Profiles | List all execution [profiles](/x/xAHR) of the current project |
+| Include | Contains [Cucumber](/x/wRDR) Features File and Step Definitions |
 
 Keywords Browser View
 ---------------------
@@ -49,8 +50,6 @@ Editors
 -------
 
 The editor is used to modify the detailed information of an object. Each test artifact has its own editor.
-
-![](../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3 15_42_1.png)
 
 ### Test Case Editor
 
@@ -99,7 +98,7 @@ General information about the test case is displayed in this tab.
 
 When you open a test object, its detailed information including properties and object identification mechanism is displayed in the Test Object editor. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
 
-![](../../images/katalon-studio/docs/toolbars-and-views/image2017-10-11 13_34_57.png)
+![](../../images/katalon-studio/docs/toolbars-and-views/image2018-9-6 10_38_21.png)
 
 ### Web Service Editor
 

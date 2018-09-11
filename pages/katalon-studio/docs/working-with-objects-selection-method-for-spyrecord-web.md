@@ -6,47 +6,44 @@ redirect_from:
     - "/x/ZxlO"
 description: 
 ---
-Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. **Enhanced **Object Properties allows users to choose objects locating method with Basic or Advanced options, select only preferred object's properties, and manually input XPath or CSS locator. 
+Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. **Enhanced **Object Properties allows users to choose objects locating method with Basic or Advanced options, select only preferred object's properties, and manually input XPath or CSS locator. 
 
 > *   Available since version 5.0
 > *   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**
 > *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 
-Basic Mode
+Xpath
+-----
+
+Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
+
+If **Xpath** option is selected, Katalon Studio will automatically generate a list of **Relative Xpath** based on your _Web Locators Setting_ to identify the element.
+
+![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5 18_57_11.png)
+
+Attributes
 ----------
 
-Katalon Studio set **Basic** as a **default** mode. If Basic mode is **selected**, Katalon Studio will automatically generate **XPath** locator **combined** with **selected** object **properties** to locate that object. 
+If _Attributes_ option is **selected**, Katalon Studio will automatically generate **XPath** locator that **combined** all **selected** object **properties** to locate that object. You can _checked/unchecked_ preferred properties in the object **properties table.**
 
-![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2017-10-16 16_39_1.png)
+![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5 18_29_36.png)
 
-Users can check/uncheck preferred properties in the object **properties table**
+CSS
+---
 
-![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2017-10-16 16_39_40.png)
+Test engineers who wish to manually input their own **CSS** locator for test objects can select CSS option. Once selected, object **properties table** will be **collapsed** and **Selector Editor** field becomes **editable**. Simply provide **CSS** locator in the _Selector Editor_ text box. 
+
+Same as Attributesoption, click on **Verify and Highlight** button to make sure Katalon Studio can locate the web objects. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with input XPath or CSS locator. If the object is **found**, it will be highlighted with the **red **border. 
+
+![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5 18_50_16.png)
+
+Once finished, click **Save** to add objects to **Object Repository** as normal.
 
 Verify and Highlight
 --------------------
 
-Katalon Studio **Object Properties** has a built-in **Verify and Highlight **feature to help users double-check if the web objects can be located. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with generated XPath locator. If the object is **found**, it will be highlighted with the **red **border. 
+Katalon Studio **Object Properties** has a built-in **Verify and Highlight **feature to help users double-check if the web objects can be located. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with generated XPath locator. If the object is **found**, it will be highlighted with the **red **border. 
 
-![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2017-10-16 16_40_30.png)
+![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5 18_30_43.png)
 
 Once finished, click **Save** to add the object to **Object Repository** as normal.
-
-Advanced Mode (XPath/CSS)
--------------------------
-
-Test engineers who wish to manually input their own **XPath** or **CSS** locator for test objects can select one of these two options. Once selected, object **properties table** will be **collapsed** and **Selector Editor** field becomes **editable**. 
-
-![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2017-10-16 16_41_25.png)
-
-Next, enter the **XPath** or **CSS** locator in the Selector Editor text box. 
-
-![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2017-10-16 16_42_14.png)
-
-Same as **Basic **mode, click on **Verify and Highlight** button to make sure Katalon Studio can locate the web objects. 
-
-Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with input XPath or CSS locator. If the object is **found**, it will be highlighted with the **red **border. 
-
-![](../../images/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2017-10-16 16_43_21.png)
-
-Once finished, click **Save** to add objects to **Object Repository** as normal.

@@ -7,6 +7,8 @@ items:
         url: /katalon-studio/docs/getting-started.html
       - title: "Installation and Setup"
         tree:
+          - title: "Katalon Studio Activation (Since 5.7)"
+            url: /katalon-studio/docs/katalon-studio-activation-since-57.html
           - title: "Before You Start"
             url: /katalon-studio/docs/before-you-start.html
           - title: "System Requirements"
@@ -77,8 +79,8 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-              - title: "Web Locators Settings"
-                url: /katalon-studio/docs/web-locators-settings.html
+              - title: "Web Locators Settings (since 5.7)"
+                url: /katalon-studio/docs/web-locators-settings-since-57.html
       - title: "Test Case"
         tree:
           - title: "Manual View"
@@ -661,6 +663,14 @@ items:
                 url: /katalon-studio/docs/upload-test-execution.html
       - title: "Katalon Analytics (Beta) Integration"
         url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+      - title: "BDD Testing Framework"
+        tree:
+          - title: "Cucumber Features File"
+            url: /katalon-studio/docs/cucumber-features-file.html
+          - title: "Step Definitions"
+            url: /katalon-studio/docs/step-definitions.html
+          - title: "Running Cucumber Features File"
+            url: /katalon-studio/docs/running-cucumber-features-file.html
       - title: "Tips and Tricks"
         tree:
           - title: "Change CSS selector of an object at runtime"
@@ -715,12 +725,16 @@ items:
             url: /katalon-studio/docs/set-cookies-for-browsers.html
       - title: "Release Notes"
         tree:
+          - title: "Version 5.7"
+            url: /katalon-studio/docs/version-57.html
           - title: "Version 5.6"
             tree:
               - title: "Version 5.6.0"
                 url: /katalon-studio/docs/version-560.html
               - title: "Version 5.6.1"
                 url: /katalon-studio/docs/version-561.html
+              - title: "Version 5.6.3"
+                url: /katalon-studio/docs/version-563.html
           - title: "Version 5.5"
             url: /katalon-studio/docs/version-55.html
           - title: "Version 5.4"

@@ -20,7 +20,7 @@ Go to [Katalon Download page](https://www.katalon.com/download/) to get Katalo
 > 
 > *   Windows 64: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Windows_64-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
 > *   Windows 32: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Windows_32-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
-> *   macOS: [https://download.katalon.com/x.x.x/Katalon_Studio.dmg](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.zip)
+> *   macOS: [https://download.katalon.com/x.x.x/Katalon_Studio.dmg](https://download.katalon.com/x.x.x/Katalon_Studio.dmg)
 > *   Linux 64: [https://download.katalon.com/x.x.x/Katalon\_Studio\_Linux_64-x.x.x.zip](https://download.katalon.com/x.x.x/Katalon_Studio_64-x.x.x.ziphttps://download.katalon.com/x.x.x/Katalon_Studio_Linux_64-x.x.x.zip)
 > 
 > Where x.x.x is the Katalon Studio version. For example, you want to download Katalon Studio 5.4.2:
@@ -44,30 +44,26 @@ In addition to Windows and macOS, Katalon Studio also provides a beta [Linux su
 Activate Katalon Studio
 -----------------------
 
-After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio. The username and password are the same as the ones you created when registering and downloading Katalon Studio from [https://www.katalon.com/](https://www.katalon.com/).  If you don't have Internet while activating Katalon Studio, request [an offline activation code](https://www.katalon.com/activation/) beforehand.
+After launching Katalon Studio, if you haven't had an account with Katalon Studio, provide your desired username and password to sign up. If you've already had an account, choose the **Sign In **option and provide your credentials. If you don't have Internet while activating Katalon Studio, request [an offline activation code](https://www.katalon.com/activation/) beforehand. For more details, refer to this [guide](/x/ERLR).
 
-![](../../images/katalon-studio/docs/getting-started/image2017-6-28 15_34_52.png)
-
-When Katalon Studio is activated, the **Quick Guide** screen is displayed to guide you through all major features. You can skip this and view the Quick Guide later from the **Help** menu.
+![](../../images/katalon-studio/docs/getting-started/image2018-8-30 14_13_37.png)
 
 Getting a Sample Project Up and Running
 ---------------------------------------
 
-When you use Katalon Studio for the first time, the Quick Guide screen is displayed to guide you through all the significant features. You can opt to skip this and refer to the guide later in the Help menu. Additionally, Katalon Studio provides sample projects for users to get familiar with the tool.
+When you use Katalon Studio for the first time, Katalon Studio provides you the option to create New Project or Sample Projects to get familiar with the tool.
 
-\- You can now choose to create a new sample project through **File > New Sample Project** and select your preferred project. Enter the name of your new project and the location to store the project data on your machine.
-
-![](../../images/katalon-studio/docs/getting-started/PXgqp7CXgWmvwQ0bZa_MILj63hQEIlcaKQ6p1K_GEI6VnOYlNI)
+\- You can also choose to create a new sample project through **File > New Sample Project** and select your preferred project. Enter the name of your new project and the location to store the project data on your machine.
 
 \- When the sample project is loaded, you can view a test case or a test suite through selecting it in the Test Explorer on the left of the UI.
 
-![](../../images/katalon-studio/docs/getting-started/6lw0IbLpeDzN_17CejmtdEWoUCFbMo3YH6pCAvvrMULWtyMlIZ)
+![](../../images/katalon-studio/docs/getting-started/Screen Shot 2018-09-06 at 2.32.06 PM.png)
 
 \-  To execute the script, simply go to the Run command on the Main toolbar.
 
-Note: You can specify the target browser to be launched by selecting from the Record/Run drop-down list.
+_Note_: You can specify the target browser to be launched by selecting from the _Run_ drop-down list.
 
-![](../../images/katalon-studio/docs/getting-started/-e5RJZMAYlg84pGRsjHlYtjxIB_p_TzHrOU8uzszJEr4DKFseW)
+![](../../images/katalon-studio/docs/getting-started/Screen Shot 2018-09-06 at 2.33.04 PM.png)
 
 Katalon Studio will provide a **Job Progress **tab to show the status of your execution as well as the **Log Viewer** to let you identify any potential problems occurred.
 
