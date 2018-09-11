@@ -17,7 +17,7 @@ pipeline {
         stage('Upload S3') {
             steps {
                 script {
-                    withAWS(region: 'ap-southeast-1', credentials: 'aws-docs-staging') {
+                    withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         files = s3FindFiles(bucket:'docs-staging.katalon.com')
                         println files.length
                     }
