@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
-                        s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'path/to/targetFolder/')
+                        s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'')
                     }
                 }
             }
