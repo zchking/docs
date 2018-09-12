@@ -30,7 +30,7 @@ pipeline {
             }
             steps {
                 script {
-                    echo $ALGOLIA_KEY
+                    echo '$ALGOLIA_KEY'
                     docker.image('jekyll/jekyll').inside {
                         sh 'bundle install'
                     }
