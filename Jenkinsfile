@@ -29,9 +29,11 @@ pipeline {
                 ALGOLIA_KEY = credentials('algolia-api-key')
             }
             steps {
-                docker.image('jekyll/jekyll').inside {
-                    sh 'bundle install'
-                    echo $ALGOLIA_KEY
+                script {
+                    docker.image('jekyll/jekyll').inside {
+                        sh 'bundle install'
+                        echo $ALGOLIA_KEY
+                    }
                 }
             }
         }
