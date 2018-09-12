@@ -25,10 +25,13 @@ pipeline {
         }
         
         stage('Index algolia') {
+            environment {
+                ALGOLIA_KEY = credentials('algolia-api-key')
+            }
             steps {
                 docker.image('jekyll/jekyll').inside {
                     sh 'bundle install'
-                    sh 'jekyll algolia'
+                    echo $ALGOLIA_KEY
                 }
             }
         }
