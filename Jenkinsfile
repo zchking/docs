@@ -26,7 +26,7 @@ pipeline {
         
         stage('Index algolia') {
             environment {
-                ALGOLIA_KEY = credentials('algolia-api-key')
+                ALGOLIA_API_KEY = credentials('algolia-api-key')
             }
             steps {
                 script {
