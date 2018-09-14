@@ -13,7 +13,6 @@ pipeline {
         }
         
         stage('Upload S3') {
-            when { branch 'master' }
             steps {
                 script {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
@@ -27,6 +26,7 @@ pipeline {
             environment {
                 ALGOLIA_API_KEY = credentials('algolia-api-key')
             }
+            when { branch 'master' }
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside {
