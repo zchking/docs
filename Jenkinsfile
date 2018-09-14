@@ -2,6 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Build Docker') {
+            when { branch 'staging' }
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside {
@@ -13,6 +14,7 @@ pipeline {
         }
         
         stage('Upload S3') {
+            when { branch 'staging' }
             steps {
                 script {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
