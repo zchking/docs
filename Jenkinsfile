@@ -1,18 +1,20 @@
 pipeline {
+
     agent any
+
     stages {
         stage('Build Docker') {
             when { branch 'staging' }
             steps {
                 script {
-                    docker.image('jekyll/jekyll').inside {
-                        sh 'bundle install'                        
+                    docker.image('jekyll/jekyll').withRun('-v="$PWD:/srv/jekyll"').inside {
+                        sh 'bundle install'
                         sh 'jekyll build'
                     }
                 }
             }
         }
-        
+
         stage('Upload S3') {
             when { branch 'staging' }
             steps {
@@ -23,7 +25,7 @@ pipeline {
                 }
             }
         }
-        
+
         stage('Index algolia') {
             environment {
                 ALGOLIA_API_KEY = credentials('algolia-api-key')
@@ -31,9 +33,9 @@ pipeline {
             when { branch 'master' }
             steps {
                 script {
-                    docker.image('jekyll/jekyll').inside {
-                        sh 'bundle install'                        
-                        sh 'jekyll algolia'
+                    docker.image('jekyll/jekyll').withRun('-v="$PWD:/srv/jekyll"').inside {
+                        sh 'bundle install'
+                        sh 'rm -rf _site && jekyll algolia'
                     }
                 }
             }
