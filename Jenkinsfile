@@ -3,7 +3,7 @@ pipeline {
     agent {
         docker {
             image 'jekyll/jekyll'
-            args '-v="$PWD:/srv/jekyll -v="~/.katalon_docs_bundle:/usr/local/bundle"'
+            args '-v="$PWD:/srv/jekyll -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"'
         }
     }
 
