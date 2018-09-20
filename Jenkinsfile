@@ -3,6 +3,13 @@ pipeline {
     agent any
 
     stages {
+
+        stage('Clean') {
+            steps {
+                sh 'rm -rf _site'
+            }
+        }
+
         stage('Build Docker') {
             when { branch 'staging' }
             steps {
@@ -36,7 +43,6 @@ pipeline {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll"') {
                         sh 'bundle install'
-                        sh 'rm -rf _site'
                         sh 'jekyll algolia'
                     }
                 }
