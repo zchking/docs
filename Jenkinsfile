@@ -19,14 +19,6 @@ pipeline {
                         sh 'jekyll build'
                         sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
-                }
-            }
-        }
-
-        stage('Upload S3') {
-            when { branch 'staging' }
-            steps {
-                script {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'')
                     }
