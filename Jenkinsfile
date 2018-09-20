@@ -7,7 +7,7 @@ pipeline {
             when { branch 'staging' }
             steps {
                 script {
-                    docker.image('jekyll/jekyll').withRun('-v="$PWD:/srv/jekyll"').inside {
+                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll"') {
                         sh 'bundle install'
                         sh 'jekyll build'
                     }
@@ -33,7 +33,7 @@ pipeline {
             when { branch 'master' }
             steps {
                 script {
-                    docker.image('jekyll/jekyll').withRun('-v="$PWD:/srv/jekyll"').inside {
+                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll"') {
                         sh 'bundle install'
                         sh 'rm -rf _site && jekyll algolia'
                     }
