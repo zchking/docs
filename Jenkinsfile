@@ -1,11 +1,6 @@
 pipeline {
 
-    agent {
-        docker {
-            image 'jekyll/jekyll'
-            args '-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"'
-        }
-    }
+    agent any
 
     stages {
 
@@ -15,18 +10,21 @@ pipeline {
             }
         }
 
-        stage('Build Staging') {
+        stage('Build') {
             when { branch 'staging' }
             steps {
-                sh 'bundle update'
-                sh 'jekyll build'
-                sh 'mv _site/robots-staging.txt _site/robots.txt'
+                script {
+                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
+                        sh 'bundle update'
+                        sh 'jekyll build'
+                        sh 'mv _site/robots-staging.txt _site/robots.txt'
+                    }
+                }
             }
         }
 
-        stage('Deploy Staging') {
+        stage('Upload S3') {
             when { branch 'staging' }
-            agent any
             steps {
                 script {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
@@ -36,14 +34,18 @@ pipeline {
             }
         }
 
-        stage('Index Production') {
+        stage('Index') {
             when { branch 'master' }
             environment {
                 ALGOLIA_API_KEY = credentials('algolia-api-key')
             }
             steps {
-                sh 'bundle update'
-                sh 'jekyll algolia'
+                script {
+                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
+                        sh 'bundle update'
+                        sh 'jekyll algolia'
+                    }
+                }
             }
         }
     }
