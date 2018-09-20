@@ -10,6 +10,7 @@ pipeline {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll"') {
                         sh 'bundle install'
                         sh 'jekyll build'
+                        sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
                 }
             }
@@ -35,7 +36,8 @@ pipeline {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll"') {
                         sh 'bundle install'
-                        sh 'rm -rf _site && jekyll algolia'
+                        sh 'rm -rf _site'
+                        sh 'jekyll algolia'
                     }
                 }
             }
