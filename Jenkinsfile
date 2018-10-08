@@ -11,7 +11,11 @@ pipeline {
         }
 
         stage('Build') {
-            when { branch 'staging' }
+            when {
+                not {
+                    branch 'master'
+                }
+            }
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
