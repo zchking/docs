@@ -17,11 +17,11 @@ Test Listeners can be treated the same as other test artifacts, which means you 
 
 **Right click** on Test Listeners in **Tests Explorer**. Select **New** \> **New Test Listener**.
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_3.png)
+![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png)
 
 When creating a new test listener, you can see there are 4 options in **New Test Listener** dialog:
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_38.png)
+![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A38.png)
 
 | Generate sample Before Test Case method | A sample listener will be generated before every test case starts. |
 | --- | --- |
@@ -85,7 +85,7 @@ Visualized Workflow
 
 To not get confused with [setUp and tearDown](/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27 12_33_20.png)
+![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27-123A333A20.png)
 
 ### Example
 

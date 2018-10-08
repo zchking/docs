@@ -15,7 +15,7 @@ description:
 There will be cases you want to use additional desired capabilities for Kobiton devices, such as using 'appWaitActivity' capability to troubleshoot issue related to starting an application (check it out [here](/display/KD/Troubleshooting+automated+mobile+testing)). The tips below can help you to overcome this issue and finding a workaround solution. 
 
 1.  [Grab desired capabilities](https://docs.kobiton.com/automation-testing/automation-testing-with-kobiton/) generated from Kobiton portal of the device you want to use and paste it to your test script.  
-    ![](../../images/katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices/Screen Shot 2018-07-05 at 11.40.52.png)  
+    ![](../../images/katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices/Screen-Shot-2018-07-05-at-11.40.52.png)  
       
     
 2.  Insert '**app**' capability and pass in Kobiton application id for your device, e.g.,

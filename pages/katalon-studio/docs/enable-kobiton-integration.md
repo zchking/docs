@@ -11,10 +11,10 @@ Enable Kobiton Integration
 --------------------------
 
 1.  Open Kobiton integration settings from the main menu at **Windows > Katalon Studio Preferences > Katalon > Kobiton**. Check on the **Enable Kobiton Integration** checkbox.  
-    ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29 16_53_33.png)  
+    ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A533A33.png)  
     
 2.  Enter your Kobiton account into the **Authentication** form and click **Connect**. Katalon Studio will retrieve information for Kobiton integration automatically.  
-    ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29 16_54_3.png)  
+    ![](../../images/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A543A3.png)  
     where:
     
     | Field | Description |

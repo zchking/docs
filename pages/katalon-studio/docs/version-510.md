@@ -24,10 +24,10 @@ With these upgrades, users will be able to smoothly execute automation scripts w
 
 Sharing Katalon Studio test execution report with team members just got easier. Email setting is enhanced in Version 5.1.0 to support **PDF** test execution **reports** as email **attachment**.
 
-![](../../images/katalon-studio/docs/version-510/image2017-11-14 15_42_45.png)
+![](../../images/katalon-studio/docs/version-510/image2017-11-14-153A423A45.png)
 
 #### Execution
 
 Improved **Execution Settings** for users conveniences by combining settings in Katalon Studio Preferences and Project Settings
 
-![](../../images/katalon-studio/docs/version-510/image2017-11-14 15_37_52.png)![](../../images/katalon-studio/docs/version-510/image2017-11-14 15_38_8.png)
+![](../../images/katalon-studio/docs/version-510/image2017-11-14-153A373A52.png)![](../../images/katalon-studio/docs/version-510/image2017-11-14-153A383A8.png)

@@ -27,7 +27,7 @@ Example: You want to verify if the option 1 is selected in the list
 
 Manual: 
 
-![](../../images/katalon-studio/docs/webui-verify-option-selected-by-index/image2016-8-15 19_28_13.png)
+![](../../images/katalon-studio/docs/webui-verify-option-selected-by-index/image2016-8-15-193A283A13.png)
 
 Script:
 

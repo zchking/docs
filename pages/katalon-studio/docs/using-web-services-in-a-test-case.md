@@ -13,12 +13,12 @@ In Manual View
 Follow the steps below in order to use web service object in **Manual** view:
 
 1.  Open a test case in **Manual** view, then select the option to add a **Web Service Keyword** from command toolbar.  
-    ![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2017-6-30 20_49_48.png)  
+    ![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2017-6-30-203A493A48.png)  
       
     
 2.  A Web Service step is added to the test case.   
     To send a request to Web Service, you need to use **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword. Select the **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword now.  
-    ![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2018-8-23 16_58_44.png)  
+    ![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2018-8-23-163A583A44.png)  
       
     
 3.  Double click on object cell to specify the web service object to **[Send Request](/display/KD/%5BWS%5D+Send+Request)**.
@@ -28,7 +28,7 @@ Follow the steps below in order to use web service object in **Manual** view:
     > When you modify the variables of a Web Service Test Object in a test case, the values will ONLY apply to that particular test case. If you reuse that Test Object in another test case, Katalon Studio will get the original values that were defined in the Test Object view
     
       
-    ![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2018-8-23 16_35_40.png)  
+    ![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2018-8-23-163A353A40.png)  
       
     
 4.  The output of **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword could be validated if needed using different **[Verify...](/display/KD/Web+Service)** keywords depending on your situation.  
@@ -50,7 +50,7 @@ WS.verifyElementPropertyValue(response, <Element Locator>, <expected value>)
 
 For example:
 
-![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2017-2-28 15_20_11.png)
+![](../../images/katalon-studio/docs/using-web-services-in-a-test-case/image2017-2-28-153A203A11.png)
 
 The following API docs may prove useful when working with web service objects:
 

@@ -12,7 +12,7 @@ General Settings
 
 You can receive Katalon Studio notifications for Slack by enabling Slack Integration. This setting is available at **Window > Katalon Studio Preferences > Katalon > Team Collaboration**.
 
-![](../../images/katalon-studio/docs/slack-integration/image2017-6-29 16_57_34.png)
+![](../../images/katalon-studio/docs/slack-integration/image2017-6-29-163A573A34.png)
 
 1.  Check on the **Using Slack** checkbox. The entire screen will be changed to editable mode. Where:
     
@@ -50,7 +50,7 @@ Follow the steps below to obtain the Slack authentication token:
 1.  Click on OAuth & Permissions on the left menu to get the Token and define Scopes to the chat bot. An authentication token will be generated. For example:
     
 
-![](../../images/katalon-studio/docs/slack-integration/Screen Shot 2018-08-06 at 10.50.04 AM.png)
+![](../../images/katalon-studio/docs/slack-integration/Screen-Shot-2018-08-06-at-10.50.04-AM.png)
 
 1.  Select the desired Scopes for the app. Once finished, copy the OAuth Access Token to Katalon Studio Slack integration setting.
     
@@ -60,7 +60,7 @@ Follow the steps below to obtain the Slack authentication token:
 1.  Click Test Connection in Katalon Studio
     
 
-![](../../images/katalon-studio/docs/slack-integration/Screen Shot 2018-08-06 at 1.07.16 PM.png)
+![](../../images/katalon-studio/docs/slack-integration/Screen-Shot-2018-08-06-at-1.07.16-PM.png)
 
 Verify posted messages in Slack
 -------------------------------

@@ -60,7 +60,7 @@ Verifying text and objects within iframes can be a challenge. For example, even 
 
 3\. As you save the captured object to Katalon Studio, the iframe is also included as the object's parent element. This is illustrated in the following screenshot (Note that you can uncheck the option to use parent iframe if needed):
 
-![save the captured object to Katalon Studio](../../images/katalon-studio/tutorials/handling_iframe_issue/object%E2%80%99s-parent-element..png)
+![save the captured object to Katalon Studio](../../images/katalon-studio/tutorials/handling_iframe_issue/objects-parent-element..png)
 
 4\. Given the situation where you opt not to specify the iframe parent for an element, in order to interact with the element, you need to use the keyword [Switch To Frame](/display/KD/%5BWebUI%5D+Switch+To+Frame) to have Katalon focus on the parent iframe before being able to interact with the element.
 

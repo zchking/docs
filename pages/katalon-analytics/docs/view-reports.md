@@ -22,7 +22,7 @@ View Execution Detail Report
 
 Click on the **ID** of Execution to view the detail report. Katalon Analytics will display following details about that report including** Summary**, **All Failed Tests**, **Folders**, **All Tests**
 
-**![](../../images/katalon-analytics/docs/view-reports/Execution 11   Katalon Analytics.png)  
+**![](../../images/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)  
 **
 
 ### Summary Dashboard
@@ -75,7 +75,7 @@ To **view detail** of a failed test case, click on the **ID**. Once clicked o
 
 Click on **View History** button, users can also view all the iteration execution of a single test case. 
 
-![](../../images/katalon-analytics/docs/view-reports/image2018-6-19 14_33_0.png)
+![](../../images/katalon-analytics/docs/view-reports/image2018-6-19-143A333A0.png)
 
 | Performance | The performance of test case through iteration run. The duration of each iteration also shown |
 | --- | --- |

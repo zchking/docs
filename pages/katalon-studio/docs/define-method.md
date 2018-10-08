@@ -13,11 +13,11 @@ Define a method in Manual view
 ------------------------------
 
 1.  Open a test case in **Manual** view, then select to add **Method** from command toolbar.  
-    ![](../../images/katalon-studio/docs/define-method/image2017-6-30 20_45_48.png)  
+    ![](../../images/katalon-studio/docs/define-method/image2017-6-30-203A453A48.png)  
       
     
 2.  The **Method builder** dialog is displayed.   
-    ![](../../images/katalon-studio/docs/define-method/image2017-2-10 15_48_9.png)  
+    ![](../../images/katalon-studio/docs/define-method/image2017-2-10-153A483A9.png)  
     Specify the required information for your method as following:
     
     <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>The name of the method.</td></tr><tr><td>Return type</td><td><p>The object type that this method will return after its execution.</p></td></tr><tr><td>Setup, Teardown options</td><td>Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to <a href="#DefineMethod-SetUp()andTearDown()inManualview">SetUp() and TearDown() in Manual view</a> for more details.</td></tr><tr><td>Parameter list</td><td><p>Any parameter needed to pass into the method.</p><p>By clicking on the <strong>Insert</strong> button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.</p></td></tr></tbody></table>
@@ -25,7 +25,7 @@ Define a method in Manual view
     Click **OK** after configuring the method details.
     
 3.  A test step representing the recently defined method is added to the test case. You can switch to **Script** view to [define content for the method](/display/KD/Define+method#Definemethod-DefineamethodinScriptingview).  
-    ![](../../images/katalon-studio/docs/define-method/image2017-2-28 14_55_16.png)  
+    ![](../../images/katalon-studio/docs/define-method/image2017-2-28-143A553A16.png)  
       
     
 4.  Save the test case when you're done.
@@ -68,4 +68,4 @@ You can declare a method as setup() or teardown() method using the appropriated 
 
 For example:
 
-![](../../images/katalon-studio/docs/define-method/image2017-2-28 15_10_1.png)
+![](../../images/katalon-studio/docs/define-method/image2017-2-28-153A103A1.png)

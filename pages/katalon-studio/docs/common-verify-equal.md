@@ -32,7 +32,7 @@ Example 
 You want to verify if two given numbers are equal.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/common-verify-equal/image2017-3-3 17_10_11.png)
+    ![](../../images/katalon-studio/docs/common-verify-equal/image2017-3-3-173A103A11.png)
 *   Script view 
     
     ```groovy

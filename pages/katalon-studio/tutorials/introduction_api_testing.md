@@ -24,14 +24,14 @@ Commonly, applications have three separate layers or tiers including Presentatio
 
 API Testing is performed at the most critical layer, the Business Layer, where business logic processing is carried out, and all transactions between User Interface and Database happen.
 
-![](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-9%402x.png)
+![](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-9402x.png)
 
 Why do we need to perform API testing?
 --------------------------------------
 
 The figure below shows three different layers of testing called [the test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) initially coined by Mike Cohn in his book Succeeding with Agile. It has layers representing different types of testing. Despite its being overly simplistic, it offers us a general rule of thumb: it suggests how much testing we should focus on at each layer. As such, API and services tests in the second layer is an important testing activity that we should focus on.
 
-![Why we need perform API testing](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-10%402x.png)
+![Why we need perform API testing](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-10402x.png)
 
 Unit/component tests: This lowest level of testing brings the highest value and ROI. It is mainly performed by developers. The unit/component tests can attain between 70% and 80% of code coverage and require as much effort.
 

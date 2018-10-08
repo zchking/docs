@@ -46,7 +46,7 @@ Activate Katalon Studio
 
 After launching Katalon Studio, if you haven't had an account with Katalon Studio, provide your desired username and password to sign up. If you've already had an account, choose the **Sign In **option and provide your credentials. If you don't have Internet while activating Katalon Studio, request [an offline activation code](https://www.katalon.com/activation/) beforehand. For more details, refer to this [guide](/x/ERLR).
 
-![](../../images/katalon-studio/docs/getting-started/image2018-8-30 14_13_37.png)
+![](../../images/katalon-studio/docs/getting-started/image2018-8-30-143A133A37.png)
 
 Getting a Sample Project Up and Running
 ---------------------------------------
@@ -57,13 +57,13 @@ When you use Katalon Studio for the first time, Katalon Studio provides you the 
 
 \- When the sample project is loaded, you can view a test case or a test suite through selecting it in the Test Explorer on the left of the UI.
 
-![](../../images/katalon-studio/docs/getting-started/Screen Shot 2018-09-06 at 2.32.06 PM.png)
+![](../../images/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.32.06-PM.png)
 
 \-  To execute the script, simply go to the Run command on the Main toolbar.
 
 _Note_: You can specify the target browser to be launched by selecting from the _Run_ drop-down list.
 
-![](../../images/katalon-studio/docs/getting-started/Screen Shot 2018-09-06 at 2.33.04 PM.png)
+![](../../images/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.33.04-PM.png)
 
 Katalon Studio will provide a **Job Progress **tab to show the status of your execution as well as the **Log Viewer** to let you identify any potential problems occurred.
 

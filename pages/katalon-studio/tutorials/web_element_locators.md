@@ -146,7 +146,7 @@ Use the 'placeholder' attribute in an XPath to locate the textbox as
 *   *   Notes
         *   Pay attention to the 'placeholder' attribute. It may be dynamic as well. The Search bar of Airbnb's website is an example:
 
-![Search-bar-of-Airbnb's](../../images/katalon-studio/tutorials/web_element_locators/Search-bar-of-Airbnb%E2%80%99s.png)
+![Search-bar-of-Airbnb's](../../images/katalon-studio/tutorials/web_element_locators/Search-bar-of-Airbnbs.png)
 
 In this case, use Tag or texts next to the textbox.
 
@@ -218,7 +218,7 @@ A Select (or Drop-down list) allows you select an item from a list of defined it
 
 A hyperlink is a link on a webpage that usually receives the 'click' action. A hyperlink is displayed as a text with or without an underline, in a different color. Hence, the a hyperlink's locator is very similar to that of a text or label—except that the 'a' tag is used. If a hyperlink does not include text or its URL is more stable than its text, you should use the 'href' attribute.
 
-![hyperlink's-locator](../../images/katalon-studio/tutorials/web_element_locators/hyperlink%E2%80%99s-locator.png)
+![hyperlink's-locator](../../images/katalon-studio/tutorials/web_element_locators/hyperlinks-locator.png)
 
 ```groovy
 <a accesskey="`" class="aui-button aui-button-link cancel" href="/secure/ForgotLoginDetails.jspa" title="Press Ctrl+Alt+` to cancel">Can't access your account?</a>

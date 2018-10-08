@@ -17,7 +17,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ```
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen Shot 2018-07-17 at 16.38.57.png)
+![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-16.38.57.png)
 
 2\. To disable notification bars : [--disable-infobars](https://peter.sh/experiments/chromium-command-line-switches/#disable-infobars)
 
@@ -26,7 +26,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ```
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen Shot 2018-07-17 at 17.03.42.png)  
+![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-17.03.42.png)  
   
 
 3\. To start Chrome in incognito (private) mode : [--incognito](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
@@ -36,6 +36,6 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ```
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen Shot 2018-07-18 at 10.06.27.png)
+![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-18-at-10.06.27.png)
 
 > Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)

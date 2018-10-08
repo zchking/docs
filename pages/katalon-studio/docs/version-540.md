@@ -18,7 +18,7 @@ Fully support **SOAP** and **REST API** automation, the enhanced API component e
 
 Katalon Studio users will have more capabilities to improve the API automation activities includes **Query Parameters** for **REST** request URL, support various **HTTP Body** message types and common information for **HTTP Header**, display more details in **Response** such as **Status**, **Elapsed** time, and package **Size**, and more.
 
-![](../../images/katalon-studio/docs/version-540/image2018-4-9 17_1_52.png)
+![](../../images/katalon-studio/docs/version-540/image2018-4-9-173A13A52.png)
 
 Test Design 
 ------------
@@ -27,7 +27,7 @@ Test Design 
 
 Privacy and Security are crucial than ever to the software industry. **Text encryption** feature is introduced via the built-in "**[setEncryptedText](/x/6AHR)**" keyword. It allows users to encrypt any sensitive text right in the test case and capable to decrypt on-the-fly at runtime. Thus, the project team can collaborate and share test artifacts among members and stakeholder without any security concerns.
 
-![](../../images/katalon-studio/docs/version-540/image2018-4-9 16_42_34.png)
+![](../../images/katalon-studio/docs/version-540/image2018-4-9-163A423A34.png)
 
   
 
@@ -40,7 +40,7 @@ Test Execution
 
 Test execution is more versatile in Katalon Studio v5.4. Automation tests can be executed dynamically by configurable **profiles**, defined by a combination of multiple attributes (environments, test data, platforms). **Execution profiles** enable Functional and API test execution integrated into the CI pipeline regardless of the test requirement complexity to meet the rapid demand of Agile software project.
 
-![](../../images/katalon-studio/docs/version-540/image2018-4-9 16_43_45.png)
+![](../../images/katalon-studio/docs/version-540/image2018-4-9-163A433A45.png)
 
 Keywords
 --------
@@ -49,7 +49,7 @@ Keywords
 
 Adding the options to generate sample template when users create new custom keywords, the output can be selected as web, mobile or API custom keyword.
 
-![](../../images/katalon-studio/docs/version-540/image2018-4-9 17_15_40.png)
+![](../../images/katalon-studio/docs/version-540/image2018-4-9-173A153A40.png)
 
 Auto-update
 -----------

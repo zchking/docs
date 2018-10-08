@@ -32,7 +32,7 @@ Example 
 You want to verify if the current device is in landscape mode.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-verify-is-landscape/image2017-3-3 15_10_59.png)
+    ![](../../images/katalon-studio/docs/mobile-verify-is-landscape/image2017-3-3-153A103A59.png)
 *   Script view 
     
     ```groovy

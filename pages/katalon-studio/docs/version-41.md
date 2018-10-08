@@ -14,13 +14,13 @@ New Features
 
 Katalon Studio now provides Kobiton users with option to leverage their devices in Kobiton Favorited List for mobile execution. Kobiton is a clould based service for mobile testing. You can register new account for free [here](https://portal-test.kobiton.com/login).
 
-![](../../images/katalon-studio/docs/version-41/image2016-10-3 15_48_30.png)
+![](../../images/katalon-studio/docs/version-41/image2016-10-3-153A483A30.png)
 
 ### New Version Notification
 
 Users will be informed about any **new version** when opening Katalon Studio. You can change this notification settings in **Settings -> Preferences -> Katalon.**
 
-![](../../images/katalon-studio/docs/version-41/image2016-10-3 15_39_56.png)
+![](../../images/katalon-studio/docs/version-41/image2016-10-3-153A393A56.png)
 
 Improvements
 ------------
@@ -29,22 +29,22 @@ Improvements
 
 1.  Replace test artifacts and toolbar icons.
     
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 15_55_41.png)  
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-153A553A41.png)  
       
     
 2.  Update Dialog icons.
     
     | Infomation |  |
     | --- | --- |
-    | Error | ![](../../images/katalon-studio/docs/version-41/image2016-10-3 15_59_52.png) |
-    | Warning | ![](../../images/katalon-studio/docs/version-41/image2016-10-3 16_0_53.png) |
+    | Error | ![](../../images/katalon-studio/docs/version-41/image2016-10-3-153A593A52.png) |
+    | Warning | ![](../../images/katalon-studio/docs/version-41/image2016-10-3-163A03A53.png) |
     
 3.  Rename 'Mobile Object Inspector' into 'Mobile Object Spy' Dialog  
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 11_35_10.png)  
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-113A353A10.png)  
       
     
 4.  Auto wraps text in 'Message' field of Log Viewer under Tree View  
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 14_13_26.png)  
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-143A133A26.png)  
       
     
 5.  Automatically detect and install SafariDriver on macOS if it's not installed
@@ -66,11 +66,11 @@ Improvements
 *   Disable: Ctrl-D
 *   Enable: Ctrl-E  
       
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 12_40_8.png)
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-123A403A8.png)
 
 2\. Change default scripting font to be '**Courier New**' for both Windows and macOS
 
-![](../../images/katalon-studio/docs/version-41/image2016-10-2 16_45_23.png)
+![](../../images/katalon-studio/docs/version-41/image2016-10-2-163A453A23.png)
 
 ### Test Suite Collection
 
@@ -81,26 +81,26 @@ Improvements
 *   Move up: Ctrl + Up Arrow
 *   Move down: Ctrl + Down Arrow
 *   Execute: Ctrl + E  
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 12_40_34.png)  
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-123A403A34.png)  
       
     2\. Display warning message when executing an empty Test Suite Collection  
       
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 17_8_45.png)  
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-173A83A45.png)  
       
     3\. Support option for parallel execution in test suite collection. Default option for execution settings will be 'Sequential' where Test Suites will be run in order.  
       
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 14_14_23.png)
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-143A143A23.png)
 
 ### Record/Spy
 
 1.  Automatically select all captured objects in 'Add Element to Object Repository' dialog  
       
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 13_13_38.png)  
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-133A133A38.png)  
       
     
 2.  Display details regarding XPath of focused elements when recording Test Case  
       
-    ![](../../images/katalon-studio/docs/version-41/image2016-10-3 12_42_55.png)
+    ![](../../images/katalon-studio/docs/version-41/image2016-10-3-123A423A55.png)
 
 Customer Support
 ----------------

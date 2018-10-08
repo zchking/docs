@@ -17,15 +17,15 @@ Delete Projects
 
 Click on the delete button next to the project name, a confirmation dialogue will appear.
 
-![](../../images/katalon-analytics/docs/project-and-execution-deletion/image2018-6-18 15_47_58.png)
+![](../../images/katalon-analytics/docs/project-and-execution-deletion/image2018-6-18-153A473A58.png)
 
 You will have to input your **Project ID** to confirm your deletion
 
-![](../../images/katalon-analytics/docs/project-and-execution-deletion/Screen Shot 2018-06-25 at 2.05.06 PM.png)
+![](../../images/katalon-analytics/docs/project-and-execution-deletion/Screen-Shot-2018-06-25-at-2.05.06-PM.png)
 
 Delete Executions
 -----------------
 
 Similar to Delete Project, in the execution table, click on the **Delete** button and confirm the ID to delete.
 
-![](../../images/katalon-analytics/docs/project-and-execution-deletion/image2018-7-5 17_1_55.png)
+![](../../images/katalon-analytics/docs/project-and-execution-deletion/image2018-7-5-173A13A55.png)

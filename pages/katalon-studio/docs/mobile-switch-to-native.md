@@ -25,7 +25,7 @@ Example 
 You want to switch the current device driver to native context.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-switch-to-native/image2017-3-3 14_43_55.png)
+    ![](../../images/katalon-studio/docs/mobile-switch-to-native/image2017-3-3-143A433A55.png)
 *   Script view 
     
     ```groovy

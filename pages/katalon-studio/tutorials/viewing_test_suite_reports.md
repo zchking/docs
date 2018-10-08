@@ -63,7 +63,7 @@ Test Case's Log
 ### Test Log Tab
 
 *   Details of the executed steps and their status are displayed in this tab.  
-    ![Details of the executed steps](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Test-Case%E2%80%99s-Log.png)
+    ![Details of the executed steps](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Test-Cases-Log.png)
 
 Detail of the items:
 

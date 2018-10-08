@@ -15,7 +15,7 @@ Activating with Internet Connection
 
 Simply provide your Katalon account to activate Katalon Studio. 
 
-![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30 14_14_24.png)
+![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A143A24.png)
 
 ### In-app Registration
 
@@ -23,14 +23,14 @@ If you have not registered a Katalon account yet, Katalon Studio allows you to s
 
 Once you have signed up successfully, Katalon Studio will automatically be activated. 
 
-![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30 14_13_37.png)
+![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A133A37.png)
 
 Configuring Proxy for Activation
 --------------------------------
 
 If you are behind a **Proxy**, you will need to config the proxy setting before activating Katalon Studio. Click on **Config Proxy** on the Activation dialog, the Proxy Settings will be displayed as below.
 
-![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30 14_15_49.png)
+![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A153A49.png)
 
 Activating without Internet Connection
 --------------------------------------
@@ -44,7 +44,7 @@ If there is no Internet connection available, Katalon Studio allows you to activ
 3.  Access [https://www.katalon.com/activation](https://www.katalon.com/activation) to request the Activation Code using the copied Request Code.
 4.  Copy and Paste the generated Activation Code to activate Katalon Studio.
 
-![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30 14_15_11.png)
+![](../../images/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A153A11.png)
 
 Troubleshooting Common Problems with Activation
 -----------------------------------------------

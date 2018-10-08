@@ -14,7 +14,7 @@ New Features
 
 Bugs can be submitted directly fromKatalonStudio failed test results using embedded native JIRA interface. Teststeps,captured screenshots and logs will be attached automatically to the JIRA ticket. Failed execution results can also be created as sub-task or associated with an existing JIRA ID. Ticket status' synced back toKatalonStudio providing necessary information for validation.  
 
-![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_9_57.png)
+![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A93A57.png)
 
 ### Undo Actions
 
@@ -25,14 +25,14 @@ Support Undo/Redo actions (within 20 steps) for following objects:
 3.  Test Data
 4.  Checkpoint
 
-![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_10_53.png)  
+![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A103A53.png)  
   
 
 ### Headless execution
 
 This new option is available for web automation execution without launching the browser interface which increases execution performance and time.
 
-![](../../images/katalon-studio/docs/version-42/image2016-11-2 16_11_37.png)
+![](../../images/katalon-studio/docs/version-42/image2016-11-2-163A113A37.png)
 
 > The following keywords are not supported with headless execution
 > 
@@ -53,24 +53,24 @@ Improvements
 ### Test Project
 
 1.  Include 'JRE' settings on Preferences. Users can change to other JRE version if needed.  
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_15_42.png)
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A153A42.png)
 2.  Add option in context menu of editors (Test Case, Test Suite, Test Suite Collection) to quickly navigate to selected test artifacts.  
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_19_24.png)  
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A193A24.png)  
       
     
 
 ### Test Case
 
 1.  Support defining [closure](http://groovy-lang.org/closures.html) syntax of Groovy in test case's manual.  
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_24_9.png)  
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A243A9.png)  
       
     
 2.   Links to Javadoc for keywords in manual editing mode.   
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_24_45.png)  
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A243A45.png)  
       
     
 3.  Support drag and drop test objects to 'Object' field of test case  
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-4 14_23_23.png)  
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-4-143A233A23.png)  
       
     
 
@@ -82,15 +82,15 @@ Improvements
     2.  iOS
     3.  Remote Web Server
     
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_32_35.png)  
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A323A35.png)  
       
     
 2.  Add 'Custom' configuration list on 'Select Environment' dialog to execute using defined custom configuration.  
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_34_38.png)  
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A343A38.png)  
       
     
 3.  Support drag and drop Test Suite to Test Suite Collection  
-    ![](../../images/katalon-studio/docs/version-42/image2016-11-1 18_36_24.png)
+    ![](../../images/katalon-studio/docs/version-42/image2016-11-1-183A363A24.png)
 
 Known Issues
 ------------

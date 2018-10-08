@@ -14,7 +14,7 @@ Katalon Automation Recorder main UI contains 4 sections as follow
 *   Test Case Details View
 *   Log/Reference/Variable
 
-![](../../images/katalon-recorder/docs/gui-overview/image2018-3-1 18_56_39.png)
+![](../../images/katalon-recorder/docs/gui-overview/image2018-3-1-183A563A39.png)
 
 **1\. Toolbar**
 
@@ -89,7 +89,7 @@ Users have multiple options when it comes to executing test cases in Katalon Aut
 
 **4. Log/Screenshots/Variables/Test Data/Reference**
 
-**![](../../images/katalon-recorder/docs/gui-overview/image2018-3-1 18_58_48.png)**
+**![](../../images/katalon-recorder/docs/gui-overview/image2018-3-1-183A583A48.png)**
 
 **_Log_**
 

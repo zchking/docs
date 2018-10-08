@@ -15,7 +15,7 @@ description:
 
 *   Open **Xcode > Preferences > Accounts**: Add developer's Apple ID 
 
-![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_4.png)
+![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A4.png)
 
   
 
@@ -37,15 +37,15 @@ sh ./Scripts/bootstrap.sh -d
       
     
 *   Open project **WebDriverAgent.xcodeproj** within folder **WebDriverAgent** in Xcode.  
-    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_29.png)  
+    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A29.png)  
       
     
 *   Select target **WebDriverAgentLib**, in the Signing section, check **Automatically manage signing** and select the team.  
-    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_51_56.png)  
+    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A56.png)  
       
     
 *   Then on the menu bar, select **Product > Build**  
-    **![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_52_23.png)**  
+    **![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A523A23.png)**  
     
 *   Repeat the last two steps for **WebDriverAgentRunner**  
     
@@ -67,7 +67,7 @@ sh ./Scripts/bootstrap.sh -d
     _where <udid> is your Device ID_
     
 *   In case this dialog is displayed, select **Always Allow**.  
-    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21 15_54_6.png)  
+    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A543A6.png)  
       
     
 

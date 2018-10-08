@@ -25,11 +25,11 @@ Decision-making statements 
 
 Open a test case in **Manual** view, then navigate to **Decision-making Statements** from command toolbar.
 
-![](../../images/katalon-studio/docs/control-statements/image2017-6-30 20_40_1.png)
+![](../../images/katalon-studio/docs/control-statements/image2017-6-30-203A403A1.png)
 
 Refer to the following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>If</td><td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong>. Katalon Studio will execute all steps within once the condition is triggered.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 14_23_17.png"></p></td></tr><tr><td>Else If</td><td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the <em>first</em> satisfied condition will be executed.</td></tr><tr><td>Else</td><td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. The steps within this statement will be executed if <strong>all</strong> the conditions above it are <strong>not</strong> triggered.</td></tr><tr><td>Switch</td><td>This statement requires an expression, which is often referred to as <strong>the control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 14_47_59.png"></p></td></tr><tr><td>Case</td><td><p>The <strong>Cases</strong> indicate the assumed value for the <strong>control expression</strong>, with corresponding steps to be executed when a match occurs.</p><p>Each <strong>Case</strong> will have a <strong>Break</strong> by default which should be positioned at the end of the <strong>Case</strong> block to mark the end of it.</p></td></tr><tr><td>Default</td><td>This statement is included automatically within every <strong>Switch</strong> statement. In situation which <strong>no</strong> <strong>Case</strong> value can be matched, the steps within <strong>Default</strong> will be taken.</td></tr></tbody></table>
+<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>If</td><td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong>. Katalon Studio will execute all steps within once the condition is triggered.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-143A233A17.png"></p></td></tr><tr><td>Else If</td><td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the <em>first</em> satisfied condition will be executed.</td></tr><tr><td>Else</td><td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. The steps within this statement will be executed if <strong>all</strong> the conditions above it are <strong>not</strong> triggered.</td></tr><tr><td>Switch</td><td>This statement requires an expression, which is often referred to as <strong>the control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-143A473A59.png"></p></td></tr><tr><td>Case</td><td><p>The <strong>Cases</strong> indicate the assumed value for the <strong>control expression</strong>, with corresponding steps to be executed when a match occurs.</p><p>Each <strong>Case</strong> will have a <strong>Break</strong> by default which should be positioned at the end of the <strong>Case</strong> block to mark the end of it.</p></td></tr><tr><td>Default</td><td>This statement is included automatically within every <strong>Switch</strong> statement. In situation which <strong>no</strong> <strong>Case</strong> value can be matched, the steps within <strong>Default</strong> will be taken.</td></tr></tbody></table>
 
 ### In Scripting view
 
@@ -46,11 +46,11 @@ Looping statements 
 
 Open a test case in **Manual** view, then navigate to **Looping Statements** from command toolbar.
 
-![](../../images/katalon-studio/docs/control-statements/image2017-6-30 20_40_53.png)
+![](../../images/katalon-studio/docs/control-statements/image2017-6-30-203A403A53.png)
 
 Refer to following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>For</td><td>This statement accepts a <em>range</em>,<em> list</em> or <em>array</em> as <strong>input value</strong> so that Katalon Studio knows <strong>how many times</strong> to execute all steps within the <strong>For</strong> structure.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 15_49_5.png"></p></td></tr><tr><td>While</td><td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong> so that Katalon Studio will keep executing all steps within <strong>until the condition fails</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 15_53_44.png"></p></td></tr></tbody></table>
+<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>For</td><td>This statement accepts a <em>range</em>,<em> list</em> or <em>array</em> as <strong>input value</strong> so that Katalon Studio knows <strong>how many times</strong> to execute all steps within the <strong>For</strong> structure.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-153A493A5.png"></p></td></tr><tr><td>While</td><td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong> so that Katalon Studio will keep executing all steps within <strong>until the condition fails</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-153A533A44.png"></p></td></tr></tbody></table>
 
 ### In Scripting view 
 
@@ -67,11 +67,11 @@ Branching statements 
 
 Open a test case in **Manual** view, then navigate to **Branching Statements** from command toolbar.
 
-![](../../images/katalon-studio/docs/control-statements/image2017-6-30 20_41_31.png)
+![](../../images/katalon-studio/docs/control-statements/image2017-6-30-203A413A31.png)
 
 Refer to following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Break</td><td>Katalon Studio will exit current code block and continue to next code block / test step.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 16_36_37.png"></p></td></tr><tr><td>Continue</td><td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 16_42_13.png"></p></td></tr><tr><td>Return</td><td>Katalon will exit from the current method/step, and the flow control is returned to where the method/step was invoked.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9 16_47_44.png"></p></td></tr></tbody></table>
+<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Break</td><td>Katalon Studio will exit current code block and continue to next code block / test step.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-163A363A37.png"></p></td></tr><tr><td>Continue</td><td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-163A423A13.png"></p></td></tr><tr><td>Return</td><td>Katalon will exit from the current method/step, and the flow control is returned to where the method/step was invoked.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-163A473A44.png"></p></td></tr></tbody></table>
 
 ### In Scripting view
 
@@ -92,11 +92,11 @@ Exception handling block 
 
 Open a test case in **Manual** view, then navigate to **Exception Handling Statements** from command toolbar.
 
-![](../../images/katalon-studio/docs/control-statements/image2017-6-30 20_42_21.png)
+![](../../images/katalon-studio/docs/control-statements/image2017-6-30-203A423A21.png)
 
 Refer to following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Try</td><td>This statement indicates that all steps within will be monitored by<strong> exception handlers</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-28 11_51_55.png"></p></td></tr><tr><td>Throw</td><td>Before you can <strong>Catch</strong> an exception, some code must throw one. Regardless of what throws the exception, it's always involved with the <strong>Throw</strong> statement</td></tr><tr><td>Catch</td><td>Katalon Studio will&nbsp;execute all steps within when there is any issue occurred during execution of the <strong>Try</strong> block.</td></tr><tr><td>Finally</td><td>This is the last part of the <strong>Try-Catch-Finally</strong> structure and all steps within this will be executed regardless of any exception.</td></tr></tbody></table>
+<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Try</td><td>This statement indicates that all steps within will be monitored by<strong> exception handlers</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-28-113A513A55.png"></p></td></tr><tr><td>Throw</td><td>Before you can <strong>Catch</strong> an exception, some code must throw one. Regardless of what throws the exception, it's always involved with the <strong>Throw</strong> statement</td></tr><tr><td>Catch</td><td>Katalon Studio will&nbsp;execute all steps within when there is any issue occurred during execution of the <strong>Try</strong> block.</td></tr><tr><td>Finally</td><td>This is the last part of the <strong>Try-Catch-Finally</strong> structure and all steps within this will be executed regardless of any exception.</td></tr></tbody></table>
 
 ### In Scripting view
 
@@ -104,4 +104,4 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
-![](../../images/katalon-studio/docs/control-statements/image2017-2-28 13_20_32.png)
+![](../../images/katalon-studio/docs/control-statements/image2017-2-28-133A203A32.png)

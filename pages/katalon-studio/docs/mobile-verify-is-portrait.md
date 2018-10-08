@@ -32,7 +32,7 @@ Example 
 You want to verify if the current device is in portrait mode.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-verify-is-portrait/image2017-3-3 15_13_45.png)
+    ![](../../images/katalon-studio/docs/mobile-verify-is-portrait/image2017-3-3-153A133A45.png)
 *   Script view 
     
     ```groovy

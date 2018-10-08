@@ -11,7 +11,7 @@ Once a test suite finishes its execution, a historical report will be automatica
 
 For example:
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_1_55.png)
+![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-193A13A55.png)
 
 The report will be named with following the naming convention: _YYYYMMDD_HHmmss_, which is the datetime when the test suite starts its execution.
 
@@ -19,16 +19,16 @@ Report Overview
 ---------------
 
 In **Test Explorer** view, double-click on a historical execution of a test suite to view its details:  
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_27_2.png)  
+![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-203A273A2.png)  
 where:
 
-<table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Test Cases Table</td><td>List of executed test cases.</td></tr><tr><td>Summary</td><td>Summary information of executed environment.</td></tr><tr><td>Execution Settings</td><td><p>Settings of executed browsers/devices. For example:</p><p><img src="../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_40_50.png"></p></td></tr><tr><td>Execution Environment</td><td><p>Other information about the executed system. For example:</p><p><img src="../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_42_41.png"></p></td></tr></tbody></table>
+<table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Test Cases Table</td><td>List of executed test cases.</td></tr><tr><td>Summary</td><td>Summary information of executed environment.</td></tr><tr><td>Execution Settings</td><td><p>Settings of executed browsers/devices. For example:</p><p><img src="../../images/katalon-studio/docs/test-suite-report/image2017-2-24-193A403A50.png"></p></td></tr><tr><td>Execution Environment</td><td><p>Other information about the executed system. For example:</p><p><img src="../../images/katalon-studio/docs/test-suite-report/image2017-2-24-193A423A41.png"></p></td></tr></tbody></table>
 
 Test Cases List
 ---------------
 
 *   The summary information of all executed iterations done in the test suite is displayed here. Each time when a test case is executed with a test data row is considered an **iteration**.  
-    ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_15_33.png)
+    ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-193A153A33.png)
 *   Users can easily determine which type of information to be displayed by using the provided filters:
     
     | Filter | Description |
@@ -46,7 +46,7 @@ Test Suite Summary
 
 This section gives the summary information of the test suite:
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 19_29_56.png)
+![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-193A293A56.png)
 
 where:
 
@@ -65,7 +65,7 @@ This section shows all information regarding the iteration selected in the **Tes
 ### Test Log Tab
 
 *   Details regarding all the executed steps and their status are displayed in this tab.   
-    ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_29_56.png)  
+    ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-203A293A56.png)  
     where:
     
     <table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Log Information</td><td>Information of the test step selected in the <strong>Test Case's Log</strong> section:<ul><li>The <strong>Name</strong> of the test step (the name of the keyword used in the test step)</li><li>Execution <strong>Start/End</strong> date time and duration</li><li>The <strong>Description</strong> of the test step</li><li>Any system <strong>Message</strong> raised when the test step was executed</li></ul></td></tr><tr><td>Log Image</td><td><p>The screenshot taken from the application under test, it is captured in either of following situations:</p><ul><li>An error occurs during test execution</li><li>The <a href="/display/KD/%5BWebUI%5D+Take+Screenshot" rel="nofollow">Take Screenshot</a> keyword is used</li></ul></td></tr></tbody></table>
@@ -89,7 +89,7 @@ This section shows all information regarding the iteration selected in the **Tes
 
 Users can find the summary information of the test case in this tab.
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_4_11.png)
+![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-203A43A11.png)
 
 where:
 
@@ -104,7 +104,7 @@ where:
 
 The information regarding qTest Integration of this iteration is displayed in this tab.
 
-![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24 20_15_4.png)
+![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-203A153A4.png)
 
 where:
 
@@ -118,4 +118,4 @@ Export to other formats
 -----------------------
 
 For the purpose of sharing, users can generate reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit** using the context menu in Test Explorer as example below:   
-![](../../images/katalon-studio/docs/test-suite-report/image2017-6-23 16_2_2.png)
+![](../../images/katalon-studio/docs/test-suite-report/image2017-6-23-163A23A2.png)

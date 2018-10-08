@@ -18,7 +18,7 @@ _**Key Features**_
 *   Step definitions are implemented in Script Mode with hundreds of built-in keyword for reusability
 *   Easy-to-manage Feature files as Katalon Studio test artifacts structure
 
-![Screen Shot 2018-09-06 at 9.00.58 AM.png](../../images/katalon-studio/docs/version-570/Screen Shot 2018-09-06 at 9.00.58 AM.png)
+![Screen Shot 2018-09-06 at 9.00.58 AM.png](../../images/katalon-studio/docs/version-570/Screen-Shot-2018-09-06-at-9.00.58-AM.png)
 
 Smart XPath Generator
 ---------------------
@@ -45,7 +45,7 @@ In-app Sign up and Activate Katalon Studio
 
 Users no longer have to register a Katalon account on the website to activate Katalon product. Simply download the Katalon Studio application, sign up, and activate. Everything happens right inside the app.
 
-![](../../images/katalon-studio/docs/version-570/image2018-8-30 14_14_24.png)
+![](../../images/katalon-studio/docs/version-570/image2018-8-30-143A143A24.png)
 
 Bug Fixes and Improvements
 --------------------------

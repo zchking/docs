@@ -1,5 +1,5 @@
 ---
-title: "Setting up for Mobile Application Automation"
+title: "Setting up Mobile automation project in Windows"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/setting_mobile_application_automation.html
 description: "Test automation for mobile app required to set up testing environment before performing any test. Learn how to perform mobile testing in Katalon Studio."

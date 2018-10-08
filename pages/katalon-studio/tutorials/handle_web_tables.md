@@ -22,7 +22,7 @@ A Web table normally contains the following tags:
 
 **A basic web table's HTML code looks like below:**
 
-![web table html](../../images/katalon-studio/tutorials/handle_web_tables/web-table%E2%80%99s-HTML-code.png)
+![web table html](../../images/katalon-studio/tutorials/handle_web_tables/web-tables-HTML-code.png)
 
 Handling Web tables is perhaps much more complicated than any other elements or controls. This article will show you how to handle web tables using Katalon Studio.
 

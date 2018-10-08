@@ -14,13 +14,13 @@ General Improvement
 
 Introducing brand new Katalon Help page for Katalon Studio application. Users can access Katalon Studio resources all in one place such as Tutorials, FAQs, Sample Projects, or User Guides.
 
-**![](../../images/katalon-studio/docs/version-48/image2017-9-1 17_8_59.png)**
+**![](../../images/katalon-studio/docs/version-48/image2017-9-1-173A83A59.png)**
 
 **[Support Shadow DOM](/display/KD/Working+with+Shadow+DOM+Objects)**
 
 Katalon Studio Version 4.8 supports objects with Shadow DOM in Web Testing. Users can identify Shadow DOM objects by specifying the Shadow Root Parent in the Object settings tab.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-15 11_32_52.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-15-113A323A52.png)
 
 Test Suite
 ----------
@@ -31,13 +31,13 @@ Test Suite
 
 Introducing Katalon Studio **new** feature **video capturing** for Test Suite reports. Users will be able to video capture test suite execution and replay to review how each test case was executed. Description of test steps will be added as subtitle for users convenience. **Video capturing** feature can be enable in **Project Settings**.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-25 14_9_49.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-25-143A93A49.png)
 
 [**Variable Binding**](/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding)
 
 Variable Binding has been improved to allow users to set or update **Type** and **Test Data **column of multiple rows at once.This improvement aims to save testing time and to eliminate several repetitive procedures.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-17 14_27_14.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-17-143A273A14.png)
 
 JIRA Integration
 ----------------
@@ -66,7 +66,7 @@ Mobile Testing
     *   Kobiton device: This will list out Kobiton's devices that integrated with Katalon Studio
 *   **Device Name**: display all devices name accordingly based on selected type in **Device Types**
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-15 16_40_14.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-15-163A403A14.png)
 
 Test Case
 ---------
@@ -75,11 +75,11 @@ Introducing **Recent Keywords** and **Recent Objects** features in **Manual** mo
 
 **[Recent Keywords](/display/KD/Test+Case+Manual+View#TestCaseManualView-RecentKeywords)** feature allows users to select and add any of the 10 last used **keywords** to Item list.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-18 17_19_14.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-18-173A193A14.png)
 
 **[Recent objects](/display/KD/Test+Case+Manual+View#TestCaseManualView-RecentObjectsandObjectFolders)** feature in _Test Object Input_ dialog allows users to select and add any of the 10 last used **Test Objects.** Users can also quickly jump to **Recent Object Folder** that has recent used objects accordingly.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-25 17_29_39.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-25-173A293A39.png)
 
 Web Services
 ------------
@@ -89,7 +89,7 @@ Web Services
 
 Katalon Studio now supports OAuth 1.0 authorization for Web Services Testing.  OAuth (Open Standard for Authorization) is an open token-based protocol authentication and authorization that allows application to capture protected information without exposing end user credentials. Testing teams can leverage this support to test any Web Services project that required OAuth 1.0 authorization with Katalon Studio.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-23 12_9_38.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-23-123A93A38.png)
 
 Project Settings
 ----------------
@@ -98,11 +98,11 @@ Project Settings
 
 This version of Katalon Studio improved **Email** configuration in Project setting. Users able to customize Mail Server, send to multiple recipients, editable subject field.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-15 14_52_25.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-15-143A523A25.png)
 
 New **Template** under Email section allows users to customize test execution reports and add extra fields to the report.
 
-![](../../images/katalon-studio/docs/version-48/image2017-8-15 14_49_1.png)
+![](../../images/katalon-studio/docs/version-48/image2017-8-15-143A493A1.png)
 
 Katalon Studio Console Mode for Linux OS
 ----------------------------------------
