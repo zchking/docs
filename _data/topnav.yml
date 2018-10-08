@@ -17,3 +17,5 @@ topnav:
       parenturl: /faqs
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html
+    - title: Support
+      external_url: https://www.katalon.com/support-service-options
