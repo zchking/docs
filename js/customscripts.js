@@ -17,6 +17,9 @@ $(function() {
             .navgoco({
                 save: false,
                 openClass: 'in',
+                slide: {
+                    duration: 0
+                }
             })
             .find('li.active')
             .first()
