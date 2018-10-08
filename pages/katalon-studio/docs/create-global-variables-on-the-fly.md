@@ -12,16 +12,23 @@ To create Global Variables during runtime using Katalon scripts, there are many 
 "You can also define environment variable (with path to external configuration or properties file) in the session will be used to execute Katalon studio and then in the TestListener read the value of variable (path to the file), load that file and override settings for project, Global variables etc. To create new GlobalVariable I used metaprogramming:
 
 ```groovy
-void addGlobalVariable(String name, def value) {
-    MetaClass mc = script.evaluate("internal.GlobalVariable").metaClass
-    String getterName = "get" + name.capitalize()
-    mc.static."$getterName" = { -> return value }
-    //mc.static."$name" = value
+ @Keyword
+ void addGlobalVariable(String name, def value) {
+  GroovyShell shell1 = new GroovyShell()
+  MetaClass mc = shell1.evaluate("internal.GlobalVariable").metaClass
+  String getterName = "get" + name.capitalize()
+  mc.'static'."$getterName" = { -> return value }
+  mc.'static'."$name" = value
 }
 ```
 
-It's possible to add getter/setter as new methods to GlobalVariable class or add new field (commented in this example)
+It's possible to add getter/setter as new methods toGlobalVariableclass or add a new field (commented in this example)
 
-Than in the script code you can use GlobalVariable.VarName where the VarName you new variable."
+Then in the script code, you can use GlobalVariable.VarName
 
-_Credit to [Sergii Tyshchenko](https://forum.katalon.com/discussion/4586/how-to-pass-user-defined-parameters-from-command-line#Comment_16979)_
+```groovy
+CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
+println GlobalVariable.localURL
+```
+
+_Credit to [Sergii Tyshchenko](https://forum.katalon.com/discussion/4586/how-to-pass-user-defined-parameters-from-command-line#Comment_16979) and refer to [this](https://stackoverflow.com/questions/1612569/how-do-i-undo-meta-class-changes-after-executing-groovyshell)_

@@ -19,7 +19,7 @@ To **sort**, click on the sort text box, a drop-down list will be shown with the
 
 ![](../../images/katalon-analytics/docs/filter-and-sort/Screen Shot 2018-05-30 at 2.08.07 PM.png)
 
-The example from screenshots above shown:
+The example from the screenshots above shown:
 
 *   **Filter**: Any execution with **Age** more than **2** will be filtered and displayed.
 *   **Sort**: Any execution has the longest execution time will be on top of the list.

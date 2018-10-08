@@ -11,7 +11,7 @@ RESTful Request
 ---------------
 
 > *   Web Services Request can be parameterized. Refer to this [documentation](/x/egLR).
-> *   Learn more about Verification Snippets.
+> *   Learn more about [Verification Snippets](/x/EwjR).
 
 1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed where you can input your RESTful URL directly on this dialog.  
     ![](../../images/katalon-studio/docs/restful/image2018-4-1 18_11_47.png)  
@@ -19,18 +19,7 @@ RESTful Request
     
 2.  After you've created a request successfully, there will be a small **icon** next to the object on Tests Explorer to indicate its used method (**GET**, **POST**, **PUT**, **DELETE**)  
     ![](../../images/katalon-studio/docs/restful/image2018-4-1 18_35_21.png)
-3.  In the opened editor of the new service request object, there will be two separate sections for the **Request **(left pane window) and **Response** (right pane window)  
-      
-    
-
-We will take a look at the **Request** section using the sample REST URL
-
-```groovy
-https://sample-web-service-aut.herokuapp.com/api/users/accept-json?gender=MALE&age=15
-```
-
-![](../../images/katalon-studio/docs/restful/image2018-9-5 14_42_44.png)  
-  
+3.  In the opened editor of the new service request object, there will be two separate sections for the **Request **(left pane window) and **Response** (right pane window)
 
 where:
 

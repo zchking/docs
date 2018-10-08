@@ -12,7 +12,7 @@ Installation
 
 ### Download 
 
-Go to [Katalon Download page](https://www.katalon.com/download/) to get Katalon Studio. A suitable version to your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
+Go to [Katalon Download page](https://www.katalon.com/download/) to get the latest version of Katalon Studio. A suitable version to your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
 
 > Download older versions
 > 

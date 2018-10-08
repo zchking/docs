@@ -51,13 +51,15 @@ Katalon Studio does support the ability to define parent iframe object within te
 Properties used for detecting an object
 ---------------------------------------
 
-> *   Available since version 5.0
+> *   Available since version 5.0+
 > *   [How to get Web objects XPath or CSS Locator](/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
 > *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 
 #### Selection Method
 
-Katalon Studio allows users to select methods on how objects will be located. For more details, please refer to this [documentation](/x/ZxlO).
+> Read more about [Selection Method](/x/ZxlO).
+
+Katalon Studio allows you to choose different ways to locate objects.
 
 *   **XPath**
     *   Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors.

@@ -14,17 +14,19 @@ Katalon Studio Supported Environment on Windows
 
 |   | Version |
 | --- | --- |
-| Appium | 1.6, 1.7 |
+| Appium | 1.6, 1.7, 1.8 |
 | Android | 6.x, 7.x |
 
 Installing Dependencies
 -----------------------
 
-Due to the diifferences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. Thus, in order to succesfully create and run a test case using Katalon Studio on Windows, you will need [Appium](http://appium.io/downloads.html).
+Due to the diifferences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. Thus, in order to succesfully create and run a test case using Katalon Studio on Windows, you will need [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
 > Attention
 > 
-> Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+> *   Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+> *   Appium 1.9 is **not** supported, so please kinldy install Appium 1.8. The installation command is:  
+>     npm install -g appium@1.8.1
 
 Setting Up Your Devices
 -----------------------

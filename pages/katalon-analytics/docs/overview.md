@@ -26,7 +26,7 @@ Benefits of Katalon Analytics
 
 The Status Report visualizes an overview of Test Execution Report Status over the time. This is the fastest way to get the status (so does the quality) of Automation Test of the AUT. Moreover, with the help of Filter function, the user can easily either get the information of specific Test Execution Status or all Status at the same time.
 
-![](../../images/katalon-analytics/docs/overview/image2017-10-23 15_22_42.png)
+![](../../images/katalon-analytics/docs/overview/Screen Shot 2018-09-26 at 10.53.34 AM.png)
 
 ### Performance Report
 
@@ -36,13 +36,13 @@ Together with the Status Report, the Performance Report visualizes the amount of
 
 While Status Report displays the status of Test Cases in each build, The Executions Report demonstrates the status of the whole execution over the time as well as the summary status of it. In other words, the table contains the combined information from Status and Duration Reports.
 
-![](../../images/katalon-analytics/docs/overview/image2017-10-23 15_38_46.png)
+![](../../images/katalon-analytics/docs/overview/Screen Shot 2018-09-26 at 11.06.57 AM.png)
 
 ### Execution Detail Report
 
 The Execution Detail Report provides detail information of the specific execution, including test cases list with specific status, test cases location, test suites and well as the environment detail where the test is executed.
 
-![](../../images/katalon-analytics/docs/overview/image2017-10-23 15_44_7.png)
+![](../../images/katalon-analytics/docs/overview/Execution 11   Katalon Analytics.png)
 
 Accessing Katalon Analytics
 ---------------------------

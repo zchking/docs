@@ -8,7 +8,7 @@ redirect_from:
 description: 
 ---
 > *   Web Services Request can be parameterized. Refer to this [documentation](/x/egLR).
-> *   Learn more about Verification Snippets.
+> *   Learn more about [Verification Snippets](/x/EwjR).
 
 1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed. Select 'SOAP' from Request Type list to create a new SOAP object.  
     ![](../../images/katalon-studio/docs/soap/image2018-9-5 14_21_46.png)  

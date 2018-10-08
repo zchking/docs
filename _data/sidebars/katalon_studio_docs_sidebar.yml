@@ -79,8 +79,8 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-              - title: "Web Locators Settings (since 5.7)"
-                url: /katalon-studio/docs/web-locators-settings-since-57.html
+              - title: "Web Locators Settings (since v5.7.1)"
+                url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Test Case"
         tree:
           - title: "Manual View"
@@ -687,6 +687,8 @@ items:
             url: /katalon-studio/docs/execute-windows-commands.html
           - title: "Execute Xpath functions"
             url: /katalon-studio/docs/execute-xpath-functions.html
+          - title: "Executing tests on Mobile Browser and app in a single TC"
+            url: /katalon-studio/docs/executing-tests-on-mobile-browser-and-app-in-a-single-tc.html
           - title: "Force stop execution"
             url: /katalon-studio/docs/force-stop-execution.html
           - title: "Get SQL query results as variables"
@@ -695,6 +697,8 @@ items:
             url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
           - title: "Handle file upload control on hidden input"
             url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
+          - title: "How to pass exitCode from Katalon to Jenkins in order to inform of Test Case failures"
+            url: /katalon-studio/docs/how-to-pass-exitcode-from-katalon-to-jenkins-in-order-to-inform-of-test-case-failures.html
           - title: "How to use different browser versions"
             url: /katalon-studio/docs/how-to-use-different-browser-versions.html
           - title: "Import Custom Keywords classes recursively"
@@ -719,14 +723,14 @@ items:
             url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
           - title: "Retrieve mobile's session"
             url: /katalon-studio/docs/retrieve-mobiles-session.html
-          - title: "Schedule tests to execute"
-            url: /katalon-studio/docs/schedule-tests-to-execute.html
-          - title: "Set cookies for browsers"
-            url: /katalon-studio/docs/set-cookies-for-browsers.html
       - title: "Release Notes"
         tree:
           - title: "Version 5.7"
-            url: /katalon-studio/docs/version-57.html
+            tree:
+              - title: "Version 5.7.0"
+                url: /katalon-studio/docs/version-570.html
+              - title: "Version 5.7.1"
+                url: /katalon-studio/docs/version-571.html
           - title: "Version 5.6"
             tree:
               - title: "Version 5.6.0"
@@ -834,15 +838,21 @@ items:
       - title: "Quick Start"
         url: /katalon-analytics/docs/quick-start.html
       - title: "Upload Reports"
-        url: /katalon-analytics/docs/upload-reports.html
+        tree:
+          - title: "From Katalon Studio"
+            url: /katalon-analytics/docs/from-katalon-studio.html
+          - title: "From Command Line"
+            url: /katalon-analytics/docs/from-command-line.html
       - title: "Access Reports"
         tree:
           - title: "View Reports"
             url: /katalon-analytics/docs/view-reports.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/filter-and-sort.html
-      - title: "Project and Execution Deletion"
-        url: /katalon-analytics/docs/project-and-execution-deletion.html
+      - title: "Projects Management"
+        tree:
+          - title: "Project and Execution Deletion"
+            url: /katalon-analytics/docs/project-and-execution-deletion.html
       - title: "User Management"
         url: /katalon-analytics/docs/user-management.html
       - title: "Integration with Katalon Studio"

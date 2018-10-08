@@ -7,11 +7,11 @@ redirect_from:
     - "/x/lQjR"
 description: 
 ---
-In order to access **User Management **page, go to **Katalon Analytics Settings**.
+To access **User Management **page, go to **Katalon Analytics Settings > Users**. 
 
-![](../../images/katalon-analytics/docs/user-management/Screen Shot 2018-07-03 at 4.26.25 PM.png)
+_Owners _and _Admins _can **manage** roles, **invite** new users, and **remove** accounts from the project here.
 
- _Owners _and _Admins _can **manage** roles, **invite** new users, and **remove** accounts from the project here.
+> Settings are only available for Project Owners and Admins.
 
 ![](../../images/katalon-analytics/docs/user-management/image2018-6-25 14_9_47.png)
 

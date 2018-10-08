@@ -22,23 +22,25 @@ Logging in
 ----------
 
 1.  Navigate to: [https://analytics.katalon.com](https://analytics.katalon.com/)
-2.  Enter Katalon account to log on to Katalon Analytics tool  
-    ![](../../images/katalon-analytics/docs/quick-start/image2017-10-4 11_36_22.png)
+2.  Enter Katalon account to log on to Katalon Analytics dashboard  
+    ![](../../images/katalon-analytics/docs/quick-start/Screen Shot 2018-09-26 at 11.14.44 AM.png)  
+      
+    
 3.  Once logged in **successfully**, Katalon Analytics **home page** will display  
-    ![](../../images/katalon-analytics/docs/quick-start/image2017-10-24 10_7_44.png)
+      
+    ![](../../images/katalon-analytics/docs/quick-start/Screen Shot 2018-09-26 at 11.17.33 AM.png)
 
 Logging out
 -----------
 
 Click on the **name** of **current logged on** **user** on the upper right corner. Select **Log out**
 
-![](../../images/katalon-analytics/docs/quick-start/image2017-10-24 9_20_48.png)
+![](../../images/katalon-analytics/docs/quick-start/Screen Shot 2018-09-26 at 11.19.20 AM.png)
 
 Main Toolbar
 ------------
 
-_![](../../images/katalon-analytics/docs/quick-start/image2017-10-24 9_16_18.png)_
+_![](../../images/katalon-analytics/docs/quick-start/Screen Shot 2018-09-26 at 11.19.59 AM.png)  
+_
 
-_Details_
-
-<table><thead><tr><th>Menu</th><th>Functionalities</th></tr></thead><tbody><tr><td><strong>Teams</strong></td><td>List of teams. A user can be in multiple teams.</td></tr><tr><td><strong>Projects</strong></td><td>List of Katalon Analytics projects. A team can have multiple projects.</td></tr><tr><td><strong>Help</strong></td><td>Link to Katalon Analytics Documentation.</td></tr><tr><td><strong>Settings</strong></td><td><p>Katalon Analytics Settings. Users can manage teams and projects here.</p><p><strong>Users</strong>: Invite/add users to projects</p><p><strong>Projects</strong>: Create and Edit Projects</p></td></tr><tr><td><strong>John Smith</strong></td><td>Current logged on user.</td></tr></tbody></table>
+<table><thead><tr><th>Menu</th><th>Functionalities</th></tr></thead><tbody><tr><td><strong>Teams</strong></td><td>List of teams. A user can be in multiple teams.</td></tr><tr><td><strong>Projects</strong></td><td>List of Katalon Analytics projects. A team can have multiple projects.</td></tr><tr><td><strong>Help</strong></td><td>Link to Katalon Analytics Documentation.</td></tr><tr><td><strong>Settings</strong></td><td><p>Katalon Analytics Settings. Users can manage teams and projects here.</p><p><strong>Teams: </strong>View and Manage your teams</p><p><strong>Users</strong>: Invite and Add users</p><p><strong>Projects</strong>: Create and Edit Projects</p></td></tr><tr><td><strong>Demo Katalon</strong></td><td>Current logged on user.</td></tr></tbody></table>

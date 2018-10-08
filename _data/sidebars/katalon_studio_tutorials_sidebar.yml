@@ -77,6 +77,8 @@ items:
         url: /katalon-studio/tutorials/using_selenium_webdriver_katalon_studio.html
       - title: "Common tips for using Xpath in Katalon Studio"
         url: /katalon-studio/tutorials/xpath_katalon_studio_tips.html
+      - title: "Handling Web element locators using Katalon Studio"
+        url: /katalon-studio/tutorials/web_element_locators.html
     - title: "Test Execution and Reports"
       tree:
       - title: "Executing in console mode"
@@ -139,6 +141,8 @@ items:
         url: /katalon-studio/tutorials/git_conflict_resolve.html
       - title: "How to perform Database Testing using Katalon Studio"
         url: /katalon-studio/tutorials/connect_db_gui_testing.html
+      - title: "How to parse JSON responses in Katalon Studio"
+        url: /katalon-studio/tutorials/parse_json_responses.html
     - title: "Test Execution and Reports"
       tree:
       - title: "Executing in console mode"
@@ -170,9 +174,9 @@ items:
       - title: "Setting up for Mobile Application Automation"
         url: /katalon-studio/tutorials/setting_mobile_application_automation.html
       - title: "Setting up Mobile automation project in Windows"
-        url: /katalon-studio/tutorials/setting_mobile_application_automation.html
+        url: /katalon-studio/tutorials/?post_type=post&p=1779.html
       - title: "Setting up Mobile automation project in macOS"
-        url: /katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
+        url: /katalon-studio/tutorials/?post_type=post&p=1793.html
       - title: "How to integrate with Kobiton"
         url: /katalon-studio/tutorials/integrate_with_kobiton.html
     - title: "Writing Test Cases"
@@ -208,7 +212,7 @@ items:
       - title: "Common validation statements with Katalon Studio"
         url: /katalon-studio/tutorials/common_validation_statements_katalon_studio.html
       - title: "How to create a custom keyword"
-        url: /katalon-studio/tutorials/create_custom_keyword.html
+        url: /katalon-studio/tutorials/?post_type=post&p=969.html
       - title: "How to import external library into your automation project"
         url: /katalon-studio/tutorials/import_java_library.html
       - title: "Data-driven testing approach with Katalon Studio"
@@ -218,7 +222,7 @@ items:
       - title: "Executing test case"
         url: /katalon-studio/tutorials/executing_test_case.html
       - title: "Debugging test case"
-        url: /katalon-studio/tutorials/debugging_test_case.html
+        url: /katalon-studio/tutorials/?post_type=post&p=2125.html
       - title: "How to execute/debug certain steps of a test case"
         url: /katalon-studio/tutorials/execute_debug_certain_steps.html
     - title: "Scripting Tips and Tricks"
@@ -234,7 +238,7 @@ items:
       - title: "Running tests from Command Line"
         url: /katalon-studio/tutorials/generate_command_line.html
       - title: "Testing Web App on Mobile Browsers"
-        url: /katalon-studio/tutorials/running_application_mobile_browsers.html
+        url: /katalon-studio/tutorials/?post_type=post&p=4461.html
       - title: "Executing in console mode"
         url: /katalon-studio/tutorials/executing_console_mode.html
       - title: "Viewing test suite reports"
@@ -244,7 +248,7 @@ items:
     - title: "Integration"
       tree:
       - title: "Katalon Studio Integration with Jira Overview"
-        url: /katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html
+        url: /katalon-studio/tutorials/?post_type=post&p=2283.html
       - title: "How to setup the integration with Jenkins and other CI tools"
         url: /katalon-studio/tutorials/jenkins_ci_integration.html
       - title: "Katalon Studio integration with Git overview"

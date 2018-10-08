@@ -13,9 +13,7 @@ description:
   
 Delete Projects
 
-[Katalon Analytics (beta)](/pages/viewpage.action?pageId=5118810) allows you to delete your existing projects. As an owner of a project or an admin of the team, you can click on the **Settings icon > Projects** to modify your existing projects.
-
-![](../../images/katalon-analytics/docs/project-and-execution-deletion/image2018-6-18 15_15_19.png)
+[Katalon Analytics (beta)](/pages/viewpage.action?pageId=5118810) allows you to delete your existing projects. As an **owner** of a project or an **admin** of the team, you can click on the **Settings icon > Projects** to modify your existing projects.
 
 Click on the delete button next to the project name, a confirmation dialogue will appear.
 
