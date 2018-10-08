@@ -32,7 +32,7 @@ Example 
 You want to get mobile device's physical width, then store it into "width" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-device-width/image2017-3-3 14_6_28.png)
+    ![](../../images/katalon-studio/docs/mobile-get-device-width/image2017-3-3-143A63A28.png)
 *   Script view 
     
     ```groovy

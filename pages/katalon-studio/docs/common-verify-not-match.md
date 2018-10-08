@@ -35,7 +35,7 @@ Example 
 You want to verify if the text "Katalon" does not match the regular expression "(L|T)atalon".
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/common-verify-not-match/image2017-3-3 17_41_53.png)
+    ![](../../images/katalon-studio/docs/common-verify-not-match/image2017-3-3-173A413A53.png)
 *   Script view 
     
     ```groovy

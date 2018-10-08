@@ -77,6 +77,8 @@ items:
         url: /katalon-studio/tutorials/using_selenium_webdriver_katalon_studio.html
       - title: "Common tips for using Xpath in Katalon Studio"
         url: /katalon-studio/tutorials/xpath_katalon_studio_tips.html
+      - title: "Handling Web element locators using Katalon Studio"
+        url: /katalon-studio/tutorials/web_element_locators.html
     - title: "Test Execution and Reports"
       tree:
       - title: "Executing in console mode"
@@ -139,6 +141,8 @@ items:
         url: /katalon-studio/tutorials/git_conflict_resolve.html
       - title: "How to perform Database Testing using Katalon Studio"
         url: /katalon-studio/tutorials/connect_db_gui_testing.html
+      - title: "How to parse JSON responses in Katalon Studio"
+        url: /katalon-studio/tutorials/parse_json_responses.html
     - title: "Test Execution and Reports"
       tree:
       - title: "Executing in console mode"

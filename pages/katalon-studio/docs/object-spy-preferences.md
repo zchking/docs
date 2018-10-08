@@ -9,7 +9,7 @@ description:
 ---
 You can access this preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
 
-![](../../images/katalon-studio/docs/object-spy-preferences/image2017-11-27 11_4_34.png)
+![](../../images/katalon-studio/docs/object-spy-preferences/image2017-11-27-113A43A34.png)
 
 Pin Object Spy Window while spying
 ----------------------------------

@@ -101,7 +101,7 @@ b. OAuth 1.0 method
 
 Before adding actual verification steps to test the service, Katalon Studio supports testing on-the-fly method: send the request and perform quick verification of the response.
 
-![Web service's response information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service%E2%80%99s-response-information.png)
+![Web service's response information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-services-response-information.png)
 
 _Figure 5: Web service's response information_
 
@@ -121,7 +121,7 @@ _Figure 5: Web service's response information_
 
 The first 3 steps demonstrate how to create Web service end-point at Object Repository. This step will guide you through creating an actual test scenario for it.
 
-![Adding 'Web Service Keyword" step](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%98Web-Service-Keyword%E2%80%9D-step.png)
+![Adding 'Web Service Keyword" step](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-Web-Service-Keyword-step.png)
 
 _Figure 6: Adding 'Web Service Keyword" step_
 
@@ -129,7 +129,7 @@ _Figure 6: Adding 'Web Service Keyword" step_
 
 (2) From the Test case editor, select 'Add -> Web Service Keyword' to add a new step.
 
-![Adding "Send request" keyword](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-%E2%80%9CSend-request%E2%80%9D-keyword.png)
+![Adding "Send request" keyword](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-Send-request-keyword.png)
 
 _Figure 7: Adding "Send request" keyword_
 

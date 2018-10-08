@@ -14,4 +14,4 @@ In this setting, you can manage your external libraries by adding new ones or re
 
 The added libraries can be imported and utilized in the [Script View](/display/KD/Script+View) of Katalon Studio.
 
-![](../../images/katalon-studio/docs/external-libraries/image2017-6-29 16_21_40.png)
+![](../../images/katalon-studio/docs/external-libraries/image2017-6-29-163A213A40.png)

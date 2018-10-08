@@ -14,11 +14,11 @@ To integrate with Saucelabs, you need to execute your test scripts using '[Remot
       
     
 
-![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7 11_40_15.png)
+![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A15.png)
 
 3. Go to '[Platform Configurator](https://wiki.saucelabs.com/display/DOCS/Platform+Configurator?src=sidebar)' page. Select the settings you want and SauceLabs will generate capabilities for you
 
-![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7 11_40_51.png)
+![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A51.png)
 
 4.In Katalon Studio, open ['Remote' ](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
 

@@ -8,7 +8,7 @@ description:
 ---
 > Available since Katalon Studio v[5.2](/display/KD/Version+5.2)
 
-Test Listeners is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, Test Listeners are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with Test Listeners.
+_Test Listeners_ is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, _Test Listeners_ are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with _Test Listeners_.
 
 Manage Test Listeners
 ---------------------
@@ -17,11 +17,11 @@ Test Listeners can be treated the same as other test artifacts, which means you 
 
 **Right click** on Test Listeners in **Tests Explorer**. Select **New** \> **New Test Listener**.
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_3.png)
+![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png)
 
 When creating a new test listener, you can see there are 4 options in **New Test Listener** dialog:
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5 10_35_38.png)
+![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A38.png)
 
 | Generate sample Before Test Case method | A sample listener will be generated before every test case starts. |
 | --- | --- |
@@ -85,7 +85,7 @@ Visualized Workflow
 
 To not get confused with [setUp and tearDown](/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation project with/without setUp and tearDown methods.
 
-![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-6-8 18_12_39.png)
+![](../../images/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27-123A333A20.png)
 
 ### Example
 

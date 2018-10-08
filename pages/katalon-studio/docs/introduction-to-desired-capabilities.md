@@ -44,7 +44,7 @@ Please refer to specific guides below for the environment you want to set up
 > 
 > In case of Mobile execution, you need to select the device when configuring Desired Capabilities.
 > 
-> ![](../../images/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1 13_59_38.png)
+> ![](../../images/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1-133A593A38.png)
 > 
 > Where:
 > 

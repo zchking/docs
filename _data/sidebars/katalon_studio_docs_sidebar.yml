@@ -79,8 +79,8 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-              - title: "Web Locators Settings (since 5.7)"
-                url: /katalon-studio/docs/web-locators-settings-since-57.html
+              - title: "Web Locators Settings (since v5.7.1)"
+                url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Test Case"
         tree:
           - title: "Manual View"
@@ -687,6 +687,8 @@ items:
             url: /katalon-studio/docs/execute-windows-commands.html
           - title: "Execute Xpath functions"
             url: /katalon-studio/docs/execute-xpath-functions.html
+          - title: "Executing tests on Mobile Browser and app in a single TC"
+            url: /katalon-studio/docs/executing-tests-on-mobile-browser-and-app-in-a-single-tc.html
           - title: "Force stop execution"
             url: /katalon-studio/docs/force-stop-execution.html
           - title: "Get SQL query results as variables"
@@ -695,6 +697,8 @@ items:
             url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
           - title: "Handle file upload control on hidden input"
             url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
+          - title: "How to pass exitCode from Katalon to Jenkins in order to inform of Test Case failures"
+            url: /katalon-studio/docs/how-to-pass-exitcode-from-katalon-to-jenkins-in-order-to-inform-of-test-case-failures.html
           - title: "How to use different browser versions"
             url: /katalon-studio/docs/how-to-use-different-browser-versions.html
           - title: "Import Custom Keywords classes recursively"
@@ -719,94 +723,6 @@ items:
             url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
           - title: "Retrieve mobile's session"
             url: /katalon-studio/docs/retrieve-mobiles-session.html
-          - title: "Schedule tests to execute"
-            url: /katalon-studio/docs/schedule-tests-to-execute.html
-          - title: "Set cookies for browsers"
-            url: /katalon-studio/docs/set-cookies-for-browsers.html
-      - title: "Release Notes"
-        tree:
-          - title: "Version 5.7"
-            url: /katalon-studio/docs/version-57.html
-          - title: "Version 5.6"
-            tree:
-              - title: "Version 5.6.0"
-                url: /katalon-studio/docs/version-560.html
-              - title: "Version 5.6.1"
-                url: /katalon-studio/docs/version-561.html
-              - title: "Version 5.6.3"
-                url: /katalon-studio/docs/version-563.html
-          - title: "Version 5.5"
-            url: /katalon-studio/docs/version-55.html
-          - title: "Version 5.4"
-            tree:
-              - title: "Version 5.4.0"
-                url: /katalon-studio/docs/version-540.html
-              - title: "Version 5.4.1"
-                url: /katalon-studio/docs/version-541.html
-              - title: "Version 5.4.2"
-                url: /katalon-studio/docs/version-542.html
-          - title: "Version 5.3"
-            tree:
-              - title: "Version 5.3.0"
-                url: /katalon-studio/docs/version-530.html
-              - title: "Version 5.3.1"
-                url: /katalon-studio/docs/version-531.html
-          - title: "Version 5.2"
-            url: /katalon-studio/docs/version-52.html
-          - title: "Version 5.1"
-            tree:
-              - title: "Version 5.1.0"
-                url: /katalon-studio/docs/version-510.html
-              - title: "Version 5.1.0.2"
-                url: /katalon-studio/docs/version-5102.html
-          - title: "Version 5.0"
-            tree:
-              - title: "Version 5.0.0"
-                url: /katalon-studio/docs/version-500.html
-              - title: "Version 5.0.1"
-                url: /katalon-studio/docs/version-501.html
-          - title: "Version 4.8"
-            url: /katalon-studio/docs/version-48.html
-          - title: "Version 4.7"
-            tree:
-              - title: "Version 4.7.0"
-                url: /katalon-studio/docs/version-470.html
-              - title: "Version 4.7.1"
-                url: /katalon-studio/docs/version-471.html
-              - title: "Version 4.7.2"
-                url: /katalon-studio/docs/version-472.html
-          - title: "Version 4.6"
-            url: /katalon-studio/docs/version-46.html
-          - title: "Version 4.5"
-            url: /katalon-studio/docs/version-45.html
-          - title: "Version 4.4"
-            url: /katalon-studio/docs/version-44.html
-          - title: "Version 4.3"
-            url: /katalon-studio/docs/version-43.html
-          - title: "Version 4.2"
-            url: /katalon-studio/docs/version-42.html
-          - title: "Version 4.1"
-            url: /katalon-studio/docs/version-41.html
-          - title: "Version 4.0"
-            tree:
-              - title: "Version 4.0.0"
-                url: /katalon-studio/docs/version-400.html
-              - title: "Version 4.0.1"
-                url: /katalon-studio/docs/version-401.html
-          - title: "Version 3.6"
-            url: /katalon-studio/docs/version-36.html
-          - title: "Version 3.5"
-            url: /katalon-studio/docs/version-35.html
-          - title: "Version 3.3"
-            url: /katalon-studio/docs/version-33.html
-          - title: "Version 3.2"
-            tree:
-              - title: "Version 3.2.0"
-                url: /katalon-studio/docs/version-320.html
-              - title: "Version 3.2.1"
-                url: /katalon-studio/docs/version-321.html
-          - title: "Version 3.1"
-            url: /katalon-studio/docs/version-31.html
       - title: "Known Issues / Limitations"
         url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Deprecated Documentation"
@@ -834,15 +750,21 @@ items:
       - title: "Quick Start"
         url: /katalon-analytics/docs/quick-start.html
       - title: "Upload Reports"
-        url: /katalon-analytics/docs/upload-reports.html
+        tree:
+          - title: "From Katalon Studio"
+            url: /katalon-analytics/docs/from-katalon-studio.html
+          - title: "From Command Line"
+            url: /katalon-analytics/docs/from-command-line.html
       - title: "Access Reports"
         tree:
           - title: "View Reports"
             url: /katalon-analytics/docs/view-reports.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/filter-and-sort.html
-      - title: "Project and Execution Deletion"
-        url: /katalon-analytics/docs/project-and-execution-deletion.html
+      - title: "Projects Management"
+        tree:
+          - title: "Project and Execution Deletion"
+            url: /katalon-analytics/docs/project-and-execution-deletion.html
       - title: "User Management"
         url: /katalon-analytics/docs/user-management.html
       - title: "Integration with Katalon Studio"

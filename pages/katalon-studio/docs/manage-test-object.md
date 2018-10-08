@@ -11,11 +11,11 @@ Create a Test Object
 --------------------
 
 1.  Select **File > New > Test Object** from the main menu. The **New Test Object** dialog will be displayed.  
-    ![](../../images/katalon-studio/docs/manage-test-object/image2017-1-24 11_25_41.png)  
+    ![](../../images/katalon-studio/docs/manage-test-object/image2017-1-24-113A253A41.png)  
       
     
 2.  Provide the name for the new test object, then click **OK** button. A new test object is created under the** Object Repository** of Katalon Studio.  
-    ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6 10_21_4.png)
+    ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6-103A213A4.png)
     
 
 Add an object property
@@ -27,7 +27,7 @@ Add an object property
       
     
 2.  The **Add property** dialog is displayed.   
-    ![](../../images/katalon-studio/docs/manage-test-object/image2017-10-17 11_33_56.png)
+    ![](../../images/katalon-studio/docs/manage-test-object/image2017-10-17-113A333A56.png)
     
     where:
     
@@ -37,7 +37,7 @@ Add an object property
     | Match condition | The condition which will be used to search for the "_actual_" object in the application under test when executing automation tests. |
     
 3.  The new property is added to the properties list as specified. Provide the value which will be used to search for the "_actual_" object in the application under test when executing automation tests.  
-    ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-5 19_9_19.png)
+    ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-5-193A93A19.png)
 
 Manage parent object
 --------------------
@@ -46,18 +46,20 @@ Nowadays, there are many web applications which render elements in an [iframe](
 
 Katalon Studio does support the ability to define parent iframe object within test object view, so you just only need to select the parent iframe and the execution will automatically switch to that iFrame.
 
-![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6 10_26_6.png)
+![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6-103A263A6.png)
 
 Properties used for detecting an object
 ---------------------------------------
 
-> *   Available since version 5.0
+> *   Available since version 5.0+
 > *   [How to get Web objects XPath or CSS Locator](/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
 > *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 
 #### Selection Method
 
-Katalon Studio allows users to select methods on how objects will be located. For more details, please refer to this [documentation](/x/ZxlO).
+> Read more about [Selection Method](/x/ZxlO).
+
+Katalon Studio allows you to choose different ways to locate objects.
 
 *   **XPath**
     *   Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors.
@@ -65,7 +67,7 @@ Katalon Studio allows users to select methods on how objects will be located. Fo
     *   Katalon Studio will _automatically_ generate its **XPath** that **combined** with object **properties** to locate the object. This **XPath** will be displayed in **Selector Editor**. 
     *   A test object is typically built up by a number of properties. During test execution, Katalon Studio bases on such information in order to detect an object. Using **Detect object by** field, you can determine the properties to be utilized for recognizing objects.  
         In the following example, during execution, Katalon Studio will try to find any object on AUT with both **_text _**and **_XPath _**that satisfy the defined criteria  
-        ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-5 19_13_19.png)
+        ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-5-193A133A19.png)
 *   **CSS**
     *   When selected, users are allowed to **manually** input **CSS** locator for objects in **Selector Editor**.
 
@@ -75,7 +77,7 @@ Validate Test Object on AUT
 You can add test objects to **Web Object Spy** dialog to verify whether they are still correctly detected in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](/pages/viewpage.action?pageId=5111951) for details regarding how to validate captured objects against the application under test.
 
 1.  To add an object to **Web Object Spy**, simply right click on the item to open its context menu and select the option.  
-    ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6 10_30_22.png)
+    ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6-103A303A22.png)
 
 Parameterizing Test Object
 --------------------------
@@ -83,11 +85,11 @@ Parameterizing Test Object
 Katalon Studio provides the user with the ability to handle dynamic objects (Objects that have some particular properties change due to certain business rules). By supporting a way to parameterize test objects, users can leverage this approach to control objects dynamically. The example below describes the basic steps to do this:
 
 1.  Open your Test Case in Manual View and double click on the object that you want to parameterize its properties.   
-    ![](../../images/katalon-studio/docs/manage-test-object/image2017-6-30 20_20_52.png)  
+    ![](../../images/katalon-studio/docs/manage-test-object/image2017-6-30-203A203A52.png)  
       
     
 2.  The **Test Object Input** dialog is displayed. Expand the **Object Parameters** section and declare your expected dynamic properties. These properties will be used to identify the test object during execution. For this example, Katalon Studio will make use of the 'id' property with its value when finding the 'txt_UserName' object.  
-    ![](../../images/katalon-studio/docs/manage-test-object/1. declare dynamic object.png)  
+    ![](../../images/katalon-studio/docs/manage-test-object/1.declare-dynamic-object.png)  
       
     
 3.  Once the property is declared, you can switch to the Script View of the Test Case and adjust how the value of the property to be perceived. (Typically, users will want to pass property value as variables or make reference to data files according to their situation).
@@ -114,7 +116,7 @@ Katalon Studio provides the user with the ability to handle dynamic objects (Obj
     
     \+ Using the variable for the value of the dynamic property
     
-    ![](../../images/katalon-studio/docs/manage-test-object/image2017-6-30 20_22_13.png)
+    ![](../../images/katalon-studio/docs/manage-test-object/image2017-6-30-203A223A13.png)
     
       
     \+ Using the variable for value in test object:  

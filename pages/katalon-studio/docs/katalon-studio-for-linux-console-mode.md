@@ -13,7 +13,7 @@ Download
 
 Sign in with the registered account on Katalon [website](https://www.katalon.com/) and select **Linux version** to download.
 
-![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/image2018-2-2 11_43_19.png)
+![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/image2018-2-2-113A433A19.png)
 
 Activation
 ----------
@@ -27,7 +27,7 @@ Execution
 
 You can find installation steps from here: [http://openjdk.java.net/install/](http://openjdk.java.net/install/). Make sure that after installation, your OpenJDK information is displayed when you execute 'java -version' command:
 
-![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-07 at 11.50.50.png)  
+![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-07-at-11.50.50.png)  
 To execute tests, follow the following steps:  
 - **Prepare project**: If you have an existing project from **Windows** or **MacOS** or from your **source control**, be **SURE** to delete **.project** file first **after** it is delivered on Linux machine.  
 - **Generate**[console mode command](/display/KD/Console+Mode+Execution#ConsoleModeExecution-CommandBuilder). This command line builder is **NOT** available in Linux version due to lack of IDE UI. Users can generate CMD directly using either Katalon Studio on **Windows** or **Mac OS**.  
@@ -49,10 +49,10 @@ Troubleshooting
 
 ### Invalid Project Description
 
-This might happen because .project file contains invalid information or Katalon command was executed lines in the SAME folder of project folder ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.07.44.png)
+This might happen because .project file contains invalid information or Katalon command was executed lines in the SAME folder of project folder ![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-02-at-11.07.44.png)
 
 You can delete .project file to let Katalon Studio generate back the valid information or execute commands outside of executed project folder.  
-![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen Shot 2018-02-02 at 11.08.52.png)
+![](../../images/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-02-at-11.08.52.png)
 
 ### 'NoClassDefFoundError' error
 

@@ -7,13 +7,13 @@ redirect_from:
     - "/x/lQjR"
 description: 
 ---
-In order to access **User Management **page, go to **Katalon Analytics Settings**.
+To access **User Management **page, go to **Katalon Analytics Settings > Users**. 
 
-![](../../images/katalon-analytics/docs/user-management/Screen Shot 2018-07-03 at 4.26.25 PM.png)
+_Owners _and _Admins _can **manage** roles, **invite** new users, and **remove** accounts from the project here.
 
- _Owners _and _Admins _can **manage** roles, **invite** new users, and **remove** accounts from the project here.
+> Settings are only available for Project Owners and Admins.
 
-![](../../images/katalon-analytics/docs/user-management/image2018-6-25 14_9_47.png)
+![](../../images/katalon-analytics/docs/user-management/image2018-6-25-143A93A47.png)
 
 Invite a User
 -------------
@@ -24,11 +24,11 @@ Invite a User
 
 To invite a new user to collaborate on an existing project, go to **Settings > Users**. Input the email address of the person you want to invite. 
 
-![](../../images/katalon-analytics/docs/user-management/Screen Shot 2018-06-25 at 5.02.53 PM.png)
+![](../../images/katalon-analytics/docs/user-management/Screen-Shot-2018-06-25-at-5.02.53-PM.png)
 
 Before that person has accepted the invite, their email address will be listed below **Invited Users**.
 
-![](../../images/katalon-analytics/docs/user-management/Screen Shot 2018-06-25 at 4.33.36 PM.png)
+![](../../images/katalon-analytics/docs/user-management/Screen-Shot-2018-06-25-at-4.33.36-PM.png)
 
 Once the person has joined the project, their name and email address will be listed below **Users**, and the project's _Owner_ or _Admin_ can assign roles accordingly. 
 
@@ -72,15 +72,15 @@ When you are first invited to collaborate on a project, your default is _User_.
 
 As an _Admin _or _Owner_, if there is a specific permission you would like to enable for users who are already assigned a specific role, you can modify an existing role by clicking on the pencil icon in **User management.** 
 
-![](../../images/katalon-analytics/docs/user-management/image2018-6-25 13_33_1.png)
+![](../../images/katalon-analytics/docs/user-management/image2018-6-25-133A333A1.png)
 
 You can choose a new role for the user from the drop down options.
 
-![](../../images/katalon-analytics/docs/user-management/image2018-6-25 15_51_21.png)
+![](../../images/katalon-analytics/docs/user-management/image2018-6-25-153A513A21.png)
 
 Remove a User
 -------------
 
 When clicking on the **Remove** button next to a user's name, the _Admin_ or _Owner_ can remove that person from a project. Once that user is removed, the _Admin_ or _Owner _can invited that person back in if necessary. 
 
-![](../../images/katalon-analytics/docs/user-management/image2018-7-3 16_44_11.png)
+![](../../images/katalon-analytics/docs/user-management/image2018-7-3-163A443A11.png)

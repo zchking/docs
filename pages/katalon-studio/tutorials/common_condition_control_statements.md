@@ -22,7 +22,7 @@ Decision-making statements
 
 Open a test case in the **Manual** view, then navigate to **Decision-making** Statements from command toolbar.
 
-![navigate to Decision-making Statements from command toolbar](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2015%3A16%3A40.png)
+![navigate to Decision-making Statements from command toolbar](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-153A163A40.png)
 
 Refer to the following table for the usage of each statement:
 
@@ -32,11 +32,11 @@ Refer to the following table for the usage of each statement:
 |  Else If | Using Else If after If, you can create a combination of conditions where the steps within the _first_ satisfied condition will be executed. |
 |  Else |  This statement serves as the conclusion of the If – Else If – Else structure. The steps within this statement will be executed if all the conditions above it are not triggered. |
 
-![you can create a combination of conditions](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2014%3A23%3A17.png)
+![you can create a combination of conditions](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-143A233A17.png)
 
 <table><thead><tr><th>Statement</th> <th>Description</th> </tr></thead><tbody><tr><td>Switch</td> <td>This statement requires an expression, which is often referred to as the control expression (or control variable), as input value.</td> </tr><tr><td>Case</td> <td>The Cases indicate the assumed value for the control expression, with the corresponding steps to be executed when a match occurs.<br>Each Case will have a Break by default which should be positioned at the end of the Case block to mark the end of it.</td> </tr><tr><td>Default</td> <td>This statement is included automatically within every Switch statement. In situations where there is no case matched, all the steps under default will be executed.</td></tr></tbody></table>
 
-![Common Condition and Control statements with Katalon Studio](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2014%3A47%3A59.png)
+![Common Condition and Control statements with Katalon Studio](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-143A473A59.png)
 
 ### In the Script view
 
@@ -53,7 +53,7 @@ Looping statements
 
 Open a test case in Manual view, then navigate to **Looping Statements** from the command toolbar.
 
-![Katalon Studio looping statement](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2015%3A29%3A14.png)
+![Katalon Studio looping statement](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-153A293A14.png)
 
 Refer to the following table for the usage of each statement:
 
@@ -61,13 +61,13 @@ Refer to the following table for the usage of each statement:
 | --- | --- |
 | **For** | This statement accepts a _range_, _list_ or _array_ as input value so that Katalon Studio knows how many times to execute all steps within the For structure. |
 
-![how many times to execute all steps within the For structure](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2015%3A49%3A5.png)
+![how many times to execute all steps within the For structure](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-153A493A5.png)
 
 | Statement | Description |
 | --- | --- |
 | **While** | This statement requires a boolean condition as input value so that Katalon Studio will keep executing all steps within until the condition fails. |
 
-![ Katalon Studio will keep executing all steps within until the condition fails](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2015%3A53%3A44.png)
+![ Katalon Studio will keep executing all steps within until the condition fails](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-153A533A44.png)
 
 ### In the Script view
 
@@ -84,7 +84,7 @@ Branching statements
 
 Open a test case in the Manual view, then navigate to **Branching Statements** from the command toolbar.
 
-![Katalon Studio Branching Statements](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A17%3A13.png)
+![Katalon Studio Branching Statements](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-163A173A13.png)
 
 Refer to the following table for the usage of each statement:
 
@@ -92,19 +92,19 @@ Refer to the following table for the usage of each statement:
 | --- | --- |
 | **Break** | Katalon Studio exits the current code block and continues to the next code block/test step. |
 
-![the next code block/test step](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A36%3A37.png)
+![the next code block/test step](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-163A363A37.png)
 
 | Statement | Description |
 | --- | --- |
 | **Continue** | Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop. |
 
-![ the next iteration of the loop.](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A42%3A13.png)
+![ the next iteration of the loop.](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-163A423A13.png)
 
 | **Statement** | **Description** |
 | --- | --- |
 | **Return** | Katalon exits from the current method/step, and the flow control is returned to where the method/step is previously invoked. |
 
-![the flow control is returned](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2016%3A47%3A44.png)
+![the flow control is returned](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-163A473A44.png)
 
 ### In the Script view
 
@@ -121,7 +121,7 @@ Exception handling block
 
 Open a test case in Manual view, then navigate to **Exception Handling Statements** from the command toolbar.
 
-![Katalon Studio Exception Handling Statements](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9%2017%3A0%3A13.png)
+![Katalon Studio Exception Handling Statements](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-9-173A03A13.png)
 
 Refer to the following table for the usage of each statement:
 
@@ -132,7 +132,7 @@ Refer to the following table for the usage of each statement:
 | **Catch** | Katalon Studio executes all steps within the Catch block when there is any issue occurring during execution of the Try block. |
 | **Finally** | This is the last part of the Try-Catch-Finally structure and all steps within this block will be executed regardless of what exceptions and whether they are handled in the Catch block. |
 
-![the usage of each statement](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-28%2011%3A51%3A55.png)
+![the usage of each statement](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-28-113A513A55.png)
 
 ### In the Script view
 
@@ -140,4 +140,4 @@ The Script view of test cases allows you to programmatically define and handle e
 
 For example:
 
-![Katalon Studio Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-28%2013%3A20%3A32.png)
+![Katalon Studio Script View](../../images/katalon-studio/tutorials/common_condition_control_statements/image2017-2-28-133A203A32.png)

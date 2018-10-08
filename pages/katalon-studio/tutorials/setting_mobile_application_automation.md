@@ -1,5 +1,5 @@
 ---
-title: "Setting up for Mobile Application Automation"
+title: "Setting up Mobile automation project in Windows"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/setting_mobile_application_automation.html
 description: "Test automation for mobile app required to set up testing environment before performing any test. Learn how to perform mobile testing in Katalon Studio."
@@ -91,4 +91,4 @@ As an example, let's see how it works in record mode.
 
 ![Device View pane in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Device-View-pane-in-Katalon.png)
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile on Windows](/display/KD/Mobile+on+Windows) guideline and join us on [Katalon Forum](http://forum.katalon.com/)./).
+The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile on Windows](/display/KD/Mobile+on+Windows) guideline and join us on [Katalon Forum](http://forum.katalon.com/).

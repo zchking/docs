@@ -14,17 +14,17 @@ Overview
 
 Features File is located within **'Include/'features'** folder from your project folder and can be seen from _Tests Explorer_:
 
-![](../../images/katalon-studio/docs/cucumber-features-file/Screenshot at Sep 04 11-17-22.png)
+![](../../images/katalon-studio/docs/cucumber-features-file/Screenshot-at-Sep-04-11-17-22.png)
 
 The content of _Features_ File will follow BDD conventions (_Given, When, The_n). When creating a new _Features_ File, there will be an option to '**Generate sample Feature template**' which will generate a sample template for your _Features_ File. This will ensure that the created _Features_ File matches with BDD convention so that you will reduce efforts in creating _Features_ File in the correct format. 
 
-![](../../images/katalon-studio/docs/cucumber-features-file/Screen Shot 2018-09-06 at 11.34.52 AM.png)
+![](../../images/katalon-studio/docs/cucumber-features-file/Screen-Shot-2018-09-06-at-11.34.52-AM.png)
 
 Let's look at an example of Katalon Demo Cura System ([http://demoaut.katalon.com).](http://demoaut.katalon.com%29./) We want to test the _Login_ feature with a valid and invalid credential so the content will be something like this:
 
 > Tags are a great way to organize Features and Scenarios. [Read more...](https://docs.cucumber.io/cucumber/api/#tags)
 
-![](../../images/katalon-studio/docs/cucumber-features-file/Screen Shot 2018-09-06 at 9.00.58 AM.png)
+![](../../images/katalon-studio/docs/cucumber-features-file/Screen-Shot-2018-09-06-at-9.00.58-AM.png)
 
 **Sample Features File **
 
@@ -92,7 +92,7 @@ There will be cases the current _Features_ File meet one of the following mainte
 
 Above difficulties have been handled directly from the context menu of Feature File editor.
 
-![](../../images/katalon-studio/docs/cucumber-features-file/Screen Shot 2018-09-06 at 9.04.08 AM.png)
+![](../../images/katalon-studio/docs/cucumber-features-file/Screen-Shot-2018-09-06-at-9.04.08-AM.png)
 
 | Action | Description |
 | --- | --- |

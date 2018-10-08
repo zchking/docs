@@ -27,7 +27,7 @@ Start Katalon Studio
 
 To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows)
 
-![Download and Start Katalon Studio](../../images/katalon-studio/tutorials/install_setup_katalon_studio/Starting%20Katalon%20Studio.png)
+![Download and Start Katalon Studio](../../images/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
 
 or **Katalon Studio** (macOS) file in the directory where you unpack Katalon Studio. For example:
 
@@ -35,14 +35,14 @@ or **Katalon Studio** (macOS) file in the directory where you unpack Katalon Stu
 
 Once started, the application should display the splash screen similar to the following screenshot:
 
-![Katalon Studio Loading](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20%2014%3A11%3A21.png)
+![Katalon Studio Loading](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
 Activate Katalon Studio
 -----------------------
 
 After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio. The username and password are the same as the one with which you've registered to download Katalon Studio from [https://www.katalon.com/](https://www.katalon.com/).
 
-![Katalon Studio Activation pop-up](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2017-2-16%2017%3A30%3A12.png)
+![Katalon Studio Activation pop-up](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2017-2-16-173A303A12.png)
 
 If you have troubles activating Katalon Studio due to proxy issues, you can click on [Config Proxy](/display/KD/Proxy+Preferences) to configure the proxy setting accordingly.
 
@@ -50,7 +50,7 @@ If you are unable to access the Internet for activation, you can select Offline 
 
 When your build is activated, the **Quick Guide** screen is displayed to guide you through all major features. You can skip this and view the Quick Guide later from the **Help** menu.
 
-![Katalon Studio Quick Guide Overview](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2017-2-20%2011%3A30%3A20.png)
+![Katalon Studio Quick Guide Overview](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2017-2-20-113A303A20.png)
 
 You have successfully downloaded and activated Katalon Studio. Next, please refer to the following  guides to setup your test project:
 

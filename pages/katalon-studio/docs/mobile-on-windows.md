@@ -14,17 +14,19 @@ Katalon Studio Supported Environment on Windows
 
 |   | Version |
 | --- | --- |
-| Appium | 1.6, 1.7 |
+| Appium | 1.6, 1.7, 1.8 |
 | Android | 6.x, 7.x |
 
 Installing Dependencies
 -----------------------
 
-Due to the diifferences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. Thus, in order to succesfully create and run a test case using Katalon Studio on Windows, you will need [Appium](http://appium.io/downloads.html).
+Due to the diifferences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. Thus, in order to succesfully create and run a test case using Katalon Studio on Windows, you will need [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
 > Attention
 > 
-> Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+> *   Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+> *   Appium 1.9 is **not** supported, so please kinldy install Appium 1.8. The installation command is:  
+>     npm install -g appium@1.8.1
 
 Setting Up Your Devices
 -----------------------
@@ -38,14 +40,14 @@ Verifiying the Setup
 
 After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in your Katalon Studio installation) and execute a test suite using an Android device: 
 
-![](../../images/katalon-studio/docs/mobile-on-windows/image2017-6-29 14_48_34.png)  
+![](../../images/katalon-studio/docs/mobile-on-windows/image2017-6-29-143A483A34.png)  
 Select your device from the **Android Devices** list. Click **OK**. 
 
-![](../../images/katalon-studio/docs/mobile-on-windows/image2018-1-26 18_39_1.png)
+![](../../images/katalon-studio/docs/mobile-on-windows/image2018-1-26-183A393A1.png)
 
 If your test suite runs successfully, you will see the results in the test reports as follow:
 
-![](../../images/katalon-studio/docs/mobile-on-windows/image2018-6-15 17_47_28.png)
+![](../../images/katalon-studio/docs/mobile-on-windows/image2018-6-15-173A473A28.png)
 
 For more information on how to run a test suite, check out the documentation [here](/pages/viewpage.action?pageId=786668).
 

@@ -18,7 +18,6 @@ Parameters
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
-| timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return result. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
@@ -57,7 +56,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 'Wait for btn_Login to be visible in 10s'
-WebUI.verifyElementVisible(findTestObject('Page_Login/btn_Login'), 10)
+WebUI.verifyElementVisible(findTestObject('Page_Login/btn_Login'))
 
 'Close browser'
 WebUI.closeBrowser()

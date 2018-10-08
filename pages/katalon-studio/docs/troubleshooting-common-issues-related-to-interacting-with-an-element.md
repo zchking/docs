@@ -48,7 +48,7 @@ WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element
 ```
 
   
-**4\. "Element is not clickable at point (x,x).** Another element **would receive the click...":**
+**4\. "Element is not clickable at point (x,x). Other** element **would receive the click...":**
 
 *   Happens mostly on Chrome ([source](http://chromedriver.chromium.org/help/clicking-issues)).
 *   The element is clickable but there is a spinner/overlay on top of it.

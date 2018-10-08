@@ -17,7 +17,7 @@ General Execution Preferences
 
 You can configure general execution preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Execution**.
 
-![](../../images/katalon-studio/docs/execution-preferences-version-50-and-below/image2017-6-29 16_0_23.png)
+![](../../images/katalon-studio/docs/execution-preferences-version-50-and-below/image2017-6-29-163A03A23.png)
 
 Where:
 
@@ -30,7 +30,7 @@ WebUI Preferences
 
 You can configure WebUI execution preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Execution > WebUI**.
 
-![](../../images/katalon-studio/docs/execution-preferences-version-50-and-below/image2017-6-29 16_1_20.png)
+![](../../images/katalon-studio/docs/execution-preferences-version-50-and-below/image2017-6-29-163A13A20.png)
 
 Where:
 

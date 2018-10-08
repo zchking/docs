@@ -34,7 +34,7 @@ Example 
 You want to verify if the returned message after logging in successfully does not match the expected message.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/common-call-test-case/image2017-3-3 17_49_2.png)
+    ![](../../images/katalon-studio/docs/common-call-test-case/image2017-3-3-173A493A2.png)
 *   Script view 
     
     ```groovy

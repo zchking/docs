@@ -50,17 +50,17 @@ import org.openqa.selenium.chrome.ChromeDriver
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 System.setProperty("webdriver.chrome.driver", "C:\\test\\chromedriver.exe")
  
-WebDriver driver = <strong>new</strong> ChromeDriver()
+WebDriver driver = new ChromeDriver()
  
 // this won't work and exception would be thrown
  
-WebUI.click(<u>testObject</u>)
+WebUI.click(testObject)
  
 DriverFactory.changeWebDriver(driver)
  
 // now, it is working as expected
  
-WebUI.click(<u>testObject</u>)
+WebUI.click(testObject)
 
 ```
 
@@ -157,14 +157,14 @@ import com.kms.katalon.core.webui.driver.DriverFactory
  
 String downloadPath = "C:\\customDownloadFolder\\"
  
-Map<String, Object> chromePrefs = <strong>new</strong> HashMap<String, Object>()
+Map<String, Object> chromePrefs = new HashMap<String, Object>()
 chromePrefs.put("download.default_directory", downloadPath)
-chromePrefs.put("download.prompt_for_download", <strong>false</strong>)
+chromePrefs.put("download.prompt_for_download", false)
  
 System.setProperty("webdriver.chrome.driver", DriverFactory.getChromeDriverPath())
-ChromeOptions options = <strong>new</strong> ChromeOptions()
+ChromeOptions options = new ChromeOptions()
 options.setExperimentalOption("prefs", chromePrefs)
-WebDriver driver = <strong>new</strong> ChromeDriver(options)
+WebDriver driver = new ChromeDriver(options)
 
 ```
 

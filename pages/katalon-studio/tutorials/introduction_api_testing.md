@@ -2,7 +2,7 @@
 title: "Introduction to API Testing"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/introduction_api_testing.html
-description: "An overview of API testing with candid answers to What - When - Why-questions that shed light on the mysterious land hidden inside the boundary of testing."
+description: "This article aims to provide an overview of API testing with the What - When - Why-questions that hopefully help you achieve API testing successfully."
 ---
 This article aims to provide an overview of API testing with candid answers to the What – When – Why-questions that hopefully shed light on this mysterious land hidden inside the boundary of testing – engineering realm.
 
@@ -11,9 +11,9 @@ You will also find potential challenges with API test implementation – best pr
 What is API testing?
 --------------------
 
-API testing is a type of [software testing](https://en.wikipedia.org/wiki/Software_testing) that involves testing application programming interfaces (APIs) directly and as part of [integration testing](https://en.wikipedia.org/wiki/Integration_testing) to determine if they meet expectations for functionality, reliability, performance, and security. Since APIs lack a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), API testing is performed at the message layer and can validate application logic very quickly and effectively.
+API testing is a type of software testing that involves testing application programming interfaces (APIs) directly and as part of integration testing to determine if they meet expectations for functionality, reliability, performance, and security. Since APIs lack a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), API testing is performed at the message layer and can validate application logic very quickly and effectively.
 
-API testing is critical for automation testing and CI/CD process because it can coop with short release cycles and frequent changes especially the presentation layer without breaking the test outputs. API testing also requires less maintenance effort compare to UI automation testing which makes it a preferred choice for Agile and [DevOps](https://en.wikipedia.org/wiki/DevOps) teams.
+API testing is critical for automation testing and CI/CD process because it can coop with short release cycles and frequent changes especially the presentation layer without breaking the test outputs. API testing also requires less maintenance effort compare to UI automation testing which makes it a preferred choice for Agile and DevOps teams.
 
 A side note, for Web and mobile applications, API often means Web services, and API testing refers to the automation test performed to the Web services.
 
@@ -24,14 +24,14 @@ Commonly, applications have three separate layers or tiers including Presentatio
 
 API Testing is performed at the most critical layer, the Business Layer, where business logic processing is carried out, and all transactions between User Interface and Database happen.
 
-![](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-9%402x.png)
+![](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-9402x.png)
 
 Why do we need to perform API testing?
 --------------------------------------
 
 The figure below shows three different layers of testing called [the test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) initially coined by Mike Cohn in his book Succeeding with Agile. It has layers representing different types of testing. Despite its being overly simplistic, it offers us a general rule of thumb: it suggests how much testing we should focus on at each layer. As such, API and services tests in the second layer is an important testing activity that we should focus on.
 
-![Why we need perform API testing](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-10%402x.png)
+![Why we need perform API testing](../../images/katalon-studio/tutorials/introduction_api_testing/Asset-10402x.png)
 
 Unit/component tests: This lowest level of testing brings the highest value and ROI. It is mainly performed by developers. The unit/component tests can attain between 70% and 80% of code coverage and require as much effort.
 
@@ -130,7 +130,7 @@ Fuzz testing is another step in the whole security audit process. In this testin
 API testing best practices
 --------------------------
 
-![API Testing Best Practices](../../images/katalon-studio/tutorials/introduction_api_testing/hero-03-1024x512.png)
+![API Testing Best Practices](../../images/katalon-studio/tutorials/introduction_api_testing/API-Testing-Best-Practices-1024x512.png)
 
 ### Priorities
 
@@ -252,10 +252,19 @@ Particularly, these tools are generally expensive to purchase and maintain the l
 
 However, there are recently some vendor tools that can eliminate some disadvantages from the above vendor tools. For instance, [Katalon Studio](https://www.katalon.com/katalon-studio/) is a free tool with comparable features to commercial tools, or Postman is considered easy to setup and use compared the rest of commercial solutions. You can learn more about the top API testing tools here.
 
-Selecting the right API testing tool is challenging but you can shortlist the choice from the candidates above considering your requirements, pros and cons of each solution — try not too ambitious at the early stage and doing the POC with the top 3 relevant solutions. You will have a better understanding of your project's critical factors and issues to eliminate tools or fine-tune your choice to the most suitable solution for your project.  
+Selecting the right API testing tool is challenging but you can shortlist the choice from the candidates above considering your requirements, pros and cons of each solution — try not too ambitious at the early stage and doing the POC with the top 3 relevant solutions. You will have a better understanding of your project's critical factors and issues to eliminate tools or fine-tune your choice to the most suitable solution for your project. Below is the top 5 API Testing Tools for 2018 (Learn more [Top 10 API Testing Tools for 2018](https://medium.com/@alicealdaine/top-10-api-testing-tools-rest-soap-services-5395cb03cfa9))
+
+![Top 5 API Testing Tools](../../images/katalon-studio/tutorials/introduction_api_testing/Top-5-API-Testing-tools.png)
 
 _**The interest in API testing has been trending up over the last five years, according to Google Trends. This growth possibly indicates that the demand for applying API testing has been increasing along with Agile and CI/CD adoption trends. Testing API and web services is no longer an activity taken solely by developers but gradually taken by the testing members who independently verify and validate API/services. So now it's a good time for you to start learning API testing if you haven't done so, it will be a valuable skillset with high demand for the future to come.**_
 
 [![](../../images/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png)](https://www.katalon.com/download)
 
-Read more:_[Top 10 API Testing Tools (Details and updates done for you!)](https://medium.com/@alicealdaine/top-10-api-testing-tools-rest-soap-services-5395cb03cfa9)_
+Read more:
+
+*   [Create your first API test with Katalon Studio](/katalon-studio/tutorials/create-first-api-test-katalon-studio/)
+*   [How to perform API Testing in Katalon Studio](https://www.katalon.com/videos/perform-api-testing-katalon-studio/)
+*   [API Testing with Katalon Studio for DELETE request](https://www.katalon.com/videos/api-testing-katalon-studio-delete-request/)
+*   [API Testing with Katalon Studio for PUT request and verify the response](https://www.katalon.com/videos/api-testing-katalon-studio-put-request-verify-response/)
+*   [API Testing with Katalon Studio for POST request and verify the response](https://www.katalon.com/videos/api-testing-katalon-studio-post-request-verify-response/)
+*   [Top 50+ Web API Testing Interview Questions \[Ultimate list\]](/katalon-studio/blog/web-api-testing-interview-questions/)

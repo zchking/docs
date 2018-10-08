@@ -12,7 +12,7 @@ Katalon Studio Supported Environment on macOS
 
 |   | Version |
 | --- | --- |
-| Appium | 1.6, 1.7 |
+| Appium | 1.6, 1.7, 1.8 |
 | Android | 6.x, 7.x |
 | iOS | 9, 10,11 |
 
@@ -24,10 +24,14 @@ Due to the differences in computer environments, the Katalon download package do
 > Attention
 > 
 > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check you emulator's settings before proceeding with Appium installation.
+> 
+> Appium 1.9 is **not** supported, so please kinldy install Appium 1.8. The installation command is:
+> 
+> npm install -g appium@1.8.1
 
 ### Android
 
-If you want to test an Android application on your local device. You will need to install [Appium](http://appium.io/downloads.html). 
+If you want to test an Android application on your local device. You will need to install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium). 
 
 ### iOS
 
@@ -60,9 +64,9 @@ Setting Up Your Devices
     1.  1.  Open **Xcode** and navigate to **Window/Devices**
         2.  Choose your device from the Devices list
         3.  Press the "+" button and choose you application file  
-            ![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8 14_31_5.png)
+            ![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
         4.  If installed successfully, the application will appear in the Installed Apps section as shown below.  
-            **![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8 14_31_14.png)**
+            **![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)**
 
 Verifiying the Setups
 ---------------------
@@ -71,14 +75,14 @@ Verifiying the Setups
 
 After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in your Katalon Studio installation) and execute a test suite using an Android device: 
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2017-6-29 14_48_34.png)  
+![](../../images/katalon-studio/docs/mobile-on-macos/image2017-6-29-143A483A34.png)  
 Select your device from the **Android Devices** list. Click **OK**. 
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2018-1-26 18_39_1.png)
+![](../../images/katalon-studio/docs/mobile-on-macos/image2018-1-26-183A393A1.png)
 
 If your test suite runs successfully, you will see the results in the test reports as follow:
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2018-6-15 17_47_28.png)
+![](../../images/katalon-studio/docs/mobile-on-macos/image2018-6-15-173A473A28.png)
 
 For more information on how to run a test suite, check out the documentation [here](/pages/viewpage.action?pageId=786668).
 

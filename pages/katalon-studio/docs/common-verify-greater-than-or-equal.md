@@ -32,7 +32,7 @@ Example 
 You want to verify if the first number is greater than or equal to the second number.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/common-verify-greater-than-or-equal/image2017-3-3 17_30_33.png)
+    ![](../../images/katalon-studio/docs/common-verify-greater-than-or-equal/image2017-3-3-173A303A33.png)
 *   Script view 
     
     ```groovy

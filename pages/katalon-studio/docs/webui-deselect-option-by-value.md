@@ -12,7 +12,7 @@ Description
 
 Deselect the options with the given value.
 
-![](../../images/katalon-studio/docs/webui-deselect-option-by-value/image2017-3-1 15_10_55.png)
+![](../../images/katalon-studio/docs/webui-deselect-option-by-value/image2017-3-1-153A103A55.png)
 
 Parameters
 ----------

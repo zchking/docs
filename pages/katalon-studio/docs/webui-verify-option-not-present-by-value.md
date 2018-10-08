@@ -12,7 +12,7 @@ Description
 
 Verify if the options with the given value do NOT present.
 
-![](../../images/katalon-studio/docs/webui-verify-option-not-present-by-value/image2017-3-1 18_20_51.png)
+![](../../images/katalon-studio/docs/webui-verify-option-not-present-by-value/image2017-3-1-183A203A51.png)
 
 Parameters
 ----------

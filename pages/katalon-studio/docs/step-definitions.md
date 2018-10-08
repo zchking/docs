@@ -14,7 +14,7 @@ Each Gherkin step in the _Features_ file needs to be defined as a set of program
   
 For example, let's take the Gherkin scenarios from _Features_ File above and define the steps:
 
-![](../../images/katalon-studio/docs/step-definitions/Screen Shot 2018-08-30 at 2.11.31 PM.png)
+![](../../images/katalon-studio/docs/step-definitions/Screen-Shot-2018-08-30-at-2.11.31-PM.png)
 
 **Step Definitions**
 

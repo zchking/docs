@@ -25,7 +25,7 @@ Example 
 You want to switch the current device's mode to landscape mode.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-switch-to-landscape/image2017-3-3 14_32_9.png)
+    ![](../../images/katalon-studio/docs/mobile-switch-to-landscape/image2017-3-3-143A323A9.png)
 *   Script view 
     
     ```groovy
