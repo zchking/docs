@@ -19,3 +19,6 @@ topnav:
       external_url: https://api-docs.katalon.com/index.html
     - title: Support
       external_url: https://www.katalon.com/support-service-options
+    - title: What's new
+      url: /katalon-studio/new/all-versions.html
+      parenturl: /katalon-studio/new
