@@ -20,8 +20,7 @@ pipeline {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
-                        sh 'bundle exec jekyll build'
-                        sh 'chmod u+x ./build.sh && ./build.sh'
+                        sh 'bundle exec jekyll build --safe'
                         sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
