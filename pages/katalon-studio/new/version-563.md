@@ -1,7 +1,7 @@
 ---
 title: "Version 5.6.3"
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/version-563.html
+sidebar: katalon_studio_new_sidebar
+permalink: katalon-studio/new/version-563.html
 redirect_from:
     - "/display/KD/Version+5.6.3.html"
     - "/x/xRHR"

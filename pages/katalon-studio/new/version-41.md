@@ -1,7 +1,7 @@
 ---
 title: "Version 4.1"
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/version-41.html
+sidebar: katalon_studio_new_sidebar
+permalink: katalon-studio/new/version-41.html
 redirect_from:
     - "/display/KD/Version+4.1.html"
     - "/x/HoEr"

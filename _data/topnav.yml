@@ -12,13 +12,15 @@ topnav:
     - title: Videos
       url: /katalon-studio/videos/katalon_studio_5_5_beta.html
       parenturl: /katalon-studio/videos
+    - title: Samples
+      external_url: https://github.com/katalon-studio-samples
     - title: FAQs
       url: /faqs/licensing.html
       parenturl: /faqs
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html
-    - title: Support
-      external_url: https://www.katalon.com/support-service-options
-    - title: What's New
+    - title: What's new
       url: /katalon-studio/new/all-versions.html
       parenturl: /katalon-studio/new
+    - title: Support
+      external_url: https://www.katalon.com/support-service-options

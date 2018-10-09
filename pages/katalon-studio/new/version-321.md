@@ -1,7 +1,7 @@
 ---
 title: "Version 3.2.1"
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/version-321.html
+sidebar: katalon_studio_new_sidebar
+permalink: katalon-studio/new/version-321.html
 redirect_from:
     - "/display/KD/Version+3.2.1.html"
     - "/x/RoMY"
