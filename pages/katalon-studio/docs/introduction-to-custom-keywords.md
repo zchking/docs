@@ -29,7 +29,7 @@ Create a Custom Keyword
 
     > Since version 5.4, Katalon Studio provides user option to generate sample custom keywords for Web, Mobile and API Testing.
     >
-    > Refer to this guide: [/x/3QHR](/x/3QHR)
+    > Refer to this guide: [https://docs.katalon.com/x/3QHR](/x/3QHR)
 
 
     ![](../../images/katalon-studio/docs/introduction-to-custom-keywords/image2018-4-2-143A373A16.png)

@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Swipe"
+title: "[Mobile] Swipe" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-swipe.html
+permalink: katalon-studio/docs/mobile-swipe.html 
 redirect_from:
     - "/display/KD/%5BMobile%5D+Swipe/"
     - "/x/-pIY/"
     - "/katalon-studio/docs/mobile-swipe/"
-description:
+description: 
 ---
 Description
 -----------
@@ -16,7 +16,7 @@ Simulate swiping fingers on the mobile device.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th><th>Note</th></tr></thead><tbody><tr><td>startX</td><td>int</td><td>Required</td><td>Starting x position</td><td>&nbsp;</td></tr><tr><td>startY</td><td>int</td><td>Required</td><td>Starting y position</td><td>&nbsp;</td></tr><tr><td>endX</td><td>int</td><td>Required</td><td>Ending x position</td><td>Since 5.1.0.2:<br>Relative x position of startX</td></tr><tr><td>endY</td><td>int</td><td>Required</td><td>Ending y position</td><td>Since 5.1.0.2<br>Relative y position of start Y</td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td><td>&nbsp;</td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th><th>Note</th></tr></thead><tbody><tr><td>startX</td><td>int</td><td>Required</td><td>Starting x position</td><td>&nbsp;</td></tr><tr><td>startY</td><td>int</td><td>Required</td><td>Starting y position</td><td>&nbsp;</td></tr><tr><td>endX</td><td>int</td><td>Required</td><td>Ending x position</td><td>Since 5.1.0.2:<br>Relative x position of startX</td></tr><tr><td>endY</td><td>int</td><td>Required</td><td>Ending y position</td><td>Since 5.1.0.2<br>Relative y position of start Y</td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td><td>&nbsp;</td></tr></tbody></table>
 
 Example 
 --------

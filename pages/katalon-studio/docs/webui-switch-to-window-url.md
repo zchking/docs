@@ -24,7 +24,7 @@ Parameters  
 Example 
 --------
 
-You want to switch to the window with URL "[/](/)".
+You want to switch to the window with URL "[https://docs.katalon.com/](/)".
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -55,7 +55,7 @@ WebUI.openBrowser('https://www.katalon.com/')
 WebUI.click(findTestObject('Page_Katalon Studio/a_Documentation'))
 
 'Switch to Documentation window'
-WebUI.switchToWindowUrl('/')
+WebUI.switchToWindowUrl('https://docs.katalon.com/')
 
 'Close browser'
 WebUI.closeBrowser()

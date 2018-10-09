@@ -40,7 +40,7 @@ For Chrome, Katalon Recorder Helper is not required.
 
 ### Executing OS commands
 
-OS commands can be triggered using Katalon Recorder Helper. Users can combine this function with user extensions ([/x/9APR](/x/9APR)) to extend Katalon Recorder's capability.
+OS commands can be triggered using Katalon Recorder Helper. Users can combine this function with user extensions ([https://docs.katalon.com/x/9APR](/x/9APR)) to extend Katalon Recorder's capability.
 
 For example, a call to the following URL
 

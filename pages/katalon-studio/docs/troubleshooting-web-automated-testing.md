@@ -114,4 +114,4 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 ```
 
 *   Downgrade browser's version:
-    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: [/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium](/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium)
+    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: [https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium](/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium)

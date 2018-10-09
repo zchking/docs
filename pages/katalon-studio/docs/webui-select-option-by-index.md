@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Select Option By Index"
+title: "[WebUI] Select Option By Index" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-select-option-by-index.html
+permalink: katalon-studio/docs/webui-select-option-by-index.html 
 redirect_from:
     - "/display/KD/%5BWebUI%5D+Select+Option+By+Index/"
     - "/x/JZIY/"
     - "/katalon-studio/docs/webui-select-option-by-index/"
-description:
+description: 
 ---
 Description
 -----------
@@ -16,7 +16,7 @@ Select the option at the given index. Index starts from 0.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>range</td><td>Object</td><td>Required</td><td><p>Index range of the options to be deselected. Example:</p><ul><li>2 - index 2&nbsp;</li><li>"2,3" - index 2 and 3&nbsp;</li><li>"2-5" - index 2 to 5 (2,3,4,5)</li></ul></td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop</td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>to</td><td>TestObject</td><td>Required</td><td>Represent a web element.</td></tr><tr><td>range</td><td>Object</td><td>Required</td><td><p>Index range of the options to be deselected. Example:</p><ul><li>2 - index 2&nbsp;</li><li>"2,3" - index 2 and 3&nbsp;</li><li>"2-5" - index 2 to 5 (2,3,4,5)</li></ul></td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop</td></tr></tbody></table>
 
 Example
 -------
@@ -59,7 +59,7 @@ WebUI.selectOptionByIndex(findTestObject('Page_CuraAppointment/lst_Facility'), 1
 WebUI.closeBrowser()
 ```
 
-
+  
 2\. You want to select option 2 and 3 in the list.
 
 ```groovy
