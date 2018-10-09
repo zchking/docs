@@ -39,7 +39,7 @@ pipeline {
                         sh 'jekyll build'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
-                        s3Upload(file:'_site', bucket:'docs.katalon.com', path:'')
+                        s3Upload(file:'_site', bucket:'docs.katalon.com', path:'', acl:'PublicRead')
                     }
                 }
             }
