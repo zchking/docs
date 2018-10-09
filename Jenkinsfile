@@ -21,7 +21,7 @@ pipeline {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
                         sh 'bundle exec jekyll build'
-                        sh 'find _site/ -type f ! -iname "index.html" -iname "*.html" -print0 | while read -d $"\0" f; do mkdir -p "${f%.html}" && cp "$f" "${f%.html}/index.html"; done'
+                        sh 'find _site/ -type f ! -iname "index.html" -iname "*.html" -print0 | while read -d $"\\0" f; do mkdir -p "${f%.html}" && cp "$f" "${f%.html}/index.html"; done'
                         sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
@@ -38,7 +38,7 @@ pipeline {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
                         sh 'bundle exec jekyll build'
-                        sh 'find _site/ -type f ! -iname "index.html" -iname "*.html" -print0 | while read -d $"\0" f; do mkdir -p "${f%.html}" && cp "$f" "${f%.html}/index.html"; done'
+                        sh 'find _site/ -type f ! -iname "index.html" -iname "*.html" -print0 | while read -d $"\\0" f; do mkdir -p "${f%.html}" && cp "$f" "${f%.html}/index.html"; done'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs.katalon.com', path:'', acl:'PublicRead')
