@@ -3,8 +3,9 @@ title: "Version 3.5"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-35.html
 redirect_from:
-    - "/display/KD/Version+3.5.html"
-    - "/x/nIYY"
+    - "/display/KD/Version+3.5/"
+    - "/x/nIYY/"
+    - "/katalon-studio/new/version-35/"
 description:
 ---
 Notes
@@ -18,18 +19,18 @@ Improvements
 ### General
 
 *   Add settings to enable/disable 'Screen Capture' when executed steps failed. You can access this settings at _**Project > Settings > Report**_
-    ![](../../images/katalon-studio/docs/version-35/image2016-6-16-143A553A39.png)
+    ![](../../images/katalon-studio/new/version-35/image2016-6-16-143A553A39.png)
 
 
 *   Display 'Splash Screen' and 'Loading Progress Bar' when starting Katalon
-    ![](../../images/katalon-studio/docs/version-35/image2016-6-16-143A553A9.png)
+    ![](../../images/katalon-studio/new/version-35/image2016-6-16-143A553A9.png)
 
 
 
 ### Data Files
 
 *   Support 'Database Data' as a new test data type. You can set default database settings through **_Project > Settings > Database_**
-    ![](../../images/katalon-studio/docs/version-35/image2016-6-16-143A593A37.png)
+    ![](../../images/katalon-studio/new/version-35/image2016-6-16-143A593A37.png)
 
 
 
@@ -47,27 +48,27 @@ Improvements
 
 ### Record/Playback
 
-*   Record and Object Spy now can be used on current opened Chrome browsers. Users need to install Katalon's [Record](https://chrome.google.com/webstore/detail/katalon-recorder/bnaalgpdhfjepeanejkicnidgbpbmkhh?hl=en-US) and [Object Spy](https://chrome.google.com/webstore/detail/katalon-object-spy/gblkfilmbkbkjgpcoihaeghdindcanom?hl=en-US) extension on Chrome first in order to utilize this feature.![](../../images/katalon-studio/docs/version-35/image2016-6-17-173A183A24.png)
+*   Record and Object Spy now can be used on current opened Chrome browsers. Users need to install Katalon's [Record](https://chrome.google.com/webstore/detail/katalon-recorder/bnaalgpdhfjepeanejkicnidgbpbmkhh?hl=en-US) and [Object Spy](https://chrome.google.com/webstore/detail/katalon-object-spy/gblkfilmbkbkjgpcoihaeghdindcanom?hl=en-US) extension on Chrome first in order to utilize this feature.![](../../images/katalon-studio/new/version-35/image2016-6-17-173A183A24.png)
 
 
 
 ### Mobility
 
 *   Improve UX by relocating 'Device View' window to be next to 'Mobile Object Inspector' window (instead of displaying one on top of the other in previous versions)
-    ![](../../images/katalon-studio/docs/version-35/image2016-6-16-143A573A11.png)
+    ![](../../images/katalon-studio/new/version-35/image2016-6-16-143A573A11.png)
 
 
 
 ### Test Case
 
 *   Hide FailureHandling value when users add new test step using built-in keyword. You can configure it through _**Project > Settings > Test Case > Default FailureHandling for Test Step**_
-    _**![](../../images/katalon-studio/docs/version-35/image2016-6-16-143A573A45.png)**_
+    _**![](../../images/katalon-studio/new/version-35/image2016-6-16-143A573A45.png)**_
 
 
 ### Test Suite
 
 *   Support the ability to execute multiple test suites using 'Test Suites Collection'
-    ![](../../images/katalon-studio/docs/version-35/image2016-6-16-143A593A3.png)
+    ![](../../images/katalon-studio/new/version-35/image2016-6-16-143A593A3.png)
 
 
 

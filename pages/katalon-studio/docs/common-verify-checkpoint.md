@@ -1,11 +1,12 @@
 ---
-title: "[Common] Verify Checkpoint" 
+title: "[Common] Verify Checkpoint"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-checkpoint.html 
+permalink: katalon-studio/docs/common-verify-checkpoint.html
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Checkpoint"
-    - "/x/oIIi"
-description: 
+    - "/display/KD/%5BCommon%5D+Verify+Checkpoint/"
+    - "/x/oIIi/"
+    - "/katalon-studio/docs/common-verify-checkpoint/"
+description:
 ---
 Description  
 -------------
@@ -31,10 +32,10 @@ Example 
 
 You want to verify the checkpoint and don't print out changed values between checkpoint data and the source.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/common-verify-checkpoint/image2017-3-3-173A563A28.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -56,14 +57,14 @@ You want to verify the checkpoint and don't print out changed values between che
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Use WebUI keyword'
     WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/chk_DataSnapshot'), false)
-     
+
     'Use Mobile keyword'
     Mobile.verifyCheckpoint(findCheckpoint('Checkpoints/chk_DataSnapshot'), false)
-    
+
     'Use Web Service keyword'
     WS.verifyCheckpoint(findCheckpoint('Checkpoints/chk_DataSnapshot'), false)
-    
+
     ```

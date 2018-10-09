@@ -3,7 +3,8 @@ title: "Record Web Utility (version 4.8 and below)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-web-utility-version-48-and-below.html 
 redirect_from:
-    - "/x/BoIw"
+    - "/x/BoIw/"
+    - "/katalon-studio/docs/record-web-utility-version-48-and-below/"
 description: 
 ---
 Follow these basic steps to get familiar with the Record & Playback features for WebUI Test:  

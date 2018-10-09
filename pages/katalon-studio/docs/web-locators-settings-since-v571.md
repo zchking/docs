@@ -3,7 +3,8 @@ title: "Web Locators Settings (since v5.7.1)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-locators-settings-since-v571.html 
 redirect_from:
-    - "/x/MwDR"
+    - "/x/MwDR/"
+    - "/katalon-studio/docs/web-locators-settings-since-v571/"
 description: 
 ---
 Starting 5.3, Katalon Studio has allowed users to set default Web Locator in **Project Setting **>** Test Design **>** Web Locators**.

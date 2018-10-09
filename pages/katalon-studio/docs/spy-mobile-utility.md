@@ -3,8 +3,9 @@ title: "Spy Mobile Utility"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-mobile-utility.html 
 redirect_from:
-    - "/display/KD/Spy+Mobile+Utility"
-    - "/x/3QBO"
+    - "/display/KD/Spy+Mobile+Utility/"
+    - "/x/3QBO/"
+    - "/katalon-studio/docs/spy-mobile-utility/"
 description: 
 ---
 Capture objects using Spy Mobile Utility

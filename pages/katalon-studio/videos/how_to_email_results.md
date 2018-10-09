@@ -2,7 +2,7 @@
 title: "How to Email results"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/how_to_email_results.html
-description: 
+description:
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/AzBsIRPPbs4?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
@@ -21,6 +21,6 @@ This will enable sending .csv and html reports as attachment in result email.
 
 References:
 
-*   [https://docs.katalon.com/display/KD/Emails+Settings](/display/KD/Emails+Settings)
+*   [/display/KD/Emails+Settings](/display/KD/Emails+Settings)
 
 **_Note: This video is contributed by [Raghav Pal](https://www.youtube.com/channel/UCTt7pyY-o0eltq14glaG5dg)._**

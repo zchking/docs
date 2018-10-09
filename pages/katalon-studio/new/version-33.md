@@ -3,8 +3,9 @@ title: "Version 3.3"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-33.html
 redirect_from:
-    - "/display/KD/Version+3.3.html"
-    - "/x/DoUY"
+    - "/display/KD/Version+3.3/"
+    - "/x/DoUY/"
+    - "/katalon-studio/new/version-33/"
 description:
 ---
 Improvements

@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Verify Element Has Attribute" 
+title: "[WebUI] Verify Element Has Attribute"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-has-attribute.html 
+permalink: katalon-studio/docs/webui-verify-element-has-attribute.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Has+Attribute"
-    - "/x/2okY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Verify+Element+Has+Attribute/"
+    - "/x/2okY/"
+    - "/katalon-studio/docs/webui-verify-element-has-attribute/"
+description:
 ---
 Description
 -----------

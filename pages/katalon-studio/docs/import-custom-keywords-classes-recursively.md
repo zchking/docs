@@ -3,8 +3,9 @@ title: "Import Custom Keywords classes recursively"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-custom-keywords-classes-recursively.html 
 redirect_from:
-    - "/display/KD/Import+Custom+Keywords+classes+recursively"
-    - "/x/QwXR"
+    - "/display/KD/Import+Custom+Keywords+classes+recursively/"
+    - "/x/QwXR/"
+    - "/katalon-studio/docs/import-custom-keywords-classes-recursively/"
 description: 
 ---
 Hypothetically, you want to call a Custom Keyword within a Custom Keyword that is defined in another class. Check out the code below for a sample implementation.

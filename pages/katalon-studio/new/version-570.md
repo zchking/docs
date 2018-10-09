@@ -3,8 +3,9 @@ title: "Version 5.7.0"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-570.html
 redirect_from:
-    - "/display/KD/Version+5.7.0.html"
-    - "/x/tRTR"
+    - "/display/KD/Version+5.7.0/"
+    - "/x/tRTR/"
+    - "/katalon-studio/new/version-570/"
 description:
 ---
 Cucumber Behavior-Driven Development (BDD) Testing Support
@@ -18,7 +19,7 @@ _**Key Features**_
 *   Step definitions are implemented in Script Mode with hundreds of built-in keyword for reusability
 *   Easy-to-manage Feature files as Katalon Studio test artifacts structure
 
-![Screen Shot 2018-09-06 at 9.00.58 AM.png](../../images/katalon-studio/docs/version-570/Screen-Shot-2018-09-06-at-9.00.58-AM.png)
+![Screen Shot 2018-09-06 at 9.00.58 AM.png](../../images/katalon-studio/new/version-570/Screen-Shot-2018-09-06-at-9.00.58-AM.png)
 
 Smart XPath Generator
 ---------------------
@@ -31,21 +32,21 @@ _**Key Features**_
 *   Preserves the relationship between an element and its indicator in an item. 
 *   Generates reliable locators to reduce test script maintenance cost.
 
-![](../../images/katalon-studio/docs/version-570/NewXPath.png)
+![](../../images/katalon-studio/new/version-570/NewXPath.png)
 
 Support variables for API Testing
 ---------------------------------
 
 Adding a **Variables** tab to the Web Service Object details view to further supports parameterization, making the API Testing process easier. Pre-defined variables will be mapped **automatically** when selecting Web Service object from Manual Mode, so the users don't need to define them again manually, cutting down the chance of missing requirement variables.
 
-![](../../images/katalon-studio/docs/version-570/APIVariable.png)
+![](../../images/katalon-studio/new/version-570/APIVariable.png)
 
 In-app Sign up and Activate Katalon Studio
 ------------------------------------------
 
 Users no longer have to register a Katalon account on the website to activate Katalon product. Simply download the Katalon Studio application, sign up, and activate. Everything happens right inside the app.
 
-![](../../images/katalon-studio/docs/version-570/image2018-8-30-143A143A24.png)
+![](../../images/katalon-studio/new/version-570/image2018-8-30-143A143A24.png)
 
 Bug Fixes and Improvements
 --------------------------

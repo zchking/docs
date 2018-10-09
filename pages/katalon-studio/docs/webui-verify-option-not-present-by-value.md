@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Verify Option Not Present By Value" 
+title: "[WebUI] Verify Option Not Present By Value"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-option-not-present-by-value.html 
+permalink: katalon-studio/docs/webui-verify-option-not-present-by-value.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Present+By+Value"
-    - "/x/uQdO"
-description: 
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Present+By+Value/"
+    - "/x/uQdO/"
+    - "/katalon-studio/docs/webui-verify-option-not-present-by-value/"
+description:
 ---
 Description
 -----------
@@ -65,7 +66,7 @@ WebUI.openBrowser('http://demoaut.katalon.com/')
 WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 
 'Verify \"Thailand CURA Center\" option is not present'
-WebUI.verifyOptionNotPresentByValue(findTestObject('Page_CuraAppointment/lst_Facility'), 'ThaiLand CURA center', false, 
+WebUI.verifyOptionNotPresentByValue(findTestObject('Page_CuraAppointment/lst_Facility'), 'ThaiLand CURA center', false,
     10)
 
 'Close Browser'

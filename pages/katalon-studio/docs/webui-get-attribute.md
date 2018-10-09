@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Get Attribute" 
+title: "[WebUI] Get Attribute"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-attribute.html 
+permalink: katalon-studio/docs/webui-get-attribute.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Attribute"
-    - "/x/u4gY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Get+Attribute/"
+    - "/x/u4gY/"
+    - "/katalon-studio/docs/webui-get-attribute/"
+description:
 ---
 Description
 -----------

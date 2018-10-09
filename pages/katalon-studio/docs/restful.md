@@ -1,11 +1,12 @@
 ---
-title: "RESTful" 
+title: "RESTful"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/restful.html 
+permalink: katalon-studio/docs/restful.html
 redirect_from:
-    - "/display/KD/RESTful"
-    - "/x/CQLR"
-description: 
+    - "/display/KD/RESTful/"
+    - "/x/CQLR/"
+    - "/katalon-studio/docs/restful/"
+description:
 ---
 RESTful Request
 ---------------
@@ -13,11 +14,11 @@ RESTful Request
 > *   Web Services Request can be parameterized. Refer to this [documentation](/x/egLR).
 > *   Learn more about [Verification Snippets](/x/EwjR).
 
-1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed where you can input your RESTful URL directly on this dialog.  
-    ![](../../images/katalon-studio/docs/restful/image2018-4-1-183A113A47.png)  
-      
-    
-2.  After you've created a request successfully, there will be a small **icon** next to the object on Tests Explorer to indicate its used method (**GET**, **POST**, **PUT**, **DELETE**)  
+1.  Select **File > New > Web Service Request** from the main menu. The **New Web Service Request** dialog will be displayed where you can input your RESTful URL directly on this dialog.
+    ![](../../images/katalon-studio/docs/restful/image2018-4-1-183A113A47.png)
+
+
+2.  After you've created a request successfully, there will be a small **icon** next to the object on Tests Explorer to indicate its used method (**GET**, **POST**, **PUT**, **DELETE**)
     ![](../../images/katalon-studio/docs/restful/image2018-4-1-183A353A21.png)
 3.  In the opened editor of the new service request object, there will be two separate sections for the **Request **(left pane window) and **Response** (right pane window)
 
@@ -46,8 +47,8 @@ The **Response** can be displayed in **multiple ways**
 
 <table><thead><tr><th>&nbsp;</th><th>Description</th><th>Example</th></tr></thead><tbody><tr><td><strong>pretty</strong></td><td>Response is displayed in a pretty format which is easier to read</td><td><p><img src="../../images/katalon-studio/docs/restful/Screen-Shot-2018-04-10-at-17.23.21.png"></p></td></tr><tr><td><strong>raw</strong></td><td>Response is displayed in the raw text without any format</td><td><p><img src="../../images/katalon-studio/docs/restful/image2018-9-5-143A253A6.png"></p></td></tr><tr><td><strong>preview</strong></td><td><p>Response will be displayed as visualized</p><p>(e.g. If a Response is from loading a specific webpage, it will be displayed as the screenshot below)</p></td><td><p><img src="../../images/katalon-studio/docs/restful/image2018-4-1-193A103A26.png"></p></td></tr></tbody></table>
 
-  
-  
+
+
 
 At the bottom of the** Body** section, different types of Response format can be selected as desired
 

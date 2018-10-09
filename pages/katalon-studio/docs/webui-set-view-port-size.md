@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Set View Port Size" 
+title: "[WebUI] Set View Port Size"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-set-view-port-size.html 
+permalink: katalon-studio/docs/webui-set-view-port-size.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Set+View+Port+Size"
-    - "/x/4YwY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Set+View+Port+Size/"
+    - "/x/4YwY/"
+    - "/katalon-studio/docs/webui-set-view-port-size/"
+description:
 ---
 Description  
 -------------

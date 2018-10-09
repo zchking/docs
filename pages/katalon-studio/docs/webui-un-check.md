@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Un-check" 
+title: "[WebUI] Un-check"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-un-check.html 
+permalink: katalon-studio/docs/webui-un-check.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Un-check"
-    - "/x/F4kY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Un-check/"
+    - "/x/F4kY/"
+    - "/katalon-studio/docs/webui-un-check/"
+description:
 ---
 Description
 -----------

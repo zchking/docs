@@ -8,7 +8,7 @@ description: "A quick guide to set up and start your first automation test with 
 
 **A quick guide to set up and start your first automation test with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. You now can start automation testing on web &**** mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
-**Read full guideline [https://docs.katalon.com/x/l4Ei](/x/l4Ei)**
+**Read full guideline [/x/l4Ei](/x/l4Ei)**
 
 ### Introduction
 

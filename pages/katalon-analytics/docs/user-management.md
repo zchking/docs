@@ -3,8 +3,9 @@ title: "User Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/user-management.html 
 redirect_from:
-    - "/display/KA/User+Management"
-    - "/x/lQjR"
+    - "/display/KA/User+Management/"
+    - "/x/lQjR/"
+    - "/katalon-analytics/docs/user-management/"
 description: 
 ---
 To access **User Management **page, go to **Katalon Analytics Settings > Users**. 

@@ -3,8 +3,9 @@ title: "Step Definitions"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/step-definitions.html 
 redirect_from:
-    - "/display/KD/Step+Definitions"
-    - "/x/OxLR"
+    - "/display/KD/Step+Definitions/"
+    - "/x/OxLR/"
+    - "/katalon-studio/docs/step-definitions/"
 description: 
 ---
 Each Gherkin step in the _Features_ file needs to be defined as a set of programming code so that the machine can execute the actions of these steps. These _S__tep Definitions_ can be implemented in _Keyword_ folder by leveraging the **Script Mode**. Katalon Studio built-in keywords can also be re-used in step definition files as well. When Katalon Studio executes any _Features_ files in the test case, it will also look for the matching step definitions in the source folder.

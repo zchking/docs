@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Switch To Default Content" 
+title: "[WebUI] Switch To Default Content"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-switch-to-default-content.html 
+permalink: katalon-studio/docs/webui-switch-to-default-content.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Switch+To+Default+Content"
-    - "/x/FYgY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Switch+To+Default+Content/"
+    - "/x/FYgY/"
+    - "/katalon-studio/docs/webui-switch-to-default-content/"
+description:
 ---
 Description
 -----------

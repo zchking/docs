@@ -24,7 +24,7 @@ pipeline {
                         sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
-                        s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'')
+                        s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
                     }
                 }
             }

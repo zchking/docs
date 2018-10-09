@@ -3,8 +3,9 @@ title: "Test Suite Report"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-suite-report.html 
 redirect_from:
-    - "/display/KD/Test+Suite+Report"
-    - "/x/v4IY"
+    - "/display/KD/Test+Suite+Report/"
+    - "/x/v4IY/"
+    - "/katalon-studio/docs/test-suite-report/"
 description: 
 ---
 Once a test suite finishes its execution, a historical report will be automatically generated and stored in Reports. 
@@ -68,7 +69,7 @@ This section shows all information regarding the iteration selected in the **Tes
     ![](../../images/katalon-studio/docs/test-suite-report/image2017-2-24-203A293A56.png)  
     where:
     
-    <table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Log Information</td><td>Information of the test step selected in the <strong>Test Case's Log</strong> section:<ul><li>The <strong>Name</strong> of the test step (the name of the keyword used in the test step)</li><li>Execution <strong>Start/End</strong> date time and duration</li><li>The <strong>Description</strong> of the test step</li><li>Any system <strong>Message</strong> raised when the test step was executed</li></ul></td></tr><tr><td>Log Image</td><td><p>The screenshot taken from the application under test, it is captured in either of following situations:</p><ul><li>An error occurs during test execution</li><li>The <a href="/display/KD/%5BWebUI%5D+Take+Screenshot" rel="nofollow">Take Screenshot</a> keyword is used</li></ul></td></tr></tbody></table>
+    <table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Log Information</td><td>Information of the test step selected in the <strong>Test Case's Log</strong> section:<ul><li>The <strong>Name</strong> of the test step (the name of the keyword used in the test step)</li><li>Execution <strong>Start/End</strong> date time and duration</li><li>The <strong>Description</strong> of the test step</li><li>Any system <strong>Message</strong> raised when the test step was executed</li></ul></td></tr><tr><td>Log Image</td><td><p>The screenshot taken from the application under test, it is captured in either of following situations:</p><ul><li>An error occurs during test execution</li><li>The <a class="external-link" href="https://docs.katalon.com/display/KD/%5BWebUI%5D+Take+Screenshot" rel="nofollow">Take Screenshot</a> keyword is used</li></ul></td></tr></tbody></table>
     
 *   Users can easily determine which type of information to be displayed by using the provided filters:
     

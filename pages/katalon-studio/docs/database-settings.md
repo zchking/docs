@@ -3,8 +3,9 @@ title: "Database Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/database-settings.html 
 redirect_from:
-    - "/display/KD/Database+Settings"
-    - "/x/tgFO"
+    - "/display/KD/Database+Settings/"
+    - "/x/tgFO/"
+    - "/katalon-studio/docs/database-settings/"
 description: 
 ---
 These settings allow you to define global database connection to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Database**. 

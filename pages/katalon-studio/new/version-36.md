@@ -3,8 +3,9 @@ title: "Version 3.6"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-36.html
 redirect_from:
-    - "/display/KD/Version+3.6.html"
-    - "/x/LIcY"
+    - "/display/KD/Version+3.6/"
+    - "/x/LIcY/"
+    - "/katalon-studio/new/version-36/"
 description:
 ---
 Improvements
@@ -13,12 +14,12 @@ Improvements
 ### General
 
 *   Add hotkeys on context menu of test artifacts in Test Explorers
-    ![](../../images/katalon-studio/docs/version-36/image2016-7-26-143A373A39.png)
+    ![](../../images/katalon-studio/new/version-36/image2016-7-26-143A373A39.png)
 
 
 *   Allow users to cancel progressing tasks on 'Loading Logs' dialog
 *   \[Preference\] Expose more options of Native Eclipse Preference in Settings -> Preferences
-    ![](../../images/katalon-studio/docs/version-36/image2016-7-26-143A383A10.png)
+    ![](../../images/katalon-studio/new/version-36/image2016-7-26-143A383A10.png)
 
 ### New MOBILE  built-in keywords
 
@@ -40,11 +41,11 @@ Improvements
 ### Object Spy
 
 *   Users can now do object spy on Firefox which is already being opened through [Katalon Object Spy](https://addons.mozilla.org/en-US/firefox/addon/katalon-object-spy/?src=api) add-on
-    ![](../../images/katalon-studio/docs/version-36/image2016-7-26-143A403A42.png)
+    ![](../../images/katalon-studio/new/version-36/image2016-7-26-143A403A42.png)
 *   Improve mobile object spy
     *   Correct highlight on captured object
     *   Generate Xpath value
-        ![](../../images/katalon-studio/docs/version-36/image2016-7-26-143A443A31.png)
+        ![](../../images/katalon-studio/new/version-36/image2016-7-26-143A443A31.png)
 
 ### Test Data
 
@@ -57,9 +58,9 @@ Improvements
 
 *   Add loading progress bar when 'Mobile Object Spy' dialog is loading
 *   Add ability to specify log level for appium execution in Preference setting
-    ![](../../images/katalon-studio/docs/version-36/image2016-7-26-153A383A41.png)
+    ![](../../images/katalon-studio/new/version-36/image2016-7-26-153A383A41.png)
 *   Support execution on mobile emulator
-    ![](../../images/katalon-studio/docs/version-36/image2016-7-26-153A393A21.png)
+    ![](../../images/katalon-studio/new/version-36/image2016-7-26-153A393A21.png)
 
 Fixed Bugs
 ----------

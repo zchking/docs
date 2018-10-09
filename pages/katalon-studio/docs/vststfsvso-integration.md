@@ -1,10 +1,11 @@
 ---
-title: "VSTS/TFS/VSO Integration" 
+title: "VSTS/TFS/VSO Integration"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/vststfsvso-integration.html 
+permalink: katalon-studio/docs/vststfsvso-integration.html
 redirect_from:
-    - "/x/kwnR"
-description: 
+    - "/x/kwnR/"
+    - "/katalon-studio/docs/vststfsvso-integration/"
+description:
 ---
 Below is a general guide on how to configure Katalon Studio on VSO ([https://visualstudio.microsoft.com/team-services/](https://visualstudio.microsoft.com/team-services/)) with the assumptions that you are already familiar with common VSO terms such as _agent, build, task_......
 

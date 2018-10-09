@@ -3,8 +3,9 @@ title: "Version 5.6.3"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-563.html
 redirect_from:
-    - "/display/KD/Version+5.6.3.html"
-    - "/x/xRHR"
+    - "/display/KD/Version+5.6.3/"
+    - "/x/xRHR/"
+    - "/katalon-studio/new/version-563/"
 description:
 ---
 Bug Fixes and Improvements for Record Web Utility

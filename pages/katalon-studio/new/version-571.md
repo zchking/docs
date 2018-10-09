@@ -3,8 +3,9 @@ title: "Version 5.7.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-571.html
 redirect_from:
-    - "/display/KD/Version+5.7.1.html"
-    - "/x/mBTR"
+    - "/display/KD/Version+5.7.1/"
+    - "/x/mBTR/"
+    - "/katalon-studio/new/version-571/"
 description:
 ---
 Improvements

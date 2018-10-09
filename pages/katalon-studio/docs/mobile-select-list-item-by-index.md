@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Select List Item By Index" 
+title: "[Mobile] Select List Item By Index"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-select-list-item-by-index.html 
+permalink: katalon-studio/docs/mobile-select-list-item-by-index.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Select+List+Item+By+Index"
-    - "/x/hogY"
-description: 
+    - "/display/KD/%5BMobile%5D+Select+List+Item+By+Index/"
+    - "/x/hogY/"
+    - "/katalon-studio/docs/mobile-select-list-item-by-index/"
+description:
 ---
 Description
 -----------

@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Verify Option Selected By Index" 
+title: "[WebUI] Verify Option Selected By Index"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-option-selected-by-index.html 
+permalink: katalon-studio/docs/webui-verify-option-selected-by-index.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Option+Selected+By+Index"
-    - "/x/mpIY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Selected+By+Index/"
+    - "/x/mpIY/"
+    - "/katalon-studio/docs/webui-verify-option-selected-by-index/"
+description:
 ---
 **Verify if the options at the given indices are selected.**
 

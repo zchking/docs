@@ -3,8 +3,9 @@ title: "Recording WebUI Test"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/recording-webui-test.html 
 redirect_from:
-    - "/display/KD/Recording+WebUI+Test"
-    - "/x/IA3R"
+    - "/display/KD/Recording+WebUI+Test/"
+    - "/x/IA3R/"
+    - "/katalon-studio/docs/recording-webui-test/"
 description: 
 ---
 Follow these basic steps to get familiar with the Record & Playback features for WebUI Test:  

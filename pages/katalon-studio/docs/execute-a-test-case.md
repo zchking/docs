@@ -3,8 +3,9 @@ title: "Execute a test case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execute-a-test-case.html 
 redirect_from:
-    - "/display/KD/Execute+a+test+case"
-    - "/x/ugAM"
+    - "/display/KD/Execute+a+test+case/"
+    - "/x/ugAM/"
+    - "/katalon-studio/docs/execute-a-test-case/"
 description: 
 ---
 Currently, Katalon Studio supports executing automation test in following environments:

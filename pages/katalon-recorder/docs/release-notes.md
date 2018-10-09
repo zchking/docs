@@ -3,8 +3,9 @@ title: "Release Notes"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/release-notes.html 
 redirect_from:
-    - "/display/KR/Release+Notes"
-    - "/x/JwHR"
+    - "/display/KR/Release+Notes/"
+    - "/x/JwHR/"
+    - "/katalon-recorder/docs/release-notes/"
 description: 
 ---
 3.5.7

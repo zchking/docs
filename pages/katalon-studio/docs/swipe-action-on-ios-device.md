@@ -3,8 +3,9 @@ title: "Swipe action on iOS device"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/swipe-action-on-ios-device.html 
 redirect_from:
-    - "/display/KD/Swipe+action+on+iOS+device"
-    - "/x/rgnR"
+    - "/display/KD/Swipe+action+on+iOS+device/"
+    - "/x/rgnR/"
+    - "/katalon-studio/docs/swipe-action-on-ios-device/"
 description: 
 ---
 Instead of using 'Swipe' keyword which requires you to pass in coordinates, you can utilize supported backend mobile gestures from [Appium](http://appium.io/docs/en/writing-running-appium/ios/ios-xctest-mobile-gestures/index.html#mobile-swipe). Below is sample custom keyword:

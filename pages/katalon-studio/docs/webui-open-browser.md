@@ -3,8 +3,9 @@ title: "[WebUI] Open Browser"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-open-browser.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Open+Browser"
-    - "/x/9ogY"
+    - "/display/KD/%5BWebUI%5D+Open+Browser/"
+    - "/x/9ogY/"
+    - "/katalon-studio/docs/webui-open-browser/"
 description: 
 ---
 Description
@@ -15,7 +16,7 @@ Open a browser and navigate to the specified URL. If the URL is left empty then 
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>rawUrl</td><td>String</td><td>Optional</td><td><p>URL of the web page to be opened can be left empty or null. If rawUrl doesn't contain protocol prefix, the protocol will be&nbsp;<a rel="nofollow">http://.</a>&nbsp;For example:&nbsp;</p><ul><li class="blockList"><p><a class="external-link" href="https://www.google.com" rel="nofollow">https://www.google.com</a>&nbsp;</p></li><li class="blockList"><p>file:///D:/Development/index.html&nbsp;</p></li><li class="blockList"><p><a class="external-link" href="http://kms-technology.com" rel="nofollow">kms-technology.com</a> =&gt; <a class="external-link" href="http://kms-technology.com" rel="nofollow">http://kms-technology.com</a></p></li><li class="blockList"><p><a rel="nofollow">http://katalon.com/</a>&nbsp;</p></li></ul></td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a href="/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>rawUrl</td><td>String</td><td>Optional</td><td><p>URL of the web page to be opened can be left empty or null. If rawUrl doesn't contain protocol prefix, the protocol will be&nbsp;<a rel="nofollow">http://.</a>&nbsp;For example:&nbsp;</p><ul><li class="blockList"><p><a class="external-link" href="https://www.google.com" rel="nofollow">https://www.google.com</a>&nbsp;</p></li><li class="blockList"><p>file:///D:/Development/index.html&nbsp;</p></li><li class="blockList"><p><a class="external-link" href="http://kms-technology.com" rel="nofollow">kms-technology.com</a> =&gt; <a class="external-link" href="http://kms-technology.com" rel="nofollow">http://kms-technology.com</a></p></li><li class="blockList"><p><a rel="nofollow">http://katalon.com/</a>&nbsp;</p></li></ul></td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 -------

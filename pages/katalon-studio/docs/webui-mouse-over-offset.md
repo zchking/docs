@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Mouse Over Offset" 
+title: "[WebUI] Mouse Over Offset"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-mouse-over-offset.html 
+permalink: katalon-studio/docs/webui-mouse-over-offset.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Mouse+Over+Offset"
-    - "/x/dA9O"
-description: 
+    - "/display/KD/%5BWebUI%5D+Mouse+Over+Offset/"
+    - "/x/dA9O/"
+    - "/katalon-studio/docs/webui-mouse-over-offset/"
+description:
 ---
 Description
 -----------

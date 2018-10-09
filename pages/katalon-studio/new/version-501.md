@@ -3,8 +3,9 @@ title: "Version 5.0.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-501.html
 redirect_from:
-    - "/display/KD/Version+5.0.1.html"
-    - "/x/aBtO"
+    - "/display/KD/Version+5.0.1/"
+    - "/x/aBtO/"
+    - "/katalon-studio/new/version-501/"
 description:
 ---
 Hotfix

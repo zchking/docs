@@ -3,8 +3,9 @@ title: "Enable Kobiton Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/enable-kobiton-integration.html 
 redirect_from:
-    - "/display/KD/Enable+Kobiton+Integration"
-    - "/x/7IEw"
+    - "/display/KD/Enable+Kobiton+Integration/"
+    - "/x/7IEw/"
+    - "/katalon-studio/docs/enable-kobiton-integration/"
 description: 
 ---
 Enable Kobiton Integration

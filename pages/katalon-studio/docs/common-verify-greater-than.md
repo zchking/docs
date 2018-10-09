@@ -1,11 +1,12 @@
 ---
-title: "[Common] Verify Greater Than" 
+title: "[Common] Verify Greater Than"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-greater-than.html 
+permalink: katalon-studio/docs/common-verify-greater-than.html
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Greater+Than"
-    - "/x/2IEi"
-description: 
+    - "/display/KD/%5BCommon%5D+Verify+Greater+Than/"
+    - "/x/2IEi/"
+    - "/katalon-studio/docs/common-verify-greater-than/"
+description:
 ---
 Description  
 -------------
@@ -31,10 +32,10 @@ Example  
 
 You want to verify if the first number is greater than the second number.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/common-verify-greater-than/image2017-3-3-173A293A1.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -56,13 +57,13 @@ You want to verify if the first number is greater than the second number.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Use WebUI keyword'
     WebUI.verifyGreaterThan(12, 10)
-     
+
     'Use Mobile keyword'
     Mobile.verifyGreaterThan(12, 10)
-     
+
     'Use WS keyword'
     WS.verifyGreaterThan(12, 10)
     ```

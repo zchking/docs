@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Wait For Image Present" 
+title: "[WebUI] Wait For Image Present"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-wait-for-image-present.html 
+permalink: katalon-studio/docs/webui-wait-for-image-present.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Wait+For+Image+Present"
-    - "/x/sIgY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Wait+For+Image+Present/"
+    - "/x/sIgY/"
+    - "/katalon-studio/docs/webui-wait-for-image-present/"
+description:
 ---
 Description
 -----------
@@ -65,5 +66,5 @@ WebUI.closeBrowser()
 ```
 
 > The test object needs to define a source image from the local machine for Katalon Studio to use it for verification
-> 
+>
 > ![](../../images/katalon-studio/docs/webui-wait-for-image-present/define_image.jpg)

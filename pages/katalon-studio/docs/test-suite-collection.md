@@ -3,8 +3,9 @@ title: "Test Suite Collection"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-suite-collection.html 
 redirect_from:
-    - "/display/KD/Test+Suite+Collection"
-    - "/x/NgvR"
+    - "/display/KD/Test+Suite+Collection/"
+    - "/x/NgvR/"
+    - "/katalon-studio/docs/test-suite-collection/"
 description: 
 ---
 A Test Suite Collection contains a list of test suites to allow users more options for planning their test execution. 
@@ -37,7 +38,7 @@ You can add a test suite into a collection by following the steps below:
     ![](../../images/katalon-studio/docs/test-suite-collection/image2018-5-7-153A373A21.png)  
     where:
     
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Run with</td><td><p>The environment to be executed with the Test Suite.</p></td></tr><tr><td>Run configuration</td><td><p>Extra information for executing with the selected environment.</p><p><strong>For example:</strong> Select mobile devices to be executed for Android environment</p><p><img src="../../images/katalon-studio/docs/test-suite-collection/image2017-2-17-133A533A7.png"></p></td></tr><tr><td>Profile</td><td><a href="/x/xAHR" rel="nofollow">Execution Profile</a> that contains all variables values for each Test Suite execution.</td></tr><tr><td>Run</td><td>This is checked by default. It means that the test case will be executed when running the collection.</td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Run with</td><td><p>The environment to be executed with the Test Suite.</p></td></tr><tr><td>Run configuration</td><td><p>Extra information for executing with the selected environment.</p><p><strong>For example:</strong> Select mobile devices to be executed for Android environment</p><p><img src="../../images/katalon-studio/docs/test-suite-collection/image2017-2-17-133A533A7.png"></p></td></tr><tr><td>Profile</td><td><a class="external-link" href="https://docs.katalon.com/x/xAHR" rel="nofollow">Execution Profile</a> that contains all variables values for each Test Suite execution.</td></tr><tr><td>Run</td><td>This is checked by default. It means that the test case will be executed when running the collection.</td></tr></tbody></table>
     
       
     

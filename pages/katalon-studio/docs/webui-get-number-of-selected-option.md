@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Get Number Of Selected Option" 
+title: "[WebUI] Get Number Of Selected Option"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-number-of-selected-option.html 
+permalink: katalon-studio/docs/webui-get-number-of-selected-option.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Number+Of+Selected+Option"
-    - "/x/GZIY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Get+Number+Of+Selected+Option/"
+    - "/x/GZIY/"
+    - "/katalon-studio/docs/webui-get-number-of-selected-option/"
+description:
 ---
 Description
 -----------

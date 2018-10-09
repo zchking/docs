@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Scroll To Element" 
+title: "[WebUI] Scroll To Element"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-scroll-to-element.html 
+permalink: katalon-studio/docs/webui-scroll-to-element.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Scroll+To+Element"
-    - "/x/U4kY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Scroll+To+Element/"
+    - "/x/U4kY/"
+    - "/katalon-studio/docs/webui-scroll-to-element/"
+description:
 ---
 Description
 -----------

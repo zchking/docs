@@ -3,8 +3,9 @@ title: "Mark test's status for a Custom Keyword"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html 
 redirect_from:
-    - "/display/KD/Mark+test%27s+status+for+a+Custom+Keyword"
-    - "/x/xgXR"
+    - "/display/KD/Mark+test%27s+status+for+a+Custom+Keyword/"
+    - "/x/xgXR/"
+    - "/katalon-studio/docs/mark-tests-status-for-a-custom-keyword/"
 description: 
 ---
 Unlike built-in keywords, there will be no overall status for a Custom Keyword unless you define what your expected result is within the Custom Keyword. To generate a status for this one, Katalon Studio provides a couple of functions:

@@ -3,7 +3,8 @@ title: "FAQ & Troubleshooting Instructions"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/faq-and-troubleshooting-instructions.html 
 redirect_from:
-    - "/x/7gHR"
+    - "/x/7gHR/"
+    - "/katalon-recorder/docs/faq-and-troubleshooting-instructions/"
 description: 
 ---
 Product information

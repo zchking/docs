@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Get Device Manufacturer" 
+title: "[Mobile] Get Device Manufacturer"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-get-device-manufacturer.html 
+permalink: katalon-studio/docs/mobile-get-device-manufacturer.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Get+Device+Manufacturer"
-    - "/x/hI4Y"
-description: 
+    - "/display/KD/%5BMobile%5D+Get+Device+Manufacturer/"
+    - "/x/hI4Y/"
+    - "/katalon-studio/docs/mobile-get-device-manufacturer/"
+description:
 ---
 Description  
 -------------
@@ -31,10 +32,10 @@ Example 
 
 You want to get device manufacturer of the current active mobile device, then store it into "manufacturer" variable.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/mobile-get-device-manufacturer/image2017-3-3-113A293A20.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -56,15 +57,15 @@ You want to get device manufacturer of the current active mobile device, then st
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-    
+
     'Get device manufacturer'
     manufacturer = Mobile.getDeviceManufacturer()
-    
+
     'Close application'
     Mobile.closeApplication()
-    
-    
+
+
     ```

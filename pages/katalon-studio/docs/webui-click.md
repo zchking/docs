@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Click" 
+title: "[WebUI] Click"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-click.html 
+permalink: katalon-studio/docs/webui-click.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Click"
-    - "/x/MYkY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Click/"
+    - "/x/MYkY/"
+    - "/katalon-studio/docs/webui-click/"
+description:
 ---
 Description
 -----------

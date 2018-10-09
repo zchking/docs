@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Clear Text" 
+title: "[Mobile] Clear Text"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-clear-text.html 
+permalink: katalon-studio/docs/mobile-clear-text.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Clear+Text"
-    - "/x/TZMY"
-description: 
+    - "/display/KD/%5BMobile%5D+Clear+Text/"
+    - "/x/TZMY/"
+    - "/katalon-studio/docs/mobile-clear-text/"
+description:
 ---
 Description
 -----------

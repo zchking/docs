@@ -3,8 +3,9 @@ title: "Katalon Addon for Chrome"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-addon-for-chrome.html 
 redirect_from:
-    - "/display/KD/Katalon+Addon+for+Chrome"
-    - "/x/JYgw"
+    - "/display/KD/Katalon+Addon+for+Chrome/"
+    - "/x/JYgw/"
+    - "/katalon-studio/docs/katalon-addon-for-chrome/"
 description: 
 ---
 **Katalon Automation Recorder** extension is required for capturing objects in **Active Browser** (refer to [Web Object Spy](/pages/viewpage.action?pageId=5111951#SpyWebUtility(version4.8andbelow)-CaptureobjectsusingWebObjectSpy) and [Record & Playback](/pages/viewpage.action?pageId=3179014) for more details). You can install Katalon Automation Recorder extension for Chrome [here](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid).

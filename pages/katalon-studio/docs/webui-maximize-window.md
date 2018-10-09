@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Maximize Window" 
+title: "[WebUI] Maximize Window"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-maximize-window.html 
+permalink: katalon-studio/docs/webui-maximize-window.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Maximize+Window"
-    - "/x/mowY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Maximize+Window/"
+    - "/x/mowY/"
+    - "/katalon-studio/docs/webui-maximize-window/"
+description:
 ---
 Description  
 -------------

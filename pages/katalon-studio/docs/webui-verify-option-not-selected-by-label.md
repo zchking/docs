@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Verify Option Not Selected By Label" 
+title: "[WebUI] Verify Option Not Selected By Label"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-option-not-selected-by-label.html 
+permalink: katalon-studio/docs/webui-verify-option-not-selected-by-label.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Label"
-    - "/x/YJIY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Label/"
+    - "/x/YJIY/"
+    - "/katalon-studio/docs/webui-verify-option-not-selected-by-label/"
+description:
 ---
 Description
 -----------
@@ -64,7 +65,7 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 'Verify \'HongKong Cura Health Center\' option in \'Facility\' list is not selected'
-WebUI.verifyOptionNotSelectedByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), 'HongKong Cura Health Center', 
+WebUI.verifyOptionNotSelectedByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), 'HongKong Cura Health Center',
     false, 20)
 
 'Close browser'

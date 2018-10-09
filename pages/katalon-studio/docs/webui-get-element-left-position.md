@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Get Element Left Position" 
+title: "[WebUI] Get Element Left Position"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-element-left-position.html 
+permalink: katalon-studio/docs/webui-get-element-left-position.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Element+Left+Position"
-    - "/x/HwpO"
-description: 
+    - "/display/KD/%5BWebUI%5D+Get+Element+Left+Position/"
+    - "/x/HwpO/"
+    - "/katalon-studio/docs/webui-get-element-left-position/"
+description:
 ---
 Description  
 -------------
@@ -56,10 +57,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Open browser and navigate to AUT'
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
- 
+
 'Get left position of txt_UserName'
 leftPosition = WebUI.getElementLeftPosition(findTestObject('Page_Login/txt_UserName'))
- 
+
 'Close browser'
 WebUI.closeBrowser()
 

@@ -3,8 +3,9 @@ title: "Integration with Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/integration-with-katalon-studio.html 
 redirect_from:
-    - "/display/KA/Integration+with+Katalon+Studio"
-    - "/x/mw3R"
+    - "/display/KA/Integration+with+Katalon+Studio/"
+    - "/x/mw3R/"
+    - "/katalon-analytics/docs/integration-with-katalon-studio/"
 description: 
 ---
 [Katalon Studio](/display/KD/Overview) is a simple and powerful automation solution built for testers everywhere. Currently, Katalon Analytics supports integration with Katalon Studio for better test report management.

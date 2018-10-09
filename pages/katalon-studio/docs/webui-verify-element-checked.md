@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Verify Element Checked" 
+title: "[WebUI] Verify Element Checked"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-checked.html 
+permalink: katalon-studio/docs/webui-verify-element-checked.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Checked"
-    - "/x/HYkY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Verify+Element+Checked/"
+    - "/x/HYkY/"
+    - "/katalon-studio/docs/webui-verify-element-checked/"
+description:
 ---
 Description
 -----------

@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Modify Object Property" 
+title: "[WebUI] Modify Object Property"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-modify-object-property.html 
+permalink: katalon-studio/docs/webui-modify-object-property.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Modify+Object+Property"
-    - "/x/q4oY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Modify+Object+Property/"
+    - "/x/q4oY/"
+    - "/katalon-studio/docs/webui-modify-object-property/"
+description:
 ---
 Description  
 -------------
@@ -69,7 +70,7 @@ WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
  
 'Modify xpath of \'Login\' button'
 new_btn = WebUI.modifyObjectProperty(findTestObject('Page_Login/btn_Login'), 'xpath', 'equals', '//*[@type=\"button\"]', false)
- 
+
 'Click on new_btn'
 WebUI.click(new_btn)
 

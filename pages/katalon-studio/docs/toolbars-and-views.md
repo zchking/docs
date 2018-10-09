@@ -1,11 +1,12 @@
 ---
-title: "Toolbars and Views" 
+title: "Toolbars and Views"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/toolbars-and-views.html 
+permalink: katalon-studio/docs/toolbars-and-views.html
 redirect_from:
-    - "/display/KD/Toolbars+and+Views"
-    - "/x/fgAM"
-description: 
+    - "/display/KD/Toolbars+and+Views/"
+    - "/x/fgAM/"
+    - "/katalon-studio/docs/toolbars-and-views/"
+description:
 ---
 Toolbar
 -------
@@ -16,7 +17,7 @@ Toolbar
 
 The main **Toolbar** contains the most common actions which you usually perform (e.g. creating test resources or executing automation tests).
 
-<table><thead><tr><th>Icon</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A48.png"></p></td><td>Save the current opened test artifact.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A17.png"></p></td><td>Save all opened test artifacts.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A183A47.png"></p></td><td><p>Create new test artifacts. You can select these options by selecting from dropdownlist:</p><ul><li>Folder</li><li>Test Case</li><li>Test Suite</li><li>Test Suite Collection</li><li>Test Object</li><li>Web Service Request</li><li>Test Data</li><li>Checkpoint</li><li>Package</li><li>Keyword</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png"></p></td><td>Open <strong>Web</strong> <strong>Object Spy</strong> dialog for capturing elements on websites.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png"></p></td><td>Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png"></p></td><td>Open <strong>Web</strong> <strong>Record</strong> dialog for recording WebUI test cases.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png"></p></td><td>Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png"></p></td><td><p>Run the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png"></p></td><td><p>Debug the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A28.png"></p></td><td>Stop the current execution</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png"></p></td><td>Open <strong>Command Builder</strong> for generating commands for console execution</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A233A4.png"></p></td><td><p>Command for Git activities. You can select these options by selecting from dropdownlist (after <a href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p><ul><li>Clone Project</li><li>Share Project</li><li>Show History</li><li>Manage Branches</li><li>Commit</li><li>Push</li><li>Pull</li><li>Fetch</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A233A24.png"></p></td><td>Import test case from JIRA integrated account</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png"></p></td><td>Execution profile (testing environments) ro be applied when run tests</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1-113A263A34.png"></p></td><td>Allowing you to search for help on Katalon Documentation and our Forum</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1-143A93A36.png"></p></td><td>If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible.</td></tr></tbody></table>
+<table><thead><tr><th>Icon</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A48.png"></p></td><td>Save the current opened test artifact.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A17.png"></p></td><td>Save all opened test artifacts.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A183A47.png"></p></td><td><p>Create new test artifacts. You can select these options by selecting from dropdownlist:</p><ul><li>Folder</li><li>Test Case</li><li>Test Suite</li><li>Test Suite Collection</li><li>Test Object</li><li>Web Service Request</li><li>Test Data</li><li>Checkpoint</li><li>Package</li><li>Keyword</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png"></p></td><td>Open <strong>Web</strong> <strong>Object Spy</strong> dialog for capturing elements on websites.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png"></p></td><td>Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png"></p></td><td>Open <strong>Web</strong> <strong>Record</strong> dialog for recording WebUI test cases.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png"></p></td><td>Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png"></p></td><td><p>Run the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png"></p></td><td><p>Debug the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A28.png"></p></td><td>Stop the current execution</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png"></p></td><td>Open <strong>Command Builder</strong> for generating commands for console execution</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A233A4.png"></p></td><td><p>Command for Git activities. You can select these options by selecting from dropdownlist (after <a class="external-link" href="https://docs.katalon.com/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p><ul><li>Clone Project</li><li>Share Project</li><li>Show History</li><li>Manage Branches</li><li>Commit</li><li>Push</li><li>Pull</li><li>Fetch</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A233A24.png"></p></td><td>Import test case from JIRA integrated account</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png"></p></td><td>Execution profile (testing environments) ro be applied when run tests</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1-113A263A34.png"></p></td><td>Allowing you to search for help on Katalon Documentation and our Forum</td></tr><tr><td><p><img src="../../images/katalon-studio/docs/toolbars-and-views/image2018-8-1-143A93A36.png"></p></td><td>If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible.</td></tr></tbody></table>
 
 Tests Explorer View
 -------------------
@@ -143,30 +144,30 @@ Basically, a Test Suite Collection contains a set of test suites to allow users 
 
 When you open a data file, its detailed information including the data source and preview data set... is displayed in the editor. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
 
-*   If the test data is from an Excel file:  
+*   If the test data is from an Excel file:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A73A38.png)
 
-*   If the test data is from a CSV file:  
+*   If the test data is from a CSV file:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A63A7.png)
 
-*   If the test data is defined internally inside your test project:  
+*   If the test data is defined internally inside your test project:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A51.png)
-*   If the test data is from a database query:  
-    ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A21.png)  
-      
-    
+*   If the test data is from a database query:
+    ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A21.png)
+
+
 
 ### Checkpoint Editor
 
 When you open a checkpoint, its detailed information including the data source and its taken snapshot... is displayed in the editor. Refer to [Manage Checkpoints](/display/KD/Manage+Checkpoints) for more details.
 
-*   If the data source is from an Excel file:  
+*   If the data source is from an Excel file:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A463A42.png)
-*   If the data source is from a CSV file:  
+*   If the data source is from a CSV file:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A483A0.png)
-*   If the data source is from a database:  
+*   If the data source is from a database:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A483A46.png)
-*   If the data source is from existing test data:  
+*   If the data source is from existing test data:
     ![](../../images/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A493A42.png)
 
 ### Keyword Editor

@@ -1,11 +1,12 @@
 ---
-title: "[WS] Contains String" 
+title: "[WS] Contains String"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/ws-contains-string.html 
+permalink: katalon-studio/docs/ws-contains-string.html
 redirect_from:
-    - "/display/KD/%5BWS%5D+Contains+String"
-    - "/x/M5UY"
-description: 
+    - "/display/KD/%5BWS%5D+Contains+String/"
+    - "/x/M5UY/"
+    - "/katalon-studio/docs/ws-contains-string/"
+description:
 ---
 Description
 -----------

@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Wait For Element Clickable" 
+title: "[WebUI] Wait For Element Clickable"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-wait-for-element-clickable.html 
+permalink: katalon-studio/docs/webui-wait-for-element-clickable.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable"
-    - "/x/b4sY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Clickable/"
+    - "/x/b4sY/"
+    - "/katalon-studio/docs/webui-wait-for-element-clickable/"
+description:
 ---
 Description
 -----------

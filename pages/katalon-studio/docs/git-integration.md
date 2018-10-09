@@ -3,8 +3,9 @@ title: "Git Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/git-integration.html 
 redirect_from:
-    - "/display/KD/Git+Integration"
-    - "/x/foEw"
+    - "/display/KD/Git+Integration/"
+    - "/x/foEw/"
+    - "/katalon-studio/docs/git-integration/"
 description: 
 ---
 > The Git integration feature is based on **EGit**. You can refer to [http://wiki.eclipse.org/EGit/User_Guide](http://wiki.eclipse.org/EGit/User_Guide) for detailed user guide regarding EGit.

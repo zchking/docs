@@ -1,11 +1,12 @@
 ---
-title: "View Reports" 
+title: "View Reports"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/view-reports.html 
+permalink: katalon-analytics/docs/view-reports.html
 redirect_from:
-    - "/display/KA/View+Reports"
-    - "/x/2RxO"
-description: 
+    - "/display/KA/View+Reports/"
+    - "/x/2RxO/"
+    - "/katalon-analytics/docs/view-reports/"
+description:
 ---
 Once Test Reports are uploaded, Katalon Analytics will automatically analyze Katalon Studio test execution data to give you meaningful visualizations including charts, graphs, and filters. Katalon Analytics powerful dashboard allows users to have richer looks at test execution by presenting various reports such as Status, Performance, Execution Summary, and Execution Details. 
 
@@ -17,12 +18,12 @@ View Execution Detail Report
 ----------------------------
 
 > Filter and Sort
-> 
+>
 > While viewing execution detail report, The user can also utilize Katalon Analytics[ Filter and Sort ](/x/ZgTR)feature to identify the problem areas.
 
 Click on the **ID** of Execution to view the detail report. Katalon Analytics will display following details about that report including** Summary**, **All Failed Tests**, **Folders**, **All Tests**
 
-**![](../../images/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)  
+**![](../../images/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)
 **
 
 ### Summary Dashboard
@@ -45,8 +46,8 @@ Allows users to quickly view **all** test cases that have the status of **Failed
 
 ### Test Suites Table
 
-Katalon Analytics display all test suites in the current viewing execution in the report. To view detail, click on the **ID** of Test Suite. Katalon Analytics will display in-depth look about the Test Suite.  
-  
+Katalon Analytics display all test suites in the current viewing execution in the report. To view detail, click on the **ID** of Test Suite. Katalon Analytics will display in-depth look about the Test Suite.
+
 
 | ID | Generated Analytic global ID |
 | --- | --- |
