@@ -8,7 +8,7 @@ description: "A quick guide to create test case using Record & Playback feature 
 
 **A quick guide to create test  case using Record and Playback feature of Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. Katalon Studio helps you start automation testing on web on mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
-**Read the full guideline at [https://docs.katalon.com/x/BoIw](/x/BoIw)**
+**Read the full guideline at [/x/BoIw](/x/BoIw)**
 
 Follow these basic steps to get familiar with the Record & Playback features:
 

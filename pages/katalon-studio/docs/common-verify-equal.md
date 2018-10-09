@@ -1,11 +1,12 @@
 ---
-title: "[Common] Verify Equal" 
+title: "[Common] Verify Equal"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-equal.html 
+permalink: katalon-studio/docs/common-verify-equal.html
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Equal"
-    - "/x/iIkY"
-description: 
+    - "/display/KD/%5BCommon%5D+Verify+Equal/"
+    - "/x/iIkY/"
+    - "/katalon-studio/docs/common-verify-equal/"
+description:
 ---
 Description 
 ------------
@@ -31,10 +32,10 @@ Example 
 
 You want to verify if two given numbers are equal.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/common-verify-equal/image2017-3-3-173A103A11.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -56,14 +57,14 @@ You want to verify if two given numbers are equal.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Use WebUI keyword'
     WebUI.verifyEqual(10, 10)
-     
+
     'Use Mobile keyword'
     Mobile.verifyEqual(10, 10)
-     
+
     'Use WS keyword'
     WS.verifyEqual(10, 10)
-    
+
     ```

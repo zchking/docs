@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Press Back" 
+title: "[Mobile] Press Back"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-press-back.html 
+permalink: katalon-studio/docs/mobile-press-back.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Press+Back"
-    - "/x/JJQY"
-description: 
+    - "/display/KD/%5BMobile%5D+Press+Back/"
+    - "/x/JJQY/"
+    - "/katalon-studio/docs/mobile-press-back/"
+description:
 ---
 Description
 -----------

@@ -3,8 +3,9 @@ title: "Filter and Sort"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/filter-and-sort.html 
 redirect_from:
-    - "/display/KA/Filter+and+Sort"
-    - "/x/ZgTR"
+    - "/display/KA/Filter+and+Sort/"
+    - "/x/ZgTR/"
+    - "/katalon-analytics/docs/filter-and-sort/"
 description: 
 ---
 Katalon Analytics allows you to filter and sort any tables to view the execution information that matters. Any issues or trouble areas can be quickly drilled-down to with provided quality insights.

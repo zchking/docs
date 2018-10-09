@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Get CSS Value" 
+title: "[WebUI] Get CSS Value"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-css-value.html 
+permalink: katalon-studio/docs/webui-get-css-value.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+CSS+Value"
-    - "/x/voYw"
-description: 
+    - "/display/KD/%5BWebUI%5D+Get+CSS+Value/"
+    - "/x/voYw/"
+    - "/katalon-studio/docs/webui-get-css-value/"
+description:
 ---
 Description
 -----------

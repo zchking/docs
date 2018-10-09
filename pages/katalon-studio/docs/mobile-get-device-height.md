@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Get Device Height" 
+title: "[Mobile] Get Device Height"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-get-device-height.html 
+permalink: katalon-studio/docs/mobile-get-device-height.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Get+Device+Height"
-    - "/x/Vo4Y"
-description: 
+    - "/display/KD/%5BMobile%5D+Get+Device+Height/"
+    - "/x/Vo4Y/"
+    - "/katalon-studio/docs/mobile-get-device-height/"
+description:
 ---
 Description  
 -------------
@@ -31,10 +32,10 @@ Example 
 
 You want to get mobile device's physical height, then store it into "height" variable.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/mobile-get-device-height/image2017-3-3-113A253A45.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -56,14 +57,14 @@ You want to get mobile device's physical height, then store it into "height" var
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-    
+
     'Get device\'s physical height'
     height = Mobile.getDeviceHeight()
-    
+
     'Close application on current selected android device'
     Mobile.closeApplication()
-    
+
     ```

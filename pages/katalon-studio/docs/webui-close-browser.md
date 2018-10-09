@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Close Browser" 
+title: "[WebUI] Close Browser"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-close-browser.html 
+permalink: katalon-studio/docs/webui-close-browser.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Close+Browser"
-    - "/x/zYgY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Close+Browser/"
+    - "/x/zYgY/"
+    - "/katalon-studio/docs/webui-close-browser/"
+description:
 ---
 Description
 -----------

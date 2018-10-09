@@ -1,11 +1,12 @@
 ---
-title: "Execution Settings" 
+title: "Execution Settings"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/execution-settings.html 
+permalink: katalon-studio/docs/execution-settings.html
 redirect_from:
-    - "/display/KD/Execution+Settings"
-    - "/x/cgFO"
-description: 
+    - "/display/KD/Execution+Settings/"
+    - "/x/cgFO/"
+    - "/katalon-studio/docs/execution-settings/"
+description:
 ---
 Execution settings help users to set preferred behaviors for Katalon Studio during test execution. 
 
@@ -47,28 +48,28 @@ Custom Execution
 
 Custom execution is a bit different from other execution settings. Follow these steps to create a custom execution with its desired capabilities:
 
-1.  Click the Add button of command toolbar above the custom execution list.  
+1.  Click the Add button of command toolbar above the custom execution list.
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A173A48.png)
-2.  A custom execution will be added to the list  
+2.  A custom execution will be added to the list
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A193A51.png)
-3.  Change the name if needed, then click on the **More** icon under Value column  
+3.  Change the name if needed, then click on the **More** icon under Value column
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A263A29.png)
-4.  The **Custom Execution Configuration Builder** dialog will be displayed. Specify the **Driver Type** for your custom execution.   
+4.  The **Custom Execution Configuration Builder** dialog will be displayed. Specify the **Driver Type** for your custom execution. 
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A293A6.png)
-    
+
     > You can have at most one web driver and one mobile driver here (because there will be potential conflict if multiple web drivers or multiple mobile drivers are used in the same test execution).
-    
-5.  Click on the **More** icon under **Preferences** column  
+
+5.  Click on the **More** icon under **Preferences** column
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A303A6.png)
-6.  The **Driver Builder** dialog will be displayed. This is the form to set Desired Capabilities for the selected Driver. The steps to add new Desired Capabilities here is similar to other settings above.  
+6.  The **Driver Builder** dialog will be displayed. This is the form to set Desired Capabilities for the selected Driver. The steps to add new Desired Capabilities here is similar to other settings above.
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A353A10.png)
-7.  Click **OK** when you're done.  
+7.  Click **OK** when you're done.
     ![](../../images/katalon-studio/docs/execution-settings/image2016-11-1-143A383A39.png)
 
 > Location of Desired Capabilities files
-> 
+>
 > Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
-> 
+>
 > | Driver | Settings' file |
 > | --- | --- |
 > | Chrome | com.kms.katalon.core.webui.chrome.properties |

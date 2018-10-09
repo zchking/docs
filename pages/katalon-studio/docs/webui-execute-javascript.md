@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Execute JavaScript" 
+title: "[WebUI] Execute JavaScript"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-execute-javascript.html 
+permalink: katalon-studio/docs/webui-execute-javascript.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Execute+JavaScript"
-    - "/x/XhdO"
-description: 
+    - "/display/KD/%5BWebUI%5D+Execute+JavaScript/"
+    - "/x/XhdO/"
+    - "/katalon-studio/docs/webui-execute-javascript/"
+description:
 ---
 Description  
 -------------

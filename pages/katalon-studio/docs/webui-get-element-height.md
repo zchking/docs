@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Get Element Height" 
+title: "[WebUI] Get Element Height"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-element-height.html 
+permalink: katalon-studio/docs/webui-get-element-height.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Element+Height"
-    - "/x/WQpO"
-description: 
+    - "/display/KD/%5BWebUI%5D+Get+Element+Height/"
+    - "/x/WQpO/"
+    - "/katalon-studio/docs/webui-get-element-height/"
+description:
 ---
 Description  
 -------------
@@ -56,10 +57,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Open browser and navigate to AUT'
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
- 
+
 'Get height of txt_UserName'
 height = WebUI.getElementHeight(findTestObject('Page_Login/txt_UserName'))
- 
+
 'Close browser'
 WebUI.closeBrowser()
 ```

@@ -3,8 +3,9 @@ title: "Schedule tests to execute"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/schedule-tests-to-execute.html 
 redirect_from:
-    - "/display/KD/Schedule+tests+to+execute"
-    - "/x/VQXR"
+    - "/display/KD/Schedule+tests+to+execute/"
+    - "/x/VQXR/"
+    - "/katalon-studio/docs/schedule-tests-to-execute/"
 description: 
 ---
 There will be cases in which you want to schedule your tests to execute within a period or every x hours. Katalon Studio does not support scheduler, but you can schedule executions using the steps below:

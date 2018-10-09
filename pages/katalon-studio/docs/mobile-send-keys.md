@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Send Keys" 
+title: "[Mobile] Send Keys"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-send-keys.html 
+permalink: katalon-studio/docs/mobile-send-keys.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Send+Keys"
-    - "/x/kg9O"
-description: 
+    - "/display/KD/%5BMobile%5D+Send+Keys/"
+    - "/x/kg9O/"
+    - "/katalon-studio/docs/mobile-send-keys/"
+description:
 ---
 Description 
 ------------

@@ -3,8 +3,9 @@ title: "Version 4.7.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-471.html
 redirect_from:
-    - "/display/KD/Version+4.7.1.html"
-    - "/x/GRFO"
+    - "/display/KD/Version+4.7.1/"
+    - "/x/GRFO/"
+    - "/katalon-studio/new/version-471/"
 description:
 ---
 General Improvement
@@ -22,8 +23,8 @@ qTest Integration
 
 *   The user interfaces when setting up qTest integration are optimized for better user experiences and fixed bugs.  For more details, please refer to [qTest Integration](/display/KD/qTest+Integration).
 
-    ![](../../images/katalon-studio/docs/version-471/image2017-8-1-183A263A14.png)
+    ![](../../images/katalon-studio/new/version-471/image2017-8-1-183A263A14.png)
 
 
 *   Integrated test artifacts will have dedicated icon as shown below:
-    ![](../../images/katalon-studio/docs/version-471/image2017-8-4-173A63A56.png)
+    ![](../../images/katalon-studio/new/version-471/image2017-8-4-173A63A56.png)

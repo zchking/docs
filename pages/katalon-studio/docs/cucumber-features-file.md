@@ -3,8 +3,9 @@ title: "Cucumber Features File"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cucumber-features-file.html 
 redirect_from:
-    - "/display/KD/Cucumber+Features+File"
-    - "/x/OBLR"
+    - "/display/KD/Cucumber+Features+File/"
+    - "/x/OBLR/"
+    - "/katalon-studio/docs/cucumber-features-file/"
 description: 
 ---
 Overview

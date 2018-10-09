@@ -3,8 +3,9 @@ title: "Supported Environments"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/supported-environments.html 
 redirect_from:
-    - "/display/KD/Supported+Environments"
-    - "/x/dAAM"
+    - "/display/KD/Supported+Environments/"
+    - "/x/dAAM/"
+    - "/katalon-studio/docs/supported-environments/"
 description: 
 ---
 Browsers

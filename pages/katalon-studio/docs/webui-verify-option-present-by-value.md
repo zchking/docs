@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Verify Option Present By Value" 
+title: "[WebUI] Verify Option Present By Value"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-option-present-by-value.html 
+permalink: katalon-studio/docs/webui-verify-option-present-by-value.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Option+Present+By+Value"
-    - "/x/lJIY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Present+By+Value/"
+    - "/x/lJIY/"
+    - "/katalon-studio/docs/webui-verify-option-present-by-value/"
+description:
 ---
 Description
 -----------
@@ -64,7 +65,7 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 'Verify \'HongKong Cura Health Center\' option in \'Facility\' list is present'
-WebUI.verifyOptionPresentByValue(findTestObject('Page_CuraAppointment/lst_Facility'), 'HongKong Cura Health Center', 
+WebUI.verifyOptionPresentByValue(findTestObject('Page_CuraAppointment/lst_Facility'), 'HongKong Cura Health Center',
     false, 20)
 
 'Close browser'

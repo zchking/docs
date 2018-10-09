@@ -3,8 +3,9 @@ title: "Writing Custom Script Formatter"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/writing-custom-script-formatter.html 
 redirect_from:
-    - "/display/KR/Writing+Custom+Script+Formatter"
-    - "/x/igHR"
+    - "/display/KR/Writing+Custom+Script+Formatter/"
+    - "/x/igHR/"
+    - "/katalon-recorder/docs/writing-custom-script-formatter/"
 description: 
 ---
 Introduction

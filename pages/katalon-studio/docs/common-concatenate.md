@@ -1,11 +1,12 @@
 ---
-title: "[Common] Concatenate" 
+title: "[Common] Concatenate"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-concatenate.html 
+permalink: katalon-studio/docs/common-concatenate.html
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Concatenate"
-    - "/x/a4Ii"
-description: 
+    - "/display/KD/%5BCommon%5D+Concatenate/"
+    - "/x/a4Ii/"
+    - "/katalon-studio/docs/common-concatenate/"
+description:
 ---
 Description  
 -------------
@@ -56,10 +57,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Use WebUI keyword'
 WebUI.concatenate(['Katalon', 'Automation Tool'] as String[], FailureHandling.STOP_ON_FAILURE)
-  
+
 'Use Mobile keyword'
 Mobile.concatenate(['Katalon', 'Automation Tool'] as String[], FailureHandling.STOP_ON_FAILURE)
-  
+
 'Use Web Service keyword'
 WS.concatenate(['Katalon', 'Automation Tool'] as String[], FailureHandling.STOP_ON_FAILURE)
 ```

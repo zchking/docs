@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Get Viewport Top Position" 
+title: "[WebUI] Get Viewport Top Position"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-viewport-top-position.html 
+permalink: katalon-studio/docs/webui-get-viewport-top-position.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Viewport+Top+Position"
-    - "/x/C4wY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Get+Viewport+Top+Position/"
+    - "/x/C4wY/"
+    - "/katalon-studio/docs/webui-get-viewport-top-position/"
+description:
 ---
 Description  
 -------------

@@ -3,8 +3,9 @@ title: "Retrieve OS, browser and screen resolution of the machine perfoming test
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html 
 redirect_from:
-    - "/display/KD/Retrieve+OS%2C+browser+and+screen+resolution+of+the+machine+perfoming+tests"
-    - "/x/XgXR"
+    - "/display/KD/Retrieve+OS%2C+browser+and+screen+resolution+of+the+machine+perfoming+tests/"
+    - "/x/XgXR/"
+    - "/katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests/"
 description: 
 ---
 During or after test executions, you may want to capture additional information about OS, browser, and screen resolution of the machine performing tests. Below are some sample custom keywords to help you with this task:

@@ -3,8 +3,9 @@ title: "Version 5.2"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-52.html
 redirect_from:
-    - "/display/KD/Version+5.2.html"
-    - "/x/kh1O"
+    - "/display/KD/Version+5.2/"
+    - "/x/kh1O/"
+    - "/katalon-studio/new/version-52/"
 description:
 ---
 Mobile Testing
@@ -25,11 +26,11 @@ Introducing Test Hooks feature in Katalon Studio version 5.2 to support users e
 *   Generate sample After Test Suite method
 
 
-![](../../images/katalon-studio/docs/version-52/image2017-12-5-103A353A38.png)
+![](../../images/katalon-studio/new/version-52/image2017-12-5-103A353A38.png)
 
 Objects Spy/Record
 ------------------
 
 Enhanced Katalon Studio objects detection approach to auto-select only important captured properties that are used to locate the object instead of selecting all captured properties.
 
-![](../../images/katalon-studio/docs/version-52/image2017-12-5-143A53A33.png)
+![](../../images/katalon-studio/new/version-52/image2017-12-5-143A53A33.png)

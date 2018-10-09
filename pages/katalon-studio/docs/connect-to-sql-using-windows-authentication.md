@@ -3,8 +3,9 @@ title: "Connect to SQL using Windows Authentication"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/connect-to-sql-using-windows-authentication.html 
 redirect_from:
-    - "/display/KD/Connect+to+SQL+using+Windows+Authentication"
-    - "/x/UAXR"
+    - "/display/KD/Connect+to+SQL+using+Windows+Authentication/"
+    - "/x/UAXR/"
+    - "/katalon-studio/docs/connect-to-sql-using-windows-authentication/"
 description: 
 ---
 1.  Go to: [https://docs.microsoft.com/en-us/sql/connect/jdbc/building-the-connection-url#Connectingintegrated](https://docs.microsoft.com/en-us/sql/connect/jdbc/building-the-connection-url#Connectingintegrated)

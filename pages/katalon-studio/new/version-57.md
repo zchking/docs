@@ -18,7 +18,7 @@ _**Key Features**_
 *   Step definitions are implemented in Script Mode with hundreds of built-in keyword for reusability
 *   Easy-to-manage Feature files as Katalon Studio test artifacts structure
 
-![Screen Shot 2018-09-06 at 9.00.58 AM.png](../../images/katalon-studio/docs/version-57/Screen Shot 2018-09-06 at 9.00.58 AM.png)
+![Screen Shot 2018-09-06 at 9.00.58 AM.png](../../images/katalon-studio/new/version-57/Screen Shot 2018-09-06 at 9.00.58 AM.png)
 
 Smart XPath Generator
 ---------------------
@@ -31,21 +31,21 @@ _**Key Features**_
 *   Preserves the relationship between an element and its indicator in an item. 
 *   Generates reliable locators to reduce test script maintenance cost.
 
-![](../../images/katalon-studio/docs/version-57/NewXPath.png)
+![](../../images/katalon-studio/new/version-57/NewXPath.png)
 
 Support variables for API Testing
 ---------------------------------
 
 Adding a **Variables** tab to the Web Service Object details view to further supports parameterization, making the API Testing process easier. Pre-defined variables will be mapped **automatically** when selecting Web Service object from Manual Mode, so the users don't need to define them again manually, cutting down the chance of missing requirement variables.
 
-![](../../images/katalon-studio/docs/version-57/APIVariable.png)
+![](../../images/katalon-studio/new/version-57/APIVariable.png)
 
 In-app Sign up and Activate Katalon Studio
 ------------------------------------------
 
 Users no longer have to register a Katalon account on the website to activate Katalon product. Simply download the Katalon Studio application, sign up, and activate. Everything happens right inside the app.
 
-![](../../images/katalon-studio/docs/version-57/image2018-8-30 14_14_24.png)
+![](../../images/katalon-studio/new/version-57/image2018-8-30 14_14_24.png)
 
 Bug Fixes and Improvements
 --------------------------

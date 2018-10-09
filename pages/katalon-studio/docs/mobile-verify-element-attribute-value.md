@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Verify Element Attribute Value" 
+title: "[Mobile] Verify Element Attribute Value"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-verify-element-attribute-value.html 
+permalink: katalon-studio/docs/mobile-verify-element-attribute-value.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Verify+Element+Attribute+Value"
-    - "/x/YpEY"
-description: 
+    - "/display/KD/%5BMobile%5D+Verify+Element+Attribute+Value/"
+    - "/x/YpEY/"
+    - "/katalon-studio/docs/mobile-verify-element-attribute-value/"
+description:
 ---
 Description
 -----------
@@ -41,13 +42,13 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.util.internal.PathUtil as PathUtil
- 
+
 'Start application on current selected android\'s device'
 Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
- 
+
 'Verify App control has attribute class with value android.widget.TextView'
 Mobile.verifyElementAttributeValue(findTestObject('Application/android.widget.TextView - App'),'class','android.widget.TextView', 10)
- 
+
 'Close application on current selected android\'s device'
 Mobile.closeApplication()
 ```

@@ -3,8 +3,9 @@ title: "Troubleshooting automated mobile testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-automated-mobile-testing.html 
 redirect_from:
-    - "/display/KD/Troubleshooting+automated+mobile+testing"
-    - "/x/fBdO"
+    - "/display/KD/Troubleshooting+automated+mobile+testing/"
+    - "/x/fBdO/"
+    - "/katalon-studio/docs/troubleshooting-automated-mobile-testing/"
 description: 
 ---
 > *   Please read **[Installation and Setup](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.

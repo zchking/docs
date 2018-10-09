@@ -1,11 +1,12 @@
 ---
-title: "Katalon Recorder Helper Tool" 
+title: "Katalon Recorder Helper Tool"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-recorder/docs/katalon-recorder-helper-tool.html 
+permalink: katalon-recorder/docs/katalon-recorder-helper-tool.html
 redirect_from:
-    - "/display/KR/Katalon+Recorder+Helper+Tool"
-    - "/x/PQTR"
-description: 
+    - "/display/KR/Katalon+Recorder+Helper+Tool/"
+    - "/x/PQTR/"
+    - "/katalon-recorder/docs/katalon-recorder-helper-tool/"
+description:
 ---
 Introduction
 ------------
@@ -20,11 +21,11 @@ Usage
 1.  Install Java Runtime Environment version 8.x on your machine.
 2.  Download the latest file "katalon-recorder-helper.jar" from the releases page [https://github.com/katalon-studio/katalon-recorder-helper/releases](https://github.com/katalon-studio/katalon-recorder-helper/releases).
 3.  Run the jar file using the following command
-    
+
     ```groovy
     java -jar katalon-recorder-helper.jar
     ```
-    
+
 
 Katalon Recorder Helper will listen for commands at port 18910.
 
@@ -39,7 +40,7 @@ For Chrome, Katalon Recorder Helper is not required.
 
 ### Executing OS commands
 
-OS commands can be triggered using Katalon Recorder Helper. Users can combine this function with user extensions ([https://docs.katalon.com/x/9APR](/x/9APR)) to extend Katalon Recorder's capability.
+OS commands can be triggered using Katalon Recorder Helper. Users can combine this function with user extensions ([/x/9APR](/x/9APR)) to extend Katalon Recorder's capability.
 
 For example, a call to the following URL
 

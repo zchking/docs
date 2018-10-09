@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Unlock Screen" 
+title: "[Mobile] Unlock Screen"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-unlock-screen.html 
+permalink: katalon-studio/docs/mobile-unlock-screen.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Unlock+Screen"
-    - "/x/_pAY"
-description: 
+    - "/display/KD/%5BMobile%5D+Unlock+Screen/"
+    - "/x/_pAY/"
+    - "/katalon-studio/docs/mobile-unlock-screen/"
+description:
 ---
 Description  
 -------------

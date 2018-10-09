@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Verify Is Portrait" 
+title: "[Mobile] Verify Is Portrait"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-verify-is-portrait.html 
+permalink: katalon-studio/docs/mobile-verify-is-portrait.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Verify+Is+Portrait"
-    - "/x/qYcY"
-description: 
+    - "/display/KD/%5BMobile%5D+Verify+Is+Portrait/"
+    - "/x/qYcY/"
+    - "/katalon-studio/docs/mobile-verify-is-portrait/"
+description:
 ---
 Description  
 -------------
@@ -31,10 +32,10 @@ Example 
 
 You want to verify if the current device is in portrait mode.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/mobile-verify-is-portrait/image2017-3-3-153A133A45.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -56,15 +57,15 @@ You want to verify if the current device is in portrait mode.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-    
+
     'Verify if the current device is in portrait mode'
     Mobile.verifyIsPortrait()
-    
+
     'Close application on current selected android device'
     Mobile.closeApplication()
-    
-    
+
+
     ```

@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Toggle Airplane Mode" 
+title: "[Mobile] Toggle Airplane Mode"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-toggle-airplane-mode.html 
+permalink: katalon-studio/docs/mobile-toggle-airplane-mode.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Toggle+Airplane+Mode"
-    - "/x/XJQY"
-description: 
+    - "/display/KD/%5BMobile%5D+Toggle+Airplane+Mode/"
+    - "/x/XJQY/"
+    - "/katalon-studio/docs/mobile-toggle-airplane-mode/"
+description:
 ---
 Description  
 -------------

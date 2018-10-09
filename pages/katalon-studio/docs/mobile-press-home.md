@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Press Home" 
+title: "[Mobile] Press Home"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-press-home.html 
+permalink: katalon-studio/docs/mobile-press-home.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Press+Home"
-    - "/x/NJQY"
-description: 
+    - "/display/KD/%5BMobile%5D+Press+Home/"
+    - "/x/NJQY/"
+    - "/katalon-studio/docs/mobile-press-home/"
+description:
 ---
 Description
 -----------

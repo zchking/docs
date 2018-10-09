@@ -3,8 +3,9 @@ title: "Web Services Builder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-services-builder.html 
 redirect_from:
-    - "/display/KD/Web+Services+Builder"
-    - "/x/IAPR"
+    - "/display/KD/Web+Services+Builder/"
+    - "/x/IAPR/"
+    - "/katalon-studio/docs/web-services-builder/"
 description: 
 ---
 > Since Katalon Studio 5.4

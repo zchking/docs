@@ -8,7 +8,7 @@ description: "Learn how to create JIRA tickets directly from failed execution re
 
 **A quick guide to set up and start creating JIRA tickets directly from failed execution results with detail, screenshot and log with Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. **
 
-**Read full guideline : [https://docs.katalon.com/display/KD/JIRA+Integration](/display/KD/JIRA+Integration)**
+**Read full guideline : [/display/KD/JIRA+Integration](/display/KD/JIRA+Integration)**
 
 ### Configuration
 

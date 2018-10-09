@@ -3,8 +3,9 @@ title: "Katalon Studio Preferences"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-studio-preferences.html 
 redirect_from:
-    - "/display/KD/Katalon+Studio+Preferences"
-    - "/x/NQRO"
+    - "/display/KD/Katalon+Studio+Preferences/"
+    - "/x/NQRO/"
+    - "/katalon-studio/docs/katalon-studio-preferences/"
 description: 
 ---
 These preferences define default behavior of Katalon Studio across projects.

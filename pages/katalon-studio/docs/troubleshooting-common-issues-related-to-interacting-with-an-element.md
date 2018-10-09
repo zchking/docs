@@ -1,11 +1,12 @@
 ---
-title: "Troubleshooting common issues related to interacting with an element" 
+title: "Troubleshooting common issues related to interacting with an element"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html 
+permalink: katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
 redirect_from:
-    - "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element"
-    - "/x/awXR"
-description: 
+    - "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element/"
+    - "/x/awXR/"
+    - "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element/"
+description:
 ---
  There are many cases which can happen to an element. These quick tips and tricks will help you to troubleshoot some common issues and how to handle them as a workaround solution:
 
@@ -20,13 +21,13 @@ The element can't be detected on current page due XPath or CSS selector is incor
 *   The element is hidden and is not ready.
 *   The element is not visible yet after current page is loaded.
 
-**Solution:**  
+**Solution:**
 Add '[Wait For Element Visible](/display/KD/%5BWebUI%5D+Wait+For+Element+Visible)' step before the step having this issue, e.g:
 
 ```groovy
-WebUI.openBrowser('http://demoaut.katalon.com') 
-WebUI.waitForElementVisible(findtestObject('btn_Login'), 30) 
-WebUI.click(findTestObject('btn_Login')) 
+WebUI.openBrowser('http://demoaut.katalon.com')
+WebUI.waitForElementVisible(findtestObject('btn_Login'), 30)
+WebUI.click(findTestObject('btn_Login'))
 ```
 
 **3\. "Element is not currently interactable and may not be manipulated"**
@@ -47,7 +48,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element))
 ```
 
-  
+
 **4\. "Element is not clickable at point (x,x). Other** element **would receive the click...":**
 
 *   Happens mostly on Chrome ([source](http://chromedriver.chromium.org/help/clicking-issues)).

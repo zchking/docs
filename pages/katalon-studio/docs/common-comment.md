@@ -1,11 +1,12 @@
 ---
-title: "[Common] Comment" 
+title: "[Common] Comment"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-comment.html 
+permalink: katalon-studio/docs/common-comment.html
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Comment"
-    - "/x/KIIi"
-description: 
+    - "/display/KD/%5BCommon%5D+Comment/"
+    - "/x/KIIi/"
+    - "/katalon-studio/docs/common-comment/"
+description:
 ---
 Description  
 -------------
@@ -46,10 +47,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Use WebUI keyword'
 WebUI.comment('Your text here')
-  
+
 'Use Mobile keyword'
 Mobile.comment('Your text here')
- 
+
 'Use Web Service keyword'
 WS.comment('Your text here')
 ```

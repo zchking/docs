@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Drag And Drop" 
+title: "[Mobile] Drag And Drop"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-drag-and-drop.html 
+permalink: katalon-studio/docs/mobile-drag-and-drop.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Drag+And+Drop"
-    - "/x/L4gY"
-description: 
+    - "/display/KD/%5BMobile%5D+Drag+And+Drop/"
+    - "/x/L4gY/"
+    - "/katalon-studio/docs/mobile-drag-and-drop/"
+description:
 ---
 Description
 -----------

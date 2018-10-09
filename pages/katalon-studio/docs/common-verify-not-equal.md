@@ -1,11 +1,12 @@
 ---
-title: "[Common] Verify Not Equal" 
+title: "[Common] Verify Not Equal"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-not-equal.html 
+permalink: katalon-studio/docs/common-verify-not-equal.html
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Not+Equal"
-    - "/x/-oEi"
-description: 
+    - "/display/KD/%5BCommon%5D+Verify+Not+Equal/"
+    - "/x/-oEi/"
+    - "/katalon-studio/docs/common-verify-not-equal/"
+description:
 ---
 Description  
 -------------
@@ -55,7 +56,7 @@ import internal.GlobalVariable as GlobalVariable
 
 'Use WebUI keyword'
 WebUI.verifyNotEqual(10, 12)
- 
+
 'Use Mobile keyword'
 Mobile.verifyNotEqual(10, 12)
 

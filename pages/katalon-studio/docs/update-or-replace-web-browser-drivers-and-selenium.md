@@ -1,11 +1,12 @@
 ---
-title: "Update or Replace Web Browser Drivers and Selenium" 
+title: "Update or Replace Web Browser Drivers and Selenium"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html 
+permalink: katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
 redirect_from:
-    - "/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium"
-    - "/x/1xtO"
-description: 
+    - "/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium/"
+    - "/x/1xtO/"
+    - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium/"
+description:
 ---
 For manually replacing and updating other versions of WebDrivers and Selenium, please refer to this [guide](/x/1xtO). 
 

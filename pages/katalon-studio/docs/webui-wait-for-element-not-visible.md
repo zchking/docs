@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Wait For Element Not Visible" 
+title: "[WebUI] Wait For Element Not Visible"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-wait-for-element-not-visible.html 
+permalink: katalon-studio/docs/webui-wait-for-element-not-visible.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Not+Visible"
-    - "/x/mIwY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Not+Visible/"
+    - "/x/mIwY/"
+    - "/katalon-studio/docs/webui-wait-for-element-not-visible/"
+description:
 ---
 Description
 -----------

@@ -3,8 +3,9 @@ title: "Test Case Preferences"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-case-preferences.html 
 redirect_from:
-    - "/display/KD/Test+Case+Preferences"
-    - "/x/ZIUw"
+    - "/display/KD/Test+Case+Preferences/"
+    - "/x/ZIUw/"
+    - "/katalon-studio/docs/test-case-preferences/"
 description: 
 ---
 All the preferences under **Test Case** group are for controlling the default behavior that Katalon Studio should perform when test cases are designed.

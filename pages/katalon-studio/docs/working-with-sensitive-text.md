@@ -1,11 +1,12 @@
 ---
-title: "Working with Sensitive Text" 
+title: "Working with Sensitive Text"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/working-with-sensitive-text.html 
+permalink: katalon-studio/docs/working-with-sensitive-text.html
 redirect_from:
-    - "/display/KD/Working+with+Sensitive+Text"
-    - "/x/3wHR"
-description: 
+    - "/display/KD/Working+with+Sensitive+Text/"
+    - "/x/3wHR/"
+    - "/katalon-studio/docs/working-with-sensitive-text/"
+description:
 ---
 > **Since Katalon Studio v5.4**
 
@@ -14,9 +15,9 @@ Katalon Studio supports text encryption and set them right into the test script
 Manual Mode
 -----------
 
-*   Select [**setEncryptedText**](/display/KD/%5BWebUI%5D+Set+Encrypted+Text) from the built-in keywords dropdown list. Click on **Input** field and a pop-up will be displayed to help encrypt any raw text.  
-      
-    
+*   Select [**setEncryptedText**](/display/KD/%5BWebUI%5D+Set+Encrypted+Text) from the built-in keywords dropdown list. Click on **Input** field and a pop-up will be displayed to help encrypt any raw text.
+
+
 *   Next, enter the raw text and select **Insert**. Katalon Studio will **automatically** encrypt and insert into the test step. 
 
 ![](../../images/katalon-studio/docs/working-with-sensitive-text/image2018-3-26-173A513A4.png)

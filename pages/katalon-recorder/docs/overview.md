@@ -3,8 +3,9 @@ title: "Overview"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/overview.html 
 redirect_from:
-    - "/display/KR/Overview"
-    - "/x/_RHR"
+    - "/display/KR/Overview/"
+    - "/x/_RHR/"
+    - "/katalon-recorder/docs/overview/"
 description: 
 ---
 Thank you for using Katalon Recorder (KR) – the champion project of Katalon Hackathon. This is the Selenium IDE-compatible replacement on latest [Chrome](https://chrome.google.com/webstore/detail/katalon-automation-record/ljdobmomdgdljniojadhoplhkpialdid?utm_source=chrome-ntp-icon) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/katalon-automation-record/) that helps record, play, debug, manage automated tests, and export to C#, Java, Ruby, Python, Groovy, or Robot Framework.

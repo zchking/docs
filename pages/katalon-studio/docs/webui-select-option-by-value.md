@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Select Option By Value" 
+title: "[WebUI] Select Option By Value"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-select-option-by-value.html 
+permalink: katalon-studio/docs/webui-select-option-by-value.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Select+Option+By+Value"
-    - "/x/LZIY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Select+Option+By+Value/"
+    - "/x/LZIY/"
+    - "/katalon-studio/docs/webui-select-option-by-value/"
+description:
 ---
 Description
 -----------

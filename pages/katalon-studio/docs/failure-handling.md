@@ -1,11 +1,12 @@
 ---
-title: "Failure Handling" 
+title: "Failure Handling"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/failure-handling.html 
+permalink: katalon-studio/docs/failure-handling.html
 redirect_from:
-    - "/display/KD/Failure+Handling"
-    - "/x/qAAM"
-description: 
+    - "/display/KD/Failure+Handling/"
+    - "/x/qAAM/"
+    - "/katalon-studio/docs/failure-handling/"
+description:
 ---
 Failure handling settings allow users to decide whether Katalon Studio will continue running or not in case of errors occurs during execution.
 
@@ -18,14 +19,14 @@ Default failure handling behavior
 
 Follow these steps to define the default behavior for failure handling to be applied across your project:
 
-1.  From Katalon Studio menu, access **Project > Settings > Test Case**.   
-    ![](../../images/katalon-studio/docs/failure-handling/image2017-6-30-203A363A43.png)  
-      
-    
+1.  From Katalon Studio menu, access **Project > Settings > Test Case**. 
+    ![](../../images/katalon-studio/docs/failure-handling/image2017-6-30-203A363A43.png)
+
+
 2.  Select the preferred option for the default behavior of **Failure Handling**. Click **OK** when you're done.
-    
+
     > The selected option will be applied to new test steps only. For the steps already existed in your test cases, their failure handling option will not be affected by this change. Thus, you may need to [update them manually](/display/KD/Failure+handling#Failurehandling-Overridefailurehandlingbehavior).
-    
+
 
 Override failure handling behavior
 ----------------------------------
@@ -34,10 +35,10 @@ You can override the default failure handling behavior for each test step manual
 
 ### In Manual View
 
-1.  Right click on the step that you want to change the failure handling behavior to trigger its context menu  
-    ![](../../images/katalon-studio/docs/failure-handling/image2017-8-18-153A133A36.png)  
-      
-    
+1.  Right click on the step that you want to change the failure handling behavior to trigger its context menu
+    ![](../../images/katalon-studio/docs/failure-handling/image2017-8-18-153A133A36.png)
+
+
 2.  Select the preferred failure handling option and save your test case.  
 
 ### In Scripting View

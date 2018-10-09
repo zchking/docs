@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Switch To Window Url" 
+title: "[WebUI] Switch To Window Url"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-switch-to-window-url.html 
+permalink: katalon-studio/docs/webui-switch-to-window-url.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Switch+To+Window+Url"
-    - "/x/U40Y"
-description: 
+    - "/display/KD/%5BWebUI%5D+Switch+To+Window+Url/"
+    - "/x/U40Y/"
+    - "/katalon-studio/docs/webui-switch-to-window-url/"
+description:
 ---
 Description  
 -------------
@@ -23,7 +24,7 @@ Parameters  
 Example 
 --------
 
-You want to switch to the window with URL "[https://docs.katalon.com/](/)".
+You want to switch to the window with URL "[/](/)".
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -54,7 +55,7 @@ WebUI.openBrowser('https://www.katalon.com/')
 WebUI.click(findTestObject('Page_Katalon Studio/a_Documentation'))
 
 'Switch to Documentation window'
-WebUI.switchToWindowUrl('https://docs.katalon.com/')
+WebUI.switchToWindowUrl('/')
 
 'Close browser'
 WebUI.closeBrowser()

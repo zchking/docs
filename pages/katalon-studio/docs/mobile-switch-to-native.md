@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Switch To Native" 
+title: "[Mobile] Switch To Native"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-switch-to-native.html 
+permalink: katalon-studio/docs/mobile-switch-to-native.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Switch+To+Native"
-    - "/x/T5AY"
-description: 
+    - "/display/KD/%5BMobile%5D+Switch+To+Native/"
+    - "/x/T5AY/"
+    - "/katalon-studio/docs/mobile-switch-to-native/"
+description:
 ---
 Description  
 -------------
@@ -24,10 +25,10 @@ Example 
 
 You want to switch the current device driver to native context.
 
-*   Manual view    
+*   Manual view  
     ![](../../images/katalon-studio/docs/mobile-switch-to-native/image2017-3-3-143A433A55.png)
 *   Script view 
-    
+
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -49,14 +50,14 @@ You want to switch the current device driver to native context.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-    
+
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-    
+
     'Switch the current device to native context'
     Mobile.switchToNative()
-    
+
     'Close application on current selected android device'
     Mobile.closeApplication()
-    
+
     ```

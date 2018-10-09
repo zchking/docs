@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Open Notifications" 
+title: "[Mobile] Open Notifications"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-open-notifications.html 
+permalink: katalon-studio/docs/mobile-open-notifications.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Open+Notifications"
-    - "/x/m5IY"
-description: 
+    - "/display/KD/%5BMobile%5D+Open+Notifications/"
+    - "/x/m5IY/"
+    - "/katalon-studio/docs/mobile-open-notifications/"
+description:
 ---
 Description
 -----------

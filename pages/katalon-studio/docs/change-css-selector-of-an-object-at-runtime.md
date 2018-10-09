@@ -3,8 +3,9 @@ title: "Change CSS selector of an object at runtime"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html 
 redirect_from:
-    - "/display/KD/Change+CSS+selector+of+an+object+at+runtime"
-    - "/x/dQXR"
+    - "/display/KD/Change+CSS+selector+of+an+object+at+runtime/"
+    - "/x/dQXR/"
+    - "/katalon-studio/docs/change-css-selector-of-an-object-at-runtime/"
 description: 
 ---
 To change a Test Object's CSS value at runtime:

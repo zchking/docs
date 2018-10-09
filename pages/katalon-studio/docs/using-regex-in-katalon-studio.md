@@ -3,8 +3,9 @@ title: "Using Regex in Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-regex-in-katalon-studio.html 
 redirect_from:
-    - "/display/KD/Using+Regex+in+Katalon+Studio"
-    - "/x/hAzR"
+    - "/display/KD/Using+Regex+in+Katalon+Studio/"
+    - "/x/hAzR/"
+    - "/katalon-studio/docs/using-regex-in-katalon-studio/"
 description: 
 ---
 **Problems**

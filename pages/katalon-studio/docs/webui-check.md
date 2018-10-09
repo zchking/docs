@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Check" 
+title: "[WebUI] Check"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-check.html 
+permalink: katalon-studio/docs/webui-check.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Check"
-    - "/x/EYkY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Check/"
+    - "/x/EYkY/"
+    - "/katalon-studio/docs/webui-check/"
+description:
 ---
 Description
 -----------

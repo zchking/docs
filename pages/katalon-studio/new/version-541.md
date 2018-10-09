@@ -3,8 +3,9 @@ title: "Version 5.4.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-541.html
 redirect_from:
-    - "/display/KD/Version+5.4.1.html"
-    - "/x/6QPR"
+    - "/display/KD/Version+5.4.1/"
+    - "/x/6QPR/"
+    - "/katalon-studio/new/version-541/"
 description:
 ---
 Fixes bugs

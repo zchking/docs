@@ -3,8 +3,9 @@ title: "Project and Execution Deletion"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-and-execution-deletion.html 
 redirect_from:
-    - "/display/KA/Project+and+Execution+Deletion"
-    - "/x/pwbR"
+    - "/display/KA/Project+and+Execution+Deletion/"
+    - "/x/pwbR/"
+    - "/katalon-analytics/docs/project-and-execution-deletion/"
 description: 
 ---
 > *   Once you delete an execution or a project, you **cannot** recover your data. Delete your execution and project with caution.

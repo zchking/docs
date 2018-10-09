@@ -1,11 +1,12 @@
 ---
-title: "Desired Capabilities for Internet Explorer" 
+title: "Desired Capabilities for Internet Explorer"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/desired-capabilities-for-internet-explorer.html 
+permalink: katalon-studio/docs/desired-capabilities-for-internet-explorer.html
 redirect_from:
-    - "/display/KD/Desired+Capabilities+for+Internet+Explorer"
-    - "/x/TgzR"
-description: 
+    - "/display/KD/Desired+Capabilities+for+Internet+Explorer/"
+    - "/x/TgzR/"
+    - "/katalon-studio/docs/desired-capabilities-for-internet-explorer/"
+description:
 ---
 Internet Explorer driver supports some important capabilities which can be used to smooth execution of test on Internet Explorer. Some of these capabilities help us to disable JavaScripts, ignore the security domain setting for IE, persistent hovering, require window focus etc. These capabilities ease the way the for automation testing using Selenium Web Driver on Internet Explorer. More details on the Internet Explorer can be found [here](https://code.google.com/p/selenium/wiki/DesiredCapabilities#IE_specific).
 

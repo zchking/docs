@@ -2,7 +2,7 @@
 title: "How to create Test in MANUAL mode"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_test_manual_mode.html
-description: 
+description:
 ---
 <iframe src="https://www.youtube.com/embed/L2jPhCkozxU?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
@@ -32,7 +32,7 @@ How to proceed on failure
 *   Continue on Failure
 *   Optional
 
-You can also set Proceed on failure option per Step [https://docs.katalon.com/display/KD/Failure+handling](/display/KD/Failure+handling)
+You can also set Proceed on failure option per Step [/display/KD/Failure+handling](/display/KD/Failure+handling)
 
 Like on [Facebook](https://www.facebook.com/automationstepbystep/) 
 

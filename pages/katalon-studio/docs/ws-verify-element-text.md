@@ -1,11 +1,12 @@
 ---
-title: "[WS] Verify Element Text" 
+title: "[WS] Verify Element Text"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/ws-verify-element-text.html 
+permalink: katalon-studio/docs/ws-verify-element-text.html
 redirect_from:
-    - "/display/KD/%5BWS%5D+Verify+Element+Text"
-    - "/x/kZQY"
-description: 
+    - "/display/KD/%5BWS%5D+Verify+Element+Text/"
+    - "/x/kZQY/"
+    - "/katalon-studio/docs/ws-verify-element-text/"
+description:
 ---
 Description
 -----------

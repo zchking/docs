@@ -3,8 +3,9 @@ title: "Start browsers in private mode"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/start-browsers-in-private-mode.html 
 redirect_from:
-    - "/display/KD/Start+browsers+in+private+mode"
-    - "/x/XAbR"
+    - "/display/KD/Start+browsers+in+private+mode/"
+    - "/x/XAbR/"
+    - "/katalon-studio/docs/start-browsers-in-private-mode/"
 description: 
 ---
 **1. Firefox:**

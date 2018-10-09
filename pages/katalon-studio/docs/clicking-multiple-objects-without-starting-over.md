@@ -1,18 +1,19 @@
 ---
-title: "Clicking multiple objects without starting over" 
+title: "Clicking multiple objects without starting over"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/clicking-multiple-objects-without-starting-over.html 
+permalink: katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
 redirect_from:
-    - "/display/KD/Clicking+multiple+objects+without+starting+over"
-    - "/x/ZwXR"
-description: 
+    - "/display/KD/Clicking+multiple+objects+without+starting+over/"
+    - "/x/ZwXR/"
+    - "/katalon-studio/docs/clicking-multiple-objects-without-starting-over/"
+description:
 ---
 If you have multiple and similar objects you want to quickly interact with during test execution, and you really don't want to spend time writing duplicate steps to interact with them, the approach below will help you reduce the time and make your code nicer:
 
 Use CSS or XPath to locate your elements, and then you start changing the IDs (let's say). For example:
 
 ```groovy
-TestObject yourObject = WebUI.modifyObjectProperty(findTestObject('Object Repository/Some object'), 'css', 'equals', '#${i}', true) 
+TestObject yourObject = WebUI.modifyObjectProperty(findTestObject('Object Repository/Some object'), 'css', 'equals', '#${i}', true)
 ```
 
 where 'i' is the loop counter. You can put it all inside of a loop that will read your excel sheet:

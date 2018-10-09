@@ -1,11 +1,12 @@
 ---
-title: "[Mobile] Verify Element Not Checked" 
+title: "[Mobile] Verify Element Not Checked"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-verify-element-not-checked.html 
+permalink: katalon-studio/docs/mobile-verify-element-not-checked.html
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Verify+Element+Not+Checked"
-    - "/x/fpEY"
-description: 
+    - "/display/KD/%5BMobile%5D+Verify+Element+Not+Checked/"
+    - "/x/fpEY/"
+    - "/katalon-studio/docs/mobile-verify-element-not-checked/"
+description:
 ---
 Description
 -----------

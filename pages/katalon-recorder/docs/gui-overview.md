@@ -3,8 +3,9 @@ title: "GUI Overview"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/gui-overview.html 
 redirect_from:
-    - "/display/KR/GUI+Overview"
-    - "/x/LAHR"
+    - "/display/KR/GUI+Overview/"
+    - "/x/LAHR/"
+    - "/katalon-recorder/docs/gui-overview/"
 description: 
 ---
 Katalon Automation Recorder main UI contains 4 sections as follow

@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Remove Object Property" 
+title: "[WebUI] Remove Object Property"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-remove-object-property.html 
+permalink: katalon-studio/docs/webui-remove-object-property.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Remove+Object+Property"
-    - "/x/wooY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Remove+Object+Property/"
+    - "/x/wooY/"
+    - "/katalon-studio/docs/webui-remove-object-property/"
+description:
 ---
 Description  
 -------------
@@ -66,7 +67,7 @@ WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
 
 'Remove property class of \'Login\' button'
 new_btn = WebUI.removeObjectProperty(findTestObject('Page_Login/btn_Login'), 'class')
- 
+
 'Click on new_btn'
 WebUI.click(findTestObject('new_btn'))
 

@@ -3,8 +3,9 @@ title: "Create Global Variables on the fly"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create-global-variables-on-the-fly.html 
 redirect_from:
-    - "/display/KD/Create+Global+Variables+on+the+fly"
-    - "/x/EAjR"
+    - "/display/KD/Create+Global+Variables+on+the+fly/"
+    - "/x/EAjR/"
+    - "/katalon-studio/docs/create-global-variables-on-the-fly/"
 description: 
 ---
 To create Global Variables during runtime using Katalon scripts, there are many approaches as discussed [here](https://forum.katalon.com/discussion/6822/how-to-define-global-variables-within-scripts-ie-on-the-fly). One of the approaches below comes from [Sergii Tyshchenko](https://forum.katalon.com/profile/4921/Sergii%20Tyshchenko):

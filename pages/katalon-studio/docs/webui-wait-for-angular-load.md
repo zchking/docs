@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Wait For Angular Load" 
+title: "[WebUI] Wait For Angular Load"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-wait-for-angular-load.html 
+permalink: katalon-studio/docs/webui-wait-for-angular-load.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Wait+For+Angular+Load"
-    - "/x/9wxO"
-description: 
+    - "/display/KD/%5BWebUI%5D+Wait+For+Angular+Load/"
+    - "/x/9wxO/"
+    - "/katalon-studio/docs/webui-wait-for-angular-load/"
+description:
 ---
 Description
 -----------

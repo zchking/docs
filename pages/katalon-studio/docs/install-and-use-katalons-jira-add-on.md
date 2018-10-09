@@ -3,8 +3,9 @@ title: "Install and Use Katalon's JIRA add-on"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/install-and-use-katalons-jira-add-on.html 
 redirect_from:
-    - "/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on"
-    - "/x/TBBO"
+    - "/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on/"
+    - "/x/TBBO/"
+    - "/katalon-studio/docs/install-and-use-katalons-jira-add-on/"
 description: 
 ---
 Katalon Studio provides a free JIRA add-on to help create a seamlessly integration. This add-on gives you several benefits:

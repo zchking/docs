@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Focus" 
+title: "[WebUI] Focus"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-focus.html 
+permalink: katalon-studio/docs/webui-focus.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Focus"
-    - "/x/RokY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Focus/"
+    - "/x/RokY/"
+    - "/katalon-studio/docs/webui-focus/"
+description:
 ---
 Description
 -----------

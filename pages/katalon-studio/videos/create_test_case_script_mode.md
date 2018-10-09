@@ -8,7 +8,7 @@ description: "A quick guide to create test case using Script mode of Katalon Stu
 
 **A quick guide to create test case using Script mode of Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. Katalon Studio helps you start automation testing on web on mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
-**Read full guideline [https://docs.katalon.com/x/Y4Iw](/x/Y4Iw)**
+**Read full guideline [/x/Y4Iw](/x/Y4Iw)**
 
 Given a sample test case with the steps as below:
 
@@ -26,14 +26,14 @@ Follow these steps to automate the above test scenario in **Script view**:
     4.  Select the [Open Browser](/display/KD/%5BWebUI%5D+Open+Browser) keyword. This keyword will open a browser and navigate to the specified URL if provided. Selected keywords will have their description displayed along for reference.
     5.  Enter the [Navigate To Url](/display/KD/%5BWebUI%5D+Navigate+to+Url) keyword. This keyword will navigate to a specified URL. For now, enter the URL of Katalon Studio ([katalon.com](https://katalon.com/)) as input parameter.
     6.  Enter the [Click](/display/KD/%5BWebUI%5D+Click) keyword. This keyword represents the click action on a given object. You need to specify an object for this action.
-    7.  Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):  
-        
+    7.  Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
+
         ```groovy
         findTestObject('{Object ID}')
-        
+
         ```
-        
-          
+
+
         Where **Object ID** is the ID of that object in Katalon Studio. You can find object ID from its Properties dialog.
     8.  Enter the [Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present) keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.
     9.  Add the [Close Browser](/display/KD/%5BWebUI%5D+Close+Browser) keyword and save your test case.

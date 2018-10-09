@@ -1,11 +1,12 @@
 ---
-title: "[WebUI] Forward" 
+title: "[WebUI] Forward"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-forward.html 
+permalink: katalon-studio/docs/webui-forward.html
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Forward"
-    - "/x/2IgY"
-description: 
+    - "/display/KD/%5BWebUI%5D+Forward/"
+    - "/x/2IgY/"
+    - "/katalon-studio/docs/webui-forward/"
+description:
 ---
 Description
 -----------
