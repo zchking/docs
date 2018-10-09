@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage('Build') {
+        stage('Build staging') {
             when {
                 not {
                     branch 'master'
@@ -25,6 +25,21 @@ pipeline {
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'')
+                    }
+                }
+            }
+        }
+
+        stage('Build production') {
+            when { branch 'master' }
+            steps {
+                script {
+                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
+                        sh 'bundle update'
+                        sh 'jekyll build'
+                    }
+                    withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
+                        s3Upload(file:'_site', bucket:'docs.katalon.com', path:'')
                     }
                 }
             }
