@@ -54,6 +54,7 @@ pipeline {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle update'
+                        sh 'rm -rfv _site'
                         sh 'jekyll algolia'
                     }
                 }
