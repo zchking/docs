@@ -3,7 +3,7 @@ title: "[WebUI] Navigate to Url"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-navigate-to-url.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Navigate+to+Url/"
+    - "/display/KD/%5BWebUI%5D%20Navigate%20to%20Url/"
     - "/x/3IgY/"
     - "/katalon-studio/docs/webui-navigate-to-url/"
 description: 
@@ -16,7 +16,7 @@ Navigate to the specified web page.
 Parameters
 ----------
 
-<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>rawUrl</td><td>String</td><td>Required</td><td><p>URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the&nbsp;the protocol&nbsp;will be&nbsp;<a rel="nofollow">http://.</a></p><p>Example:&nbsp;</p><ul><li>&nbsp;<a class="external-link" href="http://katalon.com" rel="nofollow">http://katalon.com/;</a>&nbsp;</li><li>&nbsp;<a class="external-link" href="https://www.google.com" rel="nofollow">https://www.google.com;</a>&nbsp;</li><li>file:///D:Development/index.html;</li><li>kms-technology.com =&gt; http://kms-tecnology.com</li></ul></td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="https://docs.katalon.com/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
+<table><thead><tr><th>Param</th><th>Param Type</th><th>Mandatory</th><th>Description</th></tr></thead><tbody><tr><td>rawUrl</td><td>String</td><td>Required</td><td><p>URL of web page to navigate to.If rawUrl doesn't contain protocol prefix, the&nbsp;the protocol&nbsp;will be&nbsp;<a rel="nofollow">http://.</a></p><p>Example:&nbsp;</p><ul><li>&nbsp;<a class="external-link" href="http://katalon.com" rel="nofollow">http://katalon.com/;</a>&nbsp;</li><li>&nbsp;<a class="external-link" href="https://www.google.com" rel="nofollow">https://www.google.com;</a>&nbsp;</li><li>file:///D:Development/index.html;</li><li>kms-technology.com =&gt; http://kms-tecnology.com</li></ul></td></tr><tr><td>flowControl</td><td>FailureHandling</td><td>Optional</td><td>Specify <a class="external-link" href="/x/qAAM" rel="nofollow">failure handling</a> schema to determine whether the execution should be allowed to continue or stop.</td></tr></tbody></table>
 
 Example
 -------

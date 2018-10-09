@@ -1,12 +1,12 @@
 ---
-title: "Console Mode Execution"
+title: "Console Mode Execution" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/console-mode-execution.html
+permalink: katalon-studio/docs/console-mode-execution.html 
 redirect_from:
-    - "/display/KD/Console+Mode+Execution/"
+    - "/display/KD/Console%20Mode%20Execution/"
     - "/x/WQAM/"
     - "/katalon-studio/docs/console-mode-execution/"
-description:
+description: 
 ---
 > Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version.**
 
@@ -16,40 +16,40 @@ Execute Katalon in CMD
 ----------------------
 
 1.  Open the command prompt and navigate to the folder of your Katalon Studio build, which contains katalon.exe **(**Windows**) **or Applications folder (Mac OS) or katalon (Linux) file.
-
+    
 2.  Enter the following syntax to execute automation test:
-
+    
     **Windows:**
-
+    
     ```groovy
     katalon {option1} {option2} ... {optionN}
     ```
-
+    
     **Mac OS:**
-
+    
     ```groovy
     ./Katalon\ Studio.app/Contents/MacOS/katalon --args {option1} {option2} ... {optionN}
     ```
-
+    
     **Linux**:
-
+    
     ```groovy
     ./katalon {option1} {option2} ... {optionN}
     ```
-
-
+    
+      
     where:
-
+    
     | Item | Description |
     | --- | --- |
     | katalon | The command of Katalon Studio to execute automation test. |
     | {option(s)} | The additional [options](/display/KD/Console+Mode+Execution#ConsoleModeExecution-KatalonCommandLineoptions) for the execution. |
-
+    
     For example:
-
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2016-4-6-133A153A3.png)
-
-
+    
+    ![](../../images/katalon-studio/docs/console-mode-execution/image2016-4-6-133A153A3.png)  
+      
+    
 3.  Press Enter to start execution.
 
 Katalon Command Line options 
@@ -64,54 +64,54 @@ Command Builder
 
 You can quickly generate commands to use in console mode by following the steps below:  
 
-1.  Click on **Build CMD** from the main toolbar.
-    ![](../../images/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png)
-
-
-2.  The **Generate Command for Console Mode** is displayed. Configure your options as needed.
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-113A443A30.png)
+1.  Click on **Build CMD** from the main toolbar.  
+    ![](../../images/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png)  
+      
+    
+2.  The **Generate Command for Console Mode** is displayed. Configure your options as needed.  
+    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-113A443A30.png)  
     where:
-
+    
     <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform to execute the test on. Select an environment</p><p><img src="../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
-
-3.  Click **Generate Command** after you're done with the configuration.
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)
-
-
-4.  You can **Copy to Clipboard** and paste to command prompt for execution.
-
-
+    
+3.  Click **Generate Command** after you're done with the configuration.  
+    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)  
+      
+    
+4.  You can **Copy to Clipboard** and paste to command prompt for execution.  
+      
+    
 
 Use console.properties file
 ---------------------------
 
 We support running console mode using **console.properties** file where you can manually modify the content if needed. 
 
-1.  Generate **console.properties** file using our generator:
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-123A33A30.png)
-
-
-2.  The **console.properties** file will be generated at your preferred location. You can open and update the parameters manually as needed. 
-    For example:
-    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png)
-
-
+1.  Generate **console.properties** file using our generator:  
+    ![](../../images/katalon-studio/docs/console-mode-execution/image2018-2-9-123A33A30.png)  
+      
+    
+2.  The **console.properties** file will be generated at your preferred location. You can open and update the parameters manually as needed.   
+    For example:  
+    ![](../../images/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png)  
+      
+    
 3.  Run the **console.properties** file in console mode with the following syntax:
-
+    
     ```groovy
     katalon -propertiesFile="<absolute path to console.properties file>" -runMode=console
     ```
-
+    
     For example:
-
+    
     ```groovy
     katalon -propertiesFile="D:\Katalon\Demo_Project\console.properties" -runMode=console
     ```
-
+    
 4.  You can add extra Katalon command options if needed. Any option already defined in the **console.properties** file will be overwritten by the one declared in command line.  
-
+    
     ```groovy
     katalon -propertiesFile="<absolute path to console.properties file" -runMode=console -browserType=IE 
     ```
-
+    
     In the above example, since we also declare _browserType_ option in command line, the automation test will be executed using IE instead of Chrome.

@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Submit"
+title: "[WebUI] Submit" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-submit.html
+permalink: katalon-studio/docs/webui-submit.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Submit/"
+    - "/display/KD/%5BWebUI%5D%20Submit/"
     - "/x/EIgY/"
     - "/katalon-studio/docs/webui-submit/"
-description:
+description: 
 ---
 Description
 -----------

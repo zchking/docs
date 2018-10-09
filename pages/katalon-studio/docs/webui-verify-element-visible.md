@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Element Visible"
+title: "[WebUI] Verify Element Visible" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-visible.html
+permalink: katalon-studio/docs/webui-verify-element-visible.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Visible/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Visible/"
     - "/x/XYoY/"
     - "/katalon-studio/docs/webui-verify-element-visible/"
-description:
+description: 
 ---
 Description
 -----------

@@ -3,7 +3,7 @@ title: "Version 5.3.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-531.html
 redirect_from:
-    - "/display/KD/Version+5.3.1/"
+    - "/display/KD/Version%205.3.1/"
     - "/x/JAHR/"
     - "/katalon-studio/new/version-531/"
 description:

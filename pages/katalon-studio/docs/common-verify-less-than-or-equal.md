@@ -1,12 +1,12 @@
 ---
-title: "[Common] Verify Less Than Or Equal"
+title: "[Common] Verify Less Than Or Equal" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-less-than-or-equal.html
+permalink: katalon-studio/docs/common-verify-less-than-or-equal.html 
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Less+Than+Or+Equal/"
+    - "/display/KD/%5BCommon%5D%20Verify%20Less%20Than%20Or%20Equal/"
     - "/x/84Ei/"
     - "/katalon-studio/docs/common-verify-less-than-or-equal/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -56,10 +56,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Use WebUI keyword'
 WebUI.verifyLessThanOrEqual(10, 12)
-
+ 
 'Use Mobile keyword'
 Mobile.verifyLessThanOrEqual(10, 12)
-
-'Use Web Service keyword'
+ 
+'Use Web Service keyword' 
 WS.verifyLessThanOrEqual(10, 12)
 ```

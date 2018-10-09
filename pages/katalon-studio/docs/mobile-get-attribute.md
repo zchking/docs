@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Get Attribute"
+title: "[Mobile] Get Attribute" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-get-attribute.html
+permalink: katalon-studio/docs/mobile-get-attribute.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Get+Attribute/"
+    - "/display/KD/%5BMobile%5D%20Get%20Attribute/"
     - "/x/_o0Y/"
     - "/katalon-studio/docs/mobile-get-attribute/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -35,10 +35,10 @@ Example 
 
 You want to get the attribute "text" of the object "android.widget.TextView - App".
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/mobile-get-attribute/image2017-3-3-113A113A38.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -60,15 +60,15 @@ You want to get the attribute "text" of the object "android.widget.TextView - Ap
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
+    
     'Get text of android.widget.TextView - App'
     Mobile.getAttribute(findTestObject('Application/android.widget.TextView - App'), 'text', 5)
-
+    
     'Close application on current selected android device'
     Mobile.closeApplication()
-
-
+    
+    
     ```

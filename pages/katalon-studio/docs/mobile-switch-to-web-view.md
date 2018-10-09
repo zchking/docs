@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Switch To Web View"
+title: "[Mobile] Switch To Web View" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-switch-to-web-view.html
+permalink: katalon-studio/docs/mobile-switch-to-web-view.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Switch+To+Web+View/"
+    - "/display/KD/%5BMobile%5D%20Switch%20To%20Web%20View/"
     - "/x/wJAY/"
     - "/katalon-studio/docs/mobile-switch-to-web-view/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -25,10 +25,10 @@ Example 
 
 You want to switch the current device to web view context.
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/mobile-switch-to-web-view/image2017-3-3-143A493A21.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -50,15 +50,15 @@ You want to switch the current device to web view context.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
+    
     'Switch the current device to web view context'
     Mobile.switchToWebView()
-
+    
     'Close application on current selected android device'
     Mobile.closeApplication()
-
-
+    
+    
     ```

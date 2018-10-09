@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Close Window Index"
+title: "[WebUI] Close Window Index" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-close-window-index.html
+permalink: katalon-studio/docs/webui-close-window-index.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Close+Window+Index/"
+    - "/display/KD/%5BWebUI%5D%20Close%20Window%20Index/"
     - "/x/8ooY/"
     - "/katalon-studio/docs/webui-close-window-index/"
-description:
+description: 
 ---
 Description  
 -------------

@@ -3,7 +3,7 @@ title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders a
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html 
 redirect_from:
-    - "/display/KR/Extension+Scripts+%28AKA+user-extensions.js%29+for+Custom+Locator+Builders+and+Actions/"
+    - "/display/KR/Extension%20Scripts%20%28AKA%20user-extensions.js%29%20for%20Custom%20Locator%20Builders%20and%20Actions/"
     - "/x/9APR/"
     - "/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/"
 description: 

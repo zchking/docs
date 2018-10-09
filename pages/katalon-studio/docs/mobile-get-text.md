@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Get Text"
+title: "[Mobile] Get Text" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-get-text.html
+permalink: katalon-studio/docs/mobile-get-text.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Get+Text/"
+    - "/display/KD/%5BMobile%5D%20Get%20Text/"
     - "/x/epMY/"
     - "/katalon-studio/docs/mobile-get-text/"
-description:
+description: 
 ---
 Description
 -----------
@@ -54,7 +54,7 @@ Mobile.tap(findTestObject('Application/App/android.widget.TextView-Activity'), 1
 Mobile.tap(findTestObject('Application/App/Activity/android.widget.TextView-Custom Dialog'), 10)
 
 'Get displayed message on the dialog'
-def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog'),
+def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog'), 
     10)
 
 'Verify if displayed message is correct'

@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Wait For Element Has Attribute"
+title: "[Mobile] Wait For Element Has Attribute" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-wait-for-element-has-attribute.html
+permalink: katalon-studio/docs/mobile-wait-for-element-has-attribute.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Wait+For+Element+Has+Attribute/"
+    - "/display/KD/%5BMobile%5D%20Wait%20For%20Element%20Has%20Attribute/"
     - "/x/QpIY/"
     - "/katalon-studio/docs/mobile-wait-for-element-has-attribute/"
-description:
+description: 
 ---
 Description
 -----------
@@ -65,11 +65,11 @@ Mobile.closeApplication()
 ###### Parameters:  
 
 *   to - TestObject (required): represent a mobile element
-
+    
 *   attributeName - String (required): the name of the attribute to verify
-
+    
 *   timeOut - int (required): \- system will wait at most timeout (seconds) to return result
-
+    
 *   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details is in this page: [Failure Handling](/display/KD/Failure+Handling)
 
 #### Returns

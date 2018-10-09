@@ -1,12 +1,12 @@
 ---
-title: "Katalon Analytics (Beta) Integration"
+title: "Katalon Analytics (Beta) Integration" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/katalon-analytics-beta-integration.html
+permalink: katalon-studio/docs/katalon-analytics-beta-integration.html 
 redirect_from:
-    - "/display/KD/Katalon+Analytics+%28Beta%29+Integration/"
+    - "/display/KD/Katalon%20Analytics%20%28Beta%29%20Integration/"
     - "/x/KRhO/"
     - "/katalon-studio/docs/katalon-analytics-beta-integration/"
-description:
+description: 
 ---
 [Katalon Analytics (Beta)](/display/KA) is a cloud-based application provides in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon Analytics supports integration with Katalon Studio for better test report management.
 
@@ -64,15 +64,15 @@ In the **Test Reports View**, clicking on **Katalon Analytics **button and you
 ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-143A573A2.png)
 
 > Forget to Integrate?
->
+> 
 > If you haven't integrated with Katalon Analytics prior to clicking **Access Analytics**, an integration panel will appear. Enter your authentication information in the provided box.
->
+> 
 > ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-103A553A23.png)
->
+> 
 > When you are using Katalon Analytics for the first time, Katalon Studio will automatically create a new project and team to push your test reports. However, if you've already had teams and projects on Analytics, Katalon Studio will ask you to select the location to upload your test results.
->
+> 
 > ![](../../images/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-103A563A2.png)
->
+> 
 > You can change this setting later by going to **Project** > **Setting** > **Integration > Katalon Analytics**. 
 
 ### View specific Test Case/Test Suite Execution History

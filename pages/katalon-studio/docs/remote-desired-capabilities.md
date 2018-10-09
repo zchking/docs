@@ -1,12 +1,12 @@
 ---
-title: "Remote Desired Capabilities"
+title: "Remote Desired Capabilities" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/remote-desired-capabilities.html
+permalink: katalon-studio/docs/remote-desired-capabilities.html 
 redirect_from:
-    - "/display/KD/Remote+Desired+Capabilities/"
+    - "/display/KD/Remote%20Desired%20Capabilities/"
     - "/x/KAzR/"
     - "/katalon-studio/docs/remote-desired-capabilities/"
-description:
+description: 
 ---
 There will be cases you need to connect and execute your tests on a remote environment such as Selenium Grid, or other cloud services such as Kobiton, SauceLabs or BrowserStacks. Katalon Studio does support this remote execution.
 

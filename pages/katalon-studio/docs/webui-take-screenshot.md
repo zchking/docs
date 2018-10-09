@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Take Screenshot"
+title: "[WebUI] Take Screenshot" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-take-screenshot.html
+permalink: katalon-studio/docs/webui-take-screenshot.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Take+Screenshot/"
+    - "/display/KD/%5BWebUI%5D%20Take%20Screenshot/"
     - "/x/2IoY/"
     - "/katalon-studio/docs/webui-take-screenshot/"
-description:
+description: 
 ---
 Description  
 -------------

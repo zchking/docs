@@ -3,7 +3,7 @@ title: "Troubleshooting automated mobile testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-automated-mobile-testing.html 
 redirect_from:
-    - "/display/KD/Troubleshooting+automated+mobile+testing/"
+    - "/display/KD/Troubleshooting%20automated%20mobile%20testing/"
     - "/x/fBdO/"
     - "/katalon-studio/docs/troubleshooting-automated-mobile-testing/"
 description: 

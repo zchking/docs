@@ -1,12 +1,12 @@
 ---
-title: "Before You Start"
+title: "Before You Start" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/before-you-start.html
+permalink: katalon-studio/docs/before-you-start.html 
 redirect_from:
-    - "/display/KD/Before+You+Start/"
+    - "/display/KD/Before%20You%20Start/"
     - "/x/HwAM/"
     - "/katalon-studio/docs/before-you-start/"
-description:
+description: 
 ---
 This topic will cover installation guides to help you prepare the environment for Katalon Studio properly.
 

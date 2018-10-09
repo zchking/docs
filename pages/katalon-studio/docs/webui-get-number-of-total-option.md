@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Get Number Of Total Option"
+title: "[WebUI] Get Number Of Total Option" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-number-of-total-option.html
+permalink: katalon-studio/docs/webui-get-number-of-total-option.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Number+Of+Total+Option/"
+    - "/display/KD/%5BWebUI%5D%20Get%20Number%20Of%20Total%20Option/"
     - "/x/HZIY/"
     - "/katalon-studio/docs/webui-get-number-of-total-option/"
-description:
+description: 
 ---
 Description
 -----------

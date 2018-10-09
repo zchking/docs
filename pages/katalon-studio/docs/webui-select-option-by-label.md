@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Select Option By Label"
+title: "[WebUI] Select Option By Label" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-select-option-by-label.html
+permalink: katalon-studio/docs/webui-select-option-by-label.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Select+Option+By+Label/"
+    - "/display/KD/%5BWebUI%5D%20Select%20Option%20By%20Label/"
     - "/x/KZIY/"
     - "/katalon-studio/docs/webui-select-option-by-label/"
-description:
+description: 
 ---
 Description
 -----------

@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify All Links On Current Page Accessible"
+title: "[WebUI] Verify All Links On Current Page Accessible" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html
+permalink: katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+All+Links+On+Current+Page+Accessible/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20All%20Links%20On%20Current%20Page%20Accessible/"
     - "/x/ChBO/"
     - "/katalon-studio/docs/webui-verify-all-links-on-current-page-accessible/"
-description:
+description: 
 ---
 Description
 -----------
@@ -47,10 +47,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+ 
 WebUI.openBrowser('http://demoaut.katalon.com')
-
+ 
 WebUI.verifyAllLinksOnCurrentPageAccessible(true, [])
-
+ 
 WebUI.closeBrowser()
 ```

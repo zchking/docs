@@ -3,7 +3,7 @@ title: "Sample Custom Keywords"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/sample-custom-keywords.html 
 redirect_from:
-    - "/display/KD/Sample+Custom+Keywords/"
+    - "/display/KD/Sample%20Custom%20Keywords/"
     - "/x/3QHR/"
     - "/katalon-studio/docs/sample-custom-keywords/"
 description: 

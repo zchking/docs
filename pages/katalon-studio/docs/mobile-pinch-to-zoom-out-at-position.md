@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Pinch To Zoom Out At Position"
+title: "[Mobile] Pinch To Zoom Out At Position" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
+permalink: katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Pinch+To+Zoom+Out+At+Position/"
+    - "/display/KD/%5BMobile%5D%20Pinch%20To%20Zoom%20Out%20At%20Position/"
     - "/x/95IY/"
     - "/katalon-studio/docs/mobile-pinch-to-zoom-out-at-position/"
-description:
+description: 
 ---
 Description
 -----------

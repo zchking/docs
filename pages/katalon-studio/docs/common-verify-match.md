@@ -1,12 +1,12 @@
 ---
-title: "[Common] Verify Match"
+title: "[Common] Verify Match" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-match.html
+permalink: katalon-studio/docs/common-verify-match.html 
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Match/"
+    - "/display/KD/%5BCommon%5D%20Verify%20Match/"
     - "/x/RYIi/"
     - "/katalon-studio/docs/common-verify-match/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -59,7 +59,7 @@ import internal.GlobalVariable as GlobalVariable
 
 'Use WebUI keyword'
 WebUI.verifyMatch('Katalon', '(K|T)atalon', true)
-
+ 
 'Use Mobile keyword'
 Mobile.verifyMatch('Katalon', '(K|T)atalon', true)
 

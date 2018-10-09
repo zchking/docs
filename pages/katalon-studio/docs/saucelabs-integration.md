@@ -1,19 +1,19 @@
 ---
-title: "SauceLabs Integration"
+title: "SauceLabs Integration" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/saucelabs-integration.html
+permalink: katalon-studio/docs/saucelabs-integration.html 
 redirect_from:
-    - "/display/KD/SauceLabs+Integration/"
+    - "/display/KD/SauceLabs%20Integration/"
     - "/x/UBVO/"
     - "/katalon-studio/docs/saucelabs-integration/"
-description:
+description: 
 ---
 To integrate with Saucelabs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
 1.  Login to SauceLabs.
-2.  Navigate to 'Account' page after logged in and note/copy your 'Access Key'value
-
-
+2.  Navigate to 'Account' page after logged in and note/copy your 'Access Key'value  
+      
+    
 
 ![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A15.png)
 

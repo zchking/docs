@@ -1,11 +1,11 @@
 ---
-title: "Known Issues / Limitations"
+title: "Known Issues / Limitations" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/known-issues-limitations.html
+permalink: katalon-studio/docs/known-issues-limitations.html 
 redirect_from:
     - "/x/yIMw/"
     - "/katalon-studio/docs/known-issues-limitations/"
-description:
+description: 
 ---
 *   '**Click Offset**', '**Right Click Offset**' and '**Mouse Over Offset**' keywords do not work on Safari.
 *   Android EditText message can't be captured using Mobile Object Spy.

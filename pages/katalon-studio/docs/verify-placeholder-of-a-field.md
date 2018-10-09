@@ -1,12 +1,12 @@
 ---
-title: "Verify placeholder of a field"
+title: "Verify placeholder of a field" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/verify-placeholder-of-a-field.html
+permalink: katalon-studio/docs/verify-placeholder-of-a-field.html 
 redirect_from:
-    - "/display/KD/Verify+placeholder+of+a+field/"
+    - "/display/KD/Verify%20placeholder%20of%20a%20field/"
     - "/x/MwbR/"
     - "/katalon-studio/docs/verify-placeholder-of-a-field/"
-description:
+description: 
 ---
 In case you want to verify placeholder of a field, e.g:
 

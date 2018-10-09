@@ -3,7 +3,7 @@ title: "Retrieve OS, browser and screen resolution of the machine perfoming test
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html 
 redirect_from:
-    - "/display/KD/Retrieve+OS%2C+browser+and+screen+resolution+of+the+machine+perfoming+tests/"
+    - "/display/KD/Retrieve%20OS%2C%20browser%20and%20screen%20resolution%20of%20the%20machine%20perfoming%20tests/"
     - "/x/XgXR/"
     - "/katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests/"
 description: 

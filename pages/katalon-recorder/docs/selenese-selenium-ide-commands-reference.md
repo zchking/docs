@@ -1,12 +1,12 @@
 ---
-title: "Selenese (Selenium IDE) Commands Reference"
+title: "Selenese (Selenium IDE) Commands Reference" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
+permalink: katalon-recorder/docs/selenese-selenium-ide-commands-reference.html 
 redirect_from:
-    - "/display/KR/Selenese+%28Selenium+IDE%29+Commands+Reference/"
+    - "/display/KR/Selenese%20%28Selenium%20IDE%29%20Commands%20Reference/"
     - "/x/dhtO/"
     - "/katalon-recorder/docs/selenese-selenium-ide-commands-reference/"
-description:
+description: 
 ---
 [Katalon Automation Recorder](/x/cRtO) provides various Selenium Commands (Selenese) to help automate web application testing. These commands stimulate actions on the application under test (AUT) and create automation test scripts. 
 

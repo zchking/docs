@@ -1,12 +1,12 @@
 ---
-title: "[Common] Call Test Case"
+title: "[Common] Call Test Case" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-call-test-case.html
+permalink: katalon-studio/docs/common-call-test-case.html 
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Call+Test+Case/"
+    - "/display/KD/%5BCommon%5D%20Call%20Test%20Case/"
     - "/x/roIi/"
     - "/katalon-studio/docs/common-call-test-case/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -34,10 +34,10 @@ Example 
 
 You want to verify if the returned message after logging in successfully does not match the expected message.
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/common-call-test-case/image2017-3-3-173A493A2.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -62,15 +62,15 @@ You want to verify if the returned message after logging in successfully does no
     'Use WebUI keyword'
     WebUI.callTestCase(findTestCase('DDR_NavigateToPageThenVerifyPageTitle'), ['p_Protocol' : null, 'p_DomainName' : null, 'p_Path' : null
             , 'p_WindowTitle' : null])
-
+    
     'Use Mobile keyword'
     Mobile.callTestCase(findTestCase('DDR_NavigateToPageThenVerifyPageTitle'), ['p_Protocol' : null, 'p_DomainName' : null, 'p_Path' : null
             , 'p_WindowTitle' : null])
-
+    
     'Use WS keyword'
     WS.callTestCase(findTestCase('DDR_NavigateToPageThenVerifyPageTitle'), ['p_Protocol' : null, 'p_DomainName' : null, 'p_Path' : null
             , 'p_WindowTitle' : null])
-
-
-
+    
+    
+    
     ```

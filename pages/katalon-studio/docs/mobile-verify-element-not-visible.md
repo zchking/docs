@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Verify Element Not Visible"
+title: "[Mobile] Verify Element Not Visible" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-verify-element-not-visible.html
+permalink: katalon-studio/docs/mobile-verify-element-not-visible.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Verify+Element+Not+Visible/"
+    - "/display/KD/%5BMobile%5D%20Verify%20Element%20Not%20Visible/"
     - "/x/75EY/"
     - "/katalon-studio/docs/mobile-verify-element-not-visible/"
-description:
+description: 
 ---
 Description
 -----------

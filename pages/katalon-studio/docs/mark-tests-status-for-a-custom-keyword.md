@@ -3,7 +3,7 @@ title: "Mark test's status for a Custom Keyword"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html 
 redirect_from:
-    - "/display/KD/Mark+test%27s+status+for+a+Custom+Keyword/"
+    - "/display/KD/Mark%20test%27s%20status%20for%20a%20Custom%20Keyword/"
     - "/x/xgXR/"
     - "/katalon-studio/docs/mark-tests-status-for-a-custom-keyword/"
 description: 

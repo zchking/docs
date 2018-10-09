@@ -3,7 +3,7 @@ title: "Binary Statements"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/binary-statements.html 
 redirect_from:
-    - "/display/KD/Binary+Statements/"
+    - "/display/KD/Binary%20Statements/"
     - "/x/rgAM/"
     - "/katalon-studio/docs/binary-statements/"
 description: 

@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Tap"
+title: "[Mobile] Tap" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-tap.html
+permalink: katalon-studio/docs/mobile-tap.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Tap/"
+    - "/display/KD/%5BMobile%5D%20Tap/"
     - "/x/LpMY/"
     - "/katalon-studio/docs/mobile-tap/"
-description:
+description: 
 ---
 Description
 -----------

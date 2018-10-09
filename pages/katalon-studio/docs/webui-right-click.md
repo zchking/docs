@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Right Click"
+title: "[WebUI] Right Click" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-right-click.html
+permalink: katalon-studio/docs/webui-right-click.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Right+Click/"
+    - "/display/KD/%5BWebUI%5D%20Right%20Click/"
     - "/x/T4kY/"
     - "/katalon-studio/docs/webui-right-click/"
-description:
+description: 
 ---
 Description
 -----------

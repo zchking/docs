@@ -1,12 +1,12 @@
 ---
-title: "[WS] Verify Response Status Code In Range"
+title: "[WS] Verify Response Status Code In Range" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/ws-verify-response-status-code-in-range.html
+permalink: katalon-studio/docs/ws-verify-response-status-code-in-range.html 
 redirect_from:
-    - "/display/KD/%5BWS%5D+Verify+Response+Status+Code+In+Range/"
+    - "/display/KD/%5BWS%5D%20Verify%20Response%20Status%20Code%20In%20Range/"
     - "/x/ERBO/"
     - "/katalon-studio/docs/ws-verify-response-status-code-in-range/"
-description:
+description: 
 ---
 Description
 -----------
@@ -53,10 +53,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+  
 'Send a request and returns its response'
 def response = WS.sendRequest(findTestObject('REST_Status Codes/POST_201'))
-
+ 
 'Verify if the response from "REST_Status Codes/POST_201" object returns a status code from 200 to 400'
 WS.verifyResponseStatusCode(response, 201)
 ```

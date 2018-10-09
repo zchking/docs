@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Get Url"
+title: "[WebUI] Get Url" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-url.html
+permalink: katalon-studio/docs/webui-get-url.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Url/"
+    - "/display/KD/%5BWebUI%5D%20Get%20Url/"
     - "/x/kIsY/"
     - "/katalon-studio/docs/webui-get-url/"
-description:
+description: 
 ---
 Description  
 -------------

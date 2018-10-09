@@ -3,7 +3,7 @@ title: "Git Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/git-integration.html 
 redirect_from:
-    - "/display/KD/Git+Integration/"
+    - "/display/KD/Git%20Integration/"
     - "/x/foEw/"
     - "/katalon-studio/docs/git-integration/"
 description: 

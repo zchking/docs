@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Set Text"
+title: "[Mobile] Set Text" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-set-text.html
+permalink: katalon-studio/docs/mobile-set-text.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Set+Text/"
+    - "/display/KD/%5BMobile%5D%20Set%20Text/"
     - "/x/lZMY/"
     - "/katalon-studio/docs/mobile-set-text/"
-description:
+description: 
 ---
 Description
 -----------

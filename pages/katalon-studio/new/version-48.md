@@ -3,7 +3,7 @@ title: "Version 4.8"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-48.html
 redirect_from:
-    - "/display/KD/Version+4.8/"
+    - "/display/KD/Version%204.8/"
     - "/x/yRBO/"
     - "/katalon-studio/new/version-48/"
 description:

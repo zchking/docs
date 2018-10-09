@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Hide Keyboard"
+title: "[Mobile] Hide Keyboard" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-hide-keyboard.html
+permalink: katalon-studio/docs/mobile-hide-keyboard.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Hide+Keyboard/"
+    - "/display/KD/%5BMobile%5D%20Hide%20Keyboard/"
     - "/x/4o8Y/"
     - "/katalon-studio/docs/mobile-hide-keyboard/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -25,10 +25,10 @@ Example 
 
 You want to hide keyboard if it is showing.
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/mobile-hide-keyboard/image2017-3-3-143A273A56.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -50,18 +50,18 @@ You want to hide keyboard if it is showing.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
+    
     'Tap to focus on android.widget.TextView - App'
     Mobile.tap(findTestObject('android.widget.TextView - App'), 5)
-
+    
     'Hide keyboard'
     Mobile.hideKeyboard()
-
+    
     'Close application on current selected android device'
     Mobile.closeApplication()
-
-
+    
+    
     ```

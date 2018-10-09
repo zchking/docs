@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Element Present"
+title: "[WebUI] Verify Element Present" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-present.html
+permalink: katalon-studio/docs/webui-verify-element-present.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Present/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Present/"
     - "/x/MYoY/"
     - "/katalon-studio/docs/webui-verify-element-present/"
-description:
+description: 
 ---
 Description
 -----------
