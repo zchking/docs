@@ -1,7 +1,7 @@
 ---
 title: "Version 5.7.0"
 sidebar: katalon_studio_new_sidebar
-permalink: katalon-studio/docs/version-570.html
+permalink: katalon-studio/new/version-570.html
 redirect_from:
     - "/display/KD/Version+5.7.0.html"
     - "/x/tRTR"
