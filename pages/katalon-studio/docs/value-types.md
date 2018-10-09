@@ -3,7 +3,7 @@ title: "Value Types"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/value-types.html 
 redirect_from:
-    - "/display/KD/Value+Types/"
+    - "/display/KD/Value%20Types/"
     - "/x/6IIw/"
     - "/katalon-studio/docs/value-types/"
 description: 

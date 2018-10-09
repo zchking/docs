@@ -1,12 +1,12 @@
 ---
-title: "Introduction to Desired Capabilities"
+title: "Introduction to Desired Capabilities" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/introduction-to-desired-capabilities.html
+permalink: katalon-studio/docs/introduction-to-desired-capabilities.html 
 redirect_from:
-    - "/display/KD/Introduction+to+Desired+Capabilities/"
+    - "/display/KD/Introduction%20to%20Desired%20Capabilities/"
     - "/x/ywbR/"
     - "/katalon-studio/docs/introduction-to-desired-capabilities/"
-description:
+description: 
 ---
 What are Desired Capabilities?
 ------------------------------
@@ -42,13 +42,13 @@ After you select the environment you want to modify its desired capabilities, th
 Please refer to specific guides below for the environment you want to set up
 
 > Desired Capabilities for Mobile
->
+> 
 > In case of Mobile execution, you need to select the device when configuring Desired Capabilities.
->
+> 
 > ![](../../images/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1-133A593A38.png)
->
+> 
 > Where:
->
+> 
 > *   **Device Name**: the device to apply Desired Capabilities settings on.
 
 *   [Desired Capabilities for Firefox/Firefox (headless)](/pages/viewpage.action?pageId=13700172)

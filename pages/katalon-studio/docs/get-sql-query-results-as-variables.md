@@ -1,12 +1,12 @@
 ---
-title: "Get SQL query results as variables"
+title: "Get SQL query results as variables" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/get-sql-query-results-as-variables.html
+permalink: katalon-studio/docs/get-sql-query-results-as-variables.html 
 redirect_from:
-    - "/display/KD/Get+SQL+query+results+as+variables/"
+    - "/display/KD/Get%20SQL%20query%20results%20as%20variables/"
     - "/x/RQXR/"
     - "/katalon-studio/docs/get-sql-query-results-as-variables/"
-description:
+description: 
 ---
 Using the built-in [data files functionalit](/display/KD/Manage+Test+Data)y in Katalon Studio, you can create a data file connecting to my DB and then return the results as a variable with the code below:
 

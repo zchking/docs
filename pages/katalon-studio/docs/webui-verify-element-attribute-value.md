@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Element Attribute Value"
+title: "[WebUI] Verify Element Attribute Value" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-attribute-value.html
+permalink: katalon-studio/docs/webui-verify-element-attribute-value.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Attribute+Value/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Attribute%20Value/"
     - "/x/WIkY/"
     - "/katalon-studio/docs/webui-verify-element-attribute-value/"
-description:
+description: 
 ---
 Description
 -----------

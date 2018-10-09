@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Switch To Window Title"
+title: "[WebUI] Switch To Window Title" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-switch-to-window-title.html
+permalink: katalon-studio/docs/webui-switch-to-window-title.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Switch+To+Window+Title/"
+    - "/display/KD/%5BWebUI%5D%20Switch%20To%20Window%20Title/"
     - "/x/LI0Y/"
     - "/katalon-studio/docs/webui-switch-to-window-title/"
-description:
+description: 
 ---
 Description  
 -------------

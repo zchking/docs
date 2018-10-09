@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Drag And Drop By Offset"
+title: "[WebUI] Drag And Drop By Offset" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-drag-and-drop-by-offset.html
+permalink: katalon-studio/docs/webui-drag-and-drop-by-offset.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Drag+And+Drop+By+Offset/"
+    - "/display/KD/%5BWebUI%5D%20Drag%20And%20Drop%20By%20Offset/"
     - "/x/PokY/"
     - "/katalon-studio/docs/webui-drag-and-drop-by-offset/"
-description:
+description: 
 ---
 Description
 -----------

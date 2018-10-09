@@ -3,7 +3,7 @@ title: "View Execution Log"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/view-execution-log.html 
 redirect_from:
-    - "/display/KD/View+Execution+Log/"
+    - "/display/KD/View%20Execution%20Log/"
     - "/x/6ANO/"
     - "/katalon-studio/docs/view-execution-log/"
 description: 

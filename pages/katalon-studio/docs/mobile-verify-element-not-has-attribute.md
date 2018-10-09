@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Verify Element Not Has Attribute"
+title: "[Mobile] Verify Element Not Has Attribute" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-verify-element-not-has-attribute.html
+permalink: katalon-studio/docs/mobile-verify-element-not-has-attribute.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Verify+Element+Not+Has+Attribute/"
+    - "/display/KD/%5BMobile%5D%20Verify%20Element%20Not%20Has%20Attribute/"
     - "/x/zZEY/"
     - "/katalon-studio/docs/mobile-verify-element-not-has-attribute/"
-description:
+description: 
 ---
 Description
 -----------

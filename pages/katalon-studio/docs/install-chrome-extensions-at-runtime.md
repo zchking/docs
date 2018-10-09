@@ -3,7 +3,7 @@ title: "Install Chrome extensions at runtime"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/install-chrome-extensions-at-runtime.html 
 redirect_from:
-    - "/display/KD/Install+Chrome+extensions+at+runtime/"
+    - "/display/KD/Install%20Chrome%20extensions%20at%20runtime/"
     - "/x/ZQXR/"
     - "/katalon-studio/docs/install-chrome-extensions-at-runtime/"
 description: 

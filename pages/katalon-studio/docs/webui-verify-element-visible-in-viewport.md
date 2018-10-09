@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Element Visible In Viewport"
+title: "[WebUI] Verify Element Visible In Viewport" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-visible-in-viewport.html
+permalink: katalon-studio/docs/webui-verify-element-visible-in-viewport.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Visible+In+Viewport/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Visible%20In%20Viewport/"
     - "/x/7ooY/"
     - "/katalon-studio/docs/webui-verify-element-visible-in-viewport/"
-description:
+description: 
 ---
 Description
 -----------

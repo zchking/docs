@@ -3,7 +3,7 @@ title: "Internet Explorer Configurations"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/internet-explorer-configurations.html 
 redirect_from:
-    - "/display/KD/Internet+Explorer+Configurations/"
+    - "/display/KD/Internet%20Explorer%20Configurations/"
     - "/x/iwEo/"
     - "/katalon-studio/docs/internet-explorer-configurations/"
 description: 

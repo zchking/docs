@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Take Screenshot"
+title: "[Mobile] Take Screenshot" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-take-screenshot.html
+permalink: katalon-studio/docs/mobile-take-screenshot.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Take+Screenshot/"
+    - "/display/KD/%5BMobile%5D%20Take%20Screenshot/"
     - "/x/WpQY/"
     - "/katalon-studio/docs/mobile-take-screenshot/"
-description:
+description: 
 ---
 Description  
 -------------

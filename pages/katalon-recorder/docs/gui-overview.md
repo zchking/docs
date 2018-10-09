@@ -3,7 +3,7 @@ title: "GUI Overview"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/gui-overview.html 
 redirect_from:
-    - "/display/KR/GUI+Overview/"
+    - "/display/KR/GUI%20Overview/"
     - "/x/LAHR/"
     - "/katalon-recorder/docs/gui-overview/"
 description: 

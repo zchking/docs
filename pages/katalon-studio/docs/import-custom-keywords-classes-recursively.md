@@ -3,7 +3,7 @@ title: "Import Custom Keywords classes recursively"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-custom-keywords-classes-recursively.html 
 redirect_from:
-    - "/display/KD/Import+Custom+Keywords+classes+recursively/"
+    - "/display/KD/Import%20Custom%20Keywords%20classes%20recursively/"
     - "/x/QwXR/"
     - "/katalon-studio/docs/import-custom-keywords-classes-recursively/"
 description: 

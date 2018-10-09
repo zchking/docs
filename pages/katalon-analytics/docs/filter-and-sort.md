@@ -3,7 +3,7 @@ title: "Filter and Sort"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/filter-and-sort.html 
 redirect_from:
-    - "/display/KA/Filter+and+Sort/"
+    - "/display/KA/Filter%20and%20Sort/"
     - "/x/ZgTR/"
     - "/katalon-analytics/docs/filter-and-sort/"
 description: 

@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Set Alert Text"
+title: "[WebUI] Set Alert Text" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-set-alert-text.html
+permalink: katalon-studio/docs/webui-set-alert-text.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Set+Alert+Text/"
+    - "/display/KD/%5BWebUI%5D%20Set%20Alert%20Text/"
     - "/x/LYgY/"
     - "/katalon-studio/docs/webui-set-alert-text/"
-description:
+description: 
 ---
 Description
 -----------

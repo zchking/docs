@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Get Device OS"
+title: "[Mobile] Get Device OS" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-get-device-os.html
+permalink: katalon-studio/docs/mobile-get-device-os.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Get+Device+OS/"
+    - "/display/KD/%5BMobile%5D%20Get%20Device%20OS/"
     - "/x/444Y/"
     - "/katalon-studio/docs/mobile-get-device-os/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -32,10 +32,10 @@ Example 
 
 You want to get the device OS of the current active mobile device, then store it into "os" variable.
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/mobile-get-device-os/image2017-3-3-133A503A20.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -57,15 +57,15 @@ You want to get the device OS of the current active mobile device, then store it
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
+    
     'Get current device OS'
     os = Mobile.getDeviceOS()
-
+    
     'Close application'
     Mobile.closeApplication()
-
-
+    
+    
     ```

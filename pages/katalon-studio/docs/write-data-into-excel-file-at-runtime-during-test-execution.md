@@ -3,7 +3,7 @@ title: "Write data into Excel file at runtime during test execution"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/write-data-into-excel-file-at-runtime-during-test-execution.html 
 redirect_from:
-    - "/display/KD/Write+data+into+Excel+file+at+runtime+during+test+execution/"
+    - "/display/KD/Write%20data%20into%20Excel%20file%20at%20runtime%20during%20test%20execution/"
     - "/x/WAXR/"
     - "/katalon-studio/docs/write-data-into-excel-file-at-runtime-during-test-execution/"
 description: 

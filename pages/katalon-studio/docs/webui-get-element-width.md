@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Get Element Width"
+title: "[WebUI] Get Element Width" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-element-width.html
+permalink: katalon-studio/docs/webui-get-element-width.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Element+Width/"
+    - "/display/KD/%5BWebUI%5D%20Get%20Element%20Width/"
     - "/x/lApO/"
     - "/katalon-studio/docs/webui-get-element-width/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -57,10 +57,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Open browser and navigate to AUT'
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
-
+ 
 'Get width of txt_UserName'
 width = WebUI.getElementWidth(findTestObject('Page_Login/txt_UserName'))
-
+ 
 'Close browser'
 WebUI.closeBrowser()
 

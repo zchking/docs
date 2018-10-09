@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Start Application"
+title: "[Mobile] Start Application" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-start-application.html
+permalink: katalon-studio/docs/mobile-start-application.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Start+Application/"
+    - "/display/KD/%5BMobile%5D%20Start%20Application/"
     - "/x/zo0Y/"
     - "/katalon-studio/docs/mobile-start-application/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -56,7 +56,7 @@ Mobile.startApplication('C:\\Users\\admin\\androidfile.apk, true)
 Mobile.closeApplication()
 ```
 
-
+  
 
 You want to start application using relative path and uninstall it after that.
 

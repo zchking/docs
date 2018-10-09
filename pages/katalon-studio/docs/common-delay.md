@@ -1,12 +1,12 @@
 ---
-title: "[Common] Delay"
+title: "[Common] Delay" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-delay.html
+permalink: katalon-studio/docs/common-delay.html 
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Delay/"
+    - "/display/KD/%5BCommon%5D%20Delay/"
     - "/x/XYIi/"
     - "/katalon-studio/docs/common-delay/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -50,10 +50,10 @@ import internal.GlobalVariable as GlobalVariable
 
 'Use WebUI keyword'
 WebUI.delay(10)
-
+  
 'Use Mobile keyword'
 Mobile.delay(10)
-
+ 
 'Use Web Service keyword'
 WS.delay(10)
 ```

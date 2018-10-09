@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Verify Is Landscape"
+title: "[Mobile] Verify Is Landscape" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-verify-is-landscape.html
+permalink: katalon-studio/docs/mobile-verify-is-landscape.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Verify+Is+Landscape/"
+    - "/display/KD/%5BMobile%5D%20Verify%20Is%20Landscape/"
     - "/x/NZEY/"
     - "/katalon-studio/docs/mobile-verify-is-landscape/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -32,10 +32,10 @@ Example 
 
 You want to verify if the current device is in landscape mode.
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/mobile-verify-is-landscape/image2017-3-3-153A103A59.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -57,15 +57,15 @@ You want to verify if the current device is in landscape mode.
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
+    
     'Verify if the current device is in landscape mode'
     Mobile.verifyIsLandscape()
-
+    
     'Close application on current selected android device'
     Mobile.closeApplication()
-
-
+    
+    
     ```

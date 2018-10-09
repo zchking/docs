@@ -3,7 +3,7 @@ title: "Debug Automation Test"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/debug-automation-test.html 
 redirect_from:
-    - "/display/KD/Debug+Automation+Test/"
+    - "/display/KD/Debug%20Automation%20Test/"
     - "/x/C4Ew/"
     - "/katalon-studio/docs/debug-automation-test/"
 description: 

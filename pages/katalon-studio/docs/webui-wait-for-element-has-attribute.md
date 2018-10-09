@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Wait For Element Has Attribute"
+title: "[WebUI] Wait For Element Has Attribute" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-wait-for-element-has-attribute.html
+permalink: katalon-studio/docs/webui-wait-for-element-has-attribute.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Has+Attribute/"
+    - "/display/KD/%5BWebUI%5D%20Wait%20For%20Element%20Has%20Attribute/"
     - "/x/rYsY/"
     - "/katalon-studio/docs/webui-wait-for-element-has-attribute/"
-description:
+description: 
 ---
 Description
 -----------

@@ -3,7 +3,7 @@ title: "Assert Statements"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/assert-statements.html 
 redirect_from:
-    - "/display/KD/Assert+Statements/"
+    - "/display/KD/Assert%20Statements/"
     - "/x/sAAM/"
     - "/katalon-studio/docs/assert-statements/"
 description: 

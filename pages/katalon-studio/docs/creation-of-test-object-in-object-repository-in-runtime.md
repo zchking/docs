@@ -3,7 +3,7 @@ title: "Creation of Test Object in Object Repository in Runtime"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html 
 redirect_from:
-    - "/display/KD/Creation+of+Test+Object+in+Object+Repository+in+Runtime/"
+    - "/display/KD/Creation%20of%20Test%20Object%20in%20Object%20Repository%20in%20Runtime/"
     - "/x/SAXR/"
     - "/katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime/"
 description: 

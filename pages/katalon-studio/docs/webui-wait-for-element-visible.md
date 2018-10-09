@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Wait For Element Visible"
+title: "[WebUI] Wait For Element Visible" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-wait-for-element-visible.html
+permalink: katalon-studio/docs/webui-wait-for-element-visible.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Wait+For+Element+Visible/"
+    - "/display/KD/%5BWebUI%5D%20Wait%20For%20Element%20Visible/"
     - "/x/vocY/"
     - "/katalon-studio/docs/webui-wait-for-element-visible/"
-description:
+description: 
 ---
 Description
 -----------

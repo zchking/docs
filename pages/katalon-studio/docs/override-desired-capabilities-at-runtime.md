@@ -3,7 +3,7 @@ title: "Override desired capabilities at runtime"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/override-desired-capabilities-at-runtime.html 
 redirect_from:
-    - "/display/KD/Override+desired+capabilities+at+runtime/"
+    - "/display/KD/Override%20desired%20capabilities%20at%20runtime/"
     - "/x/dwXR/"
     - "/katalon-studio/docs/override-desired-capabilities-at-runtime/"
 description: 

@@ -1,12 +1,12 @@
 ---
-title: "[Common] Verify Not Match"
+title: "[Common] Verify Not Match" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/common-verify-not-match.html
+permalink: katalon-studio/docs/common-verify-not-match.html 
 redirect_from:
-    - "/display/KD/%5BCommon%5D+Verify+Not+Match/"
+    - "/display/KD/%5BCommon%5D%20Verify%20Not%20Match/"
     - "/x/tJMY/"
     - "/katalon-studio/docs/common-verify-not-match/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -35,10 +35,10 @@ Example 
 
 You want to verify if the text "Katalon" does not match the regular expression "(L|T)atalon".
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/common-verify-not-match/image2017-3-3-173A413A53.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -60,13 +60,13 @@ You want to verify if the text "Katalon" does not match the regular expression "
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Use WebUI keyword'
     WebUI.verifyNotMatch('Katalon', '(L|T)atalon', true)
-
+     
     'Use Mobile keyword'
     Mobile.verifyNotMatch('Katalon', '(L|T)atalon', true)
-
+    
     'Use Web Service keyword'
     WS.verifyNotMatch('Katalon', '(L|T)atalon', true)
     ```

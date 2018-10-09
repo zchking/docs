@@ -3,7 +3,7 @@ title: "Create Global Variables on the fly"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create-global-variables-on-the-fly.html 
 redirect_from:
-    - "/display/KD/Create+Global+Variables+on+the+fly/"
+    - "/display/KD/Create%20Global%20Variables%20on%20the%20fly/"
     - "/x/EAjR/"
     - "/katalon-studio/docs/create-global-variables-on-the-fly/"
 description: 

@@ -3,7 +3,7 @@ title: "Configure JIRA Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/configure-jira-integration.html 
 redirect_from:
-    - "/display/KD/Configure+JIRA+Integration/"
+    - "/display/KD/Configure%20JIRA%20Integration/"
     - "/x/7oEw/"
     - "/katalon-studio/docs/configure-jira-integration/"
 description: 

@@ -3,7 +3,7 @@ title: "From Command Line"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/from-command-line.html 
 redirect_from:
-    - "/display/KA/From+Command+Line/"
+    - "/display/KA/From%20Command%20Line/"
     - "/x/FhbR/"
     - "/katalon-analytics/docs/from-command-line/"
 description: 

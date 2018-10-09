@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Option Not Selected By Index"
+title: "[WebUI] Verify Option Not Selected By Index" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-option-not-selected-by-index.html
+permalink: katalon-studio/docs/webui-verify-option-not-selected-by-index.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Selected+By+Index/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Option%20Not%20Selected%20By%20Index/"
     - "/x/XJIY/"
     - "/katalon-studio/docs/webui-verify-option-not-selected-by-index/"
-description:
+description: 
 ---
 **Verify if the options at the given indices are not selected**
 
@@ -16,7 +16,7 @@ description:
 *   range - Object (required): the indexes of the options to be verified if not being selected
 *   isRegex - boolean (required): true if the label is a regular expression, false by default
 *   timeOut - int (required):  system will wait at most timeout (seconds) to return result
-
+    
 *   flowControl - FailureHandling (optional): specify failure handling schema to determine whether the execution should be allowed to continue or stop. More details are [here](/x/qAAM).
 
 Returns

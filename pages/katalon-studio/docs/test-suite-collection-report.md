@@ -1,12 +1,12 @@
 ---
-title: "Test Suite Collection Report"
+title: "Test Suite Collection Report" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/test-suite-collection-report.html
+permalink: katalon-studio/docs/test-suite-collection-report.html 
 redirect_from:
-    - "/display/KD/Test+Suite+Collection+Report/"
+    - "/display/KD/Test%20Suite%20Collection%20Report/"
     - "/x/7gAM/"
     - "/katalon-studio/docs/test-suite-collection-report/"
-description:
+description: 
 ---
 Once a test suite collection finishes its execution, a historical report will be automatically generated and stored in Reports. 
 
@@ -36,5 +36,5 @@ where:
 Export to other formats
 -----------------------
 
-For the purpose of sharing, users can generate reports of Test Suite Collection into **HTML** format using the context menu in Test Explorer as example below: 
+For the purpose of sharing, users can generate reports of Test Suite Collection into **HTML** format using the context menu in Test Explorer as example below:   
 ![](../../images/katalon-studio/docs/test-suite-collection-report/image2017-6-23-163A123A5.png)

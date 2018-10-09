@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Set Encrypted Text"
+title: "[WebUI] Set Encrypted Text" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-set-encrypted-text.html
+permalink: katalon-studio/docs/webui-set-encrypted-text.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Set+Encrypted+Text/"
+    - "/display/KD/%5BWebUI%5D%20Set%20Encrypted%20Text/"
     - "/x/6AHR/"
     - "/katalon-studio/docs/webui-set-encrypted-text/"
-description:
+description: 
 ---
 Description
 -----------

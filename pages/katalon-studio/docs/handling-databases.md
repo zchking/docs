@@ -3,7 +3,7 @@ title: "Handling Databases"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handling-databases.html 
 redirect_from:
-    - "/display/KD/Handling+Databases/"
+    - "/display/KD/Handling%20Databases/"
     - "/x/Nw3R/"
     - "/katalon-studio/docs/handling-databases/"
 description: 

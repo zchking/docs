@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Text Not Present"
+title: "[WebUI] Verify Text Not Present" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-text-not-present.html
+permalink: katalon-studio/docs/webui-verify-text-not-present.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Text+Not+Present/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Text%20Not%20Present/"
     - "/x/SooY/"
     - "/katalon-studio/docs/webui-verify-text-not-present/"
-description:
+description: 
 ---
 Description  
 -------------

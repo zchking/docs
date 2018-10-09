@@ -3,7 +3,7 @@ title: "Swipe action on iOS device"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/swipe-action-on-ios-device.html 
 redirect_from:
-    - "/display/KD/Swipe+action+on+iOS+device/"
+    - "/display/KD/Swipe%20action%20on%20iOS%20device/"
     - "/x/rgnR/"
     - "/katalon-studio/docs/swipe-action-on-ios-device/"
 description: 

@@ -1,12 +1,12 @@
 ---
-title: "[Mobile] Get Device Width"
+title: "[Mobile] Get Device Width" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/mobile-get-device-width.html
+permalink: katalon-studio/docs/mobile-get-device-width.html 
 redirect_from:
-    - "/display/KD/%5BMobile%5D+Get+Device+Width/"
+    - "/display/KD/%5BMobile%5D%20Get%20Device%20Width/"
     - "/x/Ro8Y/"
     - "/katalon-studio/docs/mobile-get-device-width/"
-description:
+description: 
 ---
 Description  
 -------------
@@ -32,10 +32,10 @@ Example 
 
 You want to get mobile device's physical width, then store it into "width" variable.
 
-*   Manual view  
+*   Manual view    
     ![](../../images/katalon-studio/docs/mobile-get-device-width/image2017-3-3-143A63A28.png)
 *   Script view 
-
+    
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
     import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -57,14 +57,14 @@ You want to get mobile device's physical width, then store it into "width" varia
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
     import internal.GlobalVariable as GlobalVariable
-
+    
     'Start application on current selected android device'
     Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
+    
     'Get device\'s physical width'
     width = Mobile.getDeviceWidth()
-
+    
     'Close application on current selected android device'
     Mobile.closeApplication()
-
+    
     ```

@@ -1,12 +1,12 @@
 ---
-title: "Record Web Utility"
+title: "Record Web Utility" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/record-web-utility.html
+permalink: katalon-studio/docs/record-web-utility.html 
 redirect_from:
-    - "/display/KD/Record+Web+Utility/"
+    - "/display/KD/Record%20Web%20Utility/"
     - "/x/RwnR/"
     - "/katalon-studio/docs/record-web-utility/"
-description:
+description: 
 ---
 Record
 ------
@@ -15,17 +15,17 @@ Record
 
 *   Without opening any test case, click on Web Record ![](../../images/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-09.41.37.png) icon to open Web Recorder
 *   Katalon Studio default browser is Chrome, whose icon is displayed in the top right corner, but you can change this default browser in **Preferences → Katalon → Recorder → Default browser**. You can also click on the drop-down button to select the browser you want to use:
-
+    
     <table><thead><tr><th>Type</th><th>Description</th><th>Note</th></tr></thead><tbody><tr><td>New Browsers</td><td>Start a new browser</td><td><strong>Supported browsers:</strong><br>- Firefox<br>- Chrome<br>- Internet Explorer (only on Windows)</td></tr><tr><td>Active Browsers</td><td>Use the current browser (only Chrome)</td><td>Katalon Studio will install <a class="external-link" href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid" rel="nofollow">Katalon Recorder</a> as an add-on to help with recording for this type of browser<br><br><strong>Supported browsers:</strong><br>- Chrome<br>- Firefox (coming soon)</td></tr></tbody></table>
-
+    
 *   In this example, just select either Chrome or Firefox from '**New Browser**' type to start recording.
-
+    
     > *   The browser will highlight and display its correspondent Xpath when you hover the mouse on that element.
     > *   Recorded steps will be generated in Recorded Actions.
     > *   When you type in a Password field, Web Recorder will automatically use '[Set Encrypted Text](/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword and input's value will be encrypted to increase security.
-    >
+    > 
     > ![](../../images/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-10.05.19.png)
-
+    
 
 ### Record Using Existing Test Case
 
@@ -80,6 +80,6 @@ Upon selecting any types of Run to execute, there will be execution logs display
 ![](../../images/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.54.27.png)
 
 > The steps above create and run a simple test case. For advanced features such as branching, looping or validation, you can refer to following articles: 
->
+> 
 > *   [Common Validation](https://www.katalon.com/tutorials/common-validation/) 
 > *   [Control Statements](/display/KD/Control+Statements)

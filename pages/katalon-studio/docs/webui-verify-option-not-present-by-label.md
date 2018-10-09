@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Option Not Present By Label"
+title: "[WebUI] Verify Option Not Present By Label" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-option-not-present-by-label.html
+permalink: katalon-studio/docs/webui-verify-option-not-present-by-label.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Present+By+Label/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Option%20Not%20Present%20By%20Label/"
     - "/x/PpIY/"
     - "/katalon-studio/docs/webui-verify-option-not-present-by-label/"
-description:
+description: 
 ---
 Description
 -----------
@@ -65,7 +65,7 @@ WebUI.openBrowser(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 
 'Verify \'HongKong Cura Health Center\' option in \'Facility\' list is not present'
-WebUI.verifyOptionNotPresentByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), 'HongKong Cura Health Center', false,
+WebUI.verifyOptionNotPresentByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), 'HongKong Cura Health Center', false, 
     20)
 
 'Close browser'

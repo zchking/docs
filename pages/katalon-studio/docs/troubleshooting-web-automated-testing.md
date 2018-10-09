@@ -1,12 +1,12 @@
 ---
-title: "Troubleshooting web automated testing"
+title: "Troubleshooting web automated testing" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/troubleshooting-web-automated-testing.html
+permalink: katalon-studio/docs/troubleshooting-web-automated-testing.html 
 redirect_from:
-    - "/display/KD/Troubleshooting+web+automated+testing/"
+    - "/display/KD/Troubleshooting%20web%20automated%20testing/"
     - "/x/5BpO/"
     - "/katalon-studio/docs/troubleshooting-web-automated-testing/"
-description:
+description: 
 ---
 The following article will help you troubleshoot some problems during web automated testing using Katalon Studio.
 
@@ -14,25 +14,25 @@ Timed out waiting for driver server to start
 --------------------------------------------
 
 *   *   Root cause: Incompatible issue when using current Edge driver
-
+        
     *   Solution:
-
+        
         *   Download correct Edge driver from this page: [https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) based on your OS build (Go to **Start** > **Settings** > **System** > **About** and locate the number next to OS Build on the screen)
-
+            
         *   Copy downloaded Edge driver and replace it in existing edgedriver folder of Katalon Studio, e.g: **C:\\Katalon\_Studio\_Windows_64-4.8\\configuration\\resources\\drivers\\edgedriver**
-
+            
 
 Unable to record on Internet Explorer
 -------------------------------------
 
 1.  *   Root cause: Add-on on Internet Explorer is not turned on.
-
+        
     *   Solution:
-
+        
         *   Open 'Manage Add-ons' in Internet Explorer: [https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons](https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons)
-
+            
         *   Enable the RecorderExtension.RecorderBHO
-
+            
 
               ![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png)
 
@@ -51,7 +51,7 @@ to communicate through Windows Firewall. Here is the full [guide](https://www.ho
 
 These executable files can be located in : **<Katalon Studio folder>\\configuration\\resources\\drivers**
 
-**![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png)![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png)
+**![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png)![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png)  
 **
 
 You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall block them as well.
@@ -113,5 +113,5 @@ WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
 ```
 
-*   Downgrade browser's version:
+*   Downgrade browser's version:  
     Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this guide: [https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium](/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium)

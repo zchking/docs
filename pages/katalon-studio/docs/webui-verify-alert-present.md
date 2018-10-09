@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Verify Alert Present"
+title: "[WebUI] Verify Alert Present" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-alert-present.html
+permalink: katalon-studio/docs/webui-verify-alert-present.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Alert+Present/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Alert%20Present/"
     - "/x/kogY/"
     - "/katalon-studio/docs/webui-verify-alert-present/"
-description:
+description: 
 ---
 Description
 -----------

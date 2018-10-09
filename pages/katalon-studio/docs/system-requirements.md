@@ -3,7 +3,7 @@ title: "System Requirements"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/system-requirements.html 
 redirect_from:
-    - "/display/KD/System+Requirements/"
+    - "/display/KD/System%20Requirements/"
     - "/x/cgAM/"
     - "/katalon-studio/docs/system-requirements/"
 description: 

@@ -1,12 +1,12 @@
 ---
-title: "[WebUI] Get Window Index"
+title: "[WebUI] Get Window Index" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-get-window-index.html
+permalink: katalon-studio/docs/webui-get-window-index.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Get+Window+Index/"
+    - "/display/KD/%5BWebUI%5D%20Get%20Window%20Index/"
     - "/x/UowY/"
     - "/katalon-studio/docs/webui-get-window-index/"
-description:
+description: 
 ---
 Description  
 -------------
