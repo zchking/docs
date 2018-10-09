@@ -19,8 +19,8 @@ pipeline {
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
-                        sh 'bundle update'
-                        sh 'jekyll build'
+                        sh 'bundle install'
+                        sh 'bundle exec jekyll build'
                         sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
@@ -35,8 +35,8 @@ pipeline {
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
-                        sh 'bundle update'
-                        sh 'jekyll build'
+                        sh 'bundle install'
+                        sh 'bundle exec jekyll build'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs.katalon.com', path:'', acl:'PublicRead')
@@ -53,9 +53,9 @@ pipeline {
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
-                        sh 'bundle update'
-                        sh 'rm -rfv _site'
-                        sh 'jekyll algolia'
+                        sh 'bundle install'
+                        sh 'bundle exec jekyll clean'
+                        sh 'bundle exec jekyll algolia'
                     }
                 }
             }
