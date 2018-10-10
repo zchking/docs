@@ -11,7 +11,7 @@ description:
 ---
 > Be sure to click on 'update to HTTP Header' button to use current authentication information.
 > 
-> ![](../../images/katalon-studio/docs/authorization/image2018-8-8-113A243A47.png)
+> ![](../../images/katalon-studio/docs/copy-of-authorization/image2018-8-8-113A243A47.png)
 
   
 The following authorizations are supported:
@@ -27,7 +27,7 @@ This is the simplest authorization for a request.
 
 You pass in your username and password to authenticate the request. It will be encoded to 'Authorization' request's headers as you can see below. 
 
-![](../../images/katalon-studio/docs/authorization/Screen-Shot-2018-08-08-at-09.36.21.png)
+![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-09.36.21.png)
 
 To learn, please refer to [this guide](https://swagger.io/docs/specification/authentication/basic-authentication/).
 
@@ -51,11 +51,11 @@ To know how to generate one of them, you can refer to this [testing site](http:
     *   Consumer: key
     *   Consumer Secret: secret
     
-    ![](../../images/katalon-studio/docs/authorization/Screen-Shot-2018-08-08-at-11.10.21.png)
+    ![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.10.21.png)
 2.  Generated token is shown in the response's body section. Use it in to generate access token:  
-    ![](../../images/katalon-studio/docs/authorization/Screen-Shot-2018-08-08-at-11.22.08.png)
+    ![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.22.08.png)
 3.  So far you've gained all the information needed to send a request using OAuth 1.0 authorization (consumer, access token), then use all these information to send a request:
 
-![](../../images/katalon-studio/docs/authorization/Screen-Shot-2018-08-08-at-11.36.20.png)
+![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.36.20.png)
 
-This is just a quick overview on how to use Authorization for a Web Service object. You may need to adjust it accordingly based on your API specifications
+This is just a quick overview on how to use Authorization for a Web Service object. You may need to adjust it accordingly based on your API specifications.
