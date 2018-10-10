@@ -3,6 +3,7 @@ title: "[Mobile] Close Application"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-close-application.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Close+Application/"
     - "/display/KD/%5BMobile%5D%20Close%20Application/"
     - "/x/e40Y/"
     - "/katalon-studio/docs/mobile-close-application/"

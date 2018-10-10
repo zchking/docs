@@ -3,6 +3,7 @@ title: "[Mobile] Select List Item By Index"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-select-list-item-by-index.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Select+List+Item+By+Index/"
     - "/display/KD/%5BMobile%5D%20Select%20List%20Item%20By%20Index/"
     - "/x/hogY/"
     - "/katalon-studio/docs/mobile-select-list-item-by-index/"

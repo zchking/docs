@@ -3,6 +3,7 @@ title: "[Common] Concatenate"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-concatenate.html 
 redirect_from:
+    - "/display/KD/%5BCommon%5D+Concatenate/"
     - "/display/KD/%5BCommon%5D%20Concatenate/"
     - "/x/a4Ii/"
     - "/katalon-studio/docs/common-concatenate/"

@@ -3,6 +3,7 @@ title: "Using autoIT for authentication in Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html 
 redirect_from:
+    - "/display/KD/Using+autoIT+for+authentication+in+Katalon+Studio/"
     - "/display/KD/Using%20autoIT%20for%20authentication%20in%20Katalon%20Studio/"
     - "/x/9xxO/"
     - "/katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio/"

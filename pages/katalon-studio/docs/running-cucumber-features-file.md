@@ -3,6 +3,7 @@ title: "Running Cucumber Features File"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/running-cucumber-features-file.html 
 redirect_from:
+    - "/display/KD/Running+Cucumber+Features+File/"
     - "/display/KD/Running%20Cucumber%20Features%20File/"
     - "/x/PhLR/"
     - "/katalon-studio/docs/running-cucumber-features-file/"

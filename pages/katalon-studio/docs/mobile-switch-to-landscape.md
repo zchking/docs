@@ -3,6 +3,7 @@ title: "[Mobile] Switch To Landscape"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-switch-to-landscape.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Switch+To+Landscape/"
     - "/display/KD/%5BMobile%5D%20Switch%20To%20Landscape/"
     - "/x/GJAY/"
     - "/katalon-studio/docs/mobile-switch-to-landscape/"

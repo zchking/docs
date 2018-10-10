@@ -3,6 +3,7 @@ title: "[Mobile] Hide Keyboard"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-hide-keyboard.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Hide+Keyboard/"
     - "/display/KD/%5BMobile%5D%20Hide%20Keyboard/"
     - "/x/4o8Y/"
     - "/katalon-studio/docs/mobile-hide-keyboard/"

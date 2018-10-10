@@ -3,6 +3,7 @@ title: "Execute Xpath functions"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execute-xpath-functions.html 
 redirect_from:
+    - "/display/KD/Execute+Xpath+functions/"
     - "/display/KD/Execute%20Xpath%20functions/"
     - "/x/ewzR/"
     - "/katalon-studio/docs/execute-xpath-functions/"

@@ -3,6 +3,7 @@ title: "[Mobile] Verify Element Attribute Value"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-verify-element-attribute-value.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Verify+Element+Attribute+Value/"
     - "/display/KD/%5BMobile%5D%20Verify%20Element%20Attribute%20Value/"
     - "/x/YpEY/"
     - "/katalon-studio/docs/mobile-verify-element-attribute-value/"

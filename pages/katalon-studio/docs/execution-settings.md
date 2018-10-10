@@ -3,6 +3,7 @@ title: "Execution Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execution-settings.html 
 redirect_from:
+    - "/display/KD/Execution+Settings/"
     - "/display/KD/Execution%20Settings/"
     - "/x/cgFO/"
     - "/katalon-studio/docs/execution-settings/"

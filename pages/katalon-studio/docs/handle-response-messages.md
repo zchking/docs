@@ -3,6 +3,7 @@ title: "Handle Response Messages"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handle-response-messages.html 
 redirect_from:
+    - "/display/KD/Handle+Response+Messages/"
     - "/display/KD/Handle%20Response%20Messages/"
     - "/x/BxRO/"
     - "/katalon-studio/docs/handle-response-messages/"

@@ -3,6 +3,7 @@ title: "[WebUI] Switch To Window Url"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-switch-to-window-url.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Switch+To+Window+Url/"
     - "/display/KD/%5BWebUI%5D%20Switch%20To%20Window%20Url/"
     - "/x/U40Y/"
     - "/katalon-studio/docs/webui-switch-to-window-url/"

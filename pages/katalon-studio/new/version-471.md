@@ -3,6 +3,7 @@ title: "Version 4.7.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-471.html
 redirect_from:
+    - "/display/KD/Version+4.7.1/"
     - "/display/KD/Version%204.7.1/"
     - "/x/GRFO/"
     - "/katalon-studio/new/version-471/"

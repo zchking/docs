@@ -3,6 +3,7 @@ title: "Jenkins Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jenkins-integration.html 
 redirect_from:
+    - "/display/KD/Jenkins+Integration/"
     - "/display/KD/Jenkins%20Integration/"
     - "/x/XwAM/"
     - "/katalon-studio/docs/jenkins-integration/"

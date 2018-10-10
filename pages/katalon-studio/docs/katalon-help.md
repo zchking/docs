@@ -3,6 +3,7 @@ title: "Katalon Help"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-help.html 
 redirect_from:
+    - "/display/KD/Katalon+Help/"
     - "/display/KD/Katalon%20Help/"
     - "/x/sRRO/"
     - "/katalon-studio/docs/katalon-help/"

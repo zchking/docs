@@ -3,6 +3,7 @@ title: "Schedule tests to execute"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/schedule-tests-to-execute.html 
 redirect_from:
+    - "/display/KD/Schedule+tests+to+execute/"
     - "/display/KD/Schedule%20tests%20to%20execute/"
     - "/x/VQXR/"
     - "/katalon-studio/docs/schedule-tests-to-execute/"

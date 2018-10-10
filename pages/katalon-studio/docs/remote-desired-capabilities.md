@@ -3,6 +3,7 @@ title: "Remote Desired Capabilities"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/remote-desired-capabilities.html 
 redirect_from:
+    - "/display/KD/Remote+Desired+Capabilities/"
     - "/display/KD/Remote%20Desired%20Capabilities/"
     - "/x/KAzR/"
     - "/katalon-studio/docs/remote-desired-capabilities/"

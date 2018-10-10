@@ -3,6 +3,7 @@ title: "[WS] Verify Response Status Code In Range"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ws-verify-response-status-code-in-range.html 
 redirect_from:
+    - "/display/KD/%5BWS%5D+Verify+Response+Status+Code+In+Range/"
     - "/display/KD/%5BWS%5D%20Verify%20Response%20Status%20Code%20In%20Range/"
     - "/x/ERBO/"
     - "/katalon-studio/docs/ws-verify-response-status-code-in-range/"

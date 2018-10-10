@@ -3,6 +3,7 @@ title: "[WebUI] Scroll To Position"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-scroll-to-position.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Scroll+To+Position/"
     - "/display/KD/%5BWebUI%5D%20Scroll%20To%20Position/"
     - "/x/vYwY/"
     - "/katalon-studio/docs/webui-scroll-to-position/"

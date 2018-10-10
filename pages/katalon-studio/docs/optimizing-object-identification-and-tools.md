@@ -3,6 +3,7 @@ title: "Optimizing Object Identification and Tools"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/optimizing-object-identification-and-tools.html 
 redirect_from:
+    - "/display/KD/Optimizing+Object+Identification+and+Tools/"
     - "/display/KD/Optimizing%20Object%20Identification%20and%20Tools/"
     - "/x/fhlO/"
     - "/katalon-studio/docs/optimizing-object-identification-and-tools/"

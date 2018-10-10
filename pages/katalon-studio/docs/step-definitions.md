@@ -3,6 +3,7 @@ title: "Step Definitions"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/step-definitions.html 
 redirect_from:
+    - "/display/KD/Step+Definitions/"
     - "/display/KD/Step%20Definitions/"
     - "/x/OxLR/"
     - "/katalon-studio/docs/step-definitions/"

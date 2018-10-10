@@ -3,6 +3,7 @@ title: "[WebUI] Get Window Title"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-window-title.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Window+Title/"
     - "/display/KD/%5BWebUI%5D%20Get%20Window%20Title/"
     - "/x/dYwY/"
     - "/katalon-studio/docs/webui-get-window-title/"

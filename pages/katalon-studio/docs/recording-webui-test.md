@@ -3,6 +3,7 @@ title: "Recording WebUI Test"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/recording-webui-test.html 
 redirect_from:
+    - "/display/KD/Recording+WebUI+Test/"
     - "/display/KD/Recording%20WebUI%20Test/"
     - "/x/IA3R/"
     - "/katalon-studio/docs/recording-webui-test/"

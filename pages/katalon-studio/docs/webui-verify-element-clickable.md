@@ -3,6 +3,7 @@ title: "[WebUI] Verify Element Clickable"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-element-clickable.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Element+Clickable/"
     - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Clickable/"
     - "/x/W4kY/"
     - "/katalon-studio/docs/webui-verify-element-clickable/"

@@ -3,6 +3,7 @@ title: "Request History"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/request-history.html 
 redirect_from:
+    - "/display/KD/Request+History/"
     - "/display/KD/Request%20History/"
     - "/x/3BXR/"
     - "/katalon-studio/docs/request-history/"

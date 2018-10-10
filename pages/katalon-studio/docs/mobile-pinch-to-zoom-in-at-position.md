@@ -3,6 +3,7 @@ title: "[Mobile] Pinch To Zoom In At Position"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Pinch+To+Zoom+In+At+Position/"
     - "/display/KD/%5BMobile%5D%20Pinch%20To%20Zoom%20In%20At%20Position/"
     - "/x/75IY/"
     - "/katalon-studio/docs/mobile-pinch-to-zoom-in-at-position/"

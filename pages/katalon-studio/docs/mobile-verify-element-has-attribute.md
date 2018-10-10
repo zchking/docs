@@ -3,6 +3,7 @@ title: "[Mobile] Verify Element Has Attribute"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-verify-element-has-attribute.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Verify+Element+Has+Attribute/"
     - "/display/KD/%5BMobile%5D%20Verify%20Element%20Has%20Attribute/"
     - "/x/npEY/"
     - "/katalon-studio/docs/mobile-verify-element-has-attribute/"

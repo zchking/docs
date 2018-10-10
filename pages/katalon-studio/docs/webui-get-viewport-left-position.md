@@ -3,6 +3,7 @@ title: "[WebUI] Get Viewport Left Position"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-viewport-left-position.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Viewport+Left+Position/"
     - "/display/KD/%5BWebUI%5D%20Get%20Viewport%20Left%20Position/"
     - "/x/zosY/"
     - "/katalon-studio/docs/webui-get-viewport-left-position/"

@@ -3,6 +3,7 @@ title: "[WebUI] Deselect Option By Label"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-deselect-option-by-label.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Deselect+Option+By+Label/"
     - "/display/KD/%5BWebUI%5D%20Deselect%20Option%20By%20Label/"
     - "/x/CZIY/"
     - "/katalon-studio/docs/webui-deselect-option-by-label/"

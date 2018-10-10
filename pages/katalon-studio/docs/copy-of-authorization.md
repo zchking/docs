@@ -3,6 +3,7 @@ title: "Copy of Authorization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/copy-of-authorization.html 
 redirect_from:
+    - "/display/KD/Copy+of+Authorization/"
     - "/display/KD/Copy%20of%20Authorization/"
     - "/x/-RTR/"
     - "/katalon-studio/docs/copy-of-authorization/"

@@ -3,6 +3,7 @@ title: "Working with Sensitive Text"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-sensitive-text.html 
 redirect_from:
+    - "/display/KD/Working+with+Sensitive+Text/"
     - "/display/KD/Working%20with%20Sensitive%20Text/"
     - "/x/3wHR/"
     - "/katalon-studio/docs/working-with-sensitive-text/"

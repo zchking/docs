@@ -3,6 +3,7 @@ title: "BrowserStack Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/browserstack-integration.html 
 redirect_from:
+    - "/display/KD/BrowserStack+Integration/"
     - "/display/KD/BrowserStack%20Integration/"
     - "/x/mRdO/"
     - "/katalon-studio/docs/browserstack-integration/"

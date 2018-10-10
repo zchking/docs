@@ -3,6 +3,7 @@ title: "Network Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/network-settings.html 
 redirect_from:
+    - "/display/KD/Network+Settings/"
     - "/display/KD/Network%20Settings/"
     - "/x/gQ1O/"
     - "/katalon-studio/docs/network-settings/"

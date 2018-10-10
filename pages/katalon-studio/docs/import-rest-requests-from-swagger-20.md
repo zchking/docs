@@ -3,6 +3,7 @@ title: "Import REST requests from Swagger 2.0"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-rest-requests-from-swagger-20.html 
 redirect_from:
+    - "/display/KD/Import+REST+requests+from+Swagger+2.0/"
     - "/display/KD/Import%20REST%20requests%20from%20Swagger%202.0/"
     - "/x/8hXR/"
     - "/katalon-studio/docs/import-rest-requests-from-swagger-20/"

@@ -3,6 +3,7 @@ title: "Import SOAP requests from WSDL"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-soap-requests-from-wsdl.html 
 redirect_from:
+    - "/display/KD/Import+SOAP+requests+from+WSDL/"
     - "/display/KD/Import%20SOAP%20requests%20from%20WSDL/"
     - "/x/BhbR/"
     - "/katalon-studio/docs/import-soap-requests-from-wsdl/"

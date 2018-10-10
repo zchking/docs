@@ -3,6 +3,7 @@ title: "Working with Shadow DOM Objects"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-shadow-dom-objects.html 
 redirect_from:
+    - "/display/KD/Working+with+Shadow+DOM+Objects/"
     - "/display/KD/Working%20with%20Shadow%20DOM%20Objects/"
     - "/x/SBNO/"
     - "/katalon-studio/docs/working-with-shadow-dom-objects/"

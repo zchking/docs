@@ -3,6 +3,7 @@ title: "[WebUI] Navigate to Url"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-navigate-to-url.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Navigate+to+Url/"
     - "/display/KD/%5BWebUI%5D%20Navigate%20to%20Url/"
     - "/x/3IgY/"
     - "/katalon-studio/docs/webui-navigate-to-url/"

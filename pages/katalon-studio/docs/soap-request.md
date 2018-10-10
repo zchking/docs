@@ -3,6 +3,7 @@ title: "SOAP Request"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/soap-request.html 
 redirect_from:
+    - "/display/KD/SOAP+Request/"
     - "/display/KD/SOAP%20Request/"
     - "/x/bxXR/"
     - "/katalon-studio/docs/soap-request/"

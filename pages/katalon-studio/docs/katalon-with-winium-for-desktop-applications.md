@@ -3,6 +3,7 @@ title: "Katalon with Winium for Desktop Applications"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-with-winium-for-desktop-applications.html 
 redirect_from:
+    - "/display/KD/Katalon+with+Winium+for+Desktop+Applications/"
     - "/display/KD/Katalon%20with%20Winium%20for%20Desktop%20Applications/"
     - "/x/xAzR/"
     - "/katalon-studio/docs/katalon-with-winium-for-desktop-applications/"

@@ -3,6 +3,7 @@ title: "Version 4.0.1"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-401.html
 redirect_from:
+    - "/display/KD/Version+4.0.1/"
     - "/display/KD/Version%204.0.1/"
     - "/x/AoAr/"
     - "/katalon-studio/new/version-401/"

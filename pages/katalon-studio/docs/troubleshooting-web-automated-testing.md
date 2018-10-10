@@ -3,6 +3,7 @@ title: "Troubleshooting web automated testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-web-automated-testing.html 
 redirect_from:
+    - "/display/KD/Troubleshooting+web+automated+testing/"
     - "/display/KD/Troubleshooting%20web%20automated%20testing/"
     - "/x/5BpO/"
     - "/katalon-studio/docs/troubleshooting-web-automated-testing/"

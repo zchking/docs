@@ -3,6 +3,7 @@ title: "User Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/user-management.html 
 redirect_from:
+    - "/display/KA/User+Management/"
     - "/display/KA/User%20Management/"
     - "/x/lQjR/"
     - "/katalon-analytics/docs/user-management/"

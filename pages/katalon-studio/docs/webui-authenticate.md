@@ -3,6 +3,7 @@ title: "[WebUI] Authenticate"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-authenticate.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Authenticate/"
     - "/display/KD/%5BWebUI%5D%20Authenticate/"
     - "/x/xYgY/"
     - "/katalon-studio/docs/webui-authenticate/"
