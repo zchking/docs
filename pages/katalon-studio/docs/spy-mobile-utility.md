@@ -3,6 +3,7 @@ title: "Spy Mobile Utility"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-mobile-utility.html 
 redirect_from:
+    - "/display/KD/Spy+Mobile+Utility/"
     - "/display/KD/Spy%20Mobile%20Utility/"
     - "/x/3QBO/"
     - "/katalon-studio/docs/spy-mobile-utility/"

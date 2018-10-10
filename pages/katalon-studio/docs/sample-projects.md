@@ -3,6 +3,7 @@ title: "Sample Projects"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/sample-projects.html 
 redirect_from:
+    - "/display/KD/Sample+Projects/"
     - "/display/KD/Sample%20Projects/"
     - "/x/UQnR/"
     - "/katalon-studio/docs/sample-projects/"

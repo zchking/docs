@@ -3,6 +3,7 @@ title: "Type @ character on Internet Explorer"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/type-character-on-internet-explorer.html 
 redirect_from:
+    - "/display/KD/Type+@+character+on+Internet+Explorer/"
     - "/display/KD/Type%20@%20character%20on%20Internet%20Explorer/"
     - "/x/fQXR/"
     - "/katalon-studio/docs/type-character-on-internet-explorer/"

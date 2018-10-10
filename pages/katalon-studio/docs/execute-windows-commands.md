@@ -3,6 +3,7 @@ title: "Execute Windows commands"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execute-windows-commands.html 
 redirect_from:
+    - "/display/KD/Execute+Windows+commands/"
     - "/display/KD/Execute%20Windows%20commands/"
     - "/x/QQXR/"
     - "/katalon-studio/docs/execute-windows-commands/"

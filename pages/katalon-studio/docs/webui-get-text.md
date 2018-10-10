@@ -3,6 +3,7 @@ title: "[WebUI] Get Text"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-text.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Text/"
     - "/display/KD/%5BWebUI%5D%20Get%20Text/"
     - "/x/_okY/"
     - "/katalon-studio/docs/webui-get-text/"

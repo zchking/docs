@@ -3,6 +3,7 @@ title: "[WebUI] Drag And Drop To Object"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-drag-and-drop-to-object.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Drag+And+Drop+To+Object/"
     - "/display/KD/%5BWebUI%5D%20Drag%20And%20Drop%20To%20Object/"
     - "/x/QokY/"
     - "/katalon-studio/docs/webui-drag-and-drop-to-object/"

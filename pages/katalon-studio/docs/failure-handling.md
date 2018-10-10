@@ -3,6 +3,7 @@ title: "Failure Handling"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/failure-handling.html 
 redirect_from:
+    - "/display/KD/Failure+Handling/"
     - "/display/KD/Failure%20Handling/"
     - "/x/qAAM/"
     - "/katalon-studio/docs/failure-handling/"

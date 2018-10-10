@@ -3,6 +3,7 @@ title: "External Libraries"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/external-libraries.html 
 redirect_from:
+    - "/display/KD/External+Libraries/"
     - "/display/KD/External%20Libraries/"
     - "/x/wQAo/"
     - "/katalon-studio/docs/external-libraries/"

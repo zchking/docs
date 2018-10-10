@@ -3,6 +3,7 @@ title: "Method Call Statements"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/method-call-statements.html 
 redirect_from:
+    - "/display/KD/Method+Call+Statements/"
     - "/display/KD/Method%20Call%20Statements/"
     - "/x/sgAM/"
     - "/katalon-studio/docs/method-call-statements/"

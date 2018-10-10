@@ -3,6 +3,7 @@ title: "[WebUI] Verify Option Not Present By Value"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-option-not-present-by-value.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Option+Not+Present+By+Value/"
     - "/display/KD/%5BWebUI%5D%20Verify%20Option%20Not%20Present%20By%20Value/"
     - "/x/uQdO/"
     - "/katalon-studio/docs/webui-verify-option-not-present-by-value/"

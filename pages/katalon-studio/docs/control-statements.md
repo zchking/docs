@@ -3,6 +3,7 @@ title: "Control Statements"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/control-statements.html 
 redirect_from:
+    - "/display/KD/Control+Statements/"
     - "/display/KD/Control%20Statements/"
     - "/x/rAAM/"
     - "/katalon-studio/docs/control-statements/"

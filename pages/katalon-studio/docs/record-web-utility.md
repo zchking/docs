@@ -3,6 +3,7 @@ title: "Record Web Utility"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-web-utility.html 
 redirect_from:
+    - "/display/KD/Record+Web+Utility/"
     - "/display/KD/Record%20Web%20Utility/"
     - "/x/RwnR/"
     - "/katalon-studio/docs/record-web-utility/"

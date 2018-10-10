@@ -3,6 +3,7 @@ title: "Variable Types"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/variable-types.html 
 redirect_from:
+    - "/display/KD/Variable+Types/"
     - "/display/KD/Variable%20Types/"
     - "/x/RoIw/"
     - "/katalon-studio/docs/variable-types/"

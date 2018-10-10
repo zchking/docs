@@ -3,6 +3,7 @@ title: "Desired Capabilities for Internet Explorer"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-for-internet-explorer.html 
 redirect_from:
+    - "/display/KD/Desired+Capabilities+for+Internet+Explorer/"
     - "/display/KD/Desired%20Capabilities%20for%20Internet%20Explorer/"
     - "/x/TgzR/"
     - "/katalon-studio/docs/desired-capabilities-for-internet-explorer/"

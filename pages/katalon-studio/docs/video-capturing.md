@@ -3,6 +3,7 @@ title: "Video Capturing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/video-capturing.html 
 redirect_from:
+    - "/display/KD/Video+Capturing/"
     - "/display/KD/Video%20Capturing/"
     - "/x/qRJO/"
     - "/katalon-studio/docs/video-capturing/"

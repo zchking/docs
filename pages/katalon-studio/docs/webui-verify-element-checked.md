@@ -3,6 +3,7 @@ title: "[WebUI] Verify Element Checked"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-verify-element-checked.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Verify+Element+Checked/"
     - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Checked/"
     - "/x/HYkY/"
     - "/katalon-studio/docs/webui-verify-element-checked/"

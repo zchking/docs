@@ -3,6 +3,7 @@ title: "Define Method"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/define-method.html 
 redirect_from:
+    - "/display/KD/Define+Method/"
     - "/display/KD/Define%20Method/"
     - "/x/tgAM/"
     - "/katalon-studio/docs/define-method/"

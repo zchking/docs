@@ -3,6 +3,7 @@ title: "Troubleshooting common issues related to interacting with an element"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html 
 redirect_from:
+    - "/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element/"
     - "/display/KD/Troubleshooting%20common%20issues%20related%20to%20interacting%20with%20an%20element/"
     - "/x/awXR/"
     - "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element/"

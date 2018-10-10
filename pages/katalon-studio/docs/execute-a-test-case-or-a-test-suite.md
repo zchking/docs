@@ -3,6 +3,7 @@ title: "Execute a Test Case or a Test Suite"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execute-a-test-case-or-a-test-suite.html 
 redirect_from:
+    - "/display/KD/Execute+a+Test+Case+or+a+Test+Suite/"
     - "/display/KD/Execute%20a%20Test%20Case%20or%20a%20Test%20Suite/"
     - "/x/GAvR/"
     - "/katalon-studio/docs/execute-a-test-case-or-a-test-suite/"

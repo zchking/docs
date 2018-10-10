@@ -3,6 +3,7 @@ title: "[WebUI] Refresh"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-refresh.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Refresh/"
     - "/display/KD/%5BWebUI%5D%20Refresh/"
     - "/x/BokY/"
     - "/katalon-studio/docs/webui-refresh/"

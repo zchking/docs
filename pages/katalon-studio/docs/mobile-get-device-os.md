@@ -3,6 +3,7 @@ title: "[Mobile] Get Device OS"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-device-os.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Device+OS/"
     - "/display/KD/%5BMobile%5D%20Get%20Device%20OS/"
     - "/x/444Y/"
     - "/katalon-studio/docs/mobile-get-device-os/"

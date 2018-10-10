@@ -3,6 +3,7 @@ title: "Manage Checkpoints"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-checkpoints.html 
 redirect_from:
+    - "/display/KD/Manage+Checkpoints/"
     - "/display/KD/Manage%20Checkpoints/"
     - "/x/XYIw/"
     - "/katalon-studio/docs/manage-checkpoints/"

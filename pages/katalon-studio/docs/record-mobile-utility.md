@@ -3,6 +3,7 @@ title: "Record Mobile Utility"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-mobile-utility.html 
 redirect_from:
+    - "/display/KD/Record+Mobile+Utility/"
     - "/display/KD/Record%20Mobile%20Utility/"
     - "/x/qgxO/"
     - "/katalon-studio/docs/record-mobile-utility/"

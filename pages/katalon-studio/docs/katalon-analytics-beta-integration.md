@@ -3,6 +3,7 @@ title: "Katalon Analytics (Beta) Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-analytics-beta-integration.html 
 redirect_from:
+    - "/display/KD/Katalon+Analytics+%28Beta%29+Integration/"
     - "/display/KD/Katalon%20Analytics%20%28Beta%29%20Integration/"
     - "/x/KRhO/"
     - "/katalon-studio/docs/katalon-analytics-beta-integration/"

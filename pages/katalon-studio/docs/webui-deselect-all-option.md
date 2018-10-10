@@ -3,6 +3,7 @@ title: "[WebUI] Deselect All Option"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-deselect-all-option.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Deselect+All+Option/"
     - "/display/KD/%5BWebUI%5D%20Deselect%20All%20Option/"
     - "/x/KYkY/"
     - "/katalon-studio/docs/webui-deselect-all-option/"

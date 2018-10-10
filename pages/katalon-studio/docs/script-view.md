@@ -3,6 +3,7 @@ title: "Script View"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/script-view.html 
 redirect_from:
+    - "/display/KD/Script+View/"
     - "/display/KD/Script%20View/"
     - "/x/Y4Iw/"
     - "/katalon-studio/docs/script-view/"

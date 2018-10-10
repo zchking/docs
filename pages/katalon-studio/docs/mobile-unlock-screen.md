@@ -3,6 +3,7 @@ title: "[Mobile] Unlock Screen"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-unlock-screen.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Unlock+Screen/"
     - "/display/KD/%5BMobile%5D%20Unlock%20Screen/"
     - "/x/_pAY/"
     - "/katalon-studio/docs/mobile-unlock-screen/"

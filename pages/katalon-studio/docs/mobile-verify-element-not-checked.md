@@ -3,6 +3,7 @@ title: "[Mobile] Verify Element Not Checked"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-verify-element-not-checked.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Verify+Element+Not+Checked/"
     - "/display/KD/%5BMobile%5D%20Verify%20Element%20Not%20Checked/"
     - "/x/fpEY/"
     - "/katalon-studio/docs/mobile-verify-element-not-checked/"

@@ -3,6 +3,7 @@ title: "Quick Start"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/quick-start.html 
 redirect_from:
+    - "/display/KA/Quick+Start/"
     - "/display/KA/Quick%20Start/"
     - "/x/rxxO/"
     - "/katalon-analytics/docs/quick-start/"

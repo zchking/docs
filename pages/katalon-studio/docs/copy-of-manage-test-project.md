@@ -3,6 +3,7 @@ title: "Copy of Manage Test Project"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/copy-of-manage-test-project.html 
 redirect_from:
+    - "/display/KD/Copy+of+Manage+Test+Project/"
     - "/display/KD/Copy%20of%20Manage%20Test%20Project/"
     - "/x/7RTR/"
     - "/katalon-studio/docs/copy-of-manage-test-project/"

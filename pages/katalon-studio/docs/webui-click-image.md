@@ -3,6 +3,7 @@ title: "[WebUI] Click Image"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-click-image.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Click+Image/"
     - "/display/KD/%5BWebUI%5D%20Click%20Image/"
     - "/x/NIgY/"
     - "/katalon-studio/docs/webui-click-image/"

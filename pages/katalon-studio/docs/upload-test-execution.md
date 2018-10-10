@@ -3,6 +3,7 @@ title: "Upload test execution"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/upload-test-execution.html 
 redirect_from:
+    - "/display/KD/Upload+test+execution/"
     - "/display/KD/Upload%20test%20execution/"
     - "/x/5YEw/"
     - "/katalon-studio/docs/upload-test-execution/"

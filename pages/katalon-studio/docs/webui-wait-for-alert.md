@@ -3,6 +3,7 @@ title: "[WebUI] Wait For Alert"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-alert.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Wait+For+Alert/"
     - "/display/KD/%5BWebUI%5D%20Wait%20For%20Alert/"
     - "/x/mYgY/"
     - "/katalon-studio/docs/webui-wait-for-alert/"

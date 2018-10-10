@@ -3,6 +3,7 @@ title: "Database Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/database-settings.html 
 redirect_from:
+    - "/display/KD/Database+Settings/"
     - "/display/KD/Database%20Settings/"
     - "/x/tgFO/"
     - "/katalon-studio/docs/database-settings/"

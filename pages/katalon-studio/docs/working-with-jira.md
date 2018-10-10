@@ -3,6 +3,7 @@ title: "Working with JIRA"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/working-with-jira.html 
 redirect_from:
+    - "/display/KD/Working+with+JIRA/"
     - "/display/KD/Working%20with%20JIRA/"
     - "/x/MhBO/"
     - "/katalon-studio/docs/working-with-jira/"

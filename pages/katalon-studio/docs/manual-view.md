@@ -3,6 +3,7 @@ title: "Manual View"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manual-view.html 
 redirect_from:
+    - "/display/KD/Manual+View/"
     - "/display/KD/Manual%20View/"
     - "/x/9YEw/"
     - "/katalon-studio/docs/manual-view/"

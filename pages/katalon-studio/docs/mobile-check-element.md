@@ -3,6 +3,7 @@ title: "[Mobile] Check Element"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-check-element.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Check+Element/"
     - "/display/KD/%5BMobile%5D%20Check%20Element/"
     - "/x/2ocY/"
     - "/katalon-studio/docs/mobile-check-element/"

@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/samples.html 
 redirect_from:
     - "/display/KR/Samples/"
+    - "/display/KR/Samples/"
     - "/x/KQHR/"
     - "/katalon-recorder/docs/samples/"
 description: 

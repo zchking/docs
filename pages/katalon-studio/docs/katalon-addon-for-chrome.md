@@ -3,6 +3,7 @@ title: "Katalon Addon for Chrome"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-addon-for-chrome.html 
 redirect_from:
+    - "/display/KD/Katalon+Addon+for+Chrome/"
     - "/display/KD/Katalon%20Addon%20for%20Chrome/"
     - "/x/JYgw/"
     - "/katalon-studio/docs/katalon-addon-for-chrome/"

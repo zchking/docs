@@ -3,6 +3,7 @@ title: "[Mobile] Run iOS App in Background and Wait"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Run+iOS+App+in+Background+and+Wait/"
     - "/display/KD/%5BMobile%5D%20Run%20iOS%20App%20in%20Background%20and%20Wait/"
     - "/x/pI0Y/"
     - "/katalon-studio/docs/mobile-run-ios-app-in-background-and-wait/"

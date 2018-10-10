@@ -3,6 +3,7 @@ title: "Clicking multiple objects without starting over"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/clicking-multiple-objects-without-starting-over.html 
 redirect_from:
+    - "/display/KD/Clicking+multiple+objects+without+starting+over/"
     - "/display/KD/Clicking%20multiple%20objects%20without%20starting%20over/"
     - "/x/ZwXR/"
     - "/katalon-studio/docs/clicking-multiple-objects-without-starting-over/"

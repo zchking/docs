@@ -3,6 +3,7 @@ title: "[Mobile] Get Current Orientation"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-current-orientation.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Current+Orientation/"
     - "/display/KD/%5BMobile%5D%20Get%20Current%20Orientation/"
     - "/x/KI4Y/"
     - "/katalon-studio/docs/mobile-get-current-orientation/"

@@ -3,6 +3,7 @@ title: "[Mobile] Verify Element Not Exist"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-verify-element-not-exist.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Verify+Element+Not+Exist/"
     - "/display/KD/%5BMobile%5D%20Verify%20Element%20Not%20Exist/"
     - "/x/vZEY/"
     - "/katalon-studio/docs/mobile-verify-element-not-exist/"

@@ -3,6 +3,7 @@ title: "[Common] Verify Less Than"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-less-than.html 
 redirect_from:
+    - "/display/KD/%5BCommon%5D+Verify+Less+Than/"
     - "/display/KD/%5BCommon%5D%20Verify%20Less%20Than/"
     - "/x/6YEi/"
     - "/katalon-studio/docs/common-verify-less-than/"

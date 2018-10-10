@@ -3,6 +3,7 @@ title: "[Mobile] Get Device OS Version"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-device-os-version.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Device+OS+Version/"
     - "/display/KD/%5BMobile%5D%20Get%20Device%20OS%20Version/"
     - "/x/FI8Y/"
     - "/katalon-studio/docs/mobile-get-device-os-version/"

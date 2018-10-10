@@ -3,6 +3,7 @@ title: "Introduction to Custom Keywords"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/introduction-to-custom-keywords.html 
 redirect_from:
+    - "/display/KD/Introduction+to+Custom+Keywords/"
     - "/display/KD/Introduction%20to%20Custom%20Keywords/"
     - "/x/8gAM/"
     - "/katalon-studio/docs/introduction-to-custom-keywords/"
