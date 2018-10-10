@@ -4,12 +4,6 @@ pipeline {
 
     stages {
 
-        stage('Clean') {
-            steps {
-                sh 'rm -rf _site'
-            }
-        }
-
         stage('Build staging') {
             when {
                 not {
@@ -20,8 +14,8 @@ pipeline {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
+                        sh 'bundle exec jekyll clean'
                         sh 'bundle exec jekyll build'
-                        sh 'mv _site/robots-staging.txt _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
@@ -36,7 +30,9 @@ pipeline {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
+                        sh 'bundle exec jekyll clean'
                         sh 'bundle exec jekyll build'
+                        sh 'mv _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs.katalon.com', path:'', acl:'PublicRead')
