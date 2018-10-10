@@ -69,8 +69,6 @@ items:
             url: /katalon-studio/docs/sample-projects.html
           - title: "Manage Test Project"
             url: /katalon-studio/docs/manage-test-project.html
-          - title: "Copy of Manage Test Project"
-            url: /katalon-studio/docs/copy-of-manage-test-project.html
           - title: "Project Settings"
             tree:
               - title: "Execution Settings"
