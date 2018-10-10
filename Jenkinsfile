@@ -40,6 +40,7 @@ pipeline {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs.katalon.com', path:'', acl:'PublicRead')
                     }
+                    cfInvalidate(distribution:'E39AGUOIPSZ2OA', paths:['/*'])
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle exec jekyll clean'
                         sh 'bundle exec jekyll algolia'
