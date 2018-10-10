@@ -3,6 +3,7 @@ title: "Get SQL query results as variables"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/get-sql-query-results-as-variables.html 
 redirect_from:
+    - "/display/KD/Get+SQL+query+results+as+variables/"
     - "/display/KD/Get%20SQL%20query%20results%20as%20variables/"
     - "/x/RQXR/"
     - "/katalon-studio/docs/get-sql-query-results-as-variables/"

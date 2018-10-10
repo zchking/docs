@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/overview.html 
 redirect_from:
     - "/display/KR/Overview/"
+    - "/display/KR/Overview/"
     - "/x/_RHR/"
     - "/katalon-recorder/docs/overview/"
 description: 

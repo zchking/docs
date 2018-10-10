@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/soap.html 
 redirect_from:
     - "/display/KD/SOAP/"
+    - "/display/KD/SOAP/"
     - "/x/LwLR/"
     - "/katalon-studio/docs/soap/"
 description: 

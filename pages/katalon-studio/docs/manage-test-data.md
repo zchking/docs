@@ -3,6 +3,7 @@ title: "Manage Test Data"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-test-data.html 
 redirect_from:
+    - "/display/KD/Manage+Test+Data/"
     - "/display/KD/Manage%20Test%20Data/"
     - "/x/W4Iw/"
     - "/katalon-studio/docs/manage-test-data/"

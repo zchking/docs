@@ -3,6 +3,7 @@ title: "Call Test Case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/call-test-case.html 
 redirect_from:
+    - "/display/KD/Call+Test+Case/"
     - "/display/KD/Call%20Test%20Case/"
     - "/x/qgAM/"
     - "/katalon-studio/docs/call-test-case/"

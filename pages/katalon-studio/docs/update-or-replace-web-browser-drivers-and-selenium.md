@@ -3,6 +3,7 @@ title: "Update or Replace Web Browser Drivers and Selenium"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html 
 redirect_from:
+    - "/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium/"
     - "/display/KD/Update%20or%20Replace%20Web%20Browser%20Drivers%20and%20Selenium/"
     - "/x/1xtO/"
     - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium/"

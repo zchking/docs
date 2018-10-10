@@ -3,6 +3,7 @@ title: "Handle file upload control on hidden input"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handle-file-upload-control-on-hidden-input.html 
 redirect_from:
+    - "/display/KD/Handle+file+upload+control+on+hidden+input/"
     - "/display/KD/Handle%20file%20upload%20control%20on%20hidden%20input/"
     - "/x/eQXR/"
     - "/katalon-studio/docs/handle-file-upload-control-on-hidden-input/"

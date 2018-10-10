@@ -3,6 +3,7 @@ title: "[Mobile] Wait For Element Not Has Attribute"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Wait+For+Element+Not+Has+Attribute/"
     - "/display/KD/%5BMobile%5D%20Wait%20For%20Element%20Not%20Has%20Attribute/"
     - "/x/Y5IY/"
     - "/katalon-studio/docs/mobile-wait-for-element-not-has-attribute/"

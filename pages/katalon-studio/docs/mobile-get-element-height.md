@@ -3,6 +3,7 @@ title: "[Mobile] Get Element Height"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-element-height.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Element+Height/"
     - "/display/KD/%5BMobile%5D%20Get%20Element%20Height/"
     - "/x/VogY/"
     - "/katalon-studio/docs/mobile-get-element-height/"

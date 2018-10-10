@@ -3,6 +3,7 @@ title: "[Mobile] Get Element Left Position"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-element-left-position.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Element+Left+Position/"
     - "/display/KD/%5BMobile%5D%20Get%20Element%20Left%20Position/"
     - "/x/eY8Y/"
     - "/katalon-studio/docs/mobile-get-element-left-position/"

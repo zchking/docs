@@ -3,6 +3,7 @@ title: "[WebUI] Remove Object Property"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-remove-object-property.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Remove+Object+Property/"
     - "/display/KD/%5BWebUI%5D%20Remove%20Object%20Property/"
     - "/x/wooY/"
     - "/katalon-studio/docs/webui-remove-object-property/"

@@ -3,6 +3,7 @@ title: "Desired Capabilities for Kobiton Devices"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-for-kobiton-devices.html 
 redirect_from:
+    - "/display/KD/Desired+Capabilities+for+Kobiton+Devices/"
     - "/display/KD/Desired%20Capabilities%20for%20Kobiton%20Devices/"
     - "/x/DQrR/"
     - "/katalon-studio/docs/desired-capabilities-for-kobiton-devices/"

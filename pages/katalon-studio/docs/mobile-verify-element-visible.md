@@ -3,6 +3,7 @@ title: "[Mobile] Verify Element Visible"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-verify-element-visible.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Verify+Element+Visible/"
     - "/display/KD/%5BMobile%5D%20Verify%20Element%20Visible/"
     - "/x/3ZEY/"
     - "/katalon-studio/docs/mobile-verify-element-visible/"

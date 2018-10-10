@@ -3,6 +3,7 @@ title: "[WebUI] Set Text"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-set-text.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Set+Text/"
     - "/display/KD/%5BWebUI%5D%20Set%20Text/"
     - "/x/T4cY/"
     - "/katalon-studio/docs/webui-set-text/"

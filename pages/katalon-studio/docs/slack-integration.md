@@ -3,6 +3,7 @@ title: "Slack Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/slack-integration.html 
 redirect_from:
+    - "/display/KD/Slack+Integration/"
     - "/display/KD/Slack%20Integration/"
     - "/x/boUw/"
     - "/katalon-studio/docs/slack-integration/"

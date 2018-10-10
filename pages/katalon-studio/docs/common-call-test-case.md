@@ -3,6 +3,7 @@ title: "[Common] Call Test Case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-call-test-case.html 
 redirect_from:
+    - "/display/KD/%5BCommon%5D+Call+Test+Case/"
     - "/display/KD/%5BCommon%5D%20Call%20Test%20Case/"
     - "/x/roIi/"
     - "/katalon-studio/docs/common-call-test-case/"

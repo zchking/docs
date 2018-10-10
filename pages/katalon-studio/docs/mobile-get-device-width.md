@@ -3,6 +3,7 @@ title: "[Mobile] Get Device Width"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-device-width.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Device+Width/"
     - "/display/KD/%5BMobile%5D%20Get%20Device%20Width/"
     - "/x/Ro8Y/"
     - "/katalon-studio/docs/mobile-get-device-width/"

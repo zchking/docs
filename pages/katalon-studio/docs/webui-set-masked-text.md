@@ -3,6 +3,7 @@ title: "[WebUI] Set Masked Text"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-set-masked-text.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Set+Masked+Text/"
     - "/display/KD/%5BWebUI%5D%20Set%20Masked%20Text/"
     - "/x/JBBO/"
     - "/katalon-studio/docs/webui-set-masked-text/"

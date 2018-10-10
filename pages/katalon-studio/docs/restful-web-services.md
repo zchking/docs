@@ -3,6 +3,7 @@ title: "RESTful Web Services"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/restful-web-services.html 
 redirect_from:
+    - "/display/KD/RESTful+Web+Services/"
     - "/display/KD/RESTful%20Web%20Services/"
     - "/x/FxXR/"
     - "/katalon-studio/docs/restful-web-services/"

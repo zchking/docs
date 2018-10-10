@@ -3,6 +3,7 @@ title: "[Mobile] Scroll To Text"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-scroll-to-text.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Scroll+To+Text/"
     - "/display/KD/%5BMobile%5D%20Scroll%20To%20Text/"
     - "/x/h5MY/"
     - "/katalon-studio/docs/mobile-scroll-to-text/"

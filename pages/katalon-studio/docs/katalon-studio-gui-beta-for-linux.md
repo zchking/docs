@@ -3,6 +3,7 @@ title: "Katalon Studio GUI (beta) for Linux"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-studio-gui-beta-for-linux.html 
 redirect_from:
+    - "/display/KD/Katalon+Studio+GUI+%28beta%29+for+Linux/"
     - "/display/KD/Katalon%20Studio%20GUI%20%28beta%29%20for%20Linux/"
     - "/x/fwTR/"
     - "/katalon-studio/docs/katalon-studio-gui-beta-for-linux/"

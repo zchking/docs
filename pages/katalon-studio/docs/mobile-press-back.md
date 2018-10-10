@@ -3,6 +3,7 @@ title: "[Mobile] Press Back"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-press-back.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Press+Back/"
     - "/display/KD/%5BMobile%5D%20Press%20Back/"
     - "/x/JJQY/"
     - "/katalon-studio/docs/mobile-press-back/"

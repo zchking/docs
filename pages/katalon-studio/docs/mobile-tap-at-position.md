@@ -3,6 +3,7 @@ title: "[Mobile] Tap At Position"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-tap-at-position.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Tap+At+Position/"
     - "/display/KD/%5BMobile%5D%20Tap%20At%20Position/"
     - "/x/QJMY/"
     - "/katalon-studio/docs/mobile-tap-at-position/"

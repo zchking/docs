@@ -3,6 +3,7 @@ title: "[WebUI] Wait for jQuery Load"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-wait-for-jquery-load.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Wait+for+jQuery+Load/"
     - "/display/KD/%5BWebUI%5D%20Wait%20for%20jQuery%20Load/"
     - "/x/_QxO/"
     - "/katalon-studio/docs/webui-wait-for-jquery-load/"

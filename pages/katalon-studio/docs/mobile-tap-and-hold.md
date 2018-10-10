@@ -3,6 +3,7 @@ title: "[Mobile] Tap And Hold"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-tap-and-hold.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Tap+And+Hold/"
     - "/display/KD/%5BMobile%5D%20Tap%20And%20Hold/"
     - "/x/9IgY/"
     - "/katalon-studio/docs/mobile-tap-and-hold/"

@@ -3,6 +3,7 @@ title: "[Mobile] Get Device Manufacturer"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-get-device-manufacturer.html 
 redirect_from:
+    - "/display/KD/%5BMobile%5D+Get+Device+Manufacturer/"
     - "/display/KD/%5BMobile%5D%20Get%20Device%20Manufacturer/"
     - "/x/hI4Y/"
     - "/katalon-studio/docs/mobile-get-device-manufacturer/"

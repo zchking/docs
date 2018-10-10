@@ -3,6 +3,7 @@ title: "Force stop execution"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/force-stop-execution.html 
 redirect_from:
+    - "/display/KD/Force+stop+execution/"
     - "/display/KD/Force%20stop%20execution/"
     - "/x/HgfR/"
     - "/katalon-studio/docs/force-stop-execution/"

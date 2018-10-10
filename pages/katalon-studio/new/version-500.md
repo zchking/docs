@@ -3,6 +3,7 @@ title: "Version 5.0.0"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-500.html
 redirect_from:
+    - "/display/KD/Version+5.0.0/"
     - "/display/KD/Version%205.0.0/"
     - "/x/PRVO/"
     - "/katalon-studio/new/version-500/"

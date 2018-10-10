@@ -3,6 +3,7 @@ title: "Test Suite Collection Report"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-suite-collection-report.html 
 redirect_from:
+    - "/display/KD/Test+Suite+Collection+Report/"
     - "/display/KD/Test%20Suite%20Collection%20Report/"
     - "/x/7gAM/"
     - "/katalon-studio/docs/test-suite-collection-report/"

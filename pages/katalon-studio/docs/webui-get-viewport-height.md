@@ -3,6 +3,7 @@ title: "[WebUI] Get Viewport Height"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-get-viewport-height.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Get+Viewport+Height/"
     - "/display/KD/%5BWebUI%5D%20Get%20Viewport%20Height/"
     - "/x/r4sY/"
     - "/katalon-studio/docs/webui-get-viewport-height/"

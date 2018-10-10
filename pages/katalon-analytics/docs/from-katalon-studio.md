@@ -3,6 +3,7 @@ title: "From Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/from-katalon-studio.html 
 redirect_from:
+    - "/display/KA/From+Katalon+Studio/"
     - "/display/KA/From%20Katalon%20Studio/"
     - "/x/wBxO/"
     - "/katalon-analytics/docs/from-katalon-studio/"

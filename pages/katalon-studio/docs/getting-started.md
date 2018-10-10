@@ -3,6 +3,7 @@ title: "Getting Started"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/getting-started.html 
 redirect_from:
+    - "/display/KD/Getting+Started/"
     - "/display/KD/Getting%20Started/"
     - "/x/l4Ei/"
     - "/katalon-studio/docs/getting-started/"

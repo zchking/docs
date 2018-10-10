@@ -3,6 +3,7 @@ title: "[WS] Verify Response Status Code"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ws-verify-response-status-code.html 
 redirect_from:
+    - "/display/KD/%5BWS%5D+Verify+Response+Status+Code/"
     - "/display/KD/%5BWS%5D%20Verify%20Response%20Status%20Code/"
     - "/x/DhBO/"
     - "/katalon-studio/docs/ws-verify-response-status-code/"

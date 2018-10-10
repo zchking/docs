@@ -3,6 +3,7 @@ title: "[WebUI] Delete All Cookies"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-delete-all-cookies.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Delete+All+Cookies/"
     - "/display/KD/%5BWebUI%5D%20Delete%20All%20Cookies/"
     - "/x/0ogY/"
     - "/katalon-studio/docs/webui-delete-all-cookies/"

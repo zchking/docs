@@ -3,6 +3,7 @@ title: "Integrate test suite"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integrate-test-suite.html 
 redirect_from:
+    - "/display/KD/Integrate+test+suite/"
     - "/display/KD/Integrate%20test%20suite/"
     - "/x/x4Ew/"
     - "/katalon-studio/docs/integrate-test-suite/"

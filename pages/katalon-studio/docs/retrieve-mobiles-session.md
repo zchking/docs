@@ -3,6 +3,7 @@ title: "Retrieve mobile's session"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/retrieve-mobiles-session.html 
 redirect_from:
+    - "/display/KD/Retrieve+mobile%27s+session/"
     - "/display/KD/Retrieve%20mobile%27s%20session/"
     - "/x/fwXR/"
     - "/katalon-studio/docs/retrieve-mobiles-session/"

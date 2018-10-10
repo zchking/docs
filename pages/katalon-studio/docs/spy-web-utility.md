@@ -3,6 +3,7 @@ title: "Spy Web Utility"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-web-utility.html 
 redirect_from:
+    - "/display/KD/Spy+Web+Utility/"
     - "/display/KD/Spy%20Web%20Utility/"
     - "/x/5BZO/"
     - "/katalon-studio/docs/spy-web-utility/"

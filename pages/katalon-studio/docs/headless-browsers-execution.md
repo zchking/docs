@@ -3,6 +3,7 @@ title: "Headless Browsers Execution"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/headless-browsers-execution.html 
 redirect_from:
+    - "/display/KD/Headless+Browsers+Execution/"
     - "/display/KD/Headless%20Browsers%20Execution/"
     - "/x/CQ-R/"
     - "/katalon-studio/docs/headless-browsers-execution/"

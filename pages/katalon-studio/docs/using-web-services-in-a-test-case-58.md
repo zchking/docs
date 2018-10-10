@@ -3,6 +3,7 @@ title: "Using Web Services in a Test Case 5.8"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/using-web-services-in-a-test-case-58.html 
 redirect_from:
+    - "/display/KD/Using+Web+Services+in+a+Test+Case+5.8/"
     - "/display/KD/Using%20Web%20Services%20in%20a%20Test%20Case%205.8/"
     - "/x/9hTR/"
     - "/katalon-studio/docs/using-web-services-in-a-test-case-58/"

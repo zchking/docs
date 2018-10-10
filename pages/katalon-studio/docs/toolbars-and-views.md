@@ -3,6 +3,7 @@ title: "Toolbars and Views"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/toolbars-and-views.html 
 redirect_from:
+    - "/display/KD/Toolbars+and+Views/"
     - "/display/KD/Toolbars%20and%20Views/"
     - "/x/fgAM/"
     - "/katalon-studio/docs/toolbars-and-views/"

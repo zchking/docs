@@ -3,6 +3,7 @@ title: "Version 4.6"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-46.html
 redirect_from:
+    - "/display/KD/Version+4.6/"
     - "/display/KD/Version%204.6/"
     - "/x/1gxO/"
     - "/katalon-studio/new/version-46/"

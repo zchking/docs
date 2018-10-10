@@ -3,6 +3,7 @@ title: "[WebUI] Switch To Frame"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-switch-to-frame.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Switch+To+Frame/"
     - "/display/KD/%5BWebUI%5D%20Switch%20To%20Frame/"
     - "/x/JYgY/"
     - "/katalon-studio/docs/webui-switch-to-frame/"

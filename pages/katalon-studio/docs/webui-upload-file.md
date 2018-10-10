@@ -3,6 +3,7 @@ title: "[WebUI] Upload File"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-upload-file.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Upload+File/"
     - "/display/KD/%5BWebUI%5D%20Upload%20File/"
     - "/x/gYkY/"
     - "/katalon-studio/docs/webui-upload-file/"

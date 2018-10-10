@@ -3,6 +3,7 @@ title: "SauceLabs Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/saucelabs-integration.html 
 redirect_from:
+    - "/display/KD/SauceLabs+Integration/"
     - "/display/KD/SauceLabs%20Integration/"
     - "/x/UBVO/"
     - "/katalon-studio/docs/saucelabs-integration/"

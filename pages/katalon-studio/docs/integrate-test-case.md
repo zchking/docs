@@ -3,6 +3,7 @@ title: "Integrate test case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integrate-test-case.html 
 redirect_from:
+    - "/display/KD/Integrate+test+case/"
     - "/display/KD/Integrate%20test%20case/"
     - "/x/ooEw/"
     - "/katalon-studio/docs/integrate-test-case/"

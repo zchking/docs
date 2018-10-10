@@ -3,6 +3,7 @@ title: "[WebUI] Focus"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/webui-focus.html 
 redirect_from:
+    - "/display/KD/%5BWebUI%5D+Focus/"
     - "/display/KD/%5BWebUI%5D%20Focus/"
     - "/x/RokY/"
     - "/katalon-studio/docs/webui-focus/"

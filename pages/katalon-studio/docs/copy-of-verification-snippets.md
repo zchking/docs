@@ -3,6 +3,7 @@ title: "Copy of Verification Snippets"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/copy-of-verification-snippets.html 
 redirect_from:
+    - "/display/KD/Copy+of+Verification+Snippets/"
     - "/display/KD/Copy%20of%20Verification%20Snippets/"
     - "/x/UxXR/"
     - "/katalon-studio/docs/copy-of-verification-snippets/"

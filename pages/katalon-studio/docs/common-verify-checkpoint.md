@@ -3,6 +3,7 @@ title: "[Common] Verify Checkpoint"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-verify-checkpoint.html 
 redirect_from:
+    - "/display/KD/%5BCommon%5D+Verify+Checkpoint/"
     - "/display/KD/%5BCommon%5D%20Verify%20Checkpoint/"
     - "/x/oIIi/"
     - "/katalon-studio/docs/common-verify-checkpoint/"
