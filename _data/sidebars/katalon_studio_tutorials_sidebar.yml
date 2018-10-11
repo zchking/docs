@@ -257,8 +257,6 @@ items:
         url: /katalon-studio/tutorials/continuous_integration_gitlab.html
   - title: "Katalon Analytics (Beta)"
     tree:
-    - title: "Katalon Analytics"
-      tree:
       - title: "Viewing test execution reports in Katalon Analytics"
         url: /katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics.html
       - title: "Uploading test execution reports to Katalon Analytics"

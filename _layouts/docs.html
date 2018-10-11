@@ -130,9 +130,10 @@
                                 {% endif %}
                             </p>
                             {{content}}
-                            <div id="ratings-div" style="color:#b9c2cc; text-align: center; margin-top: 150px">
-
-                            </div>
+                            {% if page.root %}
+                                {% assign tree = site.data.sidebars[page.sidebar].items %}
+                                {% include toc.html page=page tree=tree %}
+                            {% endif %}
                         </section>
                     </main>
                     <nav class="col-nav">
