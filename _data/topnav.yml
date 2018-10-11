@@ -7,10 +7,10 @@ topnav:
       url: /katalon-studio/docs/overview.html
       parenturl: /katalon-studio/docs
     - title: Tutorials
-      url: /katalon-studio/tutorials/quick_start.html
+      url: /katalon-studio/tutorials/index.html
       parenturl: /katalon-studio/tutorials
     - title: Videos
-      url: /katalon-studio/videos/katalon_studio_5_5_beta.html
+      url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
     - title: Samples
       external_url: https://github.com/katalon-studio-samples
