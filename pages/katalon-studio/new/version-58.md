@@ -22,7 +22,7 @@ The API/Web Service project is specialized designed to help you to accelerate au
 
 ### Creating or Importing Web Service request instantly with Quick Start Wizard
 
-The QuickStart wizard allows you to quickly Import Swagger 2.0/WSDL definition or Create Draft REST/SOAP request o try out with different testing requirements. When importing web service definition, Katalon Studio will load specified information and populated into your project so you don't have to spend time converting them manually. This wizard can be relaunched anytime in _Help_ \> _Quick Start_. 
+The QuickStart wizard allows you to quickly Import Swagger 2.0/WSDL definition or Create Draft REST/SOAP request to try out with variation of testing data requirements. When importing web service definition, Katalon Studio will load specified information and populated into your project so you don't have to spend time converting them manually. This wizard can be relaunched anytime in _Help_ \> _Quick Start_. 
 
 ![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
 

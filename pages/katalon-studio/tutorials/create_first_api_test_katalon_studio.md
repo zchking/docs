@@ -4,169 +4,185 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_first_api_test_katalon_studio.html
 description: "API testing has become more important. This tutorial will demonstrate how to use Katalon Studio to create your first API test from scratch."
 ---
+
+Introduction
+------------
+
 **API testing** (or Web service testing in the context of a Web application) has become more important in software testing. The interest in API testing has been increasing over the last five years, according to [Google Trends](https://trends.google.com/trends/explore?date=today%205-y&q=api%20testing). This trend possibly indicates that the demand for applying API testing has become more prevalent. Testing API or web services is no longer performed solely by the original developer. This activity is now a common practice among outsourcing teams who independently verify and validate their products.
 
-This tutorial will demonstrate how to use Katalon Studio to create your first API/Web service test from scratch with good practices. Before proceeding with API Testing, there are some basic terms about API testing object in Katalon Studio that we need to understand clearly.
+This tutorial will demonstrate how to use Katalon Studio to create your first API/Web service test from scratch with good practices.
 
-![api test object katalon studio](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/API-testing-object-in-Katalon-Studio.png)
+Installing and setting up Katalon Studio
+----------------------------------------
 
-### Test Case (or Test Scenario)
+Please refer to the guide for all the basic steps, from downloading to activating the build [Installing and Setting up Katalon Studio](https://www.katalon.com/resources-center/tutorials/web/get-started/install-setup-katalon-studio/).
 
-This is one of the most important concepts in Katalon Studio project structure. **Test Cases** list all the stored test cases by the user. Normally, a test case contains a list of steps demonstrating a test scenario.
+Creating a new project and setting up API automation test
+---------------------------------------------------------
 
-### Object Repository
+### Step 1: Create a new project
 
-**Object Repository** is a place where all the Test Objects are stored. In UI testing, Test Objects are web elements with specified locators which Web Driver uses to locate the web element during test execution. In API/Web service testing, Test Objects (or Web Service Requests) are functions with URL (end-point) and other information such as methods, authorization, body, parameters, etc. which are utilized by rest-client when the test is executing to send the request to API/Web servers.
+*   Go to **File** \-> **New** \-> **Project** and enter a project name and its location to start a new project.
 
-### Request
+![Create new project using Katalon Studio](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09134249/API-Testing_Tutorial-1.png)
 
-In API/Web service testing, a **request** contains all the necessary information that will be sent to the Web server. In a request, URL and method are required information, while authorization, body, and parameters are optional and dependent on the request type.
+*   Once the project is confirmed to be created, we will see a folder structure in the **Test Explorer** This folder system is responsible to keep all the test resources and is also the place where we start our first API test.
 
-In Katalon Studio, a request is stored at Object Repository and can be called from a test step of any test cases.
+### Step 2: Create the first API test
 
-### Response
+Before creating our first API test, let's have a look at the format we use to set up a testing project.
 
-A **response** is the data returned from Web server where a request is sent to. A typical response contains headers, body content and a code segment indicating the status of the request.
+**Object Repository**
 
-In Katalon Studio, a response is stored either in the Object Repository (at request level) or a test step of any test cases. Currently, the response can be verified at each individual test case.
+*   Object Repository is a place which stores all the Web service endpoints along with all information of Request method, URL, Header, Content, and Authentication.
+*   Web service test objects in Object Repository are integrated by a folder system for better management.
 
-How to create a Web service (RESTful) test case from scratch using Katalon Studio?
-----------------------------------------------------------------------------------
+**Test Cases**
 
-### Step 1: Create a new Web Service Request
+*   Test Cases stores all test scenarios and is grouped by a folder system. Each test case includes a few steps illustrating a test scenario.
+*   We can execute a test case individually with a specified execution profile.
 
-Right-click on the Object Repository, select Web Service Request under New sub-menu to open new Web Service Request dialog.
+**Test Suites**
 
-![Web-Service-Request-katalon-studio](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-Service-Request.png)
+*   Test Suites is the place where all test suites are stored. A test suite is a collection of test cases verifying a specific target.
+*   Test cases at the test suite level can be executed with a data-driven approach.
+*   Test reports are also generated at the test suite level
 
-_Figure 1: Web Service Request access menu_
+**Test Suite Collection**
 
-Input information into the new **Web Service Request** dialog
+*   Test Suite Collection is a collection of Test Suites verifying a larger target.
+*   Test Suite at Test Suite Collection level has specific Test environments specified.
 
-![New Web Service Request dialog](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-Service-Request-dialog.png)
+![Set-up API testing project](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09134404/API-Testing-Tutorial-2.png)
 
-_Figure 2: New Web Service Request dialog_
+### Step 3: Create a new RESTful endpoint at Object Repository
 
-**Name:**
+**Object Repository** -> **New** \-> **Web Service Request**
 
-This is a free string to specify the name of created Web Service Request. There is no special naming rule in this field. As a good practice, it is highly suggested that the request's name is readable and briefly describes the request's purpose.
+![new RESTful endpoint at Object Repository](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09134648/API-Testing-Tutorial-3.png)
 
-**Request Type:**
+Katalon Studio stores Web service endpoint for testing at **Object Repository**, which is similar to **Test Object** in UI Test. At the **Create New Web Service Request** dialog, you can either choose to create a RESTful or a SOAP request.
 
-This provides important information about a request. In Katalon Studio, a Web Service Request can be either [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer) or [SOAP](https://simple.wikipedia.org/wiki/SOAP_(protocol)). Since RESTful is becoming more and more popular, it is selected by default in the dialog.
+**Request type** is a required field. You need to specify it exactly at this step. In contrast, **URL** is not required. You can set this value later in the next step.
 
-**URL:**
+![web service request](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09134747/API-Testing-Tutorial-4.png)
 
-This is the end-point of the created Web Service Request.
+Click **OK**, then we are ready to input more details to the first RESTful test.
 
-**Description:**
+![Create RESTful test Katalon Studio](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09134920/API-Testing-Tutorial-5-1024x522.png)
 
-If needed, more information about the request can be specified in this area.
+There are some important concepts needed to specify when testing a RESTful request:
 
-Once all the information is specified, the new Web Service Request will be created after the OK button is clicked.
+**(1) Request method**
 
-![new Web Service Request](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/New-WS-Request-is-created-in-the-Tests-Explorer1.png)
+We can choose one of these following methods for your first request test: **GET, POST, PUT, DELETE**. The method needs to match with the URL to have a valid request. For instance, let's assume that our first test is a public API from Jira Cloud version. We should use the **GET** method to receive information on an existing ticket using its ID.
 
-_Figure 3: New WS Request is created in the Tests Explorer_
+**(2) Request URL**
 
-### Step 2: Specify the WS Request's settings
+Along with the request method, **request URL** is used to tell the web server which API is utilized under test. Any mismatch between method and URL will lead to invalid request exception at runtime or wrong data response.
 
-![Web service object information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-service-object-information.png)
+**(3) Authorization**
 
-_Figure 4: Web service object information_
+Authorization is an essential part of an API. It is used to get the correct data under permission (unless the data is public). Katalon Studio supports common authentication methods:
 
-(1) The Web service request item created with the specified name
+The basic method requires username and password. Don't forget to click **Update to HTTP Header** so that the authentication can be applied to **HTTP Header**.
 
-(2) The request's method. If the request type is RESTful, one of following methods can be selected: GET, PUT, POST, DELETE. The request type depends on the Web service provider.
+![Update to HTTP Header](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09135433/API-Testing-Tutorial-6.png)
 
-(3) The request's URL. It can be updated any time after the request is created.
+![HTTP Header](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09135739/API-Testing-Tutorial-7.png)
 
-(4) The Authorization setting, which is used to connect to web server. Basic, OAuth 1.0 are the two most common types of authorization method.
+**(4) Verification**
 
-a. Basic method
+Verification is the place where you define the assertion to ensure the response will contain the expected information.
 
-*   Specify the valid username and password
-*   Click "Update to HTTP Header" to apply the authorization configuration.
+![Verification API Testing Katalon Studio](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09135952/API-Testing-Tutorial-8.png)
 
-b. OAuth 1.0 method
+The verification tab of a request is similar to the Script tab of a test case. In other words, you can write custom scripts with built-in keywords or Groovy/Java scripts to verify the response data. Besides built-in keywords, Katalon Studio also supports built-in snippets, which help you to generate assertions with a single click. It is useful for testers who might find it difficult to deal with parsing and to assert with JSON data format.
 
-*   Specify all configuration in the form
-*   Click "Update to HTTP Header" to apply the authorization configuration.
+The right panel of the request is the response displayed in nice format automatically and the result of verification at Verification Log. To include verification script when sending the request, you need to choose the **Test Request and Verify** option from the execution button.
 
-(5) HTTP Header configuration.
+The Verification script helps you have quick feedback of the request status rather than an actual test. You can add more assertions to the test case level in the next step.
 
-(6) Folder structure to organize the end-points. The application under test often has hundreds of services, so having a good organization is very important. In Katalon Studio, it is highly suggested that Web services should be grouped by path, function, and method by using folder structure.
+**(5) Variables**
 
-### Step 3: Smoke test the Web service
+Variables make API testing more robust and dynamic with the data-driven approach. In Katalon Studio, every part of the request can be parameterized. In other words, dynamic data can be used for: URL, Authentication, HTTP Header, and HTTP Body to maximize the capability of data-driven testing. Following setup works the same with the above example:
 
-Before adding actual verification steps to test the service, Katalon Studio supports testing on-the-fly method: send the request and perform quick verification of the response.
+![Variables API Testing Katalon Studio](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09140230/API-Testing-Tutorial-9.png)
 
-![Web service's response information](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Web-services-response-information.png)
+**(6) Formatter**
 
-_Figure 5: Web service's response information_
+The response will be automatically displayed in a neat format: JSON, XML, HTML, and JavaScript. It is helpful for a quick view of the response status.
 
-(1) Click to send the request to the Web server
+### Step 4: Create a new test case with an existing request
 
-(2) The response code of the request. The code reflects the status of the request. Learn more about the [response code](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html).
+While the request at **Object Repository** is helpful for fast testing, we can add the request verification at the test case level for better managing and reporting.
 
-(3) Elapsed time demonstrates how much time Katalon Studio takes to get the response from the web server.
+### Step 5: Add an existing request to a test case
 
-(4) The size of the response's data.
+A request can be inserted into a test case with Web service built-in keywords. There are many keywords can be used to send the request, to verify the response, and to make the request as part of a bigger testing flow.
 
-(5) Response data.
+![Web service built-in keywords](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09140539/API-Testing-Tutorial-10.png)
 
-(6) Based on the response data format, Katalon Studio will automatically choose the pretty mode to display the data in correct format. Currently, it supports JSON, XML, HTML, JavaScript data types.
+Following test case illustrates how we can call the request with verification steps from a test case:
 
-### Step 4: Create test scenario for the Web service
+![call request verification](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09140705/API-Testing-Tutorial-11.png)
 
-The first 3 steps demonstrate how to create Web service end-point at Object Repository. This step will guide you through creating an actual test scenario for it.
+The test case can be executed as a normal test case in Katalon Studio. Each verification step can be viewed from the log.
 
-![Adding 'Web Service Keyword" step](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-Web-Service-Keyword-step.png)
+![view test case log](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09140800/API-Testing-Tutorial-12.png)
 
-_Figure 6: Adding 'Web Service Keyword" step_
+### Step 6: Add the test case to the test suite
 
-(1) Create a test case with a readable name. It is highly recommended that the test case name briefly describes the test scenario.
+A test case can be added to a test suite via either the drag-and-drop feature or the **Add test case** tool. Once the test case is added to the test suite, we can execute the whole test suite with the Run button (without selecting the browser as in UI testing).
 
-(2) From the Test case editor, select 'Add -> Web Service Keyword' to add a new step.
+![execute test suite](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09141552/API-Testing-Tutorial-13.png)
 
-![Adding "Send request" keyword](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Adding-Send-request-keyword.png)
+### Next steps
 
-_Figure 7: Adding "Send request" keyword_
+Now we finish creating our first test. In order to create tests for a real project with a practical solution, we would need to create more tests with more techniques:
 
-(1) In the Item drop-down list, select "Send Request" keyword
+*   Parameterize your tests
+*   Apply data-driven approach
+*   Create custom keywords/packages
+*   Call tests and reuse code
+*   Include error handling
+*   View test reports after test suite execution
 
-(2) Click on Object cell in the same row to open "Test Object input" dialog
+Katalon new features
+--------------------
 
-(3) Select "Test Object" from "Object Type" list
+Katalon Studio has recently had a new monthly release to [support BDD Cucumber](https://docs.katalon.com/katalon-studio/new/version-570.html) which is a testing approach in which test cases are written in natural languages to improve the communication between technical staff and business stakeholders. BDD Cucumber also helps create test scenarios for the acceptance test phase.
 
-(4) Select the "Web Service Request" we've created from step 2
+```gherkin
+@Issue_Tests
+Feature: Verify issue information
 
-### Step 5: Add verification steps
+Background:
+      Given The Jira System is available
 
-This step will guide you how to add verification steps into the Test Case.
+  @Get_By_Id
+  Scenario: Verify issue information by Id
+    When I get information of an issue with Id "KD-1"
+    Then I get response code "200"
+    And The issue information as below:
+        |project_key |issue_type |priority |summary                          |
+        |KD          |Bug        |Low      |REST - Create new issue using API|
 
-![Verification steps katalon studio](../../images/katalon-studio/tutorials/create_first_api_test_katalon_studio/Verification-steps.png)
+  @Get_By_Id
+  Scenario Outline: Verify issue information by Id
+    When I get information of an issue with Id "<issue_key>"
+    Then I get response code "200"
+    And The issue information as below:
+        |project_key   |issue_type   |priority   |summary   |
+        |<project_key> |<issue_type> |<priority> |<summary> |
 
-_Figure 8: Verification steps_
+  Examples:
+  |issue_key|project_key |issue_type |priority |summary                          |
+  |KD-1     |KD          |Bug        |Low      |REST - Create new issue using API|
+  |KD-2     |KD          |Bug        |Low      |Update summary from API example  |
+```
 
-(1) Web Service Request is added to the test case from the previous step.
+Conclusion
+----------
 
-(2) In order to verify the content that the request return, we need to specify the output of the request. Just simply enter the 'Output' with the variable name we want to use later.
-
-(3) Step 2 and step 3 of the test case are for verification. They are added in a similar way to "Send Request" step. Step 2 verifies the response code (200 if the request is sent successfully)
-
-(4) Verify the response code is 200
-
-(5) Verify the response content with the json-path and expected value
-
-### Step 6: Execute the Test case
-
-Executing an API Test case is exactly the same as executing a UI functional Test case. However, in API Testing, there is no browser used.
-
-**Notes:**
-
-Source code: [https://github.com/katalon-studio-samples/jira-api-tests](https://github.com/katalon-studio-samples/jira-api-tests)
-
-Project: Jira API
-
-**CONGRATULATION! YOU HAVE SUCCESSFULLY CREATE A SIMPLE API TESTING FROM SCRATCH WITH 6 SIMPLE STEPS.**
+This complete tutorial helped us go through all the steps and concepts needed for users to create the first API test. In order to achieve the best outcomes and save time and effort, we have to learn how to use API testing properly. For example, we need to have an appropriate implementation of techniques and awareness of whether an API should be tested automatically or manually. Therefore, if we make enough effort and master your Katalon Studio skills, the tool will definitely help us significantly increase the quality of any target product.
