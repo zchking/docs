@@ -11,11 +11,11 @@
     {% else %}
         {% if include.page.url == item.url %}
             <li>
-                <a href="{{item.url}}">{{item.title}}</a>
+                <a href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
             </li>
         {% else %}
             <li>
-                <a href="{{item.url}}">{{item.title}}</a>
+                <a href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
             </li>
         {% endif %}
     {% endif %}
