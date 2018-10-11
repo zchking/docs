@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/Version%205.8/"
     - "/x/rhTR/"
     - "/katalon-studio/new/version-58/"
+    - "/katalon-studio/new/all-versions/"
+    
 description:
 ---
 Introducing all-new API/Web Service Testing Project
