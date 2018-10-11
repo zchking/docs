@@ -1,7 +1,9 @@
 ---
 title: "Home"
 sidebar: katalon_studio_docs_sidebar
-permalink: /index.html
+permalink: /katalon-studio/docs/index.html
+redirect_from:
+  - "/index.html"
 ---
 Welcome to Katalon Knowledge Base! Here you can find Katalon products manual, tips and tricks on various topics, as well as guidelines to help you create successful test automation projects.
 
@@ -48,5 +50,5 @@ For technical and product-specific questions, please post your questions to Kata
 
 ### Business Support Service
 
-Already used Katalon Studio and looking for a long-term automation testing investment? The Katalon Team offers the Business Support Service that provides assistance for the software's issues, bug fixes, and feature requests to be considered and prioritized on our backlog.\
+Already used Katalon Studio and looking for a long-term automation testing investment? The Katalon Team offers the Business Support Service that provides assistance for the software's issues, bug fixes, and feature requests to be considered and prioritized on our backlog.
 For more details, check it out [here](https://www.katalon.com/support-service-options/) for pricing.

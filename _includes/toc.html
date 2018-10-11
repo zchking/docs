@@ -1,0 +1,22 @@
+{% for item in include.tree %}
+    {% if item.tree %}
+        <li>
+            <a href="#">
+                {{item.title}}
+            </a>
+            <ul>
+                {% include toc.html page=include.page tree=item.tree %}
+            </ul>
+        </li>
+    {% else %}
+        {% if include.page.url == item.url %}
+            <li>
+                <a href="{{item.url}}">{{item.title}}</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{item.url}}">{{item.title}}</a>
+            </li>
+        {% endif %}
+    {% endif %}
+{% endfor %}
