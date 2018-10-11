@@ -69,8 +69,6 @@ items:
             url: /katalon-studio/docs/sample-projects.html
           - title: "Manage Test Project"
             url: /katalon-studio/docs/manage-test-project.html
-          - title: "Copy of Manage Test Project"
-            url: /katalon-studio/docs/copy-of-manage-test-project.html
           - title: "Project Settings"
             tree:
               - title: "Execution Settings"
@@ -129,12 +127,20 @@ items:
                 url: /katalon-studio/docs/restful.html
               - title: "SOAP"
                 url: /katalon-studio/docs/soap.html
+              - title: "Request History"
+                url: /katalon-studio/docs/request-history.html
               - title: "Authorization"
                 url: /katalon-studio/docs/authorization.html
               - title: "Web Services Builder"
                 url: /katalon-studio/docs/web-services-builder.html
               - title: "Using Web Services in a Test Case"
                 url: /katalon-studio/docs/using-web-services-in-a-test-case.html
+              - title: "Import Web Service Objects"
+                tree:
+                  - title: "Import REST requests from Swagger 2.0"
+                    url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
+                  - title: "Import SOAP requests from WSDL"
+                    url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
       - title: "Record and Spy Utilities"
         tree:
           - title: "Record Web Utility"
@@ -747,28 +753,7 @@ items:
             url: /katalon-studio/docs/soap-pre-54.html
           - title: "Spy Web Utility (version 4.8 and below)"
             url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
-          - title: "API Newest"
-            tree:
-              - title: "[Updated] Parameterize a Web Service Object"
-                url: /katalon-studio/docs/updated-parameterize-a-web-service-object.html
-              - title: "RESTful Web Services"
-                url: /katalon-studio/docs/restful-web-services.html
-              - title: "Copy of Authorization"
-                url: /katalon-studio/docs/copy-of-authorization.html
-              - title: "Using Web Services in a Test Case 5.8"
-                url: /katalon-studio/docs/using-web-services-in-a-test-case-58.html
-              - title: "Copy of Verification Snippets"
-                url: /katalon-studio/docs/copy-of-verification-snippets.html
-              - title: "SOAP Request"
-                url: /katalon-studio/docs/soap-request.html
-              - title: "Request History"
-                url: /katalon-studio/docs/request-history.html
-              - title: "Import Web Service objects"
-                tree:
-                  - title: "Import REST requests from Swagger 2.0"
-                    url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
-                  - title: "Import SOAP requests from WSDL"
-                    url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
+          
   - title: "Katalon Analytics (Beta)"
     tree:
       - title: "Overview"
