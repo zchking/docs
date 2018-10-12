@@ -6,7 +6,9 @@ description: "Test Objects are one of the vital parts of building an automation 
 ---
 
 **About the author**
+
 Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in QA industry since 2014.
+
 Meet Marek at [www.linkedin.com/in/marek-melocik](http://www.linkedin.com/in/marek-melocik)
 
 ### Introduction

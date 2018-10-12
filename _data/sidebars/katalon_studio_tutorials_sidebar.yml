@@ -1,16 +1,20 @@
 items:
+  - title: "Installation and Required Configurations"
+    tree:
+      - title: "Quick Start"
+        url: /katalon-studio/tutorials/quick_start.html
+      - title: "Installing and Setting up Katalon Studio"
+        url: /katalon-studio/tutorials/install_setup_katalon_studio.html
+      - title: "Configuring Katalon Studio for Web Testing"
+        url: /katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project.html
+      - title: "Configuring Katalon Studio for Mobile Testing on Windows"
+        url: /katalon-studio/tutorials/setting_mobile_application_automation.html
+      - title: "Configuring Katalon Studio for Mobile Testing on macOS"
+        url: /katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
   - title: "Getting Started"
     tree:
-      - title: "Install and Configure"
-        tree:
-          - title: "Quick Start"
-            url: /katalon-studio/tutorials/quick_start.html
-          - title: "Installing and Setting up Katalon Studio"
-            url: /katalon-studio/tutorials/install_setup_katalon_studio.html
       - title: "Web Testing"
         tree:
-          - title: "Configuring Katalon Studio for the Web automation test project"
-            url: /katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project.html
           - title: "Creating test case using Record & Playback"
             url: /katalon-studio/tutorials/create_test_case_using_record_playback.html
           - title: "Creating test case using manual mode"
@@ -29,10 +33,6 @@ items:
             url: /katalon-studio/tutorials/create_rest_api_requests_manually.html
       - title: "Mobile Testing"
         tree:
-          - title: "Setting up Mobile automation project in Windows"
-            url: /katalon-studio/tutorials/setting_mobile_application_automation.html
-          - title: "Setting up Mobile automation project in macOS"
-            url: /katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
           - title: "An Introduction to Katalon Mobile Recorder"
             url: /katalon-studio/tutorials/katalon_mobile_recorder_introduction.html
           - title: "Desired Capabilities in Katalon Studio"
