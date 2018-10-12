@@ -33,7 +33,7 @@ $(function() {
     (function toc() {
         var toc = $('#my_toc');
         var path = window.location.pathname;
-        $('.content h2').each(function() {
+        $('.content h2, .content h3').each(function() {
             var section = $(this);
             var url = path + '#' + section.attr('id');
             toc.append($('<li><a href="' + url + '" class="nomunge">' + section.text() + '</a></li>'));
