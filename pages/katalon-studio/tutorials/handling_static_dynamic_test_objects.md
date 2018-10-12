@@ -4,6 +4,11 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/handling_static_dynamic_test_objects.html
 description: "Test Objects are one of the vital parts of building an automation project. This tutorial shows the approaches for handling different types of test objects."
 ---
+
+**About the author**
+Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in QA industry since 2014.
+Meet Marek at [www.linkedin.com/in/marek-melocik](http://www.linkedin.com/in/marek-melocik)
+
 ### Introduction
 
 Test Objects are one of the most crucial parts of building a successful automation project. Some of them are static (do not change at all) and some of them are dynamic (they are dependent on some dynamically changing parameters). This tutorial shows you different approaches for handling different types of test objects.
@@ -134,7 +139,3 @@ As our new method returns TestObject, we can call it directly using the default 
 ### Conclusion
 
 The main point of this tutorial is that there are several different approaches to deal with dynamic selectors. This tutorial presents a few examples (more or less difficult) which can help you with this topic. I am 100% sure that there are even more effective ways how to do it, I will be glad if you share your own approach.
-
-**About the author**  
-Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in QA industry since 2014.  
-Meet Marek at [www.linkedin.com/in/marek-melocik](http://www.linkedin.com/in/marek-melocik)

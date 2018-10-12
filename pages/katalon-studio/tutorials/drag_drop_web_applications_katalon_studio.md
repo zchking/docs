@@ -42,21 +42,21 @@ We are going to test this behavior using Katalon Studio.
 
 The name of each object is self-explanatory, except for the **_iframe_demo-frame_** object which is the parent iframe of both draggable and droppable objects. Now let's use those captured objects in a test script.
 
-4.  Create a test case named "jQuery Drag And Drop", open it, then change to Script mode and copy the following test scripts into it:  
-    
+4.  Create a test case named "jQuery Drag And Drop", open it, then change to Script mode and copy the following test scripts into it:
+
     ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-    
-    
+
+
     'Open the selected browser and navigate to our AUT website.'
     WebUI.openBrowser('http://jqueryui.com/droppable/#default')'Use the dragAndDropObjectToObject keyword to perform the drag and drop action.'
     WebUI.dragAndDropToObject(findTestObject('Page_Droppable jQuery UI/div_draggable'), findTestObject('Page_Droppable jQuery UI/div_droppable'))'Get the text content of our droppable object.'
     droppable_text = WebUI.getText(findTestObject('Page_Droppable jQuery UI/div_droppable'))'Verify if it is actually changed to "Dropped!" because of the drag and drop action.'
     WebUI.verifyEqual(droppable_text, 'Dropped!')'Clean up the testing environment by closing the browser.'
     WebUI.closeBrowser()
-    
-    ``` 
+
+    ```
 5.   Run the test case and you will see that the executed test will pass effortlessly.
 
 Create automation tests for HTML5 Drag and Drop
@@ -162,13 +162,13 @@ WebDriver webDriver = DriverFactory.getWebDriver();
 
 This keyword uses the JavaScript function from [https://gist.github.com/druska/624501b7209a74040175](https://gist.github.com/druska/624501b7209a74040175) (thanks to [Druska](https://gist.github.com/druska)) to mimic HTML5 native events to simulate drag and drop for HTML5.
 
-4.  Use our newly created custom keyword. Create a test case with the name **_HTML5 Drag And Drop_**, open it then changing to the Script mode and pasting the following Groovy code:  
-    
+4.  Use our newly created custom keyword. Create a test case with the name **_HTML5 Drag And Drop_**, open it then changing to the Script mode and pasting the following Groovy code:
+
     ```groovy
     import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
     import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-    
-    
+
+
     'Open the selected browser and navigate to our AUT website'
     WebUI.openBrowser('https://www.w3schools.com/html/html5_draganddrop.asp')'Use the previous custom keywords to perform the drag and drop action.'
     CustomKeywords.'html5.dnd.DragAndDropHelper.dragAndDrop'(findTestObject('Page_HTML5 Drag and Drop/img_drag1'), findTestObject(
@@ -176,19 +176,11 @@ This keyword uses the JavaScript function from [https://gist.github.com/druska/6
     WebUI.verifyElementAttributeValue(findTestObject('Page_HTML5 Drag and Drop/div_div2'), 'innerHTML', '<img src=\"img_w3slogo.gif\" draggable=\"true\" ondragstart=\"drag(event)\" id=\"drag1\" alt=\"W3Schools\">',
     0)'Close the browser to clean up the testing environment.'
     WebUI.closeBrowser();
-    
-    ``` 
+
+    ```
 
 This sample project could be found [**here**](https://github.com/katalon-studio/DragAndDropExample)**.**
 
 Run the test case and you will notice that the W3Schools image is dragged and dropped in the right rectangle successfully.
 
 We hope you enjoy the tutorial, please comment if you have any question or another solution to automate the drag & drop testing. For additional tip & tricks, access [**Katalon Studio tutorial**](https://www.katalon.com/tutorials/).
-
-**About the Author:**
-
-**Hieu Mai**
-
-Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years' experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
-
-Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)

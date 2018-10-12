@@ -33,34 +33,16 @@ items:
             url: /katalon-studio/tutorials/setting_mobile_application_automation.html
           - title: "Setting up Mobile automation project in macOS"
             url: /katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
-          - title: "How to integrate with Kobiton"
-            url: /katalon-studio/tutorials/integrate_with_kobiton.html
           - title: "An Introduction to Katalon Mobile Recorder"
             url: /katalon-studio/tutorials/katalon_mobile_recorder_introduction.html
-          - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
-            url: /katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
           - title: "Desired Capabilities in Katalon Studio"
             url: /katalon-studio/tutorials/desired_capabilities_in_katalon.html
           - title: "Locators and Object Identification"
             url: /katalon-studio/tutorials/locators_object_identification.html
-          - title: "Performing Pinch to Zoom In Action"
-            url: /katalon-studio/tutorials/pinch_zoom_action_mobile_app.html
-          - title: "How to Perform Multi-touch Actions in Mobile App"
-            url: /katalon-studio/tutorials/handle_multi_touch_action.html
-          - title: "Handling Alert Dialog in Mobile App"
-            url: /katalon-studio/tutorials/handle_alert_dialog_mobile_app.html
-          - title: "Handling Drag and Drop in Mobile App"
-            url: /katalon-studio/tutorials/handle_drag_drop_mobile_app.html
-          - title: "Using List to Store the Mobile Elements to Validate Data"
-            url: /katalon-studio/tutorials/store_mobile_elements_to_validate_data.html
-          - title: "Handling Spinner in Mobile Automation Testing"
-            url: /katalon-studio/tutorials/handle_spinner_mobile_automation_testing.html
-          - title: "Handling Vertical Swipe in Mobile Automation"
-            url: /katalon-studio/tutorials/vertical_swipe_in_mobile_automation.html
-          - title: "Handling Horizontal Swipe in Mobile Automation"
-            url: /katalon-studio/tutorials/horizontal_swipe_mobile_automation.html
-          - title: "Handling Scroll to Element in Mobile Automation"
-            url: /katalon-studio/tutorials/scroll_element_mobile_automation.html
+          - title: "How to integrate with Kobiton"
+            url: /katalon-studio/tutorials/integrate_with_kobiton.html
+          - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
+            url: /katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
   - title: "Writing Test Cases"
     tree:
       - title: "Common Condition and Control statements with Katalon Studio"
@@ -157,3 +139,23 @@ items:
       tree:
         - title: "How to parse JSON responses in Katalon Studio"
           url: /katalon-studio/tutorials/parse_json_responses.html
+    - title: "Mobile Testing"
+      tree:
+        - title: "Performing Pinch to Zoom In Action"
+          url: /katalon-studio/tutorials/pinch_zoom_action_mobile_app.html
+        - title: "How to Perform Multi-touch Actions in Mobile App"
+          url: /katalon-studio/tutorials/handle_multi_touch_action.html
+        - title: "Handling Alert Dialog in Mobile App"
+          url: /katalon-studio/tutorials/handle_alert_dialog_mobile_app.html
+        - title: "Handling Drag and Drop in Mobile App"
+          url: /katalon-studio/tutorials/handle_drag_drop_mobile_app.html
+        - title: "Using List to Store the Mobile Elements to Validate Data"
+          url: /katalon-studio/tutorials/store_mobile_elements_to_validate_data.html
+        - title: "Handling Spinner in Mobile Automation Testing"
+          url: /katalon-studio/tutorials/handle_spinner_mobile_automation_testing.html
+        - title: "Handling Vertical Swipe in Mobile Automation"
+          url: /katalon-studio/tutorials/vertical_swipe_in_mobile_automation.html
+        - title: "Handling Horizontal Swipe in Mobile Automation"
+          url: /katalon-studio/tutorials/horizontal_swipe_mobile_automation.html
+        - title: "Handling Scroll to Element in Mobile Automation"
+          url: /katalon-studio/tutorials/scroll_element_mobile_automation.html

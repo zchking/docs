@@ -4,6 +4,13 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/parse_json_responses.html
 description: "This tutorial offers the best practices for retrieving information from JSON responses and parsing the JSON format in Katalon Studio. Learn more!"
 ---
+
+**About the author**
+
+Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in the QA industry since 2014.
+
+Meet Marek at  **_[www.linkedin.com/in/marek-melocik](https://www.linkedin.com/in/marek-melocik/)_**
+
 Many people in the [**_Katalon forum_**](https://forum.katalon.com/discussions) have asked about retrieving information from JSON responses and parsing the JSON format in Katalon Studio. In this post, I will show a simple way on how to do so.
 
 A JSON response example
@@ -80,7 +87,7 @@ String idValue2 = parsedJson.get("menu").get("id")
 
 As you can see,  there are two ways how to get it. One is to access Map objects by using the dot notation (.). The other is to use _get_ methods from Map, List and Set as you do in Java.
 
-Basically, the _**parsedJson**_ variable is a type of _Map<String, Map<Object, Object>>._  
+Basically, the _**parsedJson**_ variable is a type of _Map<String, Map<Object, Object>>._
 Then, to get inner Map, you call parsedJson._get_("menu") – as "menu" is the String key. This method returns the inner Map, on which you can call other get methods until you reach your key.
 
 Verify if a key is present in JSON
@@ -168,9 +175,3 @@ This tutorial offers a few basic best practices for working with JSON strings in
 *   [Create your first API test with Katalon Studio](/katalon-studio/tutorials/create-first-api-test-katalon-studio/)
 *   [Create REST API requests manually](/katalon-studio/tutorials/create-rest-api-requests-manually/)
 *   [Top 50+ Web API Testing Interview Questions](/katalon-studio/blog/web-api-testing-interview-questions/)
-
-#### About the author
-
-Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in the QA industry since 2014.
-
-Meet Marek at  **_[www.linkedin.com/in/marek-melocik](https://www.linkedin.com/in/marek-melocik/)_**

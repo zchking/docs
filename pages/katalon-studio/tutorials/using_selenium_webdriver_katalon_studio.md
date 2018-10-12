@@ -4,6 +4,13 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/using_selenium_webdriver_katalon_studio.html
 description: "In this article, you will be presented a few best practices to benefit directly from Selenium WebDriver in Katalon Studio. Learn more!"
 ---
+
+**About the author**
+
+Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in the QA industry since 2014.
+
+Meet Marek at [www.linkedin.com/in/marek-melocik](http://www.linkedin.com/in/marek-melocik)
+
 Introduction
 ------------
 
@@ -186,9 +193,3 @@ Conclusion
 ----------
 
 In this article, I introduced basic ways how to work with WebDriver instances in Katalon. From my point of view, the main advantage of this approach is that you can benefit from both sides – Katalon and WebDriver. If something is difficult to do in Katalon – do it in WebDriver! And vice versa. Don't be afraid of using WebDriver, sometimes you can have a much simpler solution by using it.
-
-_**About the author**_
-
-Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in the QA industry since 2014.
-
-Meet Marek at [www.linkedin.com/in/marek-melocik](http://www.linkedin.com/in/marek-melocik)

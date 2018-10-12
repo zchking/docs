@@ -43,7 +43,7 @@ Once the configuration is completed, the app appears as shown in the screenshot 
 
 3\. With your app ready on your mobile device, start recording the test case.
 
-*   Tap on **_"No account yet? Create one"_** to navigate to the **_Create Account_**  
+*   Tap on **_"No account yet? Create one"_** to navigate to the **_Create Account_**
     Select the **_android.widget.TextView0_** object in the all objects tree. (Or you can tap the text on the Device view to focus on the object).
 *   Then click the **_Tap_** button to record the action. This action simulates a tap on the app.
 
@@ -53,7 +53,7 @@ You will be directed to the **_Create Account_** screen.
 
 *   Fill in the information to create an account.
 
-Select **android.widget.EditText0** (or tap on the Name text box on the Device view to fill in name).  
+Select **android.widget.EditText0** (or tap on the Name text box on the Device view to fill in name).
 Then click **Set Text** to perform the set text action on the Name text.
 
 Enter "name" for the text input as below. Click OK.
@@ -94,7 +94,7 @@ Run your mobile automation test case on Kobiton's cloud devices      
 
 1\. Upload the Material Login Demo app to Kobiton App Repository. From the Repository view, select the more actions button and select the **_Automation snippet._** Copy the app id (the one in bold, for example, **_Kobiton-store:184_** as shown below) and save it.
 
-![Kobiton App Repository](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/7-300x196.png)2\. Navigate to the Kobiton Devices page. Choose the devices on which you want to run your test and mark those devices as a favorite by clicking on the star icon.  
+![Kobiton App Repository](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/7-300x196.png)2\. Navigate to the Kobiton Devices page. Choose the devices on which you want to run your test and mark those devices as a favorite by clicking on the star icon.
 3\. Let's enable Kobiton integration.
 
 *   Open Katalon Studio Preferences (**_Windows_** -\> **_Katalon Studio Preferences_**) then select **_Kobiton_**.
@@ -117,11 +117,3 @@ Run your mobile automation test case on Kobiton's cloud devices      
 The combination of [Katalon Studio](https://www.katalon.com) and [Kobiton](https://kobiton.com) empowers automation engineers in validating the quality of mobile apps by allowing them to execute recorded test cases on hundreds of devices quickly. This solution does not only save them time but also maximizes test coverage. Katalon Studio is a FREE – a full-featured automation solution that can be downloaded at [www.katalon.com](https://www.katalon.com). Kobiton is a cloud-based mobile device farm that provides real devices for both manual and automation testing with an affordable price. You can register a [Kobiton account](https://kobiton.com) for free trial.
 
 For more details, please visit Katalon Studio [Resources Center](https://katalon.com/resources-center/tutorials/).
-
-**About the Author:**
-
-Hieu Mai
-
-Currently working as a senior full-stack developer for KMS Technology, Hieu Mai is one of the developers behind Katalon Studio. With 5 years' experience in Desktop & Mobile applications development and automation testing, Hieu brings this expertise to develop Katalon Studio.
-
-Contact him at [hieumai@kms-technology.com](mailto:hieumai@kms-technology.com)
