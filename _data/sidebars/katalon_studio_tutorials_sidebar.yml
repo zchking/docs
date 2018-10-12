@@ -14,6 +14,8 @@ items:
   - title: "Getting Started"
     tree:
       - title: "Web Testing"
+        id: "web-testing"
+        url: "/katalon-studio/tutorials/web-testing/index.html"
         tree:
           - title: "Creating test case using Record & Playback"
             url: /katalon-studio/tutorials/create_test_case_using_record_playback.html
@@ -24,6 +26,8 @@ items:
           - title: "How to use synchronization commands while recording"
             url: /katalon-studio/tutorials/synchronization_commands_recording.html
       - title: "API Testing"
+        id: "api-testing"
+        url: "/katalon-studio/tutorials/api-testing/index.html"
         tree:
           - title: "Introduction to API Testing"
             url: /katalon-studio/tutorials/introduction_api_testing.html
@@ -32,6 +36,8 @@ items:
           - title: "Create REST API requests manually"
             url: /katalon-studio/tutorials/create_rest_api_requests_manually.html
       - title: "Mobile Testing"
+        id: "mobile-testing"
+        url: "/katalon-studio/tutorials/mobile-testing/index.html"
         tree:
           - title: "An Introduction to Katalon Mobile Recorder"
             url: /katalon-studio/tutorials/katalon_mobile_recorder_introduction.html
@@ -94,6 +100,8 @@ items:
       - title: "Uploading test execution reports to Katalon Analytics"
         url: /katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics.html
   - title: "Tips and Tricks"
+    id: "tips-and-tricks"
+    url: "/katalon-studio/tutorials/tips-and-tricks/index.html"
     tree:
     - title: "Common"
       tree:

@@ -138,7 +138,7 @@
                             {{content}}
                             {% if page.root %}
                                 {% assign tree = site.data.sidebars[page.sidebar].items %}
-                                {% include toc.html page=page tree=tree %}
+                                {% include toc.html page=page tree=tree show=false %}
                             {% endif %}
                         </section>
                     </main>
