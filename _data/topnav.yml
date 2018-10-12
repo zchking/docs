@@ -20,7 +20,7 @@ topnav:
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html
     - title: What's new
-      url: /katalon-studio/new/all-versions.html
+      url: /katalon-studio/new/index.html
       parenturl: /katalon-studio/new
     - title: Support
       external_url: https://www.katalon.com/support-service-options
