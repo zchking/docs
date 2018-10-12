@@ -20,7 +20,7 @@ plugins:
 
 # algia index
 algolia:
-  application_id: 5E7YZB1TD0
+  application_id: 6M0H5XB23Z
   index_name: docs
   search_only_api_key: fbbaaba34cbd44a2dca3bf899eff9cec
   indexing_batch_size: 10
