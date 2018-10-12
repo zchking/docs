@@ -7,12 +7,8 @@ items:
             url: /katalon-studio/tutorials/quick_start.html
           - title: "Installing and Setting up Katalon Studio"
             url: /katalon-studio/tutorials/install_setup_katalon_studio.html
-          - title: "Katalon Studio GUI Overview"
-            url: /katalon-studio/tutorials/gui_overview.html
       - title: "Web Testing"
         tree:
-          - title: "A Sample Web Automation Test Project"
-            url: /katalon-studio/tutorials/sample_web_automation_test_project.html
           - title: "Configuring Katalon Studio for the Web automation test project"
             url: /katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project.html
           - title: "Creating test case using Record & Playback"
@@ -33,8 +29,6 @@ items:
             url: /katalon-studio/tutorials/create_rest_api_requests_manually.html
       - title: "Mobile Testing"
         tree:
-          - title: "Setting up for Mobile Application Automation"
-            url: /katalon-studio/tutorials/setting_mobile_application_automation.html
           - title: "Setting up Mobile automation project in Windows"
             url: /katalon-studio/tutorials/setting_mobile_application_automation.html
           - title: "Setting up Mobile automation project in macOS"
