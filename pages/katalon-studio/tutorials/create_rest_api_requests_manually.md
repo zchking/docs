@@ -4,6 +4,13 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_rest_api_requests_manually.html
 description: "Katalon Studio offers a great UI support for creating REST API requests. This tutorial will be about show you how to make your code robust and effective."
 ---
+
+**About the author**
+
+Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in QA industry since 2014.
+
+Meet Marek at  [www.linkedin.com/in/marek-melocik](https://www.linkedin.com/in/marek-melocik/)
+
 Introduction
 ------------
 
@@ -212,9 +219,3 @@ RequestObject and ResponseObject are powerful classes, which may help you to cus
 *   [Top 5 Free API Testing Tools (New & Updated Tools)](/katalon-studio/blog/top-5-free-api-testing-tools/)
 *   [Create your first API test with Katalon Studio](/katalon-studio/tutorials/create-first-api-test-katalon-studio/)
 *   [Top 50+ Web API Testing Interview Questions](/katalon-studio/blog/web-api-testing-interview-questions/)
-
-#### About the author
-
-Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in QA industry since 2014.
-
-Meet Marek at  [www.linkedin.com/in/marek-melocik](https://www.linkedin.com/in/marek-melocik/)

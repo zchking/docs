@@ -4,6 +4,13 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/continuous_integration_gitlab.html
 description: "This tutorial walks through the steps needed to automatically run your Katalon test suites when you push any change on your Gitlab repository."
 ---
+
+**About the Author**
+
+Ahmed Hussein Karam, Software Engineer
+
+Contact Ahmed at [https://www.linkedin.com/in/ahmed-hussein-86b147153/](https://www.linkedin.com/in/ahmed-hussein-86b147153/)
+
 ### Introduction
 
 When you make changes to your project source code, you definitely need to run Katalon tests again to make sure that changes are correct. But you may find it boring to run them every now and then, with a possibility to forget to do that. Here, Continuous Integration becomes very important, as it allows you to automate the _Change-Then-Test_ process.
@@ -58,7 +65,7 @@ If you want to stop your web server after executing test cases, add a command at
 ```groovy
 before_script:
       - start /B cmd /K "<Path_To_HTTPD_Executable>"
- 
+
     run_katalon_test_suite:
       tags:
         - shell
@@ -129,9 +136,3 @@ Conclusion
 Once you have Katalon test cases prepared, you only need to focus on updating your project. You will no longer need to repeatedly go and run test cases manually after each update, because this process is already automated. You are just informed whether your commits are successful or not. However, you can still find detailed testing reports in the Reports folder that is located in your Katalon Studio project root directory. The development and testing processes can be summarized in the following diagram:
 
 ![Development and testing processes](../../images/katalon-studio/tutorials/continuous_integration_gitlab/9.png)
-
-**About the Author**
-
-Ahmed Hussein Karam, Software Engineer
-
-Contact Ahmed at [https://www.linkedin.com/in/ahmed-hussein-86b147153/](https://www.linkedin.com/in/ahmed-hussein-86b147153/)

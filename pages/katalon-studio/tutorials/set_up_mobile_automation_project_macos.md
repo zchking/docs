@@ -1,11 +1,11 @@
 ---
-title: "Setting up Mobile automation project in macOS"
+title: "Configuring Katalon Studio for Mobile Testing on macOS"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/set_up_mobile_automation_project_macos.html
 description: "Using Katalon Studio, mobile automation tester can design automation test for both Android and iOS to run on physical devices, cloud services and emulators."
 ---
-Using Katalon Studio, a tester can design mobile app automation tests for both Android and iOS to run on physical devices, cloud services or emulators.  
-  
+Using Katalon Studio, a tester can design mobile app automation tests for both Android and iOS to run on physical devices, cloud services or emulators.
+
 This tutorial explains how to set up a mobile app testing project for Katalon Studio on macOS. It assumes that you are familiar with automated testing.
 
 Setup Prerequisites
@@ -105,10 +105,10 @@ For iOS devices:
     3.  go to **Settings** on the device > **Developer** \> turn ON **UIAutomation**
 *   **For iOS 6 and higher**, on your iOS device, go to **Settings > Safari > Advanced** and enable **Web Inspector**
 
-To test an iOS native application file (**.ipa** or **.app** file), make sure the file is already built and signed properly to deploy on the device. Follow these steps to check if an application file is already built and signed correctly:1\. Open **Xcode** and navigate to **Window/Devices  
-**2\. Choose your device from the Devices list  
-3\. Press the "+" button and choose your application file  
-  
+To test an iOS native application file (**.ipa** or **.app** file), make sure the file is already built and signed properly to deploy on the device. Follow these steps to check if an application file is already built and signed correctly:1\. Open **Xcode** and navigate to **Window/Devices
+**2\. Choose your device from the Devices list
+3\. Press the "+" button and choose your application file
+
 ![Choose-your-application-file](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Choose-your-application-file.png)
 
 4\. If installed successfully, the application will appear in the Installed Apps section as shown below

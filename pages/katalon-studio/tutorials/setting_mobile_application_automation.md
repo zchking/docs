@@ -1,5 +1,5 @@
 ---
-title: "Setting up Mobile automation project in Windows"
+title: "Configuring Katalon Studio for Mobile Testing on Windows"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/setting_mobile_application_automation.html
 description: "Test automation for mobile app required to set up testing environment before performing any test. Learn how to perform mobile testing in Katalon Studio."
@@ -47,48 +47,3 @@ Setting Up the Appium Directory
 3.  Set **Appium Directory** to the installed folder. User can browse or can paste the path.
 
 By default, it's usually installed at _C:\\Users\\{user  login account}\\AppData\\Roaming\\npm\\node_modules\\appium._
-
-How to Install a Mobile App Manually?
--------------------------------------
-
-*   Step 1: Connect mobile device to the system
-*   Step 2: Open Command Prompt/Terminal
-*   Step 3: Type the command **adb install** "{**path of APK File**}".
-
-Refer to the screenshot below as an example.
-
-![Install a Mobile App Manually?](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Install-an-Mobile-App-Manually.png)
-
-Set up devices
---------------
-
-Refer to this [documentation](/display/KD/Mobile+on+Windows#MobileonWindows-SetupDevices) on setting test devices.
-
-How to Install a Mobile App in Katalon Studio?
-----------------------------------------------
-
-Katalon Studio installs the application automatically while in Spy mobile, Record mobile, Run, or Debug mode if the application is previously not installed on the device.
-
-As an example, let's see how it works in record mode.
-
-*   Step 1: Click on **Record Mobile**
-
-![record mode in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Record-Mobile-in-Katalon.png)
-
-*   Step 2: Mobile recorder window will be launched. Select **Device Name**
-
-![Mobile recorder window in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Device-Name.png)
-
-*   Step 3: Browse application file
-
-![Browse application file in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Browse-application-file.png)
-
-*   Step 4: Click on **Start**
-
-![Start-mobile-application-automation](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Start-mobile-application-automation.png)
-
-*   Step 5: Application will be installed on the selected device, and Device View pane will be launched as shown in the screenshot below.
-
-![Device View pane in Katalon Studio](../../images/katalon-studio/tutorials/setting_mobile_application_automation/Device-View-pane-in-Katalon.png)
-
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Mobile on Windows](/display/KD/Mobile+on+Windows) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
