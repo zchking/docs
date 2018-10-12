@@ -25,8 +25,7 @@ algolia:
   search_only_api_key: fbbaaba34cbd44a2dca3bf899eff9cec
   indexing_batch_size: 10
   max_record_size: 10000
-  files_to_exclude:
-    - _site/**/*
+  files_to_exclude: []
 
 # filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 
