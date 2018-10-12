@@ -6,4 +6,5 @@ permalink: katalon-studio/new/all-versions.html
 description:
 redirect_from:
     - "/display/KD/Release+Notes/"
+    - "/display/KD/Release%20Notes/"
 ---
