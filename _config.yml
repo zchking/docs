@@ -13,7 +13,7 @@ kramdown:
   syntax_highlighter: rouge
   toc_levels: 2..3
 
-incremental: true
+incremental: false
 
 plugins:
   - jekyll-redirect-from

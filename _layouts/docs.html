@@ -2,59 +2,65 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <script type="text/javascript">
         !function(){var analytics=window.analytics=window.analytics||[];if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.0";
             window.analytics.load("rq1TXmiuQVtxko7230dlTbIqFF3Zdkio");
         window.analytics.page();
           }}();
     </script>
+
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="{{site.site_icon}}" sizes="129x128">
-    <meta name="msapplication-TileImage" content="{{site.site_icon}}">
-    <link rel="apple-touch-icon" type="image/x-icon" href="{{site.site_icon}}" sizes="129x128">
-    <meta property="og:image" content="{{site.site_icon}}"/>
-    <!-- metadata -->
+    <link rel="icon" type="image/x-icon" href="{{site.site_icon | prepend:site.baseurl}}" sizes="129x128">
+    <meta name="msapplication-TileImage" content="{{site.site_icon | prepend:site.baseurl}}">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{{site.site_icon | prepend:site.baseurl}}" sizes="129x128">
+
+    <meta property="og:image" content="{{site.site_icon | prepend:site.baseurl}}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:updated_time" itemprop="dateUpdated" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"/>
-    <meta property="og:image" itemprop="image primaryImageOfPage" content="{{site.site_icon}}"/>
+    <meta property="og:image" itemprop="image primaryImageOfPage" content="{{site.site_icon | prepend:site.baseurl}}"/>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:url" content="{{site.site_url}}{{ page.url | prepend:site.baseurl }}" />
+    <meta property="og:site_name" content="{{site.site_url}}" />
+
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:domain" content="{{site.site_domain}}"/>
     <meta name="twitter:site" content="@{{site.site_twitter_mention}}"/>
     <meta name="twitter:url" content="{{site.site_twitter}}"/>
     <meta name="twitter:title" itemprop="title name" content="{{ page.title }}"/>
     <meta name="twitter:description" property="og:description" itemprop="description" content="{{ content | strip_html | truncatewords: 30}}" />
-    <meta name="twitter:image:src" content="{{site.site_icon}}"/>
+    <meta name="twitter:image:src" content="{{site.site_icon | prepend:site.baseurl}}"/>
     <meta name="twitter:image:alt" content="{{site.site_title}}"/>
+
     <meta property="article:published_time" itemprop="datePublished" content="{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/instantsearch.min.css">
-    <link rel="stylesheet" href="/css/instantsearch-theme-algolia.min.css">
-    <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/pygments/perldoc.css">
-    <link rel="stylesheet" href="/css/customstyles.css">
-    <link rel="stylesheet" href="/css/github.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+    <link rel="stylesheet" href="{{"/css/instantsearch.min.css" | prepend:site.baseurl}}">
+    <link rel="stylesheet" href="{{"/css/instantsearch-theme-algolia.min.css" | prepend:site.baseurl}}">
+    <link rel="stylesheet" href="{{"/css/font-awesome.min.css" | prepend:site.baseurl}}">
+    <link rel="stylesheet" href="{{"/css/bootstrap.min.css" | prepend:site.baseurl}}">
+    <link rel="stylesheet" href="{{"/css/pygments/perldoc.css" | prepend:site.baseurl}}">
+    <link rel="stylesheet" href="{{"/css/customstyles.css" | prepend:site.baseurl}}">
+    <link rel="stylesheet" href="{{"/css/github.css" | prepend:site.baseurl}}">
+
     <title>{{page.title}} | {{site.site_title}}</title>
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:locale" content="en_US" />
     <meta name="description" content="{{ page.description }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <link rel="canonical" href="{{ page.url }}" />
-    <meta property="og:url" content="{{site.site_url}}{{ page.url }}" />
-    <meta property="og:site_name" content="{{site.site_url}}" />
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"{{site.site_url}}{{page.url}}"}</script>
+    <link rel="canonical" href="{{ page.url | prepend:site.baseurl }}" />
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"{{site.site_url}}{{page.url | prepend:site.baseurl}}"}</script>
 </head>
 <body class="colums">
     <header>
         <nav class="nav-secondary navbar navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="/index.html">
-                        <img class="logo" src="/images/katalon/template/logo_katalon_docs@2x.png" alt="{{site.site_title}}">
+                    <a href="{{"/index.html" | prepend:site.baseurl}}">
+                        <img class="logo" src="{{"/images/katalon/template/logo_katalon_docs@2x.png" | prepend:site.baseurl}}" alt="{{site.site_title}}">
                     </a>
                 </div>
                 <div class="navbar-collapse" style="height: 1px;">
@@ -90,11 +96,11 @@
                                             </li>
                                         {% elsif page.url contains item.parenturl or page.url == item.url %}
                                             <li class="active">
-                                                <a href="{{item.url}}">{{item.title}}</a>
+                                                <a href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
                                             </li>
                                         {% else %}
                                             <li>
-                                                <a href="{{item.url}}">{{item.title}}</a>
+                                                <a href="{{item.url | prepend:site.baseurl}}">{{item.title}}</a>
                                             </li>
                                         {% endif %}
                                     {% endfor %}
@@ -235,12 +241,12 @@
         <div id="hits-per-page-selector"></div>
     </div>
 
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/stickyfill.min.js"></script>
-    <script src="/js/jquery.cookie.min.js"></script>
-    <script src="/js/jquery.navgoco.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/instantsearch.min.js"></script>
-    <script src="/js/customscripts.js"></script>
+    <script src="{{"/js/jquery.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/js/stickyfill.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/js/jquery.cookie.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/js/jquery.navgoco.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/js/bootstrap.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/js/instantsearch.min.js" | prepend:site.baseurl}}"></script>
+    <script src="{{"/js/customscripts.js" | prepend:site.baseurl}}"></script>
 </body>
 </html>

@@ -89,7 +89,7 @@ img.inline {
     margin: 5px 0 0px;
     // width: 200px;
     & input[type=text] {
-        background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
+        background: rgba(0, 0, 0, 0.17) url("../images/search.png") no-repeat;
         background-position: 10px 9px;
         border: 0;
         color: #0C5176;
@@ -101,7 +101,7 @@ img.inline {
 }
 
 .nav-secondary-tabs .search-form input[type=search] {
-    background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
+    background: rgba(0, 0, 0, 0.17) url("../images/search.png") no-repeat;
     background-position: 10px 9px;
     border: 0;
     box-shadow: none;
@@ -128,13 +128,13 @@ input[type=text],
 }
 
 .nav-secondary-tabs .search-form input[type=search]:focus {
-    background: rgba(255, 255, 255, 0.17) url(/images/search.png) no-repeat;
+    background: rgba(255, 255, 255, 0.17) url(../images/search.png) no-repeat;
     background-position: 10px 9px;
 }
 
 .nav-secondary-tabs.affix input[type=search],
 input[type=text] {
-    background: rgba(0, 0, 0, 0.17) url(/images/search.png) no-repeat;
+    background: rgba(0, 0, 0, 0.17) url(../images/search.png) no-repeat;
     background-position: 10px 9px;
     border: 1px solid transparent;
     box-shadow: none;
@@ -142,7 +142,7 @@ input[type=text] {
 }
 
 .nav-secondary input[type=search] {
-    background: rgba(0, 0, 0, 0.17) url("/images/search.png") no-repeat;
+    background: rgba(0, 0, 0, 0.17) url("../images/search.png") no-repeat;
     background-position: 10px 9px;
     border: 0;
     box-shadow: none;
@@ -156,7 +156,7 @@ input[type=text] {
 }
 
 .nav-secondary .search-form input[type=search]:focus {
-    background: rgba(255,255,255,0.17) url(/images/search.png) no-repeat;
+    background: rgba(255,255,255,0.17) url(../images/search.png) no-repeat;
     background-position: 10px 9px;
 }
 
@@ -301,7 +301,7 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
     {
       display: none !important;
     }
-    #ratings-div 
+    #ratings-div
     {
       display: none !important;
     }

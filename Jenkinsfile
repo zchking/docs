@@ -19,9 +19,10 @@ pipeline {
             steps {
                 script {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
+                        sh "mkdir -p _site/${env.BRANCH_NAME}"
                         sh 'bundle install'
                         sh 'bundle exec jekyll clean'
-                        sh 'bundle exec jekyll build'
+                        sh "bundle exec jekyll build --baseurl /${env.BRANCH_NAME} --destination _site/${env.BRANCH_NAME}"
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
