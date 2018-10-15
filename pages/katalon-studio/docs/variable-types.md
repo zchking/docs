@@ -55,7 +55,7 @@ Global variables
 ----------------
 
 > *   Only for version **5.3** and **below**.
-> *   Since version **5.4** and **above**, Global Variables are called **Execution Profile**. For more details, refer to this [documentaion](/x/xAHR).
+> *   Since version **5.4** and **above**, Global Variables are called **Execution Profile**. For more details, refer to this [documentation](/x/xAHR).
 
 You can manage the list of global variables in your project by using the **Global Variables** view.
 

@@ -91,6 +91,8 @@ items:
       url: /katalon-studio/videos/introducing_kobiton_katalon_studio.html
     - title: "Working with Test Listeners (Test Hooks) in Katalon Studio v5.2"
       url: /katalon-studio/videos/test_listeners_test_hooks.html
+    - title: "Working with Cucumber Runner for BDD in Katalon Studio 5.7"
+      url: /katalon-studio/videos/cucumber_runner_bdd.html
     - title: "Automating Native Xamarin iOS application in MacOS with Katalon Studio"
       url: /katalon-studio/videos/automating_native_xamarin_ios_application_macos_katalon_studio.html
     - title: "Katalon Test Reporting and Katalon Analytics (Beta)"
