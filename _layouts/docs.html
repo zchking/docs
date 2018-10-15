@@ -125,6 +125,9 @@
                 <div class="col-body">
                     <main class="col-content content">
                         <section class="section">
+                            {% if site.staging %}
+                                <div><strong>This is a staging build of Katalon Docs. For the official Katalon Docs website, please go to <a href="https://docs.katalon.com">https://docs.katalon.com</a>.</strong></div>
+                            {% endif %}
                             <h1>{{ page.title }}</h1>
                             <p class="reading-time" title="Estimated reading time">
                                 <span class="reading-time-label">{{site.data.strings.reading_time}}: </span>
@@ -159,7 +162,7 @@
                                     <div class="feedback-links">
                                         <ul>
                                             <li>
-                                                <a href="https://github.com/{{site.github_editme_path}}/edit/master/pages{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}">
+                                                <a href="https://github.com/{{site.github_editme_path}}/edit/{{site.branch}}/pages{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}">
                                                     <i class="fa fa-pencil-square-o"></i> {{site.data.strings.link_edit_this_page}}
                                                 </a>
                                             </li>
@@ -174,7 +177,7 @@
                                                         "id": "8726954",
                                                         "unique_id": "{{ page.path }}",
                                                         "title": "{{ page.title }}",
-                                                        "permalink": "https://github.com/{{site.github_editme_path}}/blob/master/{{ page.path }}"
+                                                        "permalink": "https://github.com/{{site.github_editme_path}}/blob/{{site.branch}}/{{page.path}}"
                                                     };
                                                     (function(d, c, j) {
                                                         if (!document.getElementById(j)) {
