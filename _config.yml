@@ -6,6 +6,8 @@ site_twitter: https://twitter.com/katalon_studio
 site_twitter_mention: katalon_studio
 github_editme_path: katalon-studio/docs
 
+staging: true
+
 markdown: kramdown
 kramdown:
   input: GFM

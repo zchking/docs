@@ -26,10 +26,7 @@ pipeline {
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
                         s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
-                    }
-                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
-                        sh 'bundle install'
-                        sh 'bundle exec jekyll clean'
+                        s3Upload(file:'robots.txt', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
                     }
                 }
             }
@@ -45,7 +42,7 @@ pipeline {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
                         sh 'bundle exec jekyll clean'
-                        sh 'bundle exec jekyll build'
+                        sh 'bundle exec jekyll build --config _config.yml,_config_prod.yml'
                         sh 'rm -rfv _site/robots.txt'
                     }
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
@@ -57,7 +54,7 @@ pipeline {
                     docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
                         sh 'bundle install'
                         sh 'bundle exec jekyll clean'
-                        sh 'bundle exec jekyll algolia --verbose'
+                        sh 'bundle exec jekyll algolia --config _config.yml,_config_prod.yml --verbose'
                     }
                 }
             }
