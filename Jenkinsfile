@@ -28,10 +28,6 @@ pipeline {
                         s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
                         s3Upload(file:'robots.txt', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
                     }
-                    docker.image('jekyll/jekyll').inside('-v="$PWD:/srv/jekyll" -v="$HOME/.katalon_docs_bundle:/usr/local/bundle"') {
-                        sh 'bundle install'
-                        sh 'bundle exec jekyll clean'
-                    }
                 }
             }
         }
