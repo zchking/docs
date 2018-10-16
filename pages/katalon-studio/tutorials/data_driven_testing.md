@@ -4,142 +4,119 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/data_driven_testing.html
 description: "Data-driven testing is a testing method using the tables of test data. This article will show you how to apply data-driven testing using Katalon Studio."
 ---
-1.  [What is Data-driven testing?](#what-is-data-driven-testing)
-    *   [The Advantages of Data-driven testing](#data-driven-testing-advantages)
-2.  [Data-driven testing approach with Katalon Studio](#data-driven-testing-katalon-studio)
-    *   [Create a new test case using Web Record function](#create-test-case)
-    *   [Data-driven Tests Execution](#test-execution)
-3.  [Tutorial video](#tutorial-video)
 
-What is Data-driven testing?
-----------------------------
+## 什么是数据驱动测试?
 
-**Data-driven testing (DDT)** is a common term in the computer software testing area. Its define a testing has been done using a table of conditions directly as test inputs and verifiable outputs. Also, in the data-driven testing process, the test environment settings and control are not hard-coded.
+**数据驱动测试(DDT)** 在计算机软件测试领域是个普通术语。它定义了一个测试，这个测试的完成要使用一个数据表格直接作为测试的输入和可验证的输出。另外,在数据驱动测试过程中，测试环境设置和控制都不是硬编码的。这种测试过程很流行并且常常在录制回放之后来应用。换句话说，一旦捕获了一组测试对象后，测试员就需要从外部数据文件添加更多输入数值，以便应用系统能处理大量将来的应用场景。从控制方法上来讲，外部信息是从数据库读进来的，这些数据库可以是任何以下数据文件。
 
-This testing process is quite popular and normally applied right after the record and playback mode. In other words, once a set of testing object under a test case is captured, testers will need to add more input values from the external data files to ensure the application can handle the most number of scenarios in the future.
+*	数据池
+*	Excel 文件
+*	ADO 对象
+*	CSV 文件
+*	ODBC 数据源
 
-In the control methodology, the external information is "read" from a database that can be any of the below data files.
+更好地理解这个数据驱动测试方法的最简单办法就存在于一个自动测试的录制过程中。一些情况下，在录制过程中你选择的值不会发现任何缺陷或错误。但是录制过程中没有使用到的其它数值却会发现一些缺陷或错误。这时候测试员就需要一组数据集来使他们的测试输入多样化。
+另外，如果你想做些变动，例如添加更多或削减一些数据，你完全可以自由地重新规制数据而不必对硬代码的数值做任何改动。假如这此变动是硬代码数值本身，当然你就不得不对代码和数据都进行改动。
 
-*   Datapools
-*   Excel files
-*   ADO objects
-*   CSV files
-*   ODBC sources
-
-The most simple way to better understand the explanation of this data testing approach could be under a record of an automated test. In some cases, the values you select during record may not generate any bugs or errors but the external values which is missed during the records may lead them. Then, it is when the tester needs a set of database to diversify their testing inputs.  
-Also, if there is any change you want to make like putting more or cutting down the data, you are totally free to reshape and customize without causing harm to the hard-coded value. If the change is in hard-coded value itself, so yes, you have to change both in code and data.
-
-Data-driven framework can be best understood by the following diagram:
+下图可以帮助你更好地理解数据驱动的框架:
 
 ![data-driven testing using Katalon Studio](../../images/katalon-studio/tutorials/data_driven_testing/data_driven_testing.jpg)
 
-### The Advantages of Data-driven testing
+### 下图可以帮助你更好地理解数据驱动的框架
 
-*   The [scripts could generate parallelly](https://www.katalon.com/videos/test-suite-collection-run-test-suites-parallel/) whilst developers are building the application/software. The whole process of designing, planning and running the database is independent towards the application development.
-*   The tester can avoid the irrelevant and unneeded duplication of testing scripts generated since we already carry a standard file using for testing inputs and verifying the data.
-*   All the outcomes from inputs, outputs to feasible testing results are collected and stored under a well-managed text records.
-*   Test cases will be handled under numerous set of data since it is the external information collected separately to the test case. The information is stored under external material which stems from Excel files, XML or any other texting sources.
-*   The test data can't be impacted if the test scripts are changing since data-driven testing is running separately with the development. The tester will have no influence towards developers even though they make multiple changes.
-*   It is a good news for tester if errors or bugs generated in future will be minimized to the lowest probability since there are multiple scenarios and inputs tested using data-driven framework approach.
+*	在开发员还在开发应用、软件时就可以并行地开发测试脚本。设计、计划、运行数据集的整个过程是和应用开发完全独立的。
+*	测试员可以避免开发一些不相关或不必要的重复的测试脚本。因为在此之前，我们已经列出了一个标准文件，包含了测试的输入及测试的验证数据。
+*	所的输入的产出，切实可行的测试结果的输出都会被收集并保存到有序管理的文本记录里。
+*	测试用例要能适应大量的数据集，因为这些外部信息是独立于测试用例收集的。这些信息保存在以Excel文件、XML或其它测试资源存在的外部资料里。
+*	测试脚本改变时不会影响到测试数据，因为数据驱动测试的运行是独立于开发的。即便测试员做了多次变动也不会影响到开发者。
+*	如果使用数据驱动框架的方法，进行了多个场景和输入的测试，将来产生错误或缺陷的可能性就会很小。这对测试人员来说是个好消息。
 
-Data-driven testing approach with Katalon Studio
+
+## 使用Katalon Studio进行数据驱动测试的方法
 ------------------------------------------------
 
-Katalon Studio supports data-driven testing which allows users to define data sets and execute test scripts faster and easier compared to data-driven testing in other frameworks.
-
-This tutorial will provide you a simple example of how to create an automation test case and execute it multiple times using different sets of data.
-
-**What You'll Need**
-
-Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit Katalon Studio website to get the latest version.
+Katalon Studio 支持数据驱动测试，它允许用户定义测试数据集。并且对比其它的数据驱动测试框架，它执行脚本更快更容易。
+数据驱动测试示例工程
+我们通过测试一个预定服务，来描述这个简单的数据驱动测试示例。预定表格中包括5个不同的字段，每个字段都包含多个选项。特定用例使用的数据可能发现不了被测应用的错误，但其它数据集可能就能发现。为了保证无论任何输入情况下被测应用都基本能工作，你就需要发挥数据驱动测试的优势，对这个测试场景使用不同的数据集自动地执行很多遍。
 
 [![API testing interview questions](../../images/katalon-studio/tutorials/data_driven_testing/Untitled-1.png)](https://www.katalon.com/download)
 
-**Before You Dive In**
-
-*   If you do **Web UI** testing, no additional settings are needed. Check [this list](/display/KD/Supported+Environments) for all supported browsers.
-*   In case of **Mobile** testing, you need to install **Appium** and enable **USB Debugging mode** on your device first. Please refer to our Mobile Setup [for Windows](/x/jwbR) or [for macOS](/x/9AXR).
-*   After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](/katalon-studio/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
-
-### The Data-Driven Testing Sample Project
-
-The simple example of Data-driven testing is described through a testing booking service. The booking form has 5 different fields, each field contains multiple options. The data used for a specific case may not cause any error to the application, but for the other sets of data, it probably does. In order to make sure the application will be working probably regardless of the inputs, you may leverage data-driven testing for this scenario to execute the test automatically multiple times using different data tests.
-
-Given a sample test case whose scenario is as below:
-
-*   _Open the login page of the Katalon demo AUT website (http://demoaut.katalon.com/profile.php#login)_
-*   _Login using three different accounts_
-*   _Validate if the login is success_
-*   _Close the browser_
-
-You can use the following steps to automate the above test scenario.
-
-### Prepare the Data
-
-Create a data file in Katalon containing three login accounts. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details on how to create test data from different sources. The following example shows the internal data file with three accounts for [http://demoaut.katalon.com](http://demoaut.katalon.com/profile.php#login) (note that only '**_John Doe_**_'_ is valid):
+**示例的场景如下:**
+•	打开Katalon demo AUT website的登录页面 (http://demoaut.katalon.com/profile.php#login)
+•	使用3个不同的帐号登录
+•	验证登录是否成功
+•	关闭浏览器
 
 ![prepare data](../../images/katalon-studio/tutorials/data_driven_testing/Picture1-300x132.png)
 
-### Create a new test case using Web Record function
+### 你可以通过以下步骤来自动化以上场景。
 
-1\. Create a new test case and generate the steps needed to run data-driven testing. You can utilize the [Web Record function](/katalon-studio/tutorials/create-test-case-using-record-playback/) to quickly generate your test case:
+1\. 创建一个新的测试用例并继续生成以下步骤:
 
-*   Access [http://demoaut.katalon.com/profile.php#login](http://demoaut.katalon.com/profile.php#login) (_the Katalon demo AUT website)_
-*   Enter username/password
-*   Click Login
-*   Validate if the Appointment page is displayed
+* 	打开 http://demoaut.katalon.com/profile.php#login (the Katalon demo AUT website)
+*	输入用户名、密码
+*	点击登录
+*	验证预定页面是否显示出来
+你可以使用网页录制功能快速地创建测试步骤。
 
-The generated test case should be similar to the following:
+* 步骤 1: 点击主工具栏上的New Test Case按键，输入测试用例名称并点OK， 一个空的测试用例就创建了。
+* 步骤 2: 主工具栏上点击Record。
+* 步骤 3: 点击录制对话框中的录制开始录制测试用例。
+* 步骤 4:  进行以上场景步骤。
 
 ![Katalon Test case](../../images/katalon-studio/tutorials/data_driven_testing/2.-Katalon-test-case.png)
 
-You can see that the input values for username and password are hard-coded as what you typed during the recording (in this case it's "admin"/"abc123"). In order to run this script multiple times using different accounts, you need to parameterize these values.
+你可以看出来录制过程中你输入的用户名和密码值（本例中，admin/abc123）是硬代码化了。为了使用不同的帐号来多次运行这个脚本，你需要参数化这些值。请继续下面的步骤。
 
-2\. Switch to the _Variables_ tab of the test case and create two variables named 'demo\_usn' and 'demo\_pwd'. Pass in the default values as follows:
+
+2\. 切换到测试用例的变量页面，并创建两个变量，名字分别为 ‘demo_usn’ 和 ‘demo_pwd’。
+步骤 1: 切换到测试用例的变量页面。点击Add（添加）。
+步骤2: 变量列表里会新增一行。创建两个变量，名字分别为 ‘demo_usn’ 和 ‘demo_pwd’。做完后保存测试用例。
 
 ![Katalon Variables tab of the test case](../../images/katalon-studio/tutorials/data_driven_testing/3.-Katalon-Variables.png)
 
-3\. Switch back to the Manual view of the test case and set those two variables as inputs for the username/password fields.
+3\. 切换回测试用例的手工视图，把这两个变量设成username/password字段的输入。
 
 ![Katalon Manual view](../../images/katalon-studio/tutorials/data_driven_testing/4.-Katalon-manual-view.png)
 
-### Data-driven Tests Execution
 
-From here you can apply Data-driven using two methods, either using **Test Suites** or **Test Cases.**
+### 数据驱动测试的执行
+
+你可以在两种地方进行数据驱动测试：测试集或测试用例。
+#### A.从测试集执行
 
 #### A. Execution from test suites
 
-1\. Next, create a test suite to execute the test case using the defined dataset.
+1\. 接下来, 创建一个测试集，以便用定义的数据集来执行测试用例。
 
 ![Katalon New test suite](../../images/katalon-studio/tutorials/data_driven_testing/6.-Katalon-Data-driven.png)
 
-2\. Add the data file to the Test Data section and proceed to bind the two variables 'demo\_usr' and 'demo\_pwd' to the respective columns of the data file. You may refer to [**Data for test** **execution**](/x/mAvR#DesignaTestSuite-Data-DrivenTesting) for more details about variable binding.
+2\. 展开数据绑定部分, 把创建的数据文件添加到测试数据部分。然后把两个变量 ‘demo_usr’ 和 ‘demo_pwd’绑定到数据文件的对应列上。如果想要了解更多关于变量绑定的细节，你可以点链接Data for test execution。
 
 ![Katalon Test Data driven testing section](../../images/katalon-studio/tutorials/data_driven_testing/7.-Katalon-test-data.png)
 
-3\. You can now execute your test case. It will run three times using the accounts defined in the test data file.
+3\. 最后你可以运行测试集，你的登录测试用例将会分别使用测试数据文件中定义的帐号，运行三次。
 
-#### B. Execute using a test case
-
-1. We can also implement Data-driven tests in a test case. Just create a new test case and switch to Script Mode. To iterate tests with multiple sets of data, we need to use FOR statement and call the test data objects. Copy and paste below code:
+#### B. 从测试用例执行
+1. 我们也可以在单个测试用例中实现驱动测试。创建一个新的测试用例并切换到脚本模式。要使用多组数据进行迭代测试，我们需要FOR 语句，并且调用测试数据对象。
 
 In which:
 
-*   Import InternalData class from Katalon built-in library and define **_data_** variable to locate test data table
-*   For [statement to loop](/katalon-studio/tutorials/common-condition-control-statements/) through all row of test data table which indicates how many times the test case will run
-*   To get a row value in test data table, use [getRowNumbers()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testdata/InternalData.html#getRowNumbers()) method syntax. For example:
+* 从Katalon内嵌的库中导入 InternalData类。并在本地测试数据表中定义data 变量
+* 使用For语句循环完测试数据表中的所有行。行数就是你的测试用例将要执行的次数，使用 getRowNumbers() 方法来获得行数。
+* 使用GetValue方法来获得测试数据表中的一行值。例如：
 
 _Username field: data.internallyGetValue("demo_usn", index)_
 
 _Password field:  data.internallyGetValue("demo_pwd", index)\_
 
-2\. When you have done in Scripts view, switch back to Manual view, the test case will be showed as the following screenshot:
+2\. 脚本视图中做完后，切换回到手工视图，测试用例就和下图显示的一样:
 
 ![Katalon Scripts view](../../images/katalon-studio/tutorials/data_driven_testing/8.-Katalon-Script-view.png)
 
-3\. Finally, you can run the test case, and your login test case will be executed three times using the accounts defined in the test data file.
+3\. 最后你可以运行测试集，你的登录测试用例将会分别使用测试数据文件中定义的帐号，运行三次。
 
-**Congratulations! You now understand how to approach Data-driven testing with Katalon Studio.**
+**恭喜！你现在已理解并掌握了利用 Katalon Studio进行数据驱动测试的方法了.**
 
 Tutorial video is contributed by Shiva Raj
 ------------------------------------------
