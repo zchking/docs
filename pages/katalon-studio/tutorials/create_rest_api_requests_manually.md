@@ -1,31 +1,24 @@
 ---
-title: "Create REST API requests manually"
+title: "使用Katalon Studio手动创建REST API请求"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_rest_api_requests_manually.html
 description: "Katalon Studio offers a great UI support for creating REST API requests. This tutorial will be about show you how to make your code robust and effective."
 ---
 
-**About the author**
-
-Marek Melocik is currently working as Test Automation Engineer in Brno, Czech Republic. He has been working in QA industry since 2014.
-
-Meet Marek at  [www.linkedin.com/in/marek-melocik](https://www.linkedin.com/in/marek-melocik/)
-
-Introduction
+介绍
 ------------
 
-Katalon offers a great UI support for creating REST API requests. But if you are the advanced Katalon user, you can do it manually and benefit from a large library of Katalon support methods for API requests. This tutorial will be about how to create REST API requests from manual and handle responses to make your code robust and effective.
+Katalon为创建REST API请求提供了出色的UI支持，可以参考上一篇（使用Katalon Studio创建你的第一个API测试）。如果你已经是Katalon老手，通过Katalon为API测试提供的强大的方法库，则完全可以自行手动创建。本教程将介绍如何手动创建REST API请求并处理响应，以使你的代码更加健壮有效。
 
-### Requirements
+### 要求
 
-You should be familiar with Katalon Studio and know the basics of Java/Groovy.
+熟悉Katalon Studio，并了解Java / Groovy的基础知识。
 
-RequestObject and ResponseObject
+RequestObject和ResponseObject
 --------------------------------
 
-These are two main classes for handling API requests. I am sure you have already figured out that the RequestObject class represents an API request and the WSBuiltInKeywords.sendRequest method returns ResponseObject.
-
-Now let's create a REST API request as an example (of course, you can do the same with SOAP API requests). You first need to have information for a request, including
+这是处理API请求的两个主要类。我相信你已经发现了，RequestObject类代表一个API请求，WSBuiltInKeywords.sendRequest方法返回ResponseObject。
+现在让我们创建一个REST API请求作为示例（当然，你可以对SOAP API请求执行相同的操作）。首先需要获得请求的信息，包括
 
 *   URL
 *   Request method (GET, POST, PUT, DELETE, …)
@@ -33,10 +26,10 @@ Now let's create a REST API request as an example (of course, you can do the sam
 *   Request body (for POST request)
 *   REST request parameters
 
-Next, you create an object from RequestObject using either one of the following ways:
+接下来，使用以下任一方法从RequestObject创建对象：
+*	直接创建一个RequestObject实例，并使用setRestUrl()和setRestRequestMethod()等方法设置其信息。
+*	使用RestRequestObjectBuilder，这是Katalon Studio 5.4及更高版本提供的非常有用的类。
 
-*   New a RequestObject instance directly and set its information using setter methods such as _setRestUrl()_ and _setRestRequestMethod()_.
-*   Use RestRequestObjectBuilder, a useful helper class offered by Katalon Studio version 5.4 and later.
 
 ```groovy
 import com.kms.katalon.core.testobject.ConditionType
@@ -86,15 +79,14 @@ return respObj
 
 ```
 
-As you can see, the source code includes two different ways to create a request. Both of them return a ResponseObject object. When using RestRequestObjectBuilder to create a RequestObject instance, you call _withXXX()_ and _build()_ methods.
+以上源码中包括两种不同的创建请求的方法。它们都返回一个ResponseObject对象。使用RestRequestObjectBuilder创建RequestObject实例时，可以调用withXXX()和build()方法。
+RestRequestObjectBuilder的一个好处是它有额外的方法允许直接为POST请求设置不同的Content-Type，例如FileBodyContent和MultipartFormBodyContent。也可以使用RequestObject，但使用RestRequestObjectBuilder更直接。
 
-One benefit of RestRequestObjectBuilder is that it has additional methods to allow directly setting different body types for POST requests such as _FileBodyContent_ and _MultipartFormBodyContent_. It is possible also using RequestObject, but it is more straightforward with RestRequestObjectBuilder.
+有关这些类的方法的更多详细信息，请访问Katalon API文档网站上的 [RequestObject](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RequestObject.html) 和 [RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html)
 
-For further details on the methods of these classes, please visit [RequestObject](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RequestObject.html) and [RestRequestObjectBuilder](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html) on Katalon API Documentation website.
+请注意，如果要使用HTTP headers，可以创建新的TestObjectProperty实例，如代码段所示。
+创建POST请求与GET请求基本相同，但您必须使用RequestObject中的setBodyContent或RestRequestObjectBuilder中的withTextBodyContent 指定请求的body。
 
-As a note, if you want to use HTTP headers, you can create new TestObjectProperty instances as shown in the code snippet.
-
-Creating a POST request is basically the same as a GET request, but you must specify the request body using either _setBodyContent_ from RequestObject or _withTextBodyContent_ from RestRequestObjectBuilder.
 
 ```groovy
 import com.kms.katalon.core.testobject.ConditionType
@@ -148,12 +140,12 @@ return respObj
 
 ```
 
-There are many different types of request body such as file and form data body content. Please refer to [RestRequestObjectBuilder API documentation](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html) to get a full list of its methods.
+关于不同的Content-Type，例如file、form等，请参阅 [RestRequestObjectBuilder API documentation](https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html).
 
 ResponseObject
 --------------
 
-As you can see above, we get a ResponseObject instance when sending an API request. This object contains all information needed for a response, including status code, response body, response headers, waiting time and many others. Methods for handling response objects may look like this:
+接上，我们在发送API请求时获得了一个ResponseObject实例。此对象包含响应的所有信息，包括status code, response body, response headers, waiting time和许多其他信息。处理响应对象的方法如下所示：
 
 ```groovy
 import com.kms.katalon.core.testobject.ResponseObject
@@ -179,7 +171,7 @@ return resp.getWaitingTime()
 
 ```
 
-And sample usage in your test case:
+测试用例中的示例用法：
 
 ```groovy
 import com.kms.katalon.core.testobject.ResponseObject
@@ -204,13 +196,16 @@ KeywordUtil.markFailed("Your request takes more than 5000ms. Actual time is "
 
 ```
 
-You may wonder why the SampleResponseObject class is needed as I can get all information directly by calling the methods from the response object. This wrapper may be helpful for your future enhancements as your code is less dependent on the ResponseObject class. If there are changes to this class, you only need to update the wrapper class. It is up to you which approach you follow, but both of them are correct.
+你可能想知道为什么需要SampleResponseObject类，因为我可以通过调用ResponseObject中的方法直接获取所有信息。这样封装可能对您将来的增强功能有所帮助，因为您的代码不会那么依赖于ResponseObject类。如果ResponseObject有更改，则只需更新这个封装类。当然，直接使用ResponseObject还是自行封装，看你的使用习惯自行选择。
 
-### Conclusion
+### 结论
 
-This tutorial was focused on advanced usage of REST API requests in Katalon. As I prefer writing code instead of clicking in Manual mode, this tutorial may be helpful to similar automation engineers as I am.
+本教程重点介绍了Katalon中REST API请求的高级用法。比起手动模式点击测试，我更喜欢编写代码，因此本教程可能对类似的自动化工程师有所帮助。
 
-RequestObject and ResponseObject are powerful classes, which may help you to customize your API tests in details.
+RequestObject和ResponseObject是强大的类，可以帮助你详细定制API测试。
+
+原文作者
+Marek Melocik，目前在捷克共和国布尔诺担任测试自动化工程师。自2014年以来，他一直从事QA工作。
 
 [![Rest API Request Katalon Studio](../../images/katalon-studio/tutorials/create_rest_api_requests_manually/api-testing-interview-question-1024x101.png)](https://www.katalon.com/download)
 
