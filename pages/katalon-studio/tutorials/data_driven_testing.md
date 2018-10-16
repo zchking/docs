@@ -1,7 +1,7 @@
 ---
-title: "Data-driven testing approach with Katalon Studio"
+title: "使用Katalon Studio进行数据驱动测试的方法"
 sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/data_driven_testing.html
+permalink: katalon-studio/tutorials/数据驱动测试.html
 description: "Data-driven testing is a testing method using the tables of test data. This article will show you how to apply data-driven testing using Katalon Studio."
 ---
 
