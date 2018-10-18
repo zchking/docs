@@ -23,7 +23,7 @@ The API/Web Service project is specialized designed to help you to accelerate au
 
 The QuickStart wizard allows you to quickly Import Swagger 2.0/WSDL definition or Create Draft REST/SOAP request to try out with variation of testing data requirements. When importing web service definition, Katalon Studio will load specified information and populated into your project so you don't have to spend time converting them manually. This wizard can be relaunched anytime in _Help_ \> _Quick Start_. 
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-09-at-4.41.24-PM.png =350x)
+![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
 
 ### Request History
 
@@ -38,13 +38,13 @@ The web service request object can be added directly to test case from the objec
 *   Add to new Test Case
 *   Add to existing Test Case
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.17.25-PM.png =812x)
+![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.17.25-PM.png)
 
 ### Support PATCH HTTP method
 
 Katalon Studio now support **PATCH** HTTP method to help you apply a partial modification to resources. 
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-08-at-11.35.42-AM.png =378x)
+![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-08-at-11.35.42-AM.png)
 
 Fixed Bugs
 ----------
