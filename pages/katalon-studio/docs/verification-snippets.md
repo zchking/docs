@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/verification-snippets/"
 description: 
 ---
-Katalon Studio now supports the ability to write verification scripts directly in Web Service object's details. This support will greatly reduce the time of going back and forth between the test case and request object to add test scripts. Verify the response can be done instaneously.
+Katalon Studio supports the ability to write verification scripts directly in Web Service object's details. This support will greatly reduce the time of going back and forth between the test case and request object to add test scripts. Verify the response can be done instaneously.
 
 Verification snippets can be accessed by clicking on the '**Verification**' tab within Web Service object's view.
 
@@ -18,9 +18,14 @@ Verification snippets can be accessed by clicking on the '**Verification**' tab 
 Using Verification Snippets
 ---------------------------
 
-When you click on one of the available snippets, Katalon Studio will generate a snippet for you. 
+When you click on one of the available snippets, Katalon Studio will automatically generate a snippet for you. 
 
-> The generated snippet is ONLY an example. DON'T try to use them immediately without adjustments matched your needs, otherwise it will not work.
+> The generated snippet is ONLY an example. DON'T try to use them immediately without making adjustments to match your needs, otherwise it will not work.
+
+You can also verify data of XML or JSON response Body. To do this, in Response panel, switch to JSON or XML response page, select the data and press Ctrl/Command + K to add verification scripts. 
+![](../../images/katalon-studio/docs/verification-snippets/hotkey.png) 
+
+Katalon Studio will compare the response body values with the one predefined in verifcation scripts.
 
 Once the verification snippets are generated, you can use it in either in your current Web Service's object or in your Test Case
 
