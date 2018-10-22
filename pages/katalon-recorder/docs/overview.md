@@ -24,4 +24,4 @@ To make the best use of the tool, we encourage you to go through the User Guide.
 *   [Katalon Recorder vs Katalon Studio](/display/KR/Katalon+Recorder+vs+Katalon+Studio)
 *   [Acknowledgments](/display/KR/Acknowledgments)
 
-Have questions, feedback, or bugs report? Please [submit here](https://forum.katalon.com/post/discussion/automation-recorder-support).
+Have questions, feedback, or bugs report? Please [submit here](https://forum.katalon.com/categories/katalon-recorder).
