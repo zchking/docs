@@ -1,12 +1,8 @@
 pipeline {
 
-    stages {
+    agent none
 
-        stage('Clean') {
-            steps {
-                sh 'rm -rf _site'
-            }
-        }
+    stages {
 
         stage('Build staging') {
             when {
