@@ -2,12 +2,6 @@ pipeline {
 
     stages {
 
-        stage('Clean') {
-            steps {
-                sh 'rm -rf _site'
-            }
-        }
-
         stage('Build staging') {
             when {
                 not {
