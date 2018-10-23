@@ -16,4 +16,3 @@ Improvements and Bug Fixes
 *   Changed in-app Welcome screen
 *   Fixed a minor bug where some users cannot import WSDL URL
 *   Fixed HTTP Body form-urlencoded saving issue
-*   Fixed 'Unable to resolve class internal.GlobalVariable' error generated in console mode execution
