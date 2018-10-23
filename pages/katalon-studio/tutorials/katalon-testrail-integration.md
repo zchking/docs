@@ -5,8 +5,13 @@ permalink: katalon-studio/tutorials/katalon-testrail-integration.html
 description: "The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems."
 ---
 
+#### About the author:
+
+Nikita Bogdan, QA Engineer at [Alyce Inc.](https://www.alyce.com/) – Strategic B2B gifting platform.
+
 ![](../../images/katalon-studio/tutorials/testrail-integration/Artboard 1 copy 2.png)
-      
+
+## Introduction:      
 
 The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems. For instance, test execution results from Katalon Studio can be synchronized with test cases from TestRail, making it easier and more productive for testers to manage and report test coverage as well as test results.
 
@@ -214,10 +219,3 @@ WebUI.callTestCase(findTestCase('%replace this with path to your test case, for 
 ## Conclusion
 
 Integrating between Katalon Studio and TestRail can help users not only reduce the complexity and cost during the testing process, but also  improve the productivity and efficiency in automation testing and test case management. To learn more about these two tools, visit Katalon Studio and TestRail websites.
-
-## About the author:
-
-Nikita Bogdan, QA Engineer at [Alyce Inc.](https://www.alyce.com/) – Strategic B2B gifting platform.
-
-
-
