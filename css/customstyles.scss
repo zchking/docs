@@ -164,3 +164,7 @@ div#autocompleteResults {
 .content ul li:last-child {
   margin-bottom: 10px;
 }
+
+.content table {
+  table-layout: fixed;
+}
