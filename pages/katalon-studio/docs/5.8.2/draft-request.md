@@ -1,8 +1,7 @@
-
 ---
 title: "Draft Request"
 sidebar: katalon_studio_new_sidebar
-permalink: katalon-studio/new/draft-request.html
+permalink: katalon-studio/docs/draft-request.html
 
 ---
 
