@@ -17,8 +17,7 @@ description:
 The following authorizations are supported:
 
 *   **Basic**
-*   **OAuth 1.0  
-    **
+*   **OAuth 1.0**
 
 Basic
 -----

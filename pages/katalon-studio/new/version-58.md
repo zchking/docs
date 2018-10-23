@@ -13,7 +13,7 @@ description:
 Introducing all-new API/Web Service Testing Project
 ---------------------------------------------------
 
-The release of Katalon Studio 5.8 introduces the new API/Web Service testing project with exclusive features including Web Service **_Quickstart_** wizard_, **_Import Swagger 2.0_** or **_WSDL_** definition File/URL directly, or retrieve **_Request History_** at any time. This significantly improved allows you to separate the API/Web Service testing from Web UI and Mobile testing - less confusion for your projects.
+The release of Katalon Studio 5.8 introduces the new API/Web Service testing project with exclusive features including Web Service **_Quickstart_** wizard, **_Import Swagger 2.0_** or **_WSDL_** definition File/URL directly, or retrieve **_Request History_** at any time. This significantly improved allows you to separate the API/Web Service testing from Web UI and Mobile testing - less confusion for your projects.
 
 The API/Web Service project is specialized designed to help you to accelerate automation tasks in Katalon Studio. The update also comes with a new interface, including a new toolbar and view that serve only for API/Web Service testing.
 
