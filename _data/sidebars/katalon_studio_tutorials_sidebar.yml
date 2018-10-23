@@ -93,6 +93,8 @@ items:
         url: /katalon-studio/tutorials/git_integration_introduction.html
       - title: "Continuous integration with Gitlab"
         url: /katalon-studio/tutorials/continuous_integration_gitlab.html
+      - title: "Katalon Studio and TestRai integration"
+        url: /katalon-studio/tutorials/katalon-testrail-integration.html
   - title: "Katalon Analytics (Beta)"
     tree:
       - title: "Viewing test execution reports in Katalon Analytics"
