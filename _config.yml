@@ -17,12 +17,8 @@ kramdown:
 
 incremental: false
 
-compress_images:
-  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
-
 plugins:
   - jekyll-redirect-from
-  - jekyll-compress-images
 
 # algia index
 algolia:
