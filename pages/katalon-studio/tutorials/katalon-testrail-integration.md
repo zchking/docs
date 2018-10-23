@@ -1,3 +1,10 @@
+---
+title: "Katalon Studio Integration with TestRail"
+sidebar: katalon_studio_tutorials_sidebar
+permalink: katalon-studio/tutorials/katalon-testrail-integration.html
+description: "The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems."
+---
+
 ![](docs/images/katalon-studio/tutorials/testrail-integration/Artboard 1 copy 2.png)
       
 
