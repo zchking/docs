@@ -2,6 +2,9 @@
 title: "Version 5.8.2"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-582.html
+redirect_from:
+    - "/katalon-studio/new/version-582/"
+    - "/katalon-studio/new/"
 
 description: Release notes v5.8.2
 ---
@@ -9,7 +12,7 @@ description: Release notes v5.8.2
 Improvements and Bug Fixes
 ==========================
 
-*   Support adding verification code from JSON and XML elements in the response Body by hotkey (Ctrl/Command + K)
+*   Add verification code directly from JSON and XML elements in the response Body by selecting the element and then hotkey (Ctrl/Command + K)
 *   Allow quick navigation to test objects from references in Script Mode 
 *   Added Save function to Draft Request
 *   Added "Variable" type to the variable type list of Object Parameter
