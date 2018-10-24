@@ -1,6 +1,6 @@
 ---
 title: "Draft Request"
-sidebar: katalon_studio_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/draft-request.html
 
 ---
