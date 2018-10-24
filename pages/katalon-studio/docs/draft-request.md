@@ -1,6 +1,6 @@
 ---
 title: "Draft Request"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_sidebar
 permalink: katalon-studio/docs/draft-request.html
 
 ---
@@ -17,3 +17,5 @@ Katalon Studio will open a ‘Draft Request Details’ view based on the selecte
 If you decide to add a draft request to your test case, select the desired request and click ‘Save.’ You will be asked to specify the name and target folder in ‘Object Repository.
 
 ![](../../images/katalon-studio/docs/draft-request/save-draft.png)
+
+Now you can execute your test case with the new web service request as usual. 
