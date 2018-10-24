@@ -11,7 +11,7 @@ description:
 ---
 Katalon Studio supports the ability to write verification scripts directly in Web Service object's details. This support will greatly reduce the time of going back and forth between the test case and request object to add test scripts. Verify the response can be done instaneously.
 
-Verification snippets can be accessed by clicking on the '**Verification**' tab within Web Service object's view.
+Verification snippets can be accessed by clicking on the **Verification** tab within Web Service object's view.
 
 ![](../../images/katalon-studio/docs/copy-of-verification-snippets/Screen-Shot-2018-10-09-at-5.39.33-PM.png)
 
