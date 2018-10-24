@@ -1,16 +1,17 @@
 ---
-title: "Version 5.8.2"
+title: "Version 5.8.2 & Version 5.8.3"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-582.html
 redirect_from:
     - "/katalon-studio/new/version-582/"
     - "/katalon-studio/new/"
+    - "/katalon-studio/new/version-583/"
 
-description: Release notes v5.8.2
+description: Release notes v5.8.2 & Version 5.8.3
 ---
 
 Improvements and Bug Fixes
-==========================
+--------------------------
 
 *   Add verification code directly from JSON and XML elements in the response Body by selecting the element and then hotkey (Ctrl/Command + K)
 *   Allow quick navigation to test objects from references in Script Mode 
