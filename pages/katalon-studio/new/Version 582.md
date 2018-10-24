@@ -11,7 +11,7 @@ description: Release notes v5.8.2 & Version 5.8.3
 ---
 
 Improvements and Bug Fixes
-==========================
+--------------------------
 
 *   Add verification code directly from JSON and XML elements in the response Body by selecting the element and then hotkey (Ctrl/Command + K)
 *   Allow quick navigation to test objects from references in Script Mode 
