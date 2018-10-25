@@ -25,7 +25,7 @@ When you click on one of the available snippets, Katalon Studio will automatical
 You can also verify the data of XML or JSON Response Body. To do this, in Response panel, switch to JSON or XML response page, select the data and press key combination 'Ctrl/Command + K' to add verification scripts. 
 ![](../../images/katalon-studio/docs/verification-snippets/hotkey.png) 
 
-Katalon Studio will compare values in the Response Body with the predefined values in verifcation scripts.
+Katalon Studio will compare the values in Response Body with the predefined values in verifcation scripts.
 
 Once the verification snippets are generated, you can use it in either in your current Web Service's object or in your Test Case
 
