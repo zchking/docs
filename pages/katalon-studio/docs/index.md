@@ -23,7 +23,7 @@ To address these concerns, we initially created Katalon Studio as a viable alter
 | Katalon Recorder | A Selenium's IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework. |
 
 Contribution Guidelines
-=======================
+-----------------------
 
 We strongly encourage you to help improve Katalon Knowledge Base by providing feedback, suggestions, or even issues regarding our products. Below are several ways for you to contribute to Katalon documentation, including editing, requesting docs change, rating, or raising issues. Here are some suggestions:
 
@@ -44,13 +44,13 @@ Please notice that although we very much appreciate all of your feedback, pull r
 
 -   On the right menu, you can perform the following actions:
 
-    - Edit this page will redirect you to the temporary repository of the related page. Fork this repository to make changes. Once finished, create a pull request to the master branch. Katalon team will do the final review of the changes before publishing it to the community.
+    - Edit this page will redirect you to the temporary repository of the related page. Fork this repository to make changes. Once finished, create a **Pull Request** to the master branch. Katalon team will do the final review of the changes before publishing it to the community.
 
-    - Request docs changes and raise docs issues will be filed at <https://github.com/katalon-studio/katalon-studio.github.io/issues>
+    - Request docs changes and raise docs issues can be filed at <https://github.com/katalon-studio/katalon-studio.github.io/issues>
 
     - Give feedback to the docs page by voting thumb up or thumb down.
 
-    - You can also write new contents for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a pull request for review.
+    - Write new contents for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a **Pull Request** for review.
 
 Support
 -------
