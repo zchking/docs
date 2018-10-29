@@ -8,7 +8,7 @@ description: "A quick guide for Android setup on Windows using Katalon Studio, a
 
 **A quick guide for Android setup on Windows using Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. Katalon Studio helps you start automation testing on web on mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
-**Read full guideline [/x/tYIY](/x/tYIY)**
+**Read full guideline [here.](https://docs.katalon.com/katalon-studio/docs/mobile-on-windows.html)**
 
 With [Katalon Studio](https://www.katalon.com/), let's setup for Mobile testing in Windows by implementing _4 steps_:
 
