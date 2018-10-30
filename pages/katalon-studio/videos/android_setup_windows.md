@@ -2,6 +2,9 @@
 title: "Android setup on Windows"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/android_setup_windows.html
+redirect_from:
+    - "/x/tYIY/"
+
 description: "A quick guide for Android setup on Windows using Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium"
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/XRw50gtMcbM?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
