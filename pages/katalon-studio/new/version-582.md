@@ -4,7 +4,6 @@ sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-582.html
 redirect_from:
     - "/katalon-studio/new/version-582/"
-    - "/katalon-studio/new/"
     - "/katalon-studio/new/version-583/"
 
 description: Release notes v5.8.2 & Version 5.8.3
