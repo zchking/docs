@@ -1,8 +1,8 @@
 ---
-标题: "快速开始"
-工具栏: katalon_studio_tutorials_sidebar
-永久链接: katalon-studio/tutorials/quick_start.html
-描述: "使用Katalon Studio设置并启动您的第一个自动化测试的快速指南，该指南帮助您立即在web和移动上开始自动化测试"
+title: "快速开始"
+sidebar: katalon_studio_tutorials_sidebar
+permalink: katalon-studio/tutorials/quick_start.html
+description: "使用Katalon Studio设置并启动您的第一个自动化测试的快速指南，该指南帮助您立即在web和移动上开始自动化测试"
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/Q80JTXYIteU?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
