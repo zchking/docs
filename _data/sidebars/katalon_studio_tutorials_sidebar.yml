@@ -147,6 +147,8 @@ items:
       tree:
         - title: "How to parse JSON responses in Katalon Studio"
           url: /katalon-studio/tutorials/parse_json_responses.html
+        - title: "How to verify API responses in Katalon Studio"
+          url: /katalon-studio/tutorials/verify-api-responses.html
     - title: "Mobile Testing"
       tree:
         - title: "Performing Pinch to Zoom In Action"
