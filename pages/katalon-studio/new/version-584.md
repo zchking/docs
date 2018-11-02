@@ -3,7 +3,7 @@ title: "Version 5.8.4"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-584.html
 redirect_from:
-    - "/katalon-studio/new/version-584/"
+ 
 
 description: Release notes v5.8.4
 ---
