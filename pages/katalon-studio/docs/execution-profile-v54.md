@@ -5,6 +5,7 @@ permalink: katalon-studio/docs/execution-profile-v54.html
 redirect_from:
     - "/x/xAHR/"
     - "/katalon-studio/docs/execution-profile-v54/"
+    - "/pages/viewpage.action?pageId=13697476/"
 description: 
 ---
 > Available since Katalon Studio v5.4

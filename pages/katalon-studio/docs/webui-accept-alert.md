@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/%5BWebUI%5D%20Accept%20Alert/"
     - "/x/RYcY/"
     - "/katalon-studio/docs/webui-accept-alert/"
+    - "/display/KD/Built-in+Keywords/"
+    - "/x/tQTR/"
 description: 
 ---
 Description

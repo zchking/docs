@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Desired%20Capabilities%20for%20Kobiton%20Devices/"
     - "/x/DQrR/"
     - "/katalon-studio/docs/desired-capabilities-for-kobiton-devices/"
+    - "/display/KD/Desired+capabilities+for+Kobiton+devices/"
 description: 
 ---
 > Prerequisites

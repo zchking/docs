@@ -12,37 +12,27 @@ redirect_from:
 
 description: Release notes v5.8.x
 ---
+Version 5.8.5
+-------------------
+* Fixed an issue where user cannot execute BDD Feature Files directly.
 
-Improvements
-----------------------------
----
-### **Version 5.8.4**
+Version 5.8.4
+-------------------
 * Allow duplicating test cases in the same test suite 
 * Correct generated verification code for XML responses 
 * Add NULL type back to Variable Type list
-
-### **Version 5.8.2 & Version 5.8.3**
-*   Add verification code directly from JSON and XML elements in the response Body by selecting the element and then hotkey (Ctrl/Command + K)
-*   Allow quick navigation to test objects from references in Script Mode 
-*   Added Save function to Draft Request
-*   Added "Variable" type to the variable type list of Object Parameter
-*   Changed in-app Welcome screen
-
-
-Bug Fixes
---------------------------
----
-
-### **Version 5.8.5**
-* Fixed an issue where user cannot execute BDD Feature Files directly.
-
-### **Version 5.8.4**
 * Fixed the 'Unable to resolve class internal.GlobalVariable' error generated on console mode execution 
 * Fixed the issue where verify SOAP response XML does not work in some projects 
 * Fixed the issue where user cannot Record/Spy with recent Firefox updates 
 * Fixed the issue where DELETE method for Restful API can't be executed 
 * Removed "Show Password" option in Project Settings 
 
-### **Version 5.8.2 & Version 5.8.3**
+Version 5.8.2 & Version 5.8.3
+-------------------
+*   Add verification code directly from JSON and XML elements in the response Body by selecting the element and then hotkey (Ctrl/Command + K)
+*   Allow quick navigation to test objects from references in Script Mode 
+*   Added Save function to Draft Request
+*   Added "Variable" type to the variable type list of Object Parameter
+*   Changed in-app Welcome screen
 *   Fixed a minor bug where some users cannot import WSDL URL
 *   Fixed HTTP Body form-urlencoded saving issue

@@ -7,11 +7,12 @@ redirect_from:
     - "/display/KD/Introduction%20to%20Web%20Services%20Test%20Object/"
     - "/x/BALR/"
     - "/katalon-studio/docs/introduction-to-web-services-test-object/"
+    - "/display/KD/Web+Service/"
 description: 
 ---
 Katalon Studio v5.4 introduces all-new Web Services Testing for both RESTful and SOAP. Functionalities and UI have been enhanced to provide the following benefits:
 
-*   Details information regard to Web Services [Request](/display/KD/Request) and its [Response](/display/KD/Response).
+*   Details information regard to Web Services Request and its Response.
 *   Separate Request and Response section for more advanced Web Services Testing.
 *   Automatically add query parameters to REST object details based on its Request URL.
 *   Support various types related to Request information.

@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Version%205.7.0/"
     - "/x/tRTR/"
     - "/katalon-studio/new/version-570/"
+    - "/display/KD/Version+5.7/"
 description:
 ---
 Cucumber Behavior-Driven Development (BDD) Testing Support

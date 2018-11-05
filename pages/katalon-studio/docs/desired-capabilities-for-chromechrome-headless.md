@@ -5,6 +5,7 @@ permalink: katalon-studio/docs/desired-capabilities-for-chromechrome-headless.ht
 redirect_from:
     - "/x/SgzR/"
     - "/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/"
+    - "/pages/viewpage.action?pageId=13700170/"
 description: 
 ---
 The Desired Capabilities available for Chrome is listed [here](http://chromedriver.chromium.org/capabilities). You can locate Chrome settings file at this path: **_<Project folder>\\settings\\internal\\com.kms.katalon.core.webui.chrome.properties._**

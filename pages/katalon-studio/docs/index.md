@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-studio/docs/index.html
 redirect_from:
   - "/index.html"
+  - "/display/KD/"
 ---
 Welcome to Katalon Knowledge Base! Here you can find Katalon products manual, tips and tricks on various topics, as well as guidelines to help you create successful test automation projects.
 
