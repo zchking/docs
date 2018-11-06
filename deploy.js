@@ -78,9 +78,9 @@ function run() {
   };
   s3.getObject(params, function (err, data) {
     if (err) {
-      console.error("Cannot get file: " + hash_file, err);
+      console.error('Cannot get file: ' + hash_file, err);
     } else {
-      console.log("Retrieved file: " + hash_file);
+      console.log('Retrieved file: ' + hash_file);
       hash_file_old = JSON.parse(data.Body.toString());
     }
 

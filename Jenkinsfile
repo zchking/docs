@@ -37,10 +37,7 @@ pipeline {
             }
             steps {
                 unstash '_site'
-                sh 'cd build'
-                sh 'npm install'
-                sh 'cd ../_site'
-                sh 'node app.js docs-staging.katalon.com ${env.BRANCH_NAME}'
+                sh "npm install && node deploy.js docs-staging.katalon.com ${env.BRANCH_NAME}"
             }
         }
 
