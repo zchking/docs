@@ -19,14 +19,28 @@ pipeline {
                 sh "mkdir -p _site/${env.BRANCH_NAME}"
                 sh 'bundle exec jekyll clean'
                 sh "bundle exec jekyll build --baseurl /${env.BRANCH_NAME} --destination _site/${env.BRANCH_NAME}"
+                stash includes: '_site/**/*', name: '_site'
             }
-            post {
-                success {
-                    withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
-                        s3Upload(file:'_site', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
-                        s3Upload(file:'robots.txt', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
-                    }
+        }
+
+        stage('Deploy staging') {
+            when {
+                not {
+                    branch 'master'
                 }
+            }
+            agent {
+                docker {
+                    image 'node'
+                    args '-v /$HOME/docker-cache-node:/tmp/docker-cache-node -e "HOME=/tmp/docker-cache-node"'
+                }
+            }
+            steps {
+                unstash '_site'
+                sh 'cd build'
+                sh 'npm install'
+                sh 'cd ../_site'
+                sh 'node app.js docs-staging.katalon.com ${env.BRANCH_NAME}'
             }
         }
 
