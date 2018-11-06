@@ -9,6 +9,10 @@ redirect_from:
     - "/katalon-studio/new/version-584/"
     - "/katalon-studio/new/version-585/"
     - "/katalon-studio/new/"
+    - "/katalon-studio/new/version-585.html"
+    - "/katalon-studio/new/version-582.html"
+    - "/katalon-studio/new/version-583.html"
+    - "/katalon-studio/new/version-584.html"
 
 description: Release notes v5.8.x
 ---
