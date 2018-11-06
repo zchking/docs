@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/Enable%20Kobiton%20Integration/"
     - "/x/7IEw/"
     - "/katalon-studio/docs/enable-kobiton-integration/"
+    - "/pages/viewpage.action?pageId=13697476/"
+    
 description: 
 ---
 Enable Kobiton Integration

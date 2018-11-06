@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Katalon%20Studio%20GUI%20%28beta%29%20for%20Linux/"
     - "/x/fwTR/"
     - "/katalon-studio/docs/katalon-studio-gui-beta-for-linux/"
+    - "/display/KD/Linux+Support/"
 description: 
 ---
 **Setup guide:**

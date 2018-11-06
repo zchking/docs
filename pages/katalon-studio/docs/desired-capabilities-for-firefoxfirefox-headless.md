@@ -5,6 +5,7 @@ permalink: katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.
 redirect_from:
     - "/x/TAzR/"
     - "/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/"
+    - "/pages/viewpage.action?pageId=13700172/"
 description: 
 ---
 You can locate Firefox settings file at this path: **_<Project folder>\\settings\\internal\\com.kms.katalon.core.webui.firefox.properties._**

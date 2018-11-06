@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Mobile%20on%20Windows/"
     - "/x/jwbR/"
     - "/katalon-studio/docs/mobile-on-windows/"
+    - "/pages/viewpage.action?pageId=786668/"
 description: 
 ---
 Katalon Studio Supported Environment on Windows

@@ -2,6 +2,8 @@
 title: "Common validation statements with Katalon Studio"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/common_validation_statements_katalon_studio.html
+redirect_from:
+    - "/tutorials/common-validation/"
 description: "This tutorial explain how to make use of common validation methods when designing your automation test with Katalon Studio."
 ---
 Katalon Studio supports two methods to validate. One is using built-in keywords to verify the states of certain test objects. Another is to use checkpoints to verify a specific data set against a previously captured data set. This tutorial explains how to make use of these methods when designing your automation test.
