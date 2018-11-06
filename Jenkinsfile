@@ -38,7 +38,7 @@ pipeline {
             steps {
                 unstash '_site'
                 withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
-                    sh "npm install && node deploy.js docs-staging.katalon.com ${env.BRANCH_NAME}"
+                    sh "npm install && cd _site && node ../deploy.js docs-staging.katalon.com ${env.BRANCH_NAME}"
                 }
             }
         }
