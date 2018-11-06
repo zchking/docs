@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Test%20Suite%20Collection/"
     - "/x/NgvR/"
     - "/katalon-studio/docs/test-suite-collection/"
+    - "/display/KD/Execute+a+test+suite+collection/"
 description: 
 ---
 A Test Suite Collection contains a list of test suites to allow users more options for planning their test execution. 

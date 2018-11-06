@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Installing%20WebDriverAgent%20for%20iOS%20devices/"
     - "/x/TwbR/"
     - "/katalon-studio/docs/installing-webdriveragent-for-ios-devices/"
+    - "/pages/viewpage.action?pageId=13698548/"
 description: 
 ---
 > Warning

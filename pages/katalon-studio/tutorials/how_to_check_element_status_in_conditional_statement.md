@@ -1,9 +1,10 @@
 ---
 title: "How to check element status in conditional statement?"
 sidebar: katalon_studio_tutorials_sidebar
-permalink: atalon-studio/tutorials/how_to_check_element_status_in_conditional_statement.html
+permalink: katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement.html
 description: "Tips and Tricks: How to check element status in conditional statement?"
 ---
+
 In Web UI functional testing, you may want to ensure that an element is clickable, present, or visible before performing further actions on the element. The function used in such a case is **verifyElementClickable** with this specification:
 
 ![verifyElementClickable](../../images/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_1.png)

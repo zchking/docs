@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/SOAP/"
     - "/x/LwLR/"
     - "/katalon-studio/docs/soap/"
+    - "/pages/viewpage.action?pageId=13697583/"
 description: 
 ---
 > *   Web Services Request can be parameterized. Refer to this [documentation](/x/egLR).

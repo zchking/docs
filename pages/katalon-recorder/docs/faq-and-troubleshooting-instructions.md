@@ -5,6 +5,7 @@ permalink: katalon-recorder/docs/faq-and-troubleshooting-instructions.html
 redirect_from:
     - "/x/7gHR/"
     - "/katalon-recorder/docs/faq-and-troubleshooting-instructions/"
+    - "/pages/viewpage.action?pageId=13697518/"
 description: 
 ---
 Product information

@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Execute%20a%20Test%20Case%20or%20a%20Test%20Suite/"
     - "/x/GAvR/"
     - "/katalon-studio/docs/execute-a-test-case-or-a-test-suite/"
+    - "/display/KD/Execute+a+test+suite/"
 description: 
 ---
 Katalon Studio allows you to run the entire test suite, or an individual test case. Before executing a test case or a test suite, keep in mind the [supported execution environments](/display/KD/Supported+Environments) by Katalon Studio. 

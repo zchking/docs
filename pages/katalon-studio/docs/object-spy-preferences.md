@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Object%20Spy%20Preferences/"
     - "/x/iw1O/"
     - "/katalon-studio/docs/object-spy-preferences/"
+    - "/pages/viewpage.action?pageId=5124006/"
 description: 
 ---
 You can access this preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
