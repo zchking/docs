@@ -41,7 +41,7 @@ function getFileHash(filename) {
 async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
   console.log('Process directory: ' + dir);
   return new Promise((resolve, reject) => {
-    fs.readdir(dir, (err, children) => {
+    fs.readdir(dir, async (err, children) => {
       if (err) {
         console.error('Cannot process directory: ', dir);
         reject(err);
