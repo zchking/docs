@@ -84,7 +84,7 @@ async function run() {
     Bucket: bucket,
     Key: trackFile
   };
-  s3.getObject(s3TrackFile, function (err, data) {
+  s3.getObject(s3TrackFile, async function (err, data) {
 
     var oldTrackFile;
     if (err) {
