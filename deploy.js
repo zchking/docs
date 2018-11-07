@@ -46,7 +46,7 @@ async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
         console.error('Cannot process directory: ', dir);
         reject(err);
       } else {
-        children.forEach(async (child, index) => {
+        for (var child of children) {
           var path;
           if (dir === '.') {
             path = child;
@@ -58,7 +58,7 @@ async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
           } else {
             processFile(newTrackFile, oldTrackFile, toBeUploaded, path);
           }
-        });
+        }
         resolve(children);
       }
     });
@@ -108,9 +108,9 @@ function run() {
     var toBeUploaded = [];
     await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.');
 
-    toBeUploaded.forEach(async (item) => {
-      await upload(bucket, item);
-    });
+    for (var file of toBeUploaded) {
+      await upload(bucket, file);
+    };
 
     await uploadTrackFile(bucket, trackFile, newTrackFile);
   });
