@@ -75,7 +75,7 @@ async function uploadTrackFile(trackFile, content) {
   return upload(bucket, trackFile);
 }
 
-function run() {
+async function run() {
 
   var bucket = process.argv[2];
   var trackFile = process.argv[3] + '.json'; // branch name or PR ID
@@ -84,7 +84,7 @@ function run() {
     Bucket: bucket,
     Key: trackFile
   };
-  s3.getObject(s3TrackFile, async function (err, data) {
+  s3.getObject(s3TrackFile, function (err, data) {
 
     var oldTrackFile;
     if (err) {
@@ -111,4 +111,4 @@ function run() {
   });
 }
 
-run();
+await run();
