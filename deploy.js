@@ -103,7 +103,7 @@ function run() {
     var toBeUploaded = [];
     await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.');
 
-    toBeUploaded.forEach((item) => {
+    toBeUploaded.forEach(async (item) => {
       await upload(bucket, item);
     });
 
