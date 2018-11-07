@@ -41,7 +41,7 @@ function getFileHash(filename) {
 async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
   console.log('Process directory: ' + dir);
   return new Promise((resolve, reject) => {
-    fs.readdir(dir).then((children) => {
+    fs.readdir(dir, (children) => {
       children.forEach(async (child, index) => {
         var path;
         if (dir === '.') {
