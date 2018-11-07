@@ -75,7 +75,7 @@ async function uploadTrackFile(trackFile, content) {
   return upload(bucket, trackFile);
 }
 
-async function run() {
+function run() {
 
   var bucket = process.argv[2];
   var trackFile = process.argv[3] + '.json'; // branch name or PR ID
@@ -84,7 +84,7 @@ async function run() {
     Bucket: bucket,
     Key: trackFile
   };
-  s3.getObject(s3TrackFile, function (err, data) {
+  s3.getObject(s3TrackFile, async function (err, data) {
 
     var oldTrackFile;
     if (err) {
@@ -101,7 +101,7 @@ async function run() {
 
     var newTrackFile = {};
     var toBeUploaded = [];
-    processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.');
+    await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.');
 
     toBeUploaded.forEach((item) => {
       await upload(bucket, item);
@@ -111,4 +111,4 @@ async function run() {
   });
 }
 
-await run();
+run();
