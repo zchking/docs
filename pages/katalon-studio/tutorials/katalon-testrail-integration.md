@@ -11,13 +11,13 @@ Nikita Bogdan, QA Engineer at [Alyce Inc.](https://www.alyce.com/) – Strategic
 
 ![](../../images/katalon-studio/tutorials/testrail-integration/Artboard 1 copy 2.png)
 
-## Introduction:      
+## Introduction      
 
 The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems. For instance, test execution results from Katalon Studio can be synchronized with test cases from TestRail, making it easier and more productive for testers to manage and report test coverage as well as test results.
 
 To execute this integration, you should have the basic knowledge of [Katalon Studio](https://www.katalon.com/), [TestRail](https://www.gurock.com/), [Groovy](http://groovy-lang.org/), [Katalon GlobalVariables](https://docs.katalon.com/katalon-studio/docs/create-global-variables-on-the-fly.html), [Custom Keywords](https://docs.katalon.com/katalon-studio/docs/sample-custom-keywords.html), [Test Listeners](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html), and Web Requests. 
 
-## Prerequisites:
+## Prerequisites
 
 **Katalon Studio**
 
@@ -66,7 +66,7 @@ GlobalVariable.G_run_testrail_tc_status
 }
 ```
 
-## Create custom keywords to interact with TestRail from Katalon Studio via API.
+## Create custom keywords to interact with TestRail from Katalon Studio via API
 
 This first method makes a GET request to TestRail to receive all test case IDs from your selected TestRail run. These IDs will be used later to update the execution results from Katalon Studio to TestRail.
 

@@ -56,5 +56,5 @@ Click on returned WebElement:
 
 ```groovy
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
-WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 ```

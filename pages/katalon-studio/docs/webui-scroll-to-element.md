@@ -20,6 +20,7 @@ Parameters
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
+| timeout | int | Required | System will wait at most timeout (seconds) to return result |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Example
@@ -53,7 +54,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 'Scroll to \'Book Appointment\' button'
-WebUI.scrollToElement(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+WebUI.scrollToElement(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 3)
 
 'Close browser'
 WebUI.closeBrowser()

@@ -17,7 +17,7 @@ Checkpoint is the **snapshot** of test data taken at a specific time. A checkpoi
 Create a Checkpoint from Test Data
 ----------------------------------
 
-1.  Select **File > New > Test Data** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **Test Data** as **Data Type**. Click **Next**.  
+1.  Select **File > New > Checkpoint** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **Test Data** as **Data Type**. Click **Next**.  
     ![](../../images/katalon-studio/docs/manage-checkpoints/image2017-2-6-133A543A6.png)  
       
     
@@ -34,7 +34,7 @@ Create a Checkpoint from Test Data
 Create an Excel Checkpoint
 --------------------------
 
-1.  Select **File > New > Test Data** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **Excel File** as **Data Type**. Click **Next**.  
+1.  Select **File > New > Checkpoint** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **Excel File** as **Data Type**. Click **Next**.  
     ![](../../images/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A253A30.png)  
       
     
@@ -51,7 +51,7 @@ Create an Excel Checkpoint
 Create a CSV Checkpoint
 -----------------------
 
-1.  Select **File > New > Test Data** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **CSV File** as **Data Type**. Click **Next**.  
+1.  Select **File > New > Checkpoint** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **CSV File** as **Data Type**. Click **Next**.  
     ![](../../images/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A413A1.png)  
       
     
@@ -66,7 +66,7 @@ Create a CSV Checkpoint
 Create a Database Checkpoint
 ----------------------------
 
-1.  Select **File > New > Test Data** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **Database Data** as **Data Type**. Click **Next**.  
+1.  Select **File > New > Checkpoint** from the main menu. The **New Checkpoint** dialog will be displayed. Enter the name for your checkpoint and select **Database Data** as **Data Type**. Click **Next**.  
     ![](../../images/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A433A42.png)  
       
     

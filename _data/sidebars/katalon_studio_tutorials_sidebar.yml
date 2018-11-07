@@ -111,6 +111,8 @@ items:
           url: /katalon-studio/tutorials/git_conflict_resolve.html
         - title: "How to perform Database Testing using Katalon Studio"
           url: /katalon-studio/tutorials/connect_db_gui_testing.html
+        - title: "How to use a custom keyword from other custom keywords and step definition classes"
+          url: /katalon-studio/tutorials/how-to-use-custom-keyword-in-groovy-class.html
     - title: "Web Testing"
       tree:
         - title: "Generating reliable object selector using Spy Web utility"
@@ -149,6 +151,8 @@ items:
       tree:
         - title: "How to parse JSON responses in Katalon Studio"
           url: /katalon-studio/tutorials/parse_json_responses.html
+        - title: "How to verify API responses in Katalon Studio"
+          url: /katalon-studio/tutorials/verify-api-responses.html
     - title: "Mobile Testing"
       tree:
         - title: "Performing Pinch to Zoom In Action"
