@@ -41,21 +41,26 @@ function getFileHash(filename) {
 async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
   console.log('Process directory: ' + dir);
   return new Promise((resolve, reject) => {
-    fs.readdir(dir, (children) => {
-      children.forEach(async (child, index) => {
-        var path;
-        if (dir === '.') {
-          path = child;
-        } else {
-          path = dir + '/' + child;
-        }
-        if (fs.lstatSync(path).isDirectory()) {
-          await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, path);
-        } else {
-          processFile(newTrackFile, oldTrackFile, toBeUploaded, path);
-        }
-      });
-      resolve(children);
+    fs.readdir(dir, (err, children) => {
+      if (err) {
+        console.error('Cannot process directory: ', dir);
+        reject(err);
+      } else {
+        children.forEach(async (child, index) => {
+          var path;
+          if (dir === '.') {
+            path = child;
+          } else {
+            path = dir + '/' + child;
+          }
+          if (fs.lstatSync(path).isDirectory()) {
+            await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, path);
+          } else {
+            processFile(newTrackFile, oldTrackFile, toBeUploaded, path);
+          }
+        });
+        resolve(children);
+      }
     });
   });
 }
