@@ -4,7 +4,7 @@ var crypto = require('crypto');
 
 var s3 = new AWS.S3();
 
-async function upload(bucket, key) {
+function upload(bucket, key) {
   console.log('Upload file: ' + key);
   return new Promise((resolve, reject) => {
     fs.readFile(key, function (err, data) {
@@ -38,14 +38,15 @@ function getFileHash(filename) {
   return crypto.createHash('md5').update(data).digest('hex');
 }
 
-async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
+function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
   console.log('Process directory: ' + dir);
   return new Promise((resolve, reject) => {
-    fs.readdir(dir, async (err, children) => {
+    fs.readdir(dir, (err, children) => {
       if (err) {
         console.error('Cannot process directory: ', dir);
         reject(err);
       } else {
+        var promises = [];
         for (var child of children) {
           var path;
           if (dir === '.') {
@@ -54,12 +55,12 @@ async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
             path = dir + '/' + child;
           }
           if (fs.lstatSync(path).isDirectory()) {
-            await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, path);
+            promises.push(processDirectory(newTrackFile, oldTrackFile, toBeUploaded, path));
           } else {
             processFile(newTrackFile, oldTrackFile, toBeUploaded, path);
           }
         }
-        resolve(children);
+        Promise.all(promises).then(resolve);
       }
     });
   });
@@ -75,9 +76,19 @@ function processFile(newTrackFile, oldTrackFile, toBeUploaded, path) {
   }
 }
 
-async function uploadTrackFile(bucket, trackFile, content) {
-  fs.writeFileSync(trackFile, JSON.stringify(content));
-  return upload(bucket, trackFile);
+function uploadTrackFile(bucket, trackFile, content) {
+  return new Promise((resolve, reject) => {
+    fs.writeFile(trackFile, JSON.stringify(content), (err) => {
+      if (err) {
+        console.error('Cannot write track file');
+        reject(err);
+      } else {
+        upload(bucket, trackFile).then(() => {
+          resolve();
+        });
+      }
+    });
+  });
 }
 
 function run() {
@@ -89,7 +100,7 @@ function run() {
     Bucket: bucket,
     Key: trackFile
   };
-  s3.getObject(s3TrackFile, async function (err, data) {
+  s3.getObject(s3TrackFile, function (err, data) {
 
     var oldTrackFile;
     if (err) {
@@ -102,17 +113,20 @@ function run() {
 
     // delete the old track file in case this process is interrupted,
     // the next one will start over
-    await uploadTrackFile(bucket, trackFile, {});
+    return uploadTrackFile(bucket, trackFile, {}).then(() => {
+      var newTrackFile = {};
+      var toBeUploaded = [];
+      return processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.').then(() => {
 
-    var newTrackFile = {};
-    var toBeUploaded = [];
-    await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.');
+        var promises = toBeUploaded.map((file) => {
+          return upload(bucket, file);
+        });
 
-    for (var file of toBeUploaded) {
-      await upload(bucket, file);
-    };
-
-    await uploadTrackFile(bucket, trackFile, newTrackFile);
+        return Promise.all(promises).then(() => {
+          return uploadTrackFile(bucket, trackFile, newTrackFile)
+        });
+      });
+    });
   });
 }
 
