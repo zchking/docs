@@ -41,6 +41,13 @@ pipeline {
                     sh "npm install && cd _site && node ../deploy.js docs-staging.katalon.com ${env.BRANCH_NAME}"
                 }
             }
+            post {
+                always {
+                    withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
+                        s3Upload(file:'robots.txt', bucket:'docs-staging.katalon.com', path:'', acl:'PublicRead')
+                    }
+                }
+            }
         }
 
         stage('Build production') {
