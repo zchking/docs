@@ -1,44 +1,33 @@
 var AWS = require('aws-sdk');
 var fs = require('fs');
 var crypto = require('crypto');
+
 var s3 = new AWS.S3();
 
-var bucket = process.argv[2];
-
-var site = process.argv[3]; // branch name or PR ID
-
-var hash_file_new = {};
-
-var hash_file_old = {};
-
-var list_file_upload = [];
-
-var hash_file = site + '.json';
-
-function upload(Bucket, Key) {
-  console.log('Upload file: ' + Key);
+async function upload(bucket, key) {
+  console.log('Upload file: ' + key);
   return new Promise((resolve, reject) => {
-    fs.readFile(Key, function (err, data) {
+    fs.readFile(key, function (err, data) {
       if (err) {
-        console.error('Cannot read file: ' + Key);
+        console.error('Cannot read file: ' + key);
         reject(err);
+      } else {
+        var s3File = {
+          Bucket: bucket,
+          Key: key,
+          ACL: 'public-read',
+          Body: data
+        };
+        s3.putObject(s3File, function (err, data) {
+          if (err) {
+            console.error('Cannot upload: ' + key);
+            reject(err);
+          } else {
+            console.log('Uploaded: ' + key);
+            resolve(data);
+          }
+        });
       }
-      var params = {
-        Bucket: Bucket,
-        Key: Key,
-        ACL: 'public-read',
-        Body: data
-      };
-      s3.putObject(params, function (err, data) {
-        if (err) {
-          console.error('Cannot upload: ' + Key);
-          reject(err);
-        } else {
-          console.log('Uploaded: ' + Key);
-          resolve(data);
-        }
-      });
-
     });
   })
 }
@@ -49,55 +38,76 @@ function getFileHash(filename) {
   return crypto.createHash('md5').update(data).digest('hex');
 }
 
-function processDirectory(dir) {
-  var children = fs.readdirSync(dir);
-  children.forEach((child, index) => {
-    var path = dir + '/' + child;
-    if (fs.lstatSync(path).isDirectory()) {
-      processDirectory(path);
-    } else {
-      processFile(path);
-    }
+async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
+  console.log('Process directory: ' + dir);
+  return new Promise((resolve, reject) => {
+    fs.readdir(dir).then((children) => {
+      children.forEach((child, index) => {
+        var path;
+        if (dir === '.') {
+          path = child;
+        } else {
+          path = dir + '/' + child;
+        }
+        if (fs.lstatSync(path).isDirectory()) {
+          await processDirectory(newTrackFile, oldTrackFile, toBeUploaded, path);
+        } else {
+          processFile(newTrackFile, oldTrackFile, toBeUploaded, path);
+        }
+      });
+      resolve(children);
+    });
   });
 }
 
-function processFile(path) {
+function processFile(newTrackFile, oldTrackFile, toBeUploaded, path) {
   var hash = getFileHash(path);
   // keep hash
-  hash_file_new[path] = hash;
+  newTrackFile[path] = hash;
   // check modified
-  if (hash_file_old[path] != hash) {
-    list_file_upload.push(path);
+  if (oldTrackFile[path] != hash) {
+    toBeUploaded.push(path);
   }
 }
 
+async function uploadTrackFile(trackFile, content) {
+  fs.writeFileSync(trackFile, JSON.stringify(content));
+  return upload(bucket, trackFile);
+}
+
 function run() {
-  var params = {
+
+  var bucket = process.argv[2];
+  var trackFile = process.argv[3] + '.json'; // branch name or PR ID
+
+  var s3TrackFile = {
     Bucket: bucket,
-    Key: hash_file
+    Key: trackFile
   };
-  s3.getObject(params, function (err, data) {
+  s3.getObject(s3TrackFile, function (err, data) {
+
+    var oldTrackFile;
     if (err) {
-      console.error('Cannot get file: ' + hash_file, err);
+      console.error('Cannot get file: ' + trackFile, err);
+      oldTrackFile = {};
     } else {
-      console.log('Retrieved file: ' + hash_file);
-      hash_file_old = JSON.parse(data.Body.toString());
+      console.log('Retrieved file: ' + trackFile);
+      oldTrackFile = JSON.parse(data.Body.toString());
     }
 
-    processDirectory(site);
+    // delete the old track file in case this process is interrupted,
+    // the next one will start over
+    await uploadTrackFile(trackFile, {});
 
-    //upload all of file to S3
-    var list_promise_upload_file = list_file_upload.map((item) => {
-      upload(bucket, item);
+    var newTrackFile = {};
+    var toBeUploaded = [];
+    processDirectory(newTrackFile, oldTrackFile, toBeUploaded, '.');
+
+    toBeUploaded.forEach((item) => {
+      await upload(bucket, item);
     });
 
-    //upload new hashfile to server only finished upload all file
-    Promise.all(list_promise_upload_file).then(() => {
-      //write new hashfile.json
-      fs.writeFileSync(hash_file, JSON.stringify(hash_file_new));
-      upload(bucket, hash_file);
-    });
-
+    await uploadTrackFile(trackFile, newTrackFile);
   });
 }
 
