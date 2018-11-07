@@ -70,7 +70,7 @@ function processFile(newTrackFile, oldTrackFile, toBeUploaded, path) {
   }
 }
 
-async function uploadTrackFile(trackFile, content) {
+async function uploadTrackFile(bucket, trackFile, content) {
   fs.writeFileSync(trackFile, JSON.stringify(content));
   return upload(bucket, trackFile);
 }
@@ -97,7 +97,7 @@ function run() {
 
     // delete the old track file in case this process is interrupted,
     // the next one will start over
-    await uploadTrackFile(trackFile, {});
+    await uploadTrackFile(bucket, trackFile, {});
 
     var newTrackFile = {};
     var toBeUploaded = [];
@@ -107,7 +107,7 @@ function run() {
       await upload(bucket, item);
     });
 
-    await uploadTrackFile(trackFile, newTrackFile);
+    await uploadTrackFile(bucket, trackFile, newTrackFile);
   });
 }
 
