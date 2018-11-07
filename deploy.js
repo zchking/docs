@@ -42,7 +42,7 @@ async function processDirectory(newTrackFile, oldTrackFile, toBeUploaded, dir) {
   console.log('Process directory: ' + dir);
   return new Promise((resolve, reject) => {
     fs.readdir(dir).then((children) => {
-      children.forEach((child, index) => {
+      children.forEach(async (child, index) => {
         var path;
         if (dir === '.') {
           path = child;
@@ -75,7 +75,7 @@ async function uploadTrackFile(trackFile, content) {
   return upload(bucket, trackFile);
 }
 
-async function run() {
+function run() {
 
   var bucket = process.argv[2];
   var trackFile = process.argv[3] + '.json'; // branch name or PR ID
@@ -84,7 +84,7 @@ async function run() {
     Bucket: bucket,
     Key: trackFile
   };
-  s3.getObject(s3TrackFile, async function (err, data) {
+  s3.getObject(s3TrackFile, function (err, data) {
 
     var oldTrackFile;
     if (err) {
@@ -111,4 +111,4 @@ async function run() {
   });
 }
 
-await run();
+run();
