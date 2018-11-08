@@ -1,11 +1,11 @@
 ---
-title: "API/Web Service Project (since V5.8)" 
+title: "API/Web Service Project (since V5.8)"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/apiweb-service-project-since-v58.html 
+permalink: katalon-studio/docs/apiweb-service-project-since-v58.html
 redirect_from:
     - "/x/MBbR/"
     - "/katalon-studio/docs/apiweb-service-project-since-v58/"
-description: 
+description:
 ---
 Katalon Studio 5.8 introduces the new API/Web Service testing project. This significantly improved feature allows you to separate the API/Web Service testing procedures from Web UI and mobile testing - less confusion for your projects. You can also perform more API/Web Service automation tasks on Katalon Studio such as _Quickstart wizard_, _Import Swagger or WSDL_ definition File/URL directly, or retrieve _request history_ at any time. 
 
