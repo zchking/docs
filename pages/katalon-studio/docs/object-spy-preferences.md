@@ -1,14 +1,13 @@
 ---
-title: "Object Spy Preferences" 
+title: "Object Spy Preferences"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/object-spy-preferences.html 
+permalink: katalon-studio/docs/object-spy-preferences.html
 redirect_from:
     - "/display/KD/Object+Spy+Preferences/"
     - "/display/KD/Object%20Spy%20Preferences/"
     - "/x/iw1O/"
     - "/katalon-studio/docs/object-spy-preferences/"
-    - "/pages/viewpage.action?pageId=5124006/"
-description: 
+description:
 ---
 You can access this preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
 
