@@ -7,7 +7,7 @@ redirect_from:
     - "/display/KD/Test%20Case%20Preferences/"
     - "/x/ZIUw/"
     - "/katalon-studio/docs/test-case-preferences/"
-    - "/pages/viewpage.action?pageId=5123998/"
+ 
 description: 
 ---
 All the preferences under **Test Case** group are for controlling the default behavior that Katalon Studio should perform when test cases are designed.
