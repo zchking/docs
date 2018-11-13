@@ -1,15 +1,14 @@
 ---
-title: "Setup/Teardown for Test Suite and Test Case" 
+title: "Setup/Teardown for Test Suite and Test Case"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html 
+permalink: katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
 redirect_from:
     - "/x/E4C9/"
     - "/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/"
-    - "/pages/viewpage.action?pageId=12419091/"
-description: 
+description:
 ---
 > Available since Katalon Studio v5.3
-> 
+>
 > For full lifecycle of Tests in Katalon Studio, refer to this [documentation](/x/7zhO).
 
 Every test suite from your projects now has been equipped with the ability to run either **SetUp** or **Teardown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
@@ -29,7 +28,7 @@ Methods consideration
 ---------------------
 
 *   Execution progress from these methods still have execution logs as usual and they will be stored in execution logs files of Katalon Studio.
-    
+
 *   You can't see setUp and teardown executed reports from generated Test Suite report. Only **setUpTestCase** and **tearDownTestCase** can be seen in generated Test Suite report
-*   Test Listeners will always be triggered first if you define both Test Listeners and activate Setup / Teardown methods at the same time.  
+*   Test Listeners will always be triggered first if you define both Test Listeners and activate Setup / Teardown methods at the same time.
     ![](../../images/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png)
