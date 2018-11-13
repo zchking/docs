@@ -282,9 +282,9 @@ $(function() {
                 //do nothing :D
             }
             else {
-                window.location.href = '{{ site.baseurl }}' + $(".ais-hits .autocompleteTitle:first a").attr("href");
+                window.location.href = $(".ais-hits .autocompleteTitle:first a").attr("href");
             }
         });
-        
+
     })();
 });
