@@ -276,7 +276,7 @@ $(function() {
             100
         )
 
-        $("form").submit(function(e){
+        $("form.search-form").submit(function(e){
             e.preventDefault();
         });
 
