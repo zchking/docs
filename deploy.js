@@ -1,6 +1,7 @@
 var AWS = require('aws-sdk');
 var fs = require('fs');
 var crypto = require('crypto');
+var mime = require('mime-types');
 
 var s3 = new AWS.S3();
 
@@ -12,12 +13,16 @@ function upload(bucket, key) {
         console.error('Cannot read file: ' + key);
         reject(err);
       } else {
+        var contentType = mime.lookup(key);
         var s3File = {
           Bucket: bucket,
           Key: key,
           ACL: 'public-read',
           Body: data
         };
+        if (contentType) {
+          s3File.ContentType = contentType;
+        }
         s3.putObject(s3File, function (err, data) {
           if (err) {
             console.error('Cannot upload: ' + key);
