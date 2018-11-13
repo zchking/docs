@@ -23,7 +23,38 @@ In **Test Explorer** view, double-click on a historical execution of a test suit
 
 where:
 
-<table><thead><tr><th>Component</th> <th>Description</th> </tr></thead><tbody><tr><td>Test Cases Table</td> <td>List of executed test cases.</td> </tr><tr><td>Summary</td> <td>Summary information of executed environment.</td> </tr><tr><td>Execution Settings</td> <td>Settings for execution which include information about how to handle a failed test case, page loading timeout, etc. For example:<p></p><p><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Settings1.png"></p></td></tr><tr><td>Execution Environment</td> <td>Information concerning the execution environment, including Host Name, Operating System (os), Katalon Studio version, browser, etc. For example:<p></p><p><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Environment.png"></p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Test Cases Table</td>
+            <td>List of executed test cases.</td>
+        </tr>
+        <tr>
+            <td>Summary</td>
+            <td>Summary information of executed environment.</td>
+        </tr>
+        <tr>
+            <td>Execution Settings</td>
+            <td>
+                Settings for execution which include information about how to handle a failed test case, page loading timeout, etc. For example:
+                <p><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Settings1.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Execution Environment</td>
+            <td>
+                Information concerning the execution environment, including Host Name, Operating System (os), Katalon Studio version, browser, etc. For example:
+                <p><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Execution-Environment.png"></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 Test Cases List
 ---------------
@@ -34,7 +65,32 @@ Test Cases List
 
 Users can easily determine what information to display by using the filters.
 
-<table><thead><tr><th>Filter</th> <th>Description</th> </tr></thead><tbody><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed1.png">Passed </td> <td>Show only iterations which are passed.</td> </tr> <tr> <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed1.png"><br>Failed</td> <td>Show only iterations which are failed.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error1.png"><br>Error</td> <td>Show only iterations having errors.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete.png"><br>Incomplete</td> <td>Show only incomplete iterations</td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Filter</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed1.png">Passed </td>
+            <td>Show only iterations which are passed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed1.png">Failed</td>
+            <td>Show only iterations which are failed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error1.png">Error</td>
+            <td>Show only iterations having errors.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete.png">Incomplete</td>
+            <td>Show only incomplete iterations</td>
+        </tr>
+    </tbody>
+</table>
 
 *   By selecting an **iteration** in **Test Case Table** and click **Show Test Case Details**, you can view details regarding its executed logs.
 *   If **qTest** and **JIRA** are configured in Project Settings, you can submit the results to these systems. Refer to [qTest Integration](/display/KD/qTest+Integration) and [JIRA Integration](/display/KD/JIRA+Integration) for more details.
@@ -62,16 +118,92 @@ Test Case's Log
 
 ### Test Log Tab
 
-*   Details of the executed steps and their status are displayed in this tab.  
+*   Details of the executed steps and their status are displayed in this tab.
     ![Details of the executed steps](../../images/katalon-studio/tutorials/viewing_test_suite_reports/Test-Cases-Log.png)
 
 Detail of the items:
 
-<table><thead><tr><th>Component</th> <th>Description</th> </tr></thead><tbody><tr><td>Log Information</td> <td>Information of the selected iteration in the <b>Test Case's Log</b> section:<p></p><ul><li><ul><li><b>Name</b> of the test step (the name of the keyword used in the test step)</li><li>Execution <b>Start/End</b> date time and duration</li><li><b>Description</b> of the test step</li><li>Any system <b>Message</b> raised when the test step is executed.</li></ul></li></ul></td></tr><tr><td>Log Image</td> <td>The screenshot taken from the application under test, it is captured in either of the following situations:<p></p><ul><li><ul><li>An error occurs during test execution</li><li>The <a href="/display/KD/%5BWebUI%5D+Take+Screenshot">Take Screenshot</a> keyword is used</li></ul></li></ul></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Log Information</td>
+            <td>
+                Information of the selected iteration in the <b>Test Case's Log</b> section:
+                <ul>
+                    <li>
+                        <ul>
+                            <li><b>Name</b> of the test step (the name of the keyword used in the test step)</li>
+                            <li>Execution <b>Start/End</b> date time and duration</li>
+                            <li><b>Description</b> of the test step</li>
+                            <li>Any system <b>Message</b> raised when the test step is executed.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Log Image</td>
+            <td>
+                The screenshot taken from the application under test, it is captured in either of the following situations:
+                <ul>
+                    <li>
+                        <ul>
+                            <li>An error occurs during test execution</li>
+                            <li>The <a href="/display/KD/%5BWebUI%5D+Take+Screenshot">Take Screenshot</a> keyword is used</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 *   Users can easily determine which type of information to be displayed by using the provided filters:
 
-<table><thead><tr><th>Filter</th> <th>Description</th> </tr></thead><tbody><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Info1.png"><br>Info</td> <td>Show the messages logged for information/reference.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed-2.png"><br>Passed</td> <td>Show the steps which are successfully executed.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed-2.png"><br>Failed</td> <td>Show the steps which failed to execute.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error-2.png"><br>Error</td> <td>Show the steps having errors.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete-2.png"><br>Incomplete</td> <td>Show incomplete steps.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Warning1.png"><br>Warning</td> <td>Show the steps which have warning status.</td> </tr><tr><td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Not-Run1.png"><br>Not Run</td> <td>Show the skipped steps.</td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Filter</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Info1.png">Info</td>
+            <td>Show the messages logged for information/reference.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Passed-2.png">Passed</td>
+            <td>Show the steps which are successfully executed.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Failed-2.png">Failed</td>
+            <td>Show the steps which failed to execute.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Error-2.png">Error</td>
+            <td>Show the steps having errors.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Incomplete-2.png">Incomplete</td>
+            <td>Show incomplete steps.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Warning1.png">Warning</td>
+            <td>Show the steps which have warning status.</td>
+        </tr>
+        <tr>
+            <td><img src="../../images/katalon-studio/tutorials/viewing_test_suite_reports/Not-Run1.png">Not Run</td>
+            <td>Show the skipped steps.</td>
+        </tr>
+    </tbody>
+</table>
 
 *   If **JIRA** is configured in Project Settings, users can submit a ticket to this system. Refer to [JIRA Integration](/display/KD/JIRA+Integration) for more details.
 *   Screenshots are taken for the failed steps and users can hover the mouse cursor over the attachment icon to review.
