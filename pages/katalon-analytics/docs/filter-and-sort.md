@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KA/Filter%20and%20Sort/"
     - "/x/ZgTR/"
     - "/katalon-analytics/docs/filter-and-sort/"
+image: ../../images/katalon-analytics/docs/filter-and-sort/Screen-Shot-2018-05-30-at-2.07.20-PM.png
 description: 
 ---
 Katalon Analytics allows you to filter and sort any tables to view the execution information that matters. Any issues or trouble areas can be quickly drilled-down to with provided quality insights.
