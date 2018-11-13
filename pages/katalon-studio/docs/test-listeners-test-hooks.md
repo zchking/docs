@@ -1,11 +1,11 @@
 ---
-title: "Test Listeners (Test Hooks)" 
+title: "Test Listeners (Test Hooks)"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/test-listeners-test-hooks.html 
+permalink: katalon-studio/docs/test-listeners-test-hooks.html
 redirect_from:
     - "/x/7zhO/"
     - "/katalon-studio/docs/test-listeners-test-hooks/"
-description: 
+description:
 ---
 > Available since Katalon Studio v[5.2](/display/KD/Version+5.2)
 
@@ -28,7 +28,7 @@ When creating a new test listener, you can see there are 4 options in **New Test
 | --- | --- |
 | Generate sample After Test Case method | A sample listener will be generated **after every** test case ends. |
 | Generate sample Before Test Suite method | A sample listener will be generated **before every** test suite starts. |
-| Generate sample Before Test Suite method | A sample listenerwill be generated **after every** test suite ends. |
+| Generate sample After Test Suite method | A sample listenerwill be generated **after every** test suite ends. |
 
 You can select **one** or **multiple** options. Once finished, Katalon Studio will generate a sample template accordingly:
 

@@ -24,6 +24,7 @@ API/Web Service Project
 There are two ways to import existing WSDL request:
 
 *   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From WSDL.**
+
 *   Click on '**Import WSDL**' icon on the main toolbar or Quickstart wizard.   
     ![](../../images/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-09-at-4.41.24-PM.png)  
       
@@ -33,8 +34,7 @@ Katalon Studio displays the input dialog accepts either a local File or a remot
 
 ![](../../images/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-02-at-13.29.39.png)
 
-**  
-Katalon Studio automatically imports and generates:**
+**Katalon Studio automatically imports and generates:**
 
 > You will need to manually provide in the inputs for the Request Message.
 

@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KA/Overview/"
     - "/x/6RHR/"
     - "/katalon-analytics/docs/overview/"
+    - "/display/KA/"
 description: 
 ---
 What is Katalon Analytics?

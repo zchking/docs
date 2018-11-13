@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Parameterize%20a%20Web%20Service%20Object/"
     - "/x/egLR/"
     - "/katalon-studio/docs/parameterize-a-web-service-object/"
+    - "/display/KD/Parameterize+a+Web+Service+object/"
 description: 
 ---
 > Starting with version 5.7, Katalon Studio provides **Variables** for RESTful and SOAP Web Service Test Objects.

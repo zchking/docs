@@ -2,6 +2,9 @@
 title: "Data-driven testing approach with Katalon Studio"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/data_driven_testing.html
+redirect_from:
+    - "/katalon-studio/tutorials/data-driven-testing/"
+
 description: "Data-driven testing is a testing method using the tables of test data. This article will show you how to apply data-driven testing using Katalon Studio."
 ---
 1.  [What is Data-driven testing?](#what-is-data-driven-testing)
@@ -26,7 +29,7 @@ In the control methodology, the external information is "read" from a database t
 *   CSV files
 *   ODBC sources
 
-The most simple way to better understand the explanation of this data testing approach could be under a record of an automated test. In some cases, the values you select during record may not generate any bugs or errors but the external values which is missed during the records may lead them. Then, it is when the tester needs a set of database to diversify their testing inputs.  
+The most simple way to better understand the explanation of this data testing approach could be under a record of an automated test. In some cases, the values you select during record may not generate any bugs or errors but the external values which is missed during the records may lead them. Then, it is when the tester needs a set of database to diversify their testing inputs.
 Also, if there is any change you want to make like putting more or cutting down the data, you are totally free to reshape and customize without causing harm to the hard-coded value. If the change is in hard-coded value itself, so yes, you have to change both in code and data.
 
 Data-driven framework can be best understood by the following diagram:

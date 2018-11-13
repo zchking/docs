@@ -13,4 +13,75 @@ For manually replacing and updating other versions of WebDrivers and Selenium, p
 
 > Katalon Studio team strongly suggest users **NOT** to manually replace or update any WebDrivers. Any changes in drivers may cause runtime bugs for Katalon Studio application.
 
-<table><thead><tr><th>Katalon Studio V5.1.0</th><th>How to Replace&nbsp;</th></tr></thead><tbody><tr><td>&nbsp;</td><td><strong>Windows</strong></td><td><strong>MAC OSX</strong></td></tr><tr><td>Selenium <a class="external-link" href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG" rel="nofollow">3.7.1</a></td><td><ul><li><strong>Download </strong>the desired Selenium version <a class="external-link" href="http://selenium-release.storage.googleapis.com/index.html" rel="nofollow">here</a> (Select <strong>only</strong> Selenium 3.0+ and higher version than 3.7.1)</li><li><strong>Delete</strong> existing selenium-server-standalone-3.x.jar<br></li><li><strong>Copy</strong> preferred <strong>driver</strong> into this folder<br>&lt;Katalon Studio folder&gt;\configuration\resources\lib</li></ul></td><td><p>&nbsp;</p><ul><li>&nbsp;/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib</li></ul></td></tr><tr><td>Chromedriver <a class="external-link" href="https://chromedriver.storage.googleapis.com/2.33/notes.txt" rel="nofollow">2.33</a></td><td><ul><li><strong>Download </strong>preferred Chromedriver <a class="external-link" href="https://sites.google.com/a/chromium.org/chromedriver/downloads" rel="nofollow">here</a></li><li><strong>Copy</strong> downloaded Chromedriver and <strong>paste</strong> into Katalon Studio folder</li></ul><blockquote class="important"><p>You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.</p></blockquote><ul><li><ul><li>&lt;Katalon Studiofolder&gt;\configuration\resources\drivers\chromedriver_win32</li><li>&lt;Katalon Studiofolder&gt;\configuration\resources\drivers\chromedriver_win64</li></ul></li></ul></td><td><p>&nbsp;</p><ul><li>/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver_mac</li></ul></td></tr><tr><td>Firefox (Gecko Driver) <a class="external-link" href="https://github.com/mozilla/geckodriver/releases/tag/v0.19.0" rel="nofollow">0.19</a></td><td><ul><li><strong>Download </strong>preferred Gecko Driver <a class="external-link" href="https://github.com/mozilla/geckodriver/releases" rel="nofollow">here</a><strong><br></strong></li><li><strong>Copy</strong> downloaded Gecko driver and <strong>paste</strong> into Katalon Studio folder<ul><li>&lt;Katalon Studio folder&gt;\configuration\resources\drivers\firefox_win32</li><li>&lt;Katalon Studio folder&gt;\configuration\resources\drivers\firefox_win64</li></ul></li></ul></td><td><p>&nbsp;</p><ul><li>/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox_mac</li></ul></td></tr><tr><td>IEDriverServer <a class="external-link" href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG" rel="nofollow">3.6.0</a></td><td><ul><li>Download preferred IEDriver <a class="external-link" href="http://selenium-release.storage.googleapis.com/index.html" rel="nofollow">here</a></li><li><strong>Copy</strong> downloaded IEDriverServer and <strong>paste</strong> into Katalon Studio folder</li><li>&lt;Katalon Studio folder&gt;\configuration\resources\drivers\iedriver_win32</li><li>&lt;Katalon Studio folder&gt;\configuration\resources\drivers\iedriver_win64</li></ul></td><td>&nbsp;</td></tr></tbody></table>
+## How to Replace 
+
+> For Katalon Studio v5.1.0 and later 
+
+### **WINDOWS**
+
+**Selenium**
+<a href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG" class="external-link">3.7.1</a>
+
+-   **Download** the desired Selenium version
+    <a href="http://selenium-release.storage.googleapis.com/index.html" class="external-link">here</a>
+    (Select **only** Selenium 3.0+ and higher version than 3.7.1)
+-   **Delete** existing selenium-server-standalone-3.x.jar  
+-   **Copy** preferred **driver** into this folder  
+    &lt;Katalon Studio folder&gt;\\configuration\\resources\\lib
+
+
+**Chromedriver**
+<a href="https://chromedriver.storage.googleapis.com/2.33/notes.txt" class="external-link">2.33</a>
+
+-   **Download** preferred Chromedriver
+    <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads" class="external-link">here</a>
+-   **Copy** downloaded Chromedriver and **paste** into Katalon Studio
+    folder
+
+> You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit
+> Windows.
+
+-   -   &lt;Katalon
+        Studiofolder&gt;\\configuration\\resources\\drivers\\chromedriver\_win32
+    -   &lt;Katalon
+        Studiofolder&gt;\\configuration\\resources\\drivers\\chromedriver\_win64
+
+
+**Firefox (Gecko Driver)**
+<a href="https://github.com/mozilla/geckodriver/releases/tag/v0.19.0" class="external-link">0.19</a>
+
+-   **Download** preferred Gecko Driver
+    <a href="https://github.com/mozilla/geckodriver/releases" class="external-link">here</a>**  
+    **
+-   **Copy** downloaded Gecko driver and **paste** into Katalon Studio
+    folder
+    -   &lt;Katalon Studio
+        folder&gt;\\configuration\\resources\\drivers\\firefox\_win32
+    -   &lt;Katalon Studio
+        folder&gt;\\configuration\\resources\\drivers\\firefox\_win64
+
+**IEDriverServer**
+<a href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG" class="external-link">3.6.0</a>
+
+Download preferred IEDriver
+<a href="http://selenium-release.storage.googleapis.com/index.html" class="external-link">here</a>
+
+### **MAC OSX**
+
+**Selenium**
+<a href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG" class="external-link">3.7.1</a>
+
+-    /Applications/Katalon
+    Studio.app/Contents/Eclipse/configuration/resources/lib
+
+**Chromedriver**
+<a href="https://chromedriver.storage.googleapis.com/2.33/notes.txt" class="external-link">2.33</a>
+
+-   /Applications/Katalon
+    Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver\_mac
+
+**Firefox (Gecko Driver)**
+<a href="https://github.com/mozilla/geckodriver/releases/tag/v0.19.0" class="external-link">0.19</a>
+
+-   /Applications/Katalon
+    Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox\_mac

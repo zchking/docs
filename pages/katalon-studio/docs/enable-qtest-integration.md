@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Enable%20qTest%20Integration/"
     - "/x/m4Ew/"
     - "/katalon-studio/docs/enable-qtest-integration/"
+    - "/display/KD/qTest+Integration/"
 description: 
 ---
 Enable qTest Integration
