@@ -275,5 +275,25 @@ $(function() {
             },
             100
         )
+
+        $("form").submit(function(e){
+            e.preventDefault();
+        });
+
+        $('.ais-search-box--input').on("keyup", function(event){
+            //console.log(456);
+            if(event.keyCode == 13){
+                //console.log(123);
+                //console.log($(".ais-hits .autocompleteTitle:first a").attr("href"));
+                if($(".ais-hits").hasClass("ais-hits__empty")){
+                    //do nothing :D
+                }
+                else{
+                    window.location.href = '{{ site.baseurl }}' + $(".ais-hits .autocompleteTitle:first a").attr("href");
+                }
+                
+            }
+        })
+        
     })();
 });
