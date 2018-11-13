@@ -23,6 +23,7 @@ function upload(bucket, key) {
         if (contentType) {
           s3File.ContentType = contentType;
         }
+        console.log('Content-Type: ' + contentType);
         s3.putObject(s3File, function (err, data) {
           if (err) {
             console.error('Cannot upload: ' + key);
