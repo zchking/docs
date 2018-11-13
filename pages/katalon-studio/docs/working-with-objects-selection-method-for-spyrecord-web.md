@@ -7,14 +7,21 @@ redirect_from:
     - "/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/"
 description: 
 ---
-Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. **Enhanced **Object Properties allows users to choose objects locating method with Basic or Advanced options, select only preferred object's properties, and manually input XPath or CSS locator. 
-
-> *   Available since version 5.0
-> *   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**
+> *   Available since Katalon Studio version 5.0
+> *   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**.
 > *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
+
+Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. Enhanced Object Properties allows users:
+* Choose objects locating strategies including XPath (Smart XPath), Attributes or CSS.
+* Check only preferred object's properties on the grid.
+* Manually input the desired XPath or CSS locator in Selector Editor.
+
+> Configure Web Object Locators settings [here](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
+).
 
 Xpath
 -----
+> Learn more about [Smart XPath (_a.k.a._ Relative XPath).](https://www.katalon.com/resources-center/blog/smart-xpath-generator/)
 
 Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
 
