@@ -167,4 +167,8 @@ div#autocompleteResults {
 
 .content table {
   table-layout: fixed;
+  img {
+    display: inline;
+    padding-right: 1em;
+  }
 }
