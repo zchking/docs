@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Failure%20Handling/"
     - "/x/qAAM/"
     - "/katalon-studio/docs/failure-handling/"
+    - "/display/KD/Failure+handling/"
 description: 
 ---
 Failure handling settings allow users to decide whether Katalon Studio will continue running or not in case of errors occurs during execution.
