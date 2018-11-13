@@ -21,6 +21,6 @@ For macOS users, you can access the Katalon Studio Preferences by selecting **Ka
 
 For more details, please refer to the following articles:
 
-*   [Test Case Preferences](/pages/viewpage.action?pageId=5123998)
-*   [Object Spy Preferences](/pages/viewpage.action?pageId=5124006)
-*   [Proxy Preferences](/display/KD/Proxy+Preferences)
+*   [Test Case Preferences](/katalon-studio/docs/test-case-preferences.html)
+*   [Object Spy Preferences](/katalon-studio/docs/object-spy-preferences.html)
+*   [Proxy Preferences](/katalon-studio/docs/proxy-preferences.html)
