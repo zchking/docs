@@ -1,12 +1,11 @@
 ---
-title: "Execution Preferences (Version 5.0 and below)" 
+title: "Execution Preferences (Version 5.0 and below)"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/execution-preferences-version-50-and-below.html 
+permalink: katalon-studio/docs/execution-preferences-version-50-and-below.html
 redirect_from:
     - "/x/YYUw/"
     - "/katalon-studio/docs/execution-preferences-version-50-and-below/"
-    - "/pages/viewpage.action?pageId=3179873/"
-description: 
+description:
 ---
 > *   **For Version 5.0 and Below**
 > *   **For Version 5.1 and Above**

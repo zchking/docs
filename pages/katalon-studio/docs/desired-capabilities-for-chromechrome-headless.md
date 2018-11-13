@@ -1,12 +1,11 @@
 ---
-title: "Desired Capabilities for Chrome/Chrome (headless)" 
+title: "Desired Capabilities for Chrome/Chrome (headless)"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html 
+permalink: katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
 redirect_from:
     - "/x/SgzR/"
     - "/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/"
-    - "/pages/viewpage.action?pageId=13700170/"
-description: 
+description:
 ---
 The Desired Capabilities available for Chrome is listed [here](http://chromedriver.chromium.org/capabilities). You can locate Chrome settings file at this path: **_<Project folder>\\settings\\internal\\com.kms.katalon.core.webui.chrome.properties._**
 
@@ -28,8 +27,8 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ```
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-17.03.42.png)  
-  
+![](../../images/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-17.03.42.png)
+
 
 3\. To start Chrome in incognito (private) mode : [--incognito](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
 
