@@ -275,5 +275,16 @@ $(function() {
             },
             100
         )
+
+        $("form.search-form").submit(function(e){
+            e.preventDefault();
+            if ($(".ais-hits").hasClass("ais-hits__empty")) {
+                //do nothing :D
+            }
+            else {
+                window.location.href = '{{ site.baseurl }}' + $(".ais-hits .autocompleteTitle:first a").attr("href");
+            }
+        });
+        
     })();
 });
