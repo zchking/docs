@@ -4,7 +4,7 @@ sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_manual_mode.html
 redirect_from:
     - "/display/KD/Test+Case+Manual+View/"
-    
+
 description: "This tutorial will give users with less experience in programming step-by-step instruction to create an automation test case in manual mode."
 ---
 Katalon Studio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less experience in programming to easily generate automation test. The below tutorial will give you step-by-step instruction in order to create an automation test case in manual mode.
@@ -45,7 +45,36 @@ Follow these steps to automate the above test scenario in **Manual view**:
 
 Where:
 
-<table><thead><tr><th>Field</th> <th>Description</th> </tr></thead><tbody><tr><td>No</td> <td>The parameter order for the selected keyword.</td> </tr><tr><td>Param Name</td> <td>The name of the parameter.</td> </tr><tr><td>Param Type</td> <td>The data type of the parameter (e.g. String,<strong> <a href="/display/KD/Variable+Types">Variable</a></strong> or <strong><a href="/display/KD/Manage+Test+Data">Test Data Value</a></strong>…)</td> </tr><tr><td>Value Type</td> <td>The type of input value (e.g. String,<strong> <a href="/display/KD/Variable+Types">Variable</a></strong> or <strong><a href="/display/KD/Manage+Test+Data">Test Data Value</a></strong>…)</td> </tr><tr><td>Value</td> <td>&nbsp;The input value for this parameter.<br>Input value varies depending on the specified <strong>Value Type</strong>. Refer to <strong><a href="/display/KD/Value+Types">Value Types in Katalon</a></strong> for more details.</td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Field</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>No</td>
+            <td>The parameter order for the selected keyword.</td>
+        </tr>
+        <tr>
+            <td>Param Name</td>
+            <td>The name of the parameter.</td>
+        </tr>
+        <tr>
+            <td>Param Type</td>
+            <td>The data type of the parameter (e.g. String,<strong> <a href="/display/KD/Variable+Types">Variable</a></strong> or <strong><a href="/display/KD/Manage+Test+Data">Test Data Value</a></strong>…)</td>
+        </tr>
+        <tr>
+            <td>Value Type</td>
+            <td>The type of input value (e.g. String,<strong> <a href="/display/KD/Variable+Types">Variable</a></strong> or <strong><a href="/display/KD/Manage+Test+Data">Test Data Value</a></strong>…)</td>
+        </tr>
+        <tr>
+            <td>Value</td>
+            <td>&nbsp;The input value for this parameter.<br>Input value varies depending on the specified <strong>Value Type</strong>. Refer to <strong><a href="/display/KD/Value+Types">Value Types in Katalon</a></strong> for more details.</td>
+        </tr>
+    </tbody>
+</table>
 
 For now, enter the URL of Katalon demo AUT (http://demoaut.katalon.com) into the **Value** column then click **OK**.
 
