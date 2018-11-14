@@ -44,22 +44,22 @@ Obtain Slack authentication token
 
 Follow the steps below to obtain the Slack authentication token:
 
-1.  Open your web browser and log in your Slack team space. Navigate to [Slack API App](https://api.slack.com/apps) to create a Katalon Studio app which is a chat bot to send notification to your Slack Work Space. Read more about Slack App [here](https://api.slack.com/slack-apps).
+1. Open your web browser and log in your Slack team space. Navigate to [Slack API App](https://api.slack.com/apps) to create a Katalon Studio app which is a chat bot to send notification to your Slack Work Space. Read more about Slack App [here](https://api.slack.com/slack-apps).
     
 
-![](../../images/katalon-studio/docs/slack-integration/MnrcS0uw3RstYk6DKbgFSGhJJygIFZ3Q6JpnPxCai23ZsF5anp)
+![](../../images/katalon-studio/docs/slack-integration/slack-1.png)
 
-1.  Click on OAuth & Permissions on the left menu to get the Token and define Scopes to the chat bot. An authentication token will be generated. For example:
+2.  Click on OAuth & Permissions on the left menu to get the Token and define Scopes to the chat bot. An authentication token will be generated. For example:
     
 
 ![](../../images/katalon-studio/docs/slack-integration/Screen-Shot-2018-08-06-at-10.50.04-AM.png)
 
-1.  Select the desired Scopes for the app. Once finished, copy the OAuth Access Token to Katalon Studio Slack integration setting.
+3.  Select the desired Scopes for the app. Once finished, copy the OAuth Access Token to Katalon Studio Slack integration setting.
     
 
-![](../../images/katalon-studio/docs/slack-integration/NRAcNKO3hdIjFDPZQoVXGhxg3ogn65uuos4_dbIemoGmhXz0dV)
+![](../../images/katalon-studio/docs/slack-integration/slack-2.png)
 
-1.  Click Test Connection in Katalon Studio
+4.  Click Test Connection in Katalon Studio
     
 
 ![](../../images/katalon-studio/docs/slack-integration/Screen-Shot-2018-08-06-at-1.07.16-PM.png)
