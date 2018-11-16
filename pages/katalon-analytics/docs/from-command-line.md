@@ -15,7 +15,7 @@ From Command Line
 -----------------
 
 > *   For uploading from Command Line
->     *   Download Katalon Studio **Reports Uploader** [here](http://download.katalon.com/resources/katalon-report-uploader-0.0.1.jar)
+>     *   Download Katalon Studio **Reports Uploader** [here](http://download.katalon.com/resources/katalon-report-uploader-0.0.3.jar)
 >     *   [Java JRE](https://www.java.com/en/download/manual.jsp) installed (How to set up Java environment [guide](https://www.tutorialspoint.com/java/java_environment_setup.htm))
 
 > For Mac OS users, please change the **path** of Katalon Reports folder when using the syntax in **Terminal**
@@ -37,8 +37,7 @@ java -jar katalon-report-uploader-0.0.3.jar --projectId=3 --path="d:\katalon-rep
   
 _Where_
 
-| katalon-report-uploader-0.0.1-SNAPSHOT.jar | Jar file path can be an absolute path or relative path |
-| --- | --- |
+| katalon-report-uploader-0.0.3.jar | Jar file path can be an absolute path or relative path |
 | projectId | Katalon Analytics project ID |
 | path=" " | Local path of Katalon Studio Reports folder that you located from step 1 |
 | email and password | Katalon Analytics credentials |
