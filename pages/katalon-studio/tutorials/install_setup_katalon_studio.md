@@ -20,7 +20,7 @@ For **Web UI** automation, no additional settings are needed except making sure 
 
 Note: in case you are Windows users, you may want to disable the **User Access Control (UAC)** settings so that Katalon Studio can launch Chrome/Firefox browsers properly. Refer to [this guide](https://www.howtogeek.com/howto/windows-vista/disable-user-account-control-uac-the-easy-way-on-windows-vista/) for steps to disable the UAC settings on different Windows.
 
-For **Mobile** app automation, you need to install **Node.js** and **Appium** and enable the **USB Debugging mode** on your device. Please refer to the [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
+For **Mobile** app automation, you need to install **Node.js** and **Appium** and enable the **USB Debugging mode** on your device. Please refer to the [Installation Guide](https://docs.katalon.com/katalon-studio/tutorials/setting_mobile_application_automation.html) for more details.
 
 Start Katalon Studio
 --------------------
