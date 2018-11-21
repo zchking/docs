@@ -10,6 +10,9 @@ redirect_from:
     - "/display/KD/qTest+Integration/"
 description: 
 ---
+
+> Starting from version 5.8.0, Katalon Studio has transferred qTest integration support to QASymphony, a leading test management solution. Please contact [QASymphony](sales@qasymphony.com) to get the exclusive qTest version of Katalon Studio. You can read more about this update [here](https://www.qasymphony.com/software-testing-tools/integrations/katalon-qtest-integration/). 
+
 Enable qTest Integration
 ------------------------
 

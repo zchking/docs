@@ -14,14 +14,14 @@ You need to enable JIRA Integration in order to submit issues to JIRA. This sett
 
 ![enable JIRA Integration](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Configuration.png)
 
-1\. Select the **Enable integration** option. The following settings will be available for configuration.  
+1\. Select the **Enable integration** option. The following settings will be available for configuration.
 ![enable JIRA Integration](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Enable-integration.png)
 
-2\. Specify the information about your JIRA Server and login credentials then click **Connect**.  
+2\. Specify the information about your JIRA Server and login credentials then click **Connect**.
 ![login credentials](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Connect.png)
 
-3\. After successfully authenticating with JIRA, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under **Submit Options**. You can specify the default project and issue type for submission here.  
-![Submit Options](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Submit-Options.png)  
+3\. After successfully authenticating with JIRA, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under **Submit Options**. You can specify the default project and issue type for submission here.
+![Submit Options](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Submit-Options.png)
 The fields for setting include:
 
 | Field | Description |
@@ -39,18 +39,47 @@ Submit issue to JIRA
 
 Bug submission options will be available in Test Reports after JIRA Integration setup is successfully configured.
 
-1\. Open a test execution in **Reports** that you want to review for issues. In **Test Cases Table**, a dedicated column for JIRA Integration will be enabled.  
-![Test-Cases-Table](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Test-Cases-Table.png)  
-2\. Click on the bug icon to display the list of related JIRA issues associated with the selected Test Case. The issues are shown in the following screen.  
+1\. Open a test execution in **Reports** that you want to review for issues. In **Test Cases Table**, a dedicated column for JIRA Integration will be enabled.
+![Test-Cases-Table](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Test-Cases-Table.png)
+2\. Click on the bug icon to display the list of related JIRA issues associated with the selected Test Case. The issues are shown in the following screen.
 ![JIRA issues associated](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/JIRA-issues.png)
 
-3\. Select submit option under the **Add** command.  
-![Create new Jira ticket](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Add-command.png)  
+3\. Select submit option under the **Add** command.
+![Create new Jira ticket](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Add-command.png)
 The bug submission options include:
 
-<table><thead><tr><th>Option</th> <th>Description</th> </tr></thead><tbody><tr><td>Create as New</td> <td>A new Issue will be submitted to JIRA.</td> </tr><tr><td>Create as Sub Issue</td> <td>A sub-task for an existing JIRA issue will be created. You will be asked to provide the <b>ID</b> of the existing JIRA issue to create a sub-task within.<p></p><p><img src="../../images/katalon-studio/docs/working-with-jira/image2017-8-2-163A123A21.png"></p></td></tr><tr><td>Link to existing Issue</td> <td>This option will append execution details to an existing JIRA issue. You will be asked to provide the ID of the existing JIRA issue for this.<p></p><p><img src="../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Link-to-existing-Issue.png"></p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Option</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Create as New</td>
+            <td>A new Issue will be submitted to JIRA.</td>
+        </tr>
+        <tr>
+            <td>Create as Sub Issue</td>
+            <td>
+                A sub-task for an existing JIRA issue will be created. You will be asked to provide the <b>ID</b> of the existing JIRA issue to create a sub-task within.
+                <p></p>
+                <p><img src="../../images/katalon-studio/docs/working-with-jira/image2017-8-2-163A123A21.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Link to existing Issue</td>
+            <td>
+                This option will append execution details to an existing JIRA issue. You will be asked to provide the ID of the existing JIRA issue for this.
+                <p></p>
+                <p><img src="../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Link-to-existing-Issue.png"></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
-4\. In case of creating a new JIRA issue (or Sub-task), a **JIRA native submission form** will be displayed. The following is an example form for creating a new JIRA issue:  
+4\. In case of creating a new JIRA issue (or Sub-task), a **JIRA native submission form** will be displayed. The following is an example form for creating a new JIRA issue:
 ![JIRA native submission form](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/JIRA-native-submission-form.png)
 
 5\. Based on your preferences in [JIRA Integration settings](/display/KD/JIRA+Integration#JIRAIntegration-Configuration), the **Summary**, **Screenshots**, **Logs, Reporter, and Description** of test cases will be populated and attached accordingly. Once done, click on the **Create** button at bottom of the form.

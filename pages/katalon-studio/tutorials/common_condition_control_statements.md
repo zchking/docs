@@ -44,7 +44,7 @@ The Script view of test cases allows you to programmatically define and handle I
 
 For example:
 
-<table><thead><tr><th>Decision-making statement</th> <th>Screenshot</th> </tr></thead><tbody><tr><td><strong>If – Else If – Else</strong></td><td><p>Here is an example on how to use <strong>if-else if-else </strong>in the Script View where the Click action will be carried out based on the condition</p><p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/10.png"></p></td></tr><tr><td><strong>Switch – Case</strong></td><td><p>Here is an example on how to use <strong>switch-case </strong>in the Script View where <i>varB</i>&nbsp;is calculated based on the passing value of&nbsp;<i>varA.</i></p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Katalon-switch-case-150x150.png"> </td> </tr> </tbody> </table> 
+<table><thead><tr><th>Decision-making statement</th> <th>Screenshot</th> </tr></thead><tbody><tr><td><strong>If – Else If – Else</strong></td><td><p>Here is an example on how to use <strong>if-else if-else </strong>in the Script View where the Click action will be carried out based on the condition</p><p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/10.png"></p></td></tr><tr><td><strong>Switch – Case</strong></td><td><p>Here is an example on how to use <strong>switch-case </strong>in the Script View where <i>varB</i>&nbsp;is calculated based on the passing value of&nbsp;<i>varA.</i></p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Katalon-switch-case-150x150.png"> </td> </tr> </tbody> </table>
 
 Looping statements
 ------------------
@@ -112,7 +112,34 @@ The Script view of test cases allows you to programmatically define and handle B
 
 For example:
 
-<table><thead><tr><th>Decision-making statement</th> <th>Screenshot</th> </tr></thead><tbody><tr><td><strong>Break</strong></td><td><p>Here is an example on how to use <strong>Break </strong>in the Scripts View in order to exit current code block and move to next code block.</p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Break-in-the-Scripts-Katalon-Studio.png"> </td> </tr> <tr> <td><strong>Continue</strong></td> <td> Here is an example on how to use <strong>Continue </strong>in the Script View in order to skip the remainder of the current loop and continue with the next iteration of the loop. <img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Continue-in-the-Script-View.png"> </td> </tr> <tr> <td><strong>Return</strong></td> <td><p>Here is an example on how to use <strong>Return </strong>in the Script View in order to exit from the current method, and the flow control is returned to where the method was invoked.</p><img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Return-in-the-Script-View.png"> </td> </tr> </tbody> </table> 
+<table>
+    <thead>
+        <tr>
+            <th>Decision-making statement</th>
+            <th>Screenshot</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Break</strong></td>
+            <td>
+                <p>Here is an example on how to use <strong>Break </strong>in the Scripts View in order to exit current code block and move to next code block.</p>
+                <img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Break-in-the-Scripts-Katalon-Studio.png">
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Continue</strong></td>
+            <td> Here is an example on how to use <strong>Continue </strong>in the Script View in order to skip the remainder of the current loop and continue with the next iteration of the loop. <img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Continue-in-the-Script-View.png"> </td>
+        </tr>
+        <tr>
+            <td><strong>Return</strong></td>
+            <td>
+                <p>Here is an example on how to use <strong>Return </strong>in the Script View in order to exit from the current method, and the flow control is returned to where the method was invoked.</p>
+                <img src="../../images/katalon-studio/tutorials/common_condition_control_statements/Return-in-the-Script-View.png">
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 Exception handling block
 ------------------------

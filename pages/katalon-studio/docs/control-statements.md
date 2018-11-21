@@ -31,7 +31,50 @@ Open a test case in **Manual** view, then navigate to **Decision-making Statem
 
 Refer to the following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>If</td><td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong>. Katalon Studio will execute all steps within once the condition is triggered.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-143A233A17.png"></p></td></tr><tr><td>Else If</td><td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the <em>first</em> satisfied condition will be executed.</td></tr><tr><td>Else</td><td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. The steps within this statement will be executed if <strong>all</strong> the conditions above it are <strong>not</strong> triggered.</td></tr><tr><td>Switch</td><td>This statement requires an expression, which is often referred to as <strong>the control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-143A473A59.png"></p></td></tr><tr><td>Case</td><td><p>The <strong>Cases</strong> indicate the assumed value for the <strong>control expression</strong>, with corresponding steps to be executed when a match occurs.</p><p>Each <strong>Case</strong> will have a <strong>Break</strong> by default which should be positioned at the end of the <strong>Case</strong> block to mark the end of it.</p></td></tr><tr><td>Default</td><td>This statement is included automatically within every <strong>Switch</strong> statement. In situation which <strong>no</strong> <strong>Case</strong> value can be matched, the steps within <strong>Default</strong> will be taken.</td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Statement</th>
+            <th>Description</th>
+            <th>Screenshot</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>If</td>
+            <td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong>. Katalon Studio will execute all steps within once the condition is triggered.</td>
+            <td>
+                <p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-143A233A17.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Else If</td>
+            <td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the <em>first</em> satisfied condition will be executed.</td>
+        </tr>
+        <tr>
+            <td>Else</td>
+            <td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. The steps within this statement will be executed if <strong>all</strong> the conditions above it are <strong>not</strong> triggered.</td>
+        </tr>
+        <tr>
+            <td>Switch</td>
+            <td>This statement requires an expression, which is often referred to as <strong>the control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td>
+            <td>
+                <p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-143A473A59.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Case</td>
+            <td>
+                <p>The <strong>Cases</strong> indicate the assumed value for the <strong>control expression</strong>, with corresponding steps to be executed when a match occurs.</p>
+                <p>Each <strong>Case</strong> will have a <strong>Break</strong> by default which should be positioned at the end of the <strong>Case</strong> block to mark the end of it.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Default</td>
+            <td>This statement is included automatically within every <strong>Switch</strong> statement. In situation which <strong>no</strong> <strong>Case</strong> value can be matched, the steps within <strong>Default</strong> will be taken.</td>
+        </tr>
+    </tbody>
+</table>
 
 ### In Scripting view
 
@@ -39,7 +82,26 @@ The **Script** view of test cases allows you to programmatically define and hand
 
 For example:
 
-<table><thead><tr><th>Decision-making statement</th><th>Screenshot</th></tr></thead><tbody><tr><td>If - Else If - Else</td><td><p>&nbsp;<img src="../../images/katalon-studio/docs/control-statements/10.png"></p></td></tr><tr><td>Switch - Case</td><td>&nbsp;<img src="../../images/katalon-studio/docs/control-statements/11.png"></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Decision-making statement</th>
+            <th>Screenshot</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>If - Else If - Else</td>
+            <td>
+                <p>&nbsp;<img src="../../images/katalon-studio/docs/control-statements/10.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Switch - Case</td>
+            <td>&nbsp;<img src="../../images/katalon-studio/docs/control-statements/11.png"></td>
+        </tr>
+    </tbody>
+</table>
 
 Looping statements 
 -------------------
@@ -52,7 +114,31 @@ Open a test case in **Manual** view, then navigate to **Looping Statements**�
 
 Refer to following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>For</td><td>This statement accepts a <em>range</em>,<em> list</em> or <em>array</em> as <strong>input value</strong> so that Katalon Studio knows <strong>how many times</strong> to execute all steps within the <strong>For</strong> structure.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-153A493A5.png"></p></td></tr><tr><td>While</td><td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong> so that Katalon Studio will keep executing all steps within <strong>until the condition fails</strong>.</td><td><p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-153A533A44.png"></p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Statement</th>
+            <th>Description</th>
+            <th>Screenshot</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>For</td>
+            <td>This statement accepts a <em>range</em>,<em> list</em> or <em>array</em> as <strong>input value</strong> so that Katalon Studio knows <strong>how many times</strong> to execute all steps within the <strong>For</strong> structure.</td>
+            <td>
+                <p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-153A493A5.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>While</td>
+            <td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong> so that Katalon Studio will keep executing all steps within <strong>until the condition fails</strong>.</td>
+            <td>
+                <p><img src="../../images/katalon-studio/docs/control-statements/image2017-2-9-153A533A44.png"></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ### In Scripting view 
 
@@ -60,7 +146,28 @@ The **Script** View of test cases allows you to programmatically define and hand
 
 For example:
 
-<table><thead><tr><th>Looping statement</th><th>Screenshot</th></tr></thead><tbody><tr><td>For</td><td><p><img src="../../images/katalon-studio/docs/control-statements/24.png"></p></td></tr><tr><td>While</td><td><p><img src="../../images/katalon-studio/docs/control-statements/25.png"></p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Looping statement</th>
+            <th>Screenshot</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>For</td>
+            <td>
+                <p><img src="../../images/katalon-studio/docs/control-statements/24.png"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>While</td>
+            <td>
+                <p><img src="../../images/katalon-studio/docs/control-statements/25.png"></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 Branching statements 
 ---------------------
