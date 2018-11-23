@@ -1,30 +1,60 @@
 ---
-title: "View Reports" 
+title: "View Reports"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/view-reports.html 
+permalink: katalon-analytics/docs/view-reports.html
 redirect_from:
     - "/display/KA/View+Reports/"
     - "/display/KA/View%20Reports/"
     - "/x/2RxO/"
     - "/katalon-analytics/docs/view-reports/"
-description: 
+description:
 ---
 Once Test Reports are uploaded, Katalon Analytics will automatically analyze Katalon Studio test execution data to give you meaningful visualizations including charts, graphs, and filters. Katalon Analytics powerful dashboard allows users to have richer looks at test execution by presenting various reports such as Status, Performance, Execution Summary, and Execution Details. 
 
 ![Automatically Upload Report](../../images/katalon-analytics/docs/view-reports/upload-execution-step-3-dc08b5a5ba.png)
 
-<table><thead><tr><th>Status</th><th>The status of uploaded Katalon Test Execution. Users can viewNumber of test casesNumber of executionStatus of test cases: Passed, Failed, Error, IncompleteTo filter the status of test cases, simply click on the status you don't want to view to remove it from the graph</th></tr></thead><tbody><tr><td>Performance</td><td>An overview of test executions' durations&nbsp;</td></tr><tr><td>Execution</td><td><p>Summary of Katalon Test Report</p><p>ID: The number of executions in the project</p><p>Status: The status of each report (Passed, Failed, Error, Incomplete)</p><ul><li><ul><li><ul><li>Users can <strong>filter </strong>the status of the report to view only preferred status. Click on the drop-down menu of Status. Select the status</li><li>Started: Time and Date the test was run</li><li>Duration: The time that test took to finished</li><li>Total: The total number of test cases in one execution</li><li>Passed/Failed/Error/Incomplete: Status of TC and number of TC within an execution</li></ul></li></ul></li></ul></td></tr></tbody></table>
+<table>
+    <tbody>
+        <tr>
+            <td>Status</td>
+            <td>
+                <p>The status of uploaded Katalon Test Execution. Users can view</p>
+                <ul>
+                    <li>Number of test cases</li>
+                    <li>Number of execution</li>
+                    <li>Status of test cases: Passed, Failed, Error, Incomplete. To filter the status of test cases, simply click on the status you don't want to view to remove it from the graph</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Performance</td>
+            <td>An overview of test executions' durations&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Execution</td>
+            <td>
+                <p>Summary of Katalon Test Report</p>
+                <p>ID: The number of executions in the project</p>
+                <p>Status: The status of each report (Passed, Failed, Error, Incomplete). Users can <strong>filter </strong>the status of the report to view only preferred status. Click on the drop-down menu of Status. Select the status</p>
+                <p>Started: Time and Date the test was run</p>
+                <p>Duration: The time that test took to finished</p>
+                <p>Total: The total number of test cases in one execution</p>
+                <p>Passed/Failed/Error/Incomplete: Status of TC and number of TC within an execution</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 View Execution Detail Report
 ----------------------------
 
 > Filter and Sort
-> 
+>
 > While viewing execution detail report, The user can also utilize Katalon Analytics[ Filter and Sort ](/x/ZgTR)feature to identify the problem areas.
 
 Click on the **ID** of Execution to view the detail report. Katalon Analytics will display following details about that report including** Summary**, **All Failed Tests**, **Folders**, **All Tests**
 
-**![](../../images/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)  
+**![](../../images/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)
 **
 
 ### Summary Dashboard
@@ -35,8 +65,7 @@ Katalon Analytics will show a **pie chart** to represent the number of each Test
 
 Allows users to quickly view **all** test cases that have the status of **Failed**. The testing team will be able to locate quickly where exactly the test has failed.
 
-| ID | This ID is a global ID of Analytic tools |
-| --- | --- |
+| **ID** | This ID is a global ID of Analytic tools |
 | **Name** | Name of test case |
 | **Folder** | Containing folder of test case in Katalon Studio |
 | **Started** | Time and Date of test case |
@@ -47,11 +76,10 @@ Allows users to quickly view **all** test cases that have the status of **Failed
 
 ### Test Suites Table
 
-Katalon Analytics display all test suites in the current viewing execution in the report. To view detail, click on the **ID** of Test Suite. Katalon Analytics will display in-depth look about the Test Suite.  
-  
+Katalon Analytics display all test suites in the current viewing execution in the report. To view detail, click on the **ID** of Test Suite. Katalon Analytics will display in-depth look about the Test Suite.
 
-| ID | Generated Analytic global ID |
-| --- | --- |
+
+| **ID** | Generated Analytic global ID |
 | **OS** | Operating System was run on |
 | **Browser** | Selected browser the test was run on |
 | **Status** | The status of a test suite. Users can **filter** status to see only the preferred status of test suite |
@@ -71,7 +99,36 @@ View Detail Test Case
 
 To **view detail** of a failed test case, click on the **ID**. Once clicked on **ID**, Katalon Analytics will display in-depth views about the test case. Users will able to view
 
-<table><thead><tr><th>Test case path</th><th>The location path of test case in Katalon Studio</th></tr></thead><tbody><tr><td><strong>Result</strong></td><td><p>Status</p><p>Platform</p><p>Test Suite in Katalon Studio</p><p>Started</p><p>Duration</p><p>Flakiness</p><p>Age</p><p>Same Failure</p><p>Attachment – error logs or reports file from Katalon Studio</p></td></tr><tr><td><strong>Errors</strong></td><td>Users can quickly navigate to the error in the log of execution. Extracted from Katalon Studio execution log.</td></tr><tr><td><strong>Console log</strong></td><td>Katalon Studio execution log&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td></tr></tbody></table>
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Test case path</strong></td>
+            <td>The location path of test case in Katalon Studio</td>
+        </tr>
+        <tr>
+            <td><strong>Result</strong></td>
+            <td>
+                <p>Status</p>
+                <p>Platform</p>
+                <p>Test Suite in Katalon Studio</p>
+                <p>Started</p>
+                <p>Duration</p>
+                <p>Flakiness</p>
+                <p>Age</p>
+                <p>Same Failure</p>
+                <p>Attachment – error logs or reports file from Katalon Studio</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Errors</strong></td>
+            <td>Users can quickly navigate to the error in the log of execution. Extracted from Katalon Studio execution log.</td>
+        </tr>
+        <tr>
+            <td><strong>Console log</strong></td>
+            <td>Katalon Studio execution log&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
 
 ### View Test Case Executions History Dashboard
 
