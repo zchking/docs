@@ -43,7 +43,7 @@ Local variables
 
 You can manage the list of public variables of your test case by using the **Variables** tab in your **Test Case Editor**. 
 
-1.  To add variable using grid view, switch to **Variables** tab of your Test Case. Then click **Add**. A new row is added to the variable list. Modify the variable details and save the test case when you're done. 
+1.  To add variable using grid view, switch to **Variables** tab of your Test Case. Then click **Add**. A new row is added to the variable list. Modify the variable details and save the test case once done. 
     ![](../../images/katalon-studio/docs/variable-types/variable-manual-mode.png)
 
 2.  Alternatively, variables can be added using Script Mode. Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script Editor with XML format. For example:

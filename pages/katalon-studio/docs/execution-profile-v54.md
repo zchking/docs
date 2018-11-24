@@ -7,8 +7,9 @@ redirect_from:
     - "/katalon-studio/docs/execution-profile-v54/"
 description:
 ---
-> Available since Katalon Studio v5.4! </br> 
-Since Katalon Studio v5.9, Execution Profile is enhanced with a Scripting Editor.
+> Available since Katalon Studio v5.4!
+>
+> Since Katalon Studio v5.9, Execution Profile is enhanced with a Scripting Editor.
 
 Katalon Studio v5.4 introduces another flexible way to extend your current automation test scripts to cover multiple and different environments with ease. We call it **Execution Profile**. You can find below the changes related to this improvement:
 
