@@ -615,7 +615,8 @@ items:
             url: /katalon-studio/docs/test-suite-collection-report.html
           - title: "View Execution Log"
             url: /katalon-studio/docs/view-execution-log.html
-            - title: "Working with Execution Log" 
+            tree:
+              - title: "Working with Execution Log" 
               url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Video Capturing"
             url: /katalon-studio/docs/video-capturing.html
