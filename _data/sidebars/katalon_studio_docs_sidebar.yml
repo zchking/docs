@@ -617,7 +617,7 @@ items:
             url: /katalon-studio/docs/view-execution-log.html
             tree:
               - title: "Working with Execution Log" 
-              url: /katalon-studio/docs/working-with-execution-log.html
+                url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Video Capturing"
             url: /katalon-studio/docs/video-capturing.html
       - title: "Parameterization"
