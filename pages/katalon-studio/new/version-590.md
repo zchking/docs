@@ -10,9 +10,10 @@ description: Release notes v5.9.0
 Introducing Script View for Execution Profiles and Variables
 -------------------
 The Script View is provided with an XML editor to allow you to reuse and sync any set of variables easily, whether in Execution Profiles or in the Test Case. Just a few simple actions and the tests can be run with different data for cross-environment testing. 
+![](../../images/katalon-studio/new/version-59/profile-script.png)
 
 
-Enhanced Console and Log Viewer
+[Enhanced Console and Log Viewer](../../katalon-studio/docs/working-with-execution-log.html)
 --------------------
 Debugging becomes easier in Katalon Studio 5.9. We've optimized the execution logs to give you comprehensive views of what happens during your test automation. The following changes are applied to both Console and Log Viewer:
 

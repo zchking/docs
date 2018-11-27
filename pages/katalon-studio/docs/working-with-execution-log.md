@@ -12,30 +12,37 @@ Viewing execution log is the very first approach when troubleshooting automation
 
 ## Execution Progress Debugger
 
+
 Katalon Studio execution log displays full details of actions that are performed during the test run to help you debug better. The test log contains all relevant information about the test run. Full test step statements and desired capabilities information are also included. Log levels are ANSI color-coded for different kind of levels: INFO, DEBUG, WARING, ERROR for an easier view of the execution log, as shown in the screenshot below.
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/new-log.png)
+
  
 In Log Viewer, the Status Bar helps you quickly get the status of the recent tests run. When there are FAILED or ERROR tests from a current job, the status bar has the RED color to indicate such, and GREEN color for tests run with PASSED status. (For Windows only)
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/new-status-bar.png)
 
+
 ## Extensive logs for Web Service testing
+
 
 Sending and receiving Web Service can be a troublesome task due to many factors involved from both client’s and server’s sides.  Since version 5.9, Katalon Studio has included the HAR file in Web Service execution’s log. The HAR file contains low-level data to quickly help you identify the key performance problems with Web services.
 Upon sending requests, a relative .har file will be recorded and made accessible from execution logs. The physical file is stored directly on the current executed machine.
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/har-log.png)
 
+
 If you execute Web Service Suites, these .har files are stored in the requests\main folder under the generated report folders.
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/har-location.png)
+
 
 Using the .har file in services analyzer such as https://toolbox.googleapps.com/apps/har_analyzer/  will provide quality insights about the Web Service request and response. This will help the project team quickly identify key issues and efficiently allocate resources to address the issue. Some issues that can be identified include: 
 
 - Performance issues: slow page load, timeout when performing a certain task, ...
 
 - Page rendering issues: incorrect page format, missing information, ...
+
 
 ## Logs Configuration
 
@@ -44,13 +51,16 @@ In case you want to change the log’s level of one or multiple packages, this s
 
 ![](../../images/katalon-studio/docs/working-with-execution-log/log-properties.png)
 
+
 By uncommenting logging.level.com.kms=TRACE line, the differences are noticeable
 
-_Before_
+**_Before_**
 ![](../../images/katalon-studio/docs/working-with-execution-log/before-trace.png)
 
-_After_
+
+**_After_**
 ![](../../images/katalon-studio/docs/working-with-execution-log/after-trace.png)
+
 
 ## Summary
 - Katalon Studio execution logs are enhanced for better debugging process and observation of execution progress.
