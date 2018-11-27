@@ -6,7 +6,6 @@ redirect_from:
     
     - "/katalon-studio/new/version-582/"
     - "/katalon-studio/new/version-583/"
-    - "/katalon-studio/new/version-582.html"
     - "/katalon-studio/new/version-583.html"
 
 

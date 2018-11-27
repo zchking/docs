@@ -18,7 +18,7 @@ Katalon Studio v5.4 introduces another flexible way to extend your current autom
     
 
 Execution Profile interfaces are provided with a Manual View and a Script View where an XML editor is available for adding variables via script. You can create as many profiles as you want to depend on the needs of the project. The Script View allows Profiles can be easily synced with each other when there is the same list of Global Variables required for testing different types of environment. Just copy and paste the variables list from one Profile to another.
-    ![](../../images/katalon-studio/new/version-59/profile-script.png)
+    ![](../../images/katalon-studio/docs/execution-profile-v54/profile-script-view.png)
 
 Just like any other test artifacts, you can quickly _create_, _rename_, _copy_, _cut_ **Execution Profile** directly from _Test Explorers_. 
     ![](../../images/katalon-studio/docs/execution-profile-v54/Untitled3.png)
