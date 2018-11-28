@@ -11,6 +11,8 @@ redirect_from:
 description: 
 ---
 > Starting with version 5.7, Katalon Studio provides **Variables** for RESTful and SOAP Web Service Test Objects.
+>
+> Since Katalon Studio v5.9, Variables is enhanced with a Scripting Editor.
 
 Query Parameters
 ----------------

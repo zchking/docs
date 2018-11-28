@@ -15,7 +15,7 @@ There are three types of variables supported in Katalon Studio, as below:
 | --- | --- |
 | Private variable | A private variable can be referred only within the scope of the test case where it is defined. |
 | Local Variable | A public variable can be exposed as the parameter for the test case where it is defined |
-| Global Variable | A global variable can be referred anywhere of your project. |
+| Global Variable (Execution Profiles) | A global variable can be referred anywhere of your project. |
 
 Refer to the subsequence sections for how to define a variable of each type.
 
@@ -39,15 +39,37 @@ Variables defined in **Scripting view** of Test Cases are classified as private 
 Local variables
 ---------------
 
-You can manage the list of public variables of your test case by using the **Variables** tab in your **Test Case Editor**.
+> Since version 5.9, Katalon Studio provides Script Mode for Local Variables. The scripting interface allows you to quickly create any variables for the test cases without manually filling out the variable table. 
 
-1.  Switch to **Variables** tab of your Test Case. Then click **Add**.  
-    ![](../../images/katalon-studio/docs/variable-types/image2017-6-30-203A263A5.png)  
-      
-    
-2.  A new row is added to the variable list. Modify the variable details and save the test case when you're done.  
-    ![](../../images/katalon-studio/docs/variable-types/image2017-6-30-203A263A59.png)  
-      
+You can manage the list of public variables of your test case by using the **Variables** tab in your **Test Case Editor**. 
+
+1.  To add variable using grid view, switch to **Variables** tab of your Test Case. Then click **Add**. A new row is added to the variable list. Modify the variable details and save the test case once done. 
+    ![](../../images/katalon-studio/docs/variable-types/variable-manual-mode.png)
+
+2.  Alternatively, variables can be added using Script Mode. Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script Editor with XML format. For example:
+    ![](../../images/katalon-studio/docs/variable-types/variable-script-mode.png)
+
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="variableEntityWrapper">
+   <description></description>
+   <tag></tag>
+   <variables>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>19fe967b-1564-4705-aff2-848d45b84489</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variables>
+   <variables>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>75fa3d79-7e92-4d55-b359-f7c9493ea288</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variables>
+</Entity>
+```   
     
 3.  Variables defined in this list can be utilized as parameters for the test case in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding))
 
