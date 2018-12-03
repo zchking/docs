@@ -1,12 +1,12 @@
 ---
 title: "Version 5.8.2 & Version 5.8.3"
 sidebar: katalon_studio_new_sidebar
-permalink: katalon-studio/new/version-582.html
+permalink: katalon-studio/new/version-583.html
 redirect_from:
     
     - "/katalon-studio/new/version-582/"
     - "/katalon-studio/new/version-583/"
-    - "/katalon-studio/new/version-583.html"
+    - "/katalon-studio/new/version-582.html"
 
 
 description: Release notes Version 5.8.2 & Version 5.8.3

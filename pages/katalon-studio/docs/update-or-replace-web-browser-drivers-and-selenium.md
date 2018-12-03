@@ -20,10 +20,8 @@ For manually replacing and updating other versions of WebDrivers and Selenium, p
 ### **WINDOWS**
 
 **Selenium**
-<a href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG" class="external-link">3.7.1</a>
 
--   **Download** the desired Selenium version
-    <a href="http://selenium-release.storage.googleapis.com/index.html" class="external-link">here</a>
+-   **Download** the desired Selenium version **[here.](http://selenium-release.storage.googleapis.com/index.html)**
     (Select **only** Selenium 3.0+ and higher version than 3.7.1)
 -   **Delete** existing selenium-server-standalone-3.x.jar  
 -   **Copy** preferred **driver** into this folder  
@@ -31,10 +29,8 @@ For manually replacing and updating other versions of WebDrivers and Selenium, p
 
 
 **Chromedriver**
-<a href="https://chromedriver.storage.googleapis.com/2.33/notes.txt" class="external-link">2.33</a>
 
--   **Download** preferred Chromedriver
-    <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads" class="external-link">here</a>
+-   **Download** preferred Chromedriver **[here.](https://sites.google.com/a/chromium.org/chromedriver/downloads)**
 -   **Copy** downloaded Chromedriver and **paste** into Katalon Studio
     folder
 
@@ -48,11 +44,9 @@ For manually replacing and updating other versions of WebDrivers and Selenium, p
 
 
 **Firefox (Gecko Driver)**
-<a href="https://github.com/mozilla/geckodriver/releases/tag/v0.19.0" class="external-link">0.19</a>
 
--   **Download** preferred Gecko Driver
-    <a href="https://github.com/mozilla/geckodriver/releases" class="external-link">here</a>**  
-    **
+-   **Download** preferred Gecko Driver **[here.](https://github.com/mozilla/geckodriver/releases)**
+    
 -   **Copy** downloaded Gecko driver and **paste** into Katalon Studio
     folder
     -   &lt;Katalon Studio
@@ -61,27 +55,22 @@ For manually replacing and updating other versions of WebDrivers and Selenium, p
         folder&gt;\\configuration\\resources\\drivers\\firefox\_win64
 
 **IEDriverServer**
-<a href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/cpp/iedriverserver/CHANGELOG" class="external-link">3.6.0</a>
 
-Download preferred IEDriver
-<a href="http://selenium-release.storage.googleapis.com/index.html" class="external-link">here</a>
+Download preferred IEDriver **[here.](http://selenium-release.storage.googleapis.com/index.html)**
 
 ### **MAC OSX**
 
-**Selenium**
-<a href="https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG" class="external-link">3.7.1</a>
+**[Selenium](http://selenium-release.storage.googleapis.com/index.html)**
 
 -    /Applications/Katalon
     Studio.app/Contents/Eclipse/configuration/resources/lib
 
-**Chromedriver**
-<a href="https://chromedriver.storage.googleapis.com/2.33/notes.txt" class="external-link">2.33</a>
+**[Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)**
 
 -   /Applications/Katalon
     Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver\_mac
 
-**Firefox (Gecko Driver)**
-<a href="https://github.com/mozilla/geckodriver/releases/tag/v0.19.0" class="external-link">0.19</a>
+**[Firefox (Gecko Driver)](https://github.com/mozilla/geckodriver/releases)**
 
 -   /Applications/Katalon
     Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox\_mac
