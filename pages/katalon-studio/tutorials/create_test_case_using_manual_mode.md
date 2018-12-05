@@ -1,5 +1,5 @@
 ---
-title: "Creating test case using manual mode"
+title: "Editing test cases using manual mode"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_manual_mode.html
 redirect_from:
