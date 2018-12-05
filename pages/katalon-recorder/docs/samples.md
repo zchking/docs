@@ -12,9 +12,11 @@ description:
 Sample Project
 --------------
 
+> [Katalon Recorder Samples Project](https://github.com/katalon-recorder/katalon-recorder-samples)
+
 The sample project covers various common topics on working with Katalon Recorder. The guide below walk through steps to download and open Katalon Recorder Sample Project.
 
-1.  Navigate to the sample project Github repository by clicking on the link above. Select Clone or download > Choose Download Zip option to download the Zip package that includes sample project and its associated files.   
+1.  Navigate to the sample project on Github by clicking on the link above. Select Clone or Download > Choose Download Zip option to download the Zip package that includes sample project and its associated files.   
     ![](../../images/katalon-recorder/docs/samples/image2018-3-2-183A403A43.png)  
       
     
