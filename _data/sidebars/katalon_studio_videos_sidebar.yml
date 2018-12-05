@@ -17,6 +17,8 @@ items:
         url: /katalon-studio/videos/execute_automated_katalon_studio_tests_using_kobiton_mobile_devices.html
   - title: "Raghav Pal"
     tree:
+    - title: "API Testing 1 - Introduction and Getting Started"
+      url: /katalon-studio/videos/katalon-api-introduction.html
     - title: "Katalon Studio API Data Driven Testing"
       url: /katalon-studio/videos/katalon-api-data-driven-testing.html
     - title: "Katalon Studio: API Chaining: How to send values from one API to other"
