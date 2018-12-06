@@ -1,5 +1,5 @@
 ---
-title: "Creating test case using Record & Playback"
+title: "Creating test cases using Record"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_record_playback.html
 redirect_from:
