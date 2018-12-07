@@ -22,7 +22,7 @@ You will have to modify Selenium test scripts to execute them with Katalon Studi
 ### Q: Will this work with my CI?
 -----------------------------
 
-Yes. Katalon Studio supports [non-GUI mode](/display/KD/Console+Mode+Execution) for [CI/CD integration](/pages/viewpage.action?pageId=786527).
+Yes. Katalon Studio supports [non-GUI mode](/display/KD/Console+Mode+Execution) for [CI/CD integration](https://docs.katalon.com/katalon-studio/docs/jenkins-integration.html).
 
 ### Q: Can Katalon Studio be integrated with a test management system?
 ------------------------------------------------------------------
