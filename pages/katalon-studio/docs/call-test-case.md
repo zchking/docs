@@ -34,11 +34,16 @@ Call Test Case in Scripting view
 In **Scripting view**, the _callTestCase_ method allows users to make a call to another test case. Refer to either of the following syntaxes:
 
 ```groovy
+
+import com.kms.katalon.core.model.FailureHandling
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 //call test case using WebUI Class
-WebUI.callTestCase(findTestCase({Test Case ID}), [key1:value1, key2:value2, … , keyN:valueN], FailureHandling.option)
- 
+WebUI.callTestCase(findTestCase("Test Case ID"}), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
+
 //call test case using Mobile Class
-Mobile.callTestCase(findTestCase({Test Case ID}), [key1:value1, key2:value2, … , keyN:valueN], FailureHandling.option)
+Mobile.callTestCase(findTestCase("Test Case ID"}), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
 ```
 
 where:
