@@ -27,7 +27,7 @@ Due to the differences in computer environments, the Katalon download package do
 > 
 > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check you emulator's settings before proceeding with Appium installation.
 > 
-> Appium 1.9 is **not** supported, so please kinldy install Appium 1.8.1. The installation command is:
+> Appium 1.9 is **not** supported, so please kindly install Appium 1.8.1. The installation command is:
 > 
 > npm install -g appium@1.8.1
 
