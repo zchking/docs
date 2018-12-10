@@ -372,3 +372,10 @@ input:checked+.slider:before {
     float: left;
     margin: 2px 0 0;
 }
+
+
+@media only screen and (max-width: 1270px){
+    .ctrl-right {
+      display: none!important;
+    }
+}
