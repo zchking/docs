@@ -22,6 +22,7 @@ via **&ldquo;Add to Test Suite&rdquo;** button in Test Case details view. There 
 
 ### **Support Skip Test Case method in Test Listener**
 to help skip running any undesired Test Cases. Sometimes the project team needs to run only a few &ldquo;hotspot&rdquo; test cases that are flaky during regression test and to save effort and resources at the same time. It is now possible in Katalon Studio v5.10. In Test Listener, simply call skipThisTestCase() method to skip any Test Case that satisfied the condition. Skipped Test Case will have the status as **SKIPPED** in test execution result 
+
 ![](../../images/katalon-studio/new/version-510/skipTestCase.png)  
 
 
@@ -31,6 +32,7 @@ Below is example of override an URL variabe:
 ```
 -g_URL=http://demoaut.katalon.com
 ```
+
 
 ### **Support Custom API Methods**
 to expand Katalon Studio Web Service Testing capability to handle custom design APIs on top of the default set of supported methods. Custom APIs can be added in _Project Settings > Test Design > API/Web Service Method_.
