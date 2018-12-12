@@ -8,32 +8,34 @@ redirect_from:
 description: Release notes v5.10
 ---
 
-## **Real-time monitoring Katalon Studio Test Execution via Katalon Analytics Dashboard**
-to get the latest status of the test run results for immediate actions. With Katalon Analytics, the project team can make informed decision about testing and quality based on metrics and visualization of centralized test execution data. [Learn more...](https://docs.katalon.com/katalon-analytics/docs/overview.html)
+### **Real-time monitoring Katalon Studio Test Execution** 
+via _Katalon Analytics Dashboard_ to get the latest status of the test run results for immediate action. With Katalon Analytics, the project team can make informed decisions about testing and quality based on metrics and visualization of centralized test execution data. [Learn more…](https://analytics.katalon.com/)
 
-![](../../images/katalon-studio/new/version-59/KAintegration.png)
-
-## **Adding Test Case instantly to Test Suite**
-via **"Add to Test Suite"** button in Test Case details view. There are two options available either _"Add to existing Test Suite"_ or _"Add to a New Test Suite"_.
-![](../../images/katalon-studio/new/version-59/addTS.png)
+![](../../images/katalon-studio/new/version-510/KAintegration.png)
 
 
-## **Support Skip Test Case method in Test Listener**
-to help skip running any undesired Test Cases. Sometimes the project team need to run only a few "hotspot" test cases that are flaky during regession test and to save effort and resources at the same time. It is now possible in Katalon Studio v5.10. In Test Listener, simply call _skipThisTestCase()_ method to skip any Test Case that satisfied the condition. Skipped Test Case will have the status as **SKIPPED** in test execution result. 
+### **Adding Test Case instantly to Test Suite** 
+via **&ldquo;Add to Test Suite&rdquo;** button in Test Case details view. There are two options available: &ldquo;Add to existing Test Suite&rdquo; and &ldquo;Add to a New Test Suite&rdquo;.
+
+![](../../images/katalon-studio/new/version-510/addTS.png)
+
+
+### **Support Skip Test Case method in Test Listener**
+to help skip running any undesired Test Cases. Sometimes the project team needs to run only a few &ldquo;hotspot&rdquo; test cases that are flaky during regression test and to save effort and resources at the same time. It is now possible in Katalon Studio v5.10. In Test Listener, simply call skipThisTestCase() method to skip any Test Case that satisfied the condition. Skipped Test Case will have the status as **SKIPPED** in test execution result 
 ![](../../images/katalon-studio/new/version-510/skipTestCase.png)  
 
 
-## **Override Profile Variables via Command line Execution Mode**
+### **Override Profile Variables via Command line Execution Mode**
 is possible since Katalon Studio v5.10. Simply pass the parameters in command line using: -g_XXX = XXX
 Below is example of override an URL variabe:
 ```
 -g_URL=http://demoaut.katalon.com
 ```
 
-## **Support Custom API Methods**
+### **Support Custom API Methods**
 to expand Katalon Studio Web Service Testing capability to handle custom design APIs on top of the default set of supported methods. Custom APIs can be added in _Project Settings > Test Design > API/Web Service Method_.
 
-![](../../images/katalon-studio/new/version-59/custAPI.png)
+![](../../images/katalon-studio/new/version-510/custAPI.png)
 
 
 _Bugs Fixed & Improvements_
