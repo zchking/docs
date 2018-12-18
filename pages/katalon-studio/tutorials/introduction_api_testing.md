@@ -13,7 +13,7 @@ What is API testing?
 
 API testing is a type of software testing that involves testing application programming interfaces (APIs) directly and as part of integration testing to determine if they meet expectations for functionality, reliability, performance, and security. Since APIs lack a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), API testing is performed at the message layer and can validate application logic very quickly and effectively.
 
-API testing is critical for automation testing and CI/CD process because it can coop with short release cycles and frequent changes especially the presentation layer without breaking the test outputs. API testing also requires less maintenance effort compare to UI automation testing which makes it a preferred choice for Agile and DevOps teams.
+API testing is critical for automation testing and CI/CD process because it can cope with short release cycles and frequent changes especially the presentation layer without breaking the test outputs. API testing also requires less maintenance effort compare to UI automation testing which makes it a preferred choice for Agile and DevOps teams.
 
 A side note, for Web and mobile applications, API often means Web services, and API testing refers to the automation test performed to the Web services.
 
