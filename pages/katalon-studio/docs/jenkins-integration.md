@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/Jenkins%20Integration/"
     - "/x/XwAM/"
     - "/katalon-studio/docs/jenkins-integration/"
+    - "/pages/viewpage.action?pageId=786527/"
+    
 description:
 ---
 Prerequisites

@@ -278,11 +278,9 @@ $(function() {
 
         $("form.search-form").submit(function(e){
             e.preventDefault();
-            if ($(".ais-hits").hasClass("ais-hits__empty")) {
-                //do nothing :D
-            }
-            else {
-                window.location.href = $(".ais-hits .autocompleteTitle:first a").attr("href");
+            var a = $('.ais-hits .autocompleteTitle:first a');
+            if (a.length > 0 && a.attr('href')) {
+                window.location.href = a.attr("href");
             }
         });
 

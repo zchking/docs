@@ -52,20 +52,6 @@ String jsonString = '''{"menu": {
 }}}'''
 JsonSlurper slurper = new JsonSlurper()
 Map parsedJson = slurper.parseText(jsonString)
-import groovy.json.JsonSlurper
- 
-String jsonString = '''{"menu": {
-"id": "file",
-"tools": {
-"actions": [
-{"id": "new", "title": "New File"},
-{"id": "open", "title": "Open File"},
-{"id": "close", "title": "Close File"}
-],
-"errors": []
-}}}'''
-JsonSlurper slurper = new JsonSlurper()
-Map parsedJson = slurper.parseText(jsonString)
 
 ```
 

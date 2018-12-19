@@ -7,6 +7,9 @@ redirect_from:
     - "/display/KD/Clicking%20multiple%20objects%20without%20starting%20over/"
     - "/x/ZwXR/"
     - "/katalon-studio/docs/clicking-multiple-objects-without-starting-over/"
+author_name: Mate Mrse
+author_link: https://forum.katalon.com/discussion/7010/how-to-test-clicking-multiple-objects-without-starting-over#lComment_16209
+author_avatar: https://forum.katalon.com/user_avatar/forum.katalon.com/russ_thomas/120/372_1.png
 description: 
 ---
 If you have multiple and similar objects you want to quickly interact with during test execution, and you really don't want to spend time writing duplicate steps to interact with them, the approach below will help you reduce the time and make your code nicer:

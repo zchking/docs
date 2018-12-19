@@ -12,7 +12,7 @@ Katalon Studio uses Apache Groovy, a scripting language for the Java platform. G
 ### Q: Does Katalon Studio support plugins or external libraries? 
 --------------------------------------------------------------
 
-Yes, Katalon Studio supports Java code/libraries to build custom keywords. Refer to [How to create a Custom Keyword](/katalon-studio/tutorials/create-custom-keyword/) and [How to import a Java library](/katalon-studio/tutorials/import-java-library/) for more detail.
+Yes, Katalon Studio supports Java code/libraries to build custom keywords. Refer to [How to create a Custom Keyword](https://docs.katalon.com/katalon-studio/tutorials/create_custom_keyword.html) and [How to import a Java library](https://docs.katalon.com/katalon-studio/tutorials/import_java_library.html) for more detail.
 
 ### Q: Can I import my Selenium scripts into Katalon Studio? 
 ---------------------------------------------------------
@@ -22,7 +22,7 @@ You will have to modify Selenium test scripts to execute them with Katalon Studi
 ### Q: Will this work with my CI?
 -----------------------------
 
-Yes. Katalon Studio supports [non-GUI mode](/display/KD/Console+Mode+Execution) for [CI/CD integration](/pages/viewpage.action?pageId=786527).
+Yes. Katalon Studio supports [non-GUI mode](/display/KD/Console+Mode+Execution) for [CI/CD integration](https://docs.katalon.com/katalon-studio/docs/jenkins-integration.html).
 
 ### Q: Can Katalon Studio be integrated with a test management system?
 ------------------------------------------------------------------
@@ -42,7 +42,7 @@ Please refer to [Resources](/katalon-studio/tutorials/) section of Katalon Stu
 ### Q: Can I handle the execution flow in case of failure?
 ------------------------------------------------------
 
-Please refer to Katalon Studio documentation on [how to handle execution flow](/display/KD/Failure+handling).
+Please refer to Katalon Studio documentation on [how to handle execution flow](https://docs.katalon.com/katalon-studio/docs/failure-handling.html).
 
 ### Q: Does Katalon Studio support testing on flex application?
 -----------------------------------------------------------
@@ -77,7 +77,7 @@ Yes. Katalon Studio allows users to debug a test case while it is executing. Sim
 ### Q: Can I use Katalon as a replacement/alternative to Selenium IDE? 
 -------------------------------------------------------------------
 
-Katalon Studio is a test automation solution that leverages Selenium's core engine. Although it uses several Selenium functionalities, it is not simply a Selenium wrapper. This [document](/katalon-studio/blog/katalon-studio-vs-selenium-based-open-source-frameworks/) offers a detailed comparison of Katalon and Selenium-based open-source frameworks, focusing on key features such as target users, deployment, test management and scripting language support, performance, usability, and integration with other tools. A large number of users have been successfully moved from Selenium IDE to Katalon Studio.
+Katalon Studio is a test automation solution that leverages Selenium's core engine. Although it uses several Selenium functionalities, it is not simply a Selenium wrapper. This [document](https://www.katalon.com/resources-center/blog/katalon-studio-vs-selenium-based-open-source-frameworks/) offers a detailed comparison of Katalon and Selenium-based open-source frameworks, focusing on key features such as target users, deployment, test management and scripting language support, performance, usability, and integration with other tools. A large number of users have been successfully moved from Selenium IDE to Katalon Studio.
 
 ### Q: Can Katalon Studio automate desktop application? 
 ----------------------------------------------------

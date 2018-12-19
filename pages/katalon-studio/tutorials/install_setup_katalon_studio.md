@@ -20,7 +20,7 @@ For **Web UI** automation, no additional settings are needed except making sure 
 
 Note: in case you are Windows users, you may want to disable the **User Access Control (UAC)** settings so that Katalon Studio can launch Chrome/Firefox browsers properly. Refer to [this guide](https://www.howtogeek.com/howto/windows-vista/disable-user-account-control-uac-the-easy-way-on-windows-vista/) for steps to disable the UAC settings on different Windows.
 
-For **Mobile** app automation, you need to install **Node.js** and **Appium** and enable the **USB Debugging mode** on your device. Please refer to the [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
+For **Mobile** app automation, you need to install **Node.js** and **Appium** and enable the **USB Debugging mode** on your device. Please refer to the [Installation Guide](https://docs.katalon.com/katalon-studio/tutorials/setting_mobile_application_automation.html) for more details.
 
 Start Katalon Studio
 --------------------
@@ -54,7 +54,7 @@ When your build is activated, the **Quick Guide** screen is displayed to guide y
 
 You have successfully downloaded and activated Katalon Studio. Next, please refer to the following  guides to setup your test project:
 
-*   [Setting up Web automation project](/katalon-studio/tutorials/get-started/kickstart-automation-testing-using-katalon-studio/)
-*   [Setting up Mobile automation project in Windows](/katalon-studio/tutorials/get-started/set-up-mobile-automation-project-windows/)
-*   [Setting up Mobile automation project in macOS](/katalon-studio/tutorials/get-started/set-up-mobile-automation-project-macos/)
-*   [Setting up API automation project](/katalon-studio/tutorials/get-started/set-up-api-testing-project/)
+*   [Setting up Web automation project](https://docs.katalon.com/katalon-studio/tutorials/configure_katalon_studio_web_automation_test_project.html)
+*   [Setting up Mobile automation project in Windows](https://docs.katalon.com/katalon-studio/tutorials/setting_mobile_application_automation.html)
+*   [Setting up Mobile automation project in macOS](https://docs.katalon.com/katalon-studio/tutorials/set_up_mobile_automation_project_macos.html)
+*   [Setting up API automation project](https://docs.katalon.com/katalon-studio/tutorials/create_first_api_test_katalon_studio.html)

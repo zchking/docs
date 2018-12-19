@@ -157,6 +157,25 @@
                     </nav>
                     <nav class="col-toc">
                         <div class="sidebar hidden-xs hidden-sm">
+                            <div class="author-sidebar">
+                                {% if page.author_name %}
+                                <div class="title_author_block">
+                                    Credit to:
+                                </div>
+                                <div class="author_info">
+                                    <a href="{{ page.author_link }}">
+                                        <div class="author_image">
+                                            <img src="{{ page.author_avatar }}" />
+                                        </div>
+                                        <div class="author_name">
+                                            {{ page.author_name }}
+                                        </div>
+                                        <div style="clear: both;"></div>
+                                    </a>
+                                </div>
+                                {% endif %}
+                            </div>
+
                             <div class="toc-nav">
                                 {% unless page.toc == false %}
                                     <div class="feedback-links">

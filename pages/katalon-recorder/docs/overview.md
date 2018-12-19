@@ -6,6 +6,7 @@ redirect_from:
     - "/display/KR/Overview/"
     - "/display/KR/Overview/"
     - "/x/_RHR/"
+    - "/x/cRtO/"
     - "/katalon-recorder/docs/overview/"
 description: 
 ---

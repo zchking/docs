@@ -1,5 +1,5 @@
 ---
-title: "Creating test case using script mode"
+title: "Editing test cases using script mode"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_script_mode.html
 description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the Script mode of test cases."

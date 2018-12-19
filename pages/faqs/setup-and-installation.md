@@ -22,7 +22,7 @@ Below are the minimum software and hardware requirements for Katalon Studion: Pr
 ### Q: Can I do mobile testing with Katalon Studio? 
 -------------------------------------------------
 
-Yes, you can. You need to spend a few efforts to setup Katalon Studio and your device. Please refer to the [Installation and Setup](/display/KD/Installation+and+Setup) guide.
+Yes, you can. You need to spend a few efforts to setup Katalon Studio and your device. Please refer to the [Installation and Setup](https://docs.katalon.com/katalon-studio/tutorials/install_setup_katalon_studio.html) guide.
 
 ### Q: Are there are any additional configurations for Internet Explorer? I can't get it to work properly. 
 -----------------------------------------------------------------------------------------------------------
