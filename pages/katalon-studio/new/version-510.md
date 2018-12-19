@@ -4,6 +4,8 @@ sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-510.html
 redirect_from:
     - "/katalon-studio/new/version-510/"
+    - "/katalon-studio/new/"
+
 
 description: Release notes v5.10
 ---
@@ -44,4 +46,4 @@ _Bugs Fixed & Improvements_
 -----------------------
 *   Fixed an issue where test case cannot get variable from Input variable parameters
 *   Fixed an issue where parameterized URL of web service object cannot be parsed
-*   Adjusted minor logics to detect test object with XPath expression is NULL
+*   Adjusted minor logics to detect test object when XPath expression is NULL
