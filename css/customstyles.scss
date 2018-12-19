@@ -172,3 +172,33 @@ div#autocompleteResults {
     padding-right: 1em;
   }
 }
+
+
+/* style for author sidebar block */
+
+.title_author_block{
+  padding: 0 15px;
+}
+
+.author_info {
+  margin: 10px 0 20px 0;
+  border-bottom: 1px solid #2B7FE1;
+  padding: 0 0 20px 15px;
+
+  .author_image {
+    width: 40px;
+    float: left;
+  
+    img{
+      width: 100%;
+      border-radius: 50%;
+      border: 2px solid #2b7fe1;
+    }
+  }
+  
+  .author_name {
+    float: left;
+    line-height: 40px;
+    margin: 0 0 0 20px;
+  }
+}
