@@ -1,35 +1,49 @@
 ---
-title: "Version 5.1.0"
+title: "Version 5.10"
 sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-510.html
 redirect_from:
-    - "/display/KD/Version+5.1.0/"
-    - "/display/KD/Version%205.1.0/"
-    - "/x/zBtO/"
     - "/katalon-studio/new/version-510/"
-description:
+    - "/katalon-studio/new/"
+
+
+description: Release notes v5.10
 ---
-Drivers Update
---------------
 
-Katalon team has implemented the following changes in Katalon Studio Version 5.1.0
+### **Real-time monitoring Katalon Studio Test Execution** 
+via _Katalon Analytics Dashboard_ to get the latest status of the test run results for immediate action. With Katalon Analytics, the project team can make informed decisions about testing and quality based on metrics and visualization of centralized test execution data. [Learn more…](https://analytics.katalon.com/)
 
-*   Selenium Driver 3.71
-*   Gecko Driver for Firefox 0.19.0
-*   IE Driver 3.6.0
+![](../../images/katalon-studio/new/version-510/KAintegration.png)
 
-With these upgrades, users will be able to smoothly execute automation scripts with Firefox version 57 or greater. 
 
-**Project Settings**
+### **Adding Test Case instantly to Test Suite** 
+via **&ldquo;Add to Test Suite&rdquo;** button in Test Case details view. There are two options available: &ldquo;Add to existing Test Suite&rdquo; and &ldquo;Add to a New Test Suite&rdquo;.
 
-#### Email Attachment
+![](../../images/katalon-studio/new/version-510/addTS.png)
 
-Sharing Katalon Studio test execution report with team members just got easier. Email setting is enhanced in Version 5.1.0 to support **PDF** test execution **reports** as email **attachment**.
 
-![](../../images/katalon-studio/new/version-510/image2017-11-14-153A423A45.png)
+### **Support Skip Test Case method in Test Listener**
+to help skip running any undesired Test Cases. Sometimes the project team needs to run only a few &ldquo;hotspot&rdquo; test cases that are flaky during regression test and to save effort and resources at the same time. It is now possible in Katalon Studio v5.10. In Test Listener, simply call skipThisTestCase() method to skip any Test Case that satisfied the condition. Skipped Test Case will have the status as **SKIPPED** in test execution result 
 
-#### Execution
+![](../../images/katalon-studio/new/version-510/skipTestCase.png)  
 
-Improved **Execution Settings** for users conveniences by combining settings in Katalon Studio Preferences and Project Settings
 
-![](../../images/katalon-studio/new/version-510/image2017-11-14-153A373A52.png)![](../../images/katalon-studio/new/version-510/image2017-11-14-153A383A8.png)
+### **Override Profile Variables via Command line Execution Mode**
+is possible since Katalon Studio v5.10. Simply pass the parameters in command line using: -g_XXX = XXX
+Below is example of override an URL variabe:
+```
+-g_URL=http://demoaut.katalon.com
+```
+
+
+### **Support Custom API Methods**
+to expand Katalon Studio Web Service Testing capability to handle custom design APIs on top of the default set of supported methods. Custom APIs can be added in _Project Settings > Test Design > API/Web Service Method_.
+
+![](../../images/katalon-studio/new/version-510/custAPI.png)
+
+
+_Bugs Fixed & Improvements_
+-----------------------
+*   Fixed an issue where test case cannot get variable from Input variable parameters
+*   Fixed an issue where parameterized URL of web service object cannot be parsed
+*   Adjusted minor logics to detect test object when XPath expression is NULL
