@@ -147,6 +147,7 @@ Here's the list of options supported for the "_katalon_" command:
 <td>-sendMail=&lt;e-mail address&gt;</td>
 <td>Specify the e-mail address for receiving report files. If the e-mail address was not specified, the report files will not be sent.</td>
 <td>N</td></tr>
+<tr>
 <td>-remoteWebDriverUrl=&lt;remote web server url&gt;</td>
 <td>Specify the remote web driver URL</td>
 <td>N</td></tr>
