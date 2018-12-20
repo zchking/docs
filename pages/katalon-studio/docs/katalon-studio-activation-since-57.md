@@ -5,6 +5,8 @@ permalink: katalon-studio/docs/katalon-studio-activation-since-57.html
 redirect_from:
     - "/x/ERLR/"
     - "/katalon-studio/docs/katalon-studio-activation-since-57/"
+    - "/display/KD/Installation+and+Setup/"
+    
 description: 
 ---
 Thank you for choosing Katalon Studio. After installing Katalon Studio, you will be asked to activate the app using Katalon account. We recommend that you have an Internet connection on the computer that you are going to use Katalon Studio in. 

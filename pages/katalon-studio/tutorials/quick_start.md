@@ -20,11 +20,11 @@ Katalon Studio is available for free, supporting both Windows and Mac. Visit [Ka
 
 ### Environment Configuration
 
-First you need to verify if your computer meets the **[System Requirements]**(http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
+First you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
 - If you do **Web UI** testing, then no additional settings are needed except making sure the required browsers are installed. Check [this list](/x/dAAM) for all supported browsers.
 
-- In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to **[Installation Guide]**(http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
+- In case of **Mobile** testing, you need to install **Node.js, Appium** and enable **USB Debugging mode** on your device first. Please refer to [Installation Guide](http://docs.katalon.com/display/KD/Installation+and+Setup) for more details.
 
 ### Start Katalon Studio
 
@@ -74,4 +74,4 @@ _Note: You can specify the target browser to run the script by selecting it in t
 
 Congratulations! You have just successfully created and executed your first test case.
 
-_For further instructions and help, please refer to **[Katalon User Guide]**(/x/oArR) or **[Katalon Forum]**(https://forum.katalon.com/)_
+_For further instructions and help, please refer to [Katalon User Guide](/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_
