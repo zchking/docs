@@ -11,7 +11,7 @@ description:
 ---
 Starting from version 3.5.0 Katalon Recorder supports extension scripts (AKA user-extensions.js in the deprecated version of Selenium IDE on Firefox). At this moment this feature allows you to add custom locator builders (1) and your own actions (2) to Katalon Recorder. Please see a sample script at [https://github.com/katalon-studio/katalon-recorder-samples](https://github.com/katalon-studio/katalon-recorder-samples).
 
-**After install extension scripts, please restart Katalon Recorder and refresh the web page you want to work on.**
+**After installing extension scripts, please restart Katalon Recorder and refresh the web page you want to work on.**
 
 ![](../../images/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-21-42.png)
 
