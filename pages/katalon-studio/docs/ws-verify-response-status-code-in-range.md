@@ -59,5 +59,5 @@ import internal.GlobalVariable as GlobalVariable
 def response = WS.sendRequest(findTestObject('REST_Status Codes/POST_201'))
  
 'Verify if the response from "REST_Status Codes/POST_201" object returns a status code from 200 to 400'
-WS.verifyResponseStatusCode(response, 201)
+WS.verifyResponseStatusCodeInRange(response, 200, 400)
 ```
