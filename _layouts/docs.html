@@ -158,7 +158,7 @@
                             <div id='discourse-comments'></div>
                             <script type="text/javascript">
                                 DiscourseEmbed = { discourseUrl: 'https://forum.katalon.com/',
-                                                    discourseEmbedUrl: 'https://docs.katalon.com/' };
+                                                    discourseEmbedUrl: '{{ page.url | prepend:site.baseurl }}' };
                                 (function() {
                                     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
                                     d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
