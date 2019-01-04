@@ -154,20 +154,20 @@
                                 {% assign tree = site.data.sidebars[page.sidebar].items %}
                                 {% include toc.html page=page tree=tree show=false %}
                             {% endif %}
-                            <h2>User Contributed Notes</h2>
-                            {% unless site.staging %}
-                                <div id='discourse-comments'></div>
-                                <script type="text/javascript">
-                                    DiscourseEmbed = { discourseUrl: 'https://forum.katalon.com/',
-                                                        discourseEmbedUrl: 'https://{{ page.url | prepend:site.baseurl | prepend:site.site_domain }}' };
-                                    (function() {
-                                        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-                                        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-                                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-                                    })();
-                                </script>
-                            {% endunless %}
                         </section>
+                        <h2>User Contributed Notes</h2>
+                        {% unless site.staging %}
+                            <div id='discourse-comments'></div>
+                            <script type="text/javascript">
+                                DiscourseEmbed = { discourseUrl: 'https://forum.katalon.com/',
+                                                    discourseEmbedUrl: 'https://{{ page.url | prepend:site.baseurl | prepend:site.site_domain }}' };
+                                (function() {
+                                    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                                    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                                })();
+                            </script>
+                        {% endunless %}
                     </main>
                     <nav class="col-nav">
                         <div id="sidebar-nav" class="sidebar hidden-sm hidden-xs">
