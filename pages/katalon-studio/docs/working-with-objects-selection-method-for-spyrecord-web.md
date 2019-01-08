@@ -10,14 +10,14 @@ description:
 > *   Available since Katalon Studio version 5.0
 > *   Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**.
 > *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
+> Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
+).
 
 Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. Enhanced Object Properties allows users:
 * Choose objects locating strategies including XPath (Smart XPath), Attributes or CSS.
 * Check only preferred object's properties on the grid.
 * Manually input the desired XPath or CSS locator in Selector Editor.
 
-> Configure Web Object Locators settings [here](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
-).
 
 Xpath
 -----
