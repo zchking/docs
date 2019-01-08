@@ -56,6 +56,7 @@ Properties used for detecting an object
 > *   Available since version 5.0+
 > *   [How to get Web objects XPath or CSS Locator](/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
 > *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
+> *   Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
 
 #### Selection Method
 
