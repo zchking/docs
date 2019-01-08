@@ -16,7 +16,7 @@ Katalon Studio **Object Properties** makes Spying and Recording Web feature e
 * Check only preferred object's properties on the grid.
 * Manually input the desired XPath or CSS locator in Selector Editor.
 
-> Configure Web Object Locators settings [here](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
+> Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
 ).
 
 Xpath
