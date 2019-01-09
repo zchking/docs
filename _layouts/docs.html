@@ -3,12 +3,23 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         !function(){var analytics=window.analytics=window.analytics||[];if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.0";
             window.analytics.load("rq1TXmiuQVtxko7230dlTbIqFF3Zdkio");
         window.analytics.page();
           }}();
+    </script> -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81802338-12"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-81802338-12');
     </script>
+
 
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="{{site.site_icon | prepend:site.baseurl}}" sizes="129x128">
@@ -144,6 +155,19 @@
                                 {% include toc.html page=page tree=tree show=false %}
                             {% endif %}
                         </section>
+                        <h2>User Contributed Notes</h2>
+                        {% unless site.staging %}
+                            <div id='discourse-comments'></div>
+                            <script type="text/javascript">
+                                DiscourseEmbed = { discourseUrl: 'https://forum.katalon.com/',
+                                                    discourseEmbedUrl: 'https://{{ page.url | prepend:site.baseurl | prepend:site.site_domain }}' };
+                                (function() {
+                                    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                                    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                                })();
+                            </script>
+                        {% endunless %}
                     </main>
                     <nav class="col-nav">
                         <div id="sidebar-nav" class="sidebar hidden-sm hidden-xs">
@@ -232,6 +256,13 @@
                                         <ul id="my_toc" class="inline_toc"></ul>
                                     </div>
                                 {% endunless %}
+
+
+                                <div class="banner_sales">
+                                    <a href="https://www.katalon.com/support-service-options/">
+                                        <img src="{{ "/images/banner@2x_tiny.png" | prepend:site.baseurl }}" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </nav>
