@@ -27,10 +27,11 @@ Furthermore, all of the Katalon Studio codes in this tutorial are included in th
 
 **Step 2: Create the first test case**
 
-Right-click on Test Cases > New > Test Case
+Right-click on _Test Cases > New > Test Case_
 
 Test cases in Katalon Studio can be written in pure Selenium format:
 
+```
 WebDriver driver = new ChromeDriver();
 String baseUrl = "https://www.katalon.com/";
 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -42,18 +43,21 @@ driver.findElement(By.id("txt-password")).clear();
 driver.findElement(By.id("txt-password")).sendKeys("ThisIsNotAPassword");
 driver.findElement(By.id("btn-login")).click();
 driver.quit();
+```
 
-Click ‘Run’ to see how it works.
+Click _‘Run’_ to see how it works.
 
 However, writing test cases—especially in high volume at once—can be time-consuming. If Selenium is not a choice of your preference, worry not. The above test case, if written in Katalon Studio’s standard format, would look like this: 
 
+```groovy
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+```
 
-Click ‘Run’ to see how it works 
+Click _‘Run’_ to see how it works 
 
 The Katalon Studio beginning steps seem relatively self-explanatory. However, you might wonder where the “ChromeDriver” is, what the “click” and “findTestObject” methods are, or how to use the “Page_CURA Healthcare Service/a_Make Appointment” argument. Let’s go through them together.
 
@@ -80,7 +84,9 @@ Katalon Studio provides a rich set of verification keywords to easily deal with 
 
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/2.png)
  
+ ```groovy
 - WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment', FailureHandling.STOP_ON_FAILURE)
+```
 
 After that, the execution results can be checked in the [Log Viewer](https://docs.katalon.com/katalon-studio/tutorials/viewing_execution_logs.html). To learn how to view execution logs, visit this [doc](https://docs.katalon.com/katalon-studio/tutorials/viewing_execution_logs.html).
  
@@ -90,18 +96,18 @@ After that, the execution results can be checked in the [Log Viewer](https://doc
 
 Let’s intentionally make the test case fail by changing the verification text to “Make another Appointment.” In Katalon Studio, there are several ways to check for the failure reasons.
 
-Option 1: Investigate error logs
+**Option 1: Investigate error logs**
  
  ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/4.png)
 
-Option 2: Debug mode
+**Option 2: Debug mode**
 
 To investigate complex scenarios, Katalon Studio provides a debug mechanism which works the same as the code debug mechanism in advanced developer IDE.
 
 ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/5.png)
  
 
-Option 3: Manual debug
+**Option 3: Manual debug**
 
 The ‘Recording’ feature of Katalon Studio has its own method to debug as well.
 You can continue to record the failed test case, run the error test step, then investigate and fix the issue directly in the recording mode. See the examples below:
@@ -116,7 +122,7 @@ You can continue to record the failed test case, run the error test step, then i
 
 **Step 5: Plan the test case in a test suite**
 
-Right-click on Test Suites > New > Test Suite
+Right-click on _Test Suites > New > Test Suite_
 
 [A test suite](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html) is used to plan test cases with several configurations such as: retrying on failure, email sending or data-driven binding. For how to design a test suite, visit [here](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html).
 
@@ -126,7 +132,7 @@ Right-click on Test Suites > New > Test Suite
 
 **Step 6: Execute the test suite and view the result**
 
-Select the Test Suite > Click Run
+Select the _Test Suite > Click Run_
 
 The final step is executing the test cases in the designed test suite. Here's how to execute a test case: Once planned, the test suites or test suite collections can be executed not only directly in Katalon Studio, but also by [command line](https://docs.katalon.com/katalon-studio/tutorials/generate_command_line.html). Together with the standard JUnit format of the execution results and [pre-built Docker images](https://github.com/katalon-studio/docker-images), these features will give you full  flexibility to integrate Katalon Studio into a CI/CD pipeline with tools such as Jenkins or CircleCI.
 
