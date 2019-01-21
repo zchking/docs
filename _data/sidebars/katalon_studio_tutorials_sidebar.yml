@@ -17,6 +17,8 @@ items:
         id: "web-testing"
         url: "/katalon-studio/tutorials/web-testing/index.html"
         tree:
+          - title: "Introduction to Web Testing"
+            url: /katalon-studio/tutorials/introduction-to-web-testing.html 
           - title: "Creating test case using Record & Playback"
             url: /katalon-studio/tutorials/create_test_case_using_record_playback.html
           - title: "Creating test case using manual mode"
