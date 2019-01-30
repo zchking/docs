@@ -1,4 +1,8 @@
 items:
+  - title: "Katalon Store"
+    tree:
+      - title: "Overview"
+        ur: /katalon-store/docs/overview.html
   - title: "Katalon Studio"
     tree:
       - title: "Overview"
