@@ -15,7 +15,7 @@ There will be cases you need to connect and execute your tests on a remote envi
 
 Please refer to some documents below as examples how to pass in desired capabilities from these providers:
 
-1.  [Kobiton](/display/KD/Desired+capabilities+for+Kobiton+devices)
+1.  [Kobiton](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html)
 2.  [SauceLabs](/display/KD/SauceLabs+Integration)
 3.  [BrowserStack](/display/KD/BrowserStack+Integration)
 
