@@ -1,4 +1,16 @@
 items:
+  - title: "Katalon Store"
+    tree:
+      - title: "Overview"
+        url: /katalon-store/docs/overview.html
+      - title: "User"
+        tree:
+          - title: "Getting Started"
+            url: /katalon-store/docs/user/getting-started.html
+      - title: "Developer/Publisher"
+        tree:
+          - title: "Publisher Guidelines"
+            url: 
   - title: "Katalon Studio"
     tree:
       - title: "Overview"
