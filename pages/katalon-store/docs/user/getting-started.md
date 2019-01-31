@@ -5,7 +5,7 @@ permalink: katalon-store/docs/user/getting-started.html
 redirect_from:
     - "/katalon-store/docs/user/getting-started/"
 
-description:
+description: Help user navigate around KStore
 ---
 
 # Sign in to Katalon Store
