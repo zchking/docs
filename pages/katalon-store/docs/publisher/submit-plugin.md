@@ -36,12 +36,12 @@ Visit [https://store.katalon.com](https://store.katalon.com) and log in to your 
 
 Next, click Publish a new plugin in the drop-down menu.
 
-![](../..\images\katalon-store\docs\publisher\publish-menu)
+![](/images\katalon-store\docs\publisher\publish-menu.png)
 
 
 1. The Upload a new plugin page displays.
 
-![](../..\images\katalon-store\docs\publisher\upload-plugin)
+![](/images/katalon-store/docs/publisher/upload-plugin.png)
 
 2. Click Browse, select and upload your plugin or Drag and drop your plugin from your device.
 
@@ -49,7 +49,7 @@ Next, click Publish a new plugin in the drop-down menu.
 
 4. The Submit plugin information page displays.
 
-![](../..\images\katalon-store\docs\publisher\submit-plugin-info)
+![](/images/katalon-store/docs/publisher/submit-plugin-info.png)
 
 
 Provide the following:
