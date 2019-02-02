@@ -9,9 +9,9 @@ redirect_from:
     - "/katalon-studio/docs/step-definitions/"
 description: 
 ---
-Each Gherkin step in the _Features_ file needs to be defined as a set of programming code so that the machine can execute the actions of these steps. These _S__tep Definitions_ can be implemented in _Keyword_ folder by leveraging the **Script Mode**. Katalon Studio built-in keywords can also be re-used in step definition files as well. When Katalon Studio executes any _Features_ files in the test case, it will also look for the matching step definitions in the source folder.
+Each Gherkin step in the _Features_ file needs to be defined as a set of programming code so that the machine can execute the actions of these steps. These _Step Definitions_ can be implemented in _Keyword_ folder by leveraging the **Script Mode**. Katalon Studio built-in keywords can also be re-used in step definition files as well. When Katalon Studio executes any _Features_ files in the test case, it will also look for the matching step definitions in the source folder.
 
-> *   Step Definitions can be written in any Cucumber-supported programming languages including, but not limited to, Groovy, Java, PHP, Python, and C#.
+> *   Step Definitions can be written in any Cucumber-supported programming languages including Groovy and Java.
 
   
 For example, let's take the Gherkin scenarios from _Features_ File above and define the steps:
