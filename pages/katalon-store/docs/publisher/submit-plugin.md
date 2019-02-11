@@ -7,10 +7,6 @@ redirect_from:
 
 description: Guidelines for publishers to submit new plugins on KStore
 ---
-
-
-# Submit a new plugin
-
 This article is a walkthrough through the process of publishing a new plugin to Katalon Store. If you just want to get started, head to the Submit a new plugin page on the Store.
 
 To start, familiarize yourself with the Developer Agreement and Guidelines to develop a new plugin.
@@ -31,7 +27,7 @@ Visit [https://store.katalon.com](https://store.katalon.com) and log in to your 
 
 *   If you don't have a Katalon Account:
 
-    Visit [https://store.katalon.com](https://store.katalon.com) or [https://katalon.com](https://katalon.com) to Sign up.
+Visit [https://store.katalon.com](https://store.katalon.com) or [https://katalon.com](https://katalon.com) to Sign up.
 
 
 Next, click Publish a new plugin in the drop-down menu.

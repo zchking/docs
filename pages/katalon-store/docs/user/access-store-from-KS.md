@@ -16,33 +16,3 @@ From the Katalon Studio display, you will see the menu of Katalon Store as below
 
 
 
-## Search plugins in Store
-
-
-## Manage installed Plugins
-
-
-## Reload plugins
-
-After the plugin has been installed from Katalon Store, go to Katalon Studio and click Reload Plugins.
-
-
-![](/images\katalon-store\docs\user\reload-plugin.png)
-
-
-**_Reload-plugins allows the user to update a list of installed plugins in Katalon Studio._**
-
-Once started, the application should display the splash screen similar to the following screenshot:
-
-
-![](/images\katalon-store\docs\user\reload-plugin-processing.png)
-
-
-
-### Activate a plugin in Katalon Studio
-
-After the process has been completed, you will see the list of installed plugins as below. The new plugin installed from Katalon Store will also be displayed.
-
-![](/images\katalon-store\docs\user\reload-plugin-completed.png)
-
-_Note_: The new plugin will be automatically activated after users do **Reload Plugins**.
