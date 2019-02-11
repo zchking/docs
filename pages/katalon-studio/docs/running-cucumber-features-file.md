@@ -48,7 +48,7 @@ To include Cucumber _Feature_ file in Katalon Studio test case: 
     
     3\. Execute using [Cucumber Runner](http://toolsqa.com/cucumber/junit-test-runner-class/):
     
-    Using '**[runWithCucumberRunner](https://api-docs.katalon.com/com/kms/katalon/core/cucumber/keyword/CucumberBuiltinKeywords.html#runWithCucumberRunner(java.lang.Class,%20com.kms.katalon.core.model.FailureHandling))**' keyword, you can execute a Feature File with a set of options. Example you've created a Step Definitions called **MyCucumberRunner** within scripts folder
+    Using '**[runWithCucumberRunner](https://api-docs.katalon.com/com/kms/katalon/core/cucumber/keyword/CucumberBuiltinKeywords.html#runWithCucumberRunner(java.lang.Class,%20com.kms.katalon.core.model.FailureHandling))**' keyword, you can execute a Feature File with a set of options. Example you've created a Step Definitions called **MyCucumberRunner** within scripts folder ("Include/scripts/groovy" folder).
     
     ```groovy
     CucumberKW.runWithCucumberRunner(MyCucumberRunner.class)

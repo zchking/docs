@@ -339,8 +339,12 @@ items:
                         url: /katalon-studio/docs/webui-verify-element-not-clickable.html
                       - title: "[WebUI] Verify Element Not Has Attribute"
                         url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
+                      - title: "[WebUI] Verify Element Present"
+                        url: /katalon-studio/docs/webui-verify-element-present.html 
                       - title: "[WebUI] Verify Element Not Present"
                         url: /katalon-studio/docs/webui-verify-element-not-present.html
+                      - title: "[WebUI] Verify Element Visible"
+                      url: /katalon-studio/docs/webui-verify-element-visible.html 
                       - title: "[WebUI] Verify Element Not Visible"
                         url: /katalon-studio/docs/webui-verify-element-not-visible.html
                   - title: "[WebUI] Form"
