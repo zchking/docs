@@ -7,10 +7,22 @@ items:
         tree:
           - title: "Getting Started"
             url: /katalon-store/docs/user/getting-started.html
+          - title: "Access to Katalon Store from Katalon Studio"
+            url: /katalon-store/docs/user/access-store-from-KS.html 
       - title: "Developer/Publisher"
         tree:
           - title: "Publisher Guidelines"
+            url: /katalon-store/docs/publisher/publisher-guidelines.html
+          - title: "Create your first Katalon Studio plugin"
+            url: /katalon-store/docs/publisher/create-plugin.html
+          - title: "Plugin description template & example"
+            url: /katalon-store/docs/publisher/description-guidelines.html
+          - title: "View and manage publish plugin"
             url: 
+          - title: "Submit a new plugin"
+            url: /katalon-store/docs/publisher/submit-plugin.html
+          - title: "Publish a new plugin"
+            url: /katalon-store/docs/publisher/publish-plugin.html
   - title: "Katalon Studio"
     tree:
       - title: "Overview"

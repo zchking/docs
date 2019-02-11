@@ -27,7 +27,8 @@ To sign out of Katalon Store at any time, click _Sign In_ > _Sign Out_.
 
 To find the right plugin, browse the Katalon Store or use the Search function. Once you find the plugin you want, you can install it using your Katalon Account.
 
-![](../../../images/katalon-store/docs/user/store-browse.png)
+![](/images\katalon-store\docs\user\store-browse.png)
+
 
 ### Free plugins
 
@@ -35,7 +36,8 @@ Search for a plugin by entering one or more words in the search field at the top
 
 To install the plugin, click the button _Install_ on the product detail page. 
 
-![](../../../images/katalon-store/docs/user/store-install-plugin.png)
+![](/images\katalon-store\docs\user\store-install-plugin.png)
+
 
 _Note: After the installation has completed, click Reload Plugins in Katalon Studio to activate the plugin._
 
@@ -71,7 +73,8 @@ In the Katalon Store, click your name in the bottom-left corner, or click _Sign 
 
 Click **Manage installed plugins** in the drop-down list menu to view a list of installed plugins. From here, you can view lists of trial/purchased and free plugins.
 
-![](../../../images/katalon-store/docs/user/store-manage-plugin.png)
+
+![](/images\katalon-store\docs\user\store-manage-plugin.png)
 
 
 ### Uninstall plugins
@@ -94,7 +97,7 @@ You can view ratings on thumbnail images of each plugin on the homepage.
 
 To view detailed reviews of each plugin, go to the detail page of that plugin and select the **Ratings & Reviews** tab.
 
-![](../../../images/katalon-store/docs/user/store-rating.png)
+![](/images\katalon-store\docs\user\store-rating.png)
 
 ### Submit a review
 
