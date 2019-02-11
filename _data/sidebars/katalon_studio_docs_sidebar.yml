@@ -7,8 +7,8 @@ items:
         tree:
           - title: "Getting Started"
             url: /katalon-store/docs/user/getting-started.html
-          - title: "Access to Katalon Store from Katalon Studio"
-            url: /katalon-store/docs/user/access-store-from-KS.html
+          - title: "Access to Katalon Store in Katalon Studio"
+            url: /katalon-store/docs/user/access-store-in-KS.html
             tree:
               - title: "Search plugins in Katalon Store"
               url:  /katalon-store/docs/user/search-plugins.html

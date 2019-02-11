@@ -27,6 +27,6 @@ Once started, the application should display the splash screen similar to the fo
 
 After the process has been completed, you will see the list of installed plugins as below. The new plugin installed from Katalon Store will also be displayed.
 
-![](/images\katalon-store\docs\user\reload-plugin-completed.png)
+![](../../images\katalon-store\docs\user\reload-plugin-completed.png)
 
 _Note_: The new plugin will be automatically activated after users do **Reload Plugins**.
