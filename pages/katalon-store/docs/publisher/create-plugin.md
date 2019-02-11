@@ -58,7 +58,7 @@ During this tutorial, we are using the example declarations below. These declara
 *   **com.mycompany.plugin** is the default package.
 
 
-### **Step 2: Update <code>pom.xml</code></strong>
+### **Step 2: Update <code>pom.xml</code></strong>**
 
 Update your `pom.xml` file with the template below:
 
