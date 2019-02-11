@@ -3,6 +3,8 @@ items:
     tree:
       - title: "All Versions"
         url: /katalon-studio/new/all-versions.html
+      - title: "Version 5.10.3"
+        url: /katalon-studio/new/version-5103.html
       - title: "Version 5.10.1"
         url: /katalon-studio/new/version-5101.html
       - title: "Version 5.10"
