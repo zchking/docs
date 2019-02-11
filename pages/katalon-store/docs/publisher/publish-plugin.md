@@ -20,7 +20,7 @@ Before you begin the publication process, it is important to understand your sub
 
 
 
-*   **Save** your submission: After uploading your plugin and filling the plugin's information, click **Save **to submit as a draft. You will be directed to Manage published plugins page where you can see a status of all plugins that you already submitted to Katalon Store. 
+*   **Save** your submission: After uploading your plugin and filling the plugin's information, click **Save** to submit as a draft. You will be directed to Manage published plugins page where you can see a status of all plugins that you already submitted to Katalon Store. 
 *   **Publish** your plugin: After saving your plugin, you can publish it by choosing an option "Publish" in Manage published plugins. The plugin then needs to be approved by admin before being published.
 
 

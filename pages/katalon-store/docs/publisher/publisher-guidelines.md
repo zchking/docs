@@ -7,9 +7,6 @@ redirect_from:
 
 description: Requirements for publishers to submit new plugins on KStore
 ---
-# Publisher guidelines
-
-
 ## 1. Logo and assets
 
 
@@ -25,7 +22,7 @@ Use a unique logo to represent your company and unique logos to represent your p
 
 *   **Example of an approved logo:**
 
-![](/images\katalon-store\docs\publisher\approved-logo-1.png)
+![](../../../images\katalon-store\docs\publisher\approved-logo-1.png)
 
 
 _Note: The plugin logo should be clear and simple and should not use Katalon or any of Katalon's product logos, wordmarks, fonts, names, illustrations, or icons._
@@ -34,22 +31,22 @@ _Note: The plugin logo should be clear and simple and should not use Katalon or 
 
 *   **Examples of NOT approved logos:**
 
-![](/images/katalon-store/docs/publisher/rejected-logo-1.png)![](/images/katalon-store/docs/publisher/rejected-logo-2.png)![](/images/katalon-store/docs/publisher/rejected-logo-3.png)![](/images/katalon-store/docs/publisher/rejected-logo-4.png)
+![](../../../images/katalon-store/docs/publisher/rejected-logo-1.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-2.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-3.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-4.png)
 
 
 
 **_Note 1: Do not use our product logos, either on their own or in conjunction with your logo._**
 
-![](/images/katalon-store/docs/publisher/rejected-logo-5.png)![](/images/katalon-store/docs/publisher/rejected-logo-6.png)![](/images/katalon-store/docs/publisher/rejected-logo-7.png)![](/images/katalon-store/docs/publisher/rejected-logo-8.png)
+![](../../../images/katalon-store/docs/publisher/rejected-logo-5.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-6.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-7.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-8.png)
 
 
 **_Note 2: Do not create logos in the likeness of Katalon product logos._**
 
-![](/images/katalon-store/docs/publisher/rejected-logo-9.png)![](/images/katalon-store/docs/publisher/rejected-logo-10.png)
+![](../../../images/katalon-store/docs/publisher/rejected-logo-9.png)![](../../../images/katalon-store/docs/publisher/rejected-logo-10.png)
 
 **_Note 3: Do not use Katalon product names, wordmarks, or wordmark font._**
 
-![](/images/katalon-store/docs/publisher/rejected-logo-11.png)
+![](../../../images/katalon-store/docs/publisher/rejected-logo-11.png)
 
 
 
@@ -67,7 +64,7 @@ _Note: The plugin logo should be clear and simple and should not use Katalon or 
 
 ## 2. Plugin's name in Store
 
-- All of plugin names are written in **title case**. That means **each letter **except the first letter in the name is **lowercase**. All references to our products in text must utilize the proper case.
+- All of plugin names are written in **title case**. That means **each letter** except the first letter in the name is **lowercase**. All references to our products in text must utilize the proper case.
 
 
 
