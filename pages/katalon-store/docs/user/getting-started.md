@@ -27,7 +27,7 @@ To sign out of Katalon Store at any time, click _Sign In_ > _Sign Out_.
 
 To find the right plugin, browse the Katalon Store or use the Search function. Once you find the plugin you want, you can install it using your Katalon Account.
 
-![](../../images/katalon-store/docs/user/store-browse.png)
+![](../../../images/katalon-store/docs/user/store-browse.png)
 
 
 ### Free plugins

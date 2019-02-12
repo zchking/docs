@@ -10,7 +10,7 @@ items:
           - title: "Access to Katalon Store in Katalon Studio"
             url: /katalon-store/docs/user/access-store-in-KS.html
           - title: "Search plugins in Katalon Store"
-            url:  /katalon-store/docs/user/search-plugins.html
+            url: /katalon-store/docs/user/search-plugins.html
           - title: "Manage installed plugins"
             url: /katalon-store/docs/user/manage-installed-plugins.html
           - title: "Reload plugins"
