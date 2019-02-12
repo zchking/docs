@@ -1,11 +1,11 @@
 ---
 title: "Access Store from Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-store/docs/user/access-store.html
+permalink: katalon-store/docs/user/reload-plugins.html
 redirect_from:
-    - "/katalon-store/docs/user/access-store/"
+    - "/katalon-store/docs/user/reload-plugins/"
 
-description: How to access KStore from KS
+description: How to reload KStore plugins from KS
 ---
 
 After the plugin has been installed from Katalon Store, go to Katalon Studio and click Reload Plugins.
