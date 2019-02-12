@@ -12,7 +12,7 @@ This article will show you what to do next after installing plugins from the Kat
 From the Katalon Studio display, you will see the menu of Katalon Store as below:
 
 
-![](../../images\katalon-store\docs\user\access-store-KS.png)
+![](../../../images/katalon-store/docs/user/access-store-KS.png)
 
 
 

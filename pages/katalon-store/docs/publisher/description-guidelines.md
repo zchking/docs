@@ -45,7 +45,7 @@ The Jira Plugin will help you get total control of your project by providing the
 
 **Easily manage your Jira Issues right in Katalon Studio**
 
-![](../../images\katalon-store\docs\publisher\description-example-1.png)
+![](../../../images/katalon-store/docs/publisher/description-example-1.png)
 
 
 *   Easy to control 
@@ -54,7 +54,7 @@ The Jira Plugin will help you get total control of your project by providing the
 *   Save effort when importing JIRA test case via JIRA JQL and executing them right in Katalon Studio
 *   Flexible report creation
 
-![](../../images\katalon-store\docs\publisher\description-example-2.png)
+![](../../../images/katalon-store/docs/publisher/description-example-2.png)
 
 
 *   Submit bugs to JIRA from Katalon Studio
@@ -68,17 +68,17 @@ The Jira Plugin will help you get total control of your project by providing the
 
 **Integrate Test Case**
 
-Prepare [JIRA JQL Script](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html) > Open Jira Plugin > Enter JIRA JQL > Choose destination to store issues.  \
+Prepare [JIRA JQL Script](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html) > Open Jira Plugin > Enter JIRA JQL > Choose destination to store issues.  /
 In case of Test Cases already synced, Katalon Studio will not sync them again.
 
-![](../../images\katalon-store\docs\publisher\description-example-3.png)
+![](../../../images/katalon-store/docs/publisher/description-example-3.png)
 
 
 **Test Results**
 
 Automatically syncing test results to associated JIRA. Review the **status** and **attachments** of Katalon Studio test cases right inside JIRA.
 
-![](../../images\katalon-store\docs\publisher\description-example-4.png)
+![](../../../images/katalon-store/docs/publisher/description-example-4.png)
 
 
 **Submit an issue to JIRA**
@@ -87,9 +87,9 @@ Submit options will be available in Test Reports after JIRA Plugin setup is done
 
 In Reports, Open a test execution > Select Test case result to be reported > Create Issue and submit.
 
-![](../../images\katalon-store\docs\publisher\description-example-5.png)
+![](../../../images/katalon-store/docs/publisher/description-example-5.png)
 
-![](../../images\katalon-store\docs\publisher\description-example-6.png)
+![](../../../images/katalon-store/docs/publisher/description-example-6.png)
 
 ## See Also
 
