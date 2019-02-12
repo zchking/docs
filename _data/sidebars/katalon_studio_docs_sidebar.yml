@@ -123,6 +123,8 @@ items:
             tree:
               - title: "Introduction to Web Services Test Object"
                 url: /katalon-studio/docs/introduction-to-web-services-test-object.html
+              - title: "Create Web Service Object in Script Mode"
+                url: /katalon-studio/docs/create_web_service_object_in_script_mode.html
               - title: "RESTful"
                 url: /katalon-studio/docs/restful.html
               - title: "SOAP"
