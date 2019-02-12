@@ -1,3 +1,14 @@
+---
+title: "Create Web Service Object in Script Mode"
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/create_web_service_object_in_script_mode.html
+redirect_from:
+    - "/katalon-studio/docs/create_web_service_object_in_script_mode/"
+    
+description: 
+---
+
+
 Katalon Studio provides API testing capabilities with REST and SOAP services which are easily accessible through an intuitive User Interface. However, you can also create and manipulate such web service objects directly within test cases in script view. 
 
 The following example demonstrates how to create, send and verify a simple request to Jira Web Service API. You can see the result for yourself following the steps below: 
