@@ -11,11 +11,11 @@ items:
             url: /katalon-store/docs/user/access-store-in-KS.html
             tree:
               - title: "Search plugins in Katalon Store"
-              url:  /katalon-store/docs/user/search-plugins.html
+                url:  /katalon-store/docs/user/search-plugins.html
               - title: "Manage installed plugins"
-              url: /katalon-store/docs/user/manage-installed-plugins.html
+                url: /katalon-store/docs/user/manage-installed-plugins.html
               - title: "Reload plugins"
-              url: /katalon-store/docs/user/reload-plugins.html
+                url: /katalon-store/docs/user/reload-plugins.html
       - title: "Developer/Publisher"
         tree:
           - title: "Publisher Guidelines"
