@@ -18,7 +18,7 @@ The following example demonstrates how to create, send and verify a simple reque
 - Copy and paste the following code.
 - Execute the test case
 
-```
+```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
