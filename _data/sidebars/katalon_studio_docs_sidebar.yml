@@ -3,7 +3,7 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-store/docs/overview.html
-      - title: "User"
+      - title: "User's guides"
         tree:
           - title: "Getting Started"
             url: /katalon-store/docs/user/getting-started.html
@@ -17,7 +17,7 @@ items:
                 url: /katalon-store/docs/user/manage-installed-plugins.html
               - title: "Reload plugins"
                 url: /katalon-store/docs/user/reload-plugins.html
-      - title: "Developer/Publisher"
+      - title: "Developer's guides"
         tree:
           - title: "Publisher Guidelines"
             url: /katalon-store/docs/publisher/publisher-guidelines.html
