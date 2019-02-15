@@ -91,4 +91,4 @@ WS.verifyResponseStatusCode(response, 201)
 
 The test case will be executed successfully. You can achieve the same result by manually creating  a Web Service Object then add the same information. These manually created objects will be saved in repository and are easily referenced in test cases without huge chunk of code. 
 
-However, if you are interested in a one time request without the reusability, then programmatically creating a web service object is a good practice. If you desire both reusability and customizability, you can create your own Custom Keyword that builds a Web Service Object in the above manner and call it in your test cases.
+However, if you are interested in a one time request without the reusability, then programmatically creating a web service object is a good practice. If you desire both reusability and customizability, you can create your own Custom Keyword that builds a Web Service Object in the above manner and call it in your test cases. You also can use the code above in any other place with a script view (Custom Keyword, Test Listener). This allows more flexibility in your test automation projects.
