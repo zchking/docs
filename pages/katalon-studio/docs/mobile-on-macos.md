@@ -29,11 +29,11 @@ Due to the differences in computer environments, the Katalon download package do
 > 
 > Appium 1.9 is **not** supported, so please kindly install Appium 1.8.1. The installation command is:
 > 
-> npm install -g appium@1.8.1
+> `npm install -g appium@1.8.1`
 >
 > If you are testing with Xcode 10 and iOS 12, you will need to install Appium 1.8.2-beta. The installation command is:
 >
-> npm install -g appium@1.8.2-beta
+> `npm install -g appium@1.8.2-beta`
 >
 
 ### Android
