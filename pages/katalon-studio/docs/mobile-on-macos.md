@@ -14,9 +14,9 @@ Katalon Studio Supported Environment on macOS
 
 |   | Version |
 | --- | --- |
-| Appium | 1.8.1 |
+| Appium | 1.8.1, 1.8.2-beta |
 | Android | 6.x, 7.x |
-| iOS | 9, 10, 11 |
+| iOS | 9, 10, 11, 12 (with Appium 1.8.2-beta) |
 
 Installing Dependencies
 -----------------------
@@ -30,6 +30,11 @@ Due to the differences in computer environments, the Katalon download package do
 > Appium 1.9 is **not** supported, so please kindly install Appium 1.8.1. The installation command is:
 > 
 > npm install -g appium@1.8.1
+>
+> If you are testing with Xcode 10 and iOS 12, you will need to install Appium 1.8.2-beta. The installation command is:
+>
+> npm install -g appium@1.8.2-beta
+>
 
 ### Android
 
