@@ -16,7 +16,7 @@ From the Katalon Studio display, you will see the menu of Katalon Store as below
 
 ## Search plugins in Store
 
-To browse for the available plugins in Katalon Store, click **Search Plugins in Store **in the "Plugin Store" drop-down menu. Then you will be directed to the homepage of **Katalon Store**. 
+To browse for the available plugins in Katalon Store, click **Search Plugins in Store** in the "Plugin Store" drop-down menu. Then you will be directed to the homepage of **Katalon Store**. 
 
 
 ## Manage Installed Plugins
