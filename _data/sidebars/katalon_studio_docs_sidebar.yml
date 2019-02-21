@@ -109,6 +109,14 @@ items:
             url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
           - title: "Using the WebDriver Object"
             url: /katalon-studio/docs/using-the-webdriver-object.html
+      - title: "Test Suite"
+        tree:
+          - title: "Create a Test Suite"
+            url: /katalon-studio/docs/create-test-suite.html 
+          - title: "Design a Test Suite"
+            url: /katalon-studio/docs/design-a-test-suite.html
+          - title: "Test Suite Collection"
+            url: /katalon-studio/docs/test-suite-collection.html
       - title: "Test Object"
         tree:
           - title: "Web and Mobile Test Object"
@@ -593,10 +601,6 @@ items:
         tree:
           - title: "Execute a Test Case or a Test Suite"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
-          - title: "Design a Test Suite"
-            url: /katalon-studio/docs/design-a-test-suite.html
-          - title: "Test Suite Collection"
-            url: /katalon-studio/docs/test-suite-collection.html
           - title: "Desired Capabilities"
             tree:
               - title: "Introduction to Desired Capabilities"
