@@ -8,33 +8,17 @@ items:
           - title: "Getting Started"
             url: /katalon-store/docs/user/getting-started.html
           - title: "Access to Katalon Store in Katalon Studio"
-            tree:
-              - title: "Access to Katalon Store"
-                url: /katalon-store/docs/user/access-store-in-KS.html
-              - title: "Search plugins in Katalon Studio"
-                url: /katalon-store/docs/user/search-plugins.html
-              - title: "Manage installed plugins"
-                url: /katalon-store/docs/user/manage-installed-plugins.html
-              - title: "Reload plugins"
-                url: /katalon-store/docs/user/reload-plugins.html
-              - title: "Manage CLI Key"
-                url: /katalon-store/docs/user/manage-CLI-key.html
+            url: /katalon-store/docs/user/access-store-in-KS.html
           - title: "API Keys Setting"
             url: /katalon-store/docs/user/API-key.html
       - title: "Developer's guides"
         tree:
-          - title: "Publisher Guidelines"
-            url: /katalon-store/docs/publisher/publisher-guidelines.html
           - title: "Create your first Katalon Studio plugin"
             url: /katalon-store/docs/publisher/create-plugin.html
           - title: "Submit a new plugin"
             url: /katalon-store/docs/publisher/submit-plugin.html
           - title: "Publish a new plugin"
             url: /katalon-store/docs/publisher/publish-plugin.html
-          - title: "Plugin description template & example"
-            url: /katalon-store/docs/publisher/description-guidelines.html
-          - title: "View and manage published plugin"
-            url: 
   - title: "Katalon Studio"
     tree:
       - title: "Overview"
