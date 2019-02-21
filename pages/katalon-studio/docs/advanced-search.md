@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/advanced-search.html
 redirect_from:
     - "/katalon-studio/docs/advanced-search.html"
-    - "/katalon-studio/docs/advanced-search/"
     
 description: 
 ---
