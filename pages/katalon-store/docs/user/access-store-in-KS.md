@@ -23,6 +23,8 @@ To browse for the available plugins in Katalon Store, click **Search Plugins in 
 
 To view and manage Katalon Store plugins that were installed to Katalon Studio, click **Manage Installed Plugins** in the "Plugin Store". Here you can view a list of installed plugins.
 
+## Reload Plugins
+
 After the plugin has been installed from Katalon Store, go to Katalon Studio and click Reload Plugins.
 
 
