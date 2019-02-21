@@ -2,9 +2,7 @@
 title: "Advanced Search" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/advanced-search.html
-redirect_from:
-    - "/katalon-studio/docs/advanced-search.html"
-    
+
 description: 
 ---
 Searching manually for test artifacts can be time-consuming. The advanced search in Katalon Studio helps reduce time on finding the desired test artifacts based on given criteria.
