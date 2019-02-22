@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create-test-suite.html 
 redirect_from:
     - "/katalon-studio/docs/create-test-suite/"
-    - "/katalon-studio/docs/"
+
 description: 
 ---
 A test suite is a collection of multiple test cases. In other words, a test suite contains all the test materials required to conduct a test execution. 
