@@ -1,96 +1,58 @@
 ---
-title: "Jenkins Integration"
+title: "Bamboo Integration"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/jenkins-integration.html
+permalink: katalon-studio/docs/bamboo-integration.html
     
 description:
 ---
-
-> This tutorial has been deprecated. We recommend you to make use of our [Katalon plugin for Jenkins](https://forum.katalon.com/t/the-first-release-of-katalon-studios-jenkins-plugin/16236) to simplify the setup. Please see the tutorial [*How to use Katalon plugin for Jenkins on Ubuntu*](https://forum.katalon.com/t/how-to-use-katalon-plugin-for-jenkins-on-ubuntu/17790).
+The Execute Katalon Studio Tests plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. 
 
 Prerequisites
 -------------
 
-1.  Katalon Studio command to be used for console mode execution. Refer to section [Console Mode Execution](/display/KD/Console+Mode+Execution) for how to build up a Katalon command. Here is the basic command template:
+Installing and configuring Katalon plugin for Bamboo is relatively easy, however, you will need Bamboo administrative permission. 
 
-    ```groovy
-    katalon -runMode=console -projectPath="<YOUR PROJECT>" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath=<YOUR TEST SUITE PATH> -browserType="Chrome"
-    ```
-
-
-> Your command should NOT include -noExit and -consoleLog parameters so that CI logs can be displayed directly from the job view
-
-2\. CI tool is installed and setup properly. In this example, we will use [Jenkins](https://jenkins.io/), which is a popular CI and easy to integrate with.
+Installation
+------------
+1. Log into your Bamboo instance as an admin.
+2. Click the admin dropdown and choose Atlassian Marketplace.
+3. Click Find new apps or Find new add-ons from the left-hand side of the page.
+4. Locate **Execute Katalon Studio Test** via search.
+5. Click **Try free** to begin a new trial or **Buy now** to purchase a license for Execute Katalon Studio Tests.
+6. Enter your information and click **Generate license** when redirected to MyAtlassian.
+7. Click **Apply license**.
 
 Configuration Steps
 -------------------
+Once you have installed the plugin, you will need to configure **Execute Katalon Studio Tests** task to complete the integration. 
 
-1.  Create a New item in Jenkins
-    ![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.07.17.png)
+1. Create and configure a new plan in Bamboo. Read more on Atlassian’s instructions to create a new plan [here](https://confluence.atlassian.com/bamboo/creating-a-plan-289276868.html).
 
-2\. Enter job name (e.g "Katalon Studio Tests"), and then choose "Freestyle Project"![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.08.54.png)
+2. Configure a job 
 
-3\. Add execution step
+    Add task **Execute Katalon Studio Tests** to your desired job list. You can quickly lookup Execute Katalon Studio Tests from the search box or find it under the Tests category. 
+    ![](../../images/katalon-studio/docs/bamboo-integration/bamboo-tasktypes.png)
 
-**mac OS**
+3. Set up the plugin
+    
+    3.1. Katalon Studio will be automatically downloaded if you specify the Katalon version. You can also provide a link to Katalon Studio location in case you have it already installed. 
 
-3.1 Add "Execute Shell" step
+    3.2. Regarding the **Command Arguments**, you can enter the arguments directly in the text area or generate them from your in use Katalon Studio. Please leave out any irrelevant argument such as -runmode. 
+    ![](../../images/katalon-studio/docs/bamboo-integration/bamboo-commandarguments.png)
 
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.11.26.png)
+    For your ease of configuring, check out the list of supported Katalon command options and how to generate command in this article.
 
-3.2 Paste in generated Katalon Studio command
+    3.3. X11 DISPLAY and Xvfb-run configuration
+    
+    If you want to learn more about xvfb-run configuration please see [its manual](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). If you are not sure, only change the resolution 1024x768x24 and leave other options as-is.
+    ![](../../images/katalon-studio/docs/bamboo-integration/bamboo-x11.png)
 
-```groovy
-./Katalon\ Studio.app/Contents/MacOS/katalon --args -runMode=console -projectPath="/Users/admin/Katalon Studio/Samples/Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
-```
+Artifacts
+---------
 
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-16.28.34.png)
+If you want to keep Katalon Studio artifact from the build, you can specify the **Copy Pattern** as "Reports.**/*.*"
+![](../../images/katalon-studio/docs/bamboo-integration/bamboo-artifactdefinition.png)
 
-**Windows**
+After build, file created by Katalon Studio execution will be stored under the “Artifacts" tab.
+![](../../images/katalon-studio/docs/bamboo-integration/bamboo-viewartifact.png)
 
-3.1 Add "Execute Windows batch command"
-
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-13.48.38.png)
-
-3.2 Paste in generated Katalon Studio command.
-
-```groovy
-katalon -runMode=console -projectPath="C:\Project\Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
-```
-
-4\. Check on 'Delete workspace before build starts' in current job configuration to prevent corrupted project folder after long run.
-
-![](../../images/katalon-studio/docs/jenkins-integration/build-environment.png)
-
-Exit Codes
-----------
-
-When you execute Katalon Studio command from CI , exit code will be generated as the output of your execution. You can use this exit code to know whether your execution is successful, passed or failed.
-![](../../images/katalon-studio/docs/jenkins-integration/image2016-9-8-103A433A50.png)
-
-Below is the list of exit codes after console mode execution:
-
-*   0: the execution passed with no failed or error test case.
-*   1: the execution has failed test cases.
-*   2: the execution has error test cases.
-*   3: the execution has failed test cases and error test cases.
-*   4: the execution cannot start because of invalid arguments.
-
-Publish JUnit reports
----------------------
-
-From Katalon Studio 4.7, JUnit report is generated when you execute a test suite. In order for Jenkins to store , analyze and show results, please add '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
-
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-11.53.43.png)
-
-Set the 'Test Report XMLs' value to your Reports folder to fetch all generated JUnit reports.
-
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-11.52.37.png)
-
-After executions from Jenkins job, click on '[Test Results Analyzer](https://wiki.jenkins.io/display/JENKINS/Test+Results+Analyzer+Plugin)' item
-
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-11.57.27.png)
-
-All test executions from the folder you've specified will be summarized and displayed in visualize way.
-
-![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-11.48.34.png)
