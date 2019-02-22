@@ -41,7 +41,6 @@ Make sure your plugin meets the following general requirements before attempting
 
 ## Publish a plugin
 
-
 After submitting your plugin as a draft, go to Manage published plugins page to view and publish your plugin. It will be subject to further review and ready to be published after being approved. As soon as your plugin is approved, it will be available on Katalon Store for users to discover and install.
 
 ## Unpublish your plugin

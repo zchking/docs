@@ -231,6 +231,7 @@ After the build completed, there is a `my-first-katalon-plugin.jar` under the `t
 
 ### **Step 6: Test your plugin**
 
+
 Open Katalon Studio (since 6.0.4) and activate **Event Log** tab that's nearby `Console Log` tab. All your plugin's message will be displayed here.
 
 Launch your plugin by clicking on **Plugin/Install Plugin** menu and choose the jar was mentioned above.

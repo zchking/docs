@@ -65,3 +65,4 @@ Provide the following:
 8. Publish your plugin
 
 Refer to[ Publish a new plugin](https://docs.katalon.com/katalon-store/docs/publisher/publish-plugin.html#before-you-begin) for more information.
+
