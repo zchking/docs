@@ -60,12 +60,9 @@ Provide the following:
 *   **Logo**: you can upload a logo of your plugin to be displayed in a Plugin's detail page. The dimension of the logo needs to be 150 x 150px. If it is in a different size, it will be automatically adjusted.
 *   **Banners**: you can upload a banner(s) of your plugin to be displayed in the Plugin's detail page. The dimension of the banners needs to be 726x388 px. If it is in a different size, it will be automatically adjusted.
 
-7. Click **Save**
-
-Save your submission as a draft.
+5. Click **Save**. Save your submission as a draft.
 
 8. Publish your plugin
 
-After submitting your plugin as a draft, go to Manage published plugins page to view and publish your plugin. It will be subject to further review and ready to be published after being approved. As soon as your plugin is approved, it will be available on Katalon Store for users to discover and install.
+Refer to[ Publish a new plugin](https://docs.katalon.com/katalon-store/docs/publisher/publish-plugin.html#before-you-begin) for more information.
 
-Refer to Publish a new plugin for more information.
