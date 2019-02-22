@@ -676,6 +676,8 @@ items:
                 url: /katalon-studio/docs/docker.html
               - title: "Export Test Results in JUnit Format"
                 url: /katalon-studio/docs/export-test-results-in-junit-format.html
+              - title: "Bamboo Integration"
+                url: /katalon-studio/docs/bamboo-integration.html
               - title: "Jenkins Integration"
                 url: /katalon-studio/docs/jenkins-integration.html
               - title: "VSTS/TFS/VSO Integration"
