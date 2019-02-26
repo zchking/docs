@@ -135,7 +135,7 @@ class sampleKeywords {
 		String []columnNames = data.getColumnNames()
 		JsonSlurper slurper = new JsonSlurper()
 
-		Map dataJSON = slurper.parseText(key == null ? '{[]}' : '{}')
+		Map dataJSON = key == null ? [:] : slurper.parseText('{}')
 
 		for (def index : (1..data.getRowNumbers())){
 			dataJSON[key == null ? index-1 : data.getValue(key, index)]=slurper.parseText('{}')
