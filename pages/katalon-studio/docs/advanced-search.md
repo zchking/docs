@@ -48,7 +48,7 @@ Id=(Test Cases/Advance Examples)
 
 All test cases associated with the ‘Advance Examples’ ID will be filtered and returned.
  
-
+***Note***: To search for test artifacts labeled with advanced tags, follow this syntax: Tags = (NameOfTag1, NameOfTag2).
 
 
 
