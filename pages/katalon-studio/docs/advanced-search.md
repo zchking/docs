@@ -5,6 +5,8 @@ permalink: katalon-studio/docs/advanced-search.html
 
 description: 
 ---
+> Query Builder applies ONLY to **built-in** advanced search function.
+
 Searching manually for test artifacts can be time-consuming. The advanced search in Katalon Studio helps reduce time on finding the desired test artifacts based on given criteria.
 
 The search function is used for various test artifacts such as test case, test suite, and folder.
@@ -48,7 +50,7 @@ Id=(Test Cases/Advance Examples)
 
 All test cases associated with the ‘Advance Examples’ ID will be filtered and returned.
  
-***Note***: To search for test artifacts labeled with advanced tags, follow this syntax: Tags = (NameOfTag1, NameOfTag2).
+***Note***: To search for test artifacts labeled with Advanced Tags, follow this syntax: Tags = (NameOfTag1, NameOfTag2).
 
 
 
