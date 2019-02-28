@@ -11,7 +11,7 @@ description: Release notes v6.0.5
 
 ### OAuth 2.0 Support
 
-OAuth 2.0 enhances flexible testing ability even better. Katalon Studio 6.0.5 supports these following grant types: “Authorization code,” “Password Credentials,” “Client Credentials,” and “Refresh Token.”
+Since version 6.0.5, Katalon Studio supports OAuth 2.0 expanding Web Service testing capabilities. Most of the common grant types are supported including “Authorization code,” “Password Credentials,” “Client Credentials,” and “Refresh Token.”
 [Learn more](https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html)
 
 ![](../../images/katalon-studio/docs/authorization-oauth2/5.png)
