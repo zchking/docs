@@ -161,6 +161,12 @@ items:
                 url: /katalon-studio/docs/soap.html
               - title: "Authorization"
                 url: /katalon-studio/docs/authorization.html
+              - title: "Authorization Basic"
+                url: /katalon-studio/docs/authorization-basic.html 
+              - title: "Authorization OAuth 1.0"
+                url: /katalon-studio/docs/authorization-oauth1.html 
+              - title: "Authorization OAuth 2.0"
+                url: /katalon-studio/docs/authorization-oauth2.html
               - title: "Web Services Builder"
                 url: /katalon-studio/docs/web-services-builder.html
               - title: "Using Web Services in a Test Case"
