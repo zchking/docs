@@ -1,7 +1,9 @@
 ---
-title: "Advanced Search" 
+title: "Search" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/advanced-search.html
+permalink: katalon-studio/docs/search.html
+redirect_from:
+    - "/katalon-studio/docs/advanced-search/"
 
 description: 
 ---
