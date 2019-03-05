@@ -19,7 +19,13 @@ Please note that the existing tags cannot be removed by unchecking the boxes, th
 test-case-management-with-tags
 
 **Search For Test Cases With Multiple Tags**
+
+This feature will be enabled in Query Provider of Dynamic Querying Test Suite after you successfully install Test Case Management With Tags plugins.
+
 To search for test artifacts labeled with Multiple Tags, directly type on the search box follow this syntax: Tags = (NameOfTag1, NameOfTag2)
+
+![](../../images/katalon-studio/docs/test-case-management-with-tags/tags-search.png)
+
 
 
 
