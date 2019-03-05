@@ -105,7 +105,7 @@ items:
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Plugins"
         tree:
-          - title: "Basic Search for Dynamic Querying Test Suite"
+          - title: "Basic Search For Dynamic Querying Test Suite"
             url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
           - title: "Test Case Management With Tags"
             url: /katalon-studio/docs/test-case-management-with-tags.html
