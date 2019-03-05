@@ -12,7 +12,7 @@ Basic Search For Dynamic Querying Test Suite enables the basic search capability
 
  
 
-**Create a new dynamic querying test suite **
+**Create a new dynamic querying test suite**
 
 Right-click on Test Suite > New > Dynamic Querying Test Suite
 
