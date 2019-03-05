@@ -46,7 +46,7 @@ Navigate to **Test Explorer** > Find the object whose ID you want to get > Right
 
 Another way to search for test objects is to directly type on the search box. For example:
 
-Id=(Test Cases/Advance Examples)
+id=(Test Cases/Jira sync with BDD) 
 
 ![](../../images/katalon-studio/docs/search/1.png)
 

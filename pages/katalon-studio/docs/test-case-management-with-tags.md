@@ -7,7 +7,9 @@ description:
 ---
 **Easily manipulate tag properties for better test case management**
 
-Utilize existing tag values, separate tag tokens by comma or semicolon View all tags in the project Easily append existing tags to test case without typo mistakes
+- Utilize existing tag values, separate tag tokens by comma or semicolon
+-  View all tags in the project
+- Easily append existing tags to test case without typo mistakes
 
 **Append & manage tags**
 
