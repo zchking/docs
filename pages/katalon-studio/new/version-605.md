@@ -22,8 +22,6 @@ Fixed Bugs & Improvements
 * Fixed an issue where commented lines at the bottom of test script are accidentally deleted - [More details](https://forum.katalon.com/t/most-of-my-automation-script-got-deleted/16005/4)
 * Fixed some minor bugs and made some enhancements for BDD
 * Fixed Global variables issues - [More details](https://forum.katalon.com/t/groovy-error-unable-to-resolve-class-internal-globalvariable/9557/168)
-* Fixed an issue where profiles are evaluated even though it is not in use
-* Moved ScreenUtil from WebUIAbstractKeyword to ImageKeyword
 * Allows users to create Web Service Object in code
 * Fixed an issue where profiles are evaluated even though it is not in use
 * Moved ScreenUtil from WebUIAbstractKeyword to ImageKeyword
