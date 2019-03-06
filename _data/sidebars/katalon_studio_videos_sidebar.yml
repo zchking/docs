@@ -17,6 +17,12 @@ items:
         url: /katalon-studio/videos/execute_automated_katalon_studio_tests_using_kobiton_mobile_devices.html
   - title: "Raghav Pal"
     tree:
+    - title: "Listeners in Katalon Studio"
+      url: /katalon-studio/videos/katalon-listeners.html
+    - title: "Troubleshooting and Debugging"
+      url: /katalon-studio/videos/katalon-troubleshooting-debugging.html 
+    - title: "How to use Headless Browsers"
+      url: /katalon-studio/videos/katalon-headless-browsers.html
     - title: "API Testing 13 - Extracting data from JSON responses and chaining request"
       url: /katalon-studio/videos/extracting-data-from-json-responses-and-chaining-requests.html
     - title: "API Testing 12 - Extracting data from XML responses and chaining requests"
