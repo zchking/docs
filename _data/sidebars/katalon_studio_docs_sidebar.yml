@@ -103,6 +103,17 @@ items:
                 url: /katalon-studio/docs/network-settings.html
               - title: "Web Locators Settings (since v5.7.1)"
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
+      - title: "Plugins"
+        tree:
+          - title: "Dynamic Querying Test Suite"
+            tree:
+              - title: "Dynamic Querying Test Suite"
+                url: /katalon-studio/docs/dynamic-querying-test-suite.html
+              - title: "Basic Search For Dynamic Querying Test Suite"
+                url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+              - title: "Test Case Management With Tags"
+                url: /katalon-studio/docs/test-case-management-with-tags.html
+          
       - title: "Test Case"
         tree:
           - title: "Advanced Search"
@@ -134,7 +145,7 @@ items:
       - title: "Test Suite"
         tree:
           - title: "Create a Test Suite"
-            url: /katalon-studio/docs/create-test-suite.html 
+            url: /katalon-studio/docs/test-suite.html 
           - title: "Design a Test Suite"
             url: /katalon-studio/docs/design-a-test-suite.html
           - title: "Test Suite Collection"

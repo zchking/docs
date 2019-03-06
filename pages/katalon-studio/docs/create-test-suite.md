@@ -1,7 +1,7 @@
 ---
 title: "Create a Test Suite" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/create-test-suite.html 
+permalink: katalon-studio/docs/test-suite.html 
 redirect_from:
     - "/katalon-studio/docs/create-test-suite/"
 
