@@ -4,7 +4,7 @@ sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/soap-api-dynamic-data.html
 description: "Learn how to use Dynamic Data in Request with Katalon Studio"
 ---
-<iframe width="840" height="473" src="https://www.youtube.com/embed/7-oueBt1yhQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
+<iframe width="840" height="473" src="https://www.youtube.com/embed/oFt4tFQ_eYc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 
 
 In this tutorial, Raghav will help you learn:
