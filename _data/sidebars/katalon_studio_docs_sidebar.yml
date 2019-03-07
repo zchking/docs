@@ -105,6 +105,8 @@ items:
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Plugins"
         tree:
+          - title: "TestRail Integration"
+            url: /katalon-studio/docs/testrail-integration.html
           - title: "Dynamic Querying Test Suite"
             tree:
               - title: "Dynamic Querying Test Suite"
