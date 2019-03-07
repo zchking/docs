@@ -7,7 +7,7 @@ description:
 ---
 TestRail plugin establishes the connection between Katalon Studio project and TestRail to synchronize tests, map test cases, and update test execution results in real time.
 
-Note: To get TestRail plugins, visit [Katalon Store](https://store.katalon.com).
+*Note*: To get TestRail plugins, visit [Katalon Store](https://store.katalon.com).
 
 Please make sure your TestRail is configured correctly. See [TestRail documentation](http://docs.gurock.com/testrail-userguide/start) for more information.
 
