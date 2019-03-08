@@ -43,7 +43,7 @@ Others
 Skip.
 
 ## Query TestRail in Dynamic Test Suite Querying
-&gt; Learn more about  Dynamic Querying Test Suite.
+&gt; Learn more about [Dynamic Querying Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-querying-test-suite.html).
 Enter Test Run ID. The result will be a list of Katalon Test Case in that Test Run.
 ![](../../images/katalon-studio/docs/testrail-integration/4_querying.png)
 
