@@ -4,7 +4,7 @@ sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-605.html
 redirect_from:
     - "/katalon-studio/new/version-605/"
-    - "/katalon-studio/new/"
+
 description: Release notes v6.0.5
 ---
 

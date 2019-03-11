@@ -124,11 +124,11 @@ You can continue to record the failed test case, run the error test step, then i
 
 Right-click on _Test Suites > New > Test Suite_
 
-[A test suite](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html) is used to plan test cases with several configurations such as: retrying on failure, email sending or data-driven binding. For how to design a test suite, visit [here](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html).
+[A test suite](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html) is used to plan test cases with several configurations such as: retrying on failure, email sending or data-driven binding. You can manage additional configurations for test suite execution by expanding the **Execution Information** section, as below:
+![](../../images/katalon-studio/tutorials/introduction-to-web-testing/image2017-2-15-143A493A29.png)
+![](../../images/katalon-studio/tutorials/introduction-to-web-testing/9.png)
 
- ![](../../images/katalon-studio/tutorials/introduction-to-web-testing/9.png)
-
-
+For more details, visit [here](https://docs.katalon.com/katalon-studio/docs/design-a-test-suite.html).
 
 **Step 6: Execute the test suite and view the result**
 

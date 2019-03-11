@@ -36,7 +36,7 @@ In **Scripting view**, the _callTestCase_ method allows users to make a call to 
 ```groovy
 
 import com.kms.katalon.core.model.FailureHandling
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 //call test case using WebUI Class

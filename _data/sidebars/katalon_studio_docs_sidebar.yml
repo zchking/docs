@@ -113,19 +113,18 @@ items:
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
           - title: "TestRail Integration"
             url: /katalon-studio/docs/testrail-integration.html
+          - title: "Test Case Management With Tags"
+            url: /katalon-studio/docs/test-case-management-with-tags.html
           - title: "Dynamic Querying Test Suite"
             tree:
               - title: "Dynamic Querying Test Suite"
                 url: /katalon-studio/docs/dynamic-querying-test-suite.html
               - title: "Basic Search For Dynamic Querying Test Suite"
                 url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
-              - title: "Test Case Management With Tags"
-                url: /katalon-studio/docs/test-case-management-with-tags.html
-          
       - title: "Test Case"
         tree:
-          - title: "Advanced Search"
-            url: /katalon-studio/docs/advanced-search.html
+          - title: "Search"
+            url: /katalon-studio/docs/search.html
           - title: "Manual View"
             url: /katalon-studio/docs/manual-view.html
           - title: "Script View"
