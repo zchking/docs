@@ -17,6 +17,6 @@ Fixed Bugs & Improvements
 * Provide more details in log error messages
 * Fixed an issue where users can not set proxy settings to selenium grid for accessing applications behind the firewall
 * Fixed overriding Global Variable for Test Suite Collection issue
-* Fixed an issue where Test Suite Collection cannot be executed in cmd mode
+* Fixed an issue where Test Suite Collection cannot be executed in CMD mode
 
 
