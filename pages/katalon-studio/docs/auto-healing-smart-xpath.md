@@ -9,14 +9,11 @@ description:
 
 ### Prepare the XPath configuration
 To start using this plugin, please first make sure that Smart XPath is enabled.
-<center>
-<img src="https://i.ibb.co/DrLL3Xq/xpath-03.png"  width=650>
-</center>
 
+![](../../images/katalon-studio/docs/auto-healing-smart-xpath/xpath-03.png)  
+      
 Go to **Project Settings** > **Test Design** > **Web Locators** > choose the **XPath** option.
-<center>
-<img src="https://i.ibb.co/XyMdSby/xpath-01.png" width=650>
-</center>
+![](../../images/katalon-studio/docs/auto-healing-smart-xpath/xpath-01.png)  
 
 The list contains XPath generator providers which generate the corresponding XPath values for Katalon Studio test objects. Most XPath generator providers are inherited from Selenium except for Neighbor XPath, a unique XPath generator researched and developed by Katalon team.
 
@@ -34,8 +31,6 @@ During execution, if a test object is failed to detect by its default XPath valu
 
 ### Update to the new stable XPath values
 After execution, the proposed XPath values can be updated to the test objects via the Auto Healing logs.
-<center>
-<img src="https://i.ibb.co/nPHHtbC/xpath-07.png" width=720>
-</center>
+![](../../images/katalon-studio/docs/auto-healing-smart-xpath/xpath-07.png)  
 
 Check the **Approve** checkbox and click OK to update the value.
