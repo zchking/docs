@@ -13,7 +13,7 @@ All the preferences under **Test Case** group are for controlling the default be
 
 You can configure these preferences by accessing from main menu: **Window > Katalon Studio Preferences > Katalon > Test Case**
 
-![](../../images/katalon-studio/docs/test-case-preferences/image2017-6-29-163A53A23.png)
+![](../../images/katalon-studio/docs/test-case-preferences/Window.png)
 
 Where:
 
