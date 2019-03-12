@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/proxy-preferences/"
 description: 
 ---
-Proxy setup can be configured at: **Preferences > Proxy**. The setting affects both WebUI and WebService testings. 
+Proxy setup can be configured at: **Window > Katalon Studio Preferences > Katalon > Proxy**. The setting affects both WebUI and WebService testings. 
 
 ![](../../images/katalon-studio/docs/proxy-preferences/image2017-6-29-163A73A12.png)
 
