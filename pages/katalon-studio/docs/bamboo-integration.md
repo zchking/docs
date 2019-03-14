@@ -1,5 +1,5 @@
 ---
-title: "Bamboo Integration (Preview)"
+title: "Bamboo Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bamboo-integration.html
     
