@@ -40,7 +40,7 @@ Once you have installed the plugin, you will need to configure **Execute Katalon
     3.2. Regarding the **Command Arguments**, you can enter the arguments directly in the text area or generate them from your in use Katalon Studio. Please leave out any irrelevant argument such as -runmode. 
     ![](../../images/katalon-studio/docs/bamboo-integration/bamboo-commandarguments.png)
 
-    For your ease of configuring, check out the list of supported Katalon command options and how to generate command in this article.
+    For your ease of configuring, check out the list of supported Katalon command options and how to generate command in this [article](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-command-line-options).
 
     3.3. X11 DISPLAY and Xvfb-run configuration
     
@@ -50,7 +50,7 @@ Once you have installed the plugin, you will need to configure **Execute Katalon
 Artifacts
 ---------
 
-If you want to keep Katalon Studio artifact from the build, you can specify the **Copy Pattern** as "Reports.**/*.*"
+If you want to keep Katalon Studio artifact from the build, you can specify the **Copy Pattern** as "Reports/**/*.*"
 ![](../../images/katalon-studio/docs/bamboo-integration/bamboo-artifactdefinition.png)
 
 After build, file created by Katalon Studio execution will be stored under the “Artifacts" tab.
