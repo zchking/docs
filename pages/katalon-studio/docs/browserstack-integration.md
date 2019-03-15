@@ -35,6 +35,6 @@ To integrate with BrowserStack, you need to execute your test scripts using '[Re
     
 *   Other settings are gotten from step #4.
 
-![](../../images/katalon-studio/docs/browserstack-integration/Screen-Shot-2017-10-04-at-13.36.34.png)
+![](../../images/katalon-studio/docs/browserstack-integration/Window.png)
 
 5\. The final step will be selecting '**Remote**' item for execution.

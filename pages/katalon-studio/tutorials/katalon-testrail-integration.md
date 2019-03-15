@@ -5,11 +5,12 @@ permalink: katalon-studio/tutorials/katalon-testrail-integration.html
 description: "The tutorial will show you how to integrate between Katalon Studio and TestRail—a test management software tool. Integrating these two tools can benefit users of both systems."
 ---
 
+> ## TestRail plugin is now available
+> To get TestRail plugin, visit [Katalon Store](https://store.katalon.com)
+
 #### About the author:
 
 Nikita Bogdan, QA Engineer at [Alyce Inc.](https://www.alyce.com/) – Strategic B2B gifting platform.
-
-![](../../images/katalon-studio/tutorials/testrail-integration/Artboard 1 copy 2.png)
 
 ## Introduction      
 
