@@ -8,6 +8,7 @@ description:
 
 > All these following features only work with Jira Integration plugin.
 
+*Note*: To get JIRA Integration plugin, visit [Katalon Store](https://store.katalon.com).
 
 ### Configuration
 
