@@ -1,11 +1,11 @@
 ---
-title: "Bamboo Integration (Preview)"
+title: "Bamboo Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bamboo-integration.html
     
 description:
 ---
-The Execute Katalon Studio Tests plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. 
+The Katalon Studio for Bamboo plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. Try it free on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1220235/katalon-studio-for-bamboo). 
 
 Prerequisites
 -------------
@@ -17,8 +17,8 @@ Installation
 1. Log into your Bamboo instance as an admin.
 2. Click the admin dropdown and choose Atlassian Marketplace.
 3. Click Find new apps or Find new add-ons from the left-hand side of the page.
-4. Locate **Execute Katalon Studio Test** via search.
-5. Click **Try free** to begin a new trial or **Buy now** to purchase a license for Execute Katalon Studio Tests.
+4. Locate **Katalon Studio for Bamboo** via search.
+5. Click **Try it free** to begin a new trial or **Buy now** to purchase a license for Execute Katalon Studio Tests.
 6. Enter your information and click **Generate license** when redirected to MyAtlassian.
 7. Click **Apply license**.
 
@@ -28,9 +28,9 @@ Once you have installed the plugin, you will need to configure **Execute Katalon
 
 1. Create and configure a new plan in Bamboo. Read more on Atlassian’s instructions to create a new plan [here](https://confluence.atlassian.com/bamboo/creating-a-plan-289276868.html).
 
-2. Configure a job 
+2. Configure job
 
-    Add task **Execute Katalon Studio Tests** to your desired job list. You can quickly lookup Execute Katalon Studio Tests from the search box or find it under the Tests category. 
+   Add task **Execute Katalon Studio Tests** to your job list. You can quickly lookup Execute Katalon Studio Tests from the search box or find it under the Tests category. 
     ![](../../images/katalon-studio/docs/bamboo-integration/bamboo-tasktypes.png)
 
 3. Set up the plugin
