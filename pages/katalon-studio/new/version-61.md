@@ -12,7 +12,7 @@ Introducing Custom Keyword Plugin for Katalon Studio v6.1.0 for collaboration.
 Custom Keywords now can be shared among the project team or to the world via Katalon Store.
 Simply Create. Upload. and Share!
 
-![](../../images/katalon-studio/new/version-61/2019-03-18 14_04_13-Window.png)
+![](../../images/katalon-studio/new/version-61/Window.png)
 
 Fixed Bugs & Improvements
 -----------------------
