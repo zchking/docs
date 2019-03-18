@@ -7,8 +7,10 @@ description:
 ---
 
 > All these following features only work with Jira Integration plugin.
-### Configuration
 
+*Note*: To get JIRA Integration plugin, visit [Katalon Store](https://store.katalon.com).
+
+### Configuration
 
 You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
 
