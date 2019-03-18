@@ -105,9 +105,9 @@ items:
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Plugins"
         tree:
-          - title: "Jira Plugin Integration"
+          - title: "Jira Integration Plugin"
             url: /katalon-studio/docs/jira-plugin-integration.html
-          - title: "Slack Plugin Integration"
+          - title: "Slack Integration Plugin"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Auto-healing Smart XPath"
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
