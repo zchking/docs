@@ -9,6 +9,9 @@ redirect_from:
     - "/katalon-studio/docs/working-with-jira/"
 description: 
 ---
+> ## JIRA Integration plugin is now available
+> To get JIRA Integration plugin, visit [Katalon Store](https://store.katalon.com)
+
 > JIRA icon will be available in Menu Bar after JIRA Integration setup is done.
 
 Integrate Test Case

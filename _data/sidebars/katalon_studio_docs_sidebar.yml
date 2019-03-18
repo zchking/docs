@@ -152,7 +152,7 @@ items:
       - title: "Test Suite"
         tree:
           - title: "Create a Test Suite"
-            url: /katalon-studio/docs/test-suite.html 
+            url: /katalon-studio/docs/test-suite.html
           - title: "Design a Test Suite"
             url: /katalon-studio/docs/design-a-test-suite.html
           - title: "Test Suite Collection"
@@ -180,9 +180,9 @@ items:
               - title: "Authorization"
                 url: /katalon-studio/docs/authorization.html
               - title: "Authorization Basic"
-                url: /katalon-studio/docs/authorization-basic.html 
+                url: /katalon-studio/docs/authorization-basic.html
               - title: "Authorization OAuth 1.0"
-                url: /katalon-studio/docs/authorization-oauth1.html 
+                url: /katalon-studio/docs/authorization-oauth1.html
               - title: "Authorization OAuth 2.0"
                 url: /katalon-studio/docs/authorization-oauth2.html
               - title: "Web Services Builder"
@@ -396,11 +396,11 @@ items:
                       - title: "[WebUI] Verify Element Not Has Attribute"
                         url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
                       - title: "[WebUI] Verify Element Present"
-                        url: /katalon-studio/docs/webui-verify-element-present.html 
+                        url: /katalon-studio/docs/webui-verify-element-present.html
                       - title: "[WebUI] Verify Element Not Present"
                         url: /katalon-studio/docs/webui-verify-element-not-present.html
                       - title: "[WebUI] Verify Element Visible"
-                        url: /katalon-studio/docs/webui-verify-element-visible.html 
+                        url: /katalon-studio/docs/webui-verify-element-visible.html
                       - title: "[WebUI] Verify Element Not Visible"
                         url: /katalon-studio/docs/webui-verify-element-not-visible.html
                   - title: "[WebUI] Form"
@@ -672,7 +672,7 @@ items:
           - title: "View Execution Log"
             url: /katalon-studio/docs/view-execution-log.html
             tree:
-              - title: "Working with Execution Log" 
+              - title: "Working with Execution Log"
                 url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Video Capturing"
             url: /katalon-studio/docs/video-capturing.html
@@ -727,6 +727,7 @@ items:
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-integration.html
           - title: "qTest Integration"
+            id: "qtest-integration"
             tree:
               - title: "Enable qTest Integration"
                 url: /katalon-studio/docs/enable-qtest-integration.html
@@ -818,7 +819,7 @@ items:
             url: /katalon-studio/docs/soap-pre-54.html
           - title: "Spy Web Utility (version 4.8 and below)"
             url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
-          
+
   - title: "Katalon Analytics (Beta)"
     tree:
       - title: "Overview"
