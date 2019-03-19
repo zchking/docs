@@ -59,6 +59,8 @@ items:
                 url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
               - title: "Troubleshooting automated mobile testing"
                 url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
+              - title: "Troubleshooting common issues related to interacting with an element"
+                url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html 
           - title: "Update New Versions"
             tree:
               - title: "Auto-updater"
