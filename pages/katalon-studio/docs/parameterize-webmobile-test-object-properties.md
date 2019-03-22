@@ -5,6 +5,7 @@ permalink: katalon-studio/docs/parameterize-webmobile-test-object-properties.htm
 redirect_from:
     - "/x/A4C9/"
     - "/katalon-studio/docs/parameterize-webmobile-test-object-properties/"
+    - https://docs.katalon.com/display/KD/Parameterized+a+Test+Object
 description: 
 ---
 > Warning
