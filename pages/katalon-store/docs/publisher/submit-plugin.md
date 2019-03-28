@@ -15,7 +15,7 @@ Next, prepare your plugin for publication by adding all its files to a ZIP archi
 
 
 
-#### Use your Katalon account to publish a plugin
+> Use your Katalon account to publish a plugin
 
 
 
