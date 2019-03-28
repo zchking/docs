@@ -15,6 +15,8 @@ items:
         tree:
           - title: "Create your first Katalon Studio plugin"
             url: /katalon-store/docs/publisher/create-plugin.html
+          - title: "How to develop Custom Keywords Plugins"
+            url: /katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html
           - title: "Submit a new plugin"
             url: /katalon-store/docs/publisher/submit-plugin.html
           - title: "Publish a new plugin"
