@@ -27,8 +27,8 @@ Due to the diifferences in computer environments, the Katalon download package d
 > Attention
 >
 > *   Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
-> *   Appium 1.9 is **not** supported, so please kinldy install Appium 1.8. The installation command is:
->     npm install -g appium@1.8.1
+> *   Appium 1.9 is **not** supported, so please kinldy install Appium 1.8.1 
+>     The installation command: npm install -g appium@1.8.1
 
 Setting Up Your Devices
 -----------------------
