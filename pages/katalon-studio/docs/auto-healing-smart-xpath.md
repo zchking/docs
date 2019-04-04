@@ -26,7 +26,7 @@ Once test objects in test cases are created by Recording or Spying feature in Ka
 ### Execute test cases with Auto Healing, supported by Smart XPath
 During execution, if a test object is failed to detect by its default XPath value, the other XPath options in the list will be automatically applied; and the first successful value will be used. The execution will continue as if no failed detection has happened. This will help significantly save time updating test cases, especially when the test cases are executed in batch overnight.
 <center>
-<img src="https://i.ibb.co/zhr6sp0/xpath-02.png" >
+![](../../images/katalon-studio/docs/auto-healing-smart-xpath/xpath_new.png)
 </center>
 
 ### Update to the new stable XPath values
