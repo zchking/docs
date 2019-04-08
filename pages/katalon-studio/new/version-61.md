@@ -4,11 +4,10 @@ sidebar: katalon_studio_new_sidebar
 permalink: katalon-studio/new/version-61.html
 redirect_from:
     - "/katalon-studio/new/version-61/"
-    - "/katalon-studio/new/"
 description: Release notes v6.1.0
 ---
 ### Custom Keyword Plugin
-Introducing Custom Keyword Plugin for Katalon Studio v6.1.0 for collaboration. 
+Introducing Custom Keyword Plugin for Katalon Studio v6.1.0 for collaboration.
 Custom Keywords now can be shared among the project team or to the world via Katalon Store.
 Simply Create. Upload. and Share!
 
