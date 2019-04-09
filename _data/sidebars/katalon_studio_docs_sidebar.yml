@@ -121,6 +121,8 @@ items:
                 url: /katalon-studio/docs/dynamic-querying-test-suite.html
               - title: "Basic Search For Dynamic Querying Test Suite"
                 url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+          - title: "Applitools Integration"
+            url: /katalon-studio/docs/applitools-integration.html
       - title: "Test Case"
         tree:
           - title: "Search"
