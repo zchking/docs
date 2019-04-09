@@ -7,9 +7,6 @@ description:
 ---
 
 
-### Sample project
-View a sample project for this plugin [here](https://github.com/katalon-studio-samples/katalon-studio-applitools-sample-project)
-
 ### Applitools settings
 Go to **Project Settings** > **Plugin** > **Applitools Integration** and setup these following configurations:  
 
