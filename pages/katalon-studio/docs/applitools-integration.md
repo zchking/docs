@@ -37,43 +37,11 @@ This plugin provides two custom keywords in BasicKeywords class which are helpfu
 Besides the two basic custom keywords above, this plugin also provides a set of keywords in EyesKeywords and AdvancedKeywords classes which can be use in Script mode:
 
 	/**
-	 * Runs a checkpoint of the entire application (e.g. browser) window.
-	 *
-	 * @param eyes The initialized eyes object.
-	 * @param message An message to be associated with the snapshot.
+	 * Initialize an Eyes instance without any configuration.
 	 */
-	static void checkWindow(Eyes eyes, String message)
-
-	/**
-	 * Takes a snapshot of the application under test and matches a region ( or element) specified by the given selector with the expected region output.
-	 *
-	 * @param eyes The initialized eyes object.
-	 * @param selector Selects the region/element to check.
-	 * @param matchTimeout The amount of time to retry matching. (Milliseconds).
-	 * @param message An message to be associated with the snapshot.
-	 * @param stitchContent If stitchContent is false, it will match a region of a specific element with the expected region output. Otherwise, matches an specified element with the expected region output.
-	 */
-	static void checkRegion(Eyes eyes, By selector, int matchTimeout, String message, boolean stitchContent)
-
-	/**
-	 * Takes a snapshot of the application under test and matches a region ( or element) of a specific element with the expected region output.
-	 *
-	 * @param eyes The initialized eyes object.
-	 * @param element The element which represents the region/element to check.
-	 * @param matchTimeout The amount of time to retry matching. (Milliseconds).
-	 * @param message An message to be associated with the snapshot.
-	 * @param stitchContent If stitchContent is false, it will match a region of a specific element with the expected region output. Otherwise, matches an specified element with the expected region output.
-	 */
-	static void checkRegion(Eyes eyes, WebElement element, int matchTimeout, String message, boolean stitchContent)
-
-	/**
-	 * Initialize a wrapped WebDriver to starts a test
-	 *
-	 * @param testName The name of the test. This name must be unique within the scope of the application name. It may be any string.
-	 * @param viewportSize Specified viewport for image capturing. If null, the default browser viewport will be used.
-	 * @return A wrapped WebDriver which enables Eyes trigger recording and frame handling.
-	 */
-	static Eyes eyesOpen(String testName, RectangleSize viewportSize)
+	@CompileStatic
+	@Keyword
+	static Eyes eyesInit()
 
 	/**
 	 * End the test.
@@ -82,6 +50,15 @@ Besides the two basic custom keywords above, this plugin also provides a set of 
 	 * @return The list of results of the test can be obtained from the object returned.
 	 */
 	static List<TestResults> eyesClose(Eyes eyes)
+	
+	/**
+	 * Initialize a wrapped WebDriver to starts a test
+	 *
+	 * @param testName The name of the test. This name must be unique within the scope of the application name. It may be any string.
+	 * @param viewportSize Specified viewport for image capturing. If null, the default browser viewport will be used.
+	 * @return A wrapped WebDriver which enables Eyes trigger recording and frame handling.
+	 */
+	static Eyes eyesOpen(String testName, RectangleSize viewportSize)
 
 	/**
 	 * Initialize a wrapped WebDriver to starts a test with a specified baseline name.
