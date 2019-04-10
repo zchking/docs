@@ -15,9 +15,6 @@ Go to **Project Settings** > **Plugin** > **Applitools Integration** and setup t
 * API Key : this is a required field. [How to obtain Applitools API Key](https://applitools.com/docs/topics/overview/obtain-api-key.html)  
      - *Note: For quick testing, you only need to enter the API Key and leave out the rest*
 * Application Name :  name of the application in Applitools. You do not have to create an application in Applitools beforehand.  
-* Hide Caret : **true** or **false**
-     - true: hide the caret (if any) before capturing image  
-     - false: do not hide the caret (if any) before capturing image  
 * Match Level: match level in Applitools. [Applitools Match Level](https://applitools.com/docs/api/eyes-sdk/enums-gen/enum-global-matchlevel-selenium-java.html)
 * Visual Grid View Port: list of viewports including width and height for Applitools Visual Grid. Once you have specified all browser images under, those viewports will be captured and compared.  
     - [[width1, height1], [width2, height2], ...] (for example: [[800,600],[1200,630]])
