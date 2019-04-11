@@ -10,7 +10,7 @@ description:
 ### Applitools settings
 Go to **Project Settings** > **Plugin** > **Applitools Integration** and setup these following configurations:  
 
-![Applitools Integration Visual Grid](https://i.ibb.co/nkYGcF9/Applitools-Store-2.png)
+![Applitools Integration Visual Grid](https://i.ibb.co/swxnv8c/Applitools-Store-1.png)
 
 * API Key : this is a required field. [How to obtain Applitools API Key](https://applitools.com/docs/topics/overview/obtain-api-key.html)  
      - *Note: For quick testing, you only need to enter the API Key and leave out the rest*
