@@ -9,7 +9,7 @@ description:
 ---
 > Available since Katalon Studio v[5.2](/display/KD/Version+5.2)
 
-_Test Listeners_ is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, _Test Listeners_ are test steps that created based on your own criterias and will be executed when the condition is matched. The follwing guide contains all useful information to get you started with _Test Listeners_.
+_Test Listeners_ is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, _Test Listeners_ are test steps that created based on your own criterias and will be executed when the condition is matched. The following guide contains all useful information to get you started with _Test Listeners_.
 
 Manage Test Listeners
 ---------------------
