@@ -4,8 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/grid-local-agents.html 
 description: 
 ---
-Grid - Local Agents 
---------------------------
+
 
 **Grid - Local Agents** is designed to make Katalon Studio test execution simpler and schedulable on your local servers. It will also automatically feeds the results into Katalon Analytics. 
 
@@ -18,7 +17,7 @@ This page provides basic information about how to execute Katalon Studio tests a
 * You have uploaded your test project onto Code Repo. 
 * Local Agents must have been installed and available for test execution. If not, please follow this guide.  
 
-### To execute your test projects on TestOps Cloud 
+### To execute your test projects on Local Agents
 1. Select **Grid**
 2. Select the **Create Plan** button
 3. In the **Configure a Plan** screen, define your test execution plan 
@@ -28,7 +27,7 @@ Field | Description
 Plan Name | Provide a friendly plan name 
 Test Project | Select the test project you’ve uploaded earlier 
 Command | Provide command arguments to run your Katalon Studio tests. This can be retrieved from [Katalon Studio command line builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-command-line-options). 
-Execution Environment | Select TestOps Cloud 
+Execution Environment | Select and add Agents. Here is where you can choose multiple OS to run your tests later 
 Schedule | Define a schedule for job execution 
 
 4. Select **Create** to create your plan. 

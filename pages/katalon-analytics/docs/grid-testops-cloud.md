@@ -4,9 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/grid-testops-cloud.html 
 description: 
 ---
-Grid - TestOps Cloud 
---------------------------
-
 **Grid - TestOps Cloud** is a great way to run your Katalon Studio tests completely on cloud and automatically feed the results into **Katalon Analytics**. 
  
 This article will show you how to execute your tests handily via Grid - TestOps Cloud. 
