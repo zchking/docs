@@ -4,14 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/grid-local-agents.html 
 description: 
 ---
-
-
 **Grid - Local Agents** is designed to make Katalon Studio test execution simpler and schedulable on your local servers. It will also automatically feeds the results into Katalon Analytics. 
 
 With this feature, you may now run your planned tests any time with just a button click. You can also speed up the test execution by distributing them across browsers and operating systems, running them in parallel or on schedule. 
 
 This page provides basic information about how to execute Katalon Studio tests automatically on your Local Agents. 
-
 
 ### Prerequisites 
 * You have uploaded your test project onto Code Repo. 

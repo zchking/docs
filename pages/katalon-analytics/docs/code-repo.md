@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/grid-testops-cloud.html 
 description: 
 ---
-**Code Repo** is where you can upload and store your test projects for your Katalon Studio test execution via [TestOps Cloud](grid-testops-cloud.html) and [Local Agents](grid-local-agents.html ). 
+**Code Repo** is where you can upload and store your test projects for your Katalon Studio test execution via [TestOps Cloud](katalon-analytics/docs/grid-testops-cloud.html) and [Local Agents](katalon-analytics/docs/grid-local-agents.html). 
 
 ### To upload your test projects 
 1. In your Project view, select Code Repo. This page will show you all the uploaded projects.  
