@@ -14,18 +14,15 @@ To create a plan to run Katalon Studio tests on your local agents please follow 
 ### To install Agents
 1. In your Team view, go to **Agents** > **Agent Installation Package**
 2. Fill out the form with this configuration information: 
-
- Field | Description
-----| ----
-Agent Name | Provide a friendly Agent name
-API Key | Use an existing API key or create a new one from your Profile page
-Katalon Studio Version | Specify a Katalon Studio version that Agent need to download to run tests 
-Katalon Studio Location | Provide a pre-install Katalon Studio location (if any)  
-Agent OS | Katalon supports these operating systems: Linux x64, Linux x86, MacOS x64, Windows x64, Windows x86
+    * **Agent Name**: Provide a friendly Agent name
+    * **API Key**: Use an existing API key or create a new one from your Profile page
+    * **Katalon Studio Version**: Specify a Katalon Studio version that Agent need to download to run tests 
+    * **Katalon Studio Location**: Provide a pre-install Katalon Studio location (if any)  
+    * **Agent OS**: Katalon supports these operating systems: Linux x64, Linux x86, MacOS x64, Windows x64, Windows x86
 3. Select **Download Agent**
 4. Unzip the downloaded package, you will see an agent config file (which has already contained TestOps integration detail) and an agent executable file (e.g. **cli-macos-x64 for MacOS**). 
- > Note: You may edit the agent configuration file later on your local machine.
+    > Note: You may edit the agent configuration file later on your local machine.
  5. Open your **Command Line Interface** and locate the agent installation package. 
 6. Enter this command to start the agent: **{agent execution file} start-agent**
-> E.g. cli-macos-x64 start-agent 
+    > E.g. cli-macos-x64 start-agent 
 7. Go back and reload Agents screen. You may now see the install Agent name, its availability, and other details. 
