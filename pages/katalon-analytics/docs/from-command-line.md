@@ -15,7 +15,7 @@ From Command Line
 -----------------
 
 > *   For uploading from Command Line
->     *   Download Katalon Studio **Reports Uploader** [here](http://download.katalon.com/resources/katalon-report-uploader-0.0.3.jar)
+>     *   Download Katalon Studio **Reports Uploader** [here](https://github.com/katalon-studio/report-uploader/releases)
 >     *   [Java JRE](https://www.java.com/en/download/manual.jsp) installed (How to set up Java environment [guide](https://www.tutorialspoint.com/java/java_environment_setup.htm))
 
 > For Mac OS users, please change the **path** of Katalon Reports folder when using the syntax in **Terminal**
@@ -31,13 +31,12 @@ From Command Line
 4.  Start Command Prompt, use the below syntax to upload Katalon Report to Katalon Analytics
 
 ```groovy
-java -jar katalon-report-uploader-0.0.3.jar --projectId=3 --path="d:\katalon-reports" --email=admin@mail.me --password=admin --type=katalon
+java -jar katalon-report-uploader-0.0.4.jar --projectId=3 --path="d:\katalon-reports" --email=admin@mail.me --password=admin --type=katalon
 ```
 
   
 _Where_
 
-| katalon-report-uploader-0.0.3.jar | Jar file path can be an absolute path or relative path |
 | projectId | Katalon Analytics project ID |
 | path=" " | Local path of Katalon Studio Reports folder that you located from step 1 |
 | email and password | Katalon Analytics credentials |
