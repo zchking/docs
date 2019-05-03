@@ -8,6 +8,8 @@ redirect_from:
 description: Release notes v6.1.3
 ---
 
+This is a hotfix release. All changes originally planned for 6.1.3 will be moved to 6.1.4.
+
 ### Fixes and Improvements
 
 * Updated Chrome's WebDriver
