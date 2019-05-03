@@ -34,42 +34,34 @@ Next, go to **Published Plugins** tab in **My Plugins** menu and click **New Plu
 
 
 
-1. The Upload a new plugin page displays.
+- The Upload a new plugin page displays.
 
 ![](../../../images/katalon-store/docs/publisher/upload-plugin.png)
 
-2. Click Browse, select and upload your plugin or Drag and drop your plugin from your device.
+- Click Browse, select and upload your plugin or Drag and drop your plugin from your device.
 
-**Note: Before uploading your package, please check your .zip file carefully. Make sure that you zipped the PLUGIN FILE ONLY (excluding the folder).*
+  *Note: Before uploading your package, please check your .zip file carefully. Make sure that you zipped the PLUGIN FILE ONLY (excluding the folder).*
 
-3. If your plugin passes all the checks, you will be allowed to click Continue.
+- If your plugin passes all the checks, you will be allowed to click Continue.
 
-4. The Submit plugin information page displays.
+- The Submit plugin information page displays.
 
 
     Provide the following:
 
 
 
-*   **Publisher***
-*   **Plugin name***
-*   **Description***
+   - Publisher
+   - Plugin name
+   - Description: Briefly describe your plugin in 50 words or less
+   - Version
+   - Type
+   - Source code repository
+   - Documentation: Please insert your documentation source for the plugin here
+   - Overview: Please provide more details of your plugin (e.g. What does this plugin do? What are the features and capabilities of this plugin?)
 
-    Briefly describe your plugin in 50 words or less
+-  Click **Save**. Save your submission as a draft.
 
-*   **Version***
-*   **Type**
-*   **Source code repository**
-*   **Documentation**
-
-    Please insert your documentation source for the plugin here
-
-*   **Overview**
-
-    Please provide more details of your plugin (e.g. What does this plugin do? What are the features and capabilities of this plugin?)
-
-5. Click **Save**. Save your submission as a draft.
-
-8. Publish your plugin
+-  Publish your plugin
 
 Refer to[ Publish a new plugin](https://docs.katalon.com/katalon-store/docs/publisher/publish-plugin.html#before-you-begin) for more information.

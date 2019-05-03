@@ -7,7 +7,7 @@ redirect_from:
 
 description: Guidelines to write plugin docs
 ---
-## I. Plugin document requirements
+## Plugin document requirements
 
 - **Descriptions should be worded in a familiar tone** that uses proper, and not offensive, language.
 
@@ -19,7 +19,7 @@ description: Guidelines to write plugin docs
 
 - **Descriptions must not contain prohibited, banned, illegal, outlawed, or restricted content.**
 
-## II. Plugin document guidelines in submission page
+## Plugin document guidelines in submission page
 
 Providing detailed information will help end-users understand your plugin's values and features better. In order to have an user-friendly document for your plugin, follow this questionaire below:
 
@@ -27,7 +27,7 @@ Providing detailed information will help end-users understand your plugin's valu
 - How is your plugin going to solve these problems?
 - For which purposes would the end-users use this plugin in Katalon Studio?
  
-## III. Submit documents for published plugins
+## Submit documents for published plugins
 
 Besides having a brief description published in **Overview** tab in each plugin's detail page, you can create your own documentation with more detailed information or tutorials for your published plugin and make it viewable on Store by following these steps:
 

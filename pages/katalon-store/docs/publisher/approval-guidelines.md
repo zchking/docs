@@ -25,9 +25,9 @@ Approval times vary depending on current volume and the Katalon Store team's ava
 
 
 
-1. **Log in** to [https://store.katalon.com](https://store.katalon.com) with your Katalon account.
-2. Click **Publish a new plugin** from the **My plugin** menu in the upper right.
-3. Upload your file and fill out the plugin information form. 
-4. Accept the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement), and submit your plugin.
-5. You'll be notified via email that your submission was successful, and **receive a URL to view** the approval status.
-6. Once approved, your plugin is published to Katalon Store.
+- **Log in** to [https://store.katalon.com](https://store.katalon.com) with your Katalon account.
+- Click **Publish a new plugin** from the **My plugin** menu in the upper right.
+- Upload your file and fill out the plugin information form. 
+- Accept the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement), and submit your plugin.
+- You'll be notified via email that your submission was successful, and **receive a URL to view** the approval status.
+- Once approved, your plugin is published to Katalon Store.
