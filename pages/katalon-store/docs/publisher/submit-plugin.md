@@ -9,7 +9,7 @@ description: Guidelines for publishers to submit new plugins on KStore
 ---
 This article is a walkthrough through the process of publishing a new plugin to Katalon Store. If you just want to get started, head to the Submit a new plugin page on the Store.
 
-To start, familiarize yourself with the Developer Agreement and Guidelines to develop a new plugin.
+To start, familiarize yourself with the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement) and Guidelines to create your first [Katalon Studio plugin](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html) or [Custom Keywords plugin](https://docs.katalon.com/katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html).
 
 Next, prepare your plugin for publication by adding all its files to a ZIP archive with the extension .zip.
 
