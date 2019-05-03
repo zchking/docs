@@ -19,6 +19,8 @@ items:
             url: /katalon-store/docs/publisher/submit-plugin.html
           - title: "Publish a new plugin"
             url: /katalon-store/docs/publisher/publish-plugin.html
+          - title: "Plugin document guidelines"
+            url: /katalon-store/docs/publisher/document-guidelines.html
           - title: "Plugin approval guidelines"
             url: /katalon-store/docs/publisher/approval-guidelines.html
   - title: "Katalon Studio"

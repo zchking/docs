@@ -45,20 +45,27 @@ Next, click Publish a new plugin in the drop-down menu.
 
 4. The Submit plugin information page displays.
 
-![](../../../images/katalon-store/docs/publisher/submit-plugin-info.png)
 
-
-Provide the following:
+    Provide the following:
 
 
 
-*   **Publisher**: Your Katalon ID will be auto-filled.
-*   **Plugin name**: your plugin's name.
-*   **Description**: a useful and descriptive summary of your plugin.
-*   **Version**: a current version of your plugin.
-*   **Category**: choose an option from the drop-down list.
-*   **Logo**: you can upload a logo of your plugin to be displayed in a Plugin's detail page. The dimension of the logo needs to be 150 x 150px. If it is in a different size, it will be automatically adjusted.
-*   **Banners**: you can upload a banner(s) of your plugin to be displayed in the Plugin's detail page. The dimension of the banners needs to be 726x388 px. If it is in a different size, it will be automatically adjusted.
+*   **Publisher***
+*   **Plugin name***
+*   **Description***
+
+    Briefly describe your plugin in 50 words or less
+
+*   **Version***
+*   **Type**
+*   **Source code repository**
+*   **Documentation**
+
+    Please insert your documentation source for the plugin here
+
+*   **Overview**
+
+    Please provide more details of your plugin (e.g. What does this plugin do? What are the features and capabilities of this plugin?)
 
 5. Click **Save**. Save your submission as a draft.
 
