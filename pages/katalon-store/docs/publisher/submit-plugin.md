@@ -30,9 +30,8 @@ Visit [https://store.katalon.com](https://store.katalon.com) and log in to your 
 Visit [https://store.katalon.com](https://store.katalon.com) or [https://katalon.com](https://katalon.com) to Sign up.
 
 
-Next, click Publish a new plugin in the drop-down menu.
+Next, go to **Published Plugins** tab in **My Plugins** menu and click **New Plugin** button.
 
-![](../../../images/katalon-store/docs/publisher/publish-menu.png)
 
 
 1. The Upload a new plugin page displays.
@@ -40,6 +39,8 @@ Next, click Publish a new plugin in the drop-down menu.
 ![](../../../images/katalon-store/docs/publisher/upload-plugin.png)
 
 2. Click Browse, select and upload your plugin or Drag and drop your plugin from your device.
+
+**Note: Before uploading your package, please check your .zip file carefully. Make sure that you zipped the PLUGIN FILE ONLY (excluding the folder).*
 
 3. If your plugin passes all the checks, you will be allowed to click Continue.
 
