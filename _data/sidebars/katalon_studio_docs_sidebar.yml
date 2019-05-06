@@ -27,16 +27,14 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
   - title: "Katalon Studio"
     tree:
-      - title: "Overview"
+      - title: "About Katalon Studio"
         url: /katalon-studio/docs/overview.html
-      - title: "Getting Started"
-        url: /katalon-studio/docs/getting-started.html
       - title: "Installation and Setup"
         tree:
+          - title: "Overview"
+            url: /katalon-studio/docs/getting-started.html
           - title: "Katalon Studio Activation (Since 5.7)"
             url: /katalon-studio/docs/katalon-studio-activation-since-57.html
-          - title: "Before You Start"
-            url: /katalon-studio/docs/before-you-start.html
           - title: "System Requirements"
             url: /katalon-studio/docs/system-requirements.html
           - title: "Supported Environments"
@@ -66,7 +64,7 @@ items:
               - title: "Troubleshooting automated mobile testing"
                 url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
               - title: "Troubleshooting common issues related to interacting with an element"
-                url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html 
+                url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
           - title: "Update New Versions"
             tree:
               - title: "Auto-updater"
