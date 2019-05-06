@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Headless%20Browsers%20Execution/"
     - "/x/CQ-R/"
     - "/katalon-studio/docs/headless-browsers-execution/"
+    - "/katalon-studio/tutorials/headless_browsers_execution.html"
 description:
 ---
 In essence, headless browser testing is testing a Web page’s functionality, without the presence of a GUI. One of the major advantages of using a headless browser and perform headless testing is that you can run tests more quickly in a real browser environment. Headless browsers can save project teams a tremendous amount of time and smoothly integrate into the CI/CD process.
@@ -48,7 +49,7 @@ Executing automation tests
 
 *   Add a test suite into this test suite collection
 
-*   Select the **Run with** field 
+*   Select the **Run with** field
 
 *   Select either **Chrome (headless)** or **Firefox (headless)**
 
@@ -69,7 +70,7 @@ We recommend using headless browser in console mode execution for faster and mor
 
 [Learn more](https://docs.katalon.com/katalon-studio/docs/jenkins-integration.html) on how to leverage Katalon Studio in CI/CD process.
 
-*   To start, generate your console mode commands by selecting either Chrome (headless) or Firefox (headless) 
+*   To start, generate your console mode commands by selecting either Chrome (headless) or Firefox (headless)
 *   Click the **Build CMD** button on the main toolbar.
 
 

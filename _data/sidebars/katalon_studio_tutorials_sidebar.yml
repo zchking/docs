@@ -18,7 +18,7 @@ items:
         url: "/katalon-studio/tutorials/web-testing/index.html"
         tree:
           - title: "Introduction to Web Testing"
-            url: /katalon-studio/tutorials/introduction-to-web-testing.html 
+            url: /katalon-studio/tutorials/introduction-to-web-testing.html
           - title: "Creating test case using Record & Playback"
             url: /katalon-studio/tutorials/create_test_case_using_record_playback.html
           - title: "Creating test case using manual mode"
@@ -77,8 +77,6 @@ items:
         url: /katalon-studio/tutorials/viewing_test_suite_reports.html
       - title: "Viewing execution logs"
         url: /katalon-studio/tutorials/viewing_execution_logs.html
-      - title: "Headless Browsers Execution in Katalon Studio"
-        url: /katalon-studio/tutorials/headless_browsers_execution.html
       - title: "Executing Tests on Multiple Devices in Parallel"
         url: /katalon-studio/tutorials/execute_tests_parallelly_multiple_devices.html
       - title: "Running tests from Command Line"
