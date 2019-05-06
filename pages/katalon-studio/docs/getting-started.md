@@ -11,6 +11,7 @@ redirect_from:
     - "/display/KD/Before%20You%20Start/"
     - "/x/HwAM/"
     - "/katalon-studio/docs/before-you-start/"
+    - "/katalon-studio/docs/before-you-start.html"
 description:
 ---
 Download Katalon Studio
