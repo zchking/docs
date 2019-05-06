@@ -16,6 +16,6 @@ This is a hotfix release. All changes originally planned for 6.1.3 will be moved
 
 * Allowed WebDriver binaries to be updated automatically in GUI mode. The behavior is disabled by default.
 
-![](../../images/katalon-studio/preferences-webui.PNG)
+![](../../../images/katalon-studio/preferences-webui.PNG)
 
 * Allowed WebDriver binaries to be updated automatically in console mode. The command argument is `--config -webui.autoUpdateDrivers=true`.
