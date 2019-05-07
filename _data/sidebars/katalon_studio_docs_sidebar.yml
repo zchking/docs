@@ -18,7 +18,7 @@ items:
           - title: "Create your first Katalon Studio plugin"
             url: /katalon-store/docs/publisher/create-plugin.html
           - title: "Debug your platform plugin using Eclipse IDE"
-            url: /katalon-store/docs/publsiher/debug-platform-plugin.html
+            url: /katalon-store/docs/publisher/debug-platform-plugin.html
           - title: "Build custom keywords with Settings"
             url: /katalon-store/docs/publisher/build-CK-settings.html
           - title: "Submit a new plugin"
