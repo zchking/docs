@@ -15,7 +15,6 @@ description: Release notes v6.1.2
 * Showed test case tags in HTML, CSV, and PDF reports
 * Added a tab to Search Dialog for searching test objects
 * Showed raw data of request and response when executing an API test object
-* Made Smart XPath plugin enabled by default
 * Fixed a bug that caused the last step to by marked as `failed` if any previous steps had failed
 * Fixed an issue of API testing where POST request JSON Body content is disappeared
 
