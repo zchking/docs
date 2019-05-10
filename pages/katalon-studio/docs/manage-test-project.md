@@ -20,11 +20,11 @@ Create a test project
     
     | Project Type |   |
     | --- | --- |
-    | _Generic_ | All standard-features for Web, Mobile and API Testing are available. |
+    | _Generic, Web, Mobile_ | All standard-features for Web, Mobile and API Testing are available. |
     | _API/Web Service_ | Exclusive features for API/Web Service Testing are enabled including Quickstart wizard, Import Swagger/WSDL defition from File or URL, Request History list and much more. |
     
     **  
-    ![](../../images/katalon-studio/docs/copy-of-manage-test-project/image2018-9-25-173A173A21.png)**
+    ![](../../images/katalon-studio/docs/copy-of-manage-test-project/New-Project.png)**
     
 2.  Specify the **Name**, **Location, Description** for the new project and click **OK**. Katalon will generate a project at defined location accordingly.
     

@@ -29,6 +29,8 @@ Register and install Gitlab runner
 
 Download Gitlab runner for [x86](https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-windows-386.exe) or [amd64](https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-windows-amd64.exe), then follow the steps in the following video:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/musOoRSDEu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Note:** we added the tag "shell" in order to run test cases on the local machine. However, you can add other tags like docker and ssh.
 
 Add a configuration file to your repository

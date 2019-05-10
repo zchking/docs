@@ -13,16 +13,11 @@ This article is a walkthrough through the process of publishing a new plugin to 
 
 To start, familiarize yourself with the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement) and Guidelines to create your first [Katalon Studio plugin](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html) or [Custom Keywords plugin](https://docs.katalon.com/katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html).
 
-
-Next, prepare your plugin for publication by adding all its files to a ZIP archive with the extension .zip.
-
-## Submit a new plugin
-
-### Upload the plugin
-
+## Upload the plugin
 
 To upload your plugin to Katalon Store, go to [Plugin submission page](https://store.katalon.com/manage/publisher/upload-product).
 
+- Add all its files to a ZIP archive with the extension .zip.
 
 - Click Browse, select and upload your plugin or Drag and drop your plugin from your device.
 
@@ -30,7 +25,7 @@ To upload your plugin to Katalon Store, go to [Plugin submission page](https://s
 
 - If your plugin passes all the checks, you will be allowed to click Continue.
 
-### Submit plugin information
+## Submit plugin information
 
 
 After successfully uploading your plugin, provide the following information:
@@ -44,7 +39,7 @@ After successfully uploading your plugin, provide the following information:
    - Documentation: Please insert your documentation source for the plugin here
    - Overview: Please provide more details of your plugin (e.g. What does this plugin do? What are the features and capabilities of this plugin?)
 
--  Click **Save**. Save your submission as a draft.
+Click **Save**. Save your submission as a draft.
 
 ## Publish a plugin
 

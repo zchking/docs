@@ -58,8 +58,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
 'Verify \'Make Appointment\' button is not visible.'
-WebUI.verifyElementNotVisible(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 20)
-
+if(WebUI.verifyElementNotVisible(findTestObject(...), FailureHandling.CONTINUE_ON_FAILURE) == true){
+   System.out.println(" Element is visible " );
+    }
 'Close browser'
 WebUI.closeBrowser()
 ```

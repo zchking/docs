@@ -116,24 +116,24 @@ WebUI.delay(10)
 Assert.assertTrue(isFileDownloaded(downloadPath, 'smilechart.xls'), 'Failed to download Expected document')
  
 boolean isFileDownloaded(String downloadPath, String fileName) {
-boolean flag = false
-'Creating an object for File and passing the download Path as argument'
-File dir = new File(downloadPath)
-'Creating an Array where it will store all the files from that folder'
-File[] dir_contents = dir.listFiles()
- 
-println('Total Files Available in the folder are : ' + dir_contents.length)
-'Iterating a loop for number of files available in the folder to verify file name in the folder'
-for (int i = 0; i < dir_contents.length; i++) {
-println('File Name at 0 is : ' + dir_contents[i].getName())
-'Verifying the file name is available in the folder '
-if (dir_contents[i].getName().equals(fileName)) {
-'If the file is found then it will return a value as true'
-return flag = true
-}
-}
-'If the file is found then it will return a value as false'
-return flag
+    long timeout = 5 * 60 * 1000
+    long start = new Date().getTime()
+    boolean downloaded = false
+    File file = new File(downloadPath, fileName)
+    while (!downloaded) {
+        KeywordUtil.logInfo("Checking file exists ${file.absolutePath}")
+        downloaded = file.exists()
+        if (downloaded) {
+            file.delete() // remove this line if you want to keep the file
+        } else {
+            long now = new Date().getTime()
+            if (now - start > timeout) {
+                break
+            }
+            Thread.sleep(3000)
+        }
+    }
+    return downloaded
 }
 
 ```

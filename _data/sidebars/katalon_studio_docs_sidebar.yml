@@ -59,16 +59,14 @@ items:
         url: /katalon-studio/docs/applitools-integration.html
   - title: "Katalon Studio"
     tree:
-      - title: "Overview"
+      - title: "About Katalon Studio"
         url: /katalon-studio/docs/overview.html
-      - title: "Getting Started"
-        url: /katalon-studio/docs/getting-started.html
       - title: "Installation and Setup"
         tree:
+          - title: "Overview"
+            url: /katalon-studio/docs/getting-started.html
           - title: "Katalon Studio Activation (Since 5.7)"
             url: /katalon-studio/docs/katalon-studio-activation-since-57.html
-          - title: "Before You Start"
-            url: /katalon-studio/docs/before-you-start.html
           - title: "System Requirements"
             url: /katalon-studio/docs/system-requirements.html
           - title: "Supported Environments"
@@ -97,6 +95,8 @@ items:
                 url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
               - title: "Troubleshooting automated mobile testing"
                 url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
+              - title: "Troubleshooting common issues related to interacting with an element"
+                url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
           - title: "Update New Versions"
             tree:
               - title: "Auto-updater"
@@ -141,8 +141,30 @@ items:
                 url: /katalon-studio/docs/network-settings.html
               - title: "Web Locators Settings (since v5.7.1)"
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
+      - title: "Plugins"
+        tree:
+          - title: "Jira Integration Plugin"
+            url: /katalon-studio/docs/jira-plugin-integration.html
+          - title: "Slack Integration Plugin"
+            url: /katalon-studio/docs/slack-plugin-integration.html
+          - title: "Auto-healing Smart XPath"
+            url: /katalon-studio/docs/auto-healing-smart-xpath.html
+          - title: "TestRail Integration"
+            url: /katalon-studio/docs/testrail-integration.html
+          - title: "Test Case Management With Tags"
+            url: /katalon-studio/docs/test-case-management-with-tags.html
+          - title: "Dynamic Querying Test Suite"
+            tree:
+              - title: "Dynamic Querying Test Suite"
+                url: /katalon-studio/docs/dynamic-querying-test-suite.html
+              - title: "Basic Search For Dynamic Querying Test Suite"
+                url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+          - title: "Applitools Integration"
+            url: /katalon-studio/docs/applitools-integration.html
       - title: "Test Case"
         tree:
+          - title: "Search"
+            url: /katalon-studio/docs/search.html
           - title: "Manual View"
             url: /katalon-studio/docs/manual-view.html
           - title: "Script View"
@@ -167,6 +189,14 @@ items:
             url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
           - title: "Using the WebDriver Object"
             url: /katalon-studio/docs/using-the-webdriver-object.html
+      - title: "Test Suite"
+        tree:
+          - title: "Create a Test Suite"
+            url: /katalon-studio/docs/test-suite.html
+          - title: "Design a Test Suite"
+            url: /katalon-studio/docs/design-a-test-suite.html
+          - title: "Test Suite Collection"
+            url: /katalon-studio/docs/test-suite-collection.html
       - title: "Test Object"
         tree:
           - title: "Web and Mobile Test Object"
@@ -181,12 +211,20 @@ items:
             tree:
               - title: "Introduction to Web Services Test Object"
                 url: /katalon-studio/docs/introduction-to-web-services-test-object.html
+              - title: "Create Web Service Object in Script Mode"
+                url: /katalon-studio/docs/create_web_service_object_in_script_mode.html
               - title: "RESTful"
                 url: /katalon-studio/docs/restful.html
               - title: "SOAP"
                 url: /katalon-studio/docs/soap.html
               - title: "Authorization"
                 url: /katalon-studio/docs/authorization.html
+              - title: "Authorization Basic"
+                url: /katalon-studio/docs/authorization-basic.html
+              - title: "Authorization OAuth 1.0"
+                url: /katalon-studio/docs/authorization-oauth1.html
+              - title: "Authorization OAuth 2.0"
+                url: /katalon-studio/docs/authorization-oauth2.html
               - title: "Web Services Builder"
                 url: /katalon-studio/docs/web-services-builder.html
               - title: "Using Web Services in a Test Case"
@@ -397,8 +435,12 @@ items:
                         url: /katalon-studio/docs/webui-verify-element-not-clickable.html
                       - title: "[WebUI] Verify Element Not Has Attribute"
                         url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
+                      - title: "[WebUI] Verify Element Present"
+                        url: /katalon-studio/docs/webui-verify-element-present.html
                       - title: "[WebUI] Verify Element Not Present"
                         url: /katalon-studio/docs/webui-verify-element-not-present.html
+                      - title: "[WebUI] Verify Element Visible"
+                        url: /katalon-studio/docs/webui-verify-element-visible.html
                       - title: "[WebUI] Verify Element Not Visible"
                         url: /katalon-studio/docs/webui-verify-element-not-visible.html
                   - title: "[WebUI] Form"
@@ -645,10 +687,6 @@ items:
         tree:
           - title: "Execute a Test Case or a Test Suite"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
-          - title: "Design a Test Suite"
-            url: /katalon-studio/docs/design-a-test-suite.html
-          - title: "Test Suite Collection"
-            url: /katalon-studio/docs/test-suite-collection.html
           - title: "Desired Capabilities"
             tree:
               - title: "Introduction to Desired Capabilities"
@@ -674,7 +712,7 @@ items:
           - title: "View Execution Log"
             url: /katalon-studio/docs/view-execution-log.html
             tree:
-              - title: "Working with Execution Log" 
+              - title: "Working with Execution Log"
                 url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Video Capturing"
             url: /katalon-studio/docs/video-capturing.html
@@ -702,6 +740,8 @@ items:
                 url: /katalon-studio/docs/docker.html
               - title: "Export Test Results in JUnit Format"
                 url: /katalon-studio/docs/export-test-results-in-junit-format.html
+              - title: "Bamboo Integration"
+                url: /katalon-studio/docs/bamboo-integration.html
               - title: "Jenkins Integration"
                 url: /katalon-studio/docs/jenkins-integration.html
               - title: "VSTS/TFS/VSO Integration"
@@ -727,6 +767,7 @@ items:
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-integration.html
           - title: "qTest Integration"
+            id: "qtest-integration"
             tree:
               - title: "Enable qTest Integration"
                 url: /katalon-studio/docs/enable-qtest-integration.html
@@ -818,7 +859,7 @@ items:
             url: /katalon-studio/docs/soap-pre-54.html
           - title: "Spy Web Utility (version 4.8 and below)"
             url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
-          
+
   - title: "Katalon Analytics (Beta)"
     tree:
       - title: "Overview"

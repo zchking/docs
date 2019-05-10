@@ -11,6 +11,9 @@ redirect_from:
     
 description: 
 ---
+> ## JIRA Integration plugin is now available
+> To get JIRA Integration plugin, visit [Katalon Store](https://store.katalon.com)
+
 Configuration
 -------------
 

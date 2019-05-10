@@ -60,56 +60,59 @@ Capture objects using Web Object Spy
          <td><strong>Selection Method</strong></td>
          <td>
             <p>The method which Katalon Studio will be using to detect web elements.</p>
-    <table>
-      <tr>
-         <th>Options</th>
-         <th>&nbsp;</th>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Options</th>
+                     <th>&nbsp;</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td><strong>Attributes</strong></td>
+                     <td>Katalon Studio automatically generate an XPath combine with objects' properties.</td>
+                  </tr>
+                  <tr>
+                     <td><strong>XPath</strong></td>
+                     <td>Katalon Studio <strong>Relative XPath</strong>. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify by using its more robust neighbors.</td>
+                  </tr>
+                  <tr>
+                     <td><strong>CSS</strong></td>
+                     <td>Users are allowed to input CSS selector manually into Object Detect Editor.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
       </tr>
       <tr>
-         <td><strong>Attributes</strong></td>
-         <td>Katalon Studio automatically generate an XPath combine with objects' properties.</td>
+         <td><strong>Properties Grid</strong></td>
+         <td>All the captured properties of the selected object. You can edit the value of any property.</td>
       </tr>
-      <tr>
-         <td><strong>XPath</strong></td>
-         <td>Katalon Studio <strong>Relative XPath</strong>. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify by using its more robust neighbors.</td>
-      </tr>
-      <tr>
-         <td><strong>CSS</strong></td>
-         <td>Users are allowed to input CSS selector manually into Object Detect Editor.</td>
-      </tr>
-      </table>
-   </tbody>
-   
-   <td>&nbsp;</td>
-
-   <tbody>
-   </tr>
-      <tr>
-         <td><strong>Properties Grid</strong></td>         <td>All the captured properties of the selected object. You can edit the value of any property.</td>
-      </tr>
-    </tbody>
-    <td>&nbsp;</td>
-   
-   <tbody>
       <tr>
          <td><strong>Selector Editor</strong></td>
          <td>
             <p>Display object locator based on <strong>selected</strong> <strong>method</strong></p>
-        <table>
-         <tr>
-            <th>Options</th>
-            <th>&nbsp;</th>
-         </tr>
-         <tr>
-            <td><strong>Basic </strong>or<strong> XPath</strong></td>
-            <td>Katalon Studio generated XPath will be displayed.</td>
-         </tr>
-         <tr>
-            <td><strong>CSS</strong></td>
-            <td>Editable text field allows users to manually input object's locator.</td>
-         </tr>
-      </tbody>
-      </table>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Options</th>
+                     <th>&nbsp;</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td><strong>Basic </strong>or<strong> XPath</strong></td>
+                     <td>Katalon Studio generated XPath will be displayed.</td>
+                  </tr>
+                  <tr>
+                     <td><strong>CSS</strong></td>
+                     <td>Editable text field allows users to manually input object's locator.</td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
 </table>
     
 For more information on WebUI test objects, click [here](/x/tQTR). 

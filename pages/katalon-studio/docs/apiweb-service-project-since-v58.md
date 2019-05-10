@@ -11,7 +11,7 @@ Katalon Studio 5.8 introduces the new API/Web Service testing project. This sign
 
 The update comes with a new interface, including a new toolbar and view that serve only for API/Web Service testing. To **create** the _New API/Web Service Project_, in _New Project_ dialog, simply select _API/Web Service_ type and specify all required project information. 
 
- ![](../../images/katalon-studio/docs/apiweb-service-project-since-v58/Screen-Shot-2018-10-08-at-4.37.12-PM.png)
+ ![](../../images/katalon-studio/docs/apiweb-service-project-since-v58/New-Project.png)
 
 Toolbar
 -------

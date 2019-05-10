@@ -122,6 +122,32 @@ class sampleKeywords {
 			KeywordUtil.markFailed(request.getObjectId() + " is not a RequestObject")
 		}
 	}
+	
+	/**
+	 * if a key is given make an object of objects by this data column key, otherwise make it an object of an array for each line
+	 * E.g. use method like such Map propertiesJSON = sampleKeywords.toJSONByKey(findTestData('Other/properties'),'env')
+	 * @param TestData
+	 * @param String
+	 * @return
+	 */
+	@Keyword
+	def toJSONByKey(TestData data,String key=null){
+		String []columnNames = data.getColumnNames()
+		JsonSlurper slurper = new JsonSlurper()
+
+		Map dataJSON = key == null ? [:] : slurper.parseText('{}')
+
+		for (def index : (1..data.getRowNumbers())){
+			dataJSON[key == null ? index-1 : data.getValue(key, index)]=slurper.parseText('{}')
+			for (def col : (1..data.getColumnNumbers())) {
+				String columnName = columnNames[col-1]
+				String cellValue = data.getValue(col,index).trim()
+				dataJSON[key == null ? index-1 : data.getValue(key, index)][columnName]=cellValue
+			}
+		}
+		return dataJSON
+	}
+
 
 	/**
 	 * Add Header basic authorization field,

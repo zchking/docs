@@ -7,11 +7,11 @@ redirect_from:
     - "/display/KD/Jenkins%20Integration/"
     - "/x/XwAM/"
     - "/katalon-studio/docs/jenkins-integration/"
-    - "/pages/viewpage.action?pageId=786527/"
-    
+
 description:
 ---
 
+> ## Deprecation Notice
 > This tutorial has been deprecated. We recommend you to make use of our [Katalon plugin for Jenkins](https://forum.katalon.com/t/the-first-release-of-katalon-studios-jenkins-plugin/16236) to simplify the setup. Please see the tutorial [*How to use Katalon plugin for Jenkins on Ubuntu*](https://forum.katalon.com/t/how-to-use-katalon-plugin-for-jenkins-on-ubuntu/17790).
 
 Prerequisites

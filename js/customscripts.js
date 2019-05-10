@@ -259,7 +259,7 @@ $(function() {
             instantsearch.widgets.hitsPerPageSelector({
                 container: '#hits-per-page-selector',
                 items: [
-                    {value: 4, label: '', default: true}
+                    {value: 6, label: '', default: true}
                 ]
             })
         );

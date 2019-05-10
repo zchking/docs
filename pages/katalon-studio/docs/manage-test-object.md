@@ -77,7 +77,7 @@ Katalon Studio allows you to choose different ways to locate objects.
 Validate Test Object on AUT
 ---------------------------
 
-You can add test objects to **Web Object Spy** dialog to verify whether they are still correctly detected in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](/pages/viewpage.action?pageId=5111951) for details regarding how to validate captured objects against the application under test.
+You can add test objects to **Web Object Spy** dialog to verify whether they are still correctly detected in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](https://docs.katalon.com/katalon-studio/docs/spy-web-utility-version-48-and-below.html) for details regarding how to validate captured objects against the application under test.
 
 1.  To add an object to **Web Object Spy**, simply right click on the item to open its context menu and select the option.  
     ![](../../images/katalon-studio/docs/manage-test-object/image2018-9-6-103A303A22.png)
@@ -108,7 +108,7 @@ Katalon Studio provides the user with the ability to handle dynamic objects (Obj
     \+ One dynamic property
     
     ```groovy
-    findTestObject('Page_Login/txtUserName', ['(id)' : '{48415648}'])
+    findTestObject('Page_Login/txtUserName', ['id' : '48415648'])
     ```
     
     \+ Two dynamic properties
