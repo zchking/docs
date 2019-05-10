@@ -20,7 +20,8 @@ Use a unique logo to represent your brand and unique logos to represent your plu
 
 *   **Guidelines for a plugin logo**
 
-![](..////images/katalon-store/docs/publisher/guidelines-logo.png)
+![](../../../images/katalon-store/docs/publisher/guidelines-logo.png)
+
 
 *   **Example of an approved logo:**
 
@@ -33,27 +34,22 @@ _Note: The plugin logo should be clear and simple and should not use Katalon or 
 
 *   **Examples of NOT approved logos:**
 
-![](../../../images/katalon-store/docs/publisher/rejected-logo-1.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-2.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-3.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-4.png)
-
+![](../../../images/katalon-store/docs/publisher/not-approved-1.png)
 
 
 **_Note 1: Do not use our product logos, either on their own or in conjunction with your logo._**
 
-![](../../../images/katalon-store/docs/publisher/rejected-logo-5.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-6.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-7.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-8.png)
+
+![](../../../images/katalon-store/docs/publisher/not-approved-2.png)
 
 
 **_Note 2: Do not create logos in the likeness of Katalon product logos._**
 
-![](../../../images/katalon-store/docs/publisher/rejected-logo-9.png)
-![](../../../images/katalon-store/docs/publisher/rejected-logo-10.png)
+
+![](../../../images/katalon-store/docs/publisher/not-approved-3.png)
 
 **_Note 3: Do not use Katalon product names, wordmarks, or wordmark font._**
+
 
 ![](../../../images/katalon-store/docs/publisher/rejected-logo-11.png)
 
@@ -79,13 +75,17 @@ _Note: The plugin logo should be clear and simple and should not use Katalon or 
 - Don't use names that seem to indicate the plugin is built by Katalon. Your plugin name should never start with a Katalon product name (Katalon Studio). Instead, use the following pattern: **[Your plugin]** for **[Katalon Studio]**. 
 
 
-  Examples of approved names: \
-Dynamic Filtering Test Suite for Katalon Studio \
-Themes for Katalon Studio
+  **Examples of approved names:**
+
+  Dynamic Filtering Test Suite for Katalon Studio
+
+  Themes for Katalon Studio
  
-  Examples of NOT approved names: \
-Katalon Studio Bug Fixer \
-Katalon Studio Themes 
+  **Examples of NOT approved names:**
+
+  Katalon Studio Bug Fixer
+
+  Katalon Studio Themes 
 
 
 
