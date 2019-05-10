@@ -39,9 +39,9 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Plugins"
     tree:
-      - title: "Jira Integration Plugin"
+      - title: "Jira Integration"
         url: /katalon-studio/docs/jira-plugin-integration.html
-      - title: "Slack Integration Plugin"
+      - title: "Slack Integration"
         url: /katalon-studio/docs/slack-plugin-integration.html
       - title: "Auto-healing Smart XPath"
         url: /katalon-studio/docs/auto-healing-smart-xpath.html
