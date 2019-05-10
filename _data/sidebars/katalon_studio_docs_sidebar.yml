@@ -3,7 +3,7 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-store/docs/overview.html
-      - title: "User's guides"
+      - title: "Use plugins in Katalon Store"
         tree:
           - title: "Getting Started"
             url: /katalon-store/docs/user/getting-started.html
@@ -13,22 +13,28 @@ items:
             url: /katalon-store/docs/user/API-key.html
           - title: "Plugin console installation"
             url: /katalon-store/docs/user/plugin-console-installation.html
-      - title: "Developer's guides"
+      - title: "Develop new plugins"
         tree:
           - title: "Create your first Katalon Studio plugin"
             url: /katalon-store/docs/publisher/create-plugin.html
+          - title: "How to develop a Custom Keywords plugin"
+            url: /katalon-store/docs/publisher/develop-custom-keywords.html
           - title: "Debug your platform plugin using Eclipse IDE"
             url: /katalon-store/docs/publisher/debug-platform-plugin.html
           - title: "Build custom keywords with Settings"
             url: /katalon-store/docs/publisher/build-CK-settings.html
-          - title: "Submit a new plugin"
+          - title: "How to resolve external dependencies for a plugin"
+            url: /katalon-store/docs/publisher/resolve-external-dependencies.html
+      - title: "Submit and publish plugins"
+        tree:
+          - title: "Submit and publish a new plugin"
             url: /katalon-store/docs/publisher/submit-plugin.html
-          - title: "Publish a new plugin"
-            url: /katalon-store/docs/publisher/publish-plugin.html
           - title: "Plugin document guidelines"
             url: /katalon-store/docs/publisher/document-guidelines.html
           - title: "Plugin approval guidelines"
             url: /katalon-store/docs/publisher/approval-guidelines.html
+          - title: "Manage published plugins"
+            url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon Studio"
     tree:
       - title: "Overview"

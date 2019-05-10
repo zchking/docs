@@ -31,7 +31,7 @@ Providing detailed information will help end-users understand your plugin's valu
 
 Besides having a brief description published in **Overview** tab in each plugin's detail page, you can create your own documentation with more detailed information or tutorials for your published plugin and make it viewable on Store by following these steps:
 
-- Go to **Published plugin** tab in **My plugins** menu
+- Go to [Published plugin](https://store.katalon.com/manage/publisher) tab in **My plugins** menu
 - Choose **Update** option right below the plugin to direct to **Submit plugin information** page
 - Insert your documentation source in **Documentation** field
 

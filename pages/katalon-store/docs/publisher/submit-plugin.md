@@ -1,5 +1,5 @@
 ---
-title: "Submit a new plugin"
+title: "Submit and publish a new plugin"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-store/docs/publisher/submit-plugin.html
 redirect_from:
@@ -9,34 +9,20 @@ description: Guidelines for publishers to submit new plugins on KStore
 ---
 This article is a walkthrough through the process of publishing a new plugin to Katalon Store. If you just want to get started, head to the Submit a new plugin page on the Store.
 
+## Before you begin
+
 To start, familiarize yourself with the [Developer Agreement](https://www.katalon.com/terms/#developer-agreement) and Guidelines to create your first [Katalon Studio plugin](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html) or [Custom Keywords plugin](https://docs.katalon.com/katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html).
+
 
 Next, prepare your plugin for publication by adding all its files to a ZIP archive with the extension .zip.
 
+## Submit a new plugin
+
+### Upload the plugin
 
 
-#### Use your Katalon account to publish a plugin
+To upload your plugin to Katalon Store, go to [Plugin submission page](https://store.katalon.com/manage/publisher/upload-product).
 
-
-
-*   If you already had a Katalon Account: 
-
-Visit [https://store.katalon.com](https://store.katalon.com) and log in to your Katalon Account.
-
-
-
-*   If you don't have a Katalon Account:
-
-Visit [https://store.katalon.com](https://store.katalon.com) or [https://katalon.com](https://katalon.com) to Sign up.
-
-
-Next, go to **Published Plugins** tab in **My Plugins** menu and click **New Plugin** button.
-
-
-
-- The Upload a new plugin page displays.
-
-![](../../../images/katalon-store/docs/publisher/upload-plugin.png)
 
 - Click Browse, select and upload your plugin or Drag and drop your plugin from your device.
 
@@ -44,12 +30,10 @@ Next, go to **Published Plugins** tab in **My Plugins** menu and click **New Plu
 
 - If your plugin passes all the checks, you will be allowed to click Continue.
 
-- The Submit plugin information page displays.
+### Submit plugin information
 
 
-    Provide the following:
-
-
+After successfully uploading your plugin, provide the following information:
 
    - Publisher
    - Plugin name
@@ -62,6 +46,15 @@ Next, go to **Published Plugins** tab in **My Plugins** menu and click **New Plu
 
 -  Click **Save**. Save your submission as a draft.
 
--  Publish your plugin
+## Publish a plugin
 
-Refer to[ Publish a new plugin](https://docs.katalon.com/katalon-store/docs/publisher/publish-plugin.html#before-you-begin) for more information.
+
+After submitting your plugin as a draft, go to Manage published plugins page to view and publish your plugin. It will be subject to further review and ready to be published after being approved. As soon as your plugin is approved, it will be available on Katalon Store for users to discover and install.
+
+See more:
+
+* [Brand guidelines for Katalon Store publishers](https://docs.katalon.com/katalon-store/docs/publisher/publisher-guidelines)
+
+* [Plugin document guidelines](https://docs.katalon.com/katalon-store/docs/publisher/document-guidelines.html)
+
+* [Manage Published plugins](https://docs.katalon.com/katalon-store/docs/publisher/manage-published-plugins.html)
