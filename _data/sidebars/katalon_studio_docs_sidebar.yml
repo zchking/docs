@@ -37,6 +37,26 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
+  - title: "Plugins"
+    tree:
+      - title: "Jira Integration Plugin"
+        url: /katalon-studio/docs/jira-plugin-integration.html
+      - title: "Slack Integration Plugin"
+        url: /katalon-studio/docs/slack-plugin-integration.html
+      - title: "Auto-healing Smart XPath"
+        url: /katalon-studio/docs/auto-healing-smart-xpath.html
+      - title: "TestRail Integration"
+        url: /katalon-studio/docs/testrail-integration.html
+      - title: "Test Case Management With Tags"
+        url: /katalon-studio/docs/test-case-management-with-tags.html
+      - title: "Dynamic Querying Test Suite"
+        tree:
+          - title: "Dynamic Querying Test Suite"
+            url: /katalon-studio/docs/dynamic-querying-test-suite.html
+          - title: "Basic Search For Dynamic Querying Test Suite"
+            url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+      - title: "Applitools Integration"
+        url: /katalon-studio/docs/applitools-integration.html
   - title: "Katalon Studio"
     tree:
       - title: "Overview"
