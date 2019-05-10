@@ -31,6 +31,8 @@ items:
             url: /katalon-store/docs/publisher/submit-plugin.html
           - title: "Plugin document guidelines"
             url: /katalon-store/docs/publisher/document-guidelines.html
+          - title: "Brand guidelines for Katalon Store publishers"
+            url: /katalon-store/docs/publisher/publisher-guidelines.html
           - title: "Plugin approval guidelines"
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
