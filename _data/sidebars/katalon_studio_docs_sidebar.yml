@@ -3,28 +3,60 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-store/docs/overview.html
-      - title: "User's guides"
+      - title: "Use plugins in Katalon Store"
         tree:
           - title: "Getting Started"
             url: /katalon-store/docs/user/getting-started.html
           - title: "Access to Katalon Store in Katalon Studio"
             url: /katalon-store/docs/user/access-store-in-KS.html
-          - title: "API Keys Setting"
+          - title: "API Keys Settings"
             url: /katalon-store/docs/user/API-key.html
-      - title: "Developer's guides"
+          - title: "Plugin console installation"
+            url: /katalon-store/docs/user/plugin-console-installation.html
+      - title: "Develop new plugins"
         tree:
           - title: "Create your first Katalon Studio plugin"
             url: /katalon-store/docs/publisher/create-plugin.html
-          - title: "How to develop Custom Keywords Plugins"
-            url: /katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html
-          - title: "Submit a new plugin"
+          - title: "How to develop a Custom Keywords plugin"
+            url: /katalon-store/docs/publisher/develop-custom-keywords.html
+          - title: "Debug your platform plugin using Eclipse IDE"
+            url: /katalon-store/docs/publisher/debug-platform-plugin.html
+          - title: "Build custom keywords with Settings"
+            url: /katalon-store/docs/publisher/build-CK-settings.html
+          - title: "How to resolve external dependencies for a plugin"
+            url: /katalon-store/docs/publisher/resolve-external-dependencies.html
+      - title: "Submit and publish plugins"
+        tree:
+          - title: "Submit and publish a new plugin"
             url: /katalon-store/docs/publisher/submit-plugin.html
-          - title: "Publish a new plugin"
-            url: /katalon-store/docs/publisher/publish-plugin.html
           - title: "Plugin document guidelines"
             url: /katalon-store/docs/publisher/document-guidelines.html
+          - title: "Brand guidelines for Katalon Store publishers"
+            url: /katalon-store/docs/publisher/publisher-guidelines.html
           - title: "Plugin approval guidelines"
             url: /katalon-store/docs/publisher/approval-guidelines.html
+          - title: "Manage published plugins"
+            url: /katalon-store/docs/publisher/manage-published-plugins.html
+  - title: "Plugins"
+    tree:
+      - title: "Jira Integration"
+        url: /katalon-studio/docs/jira-plugin-integration.html
+      - title: "Slack Integration"
+        url: /katalon-studio/docs/slack-plugin-integration.html
+      - title: "Auto-healing Smart XPath"
+        url: /katalon-studio/docs/auto-healing-smart-xpath.html
+      - title: "TestRail Integration"
+        url: /katalon-studio/docs/testrail-integration.html
+      - title: "Test Case Management With Tags"
+        url: /katalon-studio/docs/test-case-management-with-tags.html
+      - title: "Dynamic Querying Test Suite"
+        tree:
+          - title: "Dynamic Querying Test Suite"
+            url: /katalon-studio/docs/dynamic-querying-test-suite.html
+          - title: "Basic Search For Dynamic Querying Test Suite"
+            url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+      - title: "Applitools Integration"
+        url: /katalon-studio/docs/applitools-integration.html
   - title: "Katalon Studio"
     tree:
       - title: "About Katalon Studio"
