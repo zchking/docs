@@ -141,26 +141,6 @@ items:
                 url: /katalon-studio/docs/network-settings.html
               - title: "Web Locators Settings (since v5.7.1)"
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
-      - title: "Plugins"
-        tree:
-          - title: "Jira Integration Plugin"
-            url: /katalon-studio/docs/jira-plugin-integration.html
-          - title: "Slack Integration Plugin"
-            url: /katalon-studio/docs/slack-plugin-integration.html
-          - title: "Auto-healing Smart XPath"
-            url: /katalon-studio/docs/auto-healing-smart-xpath.html
-          - title: "TestRail Integration"
-            url: /katalon-studio/docs/testrail-integration.html
-          - title: "Test Case Management With Tags"
-            url: /katalon-studio/docs/test-case-management-with-tags.html
-          - title: "Dynamic Querying Test Suite"
-            tree:
-              - title: "Dynamic Querying Test Suite"
-                url: /katalon-studio/docs/dynamic-querying-test-suite.html
-              - title: "Basic Search For Dynamic Querying Test Suite"
-                url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
-          - title: "Applitools Integration"
-            url: /katalon-studio/docs/applitools-integration.html
       - title: "Test Case"
         tree:
           - title: "Search"
