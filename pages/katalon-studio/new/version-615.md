@@ -12,7 +12,7 @@ Version 6.1.5
 *   Fixed a bug where Kobiton devices are duplicated.
 *   Fixed a bug where Katalon Studio cannot be opened if a custom keyword plugin contains errors.
 *   Fixed a bug where HAR files are not generated with the correct name.
-*   Fixex a bug where Safari webdriver installation requirements pop-up shows up before every test.
+*   Fixex a bug where Safari webdriver install requirements pop-up shows up before every test.
 *   Fixed a bug where test execution crashes when failing to get recent projects.
 *   Fixed a bug where executeJavaScript keyword  fails when there are 3 arguments.
 *   Fixed a bug in Jira Plugin where Default JIRA Issue TypeType field in integration setting contains duplicated values.
