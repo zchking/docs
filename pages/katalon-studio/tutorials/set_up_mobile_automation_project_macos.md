@@ -77,8 +77,11 @@ sh ./Scripts/bootstrap.sh -d
 
 *   Build **WebDriverAgent** to verify whether the steps above work
 
-| xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=<udid>' test Note: <udid> is the device UDID of your mobile device. |
+| xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=<udid>' test |
 | --- |
+
+Note: <udid> is the device UDID of your mobile device.
+
 
 *   If the following dialog is shown, select **Always Allow**
 
