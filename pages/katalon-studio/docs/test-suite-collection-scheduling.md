@@ -1,6 +1,6 @@
 **Schedule your test suite collection within a click.**
 
-Add a test suite to a test suite collection. In your test suite collection you can configurate the timing of the execution in **Test Suite Scheduling View. **
+Add a test suite to a test suite collection. In your test suite collection you can configurate the timing of the execution in **Test Suite Scheduling View.**
 
 ![](../../images/katalon-studio/docs/test-suite-collection-scheduling/Screen Shot 2019-05-13 at 2.32.jpg)
 
