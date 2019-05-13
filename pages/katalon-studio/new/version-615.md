@@ -22,3 +22,16 @@ Version 6.1.5
 *   Added the capability to display all user folders/files in Test Explorer.
 *   Added the capability to allow configuration of plugin installlation location in Preferences -> Katalon -> Plugins.
 *   Added the capability to use variables in XPaths when finding test objects.
+
+
+#### Import from Postman:
+
+First export your Postman collection to JSON. See the instruction [here](https://learning.getpostman.com/docs/postman/collections/data_formats/#exporting-and-importing-postman-data). 
+
+Then in Katalon Studio, create a new API/Web Service project (currently the only type of project supporting this Postman collection import feature), and click on Postman icon on the toolbar.
+
+![](../../images/katalon-studio/new/version-615/img.png)
+
+Corresponding test objects will be imported into folder Postman.
+
+![](../../images/katalon-studio/new/version-615/img2.png)
