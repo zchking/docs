@@ -3,9 +3,9 @@ Version 6.1.5
 
 ### Plug-ins
 
-*   **Sauce Labs Integration:** A plugin that lets Katalon Studio connect to Sauce Labs browsers easily and update job's info with test case name and run status.
-*   **Test Suite Collection Scheduling Plugin:** A plugin that lets Katalon Studio run a test suite collection at a specific time in the future.
-*   **Katalon Studio Report Plugin:** A plugin that replaces the current report feature of Katalon Studio. Starting from v6.1.5, the report feature is no longer available natively in Katalon Studio, users need to download this plugin to continue using this feature.
+*   **Sauce Labs Integration**: A plugin that lets Katalon Studio connect to Sauce Labs browsers easily and update job's info with test case name and run status.
+*   [**Test Suite Collection Scheduler Plugin**](https://store.katalon.com/product/74/Test-Suite-Collection-Scheduler): A plugin that lets Katalon Studio run a test suite collection at a specific time in the future.
+*   [**Katalon Studio Report Plugin**](https://store.katalon.com/product/59/Basic-Report): A plugin that replaces the current report feature of Katalon Studio. Starting from v6.1.5, the report feature is no longer available natively in Katalon Studio, users need to download this plugin to continue using this feature.
 
 ### Fixes and Improvements
 

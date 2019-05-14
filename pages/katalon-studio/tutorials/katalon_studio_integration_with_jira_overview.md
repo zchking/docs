@@ -5,14 +5,18 @@ permalink: katalon-studio/tutorials/katalon_studio_integration_with_jira_overvie
 description: "Katalon Studio allows users to integrate with JIRA so that any failed execution can be submitted as defects for tracking purpose"
 ---
 > ## JIRA Integration plugin is now available
-> To get JIRA Integration plugin, visit [Katalon Store](https://store.katalon.com)
+> Since [version 6.1.5](https://docs.katalon.com/katalon-studio/new/version-615.html), the built-in Jira integration is no longer available natively on Katalon Studio. Users need to install the plugin version from [Katalon Store](https://store.katalon.com) to continue accessing the feature. <br>
+[Get Jira Integration now!](https://store.katalon.com/product/3/Jira-Integration)
+
+
 
 JIRA is a popular bug tracking system, an integral part of any automation team. Katalon Studio allows users to integrate with JIRA so that any failed execution can be submitted as defects for tracking purpose. This tutorial will show you the basic steps to setup JIRA integration for Katalon Studio.
 
 Configuration
 -------------
 
-You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at Project > Settings > Integration > JIRA.
+You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at Project > Settings > Integration > JIRA
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ![enable JIRA Integration](../../images/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Configuration.png)

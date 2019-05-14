@@ -120,5 +120,7 @@ where:
 Export to other formats
 -----------------------
 
+*Since v6.1.5, you can install [Basic Report](https://store.katalon.com/product/59/Basic-Report) plugin to use this feature.*
+
 For the purpose of sharing, users can generate reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit** using the context menu in Test Explorer as example below:   
 ![](../../images/katalon-studio/docs/test-suite-report/image2017-6-23-163A23A2.png)
