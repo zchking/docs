@@ -1,13 +1,19 @@
-Version 6.1.5
-=============
+---
+title: "Version 6.1.5"
+sidebar: katalon_studio_new_sidebar
+permalink: katalon-studio/new/version-615.html
+redirect_from:
+    - "/katalon-studio/new/version-615/"
+description: Release notes v6.1.5
+---
 
-### Plug-ins
+## Plug-ins
 
 *   **Sauce Labs Integration:** A plugin that lets Katalon Studio connect to Sauce Labs browsers easily and update job's info with test case name and run status.
 *   **Test Suite Collection Scheduling Plugin:** A plugin that lets Katalon Studio run a test suite collection at a specific time in the future.
 *   **Katalon Studio Report Plugin:** A plugin that replaces the current report feature of Katalon Studio. Starting from v6.1.5, the report feature is no longer available natively in Katalon Studio, users need to download this plugin to continue using this feature.
 
-### Fixes and Improvements
+## Fixes and Improvements
 
 *   Fixed a bug where Kobiton devices are duplicated.
 *   Fixed a bug where Katalon Studio cannot be opened if a custom keyword plugin contains errors.
