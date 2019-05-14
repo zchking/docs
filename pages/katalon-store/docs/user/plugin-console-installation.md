@@ -1,5 +1,5 @@
 ---
-title: "Plugin Console Installation"
+title: "Using Plugins in Katalon Studio's Console Mode"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-store/docs/user/plugin-console-installation.html
 redirect_from:
