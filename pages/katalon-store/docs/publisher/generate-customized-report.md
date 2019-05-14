@@ -1,5 +1,5 @@
 ---
-title: "Generate a customized report plugin"
+title: "Develop a customized report plugin"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-store/docs/publisher/generate-customized-report.html
 redirect_from:
@@ -7,12 +7,10 @@ redirect_from:
 
 description: Guidelines for developers about how to write a customized report plugin
 ---
-# katalon-studio-sample-report-plugin
 
 A sample custom keyword plugin to demonstrate how to generate a customized report.
 
-**This plugin provides**:
-- A test listener that automatically generates a test suite report with a customized format as a text file under *Reports* folder.
+This plugin provides a test listener that automatically generates a test suite report with a customized format as a text file under *Reports* folder.
 
 ## Relevant project structure
 ```bash
