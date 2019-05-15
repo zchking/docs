@@ -13,7 +13,7 @@ A sample custom keyword plugin to demonstrate how to generate a customized repor
 This plugin provides a test listener that automatically generates a test suite report with a customized format as a text file under *Reports* folder.
 
 ## Relevant project structure
-```bash
+```
 katalon-studio-sample-report-plugin
 ├── Keywords
 │   ├── sample.report
