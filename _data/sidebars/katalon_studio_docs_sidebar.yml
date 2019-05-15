@@ -59,6 +59,8 @@ items:
             url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
       - title: "Applitools Integration"
         url: /katalon-studio/docs/applitools-integration.html
+      - title: "Basic Report"
+        url: /katalon-studio/docs/basic-report.html
   - title: "Katalon Studio"
     tree:
       - title: "About Katalon Studio"
