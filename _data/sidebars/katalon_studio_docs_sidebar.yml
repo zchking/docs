@@ -71,7 +71,7 @@ items:
         tree:
           - title: "Overview"
             url: /katalon-studio/docs/getting-started.html
-          - title: "Katalon Studio Activation (Since 5.7)"
+          - title: "Activate Katalon Studio"
             url: /katalon-studio/docs/katalon-studio-activation-since-57.html
           - title: "Supported Environments"
             url: /katalon-studio/docs/supported-environments.html
