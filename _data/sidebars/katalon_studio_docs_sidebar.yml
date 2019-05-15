@@ -771,6 +771,8 @@ items:
                 url: /katalon-studio/docs/integrate-test-suite.html
               - title: "Upload test execution"
                 url: /katalon-studio/docs/upload-test-execution.html
+          - title: "Katalon Studio and TestRail integration"
+            url: /katalon-studio/tutorials/katalon-testrail-integration.html
       - title: "Tips and Tricks"
         tree:
           - title: "Change CSS selector of an object at runtime"
