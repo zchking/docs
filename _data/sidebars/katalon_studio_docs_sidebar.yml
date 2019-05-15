@@ -69,7 +69,7 @@ items:
         url: /katalon-studio/docs/overview.html
       - title: "Installation and Setup"
         tree:
-          - title: "Overview"
+          - title: "Install, use, and review a Plugin"
             url: /katalon-studio/docs/getting-started.html
           - title: "Katalon Studio Activation (Since 5.7)"
             url: /katalon-studio/docs/katalon-studio-activation-since-57.html
