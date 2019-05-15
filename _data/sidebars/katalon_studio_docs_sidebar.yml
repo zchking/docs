@@ -27,6 +27,8 @@ items:
             url: /katalon-store/docs/publisher/resolve-external-dependencies.html
           - title: "Develop a customized report plugin"
             url: /katalon-store/docs/publisher/generate-customized-report.html
+          - title: "How to generate groovydoc for a plugin"
+            url: /katalon-store/docs/publisher/generate-groovydoc.html
       - title: "Submit and publish plugins"
         tree:
           - title: "Submit and publish a new plugin"
