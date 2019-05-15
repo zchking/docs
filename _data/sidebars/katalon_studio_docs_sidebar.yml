@@ -27,6 +27,8 @@ items:
             url: /katalon-store/docs/publisher/resolve-external-dependencies.html
           - title: "Develop a customized report plugin"
             url: /katalon-store/docs/publisher/generate-customized-report.html
+          - title: "How to generate groovydoc for a plugin"
+            url: /katalon-store/docs/publisher/generate-groovydoc.html
       - title: "Submit and publish plugins"
         tree:
           - title: "Submit and publish a new plugin"
@@ -59,6 +61,8 @@ items:
             url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
       - title: "Applitools Integration"
         url: /katalon-studio/docs/applitools-integration.html
+      - title: "Basic Report"
+        url: /katalon-studio/docs/basic-report.html
   - title: "Katalon Studio"
     tree:
       - title: "About Katalon Studio"
