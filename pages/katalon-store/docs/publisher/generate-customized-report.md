@@ -1,5 +1,5 @@
 ---
-title: "Generate a customized report plugin"
+title: "Develop a customized report plugin"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-store/docs/publisher/generate-customized-report.html
 redirect_from:
@@ -7,15 +7,13 @@ redirect_from:
 
 description: Guidelines for developers about how to write a customized report plugin
 ---
-## katalon-studio-sample-report-plugin
 
 A sample custom keyword plugin to demonstrate how to generate a customized report.
 
-**This plugin provides**:
-- A test listener that automatically generates a test suite report with a customized format as a text file under *Reports* folder.
+This plugin provides a test listener that automatically generates a test suite report with a customized format as a text file under *Reports* folder.
 
-### Relevant project structure
-```bash
+## Relevant project structure
+```
 katalon-studio-sample-report-plugin
 ├── Keywords
 │   ├── sample.report
@@ -25,7 +23,7 @@ katalon-studio-sample-report-plugin
 │   ├── SampleReportTSListener.groovy
 ```
 
-### How to build
+## How to build
 Open this project with Katalon Studio.
 
 Run the following command at the root folder:
@@ -36,6 +34,6 @@ gradle katalonPluginPackage
 
 The plugin will be located at *build/libs/katalon-studio-sample-report-plugin.jar* afterwards.
 
-### How to use 
+## How to use 
 
 Copy the above jar file and place it under *Plugins* folder of your Katalon project.
