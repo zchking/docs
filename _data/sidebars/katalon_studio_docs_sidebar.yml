@@ -5,13 +5,13 @@ items:
         url: /katalon-store/docs/overview.html
       - title: "Use plugins in Katalon Store"
         tree:
-          - title: "Getting Started"
+          - title: "Install, use, and review a Plugin"
             url: /katalon-store/docs/user/getting-started.html
           - title: "Access to Katalon Store in Katalon Studio"
             url: /katalon-store/docs/user/access-store-in-KS.html
-          - title: "API Keys Settings"
+          - title: "Manage API Keys"
             url: /katalon-store/docs/user/API-key.html
-          - title: "Plugin console installation"
+          - title: "Use Plugins in Katalon Studio's Console Mode"
             url: /katalon-store/docs/user/plugin-console-installation.html
       - title: "Develop new plugins"
         tree:

@@ -1,5 +1,5 @@
 ---
-title: "API Keys Settings"
+title: "Manage API Keys"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-store/docs/user/API-key.html
 redirect_from:
@@ -7,10 +7,10 @@ redirect_from:
 
 description: Guide how to use and manage API Key in KStore
 ---
-# API Keys usage 
+# API Keys usage
 
 
-In Katalon Studio Commandline Execution, API keys play the role as the user credentials to download and install plugins of the API key owners to Katalon Studio before proceeding execution. 
+In Katalon Studio Commandline Execution, API keys play the role as the user credentials to download and install plugins of the API key owners to Katalon Studio before proceeding execution.
 
 Without API keys applied, Katalon Studio will execute as no plugins are installed. Therefore, API keys are must-have for using plugin functions during Commandline Execution in Katalon Studio.
 
