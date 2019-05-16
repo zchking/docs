@@ -6,6 +6,8 @@ topnav:
     - title: Manuals
       url: /katalon-studio/docs/index.html
       parenturl: /katalon-studio/docs
+    - title: Plugins
+      external_url: https://store.katalon.com
     - title: Tutorials
       url: /katalon-studio/tutorials/index.html
       parenturl: /katalon-studio/tutorials
