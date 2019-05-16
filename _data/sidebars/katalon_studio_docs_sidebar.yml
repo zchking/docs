@@ -41,7 +41,7 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
-  - title: "Plugins"
+  - title: "Katalon Studio Plugins"
     tree:
       - title: "Jira Integration"
         url: /katalon-studio/docs/jira-plugin-integration.html

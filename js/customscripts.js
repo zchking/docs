@@ -235,7 +235,7 @@ $(function() {
         search.addWidget(
             instantsearch.widgets.searchBox({
                 container: '#search-box',
-                placeholder: 'Search the docs',
+                placeholder: 'Search',
                 magnifier: false,
                 wrapInput: false,
                 autofocus: false,
