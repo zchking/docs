@@ -7,7 +7,7 @@ redirect_from:
 
 description: Guide on how to use Basic Report plugin
 ---
-Basic Report Plugin is a Custom Keyword plugin that replaces for the current Report feature of Katalon Studio. Since [version 6.1.5](https://docs.katalon.com/katalon-studio/new/version-615.html), the Report feature has been migrated to Basic Report plugin.  Users need to install this plugin to continue using the feature.
+Basic Report Plugin is a Custom Keyword that replaces for the current Report feature of Katalon Studio. Since [version 6.1.5](https://docs.katalon.com/katalon-studio/new/version-615.html), the Report feature has been migrated to Basic Report plugin.  Users need to install this plugin to continue using the feature.
 
 > [Install Basic Report now!](https://store.katalon.com/product/59/Basic-Report)
 
