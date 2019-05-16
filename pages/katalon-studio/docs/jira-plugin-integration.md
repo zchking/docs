@@ -10,18 +10,25 @@ Prerequisites:
 * Install [Jira Integration plugin](https://store.katalon.com/product/3/Jira-Integration) for Katalon Studio from Katalon Store.
 * Install [Katalon BDD app](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) for Jira from Atlassian Marketplace.
 
-## Configuration
+## Configuration (Jira Cloud)
 
 You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
 
 ![](../../images/katalon-studio/docs/jira-plugin-integration/config.png)
 1.  Select **Enable integration** option. The settings will be available for configuration.
 
+**Jira Cloud**
+* *Server URL* must be in the form *https://<site_name>.atlassian.net*.
+* Use a Atlassian Cloud's API token for *Password*. See instructions [here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
+
+**Jira Server**
+* *Server URL* must be in the form *http(s)://domain* without any trailing parts e.g. */secure*.
+* Use username instead of email for *Username*.
 
 2.  Specify information regarding your JIRA Server and login credential then click **Connect** button.
 
 
-3.  After successfully authenticating with JIRA, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under **Submit Options**. You can specify the default project and issue type for submission here.
+3.  After successfully authenticating with JIRA, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under **Submit Options**. You can specify the default project and issue type for submission here. These settings will be used when you submit a new issue manually from Katalon Studio test report.
 
 ![](../../images/katalon-studio/docs/jira-plugin-integration/image2016-11-3-133A533A20.png)
 
@@ -79,6 +86,8 @@ Submit options will be available in your test reports after **Jira Integration**
 3. Click on the bug icon to manage Jira issues
 ![](../../images/katalon-studio/docs/jira-plugin-integration/image2016-11-3-143A163A50.png)
 
-4. Create a new issue and submit
+4. (Optional) In Jira's Login screen, select *Remember my login on this computer* to let the browser remember the session so that logging in will not be required next time.
+
+5. Create a new issue and submit
 ![](../../images/katalon-studio/docs/jira-plugin-integration/image2016-11-3-143A323A53.png)
 
