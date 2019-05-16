@@ -11,8 +11,9 @@ redirect_from:
 description:
 ---
 
-> ## Deprecation Notice
-> This tutorial has been deprecated. We recommend you to make use of our [Katalon plugin for Jenkins](https://forum.katalon.com/t/the-first-release-of-katalon-studios-jenkins-plugin/16236) to simplify the setup. Please see the tutorial [*How to use Katalon plugin for Jenkins on Ubuntu*](https://forum.katalon.com/t/how-to-use-katalon-plugin-for-jenkins-on-ubuntu/17790).
+This feature has been moved to [Jenkins plugin](https://plugins.jenkins.io/katalon).
+
+<details><summary>Deprecated Content</summary>
 
 Prerequisites
 -------------
@@ -100,3 +101,5 @@ After executions from Jenkins job, click on '[Test Results Analyzer](https://wik
 All test executions from the folder you've specified will be summarized and displayed in visualize way.
 
 ![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-11.48.34.png)
+
+</details>

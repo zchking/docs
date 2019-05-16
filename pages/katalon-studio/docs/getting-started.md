@@ -1,5 +1,5 @@
 ---
-title: "Install, use, and review a Plugin"
+title: "Overview"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/getting-started.html
 redirect_from:

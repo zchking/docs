@@ -27,6 +27,8 @@ items:
             url: /katalon-store/docs/publisher/resolve-external-dependencies.html
           - title: "Develop a customized report plugin"
             url: /katalon-store/docs/publisher/generate-customized-report.html
+          - title: "How to generate groovydoc for a plugin"
+            url: /katalon-store/docs/publisher/generate-groovydoc.html
       - title: "Submit and publish plugins"
         tree:
           - title: "Submit and publish a new plugin"
@@ -39,7 +41,7 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
-  - title: "Plugins"
+  - title: "Katalon Studio Plugins"
     tree:
       - title: "Jira Integration"
         url: /katalon-studio/docs/jira-plugin-integration.html
@@ -51,12 +53,8 @@ items:
         url: /katalon-studio/docs/testrail-integration.html
       - title: "Test Case Management With Tags"
         url: /katalon-studio/docs/test-case-management-with-tags.html
-      - title: "Dynamic Querying Test Suite"
-        tree:
-          - title: "Dynamic Querying Test Suite"
-            url: /katalon-studio/docs/dynamic-querying-test-suite.html
-          - title: "Basic Search For Dynamic Querying Test Suite"
-            url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+      - title: "Basic Search For Dynamic Test Suite"
+        url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
       - title: "Applitools Integration"
         url: /katalon-studio/docs/applitools-integration.html
       - title: "Basic Report"
@@ -69,10 +67,8 @@ items:
         tree:
           - title: "Overview"
             url: /katalon-studio/docs/getting-started.html
-          - title: "Katalon Studio Activation (Since 5.7)"
+          - title: "Activate Katalon Studio"
             url: /katalon-studio/docs/katalon-studio-activation-since-57.html
-          - title: "System Requirements"
-            url: /katalon-studio/docs/system-requirements.html
           - title: "Supported Environments"
             url: /katalon-studio/docs/supported-environments.html
           - title: "Linux Support"
@@ -181,6 +177,8 @@ items:
             url: /katalon-studio/docs/design-a-test-suite.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
+          - title: "Dynamic Querying Test Suite"
+            url: /katalon-studio/docs/dynamic-querying-test-suite.html
       - title: "Test Object"
         tree:
           - title: "Web and Mobile Test Object"
@@ -695,9 +693,8 @@ items:
             url: /katalon-studio/docs/test-suite-collection-report.html
           - title: "View Execution Log"
             url: /katalon-studio/docs/view-execution-log.html
-            tree:
-              - title: "Working with Execution Log"
-                url: /katalon-studio/docs/working-with-execution-log.html
+          - title: "Customize Console Log"
+            url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Video Capturing"
             url: /katalon-studio/docs/video-capturing.html
       - title: "Parameterization"
@@ -712,34 +709,44 @@ items:
             url: /katalon-studio/docs/execution-profile-v54.html
       - title: "Test Listeners (Test Hooks)"
         url: /katalon-studio/docs/test-listeners-test-hooks.html
-      - title: "Integrations"
+      - title: "BDD Testing Framework"
+        tree:
+          - title: "Cucumber Features File"
+            url: /katalon-studio/docs/cucumber-features-file.html
+          - title: "Step Definitions"
+            url: /katalon-studio/docs/step-definitions.html
+          - title: "Running Cucumber Features File"
+            url: /katalon-studio/docs/running-cucumber-features-file.html
+      - title: "Katalon Analytics (Beta) Integration"
+        url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+      - title: "Jira Integration"
+        tree:
+          - title: "Configure JIRA Integration"
+            url: /katalon-studio/docs/configure-jira-integration.html
+          - title: "Install and Use Katalon's JIRA add-on"
+            url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
+          - title: "Working with JIRA"
+            url: /katalon-studio/docs/working-with-jira.html
+      - title: "CI/CD Integration"
+        tree:
+          - title: "Console Mode Execution"
+            url: /katalon-studio/docs/console-mode-execution.html
+          - title: "Docker"
+            url: /katalon-studio/docs/docker.html
+          - title: "Export Test Results in JUnit Format"
+            url: /katalon-studio/docs/export-test-results-in-junit-format.html
+          - title: "Bamboo Integration"
+            url: /katalon-studio/docs/bamboo-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-studio/docs/jenkins-integration.html
+          - title: "VSTS/TFS/VSO Integration"
+            url: /katalon-studio/docs/vststfsvso-integration.html
+      - title: "Other Integrations"
         tree:
           - title: "BrowserStack Integration"
             url: /katalon-studio/docs/browserstack-integration.html
-          - title: "CI/CD Integration"
-            tree:
-              - title: "Console Mode Execution"
-                url: /katalon-studio/docs/console-mode-execution.html
-              - title: "Docker"
-                url: /katalon-studio/docs/docker.html
-              - title: "Export Test Results in JUnit Format"
-                url: /katalon-studio/docs/export-test-results-in-junit-format.html
-              - title: "Bamboo Integration"
-                url: /katalon-studio/docs/bamboo-integration.html
-              - title: "Jenkins Integration"
-                url: /katalon-studio/docs/jenkins-integration.html
-              - title: "VSTS/TFS/VSO Integration"
-                url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Git Integration"
             url: /katalon-studio/docs/git-integration.html
-          - title: "Jira Integration"
-            tree:
-              - title: "Configure JIRA Integration"
-                url: /katalon-studio/docs/configure-jira-integration.html
-              - title: "Install and Use Katalon's JIRA add-on"
-                url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
-              - title: "Working with JIRA"
-                url: /katalon-studio/docs/working-with-jira.html
           - title: "Kobiton Integration"
             tree:
               - title: "Enable Kobiton Integration"
@@ -761,16 +768,8 @@ items:
                 url: /katalon-studio/docs/integrate-test-suite.html
               - title: "Upload test execution"
                 url: /katalon-studio/docs/upload-test-execution.html
-      - title: "Katalon Analytics (Beta) Integration"
-        url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-      - title: "BDD Testing Framework"
-        tree:
-          - title: "Cucumber Features File"
-            url: /katalon-studio/docs/cucumber-features-file.html
-          - title: "Step Definitions"
-            url: /katalon-studio/docs/step-definitions.html
-          - title: "Running Cucumber Features File"
-            url: /katalon-studio/docs/running-cucumber-features-file.html
+          - title: "TestRail integration"
+            url: /katalon-studio/tutorials/katalon-testrail-integration.html
       - title: "Tips and Tricks"
         tree:
           - title: "Change CSS selector of an object at runtime"
