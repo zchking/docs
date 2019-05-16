@@ -53,12 +53,8 @@ items:
         url: /katalon-studio/docs/testrail-integration.html
       - title: "Test Case Management With Tags"
         url: /katalon-studio/docs/test-case-management-with-tags.html
-      - title: "Dynamic Querying Test Suite"
-        tree:
-          - title: "Dynamic Querying Test Suite"
-            url: /katalon-studio/docs/dynamic-querying-test-suite.html
-          - title: "Basic Search For Dynamic Querying Test Suite"
-            url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+      - title: "Basic Search For Dynamic Test Suite"
+        url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
       - title: "Applitools Integration"
         url: /katalon-studio/docs/applitools-integration.html
       - title: "Basic Report"
@@ -181,6 +177,8 @@ items:
             url: /katalon-studio/docs/design-a-test-suite.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
+          - title: "Dynamic Querying Test Suite"
+            url: /katalon-studio/docs/dynamic-querying-test-suite.html
       - title: "Test Object"
         tree:
           - title: "Web and Mobile Test Object"
