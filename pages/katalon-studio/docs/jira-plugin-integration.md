@@ -17,13 +17,13 @@ You need to enable JIRA Integration in order to submit issues to JIRA. This sett
 ![](../../images/katalon-studio/docs/jira-plugin-integration/config.png)
 1.  Select **Enable integration** option. The settings will be available for configuration.
 
-**Jira Cloud**
-* *Server URL* must be in the form *https://<site_name>.atlassian.net*.
-* Use a Atlassian Cloud's API token for *Password*. See instructions [here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
+  * Jira Cloud
+    * *Server URL* must be in the form *https://<site_name>.atlassian.net*.
+    * Use a Atlassian Cloud's API token for *Password*. See instructions [here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
 
-**Jira Server**
-* *Server URL* must be in the form *http(s)://domain* without any trailing parts e.g. */secure*.
-* Use username instead of email for *Username*.
+  * Jira Server
+    * *Server URL* must be in the form *http(s)://domain* without any trailing parts e.g. */secure*.
+    * Use username instead of email for *Username*.
 
 2.  Specify information regarding your JIRA Server and login credential then click **Connect** button.
 
