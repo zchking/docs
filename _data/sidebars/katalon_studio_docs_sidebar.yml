@@ -83,8 +83,6 @@ items:
                 url: /katalon-studio/docs/internet-explorer-configurations.html
               - title: "Katalon Addon for Chrome"
                 url: /katalon-studio/docs/katalon-addon-for-chrome.html
-              - title: "Troubleshooting web automated testing"
-                url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
           - title: "Environment Setup for Mobile Testing"
             tree:
               - title: "Mobile on Windows"
@@ -93,10 +91,6 @@ items:
                 url: /katalon-studio/docs/mobile-on-macos.html
               - title: "Installing WebDriverAgent for iOS devices"
                 url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
-              - title: "Troubleshooting automated mobile testing"
-                url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
-              - title: "Troubleshooting common issues related to interacting with an element"
-                url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
           - title: "Update New Versions"
             tree:
               - title: "Auto-updater"
@@ -169,6 +163,14 @@ items:
             url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
           - title: "Using the WebDriver Object"
             url: /katalon-studio/docs/using-the-webdriver-object.html
+      - title: "Global Variables"
+        tree:
+          - title: "Global Variables"
+            url: /katalon-studio/docs/global-variables.html
+          - title: "Execution Profile"
+            url: /katalon-studio/docs/execution-profile-v54.html
+          - title: "Create Global Variables on the fly"
+            url: /katalon-studio/docs/create-global-variables-on-the-fly.html
       - title: "Test Suite"
         tree:
           - title: "Create a Test Suite"
@@ -179,50 +181,54 @@ items:
             url: /katalon-studio/docs/test-suite-collection.html
           - title: "Dynamic Querying Test Suite"
             url: /katalon-studio/docs/dynamic-querying-test-suite.html
-      - title: "Test Object"
+      - title: "Web and Mobile Test Object"
         tree:
-          - title: "Web and Mobile Test Object"
+          - title: "Manage Test Object"
+            url: /katalon-studio/docs/manage-test-object.html
+          - title: "Working with Objects Selection Method for Spy/Record Web"
+            url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
+          - title: "Working with Shadow DOM Objects"
+            url: /katalon-studio/docs/working-with-shadow-dom-objects.html
+          - title: "Change CSS selector of an object at runtime"
+            url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
+          - title: "Modify object properties at runtime"
+            url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
+          - title: "Creation of Test Object in Object Repository in Runtime"
+            url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
+      - title: "Web Services Test Object"
+        tree:
+          - title: "Introduction to Web Services Test Object"
+            url: /katalon-studio/docs/introduction-to-web-services-test-object.html
+          - title: "Create Web Service Object in Script Mode"
+            url: /katalon-studio/docs/create_web_service_object_in_script_mode.html
+          - title: "RESTful"
+            url: /katalon-studio/docs/restful.html
+          - title: "SOAP"
+            url: /katalon-studio/docs/soap.html
+          - title: "Authorization"
+            url: /katalon-studio/docs/authorization.html
+          - title: "Authorization Basic"
+            url: /katalon-studio/docs/authorization-basic.html
+          - title: "Authorization OAuth 1.0"
+            url: /katalon-studio/docs/authorization-oauth1.html
+          - title: "Authorization OAuth 2.0"
+            url: /katalon-studio/docs/authorization-oauth2.html
+          - title: "Web Services Builder"
+            url: /katalon-studio/docs/web-services-builder.html
+          - title: "Using Web Services in a Test Case"
+            url: /katalon-studio/docs/using-web-services-in-a-test-case.html
+          - title: "Working with API/Web Services Project "
             tree:
-              - title: "Manage Test Object"
-                url: /katalon-studio/docs/manage-test-object.html
-              - title: "Working with Objects Selection Method for Spy/Record Web"
-                url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
-              - title: "Working with Shadow DOM Objects"
-                url: /katalon-studio/docs/working-with-shadow-dom-objects.html
-          - title: "Web Services Test Object"
-            tree:
-              - title: "Introduction to Web Services Test Object"
-                url: /katalon-studio/docs/introduction-to-web-services-test-object.html
-              - title: "Create Web Service Object in Script Mode"
-                url: /katalon-studio/docs/create_web_service_object_in_script_mode.html
-              - title: "RESTful"
-                url: /katalon-studio/docs/restful.html
-              - title: "SOAP"
-                url: /katalon-studio/docs/soap.html
-              - title: "Authorization"
-                url: /katalon-studio/docs/authorization.html
-              - title: "Authorization Basic"
-                url: /katalon-studio/docs/authorization-basic.html
-              - title: "Authorization OAuth 1.0"
-                url: /katalon-studio/docs/authorization-oauth1.html
-              - title: "Authorization OAuth 2.0"
-                url: /katalon-studio/docs/authorization-oauth2.html
-              - title: "Web Services Builder"
-                url: /katalon-studio/docs/web-services-builder.html
-              - title: "Using Web Services in a Test Case"
-                url: /katalon-studio/docs/using-web-services-in-a-test-case.html
-              - title: "Working with API/Web Services Project "
+              - title: "Request History"
+                url: /katalon-studio/docs/request-history.html
+              - title: "Draft Request"
+                url: /katalon-studio/docs/draft-request.html
+              - title: "Import Web Service Objects"
                 tree:
-                  - title: "Request History"
-                    url: /katalon-studio/docs/request-history.html
-                  - title: "Draft Request"
-                    url: /katalon-studio/docs/draft-request.html
-                  - title: "Import Web Service Objects"
-                    tree:
-                      - title: "Import REST requests from Swagger 2.0"
-                        url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
-                      - title: "Import SOAP requests from WSDL"
-                        url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
+                  - title: "Import REST requests from Swagger 2.0"
+                    url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
+                  - title: "Import SOAP requests from WSDL"
+                    url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
       - title: "Record and Spy Utilities"
         tree:
           - title: "Record Web Utility"
@@ -659,6 +665,10 @@ items:
                 url: /katalon-studio/docs/sample-custom-keywords.html
               - title: "Import/Export Keywords"
                 url: /katalon-studio/docs/importexport-keywords.html
+              - title: "Import Custom Keywords classes recursively"
+                url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
+              - title: "Mark test's status for a Custom Keyword"
+                url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
               - title: "Handling Databases"
                 url: /katalon-studio/docs/handling-databases.html
           - title: "Working with Sensitive Text"
@@ -697,6 +707,8 @@ items:
             url: /katalon-studio/docs/working-with-execution-log.html
           - title: "Video Capturing"
             url: /katalon-studio/docs/video-capturing.html
+          - title: "Get generated Reports location at runtime"
+            url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
       - title: "Parameterization"
         tree:
           - title: "Parameterize Web/Mobile Test Object Properties"
@@ -705,8 +717,6 @@ items:
             url: /katalon-studio/docs/parameterize-a-web-service-object.html
           - title: "Manage Test Data"
             url: /katalon-studio/docs/manage-test-data.html
-          - title: "Execution Profile (v5.4+)"
-            url: /katalon-studio/docs/execution-profile-v54.html
       - title: "Test Listeners (Test Hooks)"
         url: /katalon-studio/docs/test-listeners-test-hooks.html
       - title: "BDD Testing Framework"
@@ -717,6 +727,14 @@ items:
             url: /katalon-studio/docs/step-definitions.html
           - title: "Running Cucumber Features File"
             url: /katalon-studio/docs/running-cucumber-features-file.html
+      - title: "Troubleshooting"
+        tree:
+          - title: "Troubleshooting web automated testing"
+            url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
+          - title: "Troubleshooting automated mobile testing"
+            url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
+          - title: "Troubleshooting common issues related to interacting with an element"
+            url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
       - title: "Katalon Analytics (Beta) Integration"
         url: /katalon-studio/docs/katalon-analytics-beta-integration.html
       - title: "Jira Integration"
@@ -741,6 +759,21 @@ items:
             url: /katalon-studio/docs/jenkins-integration.html
           - title: "VSTS/TFS/VSO Integration"
             url: /katalon-studio/docs/vststfsvso-integration.html
+      - title: "Test Management Integrations"
+        tree:
+          - title: "qTest Integration"
+            id: "qtest-integration"
+            tree:
+              - title: "Enable qTest Integration"
+                url: /katalon-studio/docs/enable-qtest-integration.html
+              - title: "Integrate test case"
+                url: /katalon-studio/docs/integrate-test-case.html
+              - title: "Integrate test suite"
+                url: /katalon-studio/docs/integrate-test-suite.html
+              - title: "Upload test execution"
+                url: /katalon-studio/docs/upload-test-execution.html
+          - title: "TestRail integration"
+            url: /katalon-studio/docs/katalon-testrail-integration.html
       - title: "Other Integrations"
         tree:
           - title: "BrowserStack Integration"
@@ -757,31 +790,10 @@ items:
             url: /katalon-studio/docs/saucelabs-integration.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-integration.html
-          - title: "qTest Integration"
-            id: "qtest-integration"
-            tree:
-              - title: "Enable qTest Integration"
-                url: /katalon-studio/docs/enable-qtest-integration.html
-              - title: "Integrate test case"
-                url: /katalon-studio/docs/integrate-test-case.html
-              - title: "Integrate test suite"
-                url: /katalon-studio/docs/integrate-test-suite.html
-              - title: "Upload test execution"
-                url: /katalon-studio/docs/upload-test-execution.html
-          - title: "TestRail integration"
-            url: /katalon-studio/tutorials/katalon-testrail-integration.html
       - title: "Tips and Tricks"
         tree:
-          - title: "Change CSS selector of an object at runtime"
-            url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
-          - title: "Clicking multiple objects without starting over"
-            url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
           - title: "Connect to SQL using Windows Authentication"
             url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
-          - title: "Create Global Variables on the fly"
-            url: /katalon-studio/docs/create-global-variables-on-the-fly.html
-          - title: "Creation of Test Object in Object Repository in Runtime"
-            url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
           - title: "Execute Windows commands"
             url: /katalon-studio/docs/execute-windows-commands.html
           - title: "Execute Xpath functions"
@@ -792,24 +804,18 @@ items:
             url: /katalon-studio/docs/force-stop-execution.html
           - title: "Get SQL query results as variables"
             url: /katalon-studio/docs/get-sql-query-results-as-variables.html
-          - title: "Get generated Reports location at runtime"
-            url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
           - title: "Handle file upload control on hidden input"
             url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
           - title: "How to pass exitCode from Katalon to Jenkins in order to inform of Test Case failures"
             url: /katalon-studio/docs/how-to-pass-exitcode-from-katalon-to-jenkins-in-order-to-inform-of-test-case-failures.html
           - title: "How to use different browser versions"
             url: /katalon-studio/docs/how-to-use-different-browser-versions.html
-          - title: "Import Custom Keywords classes recursively"
-            url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
           - title: "Install Chrome extensions at runtime"
             url: /katalon-studio/docs/install-chrome-extensions-at-runtime.html
           - title: "Katalon with Winium for Desktop Applications"
             url: /katalon-studio/docs/katalon-with-winium-for-desktop-applications.html
           - title: "Manage Android's permission"
             url: /katalon-studio/docs/manage-androids-permission.html
-          - title: "Mark test's status for a Custom Keyword"
-            url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
           - title: "Open Chrome with extensions"
             url: /katalon-studio/docs/open-chrome-with-extensions.html
           - title: "Optimizing Object Identification and Tools"
