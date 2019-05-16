@@ -29,6 +29,8 @@ items:
             url: /katalon-store/docs/publisher/generate-customized-report.html
           - title: "How to generate groovydoc for a plugin"
             url: /katalon-store/docs/publisher/generate-groovydoc.html
+          - title: "Example plugin: Build Katalon Studio's TestRail Integration plugin"
+            url: /katalon-store/docs/publisher/example-plugin-testrail.html
       - title: "Submit and publish plugins"
         tree:
           - title: "Submit and publish a new plugin"
