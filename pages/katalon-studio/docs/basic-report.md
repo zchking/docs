@@ -3,13 +3,13 @@ title: "Basic Report"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/basic-report.html
 redirect_from:
-    - "/katalon-studio/docs/authorization-basic/"
+    - "/katalon-studio/docs/basic-report/"
 
 description: Guide on how to use Basic Report plugin
 ---
 Basic Report Plugin is a Custom Keyword that replaces the current Report feature of Katalon Studio. Since [version 6.1.5](https://docs.katalon.com/katalon-studio/new/version-615.html), the Report feature has been migrated to Basic Report plugin.  Users need to install this plugin to continue using the feature.
 
-> [Install Basic Report here](https://store.katalon.com/product/59/Basic-Report)
+> [Install Basic Report now!](https://store.katalon.com/product/59/Basic-Report)
 
 ## Features
 - Generates reports automatically for Test Suite executions.
