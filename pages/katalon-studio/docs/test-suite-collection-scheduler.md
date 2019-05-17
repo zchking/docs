@@ -10,20 +10,20 @@ description: Documentation for Test Suite Collection
 
 Add a test suite to a test suite collection. In your test suite collection you can configurate the timing of the execution in **Test Suite Scheduling View.**
 
-![](../../images/katalon-studio/docs/Scheduler-1.jpg)
+![](../../images/katalon-studio/docs/test-suite-collection-scheduler/Scheduler-1.jpg)
 
 Click **Schedule**, the pop-up will appear to remind you to not turn off Katalon Studio until the test suite collection is executed.
 
-![](../../images/katalon-studio/docs/test-suite-collection-scheduling/Scheduler-2.jpg)
+![](../../images/katalon-studio/docs/test-suite-collection-scheduler/Scheduler-2.jpg)
 
 The **Next run** field will contain the date of the upcoming execution of this test suite collection. 
 
-![](../../images/katalon-studio/docs/Scheduler-3.jpg)
+![](../../images/katalon-studio/docs/test-suite-collection-scheduler/Scheduler-3.jpg)
 
 If you want to reschedule, you just need to input a new time and hit **Schedule** again. A pop-up will inform you that the old schedule will be overrided.
 
-![](../../images/katalon-studio/docs/Scheduler-4.jpg)
+![](../../images/katalon-studio/docs/test-suite-collection-scheduler/Scheduler-4.jpg)
 
 Now the test suite collection will be executed at the updated time.
 
-![](../../images/katalon-studio/docs/Scheduler-5.jpg)
+![](../../images/katalon-studio/docs/test-suite-collection-scheduler/Scheduler-5.jpg)
