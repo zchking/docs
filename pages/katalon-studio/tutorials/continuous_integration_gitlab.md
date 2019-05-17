@@ -1,6 +1,6 @@
 ---
 title: "Continuous integration with Gitlab"
-sidebar: katalon_studio_tutorials_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/continuous_integration_gitlab.html
 redirect_from:
     - "/katalon-studio/tutorials/continuous_integration_gitlab.html"

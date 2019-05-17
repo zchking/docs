@@ -1,7 +1,9 @@
 ---
-title: "Types of Variables"
+title: "Global Variables"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/global-variables.html
+redirect_from:
+  - "/katalon-studio/docs/global-variables/"
 description:
 ---
 

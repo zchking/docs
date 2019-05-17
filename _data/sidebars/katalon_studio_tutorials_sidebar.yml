@@ -67,10 +67,6 @@ items:
     tree:
       - title: "Executing test case"
         url: /katalon-studio/tutorials/executing_test_case.html
-      - title: "Debugging test case"
-        url: /katalon-studio/tutorials/debugging_test_case.html
-      - title: "How to execute/debug certain steps of a test case"
-        url: /katalon-studio/tutorials/execute_debug_certain_steps.html
   - title: "Test Execution and Reports"
     tree:
       - title: "Viewing test suite reports"
@@ -83,12 +79,6 @@ items:
         url: /katalon-studio/tutorials/generate_command_line.html
       - title: "Testing Web App on Mobile Browsers"
         url: /katalon-studio/tutorials/running_application_mobile_browsers.html
-  - title: "Katalon Analytics (Beta)"
-    tree:
-      - title: "Viewing test execution reports in Katalon Analytics"
-        url: /katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics.html
-      - title: "Uploading test execution reports to Katalon Analytics"
-        url: /katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics.html
   - title: "Tips and Tricks"
     id: "tips-and-tricks"
     url: "/katalon-studio/tutorials/tips-and-tricks/index.html"

@@ -1,6 +1,6 @@
 ---
 title: "Resolve Git conflicts using Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/git_conflict_resolve.html
 redirect_from:
     - "/katalon-studio/tutorials/git_conflict_resolve.html"

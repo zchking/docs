@@ -159,8 +159,6 @@ items:
             url: /katalon-studio/docs/variable-types.html
           - title: "Value Types"
             url: /katalon-studio/docs/value-types.html
-          - title: "Debug Automation Test"
-            url: /katalon-studio/docs/debug-automation-test.html
           - title: "Setup/Teardown for Test Suite and Test Case"
             url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
           - title: "Using the WebDriver Object"
@@ -249,6 +247,12 @@ items:
             url: /katalon-studio/docs/manage-checkpoints.html
           - title: "Verification Snippets"
             url: /katalon-studio/docs/verification-snippets.html
+      - title: "Debugging"
+        tree:
+        - title: "Debugging test case"
+          url: /katalon-studio/docs/debugging_test_case.html
+        - title: "How to execute/debug certain steps of a test case"
+          url: /katalon-studio/docs/execute_debug_certain_steps.html
       - title: "Keywords"
         tree:
           - title: "Built-in Keywords"
