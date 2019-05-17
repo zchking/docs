@@ -85,8 +85,6 @@ items:
         url: /katalon-studio/tutorials/running_application_mobile_browsers.html
   - title: "Integration"
     tree:
-      - title: "Katalon Studio Integration with Jira Overview"
-        url: /katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html
       - title: "How to setup the integration with Jenkins and other CI tools"
         url: /katalon-studio/tutorials/jenkins_ci_integration.html
       - title: "Katalon Studio integration with Git overview"
