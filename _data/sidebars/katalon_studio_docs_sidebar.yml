@@ -828,7 +828,11 @@ items:
       - title: "Applitools Integration"
         url: /katalon-studio/docs/applitools-integration.html
       - title: "Basic Report"
-        url: /katalon-studio/docs/basic-report.html          
+        url: /katalon-studio/docs/basic-report.html
+      - title: "Test Suite Collection Scheduler"
+        url: /katalon-studio/docs/test-suite-collection-scheduler.html
+      - title: "TestLink Integration"
+        url: /katalon-studio/docs/testlink-integration.html        
   - title: "Extend Katalon Studio"
     tree:
       - title: "Create your first Katalon Studio plugin"
