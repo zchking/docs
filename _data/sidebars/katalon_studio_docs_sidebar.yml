@@ -747,6 +747,10 @@ items:
             url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
           - title: "Working with JIRA"
             url: /katalon-studio/docs/working-with-jira.html
+      - title: "Git Integration"
+        tree:
+          - title: "Git Integration"
+            url: /katalon-studio/docs/git-integration.html
       - title: "CI/CD Integration"
         tree:
           - title: "Console Mode Execution"
@@ -761,6 +765,8 @@ items:
             url: /katalon-studio/docs/jenkins-integration.html
           - title: "VSTS/TFS/VSO Integration"
             url: /katalon-studio/docs/vststfsvso-integration.html
+          - title: "Continuous integration with Gitlab"
+            url: /katalon-studio/docs/continuous_integration_gitlab.html
       - title: "Test Management Integrations"
         tree:
           - title: "qTest Integration"
@@ -780,8 +786,6 @@ items:
         tree:
           - title: "BrowserStack Integration"
             url: /katalon-studio/docs/browserstack-integration.html
-          - title: "Git Integration"
-            url: /katalon-studio/docs/git-integration.html
           - title: "Kobiton Integration"
             tree:
               - title: "Enable Kobiton Integration"
