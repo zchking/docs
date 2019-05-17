@@ -11,6 +11,11 @@ What is File Upload in testing?
 
 The file upload widget is the input tag having attribute **type** equal to **file**. It allows us to upload all file formats (.jpg, .png, .txt…)
 
+-------------------------------
+Since Katalon Studio 6.1.5, please install [Upload File Keywords](https://store.katalon.com/product/69/UploadFile-Keywords) plugin to use this feature.
+
+<details><summary>Deprecated Content</summary>
+
 Let's work on the case in which we need to upload a file and validate whether the file is uploaded.
 
 Steps:
@@ -141,3 +146,5 @@ boolean isFileDownloaded(String downloadPath, String fileName) {
 We have just learned how to handle file uploads and verify downloaded files using Katalon Studio. You can download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 
 For further instructions and help, please refer to [Upload File](/display/KD/%5BWebUI%5D+Upload+File) guideline.
+
+</details>
