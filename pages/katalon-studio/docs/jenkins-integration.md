@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Jenkins%20Integration/"
     - "/x/XwAM/"
     - "/katalon-studio/docs/jenkins-integration/"
+    - "/katalon-studio/tutorials/jenkins_ci_integration.html"
 
 description:
 ---
@@ -27,7 +28,9 @@ Prerequisites
 
 > Your command should NOT include -noExit and -consoleLog parameters so that CI logs can be displayed directly from the job view
 
-2\. CI tool is installed and setup properly. In this example, we will use [Jenkins](https://jenkins.io/), which is a popular CI and easy to integrate with.
+2. CI tool is installed and setup properly. In this example, we will use [Jenkins](https://jenkins.io/), which is a popular CI and easy to integrate with.
+
+3. The command will invoke Katalon Studio for execution so a Katalon build is needed for each execution machine.
 
 Configuration Steps
 -------------------
@@ -35,19 +38,19 @@ Configuration Steps
 1.  Create a New item in Jenkins
     ![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.07.17.png)
 
-2\. Enter job name (e.g "Katalon Studio Tests"), and then choose "Freestyle Project"![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.08.54.png)
+2. Enter job name (e.g "Katalon Studio Tests"), and then choose "Freestyle Project"![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.08.54.png)
 
-3\. Add execution step
+3. Add execution step
 
-**mac OS**
+**Linux and mac OS**
 
-3.1 Add "Execute Shell" step
+Add "Execute Shell" step
 
 ![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-10-at-14.11.26.png)
 
-3.2 Paste in generated Katalon Studio command
+Paste in generated Katalon Studio command
 
-```groovy
+```bash
 ./Katalon\ Studio.app/Contents/MacOS/katalon --args -runMode=console -projectPath="/Users/admin/Katalon Studio/Samples/Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
 ```
 
@@ -55,17 +58,18 @@ Configuration Steps
 
 **Windows**
 
-3.1 Add "Execute Windows batch command"
+Add "Execute Windows batch command"
 
 ![](../../images/katalon-studio/docs/jenkins-integration/Screen-Shot-2017-07-11-at-13.48.38.png)
 
-3.2 Paste in generated Katalon Studio command.
 
-```groovy
+Paste in generated Katalon Studio command.
+
+```bash
 katalon -runMode=console -projectPath="C:\Project\Sample Project.prj" -reportFolder="Reports" -reportFileName="report" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome"
 ```
 
-4\. Check on 'Delete workspace before build starts' in current job configuration to prevent corrupted project folder after long run.
+4. Check on 'Delete workspace before build starts' in current job configuration to prevent corrupted project folder after long run.
 
 ![](../../images/katalon-studio/docs/jenkins-integration/build-environment.png)
 
@@ -85,6 +89,8 @@ Below is the list of exit codes after console mode execution:
 
 Publish JUnit reports
 ---------------------
+
+> Since Katalon Studio 6.1.5, please install [Basic Report](https://store.katalon.com/product/59/Basic-Report) plugin to use this feature.
 
 From Katalon Studio 4.7, JUnit report is generated when you execute a test suite. In order for Jenkins to store , analyze and show results, please add '[Publish JUnit test result report](https://wiki.jenkins.io/display/JENKINS/JUnit+Plugin)' item.
 

@@ -83,10 +83,6 @@ items:
         url: /katalon-studio/tutorials/generate_command_line.html
       - title: "Testing Web App on Mobile Browsers"
         url: /katalon-studio/tutorials/running_application_mobile_browsers.html
-  - title: "Integration"
-    tree:
-      - title: "How to setup the integration with Jenkins and other CI tools"
-        url: /katalon-studio/tutorials/jenkins_ci_integration.html
   - title: "Katalon Analytics (Beta)"
     tree:
       - title: "Viewing test execution reports in Katalon Analytics"
