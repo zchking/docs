@@ -87,8 +87,6 @@ items:
     tree:
       - title: "How to setup the integration with Jenkins and other CI tools"
         url: /katalon-studio/tutorials/jenkins_ci_integration.html
-      - title: "Katalon Studio integration with Git overview"
-        url: /katalon-studio/tutorials/git_integration_introduction.html
   - title: "Katalon Analytics (Beta)"
     tree:
       - title: "Viewing test execution reports in Katalon Analytics"
@@ -101,8 +99,6 @@ items:
     tree:
     - title: "Common"
       tree:
-        - title: "Resolve Git conflicts using Katalon Studio"
-          url: /katalon-studio/tutorials/git_conflict_resolve.html
         - title: "How to perform Database Testing using Katalon Studio"
           url: /katalon-studio/tutorials/connect_db_gui_testing.html
         - title: "How to use a custom keyword from other custom keywords and step definition classes"

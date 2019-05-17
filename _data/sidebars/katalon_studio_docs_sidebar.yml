@@ -751,6 +751,8 @@ items:
         tree:
           - title: "Git Integration"
             url: /katalon-studio/docs/git-integration.html
+          - title: "Resolve Git conflicts using Katalon Studio"
+            url: /katalon-studio/docs/git_conflict_resolve.html
       - title: "CI/CD Integration"
         tree:
           - title: "Console Mode Execution"
