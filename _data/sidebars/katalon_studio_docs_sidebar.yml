@@ -646,22 +646,22 @@ items:
             url: /katalon-studio/docs/working-with-sensitive-text.html
           - title: "Handle Response Messages"
             url: /katalon-studio/docs/handle-response-messages.html
+      - title: "Desired Capabilities"
+        tree:
+          - title: "Introduction to Desired Capabilities"
+            url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+          - title: "Desired Capabilities for Firefox/Firefox (headless)"
+            url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
+          - title: "Desired Capabilities for Chrome/Chrome (headless)"
+            url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
+          - title: "Desired Capabilities for Internet Explorer"
+            url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
+          - title: "Remote Desired Capabilities"
+            url: /katalon-studio/docs/remote-desired-capabilities.html
       - title: "Execution"
         tree:
           - title: "Execute a Test Case or a Test Suite"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
-          - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-              - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-              - title: "Desired Capabilities for Internet Explorer"
-                url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Failure Handling"
