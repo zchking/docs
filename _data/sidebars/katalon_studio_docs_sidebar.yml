@@ -156,6 +156,8 @@ items:
             url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
           - title: "Creation of Test Object in Object Repository in Runtime"
             url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
+          - title: "Parameterize Web/Mobile Test Object Properties"
+            url: /katalon-studio/docs/parameterize-webmobile-test-object-properties.html
       - title: "Web Services Test Object"
         tree:
           - title: "Introduction to Web Services Test Object"
@@ -190,6 +192,8 @@ items:
                     url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
                   - title: "Import SOAP requests from WSDL"
                     url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
+          - title: "Parameterize a Web Service Object"
+            url: /katalon-studio/docs/parameterize-a-web-service-object.html
       - title: "Web Record and Spy Utilities"
         tree:
           - title: "Record Web Utility"
@@ -682,10 +686,6 @@ items:
             url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
       - title: "Parameterization"
         tree:
-          - title: "Parameterize Web/Mobile Test Object Properties"
-            url: /katalon-studio/docs/parameterize-webmobile-test-object-properties.html
-          - title: "Parameterize a Web Service Object"
-            url: /katalon-studio/docs/parameterize-a-web-service-object.html
           - title: "Manage Test Data"
             url: /katalon-studio/docs/manage-test-data.html
       - title: "Test Listeners (Test Hooks)"
