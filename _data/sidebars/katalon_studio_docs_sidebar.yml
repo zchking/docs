@@ -190,14 +190,18 @@ items:
                     url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
                   - title: "Import SOAP requests from WSDL"
                     url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
-      - title: "Record and Spy Utilities"
+      - title: "Web Record and Spy Utilities"
         tree:
           - title: "Record Web Utility"
             url: /katalon-studio/docs/record-web-utility.html
-          - title: "Record Mobile Utility"
-            url: /katalon-studio/docs/record-mobile-utility.html
           - title: "Spy Web Utility"
             url: /katalon-studio/docs/spy-web-utility.html
+          - title: "How to use synchronization commands while recording"
+            url: /katalon-studio/docs/synchronization_commands_recording.html
+      - title: "Mobile Record and Spy Utilities"
+        tree:
+          - title: "Record Mobile Utility"
+            url: /katalon-studio/docs/record-mobile-utility.html
           - title: "Spy Mobile Utility"
             url: /katalon-studio/docs/spy-mobile-utility.html
       - title: "Assertions"
@@ -642,22 +646,22 @@ items:
             url: /katalon-studio/docs/working-with-sensitive-text.html
           - title: "Handle Response Messages"
             url: /katalon-studio/docs/handle-response-messages.html
+      - title: "Desired Capabilities"
+        tree:
+          - title: "Introduction to Desired Capabilities"
+            url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+          - title: "Desired Capabilities for Firefox/Firefox (headless)"
+            url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
+          - title: "Desired Capabilities for Chrome/Chrome (headless)"
+            url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
+          - title: "Desired Capabilities for Internet Explorer"
+            url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
+          - title: "Remote Desired Capabilities"
+            url: /katalon-studio/docs/remote-desired-capabilities.html
       - title: "Execution"
         tree:
           - title: "Execute a Test Case or a Test Suite"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
-          - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-              - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-              - title: "Desired Capabilities for Internet Explorer"
-                url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Failure Handling"
