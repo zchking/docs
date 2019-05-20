@@ -4,7 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/synchronization_commands_recording.html
 description: "Synchronization is a mechanism which allows multiple threads to work in parallel. To avoid execution failures, we need to use synchronization commands."
 redirect from:
-    - "/katalon-studio/docs/synchronization_commands_recording/"
+    - "/katalon-studio/tutorials/synchronization_commands_recording.html"
+    - "/katalon-studio/docs/synchronization_commands_recording.html"
 ---
 What is Synchronization?
 ------------------------
