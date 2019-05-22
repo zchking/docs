@@ -684,8 +684,10 @@ items:
             url: /katalon-studio/docs/video-capturing.html
           - title: "Get generated Reports location at runtime"
             url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
-      - title: "Parameterization"
+      - title: "Data-driven Testing"
         tree:
+          - title: "Test Case Variables"
+            url: /katalon-studio/docs/test-case-variables.html
           - title: "Manage Test Data"
             url: /katalon-studio/docs/manage-test-data.html
       - title: "Test Listeners (Test Hooks)"

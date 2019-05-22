@@ -43,8 +43,6 @@ println(y);
 Test Case Variables
 ---------------
 
-> Since version 5.9, Katalon Studio provides Script Mode for Test Case Variables. The scripting interface allows you to quickly create any variables for the test cases without manually filling out the variable table.
-
 You can manage Test Case Variable in the **Variables** tab of the **Test Case Editor**.
 
 To add variable using grid view, switch to **Variables** tab of your Test Case. Then click **Add**. A new row is added to the variable list. Modify the variable details and save the test case once done.
@@ -100,6 +98,10 @@ landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/di
 ![](../../images/katalon-studio/test-case-variables-manual-mode.PNG)
 
 Test Case Variables can be utilized as parameters for the test case in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding)).
+
+
+
+> For details on how to call test case with variables, refer to [this article](katalon-studio/docs/test-case-variables.html).
 
 Global Variables
 ----------------
