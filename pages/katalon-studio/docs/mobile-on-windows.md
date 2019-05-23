@@ -12,17 +12,17 @@ description:
 Katalon Studio Supported Environment on Windows
 -----------------------------------------------
 
-> Unfortunately, you can only test an **iOS** application using **macOS**. If you wish to setup your macOS environment for Katalon Studio, please refer to [this guide](/x/9AXR).
+> You can only test an **iOS** application using **macOS**. If you wish to set up your macOS environment for Katalon Studio, please refer to [this guide](/x/9AXR).
 
 |   | Version |
 | --- | --- |
 | Appium | 1.6, 1.7, 1.8 |
 | Android | 6.x, 7.x |
 
-Installing Dependencies
+Installing Appium
 -----------------------
 
-Due to the diifferences in computer environments, the Katalon download package does not include some dependencies needed to test on mobile devices/emulators. Thus, in order to succesfully create and run a test case using Katalon Studio on Windows, you will need [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
+To install Appium, follow [these steps](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
 > Attention
 >
@@ -34,7 +34,7 @@ Setting Up Your Devices
 -----------------------
 
 *   Turn on the phone's developer mode (go to **Settings** > **Developer options**).
-*   Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device.In the Developer Options on Mobile User Interface, please enable:
+*   Connect your Android phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device. In the **Developer Options** on your mobile user interface, enable:
 - USB debugging – Debug mode when USB is connected 
 - Install via USB – Allow installing apps via USB
 - USB debugging (Security Setting) – Allow granting permissions and simulating input via USB debugging 
@@ -57,10 +57,10 @@ If your test suite runs successfully, you will see the results in the test repor
 
 For more information on how to run a test suite, check out the documentation [here](/pages/viewpage.action?pageId=786668).
 
-Finishing Steps
+Finishing
 ---------------
 
-Once setting up successfully, follow the following guides to perform mobile testing in Katalon Studio
+Once the setup is successful, follow the following guides to perform mobile testing in Katalon Studio
 
 *   [Record Mobile Utility](/display/KD/Record+Mobile+Utility)
 *   [Spy Mobile Utility](/display/KD/Spy+Mobile+Utility)
