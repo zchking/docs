@@ -114,7 +114,7 @@ Katalon Studio provides the user with the ability to handle dynamic objects (Obj
     \+ Two dynamic properties
     
     ```groovy
-    findTestObject('Page_Login/txtUserName', ['(id)' : '{48415648}', [('{name}') : '{controler14585}']])
+    findTestObject('Page_Login/txtUserName', ['id' : '48415648', [('name') : 'controler14585']])
     ```
     
     \+ Using the variable for the value of the dynamic property

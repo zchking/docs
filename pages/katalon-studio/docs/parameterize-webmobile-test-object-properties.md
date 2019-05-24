@@ -55,7 +55,7 @@ WebUI.openBrowser('https://davidwalsh.name/demo/checkbox-all.php')
 //Check on all 4 checkboxes at the same time
 (2..5).each
 {
-  WebUI.check(findTestObject('chk_Title', ['index' : it]))
+   WebUI.check(findTestObject('chk_Title', ['index' : it]))
 
 }
 ```
