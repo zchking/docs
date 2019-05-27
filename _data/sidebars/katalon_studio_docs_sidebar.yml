@@ -690,6 +690,8 @@ items:
             url: /katalon-studio/docs/test-case-variables.html
           - title: Run Test Case with an external data source
             url: /katalon-studio/docs/run-test-case-external-data.html
+          - title: "Combine Multiple Data Sources"
+            url: /katalon-studio/docs/combine-multiple-data-sources.html
           - title: "Manage Test Data"
             url: /katalon-studio/docs/manage-test-data.html
       - title: "Test Listeners (Test Hooks)"
