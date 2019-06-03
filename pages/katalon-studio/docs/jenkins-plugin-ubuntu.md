@@ -67,7 +67,7 @@ Next, add and configure the build step _Execute Katalon Studio tests_ provided b
 
 *   Katalon Studio will be downloaded and installed automatically based on the version you specify.
 *   Please leave out `-runMode` in the arguments list.
-*   If you want to learn more about `xvfb-run` configuration please see [its manual 38](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). If you are not sure, only change the resolution `1024x768x24` and leave other options as-is.
+*   If you want to learn more about `xvfb-run` configuration please see [its manual](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). If you are not sure, only change the resolution `1024x768x24` and leave other options as-is.
 
 
 ![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture4.png)
@@ -92,7 +92,7 @@ The last command will print the location you need (`/var/lib/jenkins/Katalon_Stu
 
 ## **Run, Katalon, run!**
 
-Go to the Jenkins project page (e.g. at [http://localhost:8060/jenkins/job/test/ 20](http://localhost:8060/jenkins/job/test/) if its name is “test”), click _Build Now_.
+Go to the Jenkins project page (e.g. at [http://localhost:8060/jenkins/job/test/](http://localhost:8060/jenkins/job/test/) if its name is “test”), click **Build Now**.
 
 After it finished, you can find the report in the _Last Successful Artifacts_ section.
 
