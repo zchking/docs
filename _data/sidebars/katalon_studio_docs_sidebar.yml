@@ -744,6 +744,16 @@ items:
             url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Continuous integration with Gitlab"
             url: /katalon-studio/docs/continuous_integration_gitlab.html
+      - title: "CI/CD plugins"
+        tree:
+          - title: "Common Configuration"
+            url: /katalon-studio/docs/common-configuration.html
+          - title: "Jenkins plugins"
+            tree:
+              - title: "How to use Katalon plugin for Jenkins on Windows"
+                url: /katalon-studio/docs/jenkins-plugin-windows.html
+              - title: "How to use Katalon plugin for Jenkins on Ubuntu"
+                url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
       - title: "Test Management Integrations"
         tree:
           - title: "qTest Integration"
