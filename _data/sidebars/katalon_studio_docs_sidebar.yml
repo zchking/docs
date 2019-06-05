@@ -748,14 +748,14 @@ items:
         tree:
           - title: "Common Configuration"
             url: /katalon-studio/docs/common-configuration.html
-          - title: "Jenkins Integration"
+          - title: "Jenkins Plugin"
             tree:
               - title: "On Windows"
                 url: /katalon-studio/docs/jenkins-plugin-windows.html
               - title: "On Ubuntu"
                 url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
-          - title: "Bamboo Integration"
-            url: /katalon-studio/docs/bamboo-integration.html
+          - title: "Bamboo Plugin"
+            url: /katalon-studio/docs/bamboo-plugin.html
       - title: "Test Management Integrations"
         tree:
           - title: "qTest Integration"
