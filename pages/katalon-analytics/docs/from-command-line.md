@@ -38,6 +38,7 @@ java -jar katalon-report-uploader-0.0.4.jar --projectId=3 --path="d:\katalon-rep
 _Where_
 
 | projectId | Katalon Analytics project ID |
+--------------------------------------------
 | path=" " | Local path of Katalon Studio Reports folder that you located from step 1 |
 | email and password | Katalon Analytics credentials |
 | type | Depending on the reports format. It can be one of the values: "katalon", "JUnit", or "katalon_recorder" |
