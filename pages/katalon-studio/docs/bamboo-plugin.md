@@ -1,7 +1,7 @@
 ---
-title: "Bamboo Integration"
+title: "Bamboo Plugin"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/bamboo-integration.html
+permalink: katalon-studio/docs/bamboo-plugin.html
     
 description:
 ---
