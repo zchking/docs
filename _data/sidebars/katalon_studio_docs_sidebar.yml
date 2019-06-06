@@ -74,8 +74,6 @@ items:
         tree:
           - title: "API/Web Service Project (since V5.8)"
             url: /katalon-studio/docs/apiweb-service-project-since-v58.html
-          - title: "Sample Projects"
-            url: /katalon-studio/docs/sample-projects.html
           - title: "Manage Test Project"
             url: /katalon-studio/docs/manage-test-project.html
           - title: "Project Settings"
@@ -116,6 +114,82 @@ items:
             url: /katalon-studio/docs/value-types.html
           - title: "Setup/Teardown for Test Suite and Test Case"
             url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
+      - title: "Tutorials"
+        tree:
+          - title: "Samples Projects"
+            url: /katalon-studio/docs/sample-projects.html
+          - title: "Sample Repository on Github"
+            url: /katalon-studio/docs/sample-github-repository.html
+          - title: "Custom Keywords"
+            tree:
+              - title: "How to perform Database Testing using Katalon Studio"
+                url: /katalon-studio/docs/connect_db_gui_testing.html
+              - title: "How to use a custom keyword from other custom keywords and step definition classes"
+                url: /katalon-studio/docs/how-to-use-custom-keyword-in-groovy-class.html
+          - title: "Web Testing"
+            tree:
+              - title: "Generating reliable object selector using Spy Web utility"
+                url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
+              - title: "Generating reliable object selector using Spy Web utility"
+                url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
+              - title: "Solving Pop-up dialog issue with Katalon Studio"
+                url: /katalon-studio/docs/pop_up_dialog_issue.html
+              - title: "Handling iFrame issue with Katalon Studio"
+                url: /katalon-studio/docs/handling_iframe_issue.html
+              - title: "Solving Wait-time issue with Katalon Studio"
+                url: /katalon-studio/docs/solving_common_issue_wait_time.html
+              - title: "Handling drag and drop testing for web applications with Katalon Studio"
+                url: /katalon-studio/docs/drag_drop_web_applications_katalon_studio.html
+              - title: "Handling static and dynamic Test Objects"
+                url: /katalon-studio/docs/handling_static_dynamic_test_objects.html
+              - title: "How to Handle Alerts"
+                url: /katalon-studio/docs/handle_alerts.html
+              - title: "How to Handle Textbox Checkbox and Radio Button"
+                url: /katalon-studio/docs/handle_textbox_checkbox_radio_button.html
+              - title: "How to Handle File Uploads"
+                url: /katalon-studio/docs/handle_file_uploads.html
+              - title: "How to handle Web Tables"
+                url: /katalon-studio/docs/handle_web_tables.html
+              - title: "How to handle Drop-down menu"
+                url: /katalon-studio/docs/how_handle_drop_down_menu.html
+              - title: "How to use Selenium WebDriver in Katalon Studio"
+                url: /katalon-studio/docs/using_selenium_webdriver_katalon_studio.html
+              - title: "Common tips for using Xpath in Katalon Studio"
+                url: /katalon-studio/docs/xpath_katalon_studio_tips.html
+              - title: "Handling Web element locators using Katalon Studio"
+                url: /katalon-studio/docs/web_element_locators.html
+              - title: "Web Element Locators - How to group elements into a unique block"
+                url: /katalon-studio/docs/how_to_handle_web_element_block_locators.html
+              - title: "Automation testing of Shadow DOM elements with Katalon Studio"
+                url: /katalon-studio/docs/shadow_dom_elements_testing.html
+              - title: "How to check element status in conditional statement?"
+                url: /katalon-studio/docs/how_to_check_element_status_in_conditional_statement.html
+          - title: "API Testing"
+            tree:
+              - title: "How to parse JSON responses in Katalon Studio"
+                url: /katalon-studio/docs/parse_json_responses.html
+              - title: "How to verify API responses in Katalon Studio"
+                url: /katalon-studio/docs/verify-api-responses.html
+          - title: "Mobile Testing"
+            tree:
+              - title: "Performing Pinch to Zoom In Action"
+                url: /katalon-studio/docs/pinch_zoom_action_mobile_app.html
+              - title: "How to Perform Multi-touch Actions in Mobile App"
+                url: /katalon-studio/docs/handle_multi_touch_action.html
+              - title: "Handling Alert Dialog in Mobile App"
+                url: /katalon-studio/docs/handle_alert_dialog_mobile_app.html
+              - title: "Handling Drag and Drop in Mobile App"
+                url: /katalon-studio/docs/handle_drag_drop_mobile_app.html
+              - title: "Using List to Store the Mobile Elements to Validate Data"
+                url: /katalon-studio/docs/store_mobile_elements_to_validate_data.html
+              - title: "Handling Spinner in Mobile Automation Testing"
+                url: /katalon-studio/docs/handle_spinner_mobile_automation_testing.html
+              - title: "Handling Vertical Swipe in Mobile Automation"
+                url: /katalon-studio/docs/vertical_swipe_in_mobile_automation.html
+              - title: "Handling Horizontal Swipe in Mobile Automation"
+                url: /katalon-studio/docs/horizontal_swipe_mobile_automation.html
+              - title: "Handling Scroll to Element in Mobile Automation"
+                url: /katalon-studio/docs/scroll_element_mobile_automation.html
       - title: "Selenium WebDriver"
         tree:
           - title: "Auto-updater"
