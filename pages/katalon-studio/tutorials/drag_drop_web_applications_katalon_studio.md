@@ -1,7 +1,9 @@
 ---
 title: "Handling drag and drop testing for web applications with Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/drag_drop_web_applications_katalon_studio.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/drag_drop_web_applications_katalon_studio.html
+redirect_from:
+    - "katalon-studio/tutorials/drag_drop_web_applications_katalon_studio.html"
 description: "In this tutorial, we will show you step-by-step how Katalon Studio is used to test the drag and drop feature in a web application."
 ---
 ![Drag & Drop testing Katalon Studio](../../images/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/crop-1-1024x481.png)
