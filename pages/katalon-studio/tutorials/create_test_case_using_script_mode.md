@@ -1,12 +1,12 @@
 ---
-title: "Editing test cases using script mode"
+title: "Editing Test Cases Using Script Mode"
 sidebar: katalon_studio_tutorials_sidebar
 permalink: katalon-studio/tutorials/create_test_case_using_script_mode.html
-description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the Script mode of test cases."
+description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the test case Script mode."
 ---
-In addition to the **[Manual view](/x/9YEw)**, Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily edit test scripts in this view.
+In addition to the **[Manual view](/x/9YEw)**, Katalon Studio allows expert users to programmatically write automation test in the test case Script view. Users with Groovy/Java background can easily edit test scripts in this view.
 
-This tutorial walks you through the steps needed to manually write a very basic automation test script using Katalon Studio. After going through this article, you will be able to understand and be able to use _import_ statements and **[built-in keywords](/x/VQAM)** to compose test scripts. It's recommended that you should have some basic scripting background, preferably using **[Groovy](http://groovy-lang.org/)**, to efficiently use the scripting capability.
+This tutorial walks you through the steps needed to manually write a very basic automation test script using Katalon Studio. After reading this article, you will understand and be able to use _import_ statements and **[built-in keywords](/x/VQAM)** to compose test scripts. It's recommended that you have some basic scripting background, preferably using **[Groovy](http://groovy-lang.org/)**, to efficiently use the scripting capability.
 
 Given a sample test case with the following steps:
 
@@ -22,15 +22,15 @@ Follow these steps to automate the above test scenario in **Script view**:
 
 ![new test case Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/1.-Katalon-new-test-case1.png)
 
-2. Once a new test case is created, you switch to the **Script view.** Test steps specified in the Manual view are automatically translated to Groovy script in the **Script view**.
+2. Once a new test case is created, switch to the **Script view**. Test steps specified in the Manual view are automatically translated to Groovy script in the **Script view**.
 
 ![Script mode Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/2.-Katalon-script-view.png)
 
-The import statement in a test script allows referencing to classes to be used. Expand the 'import' section to see all default imported classes by Katalon Studio. The name after 'as' in each import statement is an alias for the class. You can change the alias for each class. These classes are necessary for composing a test script.
+The import statement in a test script allows referencing to classes to be used. Expand the **import** section to see all default imported classes by Katalon Studio. The name after 'as' in each import statement is an alias for the class. You can change the alias for each class. These classes are necessary for composing a test script.
 
-Katalon Studio is an automation tool that supports keyword-driven testing. All keywords are grouped into **[WebUI](http://docs.katalon.com/display/KD/Web+UI)**, **[Mobile](http://docs.katalon.com/display/KD/Mobile)** and **[WebService](http://docs.katalon.com/display/KD/Web+Service)** packages accordingly. Press 'Ctrl + Space' to view these packages and functions from the imported classes.
+Katalon Studio is an automation tool that supports keyword-driven testing. All keywords are grouped into **[WebUI](http://docs.katalon.com/display/KD/Web+UI)**, **[Mobile](http://docs.katalon.com/display/KD/Mobile)** and **[WebService](http://docs.katalon.com/display/KD/Web+Service)** packages accordingly. Press **Ctrl + Space** to view these packages and functions from the imported classes.
 
-3. In this scenario, you will create a Web application test script, so you can make use of the **[Web UI](/x/VQAM) [built-in keywords](/x/VQAM)**. To use a built-in **WebUI** keyword, enter the following syntax into the editor.
+3. In this scenario, you will create a Web application test script to make use of the **[Web UI](/x/VQAM) [built-in keywords](/x/VQAM)**. To use a built-in **WebUI** keyword, enter the following syntax into the editor:
 
 ```groovy
 WebUI.
@@ -60,13 +60,13 @@ findTestObject('{Object ID}')
 
 ```
 
-Where **Object ID** is the ID of that object in Katalon Studio.
+**Object ID** is the ID of that object in Katalon Studio.
 
-9. You can find object's ID from its Properties dialog. For example:
+9. You can find an Object ID from its Properties dialog. For example:
 
 ![Object ID Properties](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/9.-Katalon-Test-Object.png)
 
-10\. Enter the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)**keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.
+10\. Enter the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword to validate if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.
 
 ![Verify element present](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/10.-Katalon-Verify-Element.png)
 
