@@ -29,7 +29,10 @@ description: Release notes v6.2.0
 
 ## Improvements
 
-* Feature: Show plugins which failed to reload
-* Feature: Support SSL client certificate
-* Feature: Support Appium v1.12.1
-* Feature: Support overriding default WebDrivers per project
+* Show plugins which failed to reload
+* Support SSL client certificate
+* Support Appium v1.12.1, iOS 12.2, Xcode 10.2
+* Support overriding default WebDrivers per project
+* Update selenium-standalone-server from 3.7.1 to 3.141.59
+* Update appium-java-client from 5.0.0 to 7.0.0
+* Remove embedded carthage, libimobiledevice, and ios-deploy
