@@ -114,6 +114,8 @@ items:
             url: /katalon-studio/docs/value-types.html
           - title: "Setup/Teardown for Test Suite and Test Case"
             url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
+          - title: "Working with Sensitive Text"
+            url: /katalon-studio/docs/working-with-sensitive-text.html
       - title: "Tutorials"
         tree:
           - title: "Samples Projects"
@@ -268,6 +270,8 @@ items:
                     url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
           - title: "Parameterize a Web Service Object"
             url: /katalon-studio/docs/parameterize-a-web-service-object.html
+          - title: "Handle Response Messages"
+            url: /katalon-studio/docs/handle-response-messages.html
       - title: "Web Record and Spy Utilities"
         tree:
           - title: "Record Web Utility"
@@ -720,10 +724,6 @@ items:
                 url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
               - title: "Handling Databases"
                 url: /katalon-studio/docs/handling-databases.html
-          - title: "Working with Sensitive Text"
-            url: /katalon-studio/docs/working-with-sensitive-text.html
-          - title: "Handle Response Messages"
-            url: /katalon-studio/docs/handle-response-messages.html
       - title: "Desired Capabilities"
         tree:
           - title: "Introduction to Desired Capabilities"
