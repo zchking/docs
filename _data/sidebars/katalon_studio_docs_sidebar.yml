@@ -938,7 +938,9 @@ items:
       - title: "Test Suite Collection Scheduler"
         url: /katalon-studio/docs/test-suite-collection-scheduler.html
       - title: "TestLink Integration"
-        url: /katalon-studio/docs/testlink-integration.html        
+        url: /katalon-studio/docs/testlink-integration.html
+      - title: "Sauce Labs Integration"
+        url: /katalon-studio/docs/saucelabs-plugin.html
   - title: "Extend Katalon Studio"
     tree:
       - title: "Create your first Katalon Studio plugin"
