@@ -14,10 +14,28 @@ $body-text-size: 16px;
   ul li {
     font-size: $body-text-size;
   }
-  line-height: 1.6;
   b, strong {
     font-weight: 600;
   }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.875em;
+  }
+  h6 {
+    font-size: 0.85em;
+  }
+  line-height: 1.6;
 }
 
 #gta {

@@ -1,7 +1,8 @@
 items:
   - title: "Katalon Store"
     tree:
-      - title: "Use plugins in Katalon Store"
+      - title: "Overview"
+        url: /katalon-store/docs/overview.html
       - title: "Install, use, and review a Plugin"
         url: /katalon-store/docs/user/getting-started.html
       - title: "Access to Katalon Store in Katalon Studio"
