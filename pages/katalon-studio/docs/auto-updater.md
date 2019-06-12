@@ -1,5 +1,5 @@
 ---
-title: "Auto-updater" 
+title: "Automatically Update Katalon Studio" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/auto-updater.html 
 redirect_from:
