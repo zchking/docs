@@ -55,6 +55,8 @@ items:
                 url: /katalon-studio/docs/mobile-on-macos.html
               - title: "Installing WebDriverAgent for iOS devices"
                 url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+          - title: "Automatically Update Katalon Studio"
+            url: /katalon-studio/docs/auto-updater.html
       - title: "Katalon Studio GUI"
         tree:
           - title: "Toolbars and Views"
@@ -195,8 +197,8 @@ items:
                 url: /katalon-studio/docs/scroll_element_mobile_automation.html
       - title: "Selenium WebDriver"
         tree:
-          - title: "Auto-updater"
-            url: /katalon-studio/docs/auto-updater.html
+          - title: "Automatically Update WebDriver"
+            url: /katalon-studio/docs/automatically-update-webdriver.html
           - title: "Update or Replace Web Browser Drivers and Selenium"
             url: /katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
           - title: "Using the WebDriver Object"
