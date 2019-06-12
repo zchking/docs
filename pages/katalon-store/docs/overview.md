@@ -53,6 +53,6 @@ Users can [install, manage, rate and write reviews]([https://docs.katalon.com/ka
 
 In addition, users can also build their own plugins, share useful custom keywords, or even commercialize them to address the market demands.
 
-> Submit your plugin [here].
+> Submit your plugin [here](https://store.katalon.com/manage/publisher/upload-product).
 
 *For more details about how to build and submit your own plugins to Katalon Store, see [Extend Katalon Studio]([https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html)) and [Submit and publish plugins](https://docs.katalon.com/katalon-store/docs/publisher/submit-plugin.html).*
