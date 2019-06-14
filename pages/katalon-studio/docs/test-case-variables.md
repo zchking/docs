@@ -3,6 +3,9 @@ title: "Test Case Variables"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-case-variables.html
 description: Guidelines about test case variables and how to call the test case with variables
+redirect_from:
+    - "/katalon-studio/tutorials/data-driven-testing/"
+    - "/katalon-studio/tutorials/data_driven_testing.html"
 ---
 Instead of running test case with hard-coded values, you can run Test Case Variables in Katalon Studio to parameterize your test case or call that test case with different inputs.
 

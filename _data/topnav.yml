@@ -8,9 +8,6 @@ topnav:
       parenturl: /katalon-studio/docs
     - title: Plugins
       external_url: https://store.katalon.com
-    - title: Tutorials
-      url: /katalon-studio/tutorials/index.html
-      parenturl: /katalon-studio/tutorials
     - title: Videos
       url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
@@ -19,8 +16,5 @@ topnav:
       parenturl: /faqs
     - title: SDK
       external_url: https://api-docs.katalon.com/index.html
-    - title: Releases
-      url: /katalon-studio/new/index.html
-      parenturl: /katalon-studio/new
     - title: Support
       external_url: https://www.katalon.com/support-service-options

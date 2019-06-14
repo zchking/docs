@@ -5,6 +5,8 @@ permalink: katalon-studio/new/version-620.html
 redirect_from:
     - "/katalon-studio/new/version-620/"
     - "/katalon-studio/new/"
+    - "/display/KD/Release+Notes/"
+    - "/display/KD/Release%20Notes/"
 description: Release notes v6.2.0
 ---
 
