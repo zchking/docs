@@ -1,6 +1,6 @@
 ---
 title: "Create REST API requests manually"
-sidebar: katalon_studio_tutorials_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create_rest_api_requests_manually.html
 description: "Katalon Studio offers a great UI support for creating REST API requests. This tutorial will be about show you how to make your code robust and effective."
 redirect_from:

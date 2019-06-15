@@ -1042,8 +1042,6 @@ items:
         tree:
           - title: "Recording WebUI Test"
             url: /katalon-studio/docs/recording-webui-test.html
-          - title: "Execute a test case"
-            url: /katalon-studio/docs/execute-a-test-case.html
           - title: "Execution Preferences (Version 5.0 and below)"
             url: /katalon-studio/docs/execution-preferences-version-50-and-below.html
           - title: "Record Web Utility (version 4.8 and below)"
