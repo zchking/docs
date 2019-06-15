@@ -152,7 +152,6 @@ items:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
           - title: "Web Testing"
-            id: "web-testing"
             tree:
               - title: "Introduction to Web Testing"
                 url: /katalon-studio/docs/introduction-to-web-testing.html
@@ -163,28 +162,25 @@ items:
               - title: "Creating test case using script mode"
                 url: /katalon-studio/docs/create_test_case_using_script_mode.html
           - title: "API Testing"
-            id: "api-testing"
             tree:
               - title: "Introduction to API Testing"
-                url: /katalon-studio/tutorials/introduction_api_testing.html
+                url: /katalon-studio/docs/introduction_api_testing.html
               - title: "Create your first API test with Katalon Studio"
-                url: /katalon-studio/tutorials/create_first_api_test_katalon_studio.html
+                url: /katalon-studio/docs/create_first_api_test_katalon_studio.html
               - title: "Create REST API requests manually"
-                url: /katalon-studio/tutorials/create_rest_api_requests_manually.html
+                url: /katalon-studio/docs/create_rest_api_requests_manually.html
           - title: "Mobile Testing"
-            id: "mobile-testing"
-            url: "/katalon-studio/tutorials/mobile-testing/index.html"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
-                url: /katalon-studio/tutorials/katalon_mobile_recorder_introduction.html
+                url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
               - title: "Desired Capabilities in Katalon Studio"
-                url: /katalon-studio/tutorials/desired_capabilities_in_katalon.html
+                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
               - title: "Locators and Object Identification"
-                url: /katalon-studio/tutorials/locators_object_identification.html
+                url: /katalon-studio/docs/locators_object_identification.html
               - title: "How to integrate with Kobiton"
-                url: /katalon-studio/tutorials/integrate_with_kobiton.html
+                url: /katalon-studio/docs/integrate_with_kobiton.html
               - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
-                url: /katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html
+                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -788,7 +784,7 @@ items:
                   - title: "Using the WebDriver Object"
                     url: /katalon-studio/docs/using-the-webdriver-object.html
               - title: "Testing Web App on Mobile Browsers"
-                url: /katalon-studio/tutorials/running_application_mobile_browsers.html
+                url: /katalon-studio/docs/running_application_mobile_browsers.html
           - title: "Web Services Test Design"
             tree:
               - title: "Web Services Test Object"
@@ -892,7 +888,7 @@ items:
               - title: "Remote Desired Capabilities"
                 url: /katalon-studio/docs/remote-desired-capabilities.html
           - title: "Executing Tests on Multiple Devices in Parallel"
-            url: /katalon-studio/tutorials/execute_tests_parallelly_multiple_devices.html
+            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
       - title: "Data-driven Testing"
         tree:
           - title: "Global Variables"
@@ -1002,6 +998,8 @@ items:
             url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
           - title: "Troubleshooting common issues related to interacting with an element"
             url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
+          - title: "Known issues"
+            url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Tips and Tricks"
         tree:
           - title: "Connect to SQL using Windows Authentication"
@@ -1040,8 +1038,6 @@ items:
             url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
           - title: "Retrieve mobile's session"
             url: /katalon-studio/docs/retrieve-mobiles-session.html
-      - title: "Known Issues / Limitations"
-        url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Deprecated Documentation"
         tree:
           - title: "Recording WebUI Test"
