@@ -1,8 +1,11 @@
 ---
 title: "Quick Start"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/quick_start.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/quick_start.html
 description: "An overview to set up and start your first automation test with Katalon Studio to quickly begin automation testing on web and mobile applications."
+redirect_from:
+    - "/katalon-studio/tutorials/index.html"
+    - "/katalon-studio/tutorials/quick_start.html"
 ---
 <iframe width="560" height="349" src="https://www.youtube.com/embed/Q80JTXYIteU?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 

@@ -3,10 +3,12 @@ title: "Console Mode Execution"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/console-mode-execution.html
 redirect_from:
-    - "/display/KD/Console+Mode+Execution/"
-    - "/display/KD/Console%20Mode%20Execution/"
-    - "/x/WQAM/"
-    - "/katalon-studio/docs/console-mode-execution/"
+   - "/display/KD/Console+Mode+Execution/"
+   - "/display/KD/Console%20Mode%20Execution/"
+   - "/x/WQAM/"
+   - "/katalon-studio/docs/console-mode-execution/"
+   - "/katalon-studio/tutorials/generate_command_line.html"
+
 description:
 ---
 > Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version**.

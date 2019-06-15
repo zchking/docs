@@ -8,6 +8,7 @@ redirect_from:
     - "/x/v4IY/"
     - "/katalon-studio/docs/test-suite-report/"
     - "/display/KD/Test+Report/"
+    - "/katalon-studio/tutorials/viewing_test_suite_reports.html"
 description:
 ---
 Once a test suite finishes its execution, a historical report will be automatically generated and stored in Reports. 

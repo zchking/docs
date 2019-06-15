@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Installation Overview"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/getting-started.html
 redirect_from:
@@ -12,6 +12,7 @@ redirect_from:
     - "/x/HwAM/"
     - "/katalon-studio/docs/before-you-start/"
     - "/katalon-studio/docs/before-you-start.html"
+    - "/katalon-studio/tutorials/install_setup_katalon_studio.html"
 description:
 ---
 Download Katalon Studio
@@ -31,6 +32,21 @@ Environment Requirements
 * Ensure you are using Katalon Studio with default font OS size set too 100% from both Katalon Studio and your current OS to avoid the name field not displaying on some popups:
     * Windows: [https://www.pcworld.com/article/242942/how\_to\_change\_font\_size.html](https://www.pcworld.com/article/242942/how_to_change_font_size.html)
     * Katalon Studio: Window → Preferences → General → Appearance → Colors and Fonts. Select Dialog Font and Edit its font size.
+
+Start Katalon Studio
+--------------------
+
+To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows)
+
+![Download and Start Katalon Studio](../../images/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
+
+or **Katalon Studio** (macOS) file in the directory where you unpack Katalon Studio. For example:
+
+![](../../images/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
+
+Once started, the application should display the splash screen similar to the following screenshot:
+
+![Katalon Studio Loading](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
 Activate Katalon Studio
 -----------------------

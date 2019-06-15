@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/View%20Execution%20Log/"
     - "/x/6ANO/"
     - "/katalon-studio/docs/view-execution-log/"
+    - "/katalon-studio/tutorials/viewing_execution_logs.html"
 description:
 ---
 Once your test cases/test suites finish execution, you can review the results on the **Log Viewer** views.

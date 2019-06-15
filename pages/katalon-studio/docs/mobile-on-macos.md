@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Mobile%20on%20macOS/"
     - "/x/9AXR/"
     - "/katalon-studio/docs/mobile-on-macos/"
+    - "/katalon-studio/tutorials/set_up_mobile_automation_project_macos.html"
 description: 
 ---
 

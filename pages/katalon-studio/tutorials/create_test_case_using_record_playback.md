@@ -1,9 +1,10 @@
 ---
 title: "Creating test cases using Record & Playback"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/create_test_case_using_record_playback.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/create_test_case_using_record_playback.html
 redirect_from:
     - "/katalon-studio/tutorials/sample_web_automation_test_project.html"
+    - "/katalon-studio/tutorials/create_test_case_using_record_playback.html"
 description: "Test recording is the easiest way for new automation testers to start learning test automation.This article illustrates how to record the test case easily."
 ---
 Test recording is the easiest way for new automation testers to start learning test automation. Identifying objects on applications is time-consuming. The [Web Recorder Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5118055) function captures your actions being performed on the application and converts them into runnable code in the back-end. 
