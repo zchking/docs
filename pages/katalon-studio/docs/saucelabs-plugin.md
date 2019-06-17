@@ -5,9 +5,9 @@ permalink: katalon-studio/docs/saucelabs-plugin.html
 description: Guide to use the plugin to integrate Katalon Studio with Sauce Labs.
 ---
 
-## Sauce Labs for Web testing: 
+## Sauce Labs for Web testing
 
-### 1. Create a Sauce Labs Custom Profile:
+### 1. Create a Sauce Labs Custom Profile
 
 Go to **Project -> Settings**. 
 
@@ -25,28 +25,28 @@ Then click “**Generate Sauce Labs Custom Profile**” to finalize your profile
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/1-setting.png)
 
-### 2. Execute a test case with Sauce Labs profile:
+### 2. Execute a test case with Sauce Labs profile
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/2-execute-test-case.png)
 
-### 3. Execute a test suite with Sauce Labs profile:
+### 3. Execute a test suite with Sauce Labs profile
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/3-execute-test-suite.png)
 
-### 4. Execute a test suite collection with Sauce Labs profile:
+### 4. Execute a test suite collection with Sauce Labs profile
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/4-execute-test-suite.png)
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/5-environment.png)
 
 
-### 5. On Sauce Labs Dashboard, under Automated Tests tab the following result is displayed:
+### 5. On Sauce Labs Dashboard, under Automated Tests tab the following result is displayed
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/7-result.png)
 
 ![](../../images/katalon-studio/docs/saucelabs-plugin/6-result.png)
 
-## Sauce Labs for Mobile testing and Hybrid application testing: 
+## Sauce Labs for Mobile testing and Hybrid application testing
 
 The plug-in provides you with an intuitive user interface to create Sauce Labs custom profiles for Web Testing. However you can still manually add properties that will make it possible for mobile and hybrid application testing. The generated custom profiles will be available under
 

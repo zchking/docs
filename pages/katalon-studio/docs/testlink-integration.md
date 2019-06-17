@@ -6,7 +6,7 @@ permalink: katalon-studio/docs/testlink-integration.html
 description: Documentation for TestLink Integration plugin 
 ---
 
-### TestLink Installation:
+### TestLink Installation
 
 * Download XAMPP from the below link.
 [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
@@ -74,7 +74,7 @@ description: Documentation for TestLink Integration plugin
 
 ![](../../images/katalon-studio/docs/Testlink/8-Successful.png)
 
-### TestLink Login:
+### TestLink Login
 
 * Hit the below URL to login to TestLink. 
 [http://localhost/testlink-1.9.16/](http://localhost/testlink-1.9.16/) 
@@ -88,30 +88,30 @@ description: Documentation for TestLink Integration plugin
 * Create a Test Plan, Build, Test suite with Test cases by selecting the corresponding links from the Dashboard.
 
 
-### Test Project Creation:
+### Test Project Creation
 
 ![](../../images/katalon-studio/docs/Testlink/10-Test-project-creation.png)
 
 
-### Test Plan Creation:
+### Test Plan Creation
 
 ![](../../images/katalon-studio/docs/Testlink/11-Test-plan-creation.png)
 
-### Build Creation:
+### Build Creation
 
 ![](../../images/katalon-studio/docs/Testlink/12-Build-creation.png)
 
-### Test Suite Creation:
+### Test Suite Creation
 
 ![](../../images/katalon-studio/docs/Testlink/13-Test-suite-creation.png)
 
 
-### Test Case Creation:
+### Test Case Creation
 
 ![](../../images/katalon-studio/docs/Testlink/14-Test-case-creation.png)
 
 
-### API Key Generation and Execution Type Changes on TestLink:
+### API Key Generation and Execution Type Changes on TestLink
 
 
 1. Generate the API Key on TestLink as below.
@@ -131,7 +131,7 @@ description: Documentation for TestLink Integration plugin
 ![](../../images/katalon-studio/docs/Testlink/16-Automated-status.png)
 
 
-### Integration of Katalon test scripts with TestLink:
+### Integration of Katalon test scripts with TestLink
 
 Make a note of the TestLink Key, Testlink Url, Project Name, Test Plan Name, and Build Name created on TestLink. These details need to be used in our configuration in below:
 
@@ -142,7 +142,7 @@ Go to **Project Settings** > **Plugin** > **TestLink Integration** and setup the
 
 This plugin provides the only custom keyword updateResults to update the test results on Testlink.
 
-### Test Execution Results update on TestLink:
+### Test Execution Results update on TestLink
 Before execution, the test status will be “Not Run” on Testlink.
 If the test case is passed, the status will be updated as “Passed”.
 
