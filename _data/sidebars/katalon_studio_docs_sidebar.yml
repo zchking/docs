@@ -1146,3 +1146,7 @@ items:
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
       - title: "Acknowledgments"
         url: /katalon-recorder/docs/acknowledgments.html
+  - title: "Katalium Server"
+    tree:
+      - title: "Overview"
+        url: /katalium-server/docs/katalium-overview.html
