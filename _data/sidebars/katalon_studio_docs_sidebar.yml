@@ -1154,5 +1154,5 @@ items:
         url: /katalium-server/docs/katalium-overview.html
       - title: "User Guide"
         url: /katalium-server/docs/katalium-user-guide.html
-      - title: "Contributing"
+      - title: "Contributing Guidelines"
         url: /katalium-server/docs/katalium-contributing.html
