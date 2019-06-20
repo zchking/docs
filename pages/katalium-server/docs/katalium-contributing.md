@@ -33,6 +33,8 @@ description: User guide for Katalium developer.
 
 - Creating Katalium Server configuration in `IntelliJ IDEA`.
 
+![](../../images/katalium-server/docs/katalium-contributing/1-katalium.png)
+
 - Reference link for setting up selenium server: https://www.seleniumhq.org/docs/07_selenium_grid.jsp
 
 ## Package
