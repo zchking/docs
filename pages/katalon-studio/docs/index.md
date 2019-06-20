@@ -6,9 +6,9 @@ redirect_from:
     - "/index.html"
     - "/display/KD/"
 ---
-Welcome to Katalon Knowledge Base! Here you can find the Katalon products manual, tips and tricks on various topics, and guidelines to help you create successful test automation projects.
+Welcome to Katalon Docs! Here, you can find Katalon products documentation, manuals, guidelines, as well as tips and tricks to help you start a successful test automation journey.
 
-To make the most out of Katalon Knowledge Base, we recommend you go over the documentation for each product to get an overview of the tools you will be working with. This comprehensive documentation is the fastest way to get answers to many of your questions.
+To make the most out of Katalon Docs, we recommend you go over the documentation for each product to get an overview of the tools you will be working with. This comprehensive documentation is the fastest way to get answers to many of your questions.
 
 Products
 --------
@@ -19,14 +19,14 @@ To address these concerns, we initially created Katalon Studio as a viable alter
 
 | Products |          |
 |----------|----------|
-| Katalon Studio | Katalon Studio is a free and robust automation solution for API, Web, and Mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for experienced users. This solution is trusted by an active community of over 150K users from 150+ countries around the world. |
+| Katalon Studio | Katalon Studio is a free and robust automation solution for API, web, and mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for experienced users. This solution is trusted by an active community from 150+ countries around the world. |
 | Katalon Analytics | A cloud-based application providing in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. |
-| Katalon Recorder | A Selenium's IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework. |
+| Katalon Recorder | A Selenium IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework. |
 
 Contribution Guidelines
 -----------------------
 
-We strongly encourage you to help improve Katalon Knowledge Base by providing feedback, suggestions, or issues regarding our products. Below are several ways for you to contribute to Katalon documentation, including editing, requesting docs change, rating, or raising issues. Here are some suggestions:
+We encourage you to help improve Katalon Docs by providing feedback, suggestions, or issues regarding our products. Below are several ways for you to contribute to Katalon documentation, including editing, requesting docs change, rating, or raising issues. Here are some suggestions:
 
 -   Basic
 
@@ -62,5 +62,5 @@ For technical and product-specific questions, please post your questions to Kata
 
 ### Business Support Service
 
-Already a Katalon Studio user and searching for a long-term automation testing investment? The Katalon Team offers the Business Support Service to provide assistance for software issues, bug fixes, and feature requests to be considered and prioritized on our backlog.
-For more details, check out pricing [here](https://www.katalon.com/support-service-options/).
+Already a Katalon Studio user and searching for a long-term automation testing investment? Katalon offers Support Services to provide quick resolution for software issues, bug fixes, and feature requests that are prioritized on our backlog.
+For more details, check out [here](https://www.katalon.com/support-service-options/).
