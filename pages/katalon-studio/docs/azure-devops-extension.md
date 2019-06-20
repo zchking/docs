@@ -45,4 +45,4 @@ See [Common Configuration]([https://docs.katalon.com/katalon-studio/docs/common-
 ![](../../images/katalon-studio/docs/azure-devops-extension/4-result.png)
 
 
-Refer to this [sample project]([https://github.com/katalon-studio-samples/azure-devops-extension-samples](https://github.com/katalon-studio-samples/azure-devops-extension-samples)) for your reference.
+Refer to this [sample project](https://github.com/katalon-studio-samples/azure-devops-extension-samples) for your reference.
