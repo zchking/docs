@@ -4,31 +4,59 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalium-server/docs/katalium-user-guide.html 
 description: User guide for Katalium end-user.
 ---
-> Prerequisite: Java (Suggested version: Java 8)
 
-> Download and extract the latest release of the Katalium Server at https://github.com/katalon-studio/katalium-server/releases.
+Install Java. The recommended version is Java 8.
 
-Start in standalone mode, execute `standalone.sh` file (in MacOS and Linux) or `standalone.bat` file (in Windows).
+Download and extract the latest release of the Katalium Server at https://github.com/katalon-studio/katalium-server/releases.
+
+## Standalone mode
+
+To start the server in standalone mode, execute `standalone.sh` file (in macOS and Linux) or `standalone.bat` file (in Windows).
+
+```
+cd katalium-server
+standalone.bat
+```
+
+```
+cd katalium-server
+chmod u+x ./standalone.sh
+```
 
 ![](../../images/katalium-server/docs/katalium-user-guide/1-standalone-mode.png)
 
-**KATALON_EMAIL**: Enter your Katalon account. Register for a free account at https://www.katalon.com.
+Activate the server for the first time.
 
-**KATALON_API_KEY**: Enter the API Key generated from https://analytics.katalon.com.
+**KATALON_EMAIL**: Enter your Katalon account. You can sign up for a free account at https://www.katalon.com.
 
-*Note: To generate new key, go to **Profile** > **Create API Key** > Input key name > Click **Create**.*
+**KATALON_API_KEY**: Enter the API Key. You can generate new API keys at https://analytics.katalon.com. Go to **[Profile](https://analytics.katalon.com/user/profile)** > **Create API Key** > Input key name > Click **Create**.
 
+## Grid mode
 
-## Window
+### Grid Hub
 
-In grid mode
+To start the server as a Grid Hub, execute `hub.sh` file (in macOS and Linux) or `hub.bat` file (in Windows).
 
--  To start server as a hub, execute `hub.bat` file.
+```
+cd katalium-server
+hub.bat
+```
 
--  To satrt server as a node, execute `node.bat` file.
+```
+cd katalium-server
+chmod u+x ./hub.sh
+```
 
-## MacOS, Linux
+### Grid Node
 
-In grid mode, to start server as a hub, execute `hub.sh` file.
+To start the server as a Grid Node, execute `node.sh` file (in macOS and Linux) or `node.bat` file (in Windows). Before executing the scripts, please set the `hubURL` so that Grid Nodes can register themselves with the above Grid Hub, e.g. `http://hub_ip:4444`.
 
-In grid mode, to start server as a node, execute `node.sh` file.
+```
+cd katalium-server
+node.bat
+```
+
+```
+cd katalium-server
+chmod u+x ./node.sh
+```
