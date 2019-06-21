@@ -17,7 +17,7 @@ Katalium Server can also run as a Standalone (single) server in development mode
 
 ## Current features
 
-* Detects versions of major browsers (Chrome, Firefox, Internet Explorer, Edge) is automatically and automatically download and install compatible WebDrivers.
+* Detects versions of major browsers (Chrome, Firefox, Internet Explorer, Edge) is automatically and automatically downloads and installs compatible WebDrivers.
 
 * Captures screenshots of browsers started by the Grid.
 
