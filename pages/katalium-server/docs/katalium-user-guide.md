@@ -7,7 +7,7 @@ description: User guide for Katalium end-user.
 
 Install Java. The recommended version is Java 8.
 
-Download and extract the latest release of the Katalium Server at https://github.com/katalon-studio/katalium-server/releases.
+Download and extract the latest release of the Katalium Server at https://github.com/katalon-studio/katalium-server/releases. The `kata-server.jar` can be run in Standalone, Grid Hub, or Grid Node mode.
 
 ## Standalone mode
 
@@ -47,6 +47,8 @@ cd katalium-server
 chmod u+x ./hub.sh
 ```
 
+See **Standalone mode** for activation steps.
+
 ### Grid Node
 
 To start the server as a Grid Node, execute `node.sh` file (in macOS and Linux) or `node.bat` file (in Windows). Before executing the scripts, please set the `hubURL` so that Grid Nodes can register themselves with the above Grid Hub, e.g. `http://hub_ip:4444`.
@@ -60,3 +62,5 @@ node.bat
 cd katalium-server
 chmod u+x ./node.sh
 ```
+
+See **Standalone mode** for activation steps.
