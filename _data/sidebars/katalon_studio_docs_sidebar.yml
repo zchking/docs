@@ -1148,3 +1148,15 @@ items:
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
       - title: "Acknowledgments"
         url: /katalon-recorder/docs/acknowledgments.html
+  - title: "Katalium Server"
+    tree:
+      - title: "Overview"
+        url: /katalium-server/docs/katalium-overview.html
+      - title: "User Guide"
+        url: /katalium-server/docs/katalium-user-guide.html
+      - title: "Contributing Guidelines"
+        url: /katalium-server/docs/katalium-contributing.html
+      - title: "Katalium WebDriver"
+        url: /katalium-server/docs/katalium-webdriver.html
+      - title: "View Sessions"
+        url: /katalium-server/docs/view-session-details.html
