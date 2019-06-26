@@ -907,7 +907,7 @@ items:
             url: /katalon-studio/docs/combine-multiple-data-sources.html
           - title: "Manage Test Data"
             url: /katalon-studio/docs/manage-test-data.html
-          - title: "Bind Test Data into Test Case as string"
+          - title: "Enhanced Variable Binding"
             url: /katalon-studio/docs/bind-as-string.html
       - title: "BDD Testing Framework"
         tree:
