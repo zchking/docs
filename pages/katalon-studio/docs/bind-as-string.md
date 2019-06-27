@@ -37,7 +37,7 @@ In this example, we will create a test suite and a test case with variables. _bo
 Create the following custom keyword **TestDataKeyword**:
 
 
-```
+```groovy
 public class testdata {
 	
 	public static void printString(String str) {
@@ -59,7 +59,7 @@ public class testdata {
 Use them in the test case Sample Test Case as followed:
 
 
-```
+```groovy
 TestDataKeyword.takeBooleanAndPrint(booleanVar);
 TestDataKeyword.takeNumberAndPrint(numberVar);
 TestDataKeyword.takeStringAndPrint(stringVar);
