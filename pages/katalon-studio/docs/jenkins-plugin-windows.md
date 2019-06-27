@@ -6,11 +6,11 @@ description: Guidelines of how to use Jenkins plugin on Windows
 ---
 This tutorial shows you the step by step guide on how to install and run Katalon – Jenkins plugin for Web UI testing on Windows platform.
 
-## **Prerequisite**
+## Prerequisite
 
 You must have already installed Jenkins for Windows (click [here](https://jenkins.io/doc/book/installing/) for a guide) and the browser you’d like to use for the test.
 
-## **Install Katalon Studio plugin**
+## Install Katalon Studio plugin
 
 Go to _Manage Jenkins > Manage Plugins > Available tab_ and find Katalon plugin on the list. Select and click Install.
 

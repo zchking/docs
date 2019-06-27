@@ -7,7 +7,7 @@ description:
 
 Katalon Studio provides users the ability to define test data that can be used later when executing automation test. Refer to the [Manage Test Data](/display/KD/Manage+Test+Data) for more detailed information about this function. This section shows how to design your automation test using predefined test data.
 
-## **Test Data**
+## Test Data
 
 Using the test suite editor, you can add a predefined test data file object which will be used later in a test case execution by following the steps below:
 
@@ -35,7 +35,7 @@ Using the test suite editor, you can add a predefined test data file object whic
       
     
 
-### **Manage test data relationship**
+### Manage test data relationship
 
 If you are specifying multiple test data, then you can further define the relationship among them to decide how the final data set used in the test execution will be. There are two types of relationship supported in Katalon Studio:
 
@@ -48,7 +48,7 @@ Therefore, we can have the following combinations among data sets:
 
 <table><thead><tr><th>Relationship</th><th>Example</th></tr></thead><tbody><tr><td>One to One</td><td><p>Given there are two data sets as below:</p><p><img width=170 src="../../images/katalon-studio/docs/design-a-test-suite/one-one.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Sales</li></ul></td></tr><tr><td>Many to Many</td><td><p>Given there are two data sets as below:</p><p><img width=170 src="../../images/katalon-studio/docs/design-a-test-suite/many-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>John Sales</li><li>Joe Marketing</li><li>Joe Sales</li><li>Mary Marketing</li><li>Mary Sales</li></ul></td></tr><tr><td>One to Many</td><td><p>Given there are two data sets as below:</p><p><img width=170 src="../../images/katalon-studio/docs/design-a-test-suite/one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Sales</li><li>Mary Marketing</li><li>Emily Marketing</li><li>John Sales</li><li>Joe Sales</li><li>Mary Sales</li><li>Emily Sales</li></ul></td></tr><tr><td>One to One to Many</td><td><p>Given there are three data sets as below:</p><p><img width=220 src="../../images/katalon-studio/docs/design-a-test-suite/one-one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing Executive</li><li>Joe Marketing Director</li><li>Joe Sales Executive</li><li>Joe Sales Director</li></ul></td></tr></tbody></table>
 
-## **Variable Binding**
+## Variable Binding
 
 If there's any [public variable](/display/KD/Variable+Types#VariableTypes-Publicvariables) defined in your test case, then you can manage variable binding for your test case executio--that is, to specify which value would be used for which variables during test execution.
 
@@ -62,11 +62,11 @@ Follow the steps below to manage variable binding for a test case within the te
       
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31-113A553A3.png)
 
-### **Bind Variable to Test Data**
+### Bind Variable to Test Data
 
 This option allows you to associate the variables with configured [Test Data](/display/KD/Manage+Test+Data)[](/display/KD/Execute+a+test+suite#Executeatestsuite-TestData).
 
-1.  Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same** t**ype**. In this case Username and Password has the same type as Data Column. Simply highlight both rows. Click on **Set Type** and select **Data Column**:  
+1.  Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**. In this case Username and Password has the same type as Data Column. Simply highlight both rows. Click on **Set Type** and select **Data Column**:  
       
     ![](../../images/katalon-studio/docs/design-a-test-suite/image2017-8-31-123A23A55.png)  
       
@@ -81,7 +81,7 @@ This option allows you to associate the variables with configured [Test Data](/d
 4.  All headers of the related test data will be displayed. Select the header to be referred during execution. The selected header will be displayed accordingly in **Variable Binding** section.
 5.  Save the test suite when you're done.
 
-In the above example, the global variable _Username_ will look up to the column _u__sername_ of the test data file "_New Excel Data"_ during execution. Users can specify the number of data rows to be used in **Data Iteration **of Test Data table.
+In the above example, the global variable _Username_ will look up to the column _u__sername_ of the test data file "_New Excel Data"_ during execution. Users can specify the number of data rows to be used in **Data Iteration** of Test Data table.
 
 > Quick tip
 > 
@@ -93,7 +93,7 @@ In the above example, the global variable _Username_ will look up to the column 
 > 
 > For example: the variables 'Username' and 'Password' of the selected test case can be mapped automatically with columns 'Username' and 'Password' of the test data by Katalon Studio when user clicks on the **Map All** button.
 
-### **Bind to Scripting value**
+### Bind to Scripting value
 
 This option allows you to associate the variables with other scripting value.
 

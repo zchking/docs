@@ -1,9 +1,11 @@
 ---
 title: "Introduction to Web Testing"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/introduction-to-web-testing.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/introduction-to-web-testing.html
 redirect_from:
     - "/katalon-studio/tutorials/introduction-to-web-testing/"
+    - "/katalon-studio/tutorials/web-testing/index.html"
+    - "/katalon-studio/tutorials/introduction-to-web-testing.html"
 description:
 ---
 This is a basic tutorial about how to begin testing with Katalon Studio. If you are completely new to Katalon Studio or have just begun testing with the app, this ‘Getting Started’ doc is for you. We will go over a few principal steps, basic concepts, and operations in Katalon Studio. You will learn how to create projects, create, verify, debug, as well as successfully plan and execute test cases.

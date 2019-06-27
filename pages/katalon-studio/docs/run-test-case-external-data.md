@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/run-test-case-external-data.html
 description: Guidelines about how to run test case with an external data in Katalon Studio
 ---
 
-## **Import an Excel file to Test Data**
+## Import an Excel file to Test Data
 
 Refer to [this article]([https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data)) to learn how to create a new Excel Test Data in Katalon Studio.
 
@@ -14,7 +14,7 @@ Data from the selected Excel file will be populated into the preview section as 
 ![](../../images/katalon-studio/docs/run-test-case-external-data/1-new-excel-test-data.png)
 
 
-## **Create a new Test Suite with Test Case Variables**
+## Create a new Test Suite with Test Case Variables
 
 Open a Test Suite, then select option **Add** from command toolbar. 
 
@@ -25,7 +25,7 @@ All test cases in Katalon Studio will be displayed in the **Test Case Browser** 
 
 
 
-## **Manage Data Binding**
+## Manage Data Binding
 
 1. Click on **Show Data Binding** to load the data details from the selected test case.
 
@@ -41,7 +41,7 @@ The **Data Binding Section** with **Test Data table** and **Variable Binding** w
 
 
 
-## **Bind Variables to Test Data**
+## Bind Variables to Test Data
 
 1. Select all data and choose **Set Type**, then set them as **Data Column**.
 

@@ -3,6 +3,9 @@ title: "Test Case Variables"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-case-variables.html
 description: Guidelines about test case variables and how to call the test case with variables
+redirect_from:
+    - "/katalon-studio/tutorials/data-driven-testing/"
+    - "/katalon-studio/tutorials/data_driven_testing.html"
 ---
 Instead of running test case with hard-coded values, you can run Test Case Variables in Katalon Studio to parameterize your test case or call that test case with different inputs.
 
@@ -18,7 +21,7 @@ println "${employee} - ${department}"
 
 
 
-## **Manage Test Case Variables**
+## Manage Test Case Variables
 
 The following statement will be used as an example:
 
@@ -49,7 +52,7 @@ The result after running the test case with variables will be the same with hard
 
 
 
-## **View and declare variables in Script Mode**
+## View and declare variables in Script Mode
 
 Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script Editor with XML format. For example:
 
@@ -58,7 +61,7 @@ Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script E
 
 
 
-## **Call Test Case with variables**
+## Call Test Case with variables
 
 1. Open a Test Case in **Manual** view, then click **Add **and select option **Call Test Case**.
 
@@ -93,7 +96,7 @@ The result after running the test case will be displayed as below:
 
 
 
-### **Call Test Case in Script mode**
+### Call Test Case in Script mode
 
 In **Script** tab, the callTestCase method allows users to make a call to another test case. Refer to the following example:
 

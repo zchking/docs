@@ -84,6 +84,8 @@ sh ./Scripts/bootstrap.sh -d
             t =     0.00s     Set Up
     ```
 
+    ![Build-Output](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Build-Output.png)
+
 
 *   (OPTIONAL) To completely verify , you can try accessing the WebDriverAgent server status (note: you _must_ be on the same network as the device, and know its IP address, from Settings => Wi-Fi => Current Network)
 

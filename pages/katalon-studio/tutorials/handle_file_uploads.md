@@ -1,7 +1,9 @@
 ---
 title: "How to Handle File Uploads"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/handle_file_uploads.html
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/handle_file_uploads.html
+redirect_from:
+    - "katalon-studio/tutorials/handle_file_uploads.html"
 description: "This tutorial will show you how to handle the file upload feature and verifying downloaded files using Katalon Studio."
 ---
 In general, we need to automate scenarios like uploading a file into the application for attaching profile pictures or documents. This tutorial demonstrates handling the file upload feature and verifying downloaded files using Katalon Studio.

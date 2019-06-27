@@ -10,15 +10,16 @@ This tutorial walks you through the steps needed to manually write a very basic 
 
 Given a sample test case with the following steps:
 
-*   _Open the browser_
-*   _Navigate to a website_
-*   _Click on certain control_
-*   _Validate if a control exists on the page_
-*   _Close the browser_
+*   Open a browser
+*   Navigate to a website
+*   Click on certain control
+*   Validate if a control exists on the page
+*   Close the browser
 
-Follow these steps to automate the above test scenario in **Script view**:
+Follow these steps to automate the above test scenario in Script view:
 
-1\. Select **File > New > Test Case** from the main menu to create a test case. Provide the name for the new test case, then click **OK**.
+1. Select **File > New > Test Case** from the main menu. Provide the name for the new test case. Click **OK**.
+
 
 ![new test case Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/1.-Katalon-new-test-case1.png)
 
@@ -37,23 +38,33 @@ WebUI.
 
 ```
 
-4. After entering the dot character (.), all built-in keywords and their description for WebUI testing appear as below:
+
+4. After entering the dot character (.), all built-in keywords and their description for Web UI testing will appear as below:
+
 
 ![Content Assist Dialog Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/4.-Content-Assist.png)
 
-5. Select the **[**Open Browser**](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword opens a browser and navigates to the specified URL if provided. The detail for a selected keyword is shown in a popup screen.
+
+5. Select the **[**Open Browser**](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword opens a browser and navigates to the specified URL if it is provided. The details for the selected keyword will be shown in a popup screen.
+
 
 ![Open Browser Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/5.-Katalon-Open-Browser.png)
 
-6\. Enter the [**Navigate To Url**](/display/KD/%5BWebUI%5D+Navigate+to+Url) keyword. This keyword navigates to a specified URL. For now, enter the URL of Katalon Studio ([katalon.com](https://www.katalon.com/)) as the value for the parameter.
+
+6. Enter the [**Navigate To URL**](/display/KD/%5BWebUI%5D+Navigate+to+Url) keyword. This keyword navigates to a specified URL. For now, enter the URL of Katalon Studio ([katalon.com](https://www.katalon.com/)) as the value of the parameter.
+
 
 ![Navigate URL keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/6.-Katalon-Nagivate-to-url.png)
 
-7\. Enter the **[Click](/display/KD/%5BWebUI%5D+Click)**. This keyword represents the click action on a given object. You need to specify an object for this action.
+
+7. Enter **[Click](/display/KD/%5BWebUI%5D+Click)**. This keyword represents the click action on a given object. You need to specify an object for this action.
+
 
 ![Click keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/7.-Katalon-Click-keyword.png)
 
-8\. Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
+
+8. Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
+
 
 ```groovy
 findTestObject('{Object ID}')
@@ -70,23 +81,31 @@ findTestObject('{Object ID}')
 
 ![Verify element present](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/10.-Katalon-Verify-Element.png)
 
-11\. Add the [**Close Browser**](/display/KD/%5BWebUI%5D+Close+Browser) keyword and save your test case.
+
+11. Add the [**Close Browser**](/display/KD/%5BWebUI%5D+Close+Browser) keyword and save your test case.
+
 
 ![Close Browser keyword](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/11.-Katalon-Close-browser.png)
 
-12\. The following API docs are useful when working with scripts:
+
+12. You may find these API docs useful while working with scripts:
+
 
 | Class | DescriptionDescription |
 | --- | --- |
-| **[Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html)** | List of common built-in keywords |
-| **[WebUI Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html)** | List of Web UI built-in keywords |
-| **[Web Service Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html)** | List of Web Service built-in keywords |
-| **[Mobile Builtin Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html)** | List of Mobile built-in keywords |
+| **[Built-in Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/keyword/BuiltinKeywords.html)** | List of common built-in keywords |
+| **[Web UI Built-in Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webui/keyword/WebUiBuiltInKeywords.html)** | List of Web UI built-in keywords |
+| **[Web Service Built-in Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/webservice/keyword/WSBuiltInKeywords.html)** | List of Web Service built-in keywords |
+| **[Mobile Built-in Keywords](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html)** | List of Mobile built-in keywords |
 
-13. Congratulations! You have finished your first automation script in Groovy language. Click on **Run** in the main toolbar to execute the test case.
+
+13. Congratulations! You have finished your first automation script in Groovy language. Click **Run** in the main toolbar to execute the test case.
+
 
 ![Run Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/13.-Katalon-Run.png)
 
-Katalon Studio should be able to execute the script of the test case. Test execution results are shown in Log Viewer as below:
+
+The test execution results are shown in **Log Viewer** as below:
+
 
 ![Test execution Dialog](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/13b-Katalon-Log-viewer.png)
