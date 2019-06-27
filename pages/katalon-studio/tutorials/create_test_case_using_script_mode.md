@@ -1,9 +1,12 @@
 ---
-title: "Editing Test Cases Using Script Mode"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/create_test_case_using_script_mode.html
-description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the test case Script mode."
+title: "Create test case using Script Mode"	title: "Editing Test Cases Using Script Mode"
+sidebar: katalon_studio_docs_sidebar	sidebar: katalon_studio_tutorials_sidebar
+permalink: katalon-studio/docs/create_test_case_using_script_mode.html	permalink: katalon-studio/tutorials/create_test_case_using_script_mode.html
+description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the Script mode of test cases."	description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the test case Script mode."
+redirect_from:	
+    - "/katalon-studio/tutorials/create_test_case_using_script_mode.html"
 ---
+
 In addition to the **[Manual view](/x/9YEw)**, Katalon Studio allows expert users to programmatically write automation test in the test case Script view. Users with Groovy/Java background can easily edit test scripts in this view.
 
 This tutorial walks you through the steps needed to manually write a very basic automation test script using Katalon Studio. After reading this article, you will understand and be able to use _import_ statements and **[built-in keywords](/x/VQAM)** to compose test scripts. It's recommended that you have some basic scripting background, preferably using **[Groovy](http://groovy-lang.org/)**, to efficiently use the scripting capability.
@@ -77,7 +80,7 @@ findTestObject('{Object ID}')
 
 ![Object ID Properties](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/9.-Katalon-Test-Object.png)
 
-10\. Enter the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword to validate if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.
+10. Enter the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword to validate if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.
 
 ![Verify element present](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/10.-Katalon-Verify-Element.png)
 
