@@ -13,9 +13,9 @@ description:
 
 Click [Katalon Studio 6.3.0 (Beta)](https://github.com/katalon-studio/katalon-studio/releases) to download.
 
-Fix
+Fixes
 
-*   Displaying incorrect test object references when new test objects are created from the existing ones.
+*   Bug: Test object references is displayed incorrectly when new test objects are created from the existing ones.
 
 Improvements
 
