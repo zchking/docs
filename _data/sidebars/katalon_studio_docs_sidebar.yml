@@ -11,6 +11,8 @@ items:
         url: /katalon-store/docs/user/API-key.html
       - title: "Use Plugins in Katalon Studio's Console Mode"
         url: /katalon-store/docs/user/plugin-console-installation.html 
+      - title: "Essential Plugins Bundle"
+        url: /katalon-store/docs/user/essential-plugin-bundle.html
       - title: "Submit and publish plugins"
         tree:
           - title: "Submit and publish a new plugin"
