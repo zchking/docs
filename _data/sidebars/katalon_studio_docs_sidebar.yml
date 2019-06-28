@@ -197,6 +197,8 @@ items:
                 url: /katalon-studio/docs/proxy-preferences.html
               - title: "Object Spy Preferences"
                 url: /katalon-studio/docs/object-spy-preferences.html
+              - title: "Using Katalon Studio in Dark theme"
+                url: /katalon-studio/docs/dark-theme.html
       - title: "Projects"
         tree:
           - title: "Manage Test Project"
