@@ -1,8 +1,8 @@
 ---
-title: "Create test case using Script Mode"	title: "Editing Test Cases Using Script Mode"
-sidebar: katalon_studio_docs_sidebar	sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/docs/create_test_case_using_script_mode.html	permalink: katalon-studio/tutorials/create_test_case_using_script_mode.html
-description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the Script mode of test cases."	description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the test case Script mode."
+title: "Create test case using Script Mode"
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/create_test_case_using_script_mode.html
+description: "In addition to the Manual view, Katalon Studio allows expert users to programmatically write automation test in the Script mode of test cases."
 redirect_from:	
     - "/katalon-studio/tutorials/create_test_case_using_script_mode.html"
 ---
