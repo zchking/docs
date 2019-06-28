@@ -1,19 +1,23 @@
 ---
-title: "Version 6.3.0" 
+title: "Version 6.3.0 (Beta)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-630.html
 redirect_from:
-    -
+    - "/katalon-studio/new/version-630/"
 description: 
 ---
 
-## Version 6.3.0
+## Version 6.3.0 (Beta) 
 
-Katalon Studio 6.3.0 resolves an issue that could cause displaying incorrect test object references when new test objects are created from the existing ones.
+> Katalon Studio 6.3.0 (Beta) includes a bug fix and a few improvements.
 
-This update also includes some improvements.
+Click [Katalon Studio 6.3.0 (Beta)](https://github.com/katalon-studio/katalon-studio/releases) to download.
 
+Fix
 
+*   Displaying incorrect test object references when new test objects are created from the existing ones.
+
+Improvements
 
 *   Support Dark theme in addition to the default Light theme
 *   Allow Test Reports to be viewed directly in Test Suite and Test Suite Collection Views in Result Tab
