@@ -5,6 +5,8 @@ permalink: katalium-server/docs/katalium-contributing.html
 description: User guide for Katalium developer.
 ---
 
+Katalium Server is open-sourced at https://github.com/katalon-studio/katalium-server.
+
 ## Frontend
 
 The GUI of Katalium Server is built with ReactJS and [Create React App (CRA)](https://github.com/facebook/create-react-app). This GUI is only enabled in Grid mode.
