@@ -1,5 +1,5 @@
 ---
-title: "Create a Test Case" 
+title: "Create a Test Suite" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalium-framework/docs/katalium-framework-create-test-suite.html
 description:

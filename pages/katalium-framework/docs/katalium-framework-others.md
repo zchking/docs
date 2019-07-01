@@ -1,5 +1,5 @@
 ---
-title: "Other utilities" 
+title: "Other Utilities" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalium-framework/docs/katalium-framework-others.html 
 description:
