@@ -12,18 +12,25 @@ description:
 
 ## Install Katalium Extension for Visual Studio Code
 
-Install Katalium Extension [here]()
+Install Katalium Extension [here](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalium).
 
 ## Activate
 
+In Visual Studio Code, enter Katalon email and password to activate.
 
+![](../../images/katalium-framework/docs/kkatalium-framework-get-started-vscode/activate.gif)
 
 ## Create project
 
+Click **Creat Project** button to create a new project.
+
+_Note: Clean your Workpace folder before creating a new project._
+
 ## Start Katalium Server
 
-Please refer to [this guide]() to activate Katalium Server using Katalon username and API Key.
+To start Katalium Server, click **Start Server** button and open browser in https://localhost:4444/.
 
 ## Run your first test in Visual Studio Code
+
 
 ## Run your first test in CLI

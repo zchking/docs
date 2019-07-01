@@ -15,4 +15,11 @@ Please refer to [this guide](https://docs.katalon.com/katalium-server/docs/katal
 
 ## Run your first test in IDE
 
+Refer to this guide to learn how to [create a test case](katalium-framework/docs/katalium-framework-create-test-case.html) or [test suite](katalium-framework/docs/katalium-framework-create-test-suite.html).
+
+Example of a test case run in IntelliJ IDEA:
+
+![](../../images/katalium-framework/docs/katalium-framework-get-started-other-ides/run-test-ide.png)
+
 ## Run your first test in CLI
+
