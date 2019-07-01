@@ -971,6 +971,8 @@ items:
                 url: /katalon-studio/docs/bamboo-plugin.html
               - title: "Azure DevOps Extension"
                 url: /katalon-studio/docs/azure-devops-extension.html
+              - title: "TeamCity Plugin"
+                url: /katalon-studio/docs/teamcity-plugin.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
