@@ -18,7 +18,7 @@ Install Katalium Extension [here](https://marketplace.visualstudio.com/items?ite
 
 In Visual Studio Code, enter Katalon email and password to activate.
 
-![](../../images/katalium-framework/docs/kkatalium-framework-get-started-vscode/activate.gif)
+![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/activate.gif)
 
 ## Create project
 
