@@ -17,6 +17,10 @@ Katalium Framework provides the class `com.katalon.kata.helper.LogHelper` to hel
 private static final Logger log = LogHelper.getLogger();
 ```
 
+```java
+log.info("Open CURA home page.");
+```
+
 ## Capture WebDriver's actions
 
 You can attach a custom `org.openqa.selenium.support.events.AbstractWebDriverEventListener` to capture WebDriver events ([source code](https://github.com/katalon-studio/katalium-sample/blob/master/src/test/java/com/katalon/kata/sample/listener/EventListener.java)):
