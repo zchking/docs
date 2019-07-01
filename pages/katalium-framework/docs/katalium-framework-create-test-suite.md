@@ -33,4 +33,4 @@ Here is a simple example ([source code](https://github.com/katalon-studio/katali
 </suite>
 ```
 
-Test suites can be specified in command line, e.g. `mvn test -Dsurefire.suiteXmlFiles=test1.xml,test2.xml`.
+Test suites can be specified in command line, e.g. `mvnw test -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml`.
