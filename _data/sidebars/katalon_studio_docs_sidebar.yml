@@ -1158,16 +1158,16 @@ items:
             url: /katalium-framework/docs/katalium-framework-get-started-vscode.html
           - title: "In other IDEs"
             url: /katalium-framework/docs/katalium-framework-get-started-other-ides.html
-      - title: "Creat a Test Case"
+      - title: "Create a Test Case"
         url: /katalium-framework/docs/katalium-framework-create-test-case.html
-      - title: "Creat a Test Suite"
+      - title: "Page Object Model"
+        url: /katalium-framework/docs/katalium-framework-page-object-model.html
+      - title: "Create a Test Suite"
         url: /katalium-framework/docs/katalium-framework-create-test-suite.html
       - title: "Configure Browsers"
         url: /katalium-framework/docs/katalium-framework-custom-browser.html
       - title: "Other Utilities"
         url: /katalium-framework/docs/katalium-framework-others.html
-      - title: "Page Object Model"
-        url: /katalium-framework/docs/katalium-framework-page-object-model.html
   - title: "Katalium Server"
     tree:
       - title: "Overview"
