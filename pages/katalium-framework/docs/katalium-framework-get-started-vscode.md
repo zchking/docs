@@ -22,7 +22,7 @@ In Visual Studio Code, enter Katalon email and password to activate.
 
 ## Create project
 
-Click **Creat Project** button to create a new project.
+Click **Create Project** button to create a new project.
 
 _Note: Clean your Workpace folder before creating a new project._
 
