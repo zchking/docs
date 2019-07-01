@@ -32,6 +32,7 @@ To start Katalium Server, click **Start Server** button and open browser in http
 
 ## Run your first test in Visual Studio Code
 
+![](../../images/katalium-framework/docs/kkatalium-framework-get-started-vscode/run-test-vscode.png)
 
 ## Run your first test in CLI
 
