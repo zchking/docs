@@ -7,7 +7,7 @@ description:
 
 Katalium Framework provides four default browser configurations: `chrome`, `firefox`, `internet_explorer`, `edge`.
 
-You can specify the default browser in the file `kata-default.properties` ([sample](https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/kata-default.properties)). It can also be overridden using the parameter `kataBrowser`, e.g. `mvnw clean test -DkataBrowser=firefox`.
+You can specify the default browser in the file `kata-default.properties` ([sample](https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/kata-default.properties)). It can also be overridden using the parameter `kataBrowser`, e.g. `mvn clean test -DkataBrowser=firefox`.
 
 Here is a simple definition of two test suites that run parallelly on Chrome and Firefox ([source code](https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/testng-parallel.xml))::
 
