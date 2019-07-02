@@ -32,7 +32,14 @@ See real-time monitoring progress of the test execution:
 
    KATALON_EMAIL: Enter your Katalon account. You can sign up for a free account at https://www.katalon.com.
 
+   For example:
+   
+   ```
+   KATALON_API_KEY=8077730e-0e09-4b9d-a959-1a62b0a0d6f2
+   KATALON_EMAIL=info@katalon.com
+   ```
 
+   
 
 
 
