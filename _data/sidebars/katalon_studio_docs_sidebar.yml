@@ -1168,6 +1168,8 @@ items:
         url: /katalium-framework/docs/katalium-framework-custom-browser.html
       - title: "Other Utilities"
         url: /katalium-framework/docs/katalium-framework-others.html
+      - title: "Reports"
+        url: /katalium-framework/docs/katalium-framework-reports.html
   - title: "Katalium Server"
     tree:
       - title: "Overview"
