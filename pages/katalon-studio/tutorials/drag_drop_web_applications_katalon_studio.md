@@ -14,8 +14,6 @@ Drag and drop is a fairly popular approach in modern websites to improve their o
 
 Since Katalon Studio 6.1.5, please install [DragAndDrop Keywords](https://store.katalon.com/product/70/DragAndDrop-Keywords) plugin to use this feature.
 
-<details><summary>Deprecated Content</summary>
-
 In this tutorial, we will show how [**Katalon Studio**](https://www.katalon.com) is used to test the drag and drop feature in a web application.
 
 This tutorial assumes that you are familiar with the tool's basic features. To have a quick idea of how it works or to review the interface please refer to [Kickstart your automation testing using Katalon Studio](https://www.katalon.com/tutorials/kickstart-automation-testing-using-katalon-studio/) or [Katalon Studio User Guides](/x/oArR).
@@ -192,5 +190,3 @@ This sample project could be found [**here**](https://github.com/katalon-studio/
 Run the test case and you will notice that the W3Schools image is dragged and dropped in the right rectangle successfully.
 
 We hope you enjoy the tutorial, please comment if you have any question or another solution to automate the drag & drop testing. For additional tip & tricks, access [**Katalon Studio tutorial**](https://www.katalon.com/tutorials/).
-
-</details>

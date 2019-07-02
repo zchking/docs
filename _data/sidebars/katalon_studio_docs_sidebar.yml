@@ -11,6 +11,8 @@ items:
         url: /katalon-store/docs/user/API-key.html
       - title: "Use Plugins in Katalon Studio's Console Mode"
         url: /katalon-store/docs/user/plugin-console-installation.html 
+      - title: "Essential Plugins Bundle"
+        url: /katalon-store/docs/user/essential-plugin-bundle.html
       - title: "Submit and publish plugins"
         tree:
           - title: "Submit and publish a new plugin"
@@ -31,6 +33,8 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
+              - title: "Version 6.3.0 (Beta)"
+                url: /katalon-studio/new/version-630.html
               - title: "Version 6.2.0 - 6.2.1"
                 url: /katalon-studio/new/version-620.html
               - title: "Version 6.1.5"
@@ -197,6 +201,8 @@ items:
                 url: /katalon-studio/docs/proxy-preferences.html
               - title: "Object Spy Preferences"
                 url: /katalon-studio/docs/object-spy-preferences.html
+              - title: "Using Katalon Studio in Dark theme"
+                url: /katalon-studio/docs/dark-theme.html
       - title: "Projects"
         tree:
           - title: "Manage Test Project"
@@ -907,6 +913,8 @@ items:
             url: /katalon-studio/docs/combine-multiple-data-sources.html
           - title: "Manage Test Data"
             url: /katalon-studio/docs/manage-test-data.html
+          - title: "Enhanced Variable Binding"
+            url: /katalon-studio/docs/bind-as-string.html
       - title: "BDD Testing Framework"
         tree:
           - title: "Cucumber Features File"

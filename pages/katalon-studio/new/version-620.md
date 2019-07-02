@@ -1,12 +1,13 @@
 ---
 title: "Version 6.2.0 - 6.2.1"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-620.html
 redirect_from:
     - "/katalon-studio/new/version-620/"
     - "/katalon-studio/new/"
     - "/display/KD/Release+Notes/"
     - "/display/KD/Release%20Notes/"
+    - "/katalon-studio/new/all-versions.html"
 description: Release notes v6.2.0
 ---
 

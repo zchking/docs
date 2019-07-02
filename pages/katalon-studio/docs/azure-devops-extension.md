@@ -30,7 +30,7 @@ Once you have installed the extension, you will need to configure Execute Katalo
 
 If you want to learn more about xvfb-run configuration please see its manual. If you are not sure, only change the resolution 1024x768x24 and leave other options as-is.
 
-See [Common Configuration]([https://docs.katalon.com/katalon-studio/docs/common-configuration.html#strongcommand-argumentsstrong](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#strongcommand-argumentsstrong)) for more details.
+See [Common Configuration](https://docs.katalon.com/katalon-studio/docs/common-configuration.html) for more details.
 
 4. After everything is setup, click **Queue** button to build.
 
