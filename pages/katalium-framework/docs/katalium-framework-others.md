@@ -9,7 +9,7 @@ description:
 
 TestNG provides a comprehensive mechanism for customizing parameters, which can be referred [here](https://testng.org/doc/documentation-main.html#parameters).
 
-In Katalium Framework, you can set default values for parameters in the file `kata-default.properties` ([example](https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/kata-default.properties)), or using at runtime using Java's system properties, e.g. `mvnw clean test -DkataBrowser=firefox`. This is very handy when you do not want reconfigure unchanged parameters.
+In Katalium Framework, you can set default values for parameters in the file `kata-default.properties` ([example](https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/kata-default.properties)), or using at runtime using Java's system properties, e.g. `mvn clean test -DkataBrowser=firefox`. This is very handy when you do not want reconfigure unchanged parameters.
 
 Default values of parameters can be accessed using the helper `com.katalon.kata.helper.ParameterHelper`.
 

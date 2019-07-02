@@ -44,4 +44,4 @@ After starting server, open browser in https://localhost:4444/.
 
 ## Run your first test in CLI
 
-To run the default test suite configured in `pom.xml` use `mvnw clean test`. Test suites can also be specified using command arguments, e.g. `mvnw clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml`.
+To run the default test suite configured in `pom.xml` use `mvn clean test`. Test suites can also be specified using command arguments, e.g. `mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml`.
