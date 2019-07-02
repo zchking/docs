@@ -1,5 +1,5 @@
 ---
-title: "View screenshots of sessions in Katalium Server" 
+title: "Sessions monitoring" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalium-server/docs/view-session-details.html 
 description: Introduce the feature viewing list of sessions and details in Katalium.
@@ -7,13 +7,14 @@ description: Introduce the feature viewing list of sessions and details in Katal
 
 > This feature is only available in Grid mode.
 
-Katalium Grid Hub will automatically capture screenshots of browsers started by its Grid Node. This will help you monitor on-going sessions and debug test execution errors.
+Katalium Grid Hub will automatically capture screenshots of browsers started by its Grid Node. This will help you monitor on-going sessions and debug test execution errors. All sessions are stored in the directory `<user_home>/katalon-selenium`.
 
 ## View all sessions
 
 To see the list of all sessions, go to `http://hub_grid:4444/grid/admin/KatalonConsole/index.html`.
 
 For example:
+
 ![](../../images/katalium-server/docs/view-session-details/1-view-session.png)
 
 ## View screenshots of each session
