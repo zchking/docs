@@ -28,7 +28,13 @@ _Note: Clean your Workpace folder before creating a new project._
 
 ## Start Katalium Server
 
-To start Katalium Server, click **Start Server** button and open browser in https://localhost:4444/.
+To start Katalium Server, click **Start Server** button.
+
+_Note: You can view server information in Output tab of Katalium. For example:_
+
+![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/before-start-server-vscode.png)
+
+After starting server, open browser in https://localhost:4444/.
 
 ![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/start-server-vscode.png)
 
