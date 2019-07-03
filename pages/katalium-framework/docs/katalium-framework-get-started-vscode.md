@@ -34,7 +34,7 @@ _Note: You can view server information in Output tab of Katalium. For example:_
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-vscode/before-start-server-vscode.png)
 
-After starting server, open browser in https://localhost:4444/.
+After starting server, open browser in http://localhost:4444/.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-vscode/start-server-vscode.png)
 
