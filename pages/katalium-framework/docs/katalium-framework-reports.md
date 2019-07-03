@@ -13,6 +13,8 @@ After execution, TestNG will generate a test-output folder at the root of the pr
 
 ## For real-time monitoring and reporting using Katalon Analytics
 
+Go to `src` > `test` > `kata-default.properties`.
+
 Set default values for parameters in the file `kata-default.properties`.
 
 For example, kataProjectId=2, the Project ID will be displayed as https://analytics.katalon.com/team/1/project/2

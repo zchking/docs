@@ -21,6 +21,8 @@ Katalium Server can also run as a Standalone (single) server in development mode
 
 Please suggest new features at https://forum.katalon.com.
 
+Katalium is open-sourced at https://github.com/katalon-studio/katalium.
+
 Katalium Server is open-sourced at https://github.com/katalon-studio/katalium-server.
 
 The sample project is available at https://github.com/katalon-studio/katalium-sample.
