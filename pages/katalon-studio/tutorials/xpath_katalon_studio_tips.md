@@ -30,7 +30,7 @@ I created a very simple web page for this tutorial's purposes. I will refer to t
 <body>
 	<div id="header" class="hdr-main">
 		<div id="logo">
-			<img src="/images/whatever.png" alt="My logo">
+			<img src="https://github.com/katalon-studio/docs-images/raw/master/whatever.png" alt="My logo">
 		</div>
 
 	<div id="main" class="body-main">
@@ -113,7 +113,7 @@ Element **p** does not have any unique ID, but its nearest ancestor (parent elem
 So relative Xpath approach can be easily applied.
 
 4\. Use XPath operator **and** to get element by multiple attributes
-**//img\[@src="/images/whatever.png" and @alt="My logo"\]
+**//img\[@src="https://github.com/katalon-studio/docs-images/raw/master/whatever.png" and @alt="My logo"\]
 **This may be useful when a single attribute may not be sufficient to identify an element, i.e. when the same image is used on multiple places, but alt attribute is different.
 
 5\. text() and contains() functions

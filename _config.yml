@@ -1,7 +1,7 @@
 site_title: Katalon Docs
 site_domain: docs.katalon.com
 site_url: https://docs.katalon.com
-site_icon: /images/katalon/template/favicon.png
+site_icon: https://github.com/katalon-studio/docs-images/raw/master/katalon/template/favicon.png
 site_twitter: https://twitter.com/katalon_studio
 site_twitter_mention: katalon_studio
 github_editme_path: katalon-studio/docs
