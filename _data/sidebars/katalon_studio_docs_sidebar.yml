@@ -990,16 +990,18 @@ items:
                 url: /katalon-studio/docs/katalon-testrail-integration.html
           - title: "Other Integrations"
             tree:
-              - title: "BrowserStack Integration"
-                url: /katalon-studio/docs/browserstack-integration.html
               - title: "Kobiton Integration"
                 tree:
                   - title: "Enable Kobiton Integration"
                     url: /katalon-studio/docs/enable-kobiton-integration.html
                   - title: "Desired Capabilities for Kobiton Devices"
                     url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+              - title: "BrowserStack Integration"
+                url: /katalon-studio/docs/browserstack-integration.html      
               - title: "SauceLabs Integration"
                 url: /katalon-studio/docs/saucelabs-integration.html
+              - title: "LambdaTest Integration"
+                url: /katalon-studio/docs/lambdatest-integration.html
               - title: "Slack Integration"
                 url: /katalon-studio/docs/slack-integration.html
       - title: "Troubleshooting"
