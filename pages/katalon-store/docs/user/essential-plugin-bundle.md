@@ -6,9 +6,6 @@ description: Essential Plugins Bundle user guide
 ---
 The Essential Plugins Bundle allows you to choose any five plugins (Corporate licenses) for one year of free trial.
 
-This bundle will be activated once you subcribed to one of our [Support](https://www.katalon.com/support-service-options/) or [Training Services](https://www.katalon.com/training/).
-
-
 ## Add plugins to your bundle
 
 Go to **Essential Plugins Collection** tab in **My Account** and choose plugins you want to add to your bundle.
