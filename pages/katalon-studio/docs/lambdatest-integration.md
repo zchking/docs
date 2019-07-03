@@ -15,7 +15,7 @@ Here is a step-by-step guide to help you trigger your first automation script on
 
 **Step 1:** Login to your LambdaTest account.
 
-**Step 2:** In the left-navigation menu inside LambdaTest web-application, go to the **Profile **tab, then enter your **Username **and **Access Key**.
+**Step 2:** In the left-navigation menu inside LambdaTest web-application, go to the **Profile **tab, then enter your **Username** and **Access Key**.
 
 These values are necessary for authentication purpose between your Katalon Studio instance & LambdaTest account. They will also help generate a secure remote connection between Katalon Studio & LambdaTest remote hub URL.
 
@@ -51,7 +51,8 @@ For example, you want to test on macOS Mojave using the Google Chrome browser ve
 
 _Important Note: LambdaTest recommends using Listeners to avoid timeout issues while executing Groovy scripts in LambdaTest Selenium Grid from Katalon Studio. Below is an example of a Listener._
 
-**Step 1**: Select **Test explorer** from the left navigation menu in Katalon Studio >  Right click the **Test Listener folder** > Click **New listener**.
+**Step 1**: Select **Test explorer** from the left navigation menu in Katalon Studio >  Right click the **Test Listener folder** > Click 
+**New listener**.
 
 **Step 2**: Provide a relevant name to the new listener before pasting the code below:
 
