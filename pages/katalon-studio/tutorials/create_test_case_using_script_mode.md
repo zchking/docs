@@ -24,11 +24,11 @@ Follow these steps to automate the above test scenario in Script view:
 1. Select **File > New > Test Case** from the main menu. Provide the name for the new test case. Click **OK**.
 
 
-![new test case Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/1.-Katalon-new-test-case1.png)
+![new test case Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/1.-Katalon-new-test-case1.png)
 
 2. Once a new test case is created, switch to the **Script view**. Test steps specified in the Manual view are automatically translated to Groovy script in the **Script view**.
 
-![Script mode Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/2.-Katalon-script-view.png)
+![Script mode Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/2.-Katalon-script-view.png)
 
 The import statement in a test script allows referencing to classes to be used. Expand the **import** section to see all default imported classes by Katalon Studio. The name after 'as' in each import statement is an alias for the class. You can change the alias for each class. These classes are necessary for composing a test script.
 
@@ -45,25 +45,25 @@ WebUI.
 4. After entering the dot character (.), all built-in keywords and their description for Web UI testing will appear as below:
 
 
-![Content Assist Dialog Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/4.-Content-Assist.png)
+![Content Assist Dialog Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/4.-Content-Assist.png)
 
 
 5. Select the **[**Open Browser**](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword opens a browser and navigates to the specified URL if it is provided. The details for the selected keyword will be shown in a popup screen.
 
 
-![Open Browser Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/5.-Katalon-Open-Browser.png)
+![Open Browser Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/5.-Katalon-Open-Browser.png)
 
 
 6. Enter the [**Navigate To URL**](/display/KD/%5BWebUI%5D+Navigate+to+Url) keyword. This keyword navigates to a specified URL. For now, enter the URL of Katalon Studio ([katalon.com](https://www.katalon.com/)) as the value of the parameter.
 
 
-![Navigate URL keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/6.-Katalon-Nagivate-to-url.png)
+![Navigate URL keyword Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/6.-Katalon-Nagivate-to-url.png)
 
 
 7. Enter **[Click](/display/KD/%5BWebUI%5D+Click)**. This keyword represents the click action on a given object. You need to specify an object for this action.
 
 
-![Click keyword Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/7.-Katalon-Click-keyword.png)
+![Click keyword Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/7.-Katalon-Click-keyword.png)
 
 
 8. Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
@@ -78,17 +78,17 @@ findTestObject('{Object ID}')
 
 9. You can find an Object ID from its Properties dialog. For example:
 
-![Object ID Properties](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/9.-Katalon-Test-Object.png)
+![Object ID Properties](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/9.-Katalon-Test-Object.png)
 
 10. Enter the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword to validate if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.
 
-![Verify element present](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/10.-Katalon-Verify-Element.png)
+![Verify element present](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/10.-Katalon-Verify-Element.png)
 
 
 11. Add the [**Close Browser**](/display/KD/%5BWebUI%5D+Close+Browser) keyword and save your test case.
 
 
-![Close Browser keyword](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/11.-Katalon-Close-browser.png)
+![Close Browser keyword](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/11.-Katalon-Close-browser.png)
 
 
 12. You may find these API docs useful while working with scripts:
@@ -105,10 +105,10 @@ findTestObject('{Object ID}')
 13. Congratulations! You have finished your first automation script in Groovy language. Click **Run** in the main toolbar to execute the test case.
 
 
-![Run Katalon Studio](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/13.-Katalon-Run.png)
+![Run Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/13.-Katalon-Run.png)
 
 
 The test execution results are shown in **Log Viewer** as below:
 
 
-![Test execution Dialog](../../images/katalon-studio/tutorials/create_test_case_using_script_mode/13b-Katalon-Log-viewer.png)
+![Test execution Dialog](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/13b-Katalon-Log-viewer.png)

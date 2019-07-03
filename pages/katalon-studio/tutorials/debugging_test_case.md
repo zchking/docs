@@ -16,37 +16,37 @@ Katalon Studio provides users with the capability for debugging test scripts. It
 The following presents the basic steps to debug a test case:
 
 1\. Open a test case and switch to the **Script** view.
-![Script view Katalon Studio](../../images/katalon-studio/tutorials/debugging_test_case/Script-view.png)
+![Script view Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Script-view.png)
 
 2\. Double click on the left-most side of the script editor to mark a **breakpoint** for the step you want to start debugging from.
-![mark a breakpoint for the step](../../images/katalon-studio/tutorials/debugging_test_case/mark-a-breakpoint.png)
+![mark a breakpoint for the step](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/mark-a-breakpoint.png)
 
 3\. Choose the browser for **Debug** from the main toolbar.
-![Choose the browser for Debugging test case](../../images/katalon-studio/tutorials/debugging_test_case/the-browser.png)
+![Choose the browser for Debugging test case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/the-browser.png)
 
 4\. Confirm (select **Yes**) when asked to show the **Debug** perspective.
-![the Debug perspective.](../../images/katalon-studio/tutorials/debugging_test_case/Debug-perspective.png)
+![the Debug perspective.](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Debug-perspective.png)
 
 5\. The **Debug** perspective provides users with helpful options for the debugging purpose. Users can:
 
 **Navigate execution using commands from the debug toolbar.**
-![debug toolbar](../../images/katalon-studio/tutorials/debugging_test_case/Navigate-execution.png)
+![debug toolbar](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Navigate-execution.png)
 
 Where:
 
 | Command | Description |
 | --- | --- |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Resume-debugging.png) | Resume debugging |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png) | Suspend debugging |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png) | Terminate debugging |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Disconnect.png) | Disconnect |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into current code block |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over current code block |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from current code block |
-|  ![](../../images/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to specific line |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Resume-debugging.png) | Resume debugging |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png) | Suspend debugging |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png) | Terminate debugging |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Disconnect.png) | Disconnect |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into current code block |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over current code block |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from current code block |
+|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to specific line |
 
 **Track values of variables using Watch utilities.**
-![Watch utilities](../../images/katalon-studio/tutorials/debugging_test_case/Watch-utilities.png)Where:
+![Watch utilities](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Watch-utilities.png)Where:
 
 | View | Description |
 | --- | --- |

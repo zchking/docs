@@ -43,7 +43,7 @@ Identifying XPath is an effective way to find nested elements which can't be ide
 
 The example below illustrates how Katalon Studio generates and optimizes XPath automatically when you spy on the **Sign up now** object (a nested object).
 
-![detecting elements with Xpath by Katalon Studio](../../images/katalon-studio/tutorials/detect_elements_xpath/Sign-up-now.png)
+![detecting elements with Xpath by Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/detect_elements_xpath/Sign-up-now.png)
 
 Deal with dynamically changing elements
 ---------------------------------------

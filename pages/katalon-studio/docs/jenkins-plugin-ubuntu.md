@@ -48,18 +48,18 @@ sudo apt install -y xvfb
 Go to _Manage Jenkins > Manage Plugins > Available_ and find Katalon plugin on the list.
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture1.png)
 
 ## Create and configure a new Jenkins project
 
 To keep it simple, I will use _Freestyle project_.
 
-![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture2.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture2.png)
 
 The sample Katalon Studio project can be cloned from [Github](https://github.com/katalon-studio-samples/ci-samples).
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture3.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture3.png)
 
 Next, add and configure the build step _Execute Katalon Studio tests_ provided by Katalon plugin for Jenkins.
 
@@ -70,10 +70,10 @@ Next, add and configure the build step _Execute Katalon Studio tests_ provided b
 *   If you want to learn more about `xvfb-run` configuration please see [its manual](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). If you are not sure, only change the resolution `1024x768x24` and leave other options as-is.
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture4.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture4.png)
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-ubuntu/Picture5.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture5.png)
 
 If for some network conditions the Katalon Studio package cannot be downloaded, you can install it manually and specify its location.
 

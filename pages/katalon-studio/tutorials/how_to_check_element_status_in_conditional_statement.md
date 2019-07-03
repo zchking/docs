@@ -9,7 +9,7 @@ description: "Tips and Tricks: How to check element status in conditional statem
 
 In Web UI functional testing, you may want to ensure that an element is clickable, present, or visible before performing further actions on the element. The function used in such a case is **verifyElementClickable** with this specification:
 
-![verifyElementClickable](../../images/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_1.png)
+![verifyElementClickable](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_1.png)
 
 
 The following code block demonstrates how to check the element status in a conditional statement. You may assume that the function WebUI.verifyElementClickable will return **true** if the element is clickable, and **false** if the element is not. 
@@ -30,11 +30,11 @@ You may find it confusing since the function has been used with the proper synta
 In Katalon Studio, there are two overloading functions named **verifyElementClickable**. 
 
 Function 1 with default FailureHandling:
-![Function 1 with default FailureHandling](../../images/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_1.png)
+![Function 1 with default FailureHandling](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_1.png)
 
 
 Function 2 wich custom FailureHandling:
-![Function 2 wich custom FailureHandling](../../images/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_2.png)
+![Function 2 wich custom FailureHandling](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_to_check_element_status_in_conditional_statement/verifyElementClickable_2.png)
 
 The first function has a default **FailureHandling** parameter; while the second allows you to customize the parameter. This will determine the function’s behavior in some specific situations.
 

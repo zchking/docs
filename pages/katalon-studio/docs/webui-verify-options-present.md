@@ -14,7 +14,7 @@ Description
 
 Verify if all expected options are present within the given test object.
 
-![](../../images/katalon-studio/docs/webui-verify-options-present/label.jpg)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-options-present/label.jpg)
 
 Parameters
 ----------

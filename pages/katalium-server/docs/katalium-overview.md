@@ -9,7 +9,7 @@ Katalium Server is a set of enhancements to improve your experience with Seleniu
 
 Katalium Server can also run as a Standalone (single) server in development mode.
 
-![](../../images/katalium-server/docs/view-session-details/2-session-details.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/view-session-details/2-session-details.png)
 
 ## Current features
 

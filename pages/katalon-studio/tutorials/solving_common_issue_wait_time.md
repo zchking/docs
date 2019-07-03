@@ -28,7 +28,7 @@ Katalon provides keywords dedicated to delay explicitly. You can use the followi
 
 For example: The script below shows the usage of a global variable and the use of Katalon Studio built-in keyword [**Wait For Element Present**](http://docs.katalon.com/display/KD/%5BMobile%5D+Wait+For+Element+Present) to deliberately wait for a specific test element.
 
-![](../../images/katalon-studio/tutorials/solving_common_issue_wait_time/Wait-For-Element-Present.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/solving_common_issue_wait_time/Wait-For-Element-Present.png)
 
 **Figure 1: Katalon Studio test script**
 

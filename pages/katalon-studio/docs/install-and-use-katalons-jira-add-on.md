@@ -27,20 +27,20 @@ Gherkin custom field
 
 This add-on adds a custom field type to JIRA called Katalon Gherkin. This custom field lets you write descriptions for your test cases and stories in Gherkin syntax. Gherkin keywords such as _Given_, _When_, _Then_ will be highlighted automatically. Once imported to Katalon Studio, the content of Katalon Gherkin field will be populated into test cases description.  
 
-![](../../images/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-field-marked.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-field-marked.png)  
 
   
 
 To create Katalon Gherkin custom field, please follow [Atlassian's instruction](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
 
-![](../../images/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)  
 
 Katalon Studio Test Execution Status
 ------------------------------------
 
 Once integrated, Katalon Studio BDD's will present the latest execution result inside the issue page. The result includes the status (PASSED, FAILED, INCOMPLETE, ERROR) and links to the associated artifacts (e.g. logs, screenshots etc.).
 
-![](../../images/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-status-marked.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-status-marked.png)  
 
 JQL Syntax
 ----------
@@ -62,4 +62,4 @@ Where Status value can be one of the following:
 
 For example, to search for all issues that have failed in Katalon Studio test execution_:_
 
-![](../../images/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-2.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-2.png)

@@ -23,7 +23,7 @@ To integrate with BrowserStack, you need to execute your test scripts using '[Re
     
 3.  Navigate to this page: [https://www.browserstack.com/automate/junit#configure-capabilities](https://www.browserstack.com/automate/junit#configure-capabilities)
 4.  Select desired capabilities you would like to use, in my case I select iOS and device's name is: iPhone 6S Plus. Desired capabilities values are generated upon your selection.  
-    ![](../../images/katalon-studio/docs/browserstack-integration/Screen-Shot-2017-10-04-at-10.07.23.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/Screen-Shot-2017-10-04-at-10.07.23.png)
 
 4.In Katalon Studio, open ['Remote' ](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
 
@@ -35,6 +35,6 @@ To integrate with BrowserStack, you need to execute your test scripts using '[Re
     
 *   Other settings are gotten from step #4.
 
-![](../../images/katalon-studio/docs/browserstack-integration/Window.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/Window.png)
 
 5\. The final step will be selecting '**Remote**' item for execution.

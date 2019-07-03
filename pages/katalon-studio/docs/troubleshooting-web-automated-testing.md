@@ -35,7 +35,7 @@ Unable to record on Internet Explorer
         *   Enable the RecorderExtension.RecorderBHO
             
 
-              ![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png)
+              ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png)
 
 Unable to connect to Katalon server
 -----------------------------------
@@ -52,7 +52,7 @@ to communicate through Windows Firewall. Here is the full [guide](https://www.ho
 
 These executable files can be located in : **<Katalon Studio folder>\\configuration\\resources\\drivers**
 
-**![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png)![](../../images/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png)  
+**![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png)![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png)  
 **
 
 You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall block them as well.

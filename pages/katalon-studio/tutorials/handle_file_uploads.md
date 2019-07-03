@@ -28,7 +28,7 @@ Steps:
 
 **Manual Mode**:
 
-![Handle File Uploads testing Manual Mode](../../images/katalon-studio/tutorials/handle_file_uploads/Handle-File-Uploads-Manual-Mode-1024x167.png)
+![Handle File Uploads testing Manual Mode](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_file_uploads/Handle-File-Uploads-Manual-Mode-1024x167.png)
 
 We can also use the **script mode**. Below script is the code to upload a file and validate the uploaded file.
 
@@ -64,7 +64,7 @@ Steps:
 
 **Manual Mode:**
 
-![File Uploads using send key](../../images/katalon-studio/tutorials/handle_file_uploads/Sendkeys_Upload_file_Manual-1024x208.png)
+![File Uploads using send key](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_file_uploads/Sendkeys_Upload_file_Manual-1024x208.png)
 
 **Script Mode:**
 
@@ -94,7 +94,7 @@ After downloading a file from the application we need to verify whether the file
 
 For that, we need to set preferences for Firefox, as shown in the Image below.
 
-![Verify a Downloaded file](../../images/katalon-studio/tutorials/handle_file_uploads/Verify-a-Downloaded-File.png)
+![Verify a Downloaded file](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_file_uploads/Verify-a-Downloaded-File.png)
 
 **Script Mode:**
 

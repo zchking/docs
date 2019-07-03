@@ -29,7 +29,7 @@ This alert method is used to confirm an action performed by the user. You can ha
 *   Step 3: Clicking on button
 *   Step 4: Call the Accept alert method
 
-**![Handle Accept Alerts using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Handle-accept-alert.png)**
+**![Handle Accept Alerts using Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alerts/Handle-accept-alert.png)**
 
 **Script Mode**
 
@@ -67,7 +67,7 @@ This alert method is used to ask the user to cancel something.
 *   Step 3: Clicking on button
 *   Step 4: Call the Dismiss alert method
 
-**![Handle dismiss alerts using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Handle-dismiss-alert.png)**
+**![Handle dismiss alerts using Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alerts/Handle-dismiss-alert.png)**
 
 **Script Mode**
 
@@ -105,7 +105,7 @@ We can pass text to an **Alert** text message by using the **sendKeys()** method
 *   Step 3: Clicking on button
 *   Step 4: By sendKeys method passing the Text to an Alert
 
-![Send data to an alert dialog using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Send-data-to-an-alert-dialog.png)
+![Send data to an alert dialog using Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alerts/Send-data-to-an-alert-dialog.png)
 
 **Script Mode**
 
@@ -154,7 +154,7 @@ We can capture the message on Alert by using the getText() method.
 *   Step 4: Getting the text from the alert and storing it in Variable
 *   Step 5: Verifying the Actual and Expected text from Alert
 
-![Capture the alert message using Katalon Studio](../../images/katalon-studio/tutorials/handle_alerts/Capture-alert-message.png)
+![Capture the alert message using Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alerts/Capture-alert-message.png)
 
 **Script Mode**
 

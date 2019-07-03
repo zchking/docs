@@ -34,7 +34,7 @@ Example 
 You want to get device manufacturer of the current active mobile device, then store it into "manufacturer" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-device-manufacturer/image2017-3-3-113A293A20.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-device-manufacturer/image2017-3-3-113A293A20.png)
 *   Script view 
     
     ```groovy

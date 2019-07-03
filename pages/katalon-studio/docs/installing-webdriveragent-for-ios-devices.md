@@ -17,7 +17,7 @@ description:
 
 *   Open **Xcode > Preferences > Accounts**: Add developer's Apple ID 
 
-![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A4.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A4.png)
 
 
 
@@ -39,25 +39,25 @@ sh ./Scripts/bootstrap.sh -d
 
 
 *   Open project **WebDriverAgent.xcodeproj** within folder **WebDriverAgent** in Xcode.
-    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A29.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A29.png)
 
 
 *   Select target **WebDriverAgentLib**, in the Signing section, check **Automatically manage signing** and select the team.
-    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A56.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A56.png)
 
 
 *   Then on the menu bar, select **Product > Build**
-    **![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A523A23.png)**
+    **![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A523A23.png)**
 
 *   Repeat the last two steps for **WebDriverAgentRunner**
 
 *   Xcode may fail to create a provisioning profile for the `WebDriverAgentRunner` target:
 
-    [![Xcode provisioning fail](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-facebook-fail.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-facebook-fail.png)
+    [![Xcode provisioning fail](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-facebook-fail.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-facebook-fail.png)
 
 *   This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from `com.facebook.WebDriverAgentRunner` to something that Xcode will accept:
 
-    [![Xcode bundle id](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-bundle-id.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-bundle-id.png)
+    [![Xcode bundle id](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-bundle-id.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-bundle-id.png)
 
 
 *   Build **WebDriverAgent** by executing this command on Terminal in WebdriverAgent folder to verify all above steps worked
@@ -69,7 +69,7 @@ sh ./Scripts/bootstrap.sh -d
     _where <udid> is your Device ID_
 
 *   In case this dialog is displayed, select **Always Allow**.
-    ![](../../images/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A543A6.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A543A6.png)
 
 
 
@@ -84,7 +84,7 @@ sh ./Scripts/bootstrap.sh -d
             t =     0.00s     Set Up
     ```
 
-    ![Build-Output](../../images/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Build-Output.png)
+    ![Build-Output](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/set_up_mobile_automation_project_macos/Build-Output.png)
 
 
 *   (OPTIONAL) To completely verify , you can try accessing the WebDriverAgent server status (note: you _must_ be on the same network as the device, and know its IP address, from Settings => Wi-Fi => Current Network)

@@ -34,7 +34,7 @@ Example 
 You want to verify if the first number is greater than or equal to the second number.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/common-verify-greater-than-or-equal/image2017-3-3-173A303A33.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/common-verify-greater-than-or-equal/image2017-3-3-173A303A33.png)
 *   Script view 
     
     ```groovy

@@ -13,19 +13,19 @@ Scenario
 
 Scroll down in Planet Spinner list and **select** "Pluto". **Verify** selected value "Pluto".
 
-![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test.png)
+![Handle Spinner in Mobile Automation Testing](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test.png)
 
 Manual Mode
 -----------
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input.** A dialog will be displayed. In **appFile**, select **Value Type** as **Variable**. In **Value**, pass the variable name as **path**.
 
-![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-1.png)
+![Handle Spinner in Mobile Automation Testing](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-1.png)
 
 *   Step 2: Add **Wait For Element Present** item.
 *   Step 3: Call **Scroll To Text** from mobile keyword, pass the input as **Views**. **Scroll To Text** accepts String type parameter (Text of the element to scroll to).
 
-![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-3.png)
+![Handle Spinner in Mobile Automation Testing](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-3.png)
 
 *   Step 4: Call Tap method and pass the object of **Views.**
 *   Step 5: Call **Scroll To Text** from mobile keyword, pass the input as **Spinner.**
@@ -36,11 +36,11 @@ Manual Mode
 *   Step 10: Call **Tap** method and pass the object of **Pluto** option**.**
 *   Step 11: To verify that **Pluto** option has been selected, we are capturing the text of the selected object by calling **Get Text** keyword and storing it in a variable.
 
-![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-11.png)
+![Handle Spinner in Mobile Automation Testing](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-11.png)
 
 *   Step 12: Call **'Verify Match'** keyword to validate whether the value stored a variable is matched with the expected result.
 
-![Handle Spinner in Mobile Automation Testing](../../images/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-12.png)
+![Handle Spinner in Mobile Automation Testing](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-12.png)
 
 The step-by-step guide can also be achieved through **Script Mode**. We suggest using the Script feature in Katalon to automate the process faster.
 

@@ -27,7 +27,7 @@ Example 
 You want to switch the current device to web view context.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-switch-to-web-view/image2017-3-3-143A493A21.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-switch-to-web-view/image2017-3-3-143A493A21.png)
 *   Script view 
     
     ```groovy

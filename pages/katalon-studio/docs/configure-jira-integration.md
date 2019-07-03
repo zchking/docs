@@ -21,7 +21,7 @@ Configuration
 
 You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
 
-![](../../images/katalon-studio/docs/configure-jira-integration/image2018-3-1-173A403A26.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/image2018-3-1-173A403A26.png)
 
 1.  Select **Enable integration** option. The settings will be available for configuration.
 
@@ -30,7 +30,7 @@ You need to enable JIRA Integration in order to submit issues to JIRA. This sett
 
 
 3.  After successfully authenticating with JIRA, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under **Submit Options**. You can specify the default project and issue type for submission here. 
-    ![](../../images/katalon-studio/docs/configure-jira-integration/image2016-11-3-133A533A20.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/image2016-11-3-133A533A20.png)
     Where:
 
     | Field | Description |

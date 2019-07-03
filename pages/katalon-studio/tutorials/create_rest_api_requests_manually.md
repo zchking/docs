@@ -214,7 +214,7 @@ This tutorial was focused on advanced usage of REST API requests in Katalon. As 
 
 RequestObject and ResponseObject are powerful classes, which may help you to customize your API tests in details.
 
-[![Rest API Request Katalon Studio](../../images/katalon-studio/tutorials/create_rest_api_requests_manually/api-testing-interview-question-1024x101.png)](https://www.katalon.com/download)
+[![Rest API Request Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_rest_api_requests_manually/api-testing-interview-question-1024x101.png)](https://www.katalon.com/download)
 
 **Read more:**
 

@@ -24,7 +24,7 @@ In case you need to add more desired capabilities to the browsers, then:
 *   Go to **Project → Settings → Execution → ****Default** → Select either [Chrome (headless)](/pages/viewpage.action?pageId=13700170) or[Firefox (headless)](/pages/viewpage.action?pageId=13700172)
 *   Add your desired capabilities in these settings. For example, to make your Chrome (headless) start in smaller Window size:
 
-![Configuring headless browsers](../../images/katalon-studio/docs/headless-browsers-execution/Configuring-headless-browsers.png)To find out more about desired capabilities, refer to this [guide](/display/KD/Introduction+to+Desired+Capabilities).
+![Configuring headless browsers](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/Configuring-headless-browsers.png)To find out more about desired capabilities, refer to this [guide](/display/KD/Introduction+to+Desired+Capabilities).
 
 Executing automation tests
 --------------------------
@@ -36,12 +36,12 @@ Executing automation tests
 *   Select either Chrome (headless) or Firefox (headless) from the execution items list
 
 
-![Executing automation test](../../images/katalon-studio/docs/headless-browsers-execution/Executing-automation-test.png)
+![Executing automation test](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/Executing-automation-test.png)
 
 *   Then, your current test case / test suite will be executed using the selected headless browser
 
 
-![execute test case](../../images/katalon-studio/docs/headless-browsers-execution/execute-test-case.png)
+![execute test case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/execute-test-case.png)
 
 ### Execute test suite collection
 
@@ -54,12 +54,12 @@ Executing automation tests
 *   Select either **Chrome (headless)** or **Firefox (headless)**
 
 
-![Execute Test Suite Collection](../../images/katalon-studio/docs/headless-browsers-execution/Execute-Test-Suite-Collection.png)
+![Execute Test Suite Collection](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/Execute-Test-Suite-Collection.png)
 
 *   Save changes to your current test suite collection
 
 
-![Test Suite Collection](../../images/katalon-studio/docs/headless-browsers-execution/Test-Suite-Collection.png)
+![Test Suite Collection](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/Test-Suite-Collection.png)
 
 *   Execute this test suite collection and Katalon Studio will use the selected environment to run
 
@@ -74,12 +74,12 @@ We recommend using headless browser in console mode execution for faster and mor
 *   Click the **Build CMD** button on the main toolbar.
 
 
-![Execute using console mode execution](../../images/katalon-studio/docs/headless-browsers-execution/Execute-using-console-mode-execution.png)
+![Execute using console mode execution](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/Execute-using-console-mode-execution.png)
 
 *   Execute your tests in console mode using the *generated command script* from Katalon Studio.
 
 
-![Execute using console mode execution](../../images/katalon-studio/docs/headless-browsers-execution/Execute-using-console-mode-execution-2.png)
+![Execute using console mode execution](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/Execute-using-console-mode-execution-2.png)
 
 Note: The headless browsers will NOT be displayed during this execution step.
 

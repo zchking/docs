@@ -9,7 +9,7 @@ description: "Web Element Locators - How to group elements into a unique block"
 
 Very often, a web page has many elements that use the same formats and styles. One locator may identify more than one element, making it more difficult for developers to identify unique elements. See the example below:
 
-![Agoda Hotels](../../images/katalon-studio/tutorials/how_to_handle_web_element_block_locators/agoda_list.png)
+![Agoda Hotels](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_to_handle_web_element_block_locators/agoda_list.png)
 
 _(Source: https://www.agoda.com)_
 
@@ -79,7 +79,7 @@ Making a group of elements into a unique block is an essential task in Web UI te
 
 **Issue list in JIRA**
 
-![Issue list in JIRA](../../images/katalon-studio/tutorials/how_to_handle_web_element_block_locators/jira_list.png)
+![Issue list in JIRA](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_to_handle_web_element_block_locators/jira_list.png)
 
 Unique block:
 Each row in the table is a unique block
@@ -87,7 +87,7 @@ Key is a good candidate for unique identifier
 
 **Reused controls**
 
-![Dropdown control](../../images/katalon-studio/tutorials/how_to_handle_web_element_block_locators/dropdown.png)
+![Dropdown control](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_to_handle_web_element_block_locators/dropdown.png)
 
 **Unique block:**
 

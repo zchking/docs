@@ -47,11 +47,11 @@ You can manage Test Case Variable in the **Variables** tab of the **Test Case Ed
 
 To add variable using grid view, switch to **Variables** tab of your Test Case. Then click **Add**. A new row is added to the variable list. Modify the variable details and save the test case once done.
 
-![](../../images/katalon-studio/docs/variable-types/variable-manual-mode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/variable-manual-mode.png)
 
 Alternatively, variables can be added using Script Mode. Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script Editor with XML format. For example:
 
-![](../../images/katalon-studio/docs/variable-types/variable-script-mode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/variable-script-mode.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -95,7 +95,7 @@ WebUI.click(findTestObject('Page_Login/btn_Login'))
 landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
 ```
 
-![](../../images/katalon-studio/test-case-variables-manual-mode.PNG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/test-case-variables-manual-mode.PNG)
 
 Test Case Variables can be utilized as parameters for the test case in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding)).
 

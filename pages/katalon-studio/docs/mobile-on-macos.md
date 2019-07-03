@@ -41,15 +41,15 @@ If you want to test an Android application on your local device. You will need t
 
 After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in your Katalon Studio installation) and execute a test suite using an Android device: 
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2017-6-29-143A483A34.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2017-6-29-143A483A34.png)  
 
 Select your device from the **Android Devices** list. Click **OK**. 
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2018-1-26-183A393A1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-1-26-183A393A1.png)
 
 If your test suite runs successfully, you will see the results in the test reports as follow:
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2018-6-15-173A473A28.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-6-15-173A473A28.png)
 
 For more information on how to run a test suite, check out the documentation [here](/pages/viewpage.action?pageId=786668).
 
@@ -145,11 +145,11 @@ Choose your device from the Devices list.
 
 Press the "+" button and choose you application file.
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
 
 If installed successfully, the application will appear in the Installed Apps section as shown below.  
 
-![](../../images/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
 
 ## Finishing Steps

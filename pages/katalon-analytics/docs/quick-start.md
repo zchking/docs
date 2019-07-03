@@ -25,24 +25,24 @@ Logging in
 
 1.  Navigate to: [https://analytics.katalon.com](https://analytics.katalon.com/)
 2.  Enter Katalon account to log on to Katalon Analytics dashboard
-    ![](../../images/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.14.44-AM.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.14.44-AM.png)
 
 
 3.  Once logged in **successfully**, Katalon Analytics **home page** will display
 
-    ![](../../images/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.17.33-AM.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.17.33-AM.png)
 
 Logging out
 -----------
 
 Click on the **name** of **current logged on** **user** on the upper right corner. Select **Log out**
 
-![](../../images/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.19.20-AM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.19.20-AM.png)
 
 Main Toolbar
 ------------
 
-_![](../../images/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.19.59-AM.png)
+_![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/quick-start/Screen-Shot-2018-09-26-at-11.19.59-AM.png)
 _
 
 <table>

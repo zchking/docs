@@ -13,7 +13,7 @@ Starting from version 3.5.0 Katalon Recorder supports extension scripts (AKA use
 
 **After installing extension scripts, please restart Katalon Recorder and refresh the web page you want to work on.**
 
-![](../../images/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-21-42.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-21-42.png)
 
 The following instructions were based on the original documentation ([https://www.seleniumhq.org/docs/08\_user\_extensions.jsp](https://www.seleniumhq.org/docs/08_user_extensions.jsp)).
 
@@ -99,4 +99,4 @@ Adding extension scripts into Katalon Recorder
 
 To add an extension script, click the "Extension Scripts" tab on the bottom panel, and click the "Add Extension Script" button. **Please remember to refresh the tabs you want to work on because the new extension script only has effects on tabs opened after being added.**
 
-![](../../images/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-45-06.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-45-06.png)

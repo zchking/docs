@@ -36,7 +36,7 @@ Example 
 You want to get the top position of the object "android.widget.TextView - App" , then store it into "top_position" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-element-top-position/image2017-3-3-143A213A23.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-element-top-position/image2017-3-3-143A213A23.png)
 *   Script view 
     
     ```groovy

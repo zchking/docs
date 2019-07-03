@@ -18,7 +18,7 @@ Install Katalium Extension [here](https://marketplace.visualstudio.com/items?ite
 
 In Visual Studio Code, enter Katalon email and password to activate.
 
-![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/activate.gif)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-vscode/activate.gif)
 
 ## Create project
 
@@ -32,15 +32,15 @@ To start Katalium Server, click **Start Server** button.
 
 _Note: You can view server information in Output tab of Katalium. For example:_
 
-![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/before-start-server-vscode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-vscode/before-start-server-vscode.png)
 
-After starting server, open browser in https://localhost:4444/.
+After starting server, open browser in http://localhost:4444/.
 
-![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/start-server-vscode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-vscode/start-server-vscode.png)
 
 ## Run your first test in Visual Studio Code
 
-![](../../images/katalium-framework/docs/katalium-framework-get-started-vscode/run-test-vscode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-vscode/run-test-vscode.png)
 
 ## Run your first test in CLI
 

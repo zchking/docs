@@ -37,7 +37,7 @@ Example 
 You want to get the attribute "text" of the object "android.widget.TextView - App".
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-attribute/image2017-3-3-113A113A38.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-attribute/image2017-3-3-113A113A38.png)
 *   Script view 
     
     ```groovy

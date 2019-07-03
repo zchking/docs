@@ -89,19 +89,19 @@ Add Katalon path to environment variables
 *   Go to Control Panel > System and Security > System
 *   Click on "Advanced system settings" on the left pane
 
-![Add Katalon Path](../../images/katalon-studio/tutorials/continuous_integration_gitlab/1.png)
+![Add Katalon Path](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/1.png)
 
 *   Choose "Advanced" tab and click "Environment Variables…"
 
-![Katalon Environment Variables](../../images/katalon-studio/tutorials/continuous_integration_gitlab/2.png)
+![Katalon Environment Variables](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/2.png)
 
 *   In "System variables" section, choose the variable "Path" and click "Edit…"
 
-![Katalon System variables](../../images/katalon-studio/tutorials/continuous_integration_gitlab/3.png)
+![Katalon System variables](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/3.png)
 
 *   In the "variable value" field add ; then the directory of Katalon Studio
 
-![Katalon Edit System Variables](../../images/katalon-studio/tutorials/continuous_integration_gitlab/4.png)
+![Katalon Edit System Variables](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/4.png)
 
 **Note:** the first 3 steps are needed only once.
 
@@ -110,23 +110,23 @@ Make changes and test
 
 After saving some changes, push them to your git repository. After that, open the repository > CI/CD > Pipelines
 
-![gitlab changes and test](../../images/katalon-studio/tutorials/continuous_integration_gitlab/5-1024x463.png)
+![gitlab changes and test](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/5-1024x463.png)
 
 *   You can see one of the following marks in your pipeline:
 
-![pipeline](../../images/katalon-studio/tutorials/continuous_integration_gitlab/pipeline.png)
+![pipeline](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/pipeline.png)
 
 Now, click on the job link.
 
-![Run Katalon Test Suite](../../images/katalon-studio/tutorials/continuous_integration_gitlab/6.png)
+![Run Katalon Test Suite](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/6.png)
 
 *   See testing results (you may need to wait some time to see results)
 
-![Katalon Testing Results](../../images/katalon-studio/tutorials/continuous_integration_gitlab/7-1024x491.png)
+![Katalon Testing Results](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/7-1024x491.png)
 
 **Note:** you can see an error like this:
 
-![Katalon Error run test](../../images/katalon-studio/tutorials/continuous_integration_gitlab/8.png)
+![Katalon Error run test](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/8.png)
 
 If you see it, run the command below from your local git repository and try again.
 
@@ -140,4 +140,4 @@ Conclusion
 
 Once you have Katalon test cases prepared, you only need to focus on updating your project. You will no longer need to repeatedly go and run test cases manually after each update, because this process is already automated. You are just informed whether your commits are successful or not. However, you can still find detailed testing reports in the Reports folder that is located in your Katalon Studio project root directory. The development and testing processes can be summarized in the following diagram:
 
-![Development and testing processes](../../images/katalon-studio/tutorials/continuous_integration_gitlab/9.png)
+![Development and testing processes](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/9.png)

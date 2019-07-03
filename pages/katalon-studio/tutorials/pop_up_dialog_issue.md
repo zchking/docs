@@ -23,15 +23,15 @@ Below are a few commonly used pop-ups which might cause problems in your test we
 *   New browser window.
 *   Alert: An alert box is often used to make sure that information comes through to the user.
 
-![Alert box Katalon Studio](../../images/katalon-studio/tutorials/pop_up_dialog_issue/alert-box-300x94.png)
+![Alert box Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/alert-box-300x94.png)
 
 *   Custom modal dialog: A modal dialog is a dialog box/pop-up window that is displayed on top of the current page.
 
-![Custom modal dialog](../../images/katalon-studio/tutorials/pop_up_dialog_issue/sign-in.png)
+![Custom modal dialog](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/sign-in.png)
 
 *   Native Window dialog. This dialog is common in case of testing uploading files
 
-![Native Window dialog](../../images/katalon-studio/tutorials/pop_up_dialog_issue/Native-Window-dialog.png)
+![Native Window dialog](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/Native-Window-dialog.png)
 
 **A suggested solution for handling pop-ups using Katalon Studio:**
 
@@ -39,7 +39,7 @@ To handle such pop-ups as described, you need to capture them first using the Ob
 
 The following screenshot shows simple scripts on how to handle a pop-up using the [Switch To Window Title](/display/KD/%5BWebUI%5D+Switch+To+Window+Title) keyword.
 
-![Solving Pop-up dialog issue](../../images/katalon-studio/tutorials/pop_up_dialog_issue/Switch-To-Window-Title-keyword..png)
+![Solving Pop-up dialog issue](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/Switch-To-Window-Title-keyword..png)
 
 ```groovy
 'Open browser and navigate to elated site'
@@ -132,7 +132,7 @@ We need to use it when you want to switch to the second window (index 1).
 
 **Manual Mode:**
 
-![Switch To Window Index](../../images/katalon-studio/tutorials/pop_up_dialog_issue/Switch-to-Window-Index.png)
+![Switch To Window Index](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/Switch-to-Window-Index.png)
 
 **Script Mode:**
 
@@ -173,7 +173,7 @@ Switch to the window with given title.
 
 **Manual Mode:**
 
-![Switch To Window Title ](../../images/katalon-studio/tutorials/pop_up_dialog_issue/switch-to-window-title.png)
+![Switch To Window Title ](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/switch-to-window-title.png)
 
 **Script Mode:**
 
@@ -214,7 +214,7 @@ Switch to the window with given URL.
 
 **Manual Mode:**
 
-![Switch To Window Url ](../../images/katalon-studio/tutorials/pop_up_dialog_issue/switch-to-window-url.png)
+![Switch To Window Url ](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/switch-to-window-url.png)
 
 **Script Mode:**
 

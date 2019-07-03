@@ -11,11 +11,11 @@ To create a draft request, click on the ‘New Draft Request’ icons (REST or S
 
 Katalon Studio will open a ‘Draft Request Details’ view based on the selected request type. Here, you need to enter all the required request information. You can also leverage the ‘Verification’ feature to verify the response values if they match with the predefined API specification.
 
-![](../../images/katalon-studio/docs/draft-request/draft-overview.png) 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/draft-request/draft-overview.png) 
 
 
 If you decide to add a draft request to your test case, select the desired request and click ‘Save.’ You will be asked to specify the name and target folder in ‘Object Repository.
 
-![](../../images/katalon-studio/docs/draft-request/save-draft.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/draft-request/save-draft.png)
 
 Now you can execute your test case with the new web service request as usual. 

@@ -13,7 +13,7 @@ This function only works when you have already installed the plugin that defines
 After the plugin has been installed from Katalon Store, go to Katalon Studio and click **Reload Plugins**. [Learn more on how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins). In case there is no installed plugin, the Query Provider will be set to default as “No query provider available.”
 
 
-![](../../images/katalon-studio/docs/dynamic-querying-test-suite/Dynamic-querying-test-suite-window.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/Dynamic-querying-test-suite-window.png)
 
 **Query Provider** indicates the currently applied query syntax standard of a plugin.For example:
 When you install the Dynamic Test Case Planning and Execution plugin, the option of choosing Dynamic Test Case Planning and Execution query syntax in Query Provider is enabled.

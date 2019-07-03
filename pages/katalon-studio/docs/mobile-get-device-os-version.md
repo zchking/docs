@@ -34,7 +34,7 @@ Example 
 You want to get device OS version of the current active mobile device, then store it into "version" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-device-os-version/image2017-3-3-143A03A54.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-device-os-version/image2017-3-3-143A03A54.png)
 *   Script view 
     
     ```groovy

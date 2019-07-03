@@ -20,7 +20,7 @@ This would be applicable for Chrome, Firefox and Edge.
 *   Install autoIT (Autoit Full Installation and AutoIt Script Editor) at [https://www.autoitscript.com/site/autoit/downloads/](https://www.autoitscript.com/site/autoit/downloads/)
     
 
-![](../../images/katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio/wpMJM58XL4bJUF-zmJZPMKebEtKP5jEyWJJpawmha20-V2RugS)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio/wpMJM58XL4bJUF-zmJZPMKebEtKP5jEyWJJpawmha20-V2RugS)
 
 3\. **Steps Details:**
 

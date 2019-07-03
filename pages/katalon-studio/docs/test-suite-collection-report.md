@@ -13,7 +13,7 @@ Once a test suite collection finishes its execution, a historical report will be
 
 For example:
 
-![](../../images/katalon-studio/docs/test-suite-collection-report/image2017-2-24-203A483A52.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection-report/image2017-2-24-203A483A52.png)
 
 The report will be named with following the naming convention: _YYYYMMDD_HHmmss_, which is the datetime when the test suite collection starts its execution.
 
@@ -22,7 +22,7 @@ Test Suite Collection Report
 
 In **Test Explorer** view, double-click on a historical execution of a test suite collection to view its details:
 
-![](../../images/katalon-studio/docs/test-suite-collection-report/image2017-2-24-203A523A54.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection-report/image2017-2-24-203A523A54.png)
 
 where:
 
@@ -38,4 +38,4 @@ Export to other formats
 -----------------------
 
 For the purpose of sharing, users can generate reports of Test Suite Collection into **HTML** format using the context menu in Test Explorer as example below:   
-![](../../images/katalon-studio/docs/test-suite-collection-report/image2017-6-23-163A123A5.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection-report/image2017-6-23-163A123A5.png)

@@ -76,13 +76,13 @@ Create a Test Data with option _bind into test case as string_ enabled and with 
 
 
 
-![](../../images/katalon-studio/docs/bind-as-string/1-create-test-data-enabled.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/1-create-test-data-enabled.png)
 
 
 Follow the steps in [this document](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html) and run the test case. Then we will have the result as below:
 
 
-![](../../images/katalon-studio/docs/bind-as-string/2-failed.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/2-failed.png)
 
 
 The test suite should fail because the first keyword function takeBooleanAndPrint does not expect a String, but because _bind into test case as string_ is enabled so test data values are read as string.
@@ -92,12 +92,12 @@ The test suite should fail because the first keyword function takeBooleanAndPrin
 
 Create a Sample Test Data with option _bind into test case as string_ disabled.
 
-![](../../images/katalon-studio/docs/bind-as-string/3-create-test-data-disabled.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/3-create-test-data-disabled.png)
 
 
 Repeat the steps same as above. Then we will have the result as below:
 
-![](../../images/katalon-studio/docs/bind-as-string/4-passed.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/4-passed.png)
 
 
 The test suite should pass because _bind into test case as string_ is disabled so test data values are read as-is and all keyword functions receive their expected data types.

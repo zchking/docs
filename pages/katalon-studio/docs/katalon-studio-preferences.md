@@ -13,7 +13,7 @@ These preferences define default behavior of Katalon Studio across projects.
 
 For Windows users, you can access the Katalon Studio Preferences by selecting **Window > Katalon Studio Preferences**from the menu.
 
-![](../../images/katalon-studio/docs/katalon-studio-preferences/image2017-2-21-183A403A38.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/image2017-2-21-183A403A38.png)
 
 For macOS users, you can access the Katalon Studio Preferences by selecting **Katalon Studio > Katalon Studio Preferences** from the menu.
 

@@ -17,15 +17,15 @@ Assert statement in Manual view
 -------------------------------
 
 1.  Open a test case in **Manual** view, then navigate to **Assert Statements** from command toolbar.  
-    ![](../../images/katalon-studio/docs/assert-statements/image2017-6-30-203A443A0.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-6-30-203A443A0.png)  
       
     
 2.  A test step represents assert expression is added to the test case.  
-    ![](../../images/katalon-studio/docs/assert-statements/image2017-2-10-143A353A6.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-2-10-143A353A6.png)  
       
     
 3.  Double click on the **Input** cell to edit the assertion.  
-    ![](../../images/katalon-studio/docs/assert-statements/image2017-2-10-153A23A25.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-2-10-153A23A25.png)
     
     > Once a test step is added as **Assert Statement**, it will **not** be allowed to change into another keyword.
     
@@ -37,4 +37,4 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
- ![](../../images/katalon-studio/docs/assert-statements/11.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/11.png)

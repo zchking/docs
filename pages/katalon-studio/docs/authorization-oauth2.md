@@ -21,16 +21,16 @@ These following grant types are supported in Katalon Studio: “Authorization co
 In Katalon Studio, how to test “Password Credentials”, “Client Credentials”, “Refresh Token” is quite similar to any other API testing tools. However, “Authorization Code” grant type has different work flow, please follow the example below to learn how “Authorization Code” in OAuth 2.0 works:
  
  
-![](../../images/katalon-studio/docs/authorization-oauth2/1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/authorization-oauth2/1.png)
 
 1.	Select the desired grant type in Grant Type drop down menu.  
 
-![](../../images/katalon-studio/docs/authorization-oauth2/2.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/authorization-oauth2/2.png)
 
 2.	Enter the appropriate values (Callback URL, Auth URL, Access Token URL, Consumer Key, Consumer Secret) and then click the “Request token” button
 To learn please refer to [this guide](https://apidocs.imgur.com/#authorization-and-oauth). 
 
-![](../../images/katalon-studio/docs/authorization-oauth2/3.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/authorization-oauth2/3.png)
 
 3.	Copy & paste the URL displayed in the message and then copy & paste the returned URL from your browser’s address bar into the blank box.  
 
@@ -39,5 +39,5 @@ To learn please refer to [this guide](https://apidocs.imgur.com/#authorization-a
 
 > Be sure to click on 'update to HTTP Header' button to use current authentication information.
 > 
-> ![](../../images/katalon-studio/docs/authorization-oauth2/4.png)
+> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/authorization-oauth2/4.png)
 

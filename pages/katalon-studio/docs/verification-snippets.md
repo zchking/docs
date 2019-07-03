@@ -13,7 +13,7 @@ Katalon Studio supports the ability to write verification scripts directly in We
 
 Verification snippets can be accessed by clicking on the **Verification** tab within Web Service object's view.
 
-![](../../images/katalon-studio/docs/copy-of-verification-snippets/Screen-Shot-2018-10-09-at-5.39.33-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-verification-snippets/Screen-Shot-2018-10-09-at-5.39.33-PM.png)
 
 Using Verification Snippets
 ---------------------------
@@ -23,17 +23,17 @@ When you click on one of the available snippets, Katalon Studio will automatical
 > The generated snippet is ONLY an example. DON'T try to use them immediately without making adjustments to match your needs.
 
 You can also verify the data of XML or JSON Response Body. To do this, in Response panel, switch to JSON or XML response page, select the data and press key combination 'Ctrl/Command + K' to add verification scripts. 
-![](../../images/katalon-studio/docs/verification-snippets/hotkey.png) 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/verification-snippets/hotkey.png) 
 
 Katalon Studio will compare the values in Response Body with the predefined values in verifcation scripts.
 
 Once the verification snippets are generated, you can use it in either in your current Web Service's object or in your Test Case
 
 *   **_In Web Service's object_**: Click on drop-down button next to '**Play**' button in Web Service object's details and select 'Test Request and Verify'.   
-    ![](../../images/katalon-studio/docs/copy-of-verification-snippets/Untitled3.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-verification-snippets/Untitled3.png)  
       
     It will send the current request and also execute verification snippets. Verification logs executed using verification snippets will be displayed on '**Verification Log**' tab. If you don't want to send a test request using current verification snippets, then just click on '**Play'** button.  
-    ![](../../images/katalon-studio/docs/copy-of-verification-snippets/Screenshot_14.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-verification-snippets/Screenshot_14.png)
 *   **_In test case_**:  Use '[Send Request and Verify](/display/KD/%5BWS%5D+Send+Request+And+Verify)' keyword. This will also send the current request and execute verification snippets. 
     
     ```groovy
@@ -42,7 +42,7 @@ Once the verification snippets are generated, you can use it in either in your c
     
     Execution results will be displayed in '**Log Viewer**' tab.
     
-    ![](../../images/katalon-studio/docs/copy-of-verification-snippets/Untitled2.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-verification-snippets/Untitled2.png)
     
 
 List of Available Verification Snippets

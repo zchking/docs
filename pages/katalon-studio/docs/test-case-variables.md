@@ -42,13 +42,13 @@ In the **Variables** tab of the **Test Case Editor**:
 _Note: Remember to save the test case once done._
 
 
-![](../../images/katalon-studio/docs/test-case-variables/1-test-case-variables.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/1-test-case-variables.png)
 
 
 The result after running the test case with variables will be the same with hard-coded values:
 
 
-![](../../images/katalon-studio/docs/test-case-variables/2-result.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/2-result.png)
 
 
 
@@ -57,7 +57,7 @@ The result after running the test case with variables will be the same with hard
 Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script Editor with XML format. For example:
 
 
-![](../../images/katalon-studio/docs/test-case-variables/3-variables-script-mode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/3-variables-script-mode.png)
 
 
 
@@ -70,29 +70,29 @@ Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script E
 In the following example, the ‘Test Case with variables’ will be called.
 
 
-![](../../images/katalon-studio/docs/test-case-variables/4-test-case-browser.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/4-test-case-browser.png)
 
 
 3. A **Call Test Case** step will be added with the selected test case above as its target.
 
 
 
-![](../../images/katalon-studio/docs/test-case-variables/5-call-test-case.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/5-call-test-case.png)
 
 
 
-![](../../images/katalon-studio/docs/test-case-variables/6-input.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/6-input.png)
 
 
 
-![](../../images/katalon-studio/docs/test-case-variables/7-map-input.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/7-map-input.png)
 
 
 The result after running the test case will be displayed as below:
 
 
 
-![](../../images/katalon-studio/docs/test-case-variables/8-result-after-call-test-case.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/8-result-after-call-test-case.png)
 
 
 

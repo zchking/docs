@@ -19,7 +19,7 @@ Refer to this guide to learn how to [create a test case](katalium-framework/docs
 
 Example of a test case run in IntelliJ IDEA:
 
-![](../../images/katalium-framework/docs/katalium-framework-get-started-other-ides/run-test-ide.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-other-ides/run-test-ide.png)
 
 ## Run your first test in CLI
 

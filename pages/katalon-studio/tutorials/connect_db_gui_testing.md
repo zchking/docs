@@ -137,7 +137,7 @@ _Tips: Press "_**_Ctrl + Shift + o_**_" to automatically import missing librarie
 
 The Custom Keywords file will look like the following:
 
-![Katalon Custom Keywords](../../images/katalon-studio/tutorials/connect_db_gui_testing/Test-Explorer_Custom-Keywords.png)
+![Katalon Custom Keywords](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/connect_db_gui_testing/Test-Explorer_Custom-Keywords.png)
 
 You can add the sample code above to your keyword file and modify the details as appropriated. Refer to these links for the formats of database connection strings:
 
@@ -148,4 +148,4 @@ You can add the sample code above to your keyword file and modify the details as
 
 1\. Create new custom keywords for database connection (see above).
 
-2\. Copy the DB script provided above and paste it into the new keyword editor as illustrated below:![Katalon Defined Keywords](../../images/katalon-studio/tutorials/connect_db_gui_testing/DB-Testing.png)
+2\. Copy the DB script provided above and paste it into the new keyword editor as illustrated below:![Katalon Defined Keywords](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/connect_db_gui_testing/DB-Testing.png)

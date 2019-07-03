@@ -19,7 +19,7 @@ Modify Execution Information
 
 You can manage additional configurations for test suite execution by expanding the **Execution Information** section, as below:
 
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
 
 <table>
    <thead>
@@ -32,7 +32,7 @@ You can manage additional configurations for test suite execution by expanding t
       <tr>
          <td>
             <p>Page load timeout:</p>
-            <p>&nbsp;<img src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A563A48.png"></p>
+            <p>&nbsp;<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A563A48.png"></p>
          </td>
          <td>
             <p>The timeout period allowed to wait for a page to be loaded. You can choose among the following options:</p>
@@ -46,7 +46,7 @@ You can manage additional configurations for test suite execution by expanding t
       <tr>
          <td>
             <p>Retry:</p>
-            <p><img src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A93A6.png"></p>
+            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A93A6.png"></p>
          </td>
          <td>
             <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases.</p>
@@ -56,7 +56,7 @@ You can manage additional configurations for test suite execution by expanding t
       <tr>
          <td>
             <p>Mail Recipients</p>
-            <p><img src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A123A46.png"></p>
+            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A123A46.png"></p>
          </td>
          <td>
             <p>The list of recipients who would receive the execution report once the test suite finishes its execution.</p>
@@ -68,7 +68,7 @@ You can manage additional configurations for test suite execution by expanding t
       <tr>
          <td>
             <p>Last run:</p>
-            <p><img src="../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A143A55.png"></p>
+            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A143A55.png"></p>
          </td>
          <td>
             <p>The datetime when the test suite was last executed. You can quickly open the report of this execution by clicking on the <strong>Last run</strong> hyperlink.</p>
@@ -86,7 +86,7 @@ There are several ways to add Test Cases into Test Suites. You can drag and drop
 >_Note: Test Cases can be duplicated in the same Test Suite._
 
 Open a test suite, then select option to add **Add Test Case** from command toolbar.  
-![](../../images/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A333A40.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A333A40.png)
 
 All test cases in Katalon Studio are displayed in the **Test Case Browser** dialog for you to select your preferred options. The selected test cases will be added in the test case list accordingly.  
 

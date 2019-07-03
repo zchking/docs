@@ -16,12 +16,12 @@ Manual Mode
 
 *   Step 1**:** Select **Start Application** from Mobile keyword and click on **Input** it will open a window. In **appFile**, select **Value Type** as **Variable**. In **Value**, pass the variable name as **path**.
 
-![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-1.png)
+![Select an element from a list in mobile automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-1.png)
 
 *   Step 2: Add **Wait For Element Present** item.
 *   Step 3: Call **Scroll To Text** from mobile keyword, pass the input as **Views**. **Scroll To Text** accepts String type parameter (Text of the element to scroll to).
 
-![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-9.png)
+![Select an element from a list in mobile automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-9.png)
 
 *   Step 4: Call **Tap** method and pass the object of **Views.**
 *   Step 5: Call **Scroll To Text** from mobile keyword, pass the input as **Radio Group.**
@@ -30,11 +30,11 @@ Manual Mode
 *   Step 8: Add a **binary statement** to initialize **Appium Driver** with Katalon **Mobile Driver**.
 *   Step 9: Add another **binary statement** to get all radio elements and store in a List. In **Left Expression**, select '**Variable**' as **Value Type** and pass '**elements**' in **Value**. In **Right expression**, select '**Method Call**' as **Value Type** and pass the list of radio buttons object information.
 
-![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-92.png)
+![Select an element from a list in mobile automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-92.png)
 
 *   Step 10: Add a **for-each loop** statement.
 
-![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-10.png)
+![Select an element from a list in mobile automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-10.png)
 
 – Step 10.1: Add a **binary statement** to capture the text of each element in the list and store it in the "**actual_Text**" variable.
 
@@ -42,7 +42,7 @@ Manual Mode
 
 – Step 10.3: After performing click event, we need to **terminate** for each loop. Add a method call statement **'break'** to achieve this.
 
-![Select an element from a list in mobile automation](../../images/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-11.png)
+![Select an element from a list in mobile automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-11.png)
 
 The step-by-step guide can also be achieved through **Script Mode**. We suggest using the Script feature in Katalon to automate the process faster.
 

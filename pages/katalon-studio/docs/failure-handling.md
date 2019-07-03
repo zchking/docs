@@ -22,7 +22,7 @@ Default failure handling behavior
 Follow these steps to define the default behavior for failure handling to be applied across your project:
 
 1.  From Katalon Studio menu, access **Project > Settings > Test Case**.   
-    ![](../../images/katalon-studio/docs/failure-handling/image2017-6-30-203A363A43.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/image2017-6-30-203A363A43.png)  
       
     
 2.  Select the preferred option for the default behavior of **Failure Handling**. Click **OK** when you're done.
@@ -38,7 +38,7 @@ You can override the default failure handling behavior for each test step manual
 ### In Manual View
 
 1.  Right click on the step that you want to change the failure handling behavior to trigger its context menu  
-    ![](../../images/katalon-studio/docs/failure-handling/image2017-8-18-153A133A36.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/image2017-8-18-153A133A36.png)  
       
     
 2.  Select the preferred failure handling option and save your test case.  
@@ -55,4 +55,4 @@ FailureHandling.OPTIONAL
 
 For example:
 
-![](../../images/katalon-studio/docs/failure-handling/23.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/23.png)

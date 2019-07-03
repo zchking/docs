@@ -19,9 +19,9 @@ For example, kataProjectId=2, the Project ID will be displayed as https://analyt
 
 See real-time monitoring progress of the test execution:
 
-![](../../images/katalium-framework/docs/katalium-framework-reports/1-test-results.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-reports/1-test-results.png)
 
-![](../../images/katalium-framework/docs/katalium-framework-reports/2-test-results.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-reports/2-test-results.png)
 
 
 - With Katalium extension in Visual Studio Code, this will be automatically setup.

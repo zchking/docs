@@ -36,20 +36,20 @@ Katalon Studio integration with Git introduction
 
 Git Integration is a powerful feature of Katalon Studio for collaboration between team members in test automation projects using Git. This tutorial presents a typical workflow for Git integration with Katalon Studio:
 
-![workflow working with Git in Katalon](../../images/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png)
+![workflow working with Git in Katalon](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png)
 
 Configuration
 -------------
 
 1.  **Enable Git Integration.** In order to access all Git features, you need to enable Git Integration first. The option is available at following settings: **Window > Katalon Studio Preferences > Katalon > Git**. Once enabled, you can start using Git at Katalon Studio main toolbar.
-    ![](../../images/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio-2.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio-2.png)
 
 2. Now the Git integration feature should be **enabled**. We are ready to use Git from Katalon Studio.
 
-![Enable Git integration in Katalon Studio](../../images/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio.png)
+![Enable Git integration in Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio.png)
 
 3.  Advanced configurations are available at **Window > Preferences > Team > Git** in case you want more specific setups.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-6-29-163A563A16.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-6-29-163A563A16.png)
 
 
 Clone a Katalon Studio project from a Git repository
@@ -58,10 +58,10 @@ Clone a Katalon Studio project from a Git repository
 After enabling Git Integration, you can clone an existing **Git repository** into a newly created directory on the local machine.
 
 1.  Select **Clone Project** from **Git** menu of the main toolbar.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-143A13A12.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A13A12.png)
 
 2.  The **Source Git Repository** dialog will be displayed. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-143A33A4.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A33A4.png)
     Where:
 
     | Field | Description |
@@ -79,10 +79,10 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     > ```
 
 3.  At **Branch Selection** screen, you can choose which branches to be checked out as local branches. Click the **Next** button to continue.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-163A303A51.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A303A51.png)
 
 4.  At **Local Destination** dialog, specify the local location for cloning as well as the initial branch.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-163A323A6.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A323A6.png)
 
     Where:
 
@@ -95,7 +95,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
 6.  To verify settings, go to **Window > Katalon Studio Reference > Repository Settings**. Ensure that the Repository is selected correctly with URL specified.
 
-![Integration with Git is completed](../../images/katalon-studio/tutorials/git_integration_introduction/Test-Project-is-ready-for-working1.png)
+![Integration with Git is completed](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Test-Project-is-ready-for-working1.png)
 
 
 Publish a local non-Git project as a Git repository
@@ -104,11 +104,11 @@ Publish a local non-Git project as a Git repository
 **Share Project** is a step to enable Git configuration for you new Katalon Studio project.
 
 1.  Select **Share Project** from **Git** menu of the main toolbar.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-143A273A20.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A273A20.png)
 
 
 2.  Folder **.git** and file **.gitignore** will be created within the Katalon project.
-    ![](../../images/katalon-studio/docs/git-integration/image2016-9-1-153A553A54.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2016-9-1-153A553A54.png)
 
 
     > **`.gitignore`** tells Git which files (or patterns) it should ignore. By default, **.gitignore** content will contain these files and patterns:
@@ -126,11 +126,11 @@ Commit
 The **Commit** option allows users to view all current changes and decide which changes to be stored in local branch. Refer to [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit) for detailed Git documentation regarding Commit command.
 
 1.  Select the **Commit** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-143A383A43.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A383A43.png)
 
 
 2.  The **Git Staging** tab will be display for configuration.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-143A413A43.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A413A43.png)
     Where:
 
     | Field | Description |
@@ -149,14 +149,14 @@ Manage Branches
 ### New Branch
 
 1.  Select the **New Branch** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-143A573A48.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A573A48.png)
 
 
 2.  The **Create Branch** dialog will be displayed. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A23A3.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A23A3.png)
     Where:
 
-    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Source</td><td><p>Select either remote or local branch which will be your source branch.</p><p><img src="../../images/katalon-studio/docs/git-integration/image2017-2-22-163A83A31.png"></p></td></tr><tr><td>Branch name</td><td>The name to be used for the new branch.</td></tr><tr><td>Checkout new branch</td><td>Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
+    <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Source</td><td><p>Select either remote or local branch which will be your source branch.</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A83A31.png"></p></td></tr><tr><td>Branch name</td><td>The name to be used for the new branch.</td></tr><tr><td>Checkout new branch</td><td>Option to let Katalon Studio checkout that branch after created.</td></tr></tbody></table>
 
 3.  Click **Finish** to create new branch.
 
@@ -165,11 +165,11 @@ Manage Branches
 The **Checkout Branch** option allow you to switch from one branch to another.
 
 1.  Select the **Checkout Branch** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A73A15.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A73A15.png)
 
 
 2.  The **Select Source** dialog will be displayed. Select the local branch you want to check out to be current branch. The branch with √ icon is your current local branch.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A83A40.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A83A40.png)
 
 
 3.  Click **OK** to finish checking out to new local branch.
@@ -177,11 +177,11 @@ The **Checkout Branch** option allow you to switch from one branch to another.
 ### Delete Branch
 
 1.  Select the **Delete Branch** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A103A10.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A103A10.png)
 
 
 2.  On this dialog, both local and remote branches are displayed. Select a branch to be deleted then click **OK**.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-163A63A37.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A63A37.png)
 
 Fetch
 -----
@@ -189,19 +189,19 @@ Fetch
 Retrieve all information about changes occurred in remote branches. Refer to [https://git-scm.com/docs/git-fetch](https://git-scm.com/docs/git-fetch) for detailed Git documentation regarding Fetch command
 
 1.  Select the **Fetch** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-163A273A32.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A273A32.png)
 
 
 2.  It will automatically fetch remote branches, tags, and remote changes.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-163A573A18.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A573A18.png)
 
 
 3.  Select **History** from main toolbar 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-173A23A17.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-173A23A17.png)
 
 
 4.  Details regarding all the branches and tags you've just fetched will be displayed.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-173A63A5.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-173A63A5.png)
 
 Pull
 ----
@@ -209,15 +209,15 @@ Pull
 Incorporate changes from a remote repository into the current branch. Refer to [https://git-scm.com/docs/git-pull](https://git-scm.com/docs/git-pull) for detailed Git documentation regarding Pull command
 
 1.  Select the **Pull** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A533A48.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A533A48.png)
 
 
 2.  In the **Pull** dialog, select the remote branch to be pulled into your local branch. Click **Finish**. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A543A56.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A543A56.png)
 
 
 3.  The **Pull Result** dialog will be displayed with all data about pulling request taken on the selected branch.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A563A21.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A563A21.png)
 
 Push
 ----
@@ -227,15 +227,15 @@ Update remote branch using the local branch. Refer to [https://git-scm.com/doc
 Before doing any push, you have to commit your changes first. 
 
 1.  Select **Push** option from **Git** menu of the main toolbar. 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A143A38.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A143A38.png)
 
 2.  The** Push to Branch **dialog will be displayed. Choose from the **Remote branch** list which branch to be updated (All remote branches in your Git repository are listed here). 
 
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A193A28.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A193A28.png)
     Click **Next** after finished selecting your remote branch.
 
     > If you enter a different name besides the listed branches, a new remote branch with that name will be created accordingly.
 
 3.  The **Push Confirmation**Dialog will be displayed with details regarding your commit.
-    ![](../../images/katalon-studio/docs/git-integration/image2017-2-22-153A273A45.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A273A45.png)
     Click on **Finish** to push your commits to the remote repository.

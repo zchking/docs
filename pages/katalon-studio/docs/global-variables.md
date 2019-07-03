@@ -11,15 +11,15 @@ A Global Variable can be accessed anywhere inside your project. Global Variables
 
 Expand the **Global Variable** view. Then click **Add**. 
 
-![](../../images/katalon-studio/docs/variable-types/image2017-6-30-203A273A48.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-6-30-203A273A48.png)
 
 The **New Variable** dialog is displayed. Specify details for the variable then click **OK**.
 
-![](../../images/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png)
 
 
 The variable will be added to the **Global Variable** list accordingly.
-    ![](../../images/katalon-studio/docs/variable-types/image2017-6-30-203A283A43.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-6-30-203A283A43.png)
 
 
 Global Variables can be utilized by any test case across a project. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding)).

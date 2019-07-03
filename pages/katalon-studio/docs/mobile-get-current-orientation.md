@@ -34,7 +34,7 @@ Example 
 You want to get the current orientation of the device, then store it into "orientation" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-current-orientation/image2017-3-3-113A193A31.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-current-orientation/image2017-3-3-113A193A31.png)
 *   Script view 
     
     ```groovy

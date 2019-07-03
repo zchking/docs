@@ -28,7 +28,7 @@ Introducing a new generation of Katalon Studio Execution Reports, **Katalon Anal
 *   Analyzing test cases **Performance** and **Flakiness**
 *   Various **Reports** provide useful information for both Development team and Business team. 
 
-![](../../images/katalon-studio/new/version-500/image2017-10-20-113A143A34.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-20-113A143A34.png)
 
 Record Web
 ----------
@@ -40,7 +40,7 @@ Enhanced [Record Web](/pages/viewpage.action?pageId=5118055) feature allows use
 *   More compact Record utility by allowing users to **show or hide** captured objects window
 *   Record window can be **pinned/unpinned** for users convenience
 
-![](../../images/katalon-studio/new/version-500/image2017-10-20-193A303A9.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-20-193A303A9.png)
 
 Spy Web
 -------
@@ -51,7 +51,7 @@ Enhanced [Spy Web](/x/5BZO) feature for more compact and more intelligent.
 *   Built-in **Verify and Highlight** feature to make sure Katalon Studio can locate the captured objects
 *   Users can now **pinned/unpinned** Object Spy window for more convenience while spying
 
-![](../../images/katalon-studio/new/version-500/image2017-10-16-133A203A41.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-16-133A203A41.png)
 
 Import preferences
 ------------------
@@ -61,21 +61,21 @@ Adding new [Import Settings](/x/eYEw) feature that help users to
 *   Freely upgrade to any new versions of Katalon Studio while retaining **preferences** setting from previous versions by copying the **config** folder.
 *   Smoothly migrate Katalon Studio **preferences** setting to other team members.
 
-![](../../images/katalon-studio/new/version-500/image2017-10-11-113A33A33.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-11-113A33A33.png)
 
 Execution
 ---------
 
 Enhanced current headless browser [execution mode](/x/sxVO) with **Chrome headless** browser. Headless mode is great solution for automated web testing and server environments where UI components are invisible. Thus, testing process is more efficient. 
 
-![](../../images/katalon-studio/new/version-500/image2017-10-18-153A443A34.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-18-153A443A34.png)
 
 Test Suite Collection
 ---------------------
 
 Katalon Studio supports **Kobiton's devices** as part of [Test Suite Collection](/display/KD/Mobile+Testing+with+Kobiton+Devices#MobileTestingwithKobitonDevices-ExecuteTestSuiteCollection) environment configuration. Users can **select** preferred **Kobiton devices** for each test suite in test suite collection.
 
-![](../../images/katalon-studio/new/version-500/image2017-10-11-133A213A53.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-11-133A213A53.png)
 
 Keywords
 --------

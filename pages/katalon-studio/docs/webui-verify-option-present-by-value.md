@@ -14,7 +14,7 @@ Description
 
 Verify if the option with the given value does exist.
 
-![](../../images/katalon-studio/docs/webui-verify-option-present-by-value/label.jpg)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-option-present-by-value/label.jpg)
 
 Parameters
 ----------

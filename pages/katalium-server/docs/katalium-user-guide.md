@@ -23,7 +23,7 @@ cd katalium-server
 chmod u+x ./standalone.sh
 ```
 
-![](../../images/katalium-server/docs/katalium-user-guide/1-standalone-mode.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/katalium-user-guide/1-standalone-mode.png)
 
 Activate the server for the first time.
 
