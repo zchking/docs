@@ -16,7 +16,7 @@ Object Spy
 
 Katalon Studio extends Object Spy capabilities to help users in detecting whether test objects exist on the application under test just by a simply press on Highlight Object button.
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-183A33A28.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-183A33A28.png)
 
 Execution
 ---------
@@ -25,7 +25,7 @@ Execution
 
 Ability to continue executing your test scripts on any browser or mobile session launched by Katalon Studio, allow users to run automation test on existing environment.
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-173A593A48.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-173A593A48.png)
 
 > Limitations
 >
@@ -36,7 +36,7 @@ Ability to continue executing your test scripts on any browser or mobile session
 
 Tired of seeing test scripts be executed from the beginning before reaching to a certain step? This feature will save users hours of debugging.
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-183A03A25.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-183A03A25.png)
 
 Test Case
 ---------
@@ -45,7 +45,7 @@ Test Case
 
 By dragging any of your test objects into current scripting editor, the test object's path will be generated automatically. Thus, saving users alot of time in manually typing its references.
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-183A43A57.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-183A43A57.png)
 
 User Interface
 --------------
@@ -62,19 +62,19 @@ Main menu items are reordered. **Project > Properties** is renamed as **Project 
 
 This version adds Properties view to help users accessing information of test artifacts quickly. 
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-173A493A37.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-173A493A37.png)
 
 **Revise Browser selector in Object Spy/ Record**
 
 Browsers are grouped under respective categories. Selected browser will also be indicated by corresponding icons.
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-173A503A57.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-173A503A57.png)
 
 **New web service's object interface**
 
 Revised web service object interface provide users a much simpler and straightforward form to define new webservice objects.
 
-![](../../images/katalon-studio/new/version-43/image2016-11-29-173A533A20.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-43/image2016-11-29-173A533A20.png)
 
 Performance Improvement
 -----------------------

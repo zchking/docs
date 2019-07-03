@@ -27,14 +27,14 @@ Test Suite
 
 Implement [**Setup** / **Teardown**](/pages/viewpage.action?pageId=12419091) for Test Suite. This feature is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
 
-![](../../images/katalon-studio/new/version-530/image2018-1-8-163A253A42.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-8-163A253A42.png)
 
 Execution
 ---------
 
 Introduce all new [**Headless** execution mode for **Firefox**](/katalon-studio/tutorials/headless-browsers-execution/)  supports user in Continuous Delivery process, UI regression and quick environment coverage. Tests execution will be much faster and more effective.
 
-![](../../images/katalon-studio/new/version-530/image2018-1-8-163A483A32.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-8-163A483A32.png)
 
 Selenium IDE
 ------------
@@ -43,7 +43,7 @@ Introducing Katalon Studio new capability that allow users to **import** Seleniu
 
 (This feature is in beta stage. There will be some cases that imported Selenium IDE Scripts will not be converted successfully to Katalon Studio scripts. Katalon team welcomes all of your feedback and suggestions)
 
-![](../../images/katalon-studio/new/version-530/image2018-1-22-103A363A19.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-22-103A363A19.png)
 
 Web UI Testing
 --------------
@@ -51,12 +51,12 @@ Web UI Testing
 ### Record/Spy
 
 *   Added ability to move captured objects in Object Repository pane for Spy and Record Web. Users can **freely move captured objects** to organize test artifacts before saving. 
-    ![](../../images/katalon-studio/new/version-530/image2018-1-8-163A443A6.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-8-163A443A6.png)
 
 
 *   **[Default locators](/x/MwDR)** for captured objects in Record/Spy now can be set in **Project Setting**. Selected locators will be added automatically while Recording or Spying the application under test.
 
-    ![](../../images/katalon-studio/new/version-530/image2018-1-25-163A563A26.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-25-163A563A26.png)
 
 Mobile Testing
 --------------
@@ -65,4 +65,4 @@ Mobile Testing
 
 
 *   Enhance UI of selecting mobile devices window for test execution to improve users experience
-    ![](../../images/katalon-studio/new/version-530/image2018-1-26-123A63A59.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-26-123A63A59.png)

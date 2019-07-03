@@ -12,8 +12,8 @@ description:
 To start Chrome with your own extensions, you need to pass in some desired capabilities in Project Settings of Katalon Studio:
 
   
-[![](../../images/katalon-studio/docs/open-chrome-with-extensions/4mdfgmi4avye.png)](https://forum.katalon.com/uploads/editor/r0/4mdfgmi4avye.png)  
-[![](../../images/katalon-studio/docs/open-chrome-with-extensions/6yqir8nsciwe.png)](https://forum.katalon.com/uploads/editor/kk/6yqir8nsciwe.png)  
+[![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/open-chrome-with-extensions/4mdfgmi4avye.png)](https://forum.katalon.com/uploads/editor/r0/4mdfgmi4avye.png)  
+[![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/open-chrome-with-extensions/6yqir8nsciwe.png)](https://forum.katalon.com/uploads/editor/kk/6yqir8nsciwe.png)  
   
 **load-extension=C:\\Users\\Rahul\\Desktop\\Katalon5\\chromeextension\\5.3.2_0**
 

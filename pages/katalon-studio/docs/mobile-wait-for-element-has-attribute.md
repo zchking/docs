@@ -81,7 +81,7 @@ Mobile.closeApplication()
 
 Manual: 
 
-** ![](../../images/katalon-studio/docs/mobile-wait-for-element-has-attribute/image2016-8-15-193A23A59.png)**
+** ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-wait-for-element-has-attribute/image2016-8-15-193A23A59.png)**
 
 Script:
 

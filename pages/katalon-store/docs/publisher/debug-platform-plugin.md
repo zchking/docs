@@ -41,7 +41,7 @@ The `address=8000` is a local port number, JVM will allow a debugger to attach t
 
 In this example, we will use the last tutorial project: [katalon-studio-sample-plugin 1](https://github.com/katalon-studio/katalon-studio-sample-plugin) to debug.
 
-![](../../../images/katalon-store/docs/publisher/import-plugin-project-to-eclipse-ide.png)
+![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/import-plugin-project-to-eclipse-ide.png)
 
 
 #### **Step 3: Set a breakpoint**
@@ -53,19 +53,19 @@ Open a Java file and set a breakpoint in the code. In this example, we set the b
 System.out.println("Hello, my plugin is: " + plugin.getPluginId());
 ```
 
-![](../../../images/katalon-store/docs/publisher/set-breakpoint.png)
+![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/set-breakpoint.png)
 
 
 #### **Step 4: Create a Java Remote Application Debugger**
 
-Click on the arrow dropdown of Eclipse debug icon ![](../../../images/katalon-store/docs/publisher/debug-icon.png), choose `Debug Configuration` item.
+Click on the arrow dropdown of Eclipse debug icon ![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/debug-icon.png), choose `Debug Configuration` item.
 
-![](../../../images/katalon-store/docs/publisher/debug-configurations.png)
+![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/debug-configurations.png)
 
 
 Right-click on the `Java Remote Application` and choose `New Configuration` to add new Remote Debugger
 
-![](../../../images/katalon-store/docs/publisher/new-configuration.png)
+![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/new-configuration.png)
 
 
 #### **Step 5: Configure the Java Remote Application Debugger**
@@ -77,10 +77,10 @@ Enter the port number you declared at step 1 to the `Port:` text field under `Co
 Click `Debug` to finish setup.
 
 
-![](../../../images/katalon-store/docs/publisher/new-remote-debugger.png)
+![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/new-remote-debugger.png)
 
 
-If your setup is correct, there is the ![](../../../images/katalon-store/docs/publisher/stop-debug-icon.png) icon which will be displayed on Eclipse toolbar.
+If your setup is correct, there is the ![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/stop-debug-icon.png) icon which will be displayed on Eclipse toolbar.
 
 
 #### **Step 6: Import plugin to Katalon Studio and start debugging**
@@ -89,7 +89,7 @@ Import your plugin and do your expected actions to make the breakpoint you place
 
 In this sample, the breakpoint will hit immediately after the plugin succesfiully installed.
 
-![](../../../images/katalon-store/docs/publisher/breakpoint-hit.png)
+![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/breakpoint-hit.png)
 
 
 Great, you now can debug your platform plugin project as a normal Java project.
@@ -97,6 +97,6 @@ Great, you now can debug your platform plugin project as a normal Java project.
 #### **Step 7: Disconnect and stop debugging**
 
 
-Press the ![](../../../images/katalon-store/docs/publisher/stop-debug-icon.png) icon to disconnect and stop your debugging session.
+Press the ![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/stop-debug-icon.png) icon to disconnect and stop your debugging session.
 
 

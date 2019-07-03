@@ -20,11 +20,11 @@ A Web table normally contains the following tags:
 
 **A basic web table**
 
-![basic web table](../../images/katalon-studio/tutorials/handle_web_tables/A-Basic-Webtable.png)
+![basic web table](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/A-Basic-Webtable.png)
 
 **A basic web table's HTML code looks like below:**
 
-![web table html](../../images/katalon-studio/tutorials/handle_web_tables/web-tables-HTML-code.png)
+![web table html](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/web-tables-HTML-code.png)
 
 Handling Web tables is perhaps much more complicated than any other elements or controls. This article will show you how to handle web tables using Katalon Studio.
 
@@ -98,11 +98,11 @@ break Loop;
 
 Switch to **manual mode** tab to view test case step by step.
 
-** ![Handle-webtable](../../images/katalon-studio/tutorials/handle_web_tables/Handle-webtable.png)**
+** ![Handle-webtable](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/Handle-webtable.png)**
 
 ### Example 2: You want to perform actions on the Web table below
 
-![Web-table](../../images/katalon-studio/tutorials/handle_web_tables/Web-table.png)
+![Web-table](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/Web-table.png)
 
 **Scenario: **
 
@@ -175,7 +175,7 @@ table: break
 
 Switch to **manual mode** tab to view test case step by step.
 
-![Handle-webtable-2](../../images/katalon-studio/tutorials/handle_web_tables/Handle-webtable-2.png)
+![Handle-webtable-2](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/Handle-webtable-2.png)
 
 Examples above provide a basic understanding on how to handle web tables in Katalon Studio. If you are new to automation testing, it is recommended to take advantage of Manual Mode in Katalon Studio. For advanced testers, Script Mode provides you flexibility in creating and manipulating tests. Please download the source code [here](https://github.com/katalon-studio/katalon-web-automation).
 

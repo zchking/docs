@@ -15,13 +15,13 @@ To see the list of all sessions, go to `http://hub_grid:4444/grid/admin/KatalonC
 
 For example:
 
-![](../../images/katalium-server/docs/view-session-details/1-view-session.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/view-session-details/1-view-session.png)
 
 ## View screenshots of each session
 
 In the list of sessions, select the session you want to view screenshots.
 
-![](../../images/katalium-server/docs/view-session-details/2-session-details.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/view-session-details/2-session-details.png)
 
 ## Clean up old sessions
 

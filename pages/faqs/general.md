@@ -24,7 +24,7 @@ Please check out Katalon Studio tutorials center at [https://www.katalon.com/vi
 
 We believe it is a false alarm of your current Gateway protection software. Katalon team always go through security checklist for every builds before releasing to our users. VirusTotal [scans the download URLs](https://www.virustotal.com/#/url/5284694058c2678a4669d887fd3528d942f4ad633d99eebc2ee131fd792d761a/detection) (They cannot scan file larger than 256MB). From Eset Node32 antivirus
 
-![virus scanner](../../images/katalon-studio/docs/general/scan_results.jpg)
+![virus scanner](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/general/scan_results.jpg)
 
 ### Q: Does Katalon Studio have access to any of my current local machine data or my application under test when I use Katalon Studio?
 ----------------------------------------------------------------------------------------------------------------------------------

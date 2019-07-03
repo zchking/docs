@@ -31,7 +31,7 @@ Example: You want to verify if the option 1 in the list is not selected in 5s ti
 
 Manual: 
 
-![](../../images/katalon-studio/docs/webui-verify-option-not-selected-by-index/image2016-8-21-193A303A39.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-option-not-selected-by-index/image2016-8-21-193A303A39.png)
 
 Script:
 

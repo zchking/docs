@@ -34,7 +34,7 @@ Example 
 You want to get mobile device's physical height, then store it into "height" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-device-height/image2017-3-3-113A253A45.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-device-height/image2017-3-3-113A253A45.png)
 *   Script view 
     
     ```groovy

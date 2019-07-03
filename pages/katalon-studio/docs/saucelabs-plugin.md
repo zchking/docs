@@ -21,7 +21,7 @@ Click  **Generate Sauce Labs Custom Profile** to finalize your profile. Now you 
 
 **It is important to keep in mind that the default custom profile will be named saucelabs_default. Additionally, only profiles with name saucelabs_customProfileName will be recognized as Sauce Labs profile.**
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/1-setting.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/1-setting.png)
 
 ### Execute a test case with Sauce Labs profile
 
@@ -33,29 +33,29 @@ Click  **Generate Sauce Labs Custom Profile** to finalize your profile. Now you 
 
 4. Select your Sauce Labs profile
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/2-execute-test-case.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/2-execute-test-case.png)
 
 ### Execute a test suite with Sauce Labs profile
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/3-execute-test-suite.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/3-execute-test-suite.png)
 
 ### Execute a test suite collection with Sauce Labs profile
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/4-execute-test-suite.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/4-execute-test-suite.png)
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/5-environment.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/5-environment.png)
 
 
 ### On Sauce Labs Dashboard, under Automated Tests tab the following result is displayed
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/7-result.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/7-result.png)
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/6-result.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/6-result.png)
 
 ## Sauce Labs for Mobile testing and Hybrid application testing
 
 The plug-in provides you with an intuitive user interface to create Sauce Labs custom profiles for Web Testing. However you can still manually add properties that will make it possible for mobile and hybrid application testing. The generated custom profiles will be available as below:
 
-![](../../images/katalon-studio/docs/saucelabs-plugin/8-mobile-hybrid-testing.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/8-mobile-hybrid-testing.png)
 
 You can access and add capabilities to your profile. You will need to add specific capabilities that follow [Sauce Labs's official document on mobile/hybrid application testing](https://wiki.saucelabs.com/display/DOCS/Examples+of+Test+Configuration+Options+for+Mobile+Native+Application+Tests).

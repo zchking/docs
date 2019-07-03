@@ -28,11 +28,11 @@ To know how to generate one of them, you can refer to this [testing site](http:
     *   Consumer: key
     *   Consumer Secret: secret
     
-    ![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.10.21.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.10.21.png)
 2.  Generated token is shown in the response's body section. Use it in to generate access token:  
-    ![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.22.08.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.22.08.png)
 3.  So far you've gained all the information needed to send a request using OAuth 1.0 authorization (consumer, access token), then use all these information to send a request:
 
-![](../../images/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.36.20.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-authorization/Screen-Shot-2018-08-08-at-11.36.20.png)
 
 This is just a quick overview on how to use Authorization for a Web Service object. You may need to adjust it accordingly based on your API specifications.

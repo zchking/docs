@@ -36,7 +36,7 @@ Example 
 You want to get the left position of the object "android.widget.TextView - App" , then store it into "left_position" variable.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-get-element-left-position/image2017-3-3-143A183A35.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-get-element-left-position/image2017-3-3-143A183A35.png)
 *   Script view 
     
     ```groovy

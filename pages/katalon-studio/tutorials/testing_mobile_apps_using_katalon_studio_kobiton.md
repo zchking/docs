@@ -6,7 +6,7 @@ description: "In this tutorial, we will show you how to speed up your mobile app
 redirect_from:
     - "/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton.html"
 ---
-![Testing mobile apps using Katalon Studio and Kobiton's cloud-based device farm](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/QS_high-08-1024x509.png)
+![Testing mobile apps using Katalon Studio and Kobiton's cloud-based device farm](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/QS_high-08-1024x509.png)
 
 Scripting your first mobile automation test case can be quite confusing without a specialized tool or instruction. In this tutorial, we will show you how to speed up your automation project using Katalon Studio's mobile recording utility and run your recorded test cases on hundreds of Kobiton's mobile devices on the cloud. For this tutorial, we assume that you have already installed [Katalon Studio](https://www.katalon.com/), got familiar with its basic functions and registered a [Kobiton account](https://kobiton.com/).
 
@@ -22,7 +22,7 @@ Katalon Studio provides two utilities to accelerate the automation process: Mobi
 
 1\. Let's open the sample project (already included in Katalon Studio) and create a new test case. Click on the Mobile Recorder button to open its dialog as shown below
 
-![sample project Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/1.png)
+![sample project Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/1.png)
 
 Where
 
@@ -49,7 +49,7 @@ Once the configuration is completed, the app appears as shown in the screenshot 
     Select the **_android.widget.TextView0_** object in the all objects tree. (Or you can tap the text on the Device view to focus on the object).
 *   Then click the **_Tap_** button to record the action. This action simulates a tap on the app.
 
-![Possible Action Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/2.png)
+![Possible Action Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/2.png)
 
 You will be directed to the **_Create Account_** screen.
 
@@ -60,13 +60,13 @@ Then click **Set Text** to perform the set text action on the Name text.
 
 Enter "name" for the text input as below. Click OK.
 
-![Text input Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/3.png)
+![Text input Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/3.png)
 
 The text is set to the device, and the action is recorded in the Recorded actions table.
 
 *   Perform the same steps with the **_Address_** field, and enter "address" for this field_._
 
-![enter value Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/4.1-300x258.png)
+![enter value Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/4.1-300x258.png)
 
 *   To enter the value for the **_Email_** field, we will need to hide the on-screen keyboard to make the field visible by pressing the **_Hide Keyboard_** action button. Select the **_Email_** field to perform the set text action using "email@domain.com"**_._**
 *   Follow the same steps for the **_Mobile Number_**, **_Password_** and **_Re-enter Password_** text fields.
@@ -75,17 +75,17 @@ The text is set to the device, and the action is recorded in the Recorded action
 
 The recorded actions should look like the following:
 
-![Recorded Action Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/5.png)
+![Recorded Action Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/5.png)
 
 *   Click **_OK_** to complete the recording and then choose a folder to store your captured objects. Click **_OK_** again for Katalon Studio to generate test scripts.
 
 4\. View your test case in the Manual mode or replay it to validate all recorded steps. Let's now add validation points for this test case to verify whether the recorded inputs can set to the text fields successfully.
 
-*   Select the first **_Set Text _**from the **_Add_** toolbar or by clicking on **_Add_** from the context menu, add a Mobile Keyword step and choose the keyword **_Verify Element Attribute Value.![](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/new-test-case.png)_**
+*   Select the first **_Set Text _**from the **_Add_** toolbar or by clicking on **_Add_** from the context menu, add a Mobile Keyword step and choose the keyword **_Verify Element Attribute Value.![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/new-test-case.png)_**
 *   Select the test object representing the **_Name_** text field, which is **_widget.EditText0_**, as an object to verify.
 *   Double click on the input cell for the test step and set the following values.
 
-![Input Cell Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/6.png)
+![Input Cell Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/6.png)
 
 *   Perform the same procedure for other **_Set Text_** actions.
 
@@ -96,23 +96,23 @@ Run your mobile automation test case on Kobiton's cloud devices      
 
 1\. Upload the Material Login Demo app to Kobiton App Repository. From the Repository view, select the more actions button and select the **_Automation snippet._** Copy the app id (the one in bold, for example, **_Kobiton-store:184_** as shown below) and save it.
 
-![Kobiton App Repository](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/7-300x196.png)2\. Navigate to the Kobiton Devices page. Choose the devices on which you want to run your test and mark those devices as a favorite by clicking on the star icon.
+![Kobiton App Repository](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/7-300x196.png)2\. Navigate to the Kobiton Devices page. Choose the devices on which you want to run your test and mark those devices as a favorite by clicking on the star icon.
 3\. Let's enable Kobiton integration.
 
 *   Open Katalon Studio Preferences (**_Windows_** -\> **_Katalon Studio Preferences_**) then select **_Kobiton_**.
 
-![Katalon Studio Preferences](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/8.png)
+![Katalon Studio Preferences](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/8.png)
 
 *   Enter your Kobiton username and password. Click **_Connect_** to test the connection and authentication. With a valid account, Katalon Studio automatically retrieves the API keys from Kobiton.
 *   Click **_Apply_** or **_OK_** to save the settings.
 
 4\. Open the test case created from the previous section, replace the input application path for the first step "**_Start Application"_** with the Kobiton app id saved in Step 1.
 
-![](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/tests-explorer.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/tests-explorer.png)
 
 5\. A new menu option appears under the **_Execution_** toolbar as below. Click on **Kobiton Device** to open the Kobiton Favorite Device dialog.
 
-![menu options Katalon Studio](../../images/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/9-200x300.png)
+![menu options Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/9-200x300.png)
 
 6. Select your target device for execution from the Kobiton Favorite Device list. Click OK to start execution with that device. It may take some time to initialize the connection to Kobiton prior to the execution. You should be able to login to Kobiton sessions to view the result once the test execution completed.
 

@@ -15,18 +15,18 @@ This tutorial illustrates Horizontal Swiping actions in the mobile app. This dem
 
 The screenshot of the app contains a list of applications which are installed in the mobile device. We want to swipe horizontally from left to right on any application from this list.
 
-![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation.png)
+![Handling Horizontal Swipe in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation.png)
 
 ### Manual Mode
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input**, a new window will appear. In **appFile**_,_ select Value Type as **Variable**. In **Value**, pass the variable name as **path**.
 
-**![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-1.png)**
+**![Handling Horizontal Swipe in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-1.png)**
 
 *   Step 2: After launching the application, call a **Wait For Element Present** method. Capture the status of an Alert presence in a variable '**alert_Status**'. It returns true when an alert is present and false when alert is not present.
 *   Step 3: Adding an If statement, if '**alert_Status**' is true, tap on "Don't show this message again" and tap OK**.**
 
-![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-3.png)
+![Handling Horizontal Swipe in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-3.png)
 
 *   Step 4: Add another **Wait For Element Present** item to verify whether the mobile element pops up.
 *   Step 5: Use **Get Device Height** keyword to capture the height of the device and store it in a **device_height** variable. Select **Get Device Width** keyword to capture the width of the device and storing it in a **device_Width** variable.
@@ -36,7 +36,7 @@ The screenshot of the app contains a list of applications which are installed in
 *   Step 9: Add **binary statement** and multiply device width with 0.70 to store it in 'endX' variable.
 *   Step 10: Call the **swipe method** and select the **Value Type** as '**Variable**'. Pass the startX, startY, endX, endY values to that method
 
-![Handling Horizontal Swipe in Mobile Automation](../../images/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-10.png)
+![Handling Horizontal Swipe in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-10.png)
 
 The step-by-step guide above can be achieved through **Script mode** (switch to Script Mode by clicking on Script tab).
 

@@ -15,11 +15,11 @@ To **filter** any table, click on the plus "**+**" button and a drop-down menu w
 
 Once finished, Katalon Analytics table will be filtered and show relevant data.
 
-![](../../images/katalon-analytics/docs/filter-and-sort/Screen-Shot-2018-05-30-at-2.07.20-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/filter-and-sort/Screen-Shot-2018-05-30-at-2.07.20-PM.png)
 
 To **sort**, click on the sort text box, a drop-down list will be shown with the column name and its predefined order (**Ascending** and **Descending**). Columns will be sorted base on the selected order. 
 
-![](../../images/katalon-analytics/docs/filter-and-sort/Screen-Shot-2018-05-30-at-2.08.07-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/filter-and-sort/Screen-Shot-2018-05-30-at-2.08.07-PM.png)
 
 The example from the screenshots above shown:
 

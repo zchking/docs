@@ -24,8 +24,8 @@ qTest Integration
 
 *   The user interfaces when setting up qTest integration are optimized for better user experiences and fixed bugs.  For more details, please refer to [qTest Integration](/display/KD/qTest+Integration).
 
-    ![](../../images/katalon-studio/new/version-471/image2017-8-1-183A263A14.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-471/image2017-8-1-183A263A14.png)
 
 
 *   Integrated test artifacts will have dedicated icon as shown below:
-    ![](../../images/katalon-studio/new/version-471/image2017-8-4-173A63A56.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-471/image2017-8-4-173A63A56.png)

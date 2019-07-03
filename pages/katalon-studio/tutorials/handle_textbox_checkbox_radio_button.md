@@ -100,7 +100,7 @@ WebUI.closeBrowser()
 
 **Manual Mode**
 
-![Handle textbox using Katalon Studio Manual mode](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-text-box.png)
+![Handle textbox using Katalon Studio Manual mode](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-text-box.png)
 
 In the script mode above, **Def** is a keyword in Groovy used for declaration of variables. Username is a variable name, here storing the value "Katalon" in the **username** variable.
 
@@ -227,7 +227,7 @@ WebUI.closeBrowser()
 
 **Manual Mode**
 
-**![Handle Button and Checkbox using Katalon Studio Manual mode ](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Button-and-Checkbox.png)**
+**![Handle Button and Checkbox using Katalon Studio Manual mode ](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Button-and-Checkbox.png)**
 
 In the script above, the keyword **VerifyElementClickable** is used to validate whether the **Make Appointment Button** is clickable.
 
@@ -357,7 +357,7 @@ WebUI.closeBrowser()
 
 **Manual Mode**
 
-![Handle Radio Button using Katalon Studio Manual Mode](../../images/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Radio-Button.png)
+![Handle Radio Button using Katalon Studio Manual Mode](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Radio-Button.png)
 
 The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
 

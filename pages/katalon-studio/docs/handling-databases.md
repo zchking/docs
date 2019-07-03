@@ -72,4 +72,4 @@ private static Connection connection = null;
 
 You can add the sample code above to your keyword file and modify the details as appropriated. 
 
-![](../../images/katalon-studio/docs/handling-databases/image2017-2-24-113A383A14.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handling-databases/image2017-2-24-113A383A14.png)

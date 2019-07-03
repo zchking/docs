@@ -18,7 +18,7 @@ Generic Project
 
 *   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From Swagger**.
 
-![](../../images/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-08-at-4.07.36-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-08-at-4.07.36-PM.png)
 
 API/Web Service Project
 -----------------------
@@ -27,11 +27,11 @@ There are two ways to import existing Swagger request:
 
 *   *   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From Swagger.**
     *   Click on '**Import Swagger**' icon on the main toolbar or Quickstart wizard.   
-        ![](../../images/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
+        ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
 
 Katalon Studio displays the input dialog accepts either a _local file_ or a _remote URL_, e.g: [https://mySite/swagger.json](https://mySite/swagger.json,). Since both inputs are using the same definition, Katalon Studio will load the specs and generate REST requests.
 
-![](../../images/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-02-at-12.02.20.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-02-at-12.02.20.png)
 
 **Katalon automatically imports and generates:**
 

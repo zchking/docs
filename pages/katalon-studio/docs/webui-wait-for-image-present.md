@@ -68,4 +68,4 @@ WebUI.closeBrowser()
 
 > The test object needs to define a source image from the local machine for Katalon Studio to use it for verification
 > 
-> ![](../../images/katalon-studio/docs/webui-wait-for-image-present/define_image.jpg)
+> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-wait-for-image-present/define_image.jpg)

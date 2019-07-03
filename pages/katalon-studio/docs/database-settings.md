@@ -11,7 +11,7 @@ description:
 ---
 These settings allow you to define global database connection to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Database**. 
 
-![](../../images/katalon-studio/docs/database-settings/image2017-6-29-163A343A26.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/image2017-6-29-163A343A26.png)
 
 Where:
 

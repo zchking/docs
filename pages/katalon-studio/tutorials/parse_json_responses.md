@@ -156,7 +156,7 @@ Conclusion
 
 This tutorial offers a few basic best practices for working with JSON strings in Katalon Studio. JSON is the most common format returned from API/Web Services. When you perform [**_API testing_**](/katalon-studio/tutorials/introduction-api-testing/), you likely have to deal with JSON responses. Hopefully, these basic best practices are useful for your API testing.
 
-[![Rest API Request Katalon Studio](../../images/katalon-studio/tutorials/parse_json_responses/api-testing-interview-question-1024x101.png)](https://www.katalon.com/download)
+[![Rest API Request Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/parse_json_responses/api-testing-interview-question-1024x101.png)](https://www.katalon.com/download)
 
 **Read more:**
 

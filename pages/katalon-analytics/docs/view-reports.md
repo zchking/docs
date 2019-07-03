@@ -12,7 +12,7 @@ description:
 ---
 Once Test Reports are uploaded, Katalon Analytics will automatically analyze Katalon Studio test execution data to give you meaningful visualizations including charts, graphs, and filters. Katalon Analytics powerful dashboard allows users to have richer looks at test execution by presenting various reports such as Status, Performance, Execution Summary, and Execution Details. 
 
-![Automatically Upload Report](../../images/katalon-analytics/docs/view-reports/upload-execution-step-3-dc08b5a5ba.png)
+![Automatically Upload Report](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/view-reports/upload-execution-step-3-dc08b5a5ba.png)
 
 <table>
     <tbody>
@@ -55,7 +55,7 @@ View Execution Detail Report
 
 Click on the **ID** of Execution to view the detail report. Katalon Analytics will display following details about that report including** Summary**, **All Failed Tests**, **Folders**, **All Tests**
 
-**![](../../images/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)
+**![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/view-reports/Execution-11-Katalon-Analytics.png)
 **
 
 ### Summary Dashboard
@@ -138,7 +138,7 @@ To **view detail** of a failed test case, click on the **ID**. Once clicked o
 
 Click on **View History** button, users can also view all the iteration execution of a single test case. 
 
-![](../../images/katalon-analytics/docs/view-reports/image2018-6-19-143A333A0.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/view-reports/image2018-6-19-143A333A0.png)
 
 | Performance | The performance of test case through iteration run. The duration of each iteration also shown |
 | --- | --- |

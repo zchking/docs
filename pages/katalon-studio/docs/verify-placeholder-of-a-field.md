@@ -11,7 +11,7 @@ description:
 ---
 In case you want to verify placeholder of a field, e.g:
 
-![](../../images/katalon-studio/docs/verify-placeholder-of-a-field/w5juifrptxou.jpg)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/verify-placeholder-of-a-field/w5juifrptxou.jpg)
 
 Then using '[Get Attribute](/display/KD/%5BWebUI%5D+Get+Attribute)' keyword can help you to resolve this issue:
 

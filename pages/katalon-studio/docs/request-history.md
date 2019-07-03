@@ -13,7 +13,7 @@ description:
 
 All web service requests sending in Katalon Studio are stored in the Request History panel in which you can retrieve anytime. The history list lets you try web service request with the variation of data quickly without creating new requests. You can load a previous request by clicking on the request name.
 
-![](../../images/katalon-studio/docs/request-history/request_history.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/request-history/request_history.png)  
 
 Once you've selected a request, there are two things you can do with it:
 

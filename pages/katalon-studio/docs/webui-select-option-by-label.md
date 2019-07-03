@@ -14,7 +14,7 @@ Description
 
  Select the options with the given label (displayed text).
 
-![](../../images/katalon-studio/docs/webui-select-option-by-label/label.jpg)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-select-option-by-label/label.jpg)
 
 Parameters
 ----------

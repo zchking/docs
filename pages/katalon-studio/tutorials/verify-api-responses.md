@@ -17,7 +17,7 @@ If you haven't created any API tests using Katalon Studio, please follow this li
 
 Assume that you have run an API, which returned a response in JSON format
 
-![rest-response-json](../../images/katalon-studio/tutorials/verify-api-responses/REST%20response%20in%20JSON.png)
+![rest-response-json](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/verify-api-responses/REST%20response%20in%20JSON.png)
 
 The below steps will show you how to verify the response:
       
@@ -31,7 +31,7 @@ The below steps will show you how to verify the response:
 
 Assume that you have run an API, which returned a response in XML format
 
-![verify-soap-response-xml](../../images/katalon-studio/tutorials/verify-api-responses/SOAP%20response%20in%20XML.png)
+![verify-soap-response-xml](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/verify-api-responses/SOAP%20response%20in%20XML.png)
 
 The steps below will help you verify the response:
 
@@ -45,7 +45,7 @@ The steps below will help you verify the response:
 
 To run both types of **request** with the generated verification statements, you need to choose the option **“Test Request and Verify.”**
 
-![verification-statements](../../images/katalon-studio/tutorials/verify-api-responses/Verification%20statements.png)
+![verification-statements](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/verify-api-responses/Verification%20statements.png)
 
 1. First, select **“Test Request and Verify”** from the **Run** menu to send the request and verify the response.
 

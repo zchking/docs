@@ -52,7 +52,7 @@ Example 
 You want to verify the checkpoint and don't print out changed values between checkpoint data and the source.
 
 *   Manual view  
-    ![](../../images/katalon-studio/docs/common-verify-checkpoint/image2017-3-3-173A563A28.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/common-verify-checkpoint/image2017-3-3-173A563A28.png)
 *   Script view 
 
     ```groovy

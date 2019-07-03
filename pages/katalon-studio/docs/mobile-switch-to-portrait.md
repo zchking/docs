@@ -27,7 +27,7 @@ Example 
 You want to switch the current device's mode to portrait mode.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-switch-to-portrait/image2017-3-3-143A453A36.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-switch-to-portrait/image2017-3-3-143A453A36.png)
 *   Script view 
     
     ```groovy

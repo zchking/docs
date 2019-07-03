@@ -27,7 +27,7 @@ Mobile Testing
 
 Katalon preferred Recording utility is enhanced to support both iOS and Android to cover mobile platforms. Test objects and actions will be stored and generated as test cases that can be edited using manual/scripting interfaces. The function UI is identical to web recording to help users get started quickly.  
 
-![](../../images/katalon-studio/new/version-46/record_mobile.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-46/record_mobile.png)
 
 Test Object
 -----------
@@ -37,11 +37,11 @@ Test Object
 This version provides the capability to handle dynamic objects (objects with particular properties changed due to certain business rules). Users can leverage Katalon Studio parameterization capability to control these objects easily.
 For example, the desired properties for the test object can be declared in the manual mode even without recording & spying the AUT. These properties will be used by Katalon to identify the test object during execution dynamically.
 
-![](../../images/katalon-studio/new/version-46/1.declare-dynamic-object.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-46/1.declare-dynamic-object.png)
 
 Users can leverage the declared properties further by using Katalon scripting mode and adjust how the value of the properties to be perceived. (Typically, users will want to pass property value as variable or make reference to datafiles according to their situation - Refer to [Parameterizing Test Object](/display/KD/Manage+Test+Object#ManageTestObject-ParameterizingTestObject) for more details).
 
-![](../../images/katalon-studio/new/version-46/image2017-5-18-113A493A17.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-46/image2017-5-18-113A493A17.png)
 
 Network Configuration
 ---------------------
@@ -50,13 +50,13 @@ Network Configuration
 
 Version 4.6 introduces the capability to bypass certificate validation supporting users with restricted network policy to work with Katalon Studio as usual. This setting can be found at: **Project > Settings > Network** and it affects both WebUI and WebService testings.
 
-![](../../images/katalon-studio/new/version-46/image2017-5-21-203A343A16.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-46/image2017-5-21-203A343A16.png)
 
 **Proxy Settings**
 
 Proxy setup can be configured at: **Preferences > Proxy**. The setting affects both WebUI and WebService testings. 
 
-![](../../images/katalon-studio/new/version-46/image2017-5-18-113A523A43.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-46/image2017-5-18-113A523A43.png)
 
 Object Spy
 ----------
@@ -68,7 +68,7 @@ This version supports customizable hotkeys for Object Spy function for users to 
 > This ability to change hotkeys for Object Spy only affect Chrome browser. Other browsers will be considered for future releases.
 
 
-![](../../images/katalon-studio/new/version-46/image2017-5-28-93A383A40.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-46/image2017-5-28-93A383A40.png)
 
 Keywords
 --------

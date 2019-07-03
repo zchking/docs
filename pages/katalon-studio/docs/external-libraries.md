@@ -21,13 +21,13 @@ Katalon Studio supports automatically download libraries from Maven repositories
 
 On Katalon Studio, from the toolbar select **Project** \> **Settings** \> **External Libraries**. Click on **Add** to browse and select your .jar file(s) (and its dependencies if any).  Click on **Apply** and **OK** to save the settings.
 
-![External Library](../../images/katalon-studio/tutorials/import_java_library/1.-Katalon-External-Library.png)
+![External Library](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/1.-Katalon-External-Library.png)
 
 After saving the setting, Katalon will add the library file(s) into its **Drivers** folder on the local drive and loads the libraries. Now user can use the libraries in their test scripts.
 
 To remove imported external libraries, specify the library which you want to delete, click on **Remove** and click **OK**.
 
-![ remove import external library](../../images/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
+![ remove import external library](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
 
 ## Manually copy .jar files to the Drivers folder
 

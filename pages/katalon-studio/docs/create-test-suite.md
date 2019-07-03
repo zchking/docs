@@ -16,17 +16,17 @@ Add a new Test Suite
 
 The most simple way is to go to File > New > Test Suite.
 
-![](../../images/katalon-studio/docs/create-test-suite/test-suite-1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
 
 Fill in the name of the test suite and the description (optional).
 
-![](../../images/katalon-studio/docs/create-test-suite/New-test-suite-window.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/New-test-suite-window.png)
 
 Add a new Test Suite from Test Case
 -----------------------------------------
 Here's another way to create a test suite: Navigate to the **Add to test suite** button after you have finished scripting a test case.
 
-![](../../images/katalon-studio/docs/create-test-suite/Test-suite-2.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Test-suite-2.png)
 
 There are two options to add test cases: 
 - Add to an existing test suite (for you to locate the test cases in an existing test suite)

@@ -13,7 +13,7 @@ Internet Explorer driver supports some important capabilities which can be used
 
 The most common use of Internet Explorer desired capabilities is to configure Internet Explorer without having to complete the instructions from this [page](/display/KD/Internet+Explorer+Configurations). You can pass some desired capabilities to Internet Explorer so you don't need to configure your IE anymore.
 
-![](../../images/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png)
 
 *   **ignoreProtectedModeSettings:**Whether to skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.
 *   **ignoreZoomSetting:** Indicates whether to skip checking that the browser's zoom level is set to 100%. Value is set to false by default.

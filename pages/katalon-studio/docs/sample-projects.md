@@ -29,7 +29,7 @@ GitHub Projects
 
 When you open a new session of Katalon Studio, if you are connected to the Internet, a list of available sample projects for you to try in the **Katalon Help **page. Just choose the one that you want to try out to import that project into Katalon Studio. Additionally, you can go to our GitHub repositories page by clicking on **Explore...**. 
 
-![](../../images/katalon-studio/docs/sample-projects/image2018-7-6-133A393A41.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/sample-projects/image2018-7-6-133A393A41.png)
 
 Each GitHub repository will have its own README that will guide you through the project. However, before you dive in with using these samples, check out these instructions below to get a copy of the project up and running on your local machine.
 
@@ -45,7 +45,7 @@ Each GitHub repository will have its own README that will guide you through the 
 
 ### Executing a Test Case
 
-![Execute a simple test case](../../images/katalon-studio/docs/sample-projects/Executing-a-test-case.png)
+![Execute a simple test case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/sample-projects/Executing-a-test-case.png)
 
 1.  Expand the Test Cases structure, where all the test cases are stored.
 2.  Select the test case you want to execute

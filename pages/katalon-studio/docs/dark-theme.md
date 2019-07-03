@@ -13,9 +13,9 @@ By default, Katalon Studio has the Light theme applied. Starting in version 6.3.
 To enable it, from __Window__, select __Themes__, then select __Dark__.
 
 
-![](../../images/katalon-studio/docs/dark-theme/1-darktheme.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dark-theme/1-darktheme.png)
 
 Katalon Studio is required restarting to enable another theme to be applied.
 
-![](../../images/katalon-studio/docs/dark-theme/2-darktheme.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dark-theme/2-darktheme.png)
 

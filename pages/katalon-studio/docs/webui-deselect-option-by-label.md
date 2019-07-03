@@ -14,7 +14,7 @@ Description
 
 Deselect the options with the given label (displayed text).
 
-![](../../images/katalon-studio/docs/webui-deselect-option-by-label/image2017-3-1-153A53A26.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-deselect-option-by-label/image2017-3-1-153A53A26.png)
 
  Parameters
 -----------

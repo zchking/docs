@@ -10,7 +10,7 @@ redirect_from:
 description: 
 ---
 
-![](../../images/katalon-studio/project-settings-network.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/project-settings-network.png)
 
 ## Bypass SSL server certificate validation
 

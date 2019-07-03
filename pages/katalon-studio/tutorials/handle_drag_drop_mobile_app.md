@@ -22,7 +22,7 @@ Manual Mode
 
 *   Step 1**:** Select **Start Application** from mobile keyword and click on **Input** to open a new dialogue. In **appFile**, select '**Value Type**' as **Variable**. In **Value**, pass the variable name as '**path'**.
 
-![Handling Drag and Drop in Mobile App](../../images/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App.png)
+![Handling Drag and Drop in Mobile App](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App.png)
 
 *   Step 2: Add a **Wait For Element Present** item to wait for Basic Usage playground to pop up.
 *   Step 3: Select **Tap** from mobile keyword and pass the object of Basic Usage playground.
@@ -30,7 +30,7 @@ Manual Mode
 *   Step 5: Select the **DragAndDrop** **keyword** to perform the drag and drop action.
 *   Step 6: The draggable object will be dragged into the droppable object.
 
-![Handling Drag and Drop in Mobile App](../../images/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App-6.png)
+![Handling Drag and Drop in Mobile App](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App-6.png)
 
 You can utilize our **Script** feature to automate the test.
 

@@ -11,7 +11,7 @@ description:
 ---
 > Be sure to click on 'update to HTTP Header' button to use current authentication information.
 > 
-> ![](../../images/katalon-studio/docs/copy-of-authorization/1.png)
+> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-authorization/1.png)
 
   
 The following authorizations are supported:

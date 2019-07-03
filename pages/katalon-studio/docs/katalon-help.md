@@ -15,7 +15,7 @@ Katalon Studio has you covered. Katalon Team has designed a central help page ju
 
 Select **Help** **>** **Katalon Help**. The app will display Katalon Help page as shown below
 
-![](../../images/katalon-studio/docs/katalon-help/image2018-8-2-93A363A43.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/image2018-8-2-93A363A43.png)
 
 On the left menu, click on any icon will take you directly to the respective page.
 
@@ -24,7 +24,7 @@ Getting Started
 
 This will be the default tab when you first started Katalon Studio application. You can also choose to view the quick guide to perform Web UI, Mobile, or API testing, along with the Scripting feature in Katalon Studio. Click on any hyperlink word from each step will take you to its full instruction page.
 
-![](../../images/katalon-studio/docs/katalon-help/image2018-8-2-93A373A7.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/image2018-8-2-93A373A7.png)
 
 **[Sample Projects](/display/KD/Sample+Projects)**
 
@@ -32,10 +32,10 @@ If you are not connected to the Internet, Katalon Studio provides 3 built-in Sam
 
 If you are connected to the Internet, a list of available sample projects for you to try in the **Katalon Help **page. Just choose the one that you want to try out to import that project into Katalon Studio. Additionally, you can go to our GitHub repositories page by clicking on **Explore...**
 
-![](../../images/katalon-studio/docs/katalon-help/image2018-7-6-133A393A41.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/image2018-7-6-133A393A41.png)
 
 **Recents**
 
 This tab will display any recent opened Katalon Studio projects. If you are new to Katalon Studio, this tab will display the message "You haven't opened any projects recently."
 
-![](../../images/katalon-studio/docs/katalon-help/image2018-8-2-143A493A39.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/image2018-8-2-143A493A39.png)
