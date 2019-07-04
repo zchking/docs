@@ -13,11 +13,11 @@ The LambdaTest integration will help you run your automation scripts on LambdaTe
 
 Here is a step-by-step guide to help you trigger your first automation script on LambdaTest Selenium Grid through Katalon Studio.
 
-**Step 1:** Login to your LambdaTest account.
+**Step 1:** Log in to your LambdaTest account.
 
-**Step 2:** In the left-navigation menu inside LambdaTest web-application, go to the **Profile **tab, then enter your **Username** and **Access Key**.
+**Step 2:** In the left-navigation menu inside LambdaTest web application, go to the **Profile** tab, then enter your **Username** and **Access Key**.
 
-These values are necessary for authentication purpose between your Katalon Studio instance & LambdaTest account. They will also help generate a secure remote connection between Katalon Studio & LambdaTest remote hub URL.
+These values are necessary for authentication purpose between your Katalon Studio instance and LambdaTest account. They will also help generate a secure remote connection between Katalon Studio and LambdaTest remote hub URL.
 
 Syntax for LambdaTest remote URL: [http://username:accessKey@hub.lambdatest.com/wd/hub](http://username:accessKey@hub.lambdatest.com/wd/hub). 
 
