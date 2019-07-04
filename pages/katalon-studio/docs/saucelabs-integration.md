@@ -16,7 +16,7 @@ For more detailed instructions of how to use the plugin, visit [this document](h
 
 <details><summary>Deprecated Content</summary>
 
-To integrate with Saucelabs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
+To integrate with Sauce Labs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
 1.  Login to SauceLabs.
 2.  Navigate to 'Account' page after logged in and note/copy your 'Access Key'value  
