@@ -46,7 +46,8 @@ Using the .har file in services analyzer such as https://toolbox.googleapps.com/
 
 ## Logs Configuration
 
-The deepest level of logs called TRACE. Use TRACE level when you need more logs details than DEBUG level, which is used by default.
+The deepest level of logs called TRACE. Use TRACE level when you need more logs details than DEBUG level, which is used by default. You can also lessen the logs details by using INFO level. 
+
 In case you want to change the log’s level of one or multiple packages, this setting is located and stored in Include > Config > log.properties file
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-execution-log/log-properties.png)
