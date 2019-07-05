@@ -933,6 +933,8 @@ items:
                 url: /katalon-studio/docs/configure-jira-integration.html
               - title: "Install and Use Katalon's JIRA add-on"
                 url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
+              - title: "Install and Use Katalon BDD custom field in Jira Cloud"
+                url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
           - title: "Git Integration"
