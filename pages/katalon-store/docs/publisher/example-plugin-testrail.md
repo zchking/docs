@@ -22,7 +22,7 @@ Please note, this document is not about how to use the plugin. Please visit [Tes
 
 ## **Setting page**
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/1_connect.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/1_connect.png)
 
 
 ### **Add an icon to the toolbar**
