@@ -36,11 +36,11 @@ To include Cucumber _Feature_ file in Katalon Studio test case: 
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-04-at-19.56.32.png)  
       
     
-    **2\. Execute multiple Feature Files **  
-    You can execute **multiple**_Feature__Files_ as long as they are within the same '**features**' folder using '**_[runFeatureFolder](https://api-docs.katalon.com/com/kms/katalon/core/cucumber/keyword/CucumberBuiltinKeywords.html#runFeatureFolder(java.lang.String,%20com.kms.katalon.core.model.FailureHandling))_**' built-in keyword. 
+    **2\. Execute multiple Feature Files**  
+    You can execute **multiple** _Feature Files_ as long as they are within the same **features** folder using '**_[runFeatureFolder](https://api-docs.katalon.com/com/kms/katalon/core/cucumber/keyword/CucumberBuiltinKeywords.html#runFeatureFolder(java.lang.String,%20com.kms.katalon.core.model.FailureHandling))_**' built-in keyword. 
     
     ```groovy
-    CucumberKW.runFeatureFolder('Include/features/New Feature File.feature')
+    CucumberKW.runFeatureFolder('Include/features')
     ```
     
       
