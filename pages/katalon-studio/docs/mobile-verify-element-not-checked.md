@@ -35,7 +35,7 @@ You want to verify if a checkbox is NOT checked 
 
 Manual: 
 
-** ![](../../images/katalon-studio/docs/mobile-verify-element-not-checked/image2016-8-15-93A563A9.png)**
+** ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-verify-element-not-checked/image2016-8-15-93A563A9.png)**
 
 Script:
 

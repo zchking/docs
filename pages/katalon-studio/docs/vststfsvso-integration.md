@@ -17,13 +17,13 @@ Follow setup guide: [https://www.visualstudio.com/en-us/docs/build/actions/agen
 
 Make sure the agent is in **'Online' **status. 
 
- ![](../../images/katalon-studio/docs/vststfsvso-integration/Untitled.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/vststfsvso-integration/Untitled.png)
 
 **2.****Setting up build steps:**
 
 Add a new build task: "Command Line":
 
- ![](../../images/katalon-studio/docs/vststfsvso-integration/2.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/vststfsvso-integration/2.png)
 
 *   **Tool:** katalon.exe
 *   **Arguments:** Generate command line from Katalon Studio (WITHOUT katalon prefix) to be used in console mode ([https://docs.katalon.com/display/KD/Console+Mode+Execution](/display/KD/Console+Mode+Execution))
@@ -31,16 +31,16 @@ Add a new build task: "Command Line":
 *   **Advanced:**
     *   Working folder: Select Katalon Studio folder, e.g: C:\\4.6\\Katalon Studio Windows 64
 
-![](../../images/katalon-studio/docs/vststfsvso-integration/3.png) 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/vststfsvso-integration/3.png) 
 
 3.    **Building your project with the agent:**
 
 Configure your project to be built with the agent. In this example, the agent is in 'Default' queue group, so we will choose 'Default' queue when selecting new build.
 
- ![](../../images/katalon-studio/docs/vststfsvso-integration/4.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/vststfsvso-integration/4.png)
 
 That's it!. When the project is built, it will start Katalon Studio and execute the input test suite based on your command.
 
-![](../../images/katalon-studio/docs/vststfsvso-integration/5.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/vststfsvso-integration/5.png)
 
 </details>

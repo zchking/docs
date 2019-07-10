@@ -1,6 +1,6 @@
 ---
 title: "Version 5.3.1"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-531.html
 redirect_from:
     - "/display/KD/Version+5.3.1/"
@@ -14,14 +14,14 @@ Integration and Email Accounts Encryption
 
 Provide user an option in Project Settings to encrypt all integration and email accounts with Katalon Studio. This helps to ensure the security of accounts information in sharing such as via Git. 
 
-![](../../images/katalon-studio/new/version-531/image2018-3-1-113A523A11.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-531/image2018-3-1-113A523A11.png)
 
 Masking Password Field in Record Web
 ------------------------------------
 
 Since version 5.3.1, Katalon Studio will auto-detect and masked the input text of Password field while Recording.
 
-![](../../images/katalon-studio/new/version-531/image2018-3-1-123A273A59.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-531/image2018-3-1-123A273A59.png)
 
 Support Private Kobiton Devices
 -------------------------------

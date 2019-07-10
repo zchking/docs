@@ -1,6 +1,6 @@
 ---
 title: "Version 5.9.0"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-590.html
 redirect_from:
     - "/katalon-studio/new/version-590/"
@@ -11,7 +11,7 @@ Introducing Script View for [Execution Profiles](../../katalon-studio/docs/execu
 -------------------
 The Script View is provided with an XML editor to allow you to reuse and sync any set of variables easily, whether in Execution Profiles or in the Test Case. Just a few simple actions and the tests can be run with different data for cross-environment testing. 
 
-![](../../images/katalon-studio/new/version-59/profile-script.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-59/profile-script.png)
 
 
 [Enhanced Console and Log Viewer](../../katalon-studio/docs/working-with-execution-log.html)
@@ -30,13 +30,13 @@ Instantly know your test execution status with the New Status Bar in Log Viewer.
 ### Added Log properties file to custom log levels
 Sometimes more details execution log is needed to troubleshoot runtime issues. A log properties file is added to _Include_ folder in Tests Explorer allowing you to adjust the logging levels of Katalon Studio. There are DEBUGGING level and TRACE level. Debugging level will be set by default. TRACE level is the lowest log level and will display the most details log information.
 
-![](../../images/katalon-studio/new/version-59/log-properties.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-59/log-properties.png)
 
 
 ### Added HAR file to Web Service request Console Log
 In version 5.9, Katalon Studio provides HAR file in the Console Log of APIs/Web Service request. The HAR file contains low-level data to quickly help you identify the key performance problems with Web services. Therefore, the project team can allocate development resource efficiently. Data in HAR file is stored in JSON format.
 
-![](../../images/katalon-studio/docs/working-with-execution-log/har-log.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-execution-log/har-log.png)
 
 
 Katalon Studio GUI for Linux

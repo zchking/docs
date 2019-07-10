@@ -14,7 +14,7 @@ Description
 
 Select the options with the given value.
 
-![](../../images/katalon-studio/docs/webui-select-option-by-value/image2017-3-1-183A203A51.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-select-option-by-value/image2017-3-1-183A203A51.png)
 
 Parameters
 ----------

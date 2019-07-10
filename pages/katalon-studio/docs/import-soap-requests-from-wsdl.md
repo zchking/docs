@@ -16,7 +16,7 @@ Generic Project
 
 *   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From WSDL**.
 
-![](../../images/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-08-at-3.42.49-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-08-at-3.42.49-PM.png)
 
 API/Web Service Project
 -----------------------
@@ -26,13 +26,13 @@ There are two ways to import existing WSDL request:
 *   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From WSDL.**
 
 *   Click on '**Import WSDL**' icon on the main toolbar or Quickstart wizard.   
-    ![](../../images/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-09-at-4.41.24-PM.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-09-at-4.41.24-PM.png)  
       
     
 
 Katalon Studio displays the input dialog accepts either a local File or a remote URL (e.g: [h](https://mysite/swagger.json,)[http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)). Since both inputs are using the same definition, Katalon Studio will load the specification and generate SOAP request objects.
 
-![](../../images/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-02-at-13.29.39.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-02-at-13.29.39.png)
 
 **Katalon Studio automatically imports and generates:**
 

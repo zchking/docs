@@ -1,6 +1,6 @@
 ---
 title: "Version 6.0.5"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-605.html
 redirect_from:
     - "/katalon-studio/new/version-605/"
@@ -14,7 +14,7 @@ description: Release notes v6.0.5
 Since version 6.0.5, Katalon Studio supports OAuth 2.0 expanding Web Service testing capabilities. Most of the common grant types are supported including “Authorization code,” “Password Credentials,” “Client Credentials,” and “Refresh Token.”
 [Learn more](https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html)
 
-![](../../images/katalon-studio/docs/authorization-oauth2/5.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/authorization-oauth2/5.png)
 
 Fixed Bugs & Improvements
 -----------------------

@@ -28,31 +28,31 @@ Follow the below steps to get familiar with the Record & Playback feature for We
 
 **Step 1:** Launch Katalon Studio and click **New > Test Case** on the main toolbar. Provide a name for your test case and click **OK**. An empty test case will be created.
 
-![Create-Test-Case](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Create-Test-Case.png)
+![Create-Test-Case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Create-Test-Case.png)
 
 **Step 2:** Click **Record Web** from the main toolbar.
 
-![Record-Web](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Web.png)
+![Record-Web](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Web.png)
 
 **Step 3:** The **Record** dialog will be displayed.
 
-![Web recorder](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Dialog-300x254.png)
+![Web recorder](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Dialog-300x254.png)
 
 **Step 4:** Select a browser, then click **Record** to start recording the test case.
 
-![recording-test-case](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/recording-test-case.png)
+![recording-test-case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/recording-test-case.png)
 
 **Step 5:** Once your application has been launched, click on the **Make Appointment** button. You will be directed to the Login page.
 
-![Make-Appointment](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Make-Appointment-e1513053243772-1024x512.png)
+![Make-Appointment](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Make-Appointment-e1513053243772-1024x512.png)
 
 **Step 6:** Enter valid username and password (John Doe and ThisIsNotAPassword), then click **Login**. 
 
-![Login-to-Make-Appointment](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Login-to-Make-Appointment-e1513053339776.png)
+![Login-to-Make-Appointment](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Login-to-Make-Appointment-e1513053339776.png)
 
 **Step 7:** Once the **Make Appointment** page has been loaded, select the value **Hongkong CURA Healthcare Center** from the Facility drop down menu.
 
-![Make-Appointment-page](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Make-Appointment-page-e1513067371591.png)
+![Make-Appointment-page](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Make-Appointment-page-e1513067371591.png)
 
 **Step 8:** Select the **Apply for hospital readmission** checkbox.
 
@@ -60,7 +60,7 @@ Follow the below steps to get familiar with the Record & Playback feature for We
 
 **Step 10:** Click the calendar icon next to **Visit Date (Required)**. Select a date.
 
-![Calendar](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Calendar-e1513067438109.png)
+![Calendar](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Calendar-e1513067438109.png)
 
 **Step 11:** Enter text in the **Comment** field.
 
@@ -70,17 +70,17 @@ Follow the below steps to get familiar with the Record & Playback feature for We
 
 Advanced testers who want to manually input the selectors have the option to choose between **CSS** and **XPath** modes. For more details about Selection Method, refer to this [guide](https://docs.katalon.com/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html).
 
-![Katalon Web Recorder](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Selection-Method-for-captured-objects.png)
+![Katalon Web Recorder](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Selection-Method-for-captured-objects.png)
 
 **Step 14:** When you are done recording, click **OK** to save the recorded actions into Katalon Studio. 
 
 You will be prompted to save captured objects to the **Object Repository**, which can be reused whenever needed. You can also create a folder to maintain page objects in desired structure. Click **OK** to continue.
 
-![Object-Repository](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Object-Repository.png)
+![Object-Repository](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Object-Repository.png)
 
 **Step 15:** Recorded objects and actions are saved in the test case as shown below.
 
-![Recorded-objects](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Recorded-objects-e1513067504997.png)
+![Recorded-objects](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Recorded-objects-e1513067504997.png)
 
 Click **Run** to execute recorded test cases in your desired browser.
 
@@ -126,19 +126,19 @@ To organize your test scripts in page object pattern, you need to add test objec
 
 **Step 1:** Launch Katalon Studio and click **First Test Case** on the main toolbar. Provide a name for your test case and click **OK**. An empty test case will be created.
 
-![Change-Element-Name](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Change-Element-Name.png)
+![Change-Element-Name](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Change-Element-Name.png)
 
 **Step 2:** Click **Record Web** on the main toolbar.
 
-![Record-Web](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Web.png)
+![Record-Web](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Web.png)
 
 **Step 3:** The **Record** dialog will be displayed. Select a browser and click the **Record** button to start recording the test case.
 
-![recording-test-case](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/recording-test-case.png)
+![recording-test-case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/recording-test-case.png)
 
 **Step 4:** Once your application has been launched, click on the **Make Appointment** button. You will be directed to the Login page.
 
-![Record-Dialog-Box](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Dialog-Box.png)
+![Record-Dialog-Box](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Record-Dialog-Box.png)
 
 **Step 6:** Rename the page name from "Page_CURA Healthcare Service" to "Page_Home Page."
 
@@ -146,27 +146,27 @@ To organize your test scripts in page object pattern, you need to add test objec
 
 **Step 8:** Rename the element name from "a_Make Appointment" to "button_Make Appointment."
 
-![Web-Recorder-Utility](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Web-Recorder-Utility.jpg)
+![Web-Recorder-Utility](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Web-Recorder-Utility.jpg)
 
 **Step 9:** Go back to the recording browser and continue to record. Click **Login**.
 
-![Login-to-Make-Appointment](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Login-to-Make-Appointment-e1513053339776.png)
+![Login-to-Make-Appointment](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Login-to-Make-Appointment-e1513053339776.png)
 
 **Step 10:** Repeat the same steps above to change the name of the object **Login** and its folder.
 
 **Step 11:** Rename the Page name from "Page_CURA Healthcare Service" to "Page_Login."
 
-![Web-Recorder-Utility-2](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Web-Recorder-Utility-2.jpg)
+![Web-Recorder-Utility-2](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Web-Recorder-Utility-2.jpg)
 
 **Step 12:** You can stop recording by clicking **Stop**. Click **OK** to save recorded actions into Katalon Studio.
 
 **Step 13:** You will be prompted to save the captured objects to **Object Repository,** which can be reused whenever needed. You can also create a folder to maintain page objects in your desired structure. Click **OK** to continue.
 
-![Objects-repository](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Objects-repository.png)
+![Objects-repository](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Objects-repository.png)
 
 **Step 14:** Recorded objects and actions are saved in the test case as shown below.
 
-![Recorded-objects-and-actions](../../images/katalon-studio/tutorials/create_test_case_using_record_playback/Recorded-objects-and-actions-e1513069057639.png)
+![Recorded-objects-and-actions](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_record_playback/Recorded-objects-and-actions-e1513069057639.png)
 
 Click **Run** to execute the recorded test cases in your desired browser.
 

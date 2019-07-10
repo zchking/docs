@@ -16,11 +16,11 @@ There are two ways to use the Search function in Katalon Studio: input search cr
 
 The **Query Builder** button is located on the top right of the **Test Explorer** area, next to the search bar. You may also find this Query Builder function while working with test suites. It can be used to find the desired test case based on certain criteria.
 
-![](../../images/katalon-studio/docs/search/Advance-Search-Button-Location.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/Advance-Search-Button-Location.png)
 
 To execute, please click on the Query Builder button and input search criteria.
 
-![](../../images/katalon-studio/docs/search/advance-search-box.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/advance-search-box.png)
 
 The fields on the Query Builder menu include:
 - **ID**: to search by to the exact IDs of the test artifact
@@ -34,13 +34,13 @@ The fields on the Query Builder menu include:
 To get the ID of the object, follow the steps below:
 Navigate to **Test Explorer** > Find the object whose ID you want to get > Right click > **Copy ID** > Paste it into the ID text box.
 
-![](../../images/katalon-studio/docs/search/Copy-ID.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/Copy-ID.png)
 
 In case you want to get the tag name of the object (this method CANNOT be applied when searching for folders):
 
 Navigate to **Test Explorer** > Find the object whose ID you want to get > Right click > **Properties** > The Test Case Properties window will appear > Copy the text in the **Tag** box > Paste it into the **Query Builder** box.
 
-![](../../images/katalon-studio/docs/search/Test-Case-Properties.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/Test-Case-Properties.png)
   
 ***Note***: You can only search for only one tag name at a time. The same process applies with getting descriptions and comment keywords.
 
@@ -48,7 +48,7 @@ Another way to search for test objects is to directly type on the search box. Fo
 
 id=(Test Cases/Jira sync with BDD) 
 
-![](../../images/katalon-studio/docs/search/1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/1.png)
 
 All test cases associated with the ‘Advance Examples’ ID will be filtered and returned.
  

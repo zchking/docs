@@ -9,4 +9,4 @@ redirect_from:
     - "/katalon-recorder/docs/katalon-recorder-vs-katalon-studio/"
 description: 
 ---
-![](../../images/katalon-recorder/docs/katalon-recorder-vs-katalon-studio/KS-vs-KR-also-free.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/katalon-recorder-vs-katalon-studio/KS-vs-KR-also-free.png)

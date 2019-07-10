@@ -18,25 +18,25 @@ Once you have installed the extension, you will need to configure Execute Katalo
 
 1. In Azure DevOps, add task **Execute Katalon Studio Tests** to your list. You can quickly lookup Execute Katalon Studio Tests from the search box or find it under the Task category.
 
-![](../../images/katalon-studio/docs/azure-devops-extension/1-search.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/1-search.png)
 
 
 2. Regarding the Command Arguments, you can enter the arguments directly in the text area or generate them from your in use Katalon Studio. Please leave out any irrelevant argument such as -runmode.
 
-![](../../images/katalon-studio/docs/azure-devops-extension/2-command.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/2-command.png)
 
 
 3. X11 DISPLAY and Xvfb-run configuration
 
 If you want to learn more about xvfb-run configuration please see its manual. If you are not sure, only change the resolution 1024x768x24 and leave other options as-is.
 
-See [Common Configuration]([https://docs.katalon.com/katalon-studio/docs/common-configuration.html#strongcommand-argumentsstrong](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#strongcommand-argumentsstrong)) for more details.
+See [Common Configuration](https://docs.katalon.com/katalon-studio/docs/common-configuration.html) for more details.
 
 4. After everything is setup, click **Queue** button to build.
 
-![](../../images/katalon-studio/docs/azure-devops-extension/3-result.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/3-result.png)
 
-![](../../images/katalon-studio/docs/azure-devops-extension/4-result.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/4-result.png)
 
 
 Refer to this [sample project](https://github.com/katalon-studio-samples/azure-devops-extension-samples) for your reference.

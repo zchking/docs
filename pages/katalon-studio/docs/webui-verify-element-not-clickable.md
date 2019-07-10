@@ -11,7 +11,7 @@ description:
 ---
 > This keyword only works with Element has **tag** _<input>_ with attribute **disable.**
 > 
-> _![](../../images/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
+> _![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
 
 Description
 -----------

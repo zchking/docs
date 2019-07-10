@@ -21,7 +21,7 @@ Manual Mode
     
 *   Next, enter the raw text and select **Insert**. Katalon Studio will **automatically** encrypt and insert into the test step. 
 
-![](../../images/katalon-studio/docs/working-with-sensitive-text/image2018-3-26-173A513A4.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-sensitive-text/image2018-3-26-173A513A4.png)
 
 Script Mode
 -----------
@@ -30,8 +30,8 @@ Script Mode
 
 *   Select **Help > Encrypt Text** on the Main Menu. Enter the Raw Text and Click Copy and Close
 
-![](../../images/katalon-studio/docs/working-with-sensitive-text/image2018-3-26-173A523A37.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-sensitive-text/image2018-3-26-173A523A37.png)
 
 *   In Script Mode, simply paste the encrypted text as param of the **[setEncryptedText](/display/KD/%5BWebUI%5D+Set+Encrypted+Text)** built-in keyword
 
-![](../../images/katalon-studio/docs/working-with-sensitive-text/image2018-4-2-143A553A30.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-sensitive-text/image2018-4-2-143A553A30.png)

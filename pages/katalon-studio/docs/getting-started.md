@@ -38,22 +38,22 @@ Start Katalon Studio
 
 To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows)
 
-![Download and Start Katalon Studio](../../images/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
+![Download and Start Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
 
 or **Katalon Studio** (macOS) file in the directory where you unpack Katalon Studio. For example:
 
-![](../../images/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
 
 Once started, the application should display the splash screen similar to the following screenshot:
 
-![Katalon Studio Loading](../../images/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
+![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
 Activate Katalon Studio
 -----------------------
 
 If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching Katalon Studio. If you already have an account, choose the **Sign In** option and provide your credentials. If you don't have Internet access while activating Katalon Studio, request [an offline activation code](https://www.katalon.com/activation/) beforehand. For more details, refer to this [guide](/x/ERLR).
 
-![](../../images/katalon-studio/docs/getting-started/image2018-8-30-143A133A37.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/image2018-8-30-143A133A37.png)
 
 Configurations for Web UI Testing
 ---------------------------------
@@ -85,13 +85,13 @@ When you use Katalon Studio for the first time, you have the option to create Ne
 
 \- When the sample project is loaded, you can view a test case or a test suite by selecting it in the Test Explorer on the left of the UI.
 
-![](../../images/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.32.06-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.32.06-PM.png)
 
 \- To execute the script, go to the Run command on the Main toolbar.
 
 _NOTE_: You can specify the target browser to be launched by selecting from the _Run_ drop-down list.
 
-![](../../images/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.33.04-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.33.04-PM.png)
 
 Katalon Studio provides a **Job Progress** tab to show the status of your execution as well as the **Log Viewer** to let you identify any potential problems that may have occurred.
 

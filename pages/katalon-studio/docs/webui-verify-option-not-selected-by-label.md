@@ -14,7 +14,7 @@ Description
 
 Verify if the options with the given displayed texts are not selected.
 
-![](../../images/katalon-studio/docs/webui-verify-option-not-selected-by-label/label.jpg)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-option-not-selected-by-label/label.jpg)
 
 Parameters
 ----------

@@ -1,6 +1,6 @@
 ---
 title: "Version 5.8"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-58.html
 redirect_from:
     - "/display/KD/Version+5.8/"
@@ -17,19 +17,19 @@ The release of Katalon Studio 5.8 introduces the new API/Web Service testing pro
 
 The API/Web Service project is specialized designed to help you to accelerate automation tasks in Katalon Studio. The update also comes with a new interface, including a new toolbar and view that serve only for API/Web Service testing.
 
-![](../../images/katalon-studio/new/version-58/New-API.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-58/New-API.png)
 
 ### Creating or Importing Web Service request instantly with Quick Start Wizard
 
 The QuickStart wizard allows you to quickly Import Swagger 2.0/WSDL definition or Create Draft REST/SOAP request to try out with variation of testing data requirements. When importing web service definition, Katalon Studio will load specified information and populated into your project so you don't have to spend time converting them manually. This wizard can be relaunched anytime in _Help_ \> _Quick Start_. 
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
 
 ### Request History
 
 All web service requests sending in Katalon Studio are stored in the Request History panel in which you can retrieve anytime.
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.16.04-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.16.04-PM.png)
 
 ### Adding Web Service request directly to new or existing Test Case
 
@@ -38,13 +38,13 @@ The web service request object can be added directly to test case from the objec
 *   Add to new Test Case
 *   Add to existing Test Case
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.17.25-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-58/Screen-Shot-2018-10-05-at-3.17.25-PM.png)
 
 ### Support PATCH HTTP method
 
 Katalon Studio now support **PATCH** HTTP method to help you apply a partial modification to resources. 
 
-![](../../images/katalon-studio/new/version-58/Screen-Shot-2018-10-08-at-11.35.42-AM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-58/Screen-Shot-2018-10-08-at-11.35.42-AM.png)
 
 Fixed Bugs
 ----------

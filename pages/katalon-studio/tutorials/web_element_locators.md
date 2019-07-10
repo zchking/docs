@@ -42,7 +42,7 @@ The answers to these questions will help you decide which locator value is stati
 
 The development team's conventions should also be taken into account. If the team has the conventions of using all elements with static IDs, static names, for example, then these static properties can be used as primary locators. Furthermore, it is unnecessary to locate an element by its static locator if it has parents, children, or siblings that can be located by static locators. You instead locate the element using XPath functions. For example:
 
-![Username](../../images/katalon-studio/tutorials/web_element_locators/Username.png)
+![Username](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Username.png)
 
 ```groovy
 <div class="field-group">
@@ -69,7 +69,7 @@ Using Static Locators
 
 After studying the AUT and development conventions, if you are certain that all locators for an element are static, then use them. This is the simplest possible. See example below:
 
-![Username](../../images/katalon-studio/tutorials/web_element_locators/Username.png)
+![Username](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Username.png)
 
 ```groovy
 <div class="field-group">
@@ -116,7 +116,7 @@ Here are several examples of textbox:
 
 *   *   A textbox has a label outside and next to it. Depending on the location of the label, you can select the most suitable XPath.
 
-![Username](../../images/katalon-studio/tutorials/web_element_locators/Username.png)
+![Username](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Username.png)
 
 ```groovy
 <div class="field-group">
@@ -134,7 +134,7 @@ Here are several examples of textbox:
 
 *   *   Sometimes you may see some textboxes that already have text (or a placeholder) inside them:
 
-![textboxes](../../images/katalon-studio/tutorials/web_element_locators/textboxes.png)
+![textboxes](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/textboxes.png)
 
 ```groovy
 <input data-selenium="textInput" tabindex="-1" type="text" class="SearchBoxTextEditor SearchBoxTextEditor--autocomplete" placeholder="Enter a destination or property" value="">
@@ -148,7 +148,7 @@ Use the 'placeholder' attribute in an XPath to locate the textbox as
 *   *   Notes
         *   Pay attention to the 'placeholder' attribute. It may be dynamic as well. The Search bar of Airbnb's website is an example:
 
-![Search-bar-of-Airbnb's](../../images/katalon-studio/tutorials/web_element_locators/Search-bar-of-Airbnbs.png)
+![Search-bar-of-Airbnb's](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Search-bar-of-Airbnbs.png)
 
 In this case, use Tag or texts next to the textbox.
 
@@ -156,7 +156,7 @@ In this case, use Tag or texts next to the textbox.
 
 A button is normally used to receive an action from users such as hover, click, and double click. Similar to a textbox, a button is often recognized by its text. Here are some typical examples of buttons in a web page:
 
-![examples-of-buttons-in-a-web-page](../../images/katalon-studio/tutorials/web_element_locators/examples-of-buttons-in-a-web-page-300x60.png)
+![examples-of-buttons-in-a-web-page](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/examples-of-buttons-in-a-web-page-300x60.png)
 
 ```groovy
 <input accesskey="s" class="aui-button aui-button-primary" type="submit" value="Create">
@@ -169,7 +169,7 @@ The text in this button is from the 'value' attribute. So the XPath should be:
 
 Sometimes, the text in the button is not from the 'value' attribute. It is actually a text or label with the format that makes it look like a button.
 
-![the-text-in-the-button](../../images/katalon-studio/tutorials/web_element_locators/the-text-in-the-button-300x92.png)
+![the-text-in-the-button](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/the-text-in-the-button-300x92.png)
 
 ```groovy
 <button type="submit" class="_1ptkf58d" aria-busy="false" data-veloute="book-it-footer-trigger">
@@ -196,7 +196,7 @@ Sometimes, the text in the button is not from the 'value' attribute. It is actua
 
 A Select (or Drop-down list) allows you select an item from a list of defined items. Normally, the locator of a select is similar to that of a textbox—the difference is on the tag: it uses 'select' tag instead of 'input'.
 
-![Drop-down-list](../../images/katalon-studio/tutorials/web_element_locators/Drop-down-list.png)
+![Drop-down-list](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Drop-down-list.png)
 
 ```groovy
 <label for="tl0023">Priority</label>
@@ -220,7 +220,7 @@ A Select (or Drop-down list) allows you select an item from a list of defined it
 
 A hyperlink is a link on a webpage that usually receives the 'click' action. A hyperlink is displayed as a text with or without an underline, in a different color. Hence, the a hyperlink's locator is very similar to that of a text or label—except that the 'a' tag is used. If a hyperlink does not include text or its URL is more stable than its text, you should use the 'href' attribute.
 
-![hyperlink's-locator](../../images/katalon-studio/tutorials/web_element_locators/hyperlinks-locator.png)
+![hyperlink's-locator](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/hyperlinks-locator.png)
 
 ```groovy
 <a accesskey="`" class="aui-button aui-button-link cancel" href="/secure/ForgotLoginDetails.jspa" title="Press Ctrl+Alt+` to cancel">Can't access your account?</a>
@@ -236,7 +236,7 @@ A hyperlink is a link on a webpage that usually receives the 'click' action. A h
 
 With the tag 'input', a checkbox is used to receive the "click" action. Normally, a checkbox locator is similar to that of a textbox.
 
-![checkbox-locator](../../images/katalon-studio/tutorials/web_element_locators/checkbox-locator.png)
+![checkbox-locator](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/checkbox-locator.png)
 
 ```groovy
 <div class="input-list-item input-list-item-checkbox">
@@ -257,7 +257,7 @@ With the tag 'input', a checkbox is used to receive the "click" action. Normally
 
 A radio button, like a checkbox, is designed to receive a "click" action. Its locator is completely the same as the checkbox locator.
 
-![radio-button](../../images/katalon-studio/tutorials/web_element_locators/radio-button.png)
+![radio-button](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/radio-button.png)
 
 ```groovy
 <form name="agreementFormjdk-8u181-oth-JPR" method="post" action="radio" class="lic_form">

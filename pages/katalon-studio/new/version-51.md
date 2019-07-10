@@ -1,6 +1,6 @@
 ---
 title: "Version 5.1.0"
-sidebar: katalon_studio_new_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-51.html
 redirect_from:
     - "/display/KD/Version+5.1.0/"
@@ -26,10 +26,10 @@ With these upgrades, users will be able to smoothly execute automation scripts w
 
 Sharing Katalon Studio test execution report with team members just got easier. Email setting is enhanced in Version 5.1.0 to support **PDF** test execution **reports** as email **attachment**.
 
-![](../../images/katalon-studio/new/version-510/image2017-11-14-153A423A45.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/image2017-11-14-153A423A45.png)
 
 #### Execution
 
 Improved **Execution Settings** for users conveniences by combining settings in Katalon Studio Preferences and Project Settings
 
-![](../../images/katalon-studio/new/version-510/image2017-11-14-153A373A52.png)![](../../images/katalon-studio/new/version-510/image2017-11-14-153A383A8.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/image2017-11-14-153A373A52.png)![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/image2017-11-14-153A383A8.png)

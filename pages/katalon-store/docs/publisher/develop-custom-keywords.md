@@ -75,7 +75,7 @@ katalon {
 }
 ```
 
-Install [Gradle ](https://gradle.org/)and run the following command, then checking the `build/libs` for the plugin’s JAR package.
+Install [Gradle](https://gradle.org/) and run the following command, then checking the `build/libs` for the plugin’s JAR package.
 
 
 ```

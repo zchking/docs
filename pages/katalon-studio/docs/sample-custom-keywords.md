@@ -15,7 +15,7 @@ When creating a **New Custom Keyword**, you have the options to generate sample 
 
 The options are displayed directly when you create a new custom keyword.
 
-![](../../images/katalon-studio/docs/sample-custom-keywords/Screen-Shot-2018-03-26-at-13.35.02.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/sample-custom-keywords/Screen-Shot-2018-03-26-at-13.35.02.png)
 
 | Option | Description |
 | --- | --- |
@@ -192,4 +192,4 @@ class sampleKeywords {
 }
 ```
 
-![](../../images/katalon-studio/docs/sample-custom-keywords/Screen-Shot-2018-03-26-at-13.36.40.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/sample-custom-keywords/Screen-Shot-2018-03-26-at-13.36.40.png)

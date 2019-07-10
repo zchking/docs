@@ -16,18 +16,18 @@ For more detailed instructions of how to use the plugin, visit [this document](h
 
 <details><summary>Deprecated Content</summary>
 
-To integrate with Saucelabs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
+To integrate with Sauce Labs, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on SauceLabs provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
 1.  Login to SauceLabs.
 2.  Navigate to 'Account' page after logged in and note/copy your 'Access Key'value  
       
     
 
-![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A15.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A15.png)
 
 3. Go to '[Platform Configurator](https://wiki.saucelabs.com/display/DOCS/Platform+Configurator?src=sidebar)' page. Select the settings you want and SauceLabs will generate capabilities for you
 
-![](../../images/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A51.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-integration/image2017-9-7-113A403A51.png)
 
 4.In Katalon Studio, open ['Remote' ](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
 

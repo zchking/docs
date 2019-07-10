@@ -24,12 +24,12 @@ Log in to your Slack team space and navigate to the [Slack API App](https://api.
 
 Click on **OAuth & Permissions**
 
-![](../../images/katalon-studio/docs/slack-plugin-integration/Slack_3.png) 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack_3.png) 
 
 Scroll down to the **Scopes** section.  
 Under **Select Permission Scopes**, choose all options: **Send messages as Katalon Studio**, **Send messages as user**, and **Access information about user's public channels** > **Save Changes**.  An authentication token will be generated. 
 
-![](../../images/katalon-studio/docs/slack-plugin-integration/Slack_4.png) 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack_4.png) 
 *Note*: If you forget to define Scopes to the chatbot, you will have to reinstall the app and define Scopes again.
 
 ### Obtain Slack Legacy token

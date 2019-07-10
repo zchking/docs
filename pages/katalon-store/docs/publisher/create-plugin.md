@@ -222,7 +222,7 @@ public class MyPluginActivationListener implements PluginActivationListener {
 Type `mvn clean package` and wait until the **BUILD SUCCESS** message is displayed from the command line window.
 
 
-![](../../images\katalon-store\docs\publisher\build-plugin.png)
+![](https://github.com/katalon-studio/docs-images/raw/master\katalon-store\docs\publisher\build-plugin.png)
 
 
 
@@ -238,7 +238,7 @@ Launch your plugin by clicking on **Plugin/Install Plugin** menu and choose the 
 
 You should be able to see the notification message `Plugin installed successfully` from Katalon Studio and the message `Hello, my plugin is: com.mycomany.my-first-katalon-plugin` is displayed in `Event Log` tab. Success!
 
-![](../../images\katalon-store\docs\publisher\test-plugin.png)
+![](https://github.com/katalon-studio/docs-images/raw/master\katalon-store\docs\publisher\test-plugin.png)
 
 
 
@@ -323,7 +323,7 @@ Run the test suite and wait until the execution finished.
 
 Look at the `Event Log` and the message should be displayed as shown below:
 
-![](../../images\katalon-store\docs\publisher\test-execution-event.png)
+![](https://github.com/katalon-studio/docs-images/raw/master\katalon-store\docs\publisher\test-execution-event.png)
 
 
 ### **What's next**

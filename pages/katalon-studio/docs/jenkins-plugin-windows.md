@@ -14,31 +14,31 @@ You must have already installed Jenkins for Windows (click [here](https://jenkin
 
 Go to _Manage Jenkins > Manage Plugins > Available tab_ and find Katalon plugin on the list. Select and click Install.
 
-![](../../images/katalon-studio/docs/jenkins-plugin-windows/Picture1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture1.png)
 
 
 **Create and configure a new Jenkins project**
 
 Now, go back to the top page, you can start using the plugin right away. Click on “New Item”
 
-![](../../images/katalon-studio/docs/jenkins-plugin-windows/Picture2.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture2.png)
 
 To keep it simple, let's make it a freestyle project.
 
-![](../../images/katalon-studio/docs/jenkins-plugin-windows/Picture3.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture3.png)
 
 Next step, tell Jenkins your workspace or simply use git. There is a sample Katalon Studio a project on [Github](https://github.com/katalon-studio-samples/ci-samples) for a quick test.
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-windows/Picture4.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture4.png)
 
 Next, add and configure the build step _Execute Katalon Studio tests_.
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-windows/Picture5.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture5.png)
 
 
-![](../../images/katalon-studio/docs/jenkins-plugin-windows/Picture6.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture6.png)
 
 Katalon Studio will be downloaded and installed automatically based on the version you specify. And later, your tests will be executed automatically too.
 

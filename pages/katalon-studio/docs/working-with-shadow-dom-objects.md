@@ -17,11 +17,11 @@ Next step is to identify the properties of Shadow DOM element and create a new o
 
 In the new object setting, select **Shadow Root Parent** option and define with parent object from the firs step. This allows Katalon Studio traverse through parent object via generated CSS selector to detect Shadow DOM object by its properties (Refer to [Object Properties](/display/KD/Manage+Test+Object#ManageTestObject-Propertiesusedfordetectingobject)).
 
-![](../../images/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-153A273A58.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-153A273A58.png)
 
 For example, the following test execution log shows Katalon Studio tried to find parent object first. Once parent object was found, Katalon Studio will try to find Shadow DOM element by CSS selector:
 
-![](../../images/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-163A43A40.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-163A43A40.png)
 
 Limitation
 ----------

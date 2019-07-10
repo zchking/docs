@@ -27,7 +27,7 @@ Example 
 You want to hide keyboard if it is showing.
 
 *   Manual view    
-    ![](../../images/katalon-studio/docs/mobile-hide-keyboard/image2017-3-3-143A273A56.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-hide-keyboard/image2017-3-3-143A273A56.png)
 *   Script view 
     
     ```groovy

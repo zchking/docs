@@ -50,14 +50,14 @@ Open a Mobile Testing Sample Project (which is packaged in your Katalon Studio i
 
 Execute a test suite using an Android device: 
 
-![](../../images/katalon-studio/docs/mobile-on-windows/image2017-6-29-143A483A34.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-windows/image2017-6-29-143A483A34.png)
 Select your device from the **Android Devices** list. Click **OK**. 
 
-![](../../images/katalon-studio/docs/mobile-on-windows/image2018-1-26-183A393A1.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-windows/image2018-1-26-183A393A1.png)
 
 If your test suite runs successfully, you will see the results in the test reports as follow:
 
-![](../../images/katalon-studio/docs/mobile-on-windows/image2018-6-15-173A473A28.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-windows/image2018-6-15-173A473A28.png)
 
 For more information on how to run a test suite, check out the documentation [here](/pages/viewpage.action?pageId=786668).
 

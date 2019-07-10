@@ -16,13 +16,13 @@ Basic Search For Dynamic Querying Test Suite enables the basic search capability
 
 Right-click on Test Suite > New > Dynamic Querying Test Suite
 
-![](../../images/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite/Dynamic_3.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite/Dynamic_3.png)
 
 In the dynamic querying test suites, test cases are not manually added to the built-in test suites but through [search](https://docs.katalon.com/katalon-studio/docs/advanced-search.html) queries in Katalon Studio.
 
 Input the search condition, click Preview to query out the matching test cases. The number of matching test cases will also be shown.
  
- ![](../../images/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite/1.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite/1.png)
 
 For example, to plan the test cases in folder “Jira sync with BDD", you can use this search query: id=(Test Cases/Jira sync with BDD) 
 

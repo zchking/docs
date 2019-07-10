@@ -5,6 +5,8 @@ permalink: katalium-server/docs/katalium-contributing.html
 description: User guide for Katalium developer.
 ---
 
+Katalium Server is open-sourced at https://github.com/katalon-studio/katalium-server.
+
 ## Frontend
 
 The GUI of Katalium Server is built with ReactJS and [Create React App (CRA)](https://github.com/facebook/create-react-app). This GUI is only enabled in Grid mode.
@@ -33,7 +35,7 @@ To start the server as a hub, use entry class `com.katalon.kata.server.KatalonSe
 
 To start the server as a node, use entry class `com.katalon.kata.server.KatalonServer` with arguments `-role node -hub http://localhost:4444/grid/register -proxy com.katalon.kata.proxy.KatalonProxy`.
 
-![](../../images/katalium-server/docs/katalium-contributing/1-katalium.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/katalium-contributing/1-katalium.png)
 
 ## Package
 

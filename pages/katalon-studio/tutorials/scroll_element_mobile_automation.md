@@ -15,7 +15,7 @@ This tutorial illustrates **Scroll to text** behavior in the mobile app. The dem
 
 The screenshot of the app below has a listview containing 'n' number of rows. Our goal is to scroll down to the text '**Views**', and to tap on it. When the user taps on **Views,** the app navigates to another screen.
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation.png)
 
 We can easily automate this scenario in two ways: manual and script modes.
 
@@ -23,36 +23,36 @@ We can easily automate this scenario in two ways: manual and script modes.
 
 *   Step 1: Click on **Add** and select **Binary Statement**.
 
-![Handling Scroll to Element in Mobile Automation ](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-1.png)
+![Handling Scroll to Element in Mobile Automation ](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-1.png)
 
 *   Step 2: Go to **Input** field. Select value type as **Variable** in _Left Expression_ and name the variable as '**path'**. This name will show up in Value.
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-2.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-2.png)
 
 *   Step 3**:** Select **Value Type** as **Binary** in _Right Expression_. Next, click on the **Value** field. In the new window, enter Left and Right Expressions.
 *   Step 4**:** Select value type as **Method call** in _Left Expression_. Click on the **Input** field, a window will pop up where user can select an Object Type as **Class,** Object as **RunConfiguration,** method as **getProjectDir()** to continue.
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-3.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-3.png)
 
 *   Step 5: In _Right Expression_, select **String** as _Value Type_ and pass the path of the **"/folder name/apk file name with extension"**.
 
 For example, if the apk file is stored in Data Filesfolder in File Explorer, the passed path is "**/Data Files/ApiDemos.apk"**
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-5.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-5.png)
 
 *   Step 6**:** Select **Start Application** from mobile keyword andclick on **Input**. A new window will appear. In **appFile**, select 'Value Type' as **Variable**. In **Value**, pass the variable name as **path**.
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-6.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-6.png)
 
 *   Step 7: Add **Wait For Element Present** item.
 *   Step 8: Call **Scroll To Text** from mobile keyword to pass Input as **Views**. **Scroll To Text** accepts String type parameter (Text of the element to scroll to)
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-8.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-8.png)
 
 *   Step 9: Call **Tap** method and pass the object of **Views** from Object Repository
 *   Step 10: Select **Scroll To Tex**t method and pass input as '**Tabs'**
 
-![Handling Scroll to Element in Mobile Automation](../../images/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-10.png)
+![Handling Scroll to Element in Mobile Automation](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-10.png)
 
 The step-by-step guide above can be achieved through **Script mode** (switch to Script Mode by clicking on Script tab).
 

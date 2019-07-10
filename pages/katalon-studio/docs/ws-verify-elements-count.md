@@ -20,7 +20,7 @@ Parameters
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | response | ResponseObject | Required | Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header) |
-| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide for how to write it: [Handle Web Service Response object](/display/KD/Introduction+to+Web+Services+Test+Object) |
+| locator | String | Required | An expression Katalon will use to go through and look for the expected element(s). Please refer to [Handle Web Service Response object](/display/KD/Introduction+to+Web+Services+Test+Object) guide. <br>The syntax for locator is GPath. To learn more about GPath, see this [guide](http://groovy-lang.org/processing-xml.html).|
 | count  | int  | Required | The expected number of element(s) should appear in the responded data (usually is JSON/XML) |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 

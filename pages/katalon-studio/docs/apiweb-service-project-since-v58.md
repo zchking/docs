@@ -11,21 +11,21 @@ Katalon Studio 5.8 introduces the new API/Web Service testing project. This sign
 
 The update comes with a new interface, including a new toolbar and view that serve only for API/Web Service testing. To **create** the _New API/Web Service Project_, in _New Project_ dialog, simply select _API/Web Service_ type and specify all required project information. 
 
- ![](../../images/katalon-studio/docs/apiweb-service-project-since-v58/New-Project.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/New-Project.png)
 
 Toolbar
 -------
 
  The main toolbar contains API/Web Service testing related features only to help you navigate around the app easily and intuitively. 
 
-![](../../images/katalon-studio/docs/apiweb-service-project-since-v58/Screen-Shot-2018-10-09-at-4.39.57-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/Screen-Shot-2018-10-09-at-4.39.57-PM.png)
 
 Quickstart
 ----------
 
 To help accelerate the creation of Web Service request, Katalon Quickstart allows you to quickly create new requests or import request definition from File/URL with a single click.  
 
-![](../../images/katalon-studio/docs/apiweb-service-project-since-v58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
 
 Quick start options include:
 
@@ -39,4 +39,4 @@ This API/Web Service quickstart starts automatically the first time you created 
 
 Same with a normal Katalon Project, the left column now have _Request History_ view where all the sent requests are saved here. You can freely access and retrieve them to work or save as a request object in the Object Repository. 
 
-![](../../images/katalon-studio/docs/apiweb-service-project-since-v58/New-API.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/New-API.png)

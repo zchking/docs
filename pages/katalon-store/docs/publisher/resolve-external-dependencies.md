@@ -72,4 +72,4 @@ katalon {
 
 Besides, there is another benefit. Your dependencies will be [repackaged](http://repackage.org/) in order to avoid conflicts with other plugins as much as possible.
 
-![](../../../images/katalon-store/docs/publisher/repackaged.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/repackaged.png)

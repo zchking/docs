@@ -14,7 +14,7 @@ From a Feature File
 
 Katalon Studio allows you to run the feature file instantly by itself to make sure it works properly. Open the desired **Features** file, click the **Play** button on the main toolbar.
 
-![](../../images/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-06-at-10.11.40-AM.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-06-at-10.11.40-AM.png)
 
 In Test Cases
 -------------
@@ -33,18 +33,18 @@ To include Cucumber _Feature_ file in Katalon Studio test case: 
     ```
     
       
-    ![](../../images/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-04-at-19.56.32.png)  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-04-at-19.56.32.png)  
       
     
-    **2\. Execute multiple Feature Files **  
-    You can execute **multiple**_Feature__Files_ as long as they are within the same '**features**' folder using '**_[runFeatureFolder](https://api-docs.katalon.com/com/kms/katalon/core/cucumber/keyword/CucumberBuiltinKeywords.html#runFeatureFolder(java.lang.String,%20com.kms.katalon.core.model.FailureHandling))_**' built-in keyword. 
+    **2\. Execute multiple Feature Files**  
+    You can execute **multiple** _Feature Files_ as long as they are within the same **features** folder using '**_[runFeatureFolder](https://api-docs.katalon.com/com/kms/katalon/core/cucumber/keyword/CucumberBuiltinKeywords.html#runFeatureFolder(java.lang.String,%20com.kms.katalon.core.model.FailureHandling))_**' built-in keyword. 
     
     ```groovy
-    CucumberKW.runFeatureFolder('Include/features/New Feature File.feature')
+    CucumberKW.runFeatureFolder('Include/features')
     ```
     
       
-    ![](../../images/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-04-at-19.57.32.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-04-at-19.57.32.png)
     
     3\. Execute using [Cucumber Runner](http://toolsqa.com/cucumber/junit-test-runner-class/):
     
@@ -55,7 +55,7 @@ To include Cucumber _Feature_ file in Katalon Studio test case: 
     
     ```
     
-    **![](../../images/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-06-at-17.13.04.png)  
+    **![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-06-at-17.13.04.png)  
     **
     
     *   **Example #1**: Run all Feature files in **Include/features** Folder
@@ -125,4 +125,4 @@ There is **NO** custom report for executing Feature File. Katalon Studio uses o
     *   XML
     *   HTML
 
-![](../../images/katalon-studio/docs/running-cucumber-features-file/Screenshot-at-Sep-04-20-01-21.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screenshot-at-Sep-04-20-01-21.png)

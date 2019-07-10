@@ -14,7 +14,7 @@ Description
 
 Verify if the option with the given displayed text does not exist.
 
-![](../../images/katalon-studio/docs/webui-verify-option-not-present-by-label/label.jpg)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-option-not-present-by-label/label.jpg)
 
 Parameters
 ----------

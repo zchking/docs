@@ -102,8 +102,6 @@ __Assign Admin or User roles to new and existing team members__
 *Admin* and *Owner* can reassign the existing *Admin* and *User* to a new role. From __Users Tab__, click the pencil icon in the last column and then select a new role in the drop-down list.
 A user can have different roles in different teams.
 
-![](../../images/katalon-analytics/docs/user-management/1-usermgt-editusers.png)
-
 ### **Project-related permissions**
 
 *   **Upload test execution reports**

@@ -13,18 +13,18 @@ description:
 
 These settings allow you to define global email configurations to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Email**. 
 
-![](../../images/katalon-studio/docs/emails-settings/image2018-3-1-173A233A36.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/image2018-3-1-173A233A36.png)
 
 Where:
 
-<table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="../../images/katalon-studio/docs/emails-settings/image2018-3-1-173A253A39.png"></p></td><td><p>This section defines the mail server which Katalon Studio will use to send emails.</p><ul><li><strong>Host</strong>: the domain name of the mail server</li><li><strong>Port</strong>: the port to be used for that server</li><li><strong>Username &amp; Password</strong>: the account to authenticate with the server</li><li><strong>Protocol</strong>: the protocol to communicate with the mail server</li><li><strong>Encrypt authentication data</strong> is recommended for sensitive data protection</li></ul></td></tr><tr><td><p><img src="../../images/katalon-studio/docs/emails-settings/image2017-11-15-93A433A0.png"></p></td><td><p>This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click <strong>Edit Template</strong>.</p><p>Selecting <strong>Include report as email attachment</strong> will enable all the options to include <strong>execution log</strong> and <strong>report format</strong> of the test suite will be sent as attachments in the notification email.</p></td></tr></tbody></table>
+<table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/image2018-3-1-173A253A39.png"></p></td><td><p>This section defines the mail server which Katalon Studio will use to send emails.</p><ul><li><strong>Host</strong>: the domain name of the mail server</li><li><strong>Port</strong>: the port to be used for that server</li><li><strong>Username &amp; Password</strong>: the account to authenticate with the server</li><li><strong>Protocol</strong>: the protocol to communicate with the mail server</li><li><strong>Encrypt authentication data</strong> is recommended for sensitive data protection</li></ul></td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/image2017-11-15-93A433A0.png"></p></td><td><p>This section defines the list of emails to receive reports from Katalon Studio. You can also customize the body of the email by click <strong>Edit Template</strong>.</p><p>Selecting <strong>Include report as email attachment</strong> will enable all the options to include <strong>execution log</strong> and <strong>report format</strong> of the test suite will be sent as attachments in the notification email.</p></td></tr></tbody></table>
 
 Configure Email Settings in Email Preferences
 ---------------------------------------------
 
 Katalon Studio allows users to receive summary reports via **Email **after **Test Suites** execution. You can access this setting at **Project > Settings > Email **
 
-![](../../images/katalon-studio/docs/emails-settings/image2017-11-15-103A203A54.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/image2017-11-15-103A203A54.png)
 
 > In case your email servers are using two-step authentication, please turn it off.
 > 
@@ -72,7 +72,7 @@ Template
 
 You can customize the content of email here. All fields in template is editable. Click Apply when finished.
 
-![](../../images/katalon-studio/docs/emails-settings/image2017-8-25-163A353A27.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/image2017-8-25-163A353A27.png)
 
 Where:
 
