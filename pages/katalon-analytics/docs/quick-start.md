@@ -1,5 +1,5 @@
 ---
-title: "Quick Start"
+title: "Getting Started"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/quick-start.html
 redirect_from:

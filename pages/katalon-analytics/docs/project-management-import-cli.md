@@ -1,13 +1,13 @@
 ---
-title: "From Command Line" 
+title: "How to import Test Results using Command Line" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/from-command-line.html 
+permalink: katalon-analytics/docs/project-management-import-cli.html 
 redirect_from:
     - "/display/KA/From+Command+Line/"
     - "/display/KA/From%20Command%20Line/"
     - "/x/FhbR/"
     - "/katalon-analytics/docs/from-command-line/"
-description: 
+description: How to import test results using CLI
 ---
 
 > Katalon Analytics supports various test automation reports type including Katalon Studio, Katalon Recorder, and JUnit.
