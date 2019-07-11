@@ -1158,6 +1158,8 @@ items:
         url: /katalon-recorder/docs/samples.html
       - title: "Selenese (Selenium IDE) Commands Reference"
         url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
+      - title: "Export Test Case as Script"
+        url: /katalon-recorder/docs/export-test-script.html
       - title: "Katalon Recorder vs Katalon Studio"
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
       - title: "Acknowledgments"

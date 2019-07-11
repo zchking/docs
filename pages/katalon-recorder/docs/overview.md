@@ -22,6 +22,7 @@ To make the best use of the tool, we encourage you to go through the User Guide.
 *   [Writing Custom Script Formatter](/display/KR/Writing+Custom+Script+Formatter)
 *   [Samples](/display/KR/Samples)
 *   [Selenese (Selenium IDE) Commands Reference](/display/KR/Selenese+%28Selenium+IDE%29+Commands+Reference)
+*   [Export Test Case as Script](https://docs.katalon.com/katalon-recorder/docs/export-test-script.html)
 *   [Katalon Recorder vs Katalon Studio](/display/KR/Katalon+Recorder+vs+Katalon+Studio)
 *   [Acknowledgments](/display/KR/Acknowledgments)
 
