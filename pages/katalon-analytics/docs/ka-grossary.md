@@ -7,7 +7,7 @@ description: Introduction of grossary in KA
 
 **Agent**  
 
-With Katalon Analytics's agent tool, you execute your test plan yourself, either on your hardware or through cloud hosting services. 
+With Katalon Analytics's agent tool, you can execute your test plan yourself on an in-house server infrastructure.
 
 **Dashboard**  
 
