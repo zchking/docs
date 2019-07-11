@@ -21,7 +21,7 @@ This page provides basic information about how to execute Katalon Studio tests a
     * **Plan Name**: Provide a friendly plan name 
     * **Test Project**: Select the test project you’ve uploaded earlier 
     * **Command**: Provide command arguments to run your Katalon Studio tests. This can be retrieved from [Katalon Studio command line builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-command-line-options). 
-    * **Execution Environment**: Select and add Agents. Here is where you can choose multiple OS to run your tests later 
+    * **Execution Environment**: Select and add **Agents**. Here is where you can choose multiple OS to run your tests later 
     * **Schedule**: Define a schedule for job execution 
 4. Select **Create** to create your plan. 
 5. In the **Grid** screen, go to the **Plans** list. Choose the plan you want to execute and select **Execute Plan** icon.  
