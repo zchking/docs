@@ -1114,8 +1114,8 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-analytics/docs/overview.html
-      - title: "Quick Start"
-        url: /katalon-analytics/docs/quick-start.html
+      - title: "Getting Started"
+        url: /katalon-analytics/docs/getting-started.html
       - title: "API Keys"
         url: /katalon-analytics/docs/ka-api-key.html
       - title: "Agents"
