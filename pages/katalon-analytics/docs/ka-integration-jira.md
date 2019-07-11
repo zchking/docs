@@ -45,38 +45,36 @@ then click **Save**.
 ## Jira releases
 
 
-1. In Katalon Analytics, create a new release, then link your test case with the release as below:
+1. In **Katalon Analytics**, create a new release, then link your test case with the release as below:
 
 [screenshot]
 
 The test cases that you already linked will be shown under Release section.
-For example:
-[screenshot]
 
-2. In Jira, create a new release or use an existing release to integrate with Katalon Analytics. 
-[screenshot]
+2. In **Jira**, create a new release or use an existing release to integrate with **Katalon Analytics**. 
 
 
-3. After everything is setup, open section Release in Katalon Analytics and select Jira Project and Jira Release from drop-down lists.
-[screenshot]
+3. After everything is setup, open section **Release** in **Katalon Analytics** and select **Jira Project** and **Jira Release** from drop-down lists.
 
 
-4. View release status in Jira Cloud
+Example of viewing Katalon release status in **Jira Cloud**
+
 [screenshot]
 
 
 ## Jira issues
 
-1. Go to project and select a test case under ID section
-Note: You can filter by Release by selecting a release in the drop-down list
+1. Go to your project and select a test case under **ID** section
+
+> Note: You can filter by Release by selecting a release in the drop-down list.
+
+2. Click on test case **ID** in **History** section.
+
+3. Add Jira issue to **Test Result** in **Katalon Analytics**
+
+> Note: You can add more than one issue by typing [issue1,issue2,...]
 [Screenshot]
 
-2. Click on test case ID in History
-[Screenshot]
 
-3. Add Jira issue to Test Result in Katalon Analytics
-Note: You can add more than one issue by typing [issue1,issue2,...]
-[Screenshot]
-
-View Katalon Results in Jira Cloud
+After that, Katalon Results will be displayed in Jira.
 
