@@ -112,6 +112,7 @@ Here's the list of options supported for the "_katalon_" command:
                <li>Remote</li>
                <li>Android</li>
                <li>iOS</li>
+               <li>Web Service</li>
             </ul>
          </td>
          <td>
