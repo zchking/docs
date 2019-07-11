@@ -35,7 +35,7 @@ Katalon Analytics (beta) provides a set of default roles that have certain permi
 
 **Status**
 
-Test status is a test result of a test run or a test execution. There are four statuses including Passed, Failed, Error and Incomplete. 
+Test status is a test result of a test run or a test execution. There are four statuses including Passed, Failed, Error and Incomplete.
 
 **Task**
 
