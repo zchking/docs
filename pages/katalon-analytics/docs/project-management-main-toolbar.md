@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-management-main-toolbar.html 
 description: Introduction of main toolbar in KA
 ---
+<<<<<<< HEAD
 
 ## Project Toolbar
 
@@ -47,3 +48,5 @@ You can view all of the test cases and test suites imported to Katalon Analytics
 
 With Jira Settings, you can configure the integration of Katalon Analytics with Jira by entering the required credentials. [More details]().
 
+=======
+>>>>>>> 199b801304753f55aa5c9961edddd83964ee6cdd
