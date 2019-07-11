@@ -1142,6 +1142,8 @@ items:
         tree:
           - title: "Project and Execution Deletion"
             url: /katalon-analytics/docs/project-and-execution-deletion.html
+          - title: "Task Management"
+            url: /katalon-analytics/docs/project-management-task.html
       - title: "User Management"
         url: /katalon-analytics/docs/user-management.html
       - title: "Integration with Katalon Studio"
