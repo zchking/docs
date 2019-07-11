@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/export-test-script.html 
 description: How to export test case as script
 ---
-Katatlon Recorder provides user an ability to export test case as script in various types.
+Katatlon Recorder allows user to export test case as script in various types.
 
 ## Select your test case
 
