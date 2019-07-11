@@ -1118,6 +1118,14 @@ items:
         url: /katalon-analytics/docs/overview.html
       - title: "Quick Start"
         url: /katalon-analytics/docs/quick-start.html
+      - title: "Agents"
+        url: /katalon-analytics/docs/agents.html
+      - title: "Grid - TestOps Cloud"
+        url: /katalon-analytics/docs/grid-testops-cloud.html
+      - title: "Grid - Local Agents"
+        url: /katalon-analytics/docs/grid-local-agents.html
+      - title: "Code Repo"
+        url: /katalon-analytics/docs/code-repo.html
       - title: "Upload Reports"
         tree:
           - title: "From Katalon Studio"
