@@ -118,7 +118,10 @@ Here's the list of options supported for the "_katalon_" command:
          <td>
             <p>Y</p>
             <p>
-               <strong>Only Chrome, Firefox and Remote is available for use in Linux version</strong>
+               <strong>Only Chrome, Firefox and Remote is available for use in Linux version.</strong>
+            </p>
+            <p>
+               <strong><code>Web Service</code> is used for Web Service test execution.
             </p>
          </td>
       </tr>
