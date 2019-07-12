@@ -3,9 +3,9 @@ title: "Install and Use Katalon BDD custom field in Jira Cloud"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/BDD-field-jira-cloud.html 
 redirect_from:
-    -- "/katalon-studio/docs/BDD-field-jira-cloud/"
+    - "/katalon-studio/docs/BDD-field-jira-cloud/"
 description: 
--------
+---
 ## Install and Use Katalon BDD custom field in Jira Cloud
 
 A new version of the Katalon BDD Add-on for Jira Cloud which supports BDD editor is available [here](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview). 
