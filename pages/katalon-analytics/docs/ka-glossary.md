@@ -1,8 +1,8 @@
 ---
-title: "Grossary" 
+title: "Glossary" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/ka-grossary.html 
-description: Introduction of grossary in KA
+permalink: katalon-analytics/docs/ka-glossary.html 
+description: Introduction of glossary in KA
 ---
 ## Glossary
 
