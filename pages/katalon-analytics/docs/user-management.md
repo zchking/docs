@@ -15,13 +15,13 @@ In Katalon Analytics, each user is identified with the same account registered f
 
 ### Default Roles
 
-#### In organizational level
+**In organizational level** 
 
 Users are the _Owners_ of their own organizations by default.\
 An _Admin_ is granted by the _Owner_.\
 A _User_ is automatically assigned when a person is first invited to collaborate in an organization.
 
-#### In team level
+**In team level**
 
 Organizational admins are the _Owners_ of those teams created by them.\
 A Team _Admin_ is granted by the team _Owner_.\
@@ -29,7 +29,7 @@ A _User_ is automatically assigned when a person is first invited to collaborate
 
 ### Roles and default permissions
 
-#### Owner
+**Owner**
 
 * Invite new users to your organization and to collaborate on your projects.
 * Assign *Admin* or *User* roles to new and existing team members.
@@ -37,7 +37,7 @@ A _User_ is automatically assigned when a person is first invited to collaborate
 * Create and delete projects.
 * Upload test results.
 
-#### Admin
+**Admin**
 
 * Invite new users to collaborate on your projects.  
 * Assign *Admin* or *User* roles to new and existing team members.
@@ -45,14 +45,14 @@ A _User_ is automatically assigned when a person is first invited to collaborate
 * Create and delete projects.
 * Upload test results.
 
-#### Users
+**Users**
 
 * Monitor project progress.
 * Upload test results.
 
 ### User-related permissions
 
-#### Invite a new user
+**Invite a new user**
 
 Before joining a project, a user is required to join the organization that hosts the project. The invited person is required to have a Katalon account. If the person invited to collaborate on Katalon Analytics projects doesn't have one, an email will be sent to help that person create one.
 
@@ -74,19 +74,19 @@ _Invite a user to your team:_
 
 Only users in an organization can be invited to a team in that organization. From __Users Tab__ in a team, select that person's email in drop-down list and then click __Add__ to add a user to a team.
 
-#### Remove existing users
+**Remove existing users**
 
 From __Users__ Tab, click the remove icon in the last column and confirm your action in the pop-up. The removed user can be re-added to the project if necessary (refer to *Invite a user to a team*)
 
-#### Assign Admin or User roles to new and existing team members
+**Assign Admin or User roles to new and existing team members**
 
 The *Admin* and *Owner* can reassign the existing *Admin* and *User* to a new role. From __Users__ Tab, click the pencil icon in the last column and then select a new role in the drop-down list.
 A user can have different roles in different teams.
 
 ### Project-related permissions
 
-#### [Upload test execution reports]()
+**[Upload test execution reports]()**
 
-#### [Monitor the progress of a project]()
+**[Monitor the progress of a project]()**
 
-#### [Delete projects]()
+**[Delete projects]()**
