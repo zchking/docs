@@ -77,3 +77,36 @@ History: The list of the number of iterations in a test case. To view details, c
 Notes:
 
 Every test execution is uniquely identified with an ID. There are many test runs within a test execution, which are also granted an ID.
+
+To **view detail** of a failed test case, click on the **ID**. Once clicked on **ID**, Katalon Analytics will display in-depth views about the test case. Users will able to view
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Test case path</strong></td>
+            <td>The location path of test case in Katalon Studio</td>
+        </tr>
+        <tr>
+            <td><strong>Result</strong></td>
+            <td>
+                <p>Status</p>
+                <p>Platform</p>
+                <p>Test Suite in Katalon Studio</p>
+                <p>Started</p>
+                <p>Duration</p>
+                <p>Flakiness</p>
+                <p>Age</p>
+                <p>Same Failure</p>
+                <p>Attachment – error logs or reports file from Katalon Studio</p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Errors</strong></td>
+            <td>Users can quickly navigate to the error in the log of execution. Extracted from Katalon Studio execution log.</td>
+        </tr>
+        <tr>
+            <td><strong>Console log</strong></td>
+            <td>Katalon Studio execution log&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
