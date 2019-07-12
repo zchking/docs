@@ -1116,6 +1116,8 @@ items:
         url: /katalon-analytics/docs/overview.html
       - title: "Getting Started"
         url: /katalon-analytics/docs/getting-started.html
+      - title: "Glossary"
+        url: /katalon-analytics/docs/ka-glossary.html
       - title: "API Keys"
         url: /katalon-analytics/docs/ka-api-key.html
       - title: "Agents"
@@ -1126,28 +1128,30 @@ items:
         url: /katalon-analytics/docs/grid-local-agents.html
       - title: "Code Repo"
         url: /katalon-analytics/docs/code-repo.html
-      - title: "Upload Reports"
+      - title: "Project Management"
         tree:
-          - title: "From Katalon Studio"
-            url: /katalon-analytics/docs/from-katalon-studio.html
-          - title: "From Command Line"
-            url: /katalon-analytics/docs/from-command-line.html
-      - title: "Access Reports"
-        tree:
+          - title: "Upload Test Results"
+          tree:
+            - title: "From Katalon Studio"
+             url: /katalon-analytics/docs/from-katalon-studio.html
+            - title: "From Command Line"
+             url: /katalon-analytics/docs/from-command-line.html
           - title: "View Reports"
             url: /katalon-analytics/docs/view-reports.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/filter-and-sort.html
-      - title: "Projects Management"
-        tree:
-          - title: "Project and Execution Deletion"
+          - title: "Delete a project or a test execution"
             url: /katalon-analytics/docs/project-and-execution-deletion.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
       - title: "User Management"
         url: /katalon-analytics/docs/user-management.html
-      - title: "Integration with Katalon Studio"
-        url: /katalon-analytics/docs/integration-with-katalon-studio.html
+      - title: "Integration"
+        tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Integration with Jira"
+            url: /katalon-analytics/docs/ka-integration-jira.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"

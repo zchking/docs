@@ -1,7 +1,7 @@
 ---
 title: "Integration with Jira" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/ka-grossary.html 
+permalink: katalon-analytics/docs/ka-integration-jira.html 
 description: How to integrate KA with Jira
 ---
 ## Configuration
@@ -42,34 +42,41 @@ then click **Save**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
 
-## Releases
+## Jira releases
 
 
-1. In **Katalon Analytics**, create a new release, then link your test case with the release. The test cases that you already linked will be shown under Release section.
+1. In Katalon Analytics, create a new release, then link your test case with the release as below:
 
-2. In **Jira**, create a new release or use an existing release to integrate with **Katalon Analytics**. 
+[screenshot]
+
+The test cases that you already linked will be shown under Release section.
+For example:
+[screenshot]
+
+2. In Jira, create a new release or use an existing release to integrate with Katalon Analytics. 
+[screenshot]
 
 
-3. After everything is setup, open section **Release** in Katalon Analytics and select **Jira Project** and **Jira Release** from drop-down lists.
+3. After everything is setup, open section Release in Katalon Analytics and select Jira Project and Jira Release from drop-down lists.
+[screenshot]
+
+
+4. View release status in Jira Cloud
+[screenshot]
 
 
 ## Jira issues
 
-1. Go to project and select a test case under **ID** section.
+1. Go to project and select a test case under ID section
+Note: You can filter by Release by selecting a release in the drop-down list
+[Screenshot]
 
-*Note: You can filter by Release by selecting a release in the drop-down list.*
+2. Click on test case ID in History
+[Screenshot]
 
-
-2. Click on test case **ID** in **History**.
-
-
-3. Add Jira issue to **Test Result** in **Katalon Analytics**.
-
-
+3. Add Jira issue to Test Result in Katalon Analytics
 Note: You can add more than one issue by typing [issue1,issue2,...]
+[Screenshot]
 
-Example of Katalon Results in Jira Cloud:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/3-jira-release.png)
-
+View Katalon Results in Jira Cloud
 

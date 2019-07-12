@@ -1,5 +1,5 @@
 ---
-title: "Project and Execution Deletion" 
+title: "Delete a Project or a Test Execution" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-and-execution-deletion.html 
 redirect_from:
