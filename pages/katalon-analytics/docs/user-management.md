@@ -17,15 +17,15 @@ In Katalon Analytics, each user is identified with the same account registered f
 
 **In organizational level** 
 
-Users are the _Owners_ of their own organizations by default.\
-An _Admin_ is granted by the _Owner_.\
-A _User_ is automatically assigned when a person is first invited to collaborate in an organization.
+* Users are the _Owners_ of their own organizations by default.
+* An _Admin_ is granted by the _Owner_.
+* A _User_ is automatically assigned when a person is first invited to collaborate in an organization.
 
 **In team level**
 
-Organizational admins are the _Owners_ of those teams created by them.\
-A Team _Admin_ is granted by the team _Owner_.\
-A _User_ is automatically assigned when a person is first invited to collaborate in a team.
+* Organizational admins are the _Owners_ of those teams created by them.\
+* A Team _Admin_ is granted by the team _Owner_.\
+* A _User_ is automatically assigned when a person is first invited to collaborate in a team.
 
 ### Roles and default permissions
 

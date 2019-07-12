@@ -1,12 +1,12 @@
 ---
 title: "Delete a Project or a Test Execution" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/project-and-execution-deletion.html 
+permalink: katalon-analytics/docs/project-management-delete.html 
 redirect_from:
     - "/display/KA/Project+and+Execution+Deletion/"
     - "/display/KA/Project%20and%20Execution%20Deletion/"
     - "/x/pwbR/"
-    - "/katalon-analytics/docs/project-and-execution-deletion/"
+    - "/katalon-analytics/docs/project-management-delete/"
 description: 
 ---
 

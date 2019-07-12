@@ -1129,6 +1129,8 @@ items:
       - title: "Code Repo"
         url: /katalon-analytics/docs/code-repo.html
       - title: "Project Management"
+        - title: "Introduction to Project Toolbar"
+          url: /katalon-analytics/docs/project-management-main-toolbar.html 
         tree:
           - title: "Upload Test Results"
           tree:
@@ -1141,7 +1143,7 @@ items:
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/filter-and-sort.html
           - title: "Delete a project or a test execution"
-            url: /katalon-analytics/docs/project-and-execution-deletion.html
+            url: /katalon-analytics/docs/project-management-delete.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
       - title: "User Management"

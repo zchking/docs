@@ -1,10 +1,10 @@
 ---
-title: "Main Toolbar" 
+title: "Introduction to Project Toolbar" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-management-main-toolbar.html 
 description: Introduction of main toolbar in KA
 ---
-## Project Toolbar
+## Introduction to Project Toolbar
 
 To open your project, from the Katalon Analytic’s home page, select your project, then your project's home page will display.
 
