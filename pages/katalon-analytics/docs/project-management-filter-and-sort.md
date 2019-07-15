@@ -21,9 +21,9 @@ Filtering is a handy tool for users to see only their preferred data to be displ
 
 3. Click **Add condition** to apply.
 
-**Notes:**
-* More than one filter can be applied.
-* In a graph, click on a value to directly remove it from the visual presentation while another click is to bring it back (to remove the filter).
+> **Notes:**
+> * More than one filter can be applied.
+> * In a graph, click on a value to directly remove it from the visual presentation while another click is to bring it back (to remove the filter).
 
 **Remove a filter**
 
