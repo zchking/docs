@@ -13,14 +13,14 @@ description:
 >* The deleted projects and executions cannot be recovered. Delete them with caution.
 >* Only team Owners and Admins can delete a project.
 
-### Delete a project
+## Delete a project
 
 1. Open your team page.
 2. Select **Projects** tool page on the left side to view all projects under your team.
 3. Click on the delete icon of the project you want to delete.
 4. Confirm your action in the pop-up by entering the project ID.
 
-### Delete an execution
+## Delete an execution
 
 In the executions table, click on the extension icon at the end of the execution row, select **Delete** and confirm your action in the pop-up.
 
