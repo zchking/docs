@@ -9,9 +9,7 @@ redirect_from:
     - "/katalon-analytics/docs/getting-started/"
 description:
 ---
-## Getting Started
-
-### Logging in
+## Logging in
 
 1. Navigate to: [https://analytics.katalon.com](https://analytics.katalon.com/)
 2. Enter your Katalon account to sign in. Sign up if you are new to Katalon.
@@ -21,6 +19,6 @@ description:
 * **Team**: You only view those teams you have access to. Select a team to start working with Dashboard, Projects, Agents and Users in that team.
 * **Project**: You can view all projects under the teams you belong to. Select a project to view its details and to start working on it.
 
-### Logging out
+## Logging out
 
 On the Profile page, click **Log Out** on the bottom left corner to finish using Katalon Analytics.
