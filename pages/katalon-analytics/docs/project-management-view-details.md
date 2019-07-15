@@ -1,7 +1,7 @@
 ---
 title: "View Test Execution, Test Suite and Test Case Details"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/view-details.html
+permalink: katalon-analytics/docs/project-management-view-details.html
 description: Description of Test Execution, Test Suite and Test Case Details
 ---
 ## View Test Execution, Test Suite and Test Case Details

@@ -1129,19 +1129,19 @@ items:
       - title: "Code Repo"
         url: /katalon-analytics/docs/code-repo.html
       - title: "Project Management"
-        - title: "Introduction to Project Toolbar"
-          url: /katalon-analytics/docs/project-management-main-toolbar.html 
         tree:
+          - title: "Introduction to Project Toolbar"
+            url: /katalon-analytics/docs/project-management-main-toolbar.html 
           - title: "Upload Test Results"
-          tree:
-            - title: "Upload Test Results from Katalon Studio"
-             url: /katalon-analytics/docs/project-management-import-KS.html
-            - title: "Upload Test Results using Command Line"
-             url: /katalon-analytics/docs/project-management-import-cli.html
+            tree:
+              - title: "Upload Test Results from Katalon Studio"
+                url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Upload Test Results using Command Line"
+                url: /katalon-analytics/docs/project-management-import-cli.html
           - title: "View Reports"
-            url: /katalon-analytics/docs/view-reports.html
+            url: /katalon-analytics/docs/project-management-view-reports.html
           - title: "Filter and Sort"
-            url: /katalon-analytics/docs/filter-and-sort.html
+            url: /katalon-analytics/docs/project-management-filter-and-sort.html
           - title: "Delete a project or a test execution"
             url: /katalon-analytics/docs/project-management-delete.html
           - title: "Task Management"

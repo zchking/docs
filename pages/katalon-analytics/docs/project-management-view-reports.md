@@ -1,12 +1,12 @@
 ---
 title: "View Reports"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/view-reports.html
+permalink: katalon-analytics/docs/project-management-view-reports.html
 redirect_from:
     - "/display/KA/View+Reports/"
     - "/display/KA/View%20Reports/"
     - "/x/2RxO/"
-    - "/katalon-analytics/docs/view-reports/"
+    - "/katalon-analytics/docs/project-management-view-reports/"
     - "/katalon-studio/tutorials/viewing_test_execution_reports_katalon_analytics.html"
 description:
 ---
