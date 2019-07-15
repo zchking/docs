@@ -24,4 +24,4 @@ description:
 
 In the executions table, click on the extension icon at the end of the execution row, select **Delete** and confirm your action in the pop-up.
 
-Note: Once you have successfully deleted the execution, it may take a little while for it to disappear from the test executions table.
+>Note: Once you have successfully deleted the execution, it may take a little while for it to disappear from the test executions table.

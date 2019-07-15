@@ -27,7 +27,7 @@ Learn more about [Project Management](https://docs.katalon.com/katalon-analytics
 
 ### Release
 
-A release can be considered a milestone of your product. This feature is to enhance the continuous integration with your release in Jira. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
+A release can be considered a milestone of your product. This feature is to enhance the continuous integration with your release in Jira. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html).
 
 ### Role
 
