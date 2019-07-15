@@ -10,8 +10,6 @@ redirect_from:
 description: 
 ---
 
-## **Delete a Project or a Test Execution**
-
 >* The deleted projects and executions cannot be recovered. Delete them with caution.
 >* Only team Owners and Admins can delete a project.
 

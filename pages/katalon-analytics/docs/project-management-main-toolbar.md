@@ -4,7 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-management-main-toolbar.html 
 description: Introduction of main toolbar in KA
 ---
-## Introduction to Project Toolbar
+
+## Access the project toolbar
 
 To open your project, from the Katalon Analytic’s home page, select your project, then your project's home page will display.
 
@@ -24,7 +25,7 @@ You can view and manage all API Objects.
 
 **Tasks**
 
-With Tasks, you can create, view and manage all tasks linked to multiple test cases. Task details consist of ID, Name, and Description. [More details]()
+With Tasks, you can create, view and manage all tasks linked to multiple test cases. Task details consist of ID, Name, and Description. [More details](katalon-analytics/docs/project-management-task.html)
 
 **Grid**
 
@@ -32,17 +33,17 @@ With Grid, you can create and manage test plans in different execution environme
 
 **Code Repo**
 
-You can upload and store your test projects for your Katalon Analyticstalon Studio test execution via TestOps Cloud and local agents. [More details]()
+You can upload and store your test projects for your Katalon Analyticstalon Studio test execution via TestOps Cloud and local agents. [More details](katalon-analytics/docs/code-repo.html)
 
 **Releases**
 
-You can build and deploy multiple releases in your software project. This feature is to enhance the seamless integration of Katalon Analytics with Jira. [More details]()
+You can build and deploy multiple releases in your software project. This feature is to enhance the seamless integration of Katalon Analytics with Jira. [More details](katalon-analytics/docs/ka-integration-jira.html)
 
 **Test Maintenance**
 
-You can view all of the test cases and test suites imported to Katalon Analytics as well as their statistics. [More details]()
+You can view all of the test cases and test suites imported to Katalon Analytics as well as their statistics. [More details](katalon-analytics/docs/test-management-maintenance.html)
 
 **Jira Settings**
 
-With Jira Settings, you can configure the integration of Katalon Analytics with Jira by entering the required credentials. [More details]().
+With Jira Settings, you can configure the integration of Katalon Analytics with Jira by entering the required credentials. [More details](katalon-analytics/docs/ka-integration-jira.html).
 

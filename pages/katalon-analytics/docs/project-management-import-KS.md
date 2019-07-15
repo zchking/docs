@@ -11,9 +11,7 @@ redirect_from:
 description:
 ---
 
-## Upload Test Results from Katalon Studio
-
-### Automatically
+## Automatically
 
 1. In Katalon Studio, select **Project > Settings > Integration > Katalon Analytics**.
 2. Enable integration and enter your Katalon account, then click **Connect**. You will be able to select your Team and Project to upload test results.
@@ -21,7 +19,7 @@ description:
 
 ![automatically](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/1-import-ks.png)
 
-### Manually
+## Manually
 
 1. Navigate to **Result Tab** at the bottom of each Test Suite or Test Suite Collection.
 2. Select **Katalon Analytics** in the Test Cases Table, then select **Upload**.

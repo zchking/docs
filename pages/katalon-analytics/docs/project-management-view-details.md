@@ -4,11 +4,10 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-management-view-details.html
 description: Description of Test Execution, Test Suite and Test Case Details
 ---
-## View Test Execution, Test Suite and Test Case Details
 
 Users can view execution summary and detailed information of each Test execution, Test Suite and Test Case by simply clicking their IDs or name.
 
-### Details of each Test Execution
+## Details of each Test Execution
 
 To view details of each execution, in the test executions table, click on its ID, then its summary and details will display. In its summary dashboard, there are three sub-pages: Result, Test Runs, and Files.
 
@@ -22,7 +21,7 @@ To view details of each execution, in the test executions table, click on its ID
 
 **_Files:_** to store log files of that execution that is available for users to download.
 
-### Details of each Test Suite
+## Details of each Test Suite
 
 Click on the Test Suite’s name, the summary dashboard displays and you can view four sub-pages: Result, Test Runs, Environments and Comments.
 
@@ -34,7 +33,7 @@ Click on the Test Suite’s name, the summary dashboard displays and you can vie
 
 **_Comments_**: to remark comments on this Test Suite
 
-### Details of each Test Case
+## Details of each Test Case
 
 Click on a test run's ID, the summary dashboard displays and you can view four sub-pages: Result, Steps, Requests and Environments.
 

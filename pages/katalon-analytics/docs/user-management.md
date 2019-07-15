@@ -9,11 +9,10 @@ redirect_from:
     - "/katalon-analytics/docs/user-management/"
 description: 
 ---
-## User Management
 
 In Katalon Analytics, each user is identified with the same account registered for Katalon Studio. User Management is only available for the *Owner* and *Admins* in an organization.  
 
-### Default Roles
+## Default Roles
 
 **In organizational level** 
 
@@ -27,7 +26,7 @@ In Katalon Analytics, each user is identified with the same account registered f
 * A Team _Admin_ is granted by the team _Owner_.
 * A _User_ is automatically assigned when a person is first invited to collaborate in a team.
 
-### Roles and default permissions
+## Roles and default permissions
 
 **Owner**
 
@@ -50,7 +49,7 @@ In Katalon Analytics, each user is identified with the same account registered f
 * Monitor project progress.
 * Upload test results.
 
-### User-related permissions
+## User-related permissions
 
 **Invite a new user**
 
@@ -83,7 +82,7 @@ From __Users__ Tab, click the remove icon in the last column and confirm your ac
 The *Admin* and *Owner* can reassign the existing *Admin* and *User* to a new role. From __Users__ Tab, click the pencil icon in the last column and then select a new role in the drop-down list.
 A user can have different roles in different teams.
 
-### Project-related permissions
+## Project-related permissions
 
 **[Upload test execution reports from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-KS.html)**
 

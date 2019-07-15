@@ -38,7 +38,7 @@ then click **Save**.
     b. Use your username instead of an email in Username.\
     c. Enter Password.
 
-then click **Save**. 
+then click **Save**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
 

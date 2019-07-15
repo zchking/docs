@@ -4,8 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-glossary.html 
 description: Introduction of glossary in KA
 ---
-## Glossary
-
 **Agent**  
 
 With Katalon Analytics's agent tool, you can execute your test plan yourself on in-house server infrastructure.

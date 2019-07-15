@@ -9,9 +9,8 @@ redirect_from:
     - "/katalon-analytics/docs/filter-and-sort/"
 description: 
 ---
-## Filter and Sort
 
-### Filter
+## Filter
 
 Filtering is a handy tool for users to see only their preferred data to be displayed in different types of data presentation in Katalon Analytics. By applying a filter, you can customize the demonstration of certain records in a graph or a table.
 
@@ -30,7 +29,7 @@ Filtering is a handy tool for users to see only their preferred data to be displ
 
 To switch to the view of unfiltered data, remove the filters by clicking icon X on each filter text box.
 
-### Sort
+## Sort
 
 Currently, Katalon Analytics only supports arranging data by text (A to Z or Z to A), and numbers (smallest to largest or largest to smallest) in one or multiple columns.
 
