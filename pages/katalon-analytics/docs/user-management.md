@@ -84,10 +84,10 @@ A user can have different roles in different teams.
 
 ## Project-related permissions
 
-**[Upload test execution reports from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-KS.html)**
+**[Upload test results from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-KS.html)**
 
-**[Upload test execution reports from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-cli.html)**
+**[Upload test results using Command Line](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-cli.html)**
 
-**[Monitor the progress of a project](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)**
+**[Monitor project progress](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)**
 
 **[Delete projects](https://docs.katalon.com/katalon-analytics/docs/project-management-delete.html)**
