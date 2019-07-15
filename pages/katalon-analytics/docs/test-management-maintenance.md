@@ -10,13 +10,12 @@ This section allows you to view and manage a list of test suites/test cases. You
 
 ## Statistics
 
-This section allows you to view status and reports of 
+This section allows you to view status and reports of:
 
-- Number of test runs per day/week/month
+- Number of test runs per day/week/month: There are four statuses including Passed, Failed, Error and Incomplete.
 
-Status: Passed, Failed, Error, Incomplete
 
-- Number of test cases executed per day/week/month
+- Number of test cases executed per day/week/month.
 
-- Total execution time per day/week/month
+- Total execution time per day/week/month.
 
