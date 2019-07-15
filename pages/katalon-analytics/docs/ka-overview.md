@@ -40,7 +40,7 @@ Click [here](https://analytics.katalon.com/home) to navigate to **Katalon Analyt
 
 * Any latest test results can be submitted to your issues and releases in Jira while Katalon Analytics's task system helps you create and track multiple tasks to fix those defects.
 
-**Faster test design and maintenance than ever**
+**Test design and maintenance**
 
 * With test design and test plan features, you can run more test cases more often.
 * You can  maximize your testing capacity with Katalon Analytics' test schedule and flexible hosting infrastructures (Katalon Cloud or your in-house server).
