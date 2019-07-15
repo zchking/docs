@@ -23,8 +23,8 @@ In Katalon Analytics, each user is identified with the same account registered f
 
 **In team level**
 
-* Organizational admins are the _Owners_ of those teams created by them.\
-* A Team _Admin_ is granted by the team _Owner_.\
+* Organizational admins are the _Owners_ of those teams created by them.
+* A Team _Admin_ is granted by the team _Owner_.
 * A _User_ is automatically assigned when a person is first invited to collaborate in a team.
 
 ### Roles and default permissions
@@ -85,8 +85,10 @@ A user can have different roles in different teams.
 
 ### Project-related permissions
 
-**[Upload test execution reports]()**
+**[Upload test execution reports from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-KS.html)**
 
-**[Monitor the progress of a project]()**
+**[Upload test execution reports from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-cli.html)**
 
-**[Delete projects]()**
+**[Monitor the progress of a project](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)**
+
+**[Delete projects](https://docs.katalon.com/katalon-analytics/docs/project-management-delete.html)**
