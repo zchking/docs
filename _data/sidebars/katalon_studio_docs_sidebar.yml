@@ -1140,6 +1140,8 @@ items:
                 url: /katalon-analytics/docs/project-management-import-cli.html
           - title: "View Reports"
             url: /katalon-analytics/docs/project-management-view-reports.html
+          - title: "View Test Execution, Test Suite and Test Case Details"
+            url: /katalon-analytics/docs/project-management-view-details.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/project-management-filter-and-sort.html
           - title: "Delete a project or a test execution"

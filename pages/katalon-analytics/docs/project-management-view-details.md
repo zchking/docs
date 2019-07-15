@@ -6,106 +6,57 @@ description: Description of Test Execution, Test Suite and Test Case Details
 ---
 
 Users can view execution summary and detailed information of each Test execution, Test Suite and Test Case by simply clicking their IDs or name.
+> Notes:
+> Every test execution is uniquely identified with an ID. There are many test runs within a test execution, which are also granted an ID.
 
 ## Details of each Test Execution
 
 To view details of each execution, in the test executions table, click on its ID, then its summary and details will display. In its summary dashboard, there are three sub-pages: Result, Test Runs, and Files.
 
-**_Result:_**
-*   **Test Runs**: the total number of test runs in this execution
-*   **Failed Test Runs**: to show a list of test run records that didn't pass [The testing team will be able to locate quickly where exactly the test has failed.]
-*   **Coverage:** to show a list of test suite executed in a test suite collection and its details such as Name, Profile, Platform, Started… 
-*   **API Performance**: to view API Objects in that execution in terms of ID, Name, Total duration, Average Duration, and Request Count.
+**Result:**
 
-**_Test Runs:_** to list all test runs in that test suite.
+* **Test Runs**：the total number of test runs in this execution according to test status.
+* **Failed Test Runs**: a list of test run records that didn't pass.
+* **Coverage**: a list of test suites executed in a test suite collection and their details such as Name, Profile, Platform, Started and Duration.
+* **API Performance**: to view API Objects in that execution in terms of ID, Name, Total duration, Average Duration, and Request Count.
 
-**_Files:_** to store log files of that execution that is available for users to download.
+**Test Runs:** a list all test runs in that test suite.
+
+**Files:** to store log files of that execution that are available for users to download.
 
 ## Details of each Test Suite
 
 Click on the Test Suite’s name, the summary dashboard displays and you can view four sub-pages: Result, Test Runs, Environments and Comments.
 
-**_Result_**: to view the total number of test runs in this execution; the status trend, performance trend, and all the test run records that didn't pass.
+**Result**: the total number of test runs in this execution; the status trend, performance trend, and all the test run records that didn't pass.
 
-**_Test Runs_**: to show a list of test runs of that test suite
+**Test Runs**: a list of test runs in that test suite.
 
-**_Environments_**: to show details of the execution environment
+**Environments**: details of the execution environment.
 
-**_Comments_**: to remark comments on this Test Suite
+**Comments**: Users' comments on this test suite.
 
 ## Details of each Test Case
 
-Click on a test run's ID, the summary dashboard displays and you can view four sub-pages: Result, Steps, Requests and Environments.
+Click on a test run's ID, the summary dashboard displays and you can view its details organized in five sub-pages: Result, Steps, Requests, Environments and Comments.
 
-Status, Profile, OS, Started, Duration
+**Summary Fields**: Status, Profile, OS, Started, Duration and History. In History, you can view:
 
-History:  users can also view all the iteration execution of a single test case. Performance:  The performance of each test case through the iteration run. The duration of each iteration also shown
+* History: all interative runs of a single test case. To view details, click on a test run's ID.
+* Performance:  the performance report of each test case.
 
-History: The list of the number of iterations in a test case. To view details, click on the ID of iteration (This is Katalon Analytics global ID)
+**Result**: to view errors and execution log
 
-**_Result_**: to view errors in that run and its full log file
+* **Logs**: the preview of the error logs or reports file from Katalon Studio.
+* **Test Suite**: Test Suite containing this test case.
+* **Path**: the location path of the test case in Katalon Studio.
+* **Jira Issues**: those linked issues in Jira
+* **Age**: the number of occurrences of the latest repeating test status (e.g. Status: Failed, Age: 5 → This test case has failed 5 times consecutively).
+* **Same Failures**: None/
+* **Attachments**: the error logs or reports file from Katalon Studio.
+* **Task**: those tasks related to this test case.
 
-*   Test Suite
-*   Path
-*   Jira Issues
-*   Age: Show the frequency this test case has the same status consecutively. (e.g. Status: Failed, Age: 5 → This test case has failed 5 times consecutively) 
-*   Same Failures
-*   Attachments:
-*   Task: 
-
-    Test case path: the location path of the test case in Katalon Studio
-
-
-    Result: Status Platform Test Suite in Katalon Studio Started Duration Flakiness Age Same Failure Attachment – error logs or reports file from Katalon Studio
-
-
-    Errors: Users can quickly navigate to the error in the log of execution. Extracted from Katalon Studio execution log.
-
-
-    Console log: Katalon Studio execution log
-
-
-**_Steps:_**
-
-**_Request:_**
-
-**_Environments:_** execution environment
-
-**_Comments:_**
-
-Notes:
-
-Every test execution is uniquely identified with an ID. There are many test runs within a test execution, which are also granted an ID.
-
-To **view detail** of a failed test case, click on the **ID**. Once clicked on **ID**, Katalon Analytics will display in-depth views about the test case. Users will able to view
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Test case path</strong></td>
-            <td>The location path of test case in Katalon Studio</td>
-        </tr>
-        <tr>
-            <td><strong>Result</strong></td>
-            <td>
-                <p>Status</p>
-                <p>Platform</p>
-                <p>Test Suite in Katalon Studio</p>
-                <p>Started</p>
-                <p>Duration</p>
-                <p>Flakiness</p>
-                <p>Age</p>
-                <p>Same Failure</p>
-                <p>Attachment – error logs or reports file from Katalon Studio</p>
-            </td>
-        </tr>
-        <tr>
-            <td><strong>Errors</strong></td>
-            <td>Users can quickly navigate to the error in the log of execution. Extracted from Katalon Studio execution log.</td>
-        </tr>
-        <tr>
-            <td><strong>Console log</strong></td>
-            <td>Katalon Studio execution log&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td>
-        </tr>
-    </tbody>
-</table>
+**Steps:** the test steps in the test run.\
+**Request:**\
+**Environments:** the execution environment of the test run.\
+**Comments:** Users'comments on this test run.
