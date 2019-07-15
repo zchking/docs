@@ -45,9 +45,9 @@ Click on a test case's ID, the summary dashboard displays and you can view its d
 * History: all iterative runs of a single test case. To view details, click on a test run's ID.
 * Performance:  the performance report of each test case.
 
-**Result**: to view errors and execution log
+**Result**:
 
-* **Logs**: the preview of the error logs or reports file from Katalon Studio.
+* **Logs**: the preview of detailed execution logs from Katalon Studio.
 * **Test Suite**: the test suite containing this test case.
 * **Path**: the location path of the test case in Katalon Studio.
 * **Jira Issues**: those linked issues in Jira.
@@ -58,7 +58,7 @@ Click on a test case's ID, the summary dashboard displays and you can view its d
 
 **Steps:** the test steps in the test run.
 
-**Request:**
+**Request:** a list of API requests. To view request details in HAR format, click on its ID.
 
 **Environments:** the execution environment of the test run.
 
