@@ -26,21 +26,21 @@ Click [here](https://analytics.katalon.com/home) to navigate to **Katalon Analyt
 
 ## Key Features
 
-**Test findings and insights from visualized testing information**
+### Test findings and insights from visualized testing information
 
 * You can read test findings and insights from status and performance reports created based on key metrics of each test dataset.
 * 1-click filter to see trends and patterns of your preferred status.
 
-**Testing statistics and test execution history**
+### Testing statistics and test execution history
 
 * By examining the performance of your test execution and tracing test execution logs, you can locate exactly the failed test case and determine its frequency and errors.
 * You can review a test case’s history to have in mind a picture of its performance and quality.
 
-**Defect integration and task system**
+### Defect integration and task system
 
 * Any latest test results can be submitted to your issues and releases in Jira while Katalon Analytics's task system helps you create and track multiple tasks to fix those defects.
 
-**Test design and maintenance**
+### Test design and maintenance
 
 * With test design and test plan features, you can run more test cases more often.
 * You can  maximize your testing capacity with Katalon Analytics' test schedule and flexible hosting infrastructures (Katalon Cloud or your in-house server).
