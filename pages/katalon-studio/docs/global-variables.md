@@ -7,6 +7,8 @@ redirect_from:
 description:
 ---
 
+## Define a Global Variable
+
 A Global Variable can be accessed anywhere inside your project. Global Variables can be managed using the **Global Variables** view.
 
 Expand the **Global Variable** view. Then click **Add**. 
@@ -21,6 +23,7 @@ The **New Variable** dialog is displayed. Specify details for the variable then 
 The variable will be added to the **Global Variable** list accordingly.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-6-30-203A283A43.png)
 
+## Use a Global Variable
 
 Global Variables can be utilized by any test case across a project. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding)).
 
@@ -53,3 +56,17 @@ landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/di
 
 WebUI.closeBrowser()
 ```
+
+## Parameterize a Global Variable
+
+Starting with **Katalon Studio version 6.3.0**, you can directly parameterize Global Variables in both WebUI and API Test Objects.
+
+Enter the syntax `${GlobalVariable.name}` in any supported locations. For example: 
+
+in HTTP Body of an API Test Object:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/1-GlobalVariable.png)
+
+in Selected Locator of a WebUI Test Object:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/2-GlobalVariable.png)
