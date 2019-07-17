@@ -6,7 +6,7 @@ description: Introduction of glossary in KA
 ---
 ### Agent
 
-With Katalon Analytics's agent tool, you can execute your test plan yourself on in-house server infrastructure. [Learn more](https://docs.katalon.com/katalon-analytics/docs/agents.html)
+With Katalon Analytics's agent tool, you can execute your test plan yourself on in-house server infrastructure. [Learn more](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 ### Dashboard
 
