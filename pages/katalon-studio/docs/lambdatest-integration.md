@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/lambdatest-integration/"
 description: 
 ---
-The LambdaTest integration will help you run your automation scripts on LambdaTest Selenium Grid from your Katalon Studio instance. To integrate with LambdaTest, you will need to execute your test scripts using the **Remote** option based on LambdaTest’s provided capabilities of your choice. 
+The [LambdaTest](http://www.lambdatest.com?fp_ref=emily81) integration will help you run your automation scripts on LambdaTest Selenium Grid from your Katalon Studio instance. To integrate with LambdaTest, you will need to execute your test scripts using the **Remote** option based on LambdaTest’s provided capabilities of your choice. 
 
 Here is a step-by-step guide to help you trigger your first automation script on LambdaTest Selenium Grid through Katalon Studio.
 

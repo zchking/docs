@@ -35,6 +35,8 @@ items:
             tree:
               - title: "Version 6.3.0 (Beta)"
                 url: /katalon-studio/new/version-630.html
+              - title: "Version 6.2.2"
+                url: /katalon-studio/new/version-622.html
               - title: "Version 6.2.0 - 6.2.1"
                 url: /katalon-studio/new/version-620.html
               - title: "Version 6.1.5"
@@ -933,6 +935,8 @@ items:
                 url: /katalon-studio/docs/configure-jira-integration.html
               - title: "Install and Use Katalon's JIRA add-on"
                 url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
+              - title: "Install and Use Katalon BDD custom field in Jira Cloud"
+                url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
           - title: "Git Integration"
@@ -1176,6 +1180,8 @@ items:
         url: /katalon-recorder/docs/samples.html
       - title: "Selenese (Selenium IDE) Commands Reference"
         url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
+      - title: "Export Test Case as Script"
+        url: /katalon-recorder/docs/export-test-script.html
       - title: "Katalon Recorder vs Katalon Studio"
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
       - title: "Acknowledgments"
