@@ -659,6 +659,8 @@ items:
                             url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
                           - title: "[Mobile] Start Application"
                             url: /katalon-studio/docs/mobile-start-application.html
+                          - title: "[Mobile] Start Existing Application"
+                            url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html
                       - title: "[Mobile] Device"
                         tree:
                           - title: "[Mobile] Get Current Orientation"
@@ -781,6 +783,8 @@ items:
                             url: /katalon-studio/docs/mobile-send-keys.html
                           - title: "[Mobile] Set Text"
                             url: /katalon-studio/docs/mobile-set-text.html
+                  - title: "Spy and Record Utilities for testing an existing application"
+                    url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
               - title: "Working with Selenium WebDriver"
                 tree:
                   - title: "Automatically Update WebDriver"
@@ -791,6 +795,8 @@ items:
                     url: /katalon-studio/docs/using-the-webdriver-object.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+              - title: "Testing Mobile Apps Using Custom Cloud Devices"
+                url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
           - title: "Web Services Test Design"
             tree:
               - title: "Web Services Test Object"
