@@ -61,7 +61,7 @@ WebUI.openBrowser('http://demoaut.katalon.com/')
 WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
 
 'Select \"Hongkong CURA Healthcare Center\" option'
-WebUI.selectOptionByValue(findTestObject('Page_CuraAppointment/lst_Facility'), 'Hongkong CURA Healthcare Center', false)
+WebUI.selectOptionByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), 'Hongkong CURA Healthcare Center', false)
 
 'Close Browser'
 WebUI.closeBrowser()
