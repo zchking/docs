@@ -6,16 +6,17 @@ description:
 ---
 **Agent** is an installable software that you can use to manage your own servers to run Katalon Studio tests. You can set up agents on Linux, macOS and Windows machines. After installed, Agent can be selected as the execution environment when creating an execution plan. 
 
-To create a plan to run Katalon Studio tests on your local agents please follow this [guide](grid-local-agents.html).
+To create a plan to run Katalon Studio tests on your local agents, please follow this [guide](grid-local-agents.html).
 
 ### When to use Agents to execute Katalon Studio Tests? 
-* You have local servers available and want to utilize their capacity to execute automation tests.
+
+You have local servers available and want to utilize their capacity to execute automation tests.
 
 ### To install Agents
 1. In your Team view, go to **Agents** > **Agent Installation Package**
 2. Fill out the form with this configuration information: 
     * **Agent Name**: Provide a friendly Agent name
-    * **API Key**: Use an existing API key or create a new one from your Profile page
+    * **API Key**: Use an existing API key or create a new one from your Profile page. [More details](katalon-analytics/docs/ka-api-key.html).
     * **Katalon Studio Version**: Specify a Katalon Studio version that Agent need to download to run tests 
     * **Katalon Studio Location**: Provide a pre-install Katalon Studio location (if applicable)  
     * **Agent OS**: Katalon supports these operating systems: Linux x64, Linux x86, MacOS x64, Windows x64, Windows x86

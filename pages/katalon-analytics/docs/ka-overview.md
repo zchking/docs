@@ -10,47 +10,38 @@ redirect_from:
     - "/display/KA/"
 description: 
 ---
-What is Katalon Analytics?
---------------------------
+## Welcome to Katalon Analytics
 
-**Katalon Analytics (Beta)** brings users to the next level of reviewing Katalon Studio test execution reports. This web-based application provides in-depth views of reports through powerful visualization including charts, graphs, and reports. Thus, users can make an informed decision on the quality of application build. 
+**Katalon Analytics** is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; and seamlessly integrating with such tools as Katalon Studio and Jira.
 
-Katalon Analytics Beta version is now available. Katalon Analytics team welcome any suggestion and feedback to help us make this web application better serve end users. 
+Click [here](https://analytics.katalon.com/home) to navigate to **Katalon Analytics**.
 
-Benefits of Katalon Analytics
------------------------------
+## Benefits
 
-*   Shorten time to market by cutting down reviewing time
-*   Provide meaningful view to users by visualizing reports
-*   Identify bugs faster by locating which test case exactly failed
-*   Able to view performance of test execution
+* Save time spent reviewing and analyzing test execution results.
+* Provide insightful visualizations on key testing data.
+* Quickly troubleshoot your testing process and identify defects by locating exactly which test case failed.
+* Smoothly integrate with your issues and releases in Jira.
+* Maximize your testing capacity.
 
-### Status Report
+## Key Features
 
-The Status Report visualizes an overview of Test Execution Report Status over the time. This is the fastest way to get the status (so does the quality) of Automation Test of the AUT. Moreover, with the help of Filter function, the user can easily either get the information of specific Test Execution Status or all Status at the same time.
+### Test findings and insights from visualized testing information
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/overview/Screen-Shot-2018-09-26-at-10.53.34-AM.png)
+* You can read test findings and insights from status and performance reports created based on key metrics of each test dataset.
+* 1-click filter to see trends and patterns of your preferred status.
 
-### Performance Report
+### Testing statistics and test execution history
 
-Together with the Status Report, the Performance Report visualizes the amount of time each build takes. If the duration changes dramatically, it can be a signal of performance issue of the AUT and give the QA Lead a chance to fix the problem properly.
+* By examining the performance of your test execution and tracing test execution logs, you can locate exactly the failed test case and determine its frequency and errors.
+* You can review a test case’s history to have in mind a picture of its performance and quality.
 
-### Executions Report
+### Defect integration and task system
 
-While Status Report displays the status of Test Cases in each build, The Executions Report demonstrates the status of the whole execution over the time as well as the summary status of it. In other words, the table contains the combined information from Status and Duration Reports.
+* Any latest test results can be submitted to your issues and releases in Jira while Katalon Analytics's task system helps you create and track multiple tasks to fix those defects.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/overview/Screen-Shot-2018-09-26-at-11.06.57-AM.png)
+### Test design and maintenance
 
-### Execution Detail Report
-
-The Execution Detail Report provides detail information of the specific execution, including test cases list with specific status, test cases location, test suites and well as the environment detail where the test is executed.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/overview/Execution-11-Katalon-Analytics.png)
-
-Accessing Katalon Analytics
----------------------------
-
-Katalon Analytics **official** portal: [analytics.katalon.com](http://analytics.katalon.com/)
-
-User Guide
-----------
+* With test design and test plan features, you can run more test cases more often.
+* You can  maximize your testing capacity with Katalon Analytics' test schedule and flexible hosting infrastructures (Katalon Cloud or your in-house server).
+* Insightful metrics like Age, Same Failures and Flakiness signify and reflect your test quality and reliability.

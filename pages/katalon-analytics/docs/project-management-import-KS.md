@@ -1,35 +1,29 @@
 ---
-title: "From Katalon Studio"
+title: "Upload Test Results from Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/from-katalon-studio.html
+permalink: katalon-analytics/docs/project-management-import-KS.html
 redirect_from:
     - "/display/KA/From+Katalon+Studio/"
     - "/display/KA/From%20Katalon%20Studio/"
     - "/x/wBxO/"
-    - "/katalon-analytics/docs/from-katalon-studio/"
+    - "/katalon-analytics/docs/project-management-import-KS/"
     - "/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics.html"
 description:
 ---
-Automatically
--------------
 
-In Katalon Studio, select **Project** \> **Settings** \> **Integration** \> **Katalon Analytics**. Before proceeding, fill in your email and password that you've used to activate Katalon Studio. Click **Connect** and you will be able to select Team and Project to upload your report.
+## Automatically
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/image2017-10-20-153A403A40.png)
+1. In Katalon Studio, select **Project > Settings > Integration > Katalon Analytics**.
+2. Enable integration and enter your Katalon account, then click **Connect**. You will be able to select your Team and Project to upload test results.
+3. Check **Automatically submit test run result** option. Users can also choose to attach screenshots.
 
-Checked **'Automatically submit test run result'** option. Katalon Studio will automatically upload Test Suite execution Reports to Katalon Analytics. Users can also select options to attach screenshot:
+![automatically](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/1-import-ks.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/image2018-7-31-113A103A16.png)
+## Manually
 
-Manually
---------
+1. Navigate to **Result Tab** at the bottom of each Test Suite or Test Suite Collection.
+2. Select **Katalon Analytics** in the Test Cases Table, then select **Upload**.
 
-To manually submit Katalon Studio test suite execution reports, navigate to **Reports** section in **Test Explorers**. Select report to view.
+![manually](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/2-import-ks.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/image2017-10-9-183A03A42.png)
-
-In Test Report detail views ,click **Katalon Analytics** button > **Upload**.
-
-> Once successfully uploaded to Katalon Analytics, you can double check on Katalon Analytics web app to make sure the report has been uploaded.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/image2018-7-31-143A573A2.png)
+Once having successfully uploaded the test results, you can double-check on Katalon Analytics.

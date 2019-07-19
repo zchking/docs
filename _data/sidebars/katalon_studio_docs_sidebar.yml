@@ -1118,8 +1118,12 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-analytics/docs/overview.html
-      - title: "Quick Start"
-        url: /katalon-analytics/docs/quick-start.html
+      - title: "Getting Started"
+        url: /katalon-analytics/docs/getting-started.html
+      - title: "Glossary"
+        url: /katalon-analytics/docs/ka-glossary.html
+      - title: "API Keys"
+        url: /katalon-analytics/docs/ka-api-key.html
       - title: "Agents"
         url: /katalon-analytics/docs/agents.html
       - title: "Grid - TestOps Cloud"
@@ -1128,26 +1132,34 @@ items:
         url: /katalon-analytics/docs/grid-local-agents.html
       - title: "Code Repo"
         url: /katalon-analytics/docs/code-repo.html
-      - title: "Upload Reports"
+      - title: "Project Management"
         tree:
-          - title: "From Katalon Studio"
-            url: /katalon-analytics/docs/from-katalon-studio.html
-          - title: "From Command Line"
-            url: /katalon-analytics/docs/from-command-line.html
-      - title: "Access Reports"
-        tree:
+          - title: "Introduction to Project Toolbar"
+            url: /katalon-analytics/docs/project-management-main-toolbar.html 
+          - title: "Upload Test Results"
+            tree:
+              - title: "Upload Test Results from Katalon Studio"
+                url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Upload Test Results using Command Line"
+                url: /katalon-analytics/docs/project-management-import-cli.html
           - title: "View Reports"
-            url: /katalon-analytics/docs/view-reports.html
+            url: /katalon-analytics/docs/project-management-view-reports.html
+          - title: "View Test Execution, Test Suite and Test Case Details"
+            url: /katalon-analytics/docs/project-management-view-details.html
           - title: "Filter and Sort"
-            url: /katalon-analytics/docs/filter-and-sort.html
-      - title: "Projects Management"
-        tree:
-          - title: "Project and Execution Deletion"
-            url: /katalon-analytics/docs/project-and-execution-deletion.html
+            url: /katalon-analytics/docs/project-management-filter-and-sort.html
+          - title: "Delete a project or a test execution"
+            url: /katalon-analytics/docs/project-management-delete.html
+          - title: "Task Management"
+            url: /katalon-analytics/docs/project-management-task.html
       - title: "User Management"
         url: /katalon-analytics/docs/user-management.html
-      - title: "Integration with Katalon Studio"
-        url: /katalon-analytics/docs/integration-with-katalon-studio.html
+      - title: "Integration"
+        tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Integration with Jira"
+            url: /katalon-analytics/docs/ka-integration-jira.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
