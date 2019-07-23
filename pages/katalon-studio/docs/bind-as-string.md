@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/bind-as-string.html
 description: Update new feature starting from v6.3.0
 ---
 
-> Before version 6.3.0, variable binding automatically reads test data values as string. Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. This feature is only applicable for Test data of type Excel and Database.
+> Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. This feature is only applicable for Test data of type Excel and Database.
 
 User can enable this feature to obtain old variable binding behaviors. Old test data will continue to be read as string to ensure that we don't break existing test cases.
 
