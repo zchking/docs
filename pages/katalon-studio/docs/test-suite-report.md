@@ -33,7 +33,8 @@ The report will be named with following the naming convention: _YYYYMMDD_HHmmss_
 Report Overview
 ---------------
 
-In **Test Explorer** view, double-click on a historical execution of a test suite to view its details:
+In **Test Suite** page, click on **Result** tab to view its details:
+
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/image2017-2-24-203A273A2.png)
 where:
 
