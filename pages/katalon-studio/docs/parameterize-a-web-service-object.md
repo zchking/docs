@@ -33,7 +33,7 @@ Having the ability to use variables in an object allows the users to have more c
 *   **HTTP Body**
 *   **Verification**
 
-You can add a new variable and declare its properties within the **Variables **tab. Variables tab is **available** from both **RESTful** and **SOAP** object.
+You can add a new variable and declare its properties within the **Variables** tab. Variables tab is **available** from both **RESTful** and **SOAP** object.
 
 In order to call a variable in a Web Service object, use the syntax **${variable_name}** in any of the supported locations. 
 
