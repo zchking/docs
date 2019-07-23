@@ -9,20 +9,18 @@ redirect_from:
     - "/katalon-studio/docs/start-browsers-in-private-mode/"
 description: 
 ---
-**1. Firefox:**
+## Firefox
 
-*   Open Project -> Settings  
-    
-*   Select Execution -> Default -> Web UI -> Firefox settings
-*   Add new dictionary 'firefox_profile' key.
-*   Add browser.privatebrowsing.autostart key with value = true in that dictionary
+* Open **Project** -> **Settings**.
+* Select **Desired Capabilities** -> **Web UI** -> **Firefox**.
+* Add a new property named *firefox_profile* with *dictionary* type and *browser.privatebrowsing.autostart=true* as its value.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/Screen-Shot-2018-06-15-at-15.44.35.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/1-private-mode.png)  
 
-**2\. Chrome:**
+## Chrome
 
-*   Open Project -> Settings
-*   Select Execution -> Default -> Web UI -> Chrome settings
-*   Add a new list args variable with --incognito contained as its value
+* Open **Project** -> **Settings**.
+* Select **Desired Capabilities** -> **Web UI** ->  **Chrome**.
+* Add a new property named  *args* with *list* type and *--incognito* as its value .
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/Screen-Shot-2018-06-15-at-15.43.19.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/2-private-mode.png)

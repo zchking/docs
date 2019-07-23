@@ -22,7 +22,7 @@ Where:
 Configure Email Settings in Email Preferences
 ---------------------------------------------
 
-Katalon Studio allows users to receive summary reports via **Email **after **Test Suites** execution. You can access this setting at **Project > Settings > Email **
+Katalon Studio allows users to receive summary reports via **Email** after **Test Suites** execution. You can access this setting at **Project > Settings > Email**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/image2017-11-15-103A203A54.png)
 

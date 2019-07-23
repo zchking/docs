@@ -10,7 +10,7 @@ redirect_from:
     - "/katalon-recorder/docs/overview/"
 description: 
 ---
-Thank you for using Katalon Recorder (KR) – the champion project of Katalon Hackathon. This is the Selenium IDE-compatible replacement on latest [Chrome](https://chrome.google.com/webstore/detail/katalon-automation-record/ljdobmomdgdljniojadhoplhkpialdid?utm_source=chrome-ntp-icon) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/katalon-automation-record/) that helps record, play, debug, manage automated tests, and export to C#, Java, Ruby, Python, Groovy, or Robot Framework.
+Thank you for using Katalon Recorder (KR) – the champion project of Katalon Hackathon. This is the Selenium IDE-compatible replacement on latest [Chrome](https://chrome.google.com/webstore/detail/katalon-automation-record/ljdobmomdgdljniojadhoplhkpialdid?utm_source=chrome-ntp-icon) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/katalon-automation-record/) that helps record, play, debug, manage automated tests, and export to AppDynamics (Python), C# (MSTest and NUnit), Java (TestNG and JUnit), New Relic Synthetics (JavaScript), Ruby (RSpec), Python (unittest), Katalon Studio (Groovy), Robot Framework, XML, and Protractor.
 
 To make the best use of the tool, we encourage you to go through the User Guide.
 
@@ -22,6 +22,7 @@ To make the best use of the tool, we encourage you to go through the User Guide.
 *   [Writing Custom Script Formatter](/display/KR/Writing+Custom+Script+Formatter)
 *   [Samples](/display/KR/Samples)
 *   [Selenese (Selenium IDE) Commands Reference](/display/KR/Selenese+%28Selenium+IDE%29+Commands+Reference)
+*   [Export Test Case as Script](https://docs.katalon.com/katalon-recorder/docs/export-test-script.html)
 *   [Katalon Recorder vs Katalon Studio](/display/KR/Katalon+Recorder+vs+Katalon+Studio)
 *   [Acknowledgments](/display/KR/Acknowledgments)
 
