@@ -13,6 +13,7 @@ description: Release notes v6.2.2
 
 ## Fixes
 
+* Bug: Cannot save test cases when the Test Case default view is in Script Mode
 * Bug: Cannot execute test cases with Microsoft Edge 18.17763.
 * Bug: Cannot send emails with TLS Protocol.
 * Bug: An open profile is required being saved when it is just reopened, and no modification has been made.
