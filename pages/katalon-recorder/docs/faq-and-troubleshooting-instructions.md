@@ -25,11 +25,19 @@ Katalon Recorder is free to use on any projects (commercial or not) of yours. B
 Upload files
 ------------
 
-Currently, only the Chrome version of Katalon Recorder supports file uploading. The action was completed using "type" command. Example:
+Currently, only the Chrome version of Katalon Recorder supports file uploading.
 
-```groovy
+Right click on the extension icon on the top right toolbar, select **Manage extensions**. In the **Manage extensions** page, enable "Allow access to file URLs".
+
+The action was completed using "type" command. Example:
+
+```
 type | id=file-upload | C:\file.txt (or /home/me/file.txt for Linux)
 ```
+
+> **Note**
+>
+> Do not `click` on the input element.
 
 We are still actively looking for a solution for Firefox. If you have any question or suggestion, please join the discussion [here](https://forum.katalon.com/discussion/4833/katalon-automation-recorder-how-to-do-a-file-upload-htmlinputelement).
 
