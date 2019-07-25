@@ -28,14 +28,14 @@ description:
 | Firefox | 56+ | To use Firefox 57 with Katalon Studio, please use Katalon Studio v5.1+ |
 | Google Chrome | 58+ |   |
 | Opera | Not supported |   |
-| Safari | 5.1+ | 9,10,11 |   |
+| Safari | 5.1+ | 12 |   |
 
 ## Mobile
 
 | Installation | Version on Windows | Version on macOS | Appium | Native App support? | Hybrid App support?(*) | Mobile Browser support? |
 | --- | --- | --- | --- | --- | --- | --- |
-| Android | 6.x, 7.x | 6.x, 7.x | 1.6, 1.7, 1.8 | YES | NO | YES |
-| iOS | Not Available | 9, 10, 11, 12** | 1.6, 1.7, 1.8 | YES | NO | YES |
+| Android | 6.x, 7.x, 8.x, 9.x | 6.x, 7.x, 8.x, 9.x | 1.12.1 | YES | NO | YES |
+| iOS | Not Available | 9, 10, 11, 12** | 1.12.1 | YES | NO | YES |
 
 (*): You can use supported [functions](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps) from Appium to handle it by yourself
 
